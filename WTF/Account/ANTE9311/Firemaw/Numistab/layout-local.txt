@@ -1,0 +1,8 @@
+Version: 1
+Frame: TutorialFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: -122
+Y: 100
+W: 230
+H: 128

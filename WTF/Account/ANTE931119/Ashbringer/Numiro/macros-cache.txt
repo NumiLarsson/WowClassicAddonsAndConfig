@@ -1,0 +1,13 @@
+VER 3 0000000001000003 "DW" "INV_MISC_QUESTIONMARK"
+/equip Dal'Rend's Sacred Charge
+/equip Dal'Rend's Tribal Guardian
+END
+VER 3 0000000001000002 "Shield" "INV_MISC_QUESTIONMARK"
+/equip Stoneshell Guard
+/equip Dal'Rend's Sacred Charge
+END
+VER 3 0000000001000001 "Sunder" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Sunder Armor
+END

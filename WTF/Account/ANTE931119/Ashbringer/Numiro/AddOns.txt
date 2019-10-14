@@ -1,0 +1,7 @@
+WeakAurasCompanion: enabled
+!DebugTools: disabled
+ElvUI: enabled
+!Compatibility: enabled
+CensusPlusClassic: disabled
+SpeedrunSplits: disabled
+LFG113: disabled

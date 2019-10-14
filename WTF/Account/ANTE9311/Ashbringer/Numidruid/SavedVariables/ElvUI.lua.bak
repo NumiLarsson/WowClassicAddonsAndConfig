@@ -1,0 +1,2 @@
+
+ElvCharacterDB = nil

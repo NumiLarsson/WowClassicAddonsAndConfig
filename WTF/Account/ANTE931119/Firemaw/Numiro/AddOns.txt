@@ -1,0 +1,4 @@
+WeakAurasCompanion: enabled
+!DebugTools: disabled
+ElvUI: enabled
+!Compatibility: enabled

@@ -1,0 +1,8 @@
+## Interface: 11302
+## Title: LFG113
+## Author: Joseph Forrest
+## Version 1.13.02
+## SavedVariables: LFG113Saved
+
+Variables.lua
+Main.lua

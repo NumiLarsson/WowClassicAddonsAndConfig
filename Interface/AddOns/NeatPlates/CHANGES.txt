@@ -1,0 +1,14 @@
+lightweight tag 830c15e325a5527e89ac10bbae27f953925171aa 1.13.2.36
+Author:	Luxocracy <luxor355@gmail.com>
+Date:	Mon Sep 30 12:57:19 2019 +0200
+
+commit 830c15e325a5527e89ac10bbae27f953925171aa
+Author: Luxocracy <luxor355@gmail.com>
+Date:   Mon Sep 30 12:57:19 2019 +0200
+
+    Lib Updates & minor fixes
+    
+    - Updated libs (LibClassicDurations & ThreatClassic)
+    - Fixed an error that could appear when pets interrupted casts
+    - Emulated target plate should no longer appear when you target yourself.
+

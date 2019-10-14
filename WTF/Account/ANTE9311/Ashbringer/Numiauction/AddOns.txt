@@ -1,0 +1,3 @@
+CensusPlusClassic: disabled
+SpeedrunSplits: disabled
+LFG113: disabled
