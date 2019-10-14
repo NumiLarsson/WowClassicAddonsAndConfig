@@ -1,5 +1,5 @@
 	-- Default Values
-	LFG113globals = { ["version"] = "Version 1.13.06", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019" }
+	LFG113globals = { ["version"] = "Version 1.13.16", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019", ["update"] = "10/12/2019" }
 
 	LFG113globals.oldBroadCastChannel = "ljkd98734ks"
 	LFG113globals.BroadCastChannel = "LFG113V04a"
@@ -24,7 +24,16 @@
 		-- ["player"] = true
 	--}
 
-	LFG113globals.InstancesSorted = { "any", "rfc", "wc", "vc", "sfk", "bfd", "stocks", "gnomer", "rfk", "sm gy", "sm li", "sm ar", "sm ca", "rfd", "ulda", "zf", "mara", "st", "brd", "lbrs", "ubrs", "dm", "strat", "scholo" }
+	LFG113globals.defaultWhispers = {
+		["decline"]		= "I'm sorry but Im not taking you on this adventure to {i}.", 
+		["accept"]		= "You can come along with us if you want to.",
+		["join"]		= "Level {l} {c} {r}",
+		["invite"]		= "I sent an invite to you to so you can join us to {t} {i}",
+		["guildInvite"]		= "I sent a Guild invite to you to so you can join us {t} {i}", 
+		["missingInformation"]	= "Please whisper me your level AND role eg. '60 tank/dps' or more specific 'level 60 warrior dps/tank'"
+	}
+
+	LFG113globals.InstancesSorted = { "any", "rfc", "wc", "vc", "sfk", "bfd", "stocks", "gnomer", "rfk", "sm gy", "sm lib", "sm arm", "sm cath", "rfd", "ulda", "zf", "mara", "st", "brd", "lbrs", "ubrs", "dm", "strat", "scholo" }
 	LFG113globals.Instances = { -- 	= {#people, name, lowest level, highest level, text name,  {#tank,#heals,#dps}}
 		["any"]			= {1, "Select Any", 1, 60, "Any", {1,1,3}},
 		["rfc"]			= {5, "Ragefire Chasm", 13, 18, "RFC", {1,1,3}},
@@ -35,10 +44,11 @@
 		["stocks"]		= {5, "The Stockade", 24, 32, "Stocks", {1,1,3}},
 		["gnomer"]		= {5, "Gnomeregan", 29, 38, "Gnomer", {1,1,3}},
 		["rfk"]	 		= {5, "Razorfen Kraul", 29, 38, "RFK", {1,1,3}},
+--		["sm"]			= {5, "The Scarlet Monastery", 26, 45, "SM", {1,1,3}},
 		["sm gy"]		= {5, "The Scarlet Monastery Graveyard", 26, 36, "SM GY", {1,1,3}},
-		["sm li"]		= {5, "The Scarlet Monastery Library", 29, 39, "SM Lib", {1,1,3}},
-		["sm ar"]		= {5, "The Scarlet Monastery Armory", 32, 42, "SM Arm", {1,1,3}},
-		["sm ca"]		= {5, "The Scarlet Monastery Cathedral", 34, 45, "SM Cath", {1,1,3}},
+		["sm lib"]		= {5, "The Scarlet Monastery Library", 29, 39, "SM Lib", {1,1,3}},
+		["sm arm"]		= {5, "The Scarlet Monastery Armory", 32, 42, "SM Arm", {1,1,3}},
+		["sm cath"]		= {5, "The Scarlet Monastery Cathedral", 34, 45, "SM Cath", {1,1,3}},
 		["rfd"]			= {5, "Razorfen Downs", 37, 46, "RFD", {1,1,3}},
 		["ulda"]		= {5, "Uldaman", 41, 51, "Ulda", {1,1,3}},
 		["zf"]			= {5, "Zul'Farrak", 42, 46, "ZF", {1,1,3}},

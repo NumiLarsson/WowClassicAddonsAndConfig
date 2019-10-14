@@ -2002,6 +2002,7 @@ function ilvl_core:GetItemLevel (unitid, guid, is_forced, try_number)
 end
 
 local NotifyInspectHook = function (unitid)
+
 	local unit = unitid:gsub ("%d+", "")
 	
 	if ((IsInRaid() or IsInGroup()) and (_detalhes:GetZoneType() == "raid" or _detalhes:GetZoneType() == "party")) then
@@ -2020,7 +2021,7 @@ local NotifyInspectHook = function (unitid)
 		end
 	end
 end
-hooksecurefunc ("NotifyInspect", NotifyInspectHook)
+--hooksecurefunc ("NotifyInspect", NotifyInspectHook) --disabled on classic
 
 function ilvl_core:Reset()
 	ilvl_core.raid_id = 1
@@ -2949,7 +2950,9 @@ C_Timer.After (1, function()
 	hooksecurefunc ("InspectFrame_LoadUI", function()
 		hooksecurefunc ("InspectPaperDollFrame_UpdateButtons", function()
 			if (LatestInspectFrameUpdate < GetTime()) then
-				Details:ShowTalentsPanel()
+				if (not Details.disable_talent_feature) then
+					Details:ShowTalentsPanel()
+				end
 				LatestInspectFrameUpdate = GetTime() + 1.0
 			end
 		end)
