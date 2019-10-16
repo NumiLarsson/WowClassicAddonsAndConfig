@@ -26,7 +26,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.0:-92.2",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.0:-57.4",
 			},
 		},
 		["stat"] = {
@@ -79,8 +79,8 @@ AucAdvancedData = {
 			["enchantmats.PriceAdjust.11135"] = 115,
 			["smelting.profit.min"] = 1000,
 			["columnsortcurSort"] = 3,
-			["columnsortcurDir"] = -1,
 			["ignoretimeleft.enable"] = true,
+			["columnsortcurDir"] = -1,
 			["smelting.level.max"] = 250,
 			["enchantmats.PriceAdjust.16203"] = 115,
 			["enchantmats.PriceAdjust.11137"] = 115,
@@ -106,7 +106,7 @@ AucAdvancedServers = {
 	["Version"] = 1,
 	["Timestamp"] = 1569684329,
 	["KnownServerKeys"] = {
-		["Ashbringer"] = 1571006906,
+		["Ashbringer"] = 1571170728,
 	},
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",

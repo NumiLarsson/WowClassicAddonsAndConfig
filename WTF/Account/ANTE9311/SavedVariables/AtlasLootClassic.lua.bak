@@ -13,7 +13,7 @@ AtlasLootClassicDB = {
 		["Numiro - Firemaw"] = "Numiro - Firemaw",
 	},
 	["global"] = {
-		["__addonrevision"] = 1020002,
+		["__addonrevision"] = 1030000,
 	},
 	["profiles"] = {
 		["Numiro - Ashbringer"] = {

@@ -1,22 +1,19 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 1030000,
+	},
 	["profileKeys"] = {
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
 		["Numiduotest - Gehennas"] = "Numiduotest - Gehennas",
 		["Numibank - Ashbringer"] = "Numibank - Ashbringer",
 		["Numi - Gehennas"] = "Numi - Gehennas",
-		["Numiro - Firemaw"] = "Numiro - Firemaw",
-		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
 		["Numiafk - Ashbringer"] = "Numiafk - Ashbringer",
-	},
-	["global"] = {
-		["__addonrevision"] = 1020002,
+		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
+		["Numiro - Firemaw"] = "Numiro - Firemaw",
 	},
 	["profiles"] = {
 		["Numiwar - Gehennas"] = {
-			["minimap"] = {
-				["minimapPos"] = 4.51874022813958,
-			},
 			["GUI"] = {
 				["point"] = {
 					"LEFT", -- [1]
@@ -33,6 +30,9 @@ AtlasLootClassicDB = {
 					-0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 4.51874022813958,
+			},
 		},
 		["Numiduotest - Gehennas"] = {
 		},
@@ -48,6 +48,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Numi - Gehennas"] = {
+			["minimap"] = {
+				["minimapPos"] = 351.195847512043,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -64,11 +67,34 @@ AtlasLootClassicDB = {
 					-0, -- [5]
 				},
 			},
+		},
+		["Numiafk - Ashbringer"] = {
+		},
+		["Numiro - Ashbringer"] = {
 			["minimap"] = {
-				["minimapPos"] = 351.195847512043,
+				["minimapPos"] = 174.775379102156,
+			},
+			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					97, -- [4]
+					43, -- [5]
+				},
+				["selected"] = {
+					nil, -- [1]
+					"DireMaulNorth", -- [2]
+					6, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
 			},
 		},
 		["Numiro - Firemaw"] = {
+			["minimap"] = {
+				["minimapPos"] = 175.990012048964,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -85,32 +111,6 @@ AtlasLootClassicDB = {
 					-0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 175.990012048964,
-			},
-		},
-		["Numiro - Ashbringer"] = {
-			["minimap"] = {
-				["minimapPos"] = 174.775379102156,
-			},
-			["GUI"] = {
-				["point"] = {
-					nil, -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					98.2593612670899, -- [4]
-					43.7900581359863, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"DireMaulNorth", -- [2]
-					9, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
-		},
-		["Numiafk - Ashbringer"] = {
 		},
 	},
 }

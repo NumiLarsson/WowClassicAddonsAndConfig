@@ -43,29 +43,15 @@ CTM_Options = {
 	["warnings"] = {
 		["threshold"] = 80,
 		["pulledFile"] = "Sound\\Interface\\Aggro_Pulled_Aggro.ogg",
-		["sounds"] = true,
-		["warningFile"] = "Sound\\Interface\\Aggro_Enter_Warning_State.ogg",
 		["visual"] = true,
+		["warningFile"] = "Sound\\Interface\\Aggro_Enter_Warning_State.ogg",
+		["sounds"] = true,
 	},
 	["frame"] = {
 		["headerShow"] = true,
 		["scale"] = 1,
 		["width"] = 217,
-		["height"] = 179,
-		["locked"] = true,
-		["headerColor"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.8, -- [4]
-		},
-		["test"] = false,
-		["color"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.35, -- [4]
-		},
+		["strata"] = "3-MEDIUM",
 		["position"] = {
 			"BOTTOMRIGHT", -- [1]
 			"UIParent", -- [2]
@@ -73,7 +59,21 @@ CTM_Options = {
 			-84.9746398925781, -- [4]
 			101.709915161133, -- [5]
 		},
-		["strata"] = "3-MEDIUM",
+		["headerColor"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.8, -- [4]
+		},
+		["locked"] = true,
+		["color"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.35, -- [4]
+		},
+		["height"] = 179,
+		["test"] = false,
 	},
 	["backdrop"] = {
 		["bgColor"] = {
@@ -85,15 +85,15 @@ CTM_Options = {
 		["bgFile"] = "Interface\\ChatFrame\\ChatFrameBackground",
 		["tileSize"] = 0,
 		["edgeFile"] = "Interface\\ChatFrame\\ChatFrameBackground",
+		["tile"] = false,
+		["edgeSize"] = 1,
+		["inset"] = 0,
 		["edgeColor"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["edgeSize"] = 1,
-		["inset"] = 0,
-		["tile"] = false,
 	},
 	["bar"] = {
 		["descend"] = true,

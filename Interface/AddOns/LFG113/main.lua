@@ -139,7 +139,8 @@
 			if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then txtRoles = "Tank " end
 			if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. "Heals " end
 			if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. "DPS" end		
-			return ((((str:gsub ("{i}", Instance)):gsub ("{t}", instanceType)):gsub ("{r}", txtRoles)):gsub ("{l}", tostring (UnitLevel ("player")))):gsub ("{c}", tostring (UnitClass ("player")))
+			local Result = ((((str:gsub ("{i}", Instance)):gsub ("{t}", instanceType)):gsub ("{r}", txtRoles)):gsub ("{l}", tostring (UnitLevel ("player")))):gsub ("{c}", tostring (UnitClass ("player")))
+			return Result
 		end
 		return ""
 	end

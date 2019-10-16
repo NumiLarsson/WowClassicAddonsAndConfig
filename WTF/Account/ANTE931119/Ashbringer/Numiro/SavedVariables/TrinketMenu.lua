@@ -4,25 +4,27 @@ TrinketMenuPerOptions = {
 	["MainScale"] = 1,
 	["XPos"] = 625.975219726563,
 	["Alpha"] = 1,
-	["MainOrient"] = "VERTICAL",
+	["MainOrient"] = "HORIZONTAL",
 	["FirstUse"] = true,
 	["ItemsUsed"] = {
+		["10645"] = 0,
 		["11815"] = 0,
-		["13379"] = 0,
 		["2820"] = 0,
-		["13515"] = 0,
-		["11810"] = 0,
 		["13171"] = 0,
 		["15873"] = 0,
+		["13379"] = 0,
+		["11810"] = 0,
+		["10725"] = 0,
 		["17774"] = 0,
+		["13515"] = 0,
 	},
 	["Hidden"] = {
 	},
-	["MenuScale"] = 1,
+	["MenuDock"] = "BOTTOMLEFT",
 	["MainDock"] = "BOTTOMRIGHT",
 	["YPos"] = 249.308547973633,
-	["MenuDock"] = "BOTTOMLEFT",
-	["MenuOrient"] = "VERTICAL",
+	["MenuScale"] = 1,
+	["MenuOrient"] = "HORIZONTAL",
 }
 TrinketMenuQueue = {
 	["Enabled"] = {
@@ -30,9 +32,9 @@ TrinketMenuQueue = {
 		[0] = false,
 	},
 	["Stats"] = {
-		["17774"] = {
-		},
 		["11815"] = {
+		},
+		["17774"] = {
 		},
 	},
 	["Sort"] = {
@@ -52,6 +54,9 @@ TrinketMenuQueue = {
 			"13209", -- [13]
 			"13965", -- [14]
 			"13544", -- [15]
+			"10645", -- [16]
+			"10720", -- [17]
+			"10725", -- [18]
 		}, -- [1]
 		[0] = {
 			"17744", -- [1]
@@ -68,6 +73,9 @@ TrinketMenuQueue = {
 			"13171", -- [12]
 			"13515", -- [13]
 			"13544", -- [14]
+			"10645", -- [15]
+			"10720", -- [16]
+			"10725", -- [17]
 		},
 	},
 	["Profiles"] = {

@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 1020002,
+		["__addonrevision"] = 1030000,
 	},
 	["profileKeys"] = {
 		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
@@ -43,15 +43,15 @@ AtlasLootClassicDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-218.000061035156, -- [4]
-					-59.0000190734863, -- [5]
+					-218, -- [4]
+					-59.0000038146973, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Blacksmithing", -- [2]
-					7, -- [3]
-					4, -- [4]
-					-0, -- [5]
+					nil, -- [1]
+					"DireMaulWest", -- [2]
+					5, -- [3]
+					1, -- [4]
+					0, -- [5]
 				},
 			},
 		},

@@ -5,469 +5,23 @@ SwatterData = {
 	["combat"] = false,
 	["errors"] = {
 		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
 			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
 			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-07 18:40:37",
+			["timestamp"] = "2019-10-11 17:00:31",
 			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
 		}, -- [1]
 		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
 			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
 			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-07 18:40:37",
+			["timestamp"] = "2019-10-11 17:00:31",
 			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
 		}, -- [2]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-07 18:40:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [3]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-07 18:40:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [4]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 16,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicCrafting, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMGUI, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=701)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-07 19:59:26",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [5]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 16:05:00",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [6]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 16:05:00",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [7]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 16:05:00",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [8]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 16:05:00",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [9]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 16:05:00",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [10]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 19:45:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [11]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 19:45:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [12]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 19:45:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [13]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 19:45:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [14]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-08 19:45:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [15]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 18,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicCrafting, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6e0)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-08 19:59:28",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [16]
-		{
-			["message"] = "Note: AddOn Stubby attempted to call a protected function (UNKNOWN()) during combat lockdown.",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicCrafting, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6f5)\n",
-			["timestamp"] = "2019-10-08 20:39:58",
-			["context"] = "AddOn: Stubby",
-			["stack"] = "[C]: ?\n[C]: in function `pcall'\nInterface\\AddOns\\Stubby\\Stubby.lua:342: in function <Interface\\AddOns\\Stubby\\Stubby.lua:326>\n(tail call): ?\nInterface\\FrameXML\\ContainerFrame.lua:1224: in function `ContainerFrameItemButton_OnClick'\n[string \"*:OnClick\"]:12: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [17]
-		{
-			["message"] = "Interface\\AddOns\\Details\\classes\\classe_others.lua:413: attempt to compare number with string",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicCrafting, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6f5)\n",
-			["locals"] = "self = nil\nmorte = <table> {\n 1 = <table> {\n }\n 2 = 1570561120.333000\n 3 = \"Numiro\"\n 4 = \"WARRIOR\"\n 5 = 3839\n 6 = \"0m 49s\"\n _custom = true\n dead_at = 49.378000\n nome = \"Numiro\"\n minha_barra = 1\n dead = true\n}\ninstancia = <table> {\n h_baixo = DetailsBottomSideBarHighlight1 {\n }\n menu_icons_size = 0.850000\n h_esquerda = DetailsLeftSideBarHighlight1 {\n }\n bg_r = 0.094118\n color_buttons = <table> {\n }\n rows_showing = 5\n micro_displays_locked = true\n LastModo = 2\n icons = <table> {\n }\n ponto3 = <table> {\n }\n ponto1 = <table> {\n }\n rolagem = false\n attribute_text = <table> {\n }\n windowBackgroundDisplay = Details_GumpFrame1 {\n }\n lastIcon = <table> {\n }\n menu_icons = <table> {\n }\n isMoving = false\n show_sidebars = false\n hide_icon = true\n consolidate = false\n toolbar_side = 1\n sub_atributo = 5\n atributo = 4\n bg_b = 0.094118\n largura_scroll = 26\n backdrop_texture = \"Details Ground\"\n color = <table> {\n }\n sub_atributo_last = <table> {\n }\n barraS = <table> {\n }\n bgdisplay = Details_GumpFrame1 {\n }\n switch_healer = false\n showing = <table> {\n }\n ponto4 = <table> {\n }\n menu2_points = <table> {\n }\n __snapH = false\n snap = <table> {\n }\n clickthrough_incombatonly = false\n hide_in_combat_alpha = 0\n firstIcon = DetailsClearSegmentsButton1 {\n }\n row_show_animation = <table> {\n }\n switch_damager_in_combat = false\n StatusBar = <table> {\n }\n verticalSnap = false\n hide_in_combat = false\n posicao = <table> {\n }\n row_height = 17.544399\n __pos = <table> {\n }\n hide_in_combat_type = 4\n clickthrough_window = false\n segmento = 0\n total_buttons_shown = 5\n hide_out_of_combat = false\n rows_created = 9\n skin_custom = \"\"\n __was_opened = true\n switch_all_roles_in_combat = false\n clickthrough_toolbaricons = false\n clickthrough_rows = false\n barras = <table> {\n }\n horizontalSnap = false\n ignore_mass_showhide = false\n windowSwitchButton = Details_SwitchButtonFrame1 {\n }\n switch_all_roles_after_wipe = false\n rowframe = DetailsRowFrame1 {\n }\n desaturated_menu = false\n micro_displays_side = 2\n window_scale = 1\n h_direita = DetailsRightSideBarHighlight1 {\n }\n meu_id = 1\n bg_g = 0.094118\n top = 1\n is_interacting = true\n last_interaction = 1570561225\n bars_inverted = false\n update = false\n ponto2 = <table> {\n }\n do_not_snap = false\n mostrando = \"normal\"\n ativa = true\n break_snap_button = DetailsBreakSnapButton1 {\n }\n alturaAntiga = 158.000031\n last_modo = 2\n show_statusbar = true\n skin = \"Minimalistic\"\n menu_anchor = <table> {\n }\n following = <table> {\n }\n toolbar_icon_file = \"Interface\\AddOns\\Details\\images\\toolbar_icons\"\n rows_fit_in_window = 9\n cached_bar_width = 309.999939\n oldwith = 310.000031\n modo = 2\n bars_sort_direction = 1\n iniciada = true\n row_info = <table> {\n }\n StatusBarSaved = <table> {\n }\n plugins_grow_direction = 1\n v_barras = false\n instance_button_anchor = <table> {\n }\n bg_alpha = 0.183961\n tooltip = <table> {\n }\n bgframe = Details_WindowFrame1 {\n }\n switch_tank = false\n _version = <unnamed> {\n }\n switch_damager = false\n auto_hide_menu = <table> {\n }\n strata = \"LOW\"\n rows_max = 50\n __snap = <table> {\n }\n bars_grow_direction = 1\n need_rolagem = false\n switch_healer_in_combat = false\n freeze_texto = <unnamed> {\n }\n libwindow = <table> {\n }\n statusbar_info = <table> {\n }\n version = 3\n menu_anchor_down = <table> {\n }\n h_cima = DetailsTopSideBarHighlight1 {\n }\n scroll = Details_ScrollBar1 {\n }\n bgdisplay_loc = 0\n switch_tank_in_combat = false\n overall_data_warning = <unnamed> {\n }\n __locked = true\n auto_current = true\n freeze_icon = <unnamed> {\n }\n baseframe = DetailsBaseFrame1 {\n }\n menu_alpha = <table> {\n }\n floatingframe = DetailsInstance1BorderHolder {\n }\n menu_points = <table> {\n }\n menu_attribute_string = <table> {\n }\n isLocked = true\n wallpaper = <table> {\n }\n total_bar = <table> {\n }\n __snapV = false\n grab_on_top = false\n alert = DetailsAlertFrame1 {\n }\n stretch_button_side = 1\n}\nbarra = DetailsBarra_1_1 {\n _instance = <table> {\n }\n modelbox_high = DetailsBarra_ModelBarHigh_1_1 {\n }\n animacao_fim2 = 0\n faded = false\n w_mod = 0\n statusbar = DetailsBarra_Statusbar_1_1 {\n }\n fading_out = false\n background = <unnamed> {\n }\n mouse_down = 361076.9",
-			["timestamp"] = "2019-10-08 21:00:27",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_others.lua:413: in function <Interface\\AddOns\\Details\\classes\\classe_others.lua:379>\n(tail call): ?\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:2057: in function <Interface\\AddOns\\Details\\gumps\\janela_principal.lua:2006>\n",
-		}, -- [18]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-09 20:00:58",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [19]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-09 20:00:58",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [20]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-09 20:00:58",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [21]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-09 20:00:58",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [22]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-09 20:00:58",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [23]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 5,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6bc)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-09 20:03:32",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [24]
-		{
-			["message"] = "...tPlates\\libs\\ThreatClassic-1.0\\ThreatClassic-1.0.lua:391: bad argument #2 to 'strsplit' (string expected, got nil)",
-			["count"] = 71,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMMC, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6c7)\n",
-			["timestamp"] = "2019-10-09 21:04:31",
-			["context"] = "Global",
-			["stack"] = "[C]: ?\n...tPlates\\libs\\ThreatClassic-1.0\\ThreatClassic-1.0.lua:391: in function `NPCID'\n...lates\\libs\\ThreatClassic-1.0\\ThreatNPCModuleCore.lua:459: in function `?'\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:64: in function `Fire'\n...ClassicThreatMeter\\lib\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...ClassicThreatMeter\\lib\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [25]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 17:43:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [26]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 17:43:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [27]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 17:43:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [28]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 17:43:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [29]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 17:43:37",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [30]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6bc)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-10 17:58:49",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [31]
-		{
-			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: table index is nil",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6d1)\n",
-			["locals"] = "event = \"SPELL_AURA_APPLIED\"\nspellId = 66290\nspellName = nil\nrefs = 0\n(*temporary) = <table> {\n}\n(*temporary) = \"table index is nil\"\nregisteredSpellIds = <table> {\n SPELL_AURA_APPLIED = <table> {\n }\n SPELL_CAST_SUCCESS = <table> {\n }\n}\nDBM = <table> {\n CHAT_MSG_ADDON_LOGGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4759\n StopLogging = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6018\n CheckVoicePackVersion = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:9541\n GetNumGuildPlayersInZone = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2823\n FindDungeonMapIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6775\n GetUnitIdFromGUID = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3036\n CopyProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1851\n CHAT_MSG_MONSTER_EMOTE = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5325\n CHAT_MSG_WHISPER = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6538\n DeleteProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1868\n DungeonMusic = <table> {\n }\n ShowUpdateReminder = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4893\n lastAntiSpamFLASH = 525827.291000\n PLAYER_REGEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5123\n FireEvent = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1508\n CreateModLocalization = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:11428\n IsEnabled = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6617\n GetMyPlayerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2897\n Capitalize = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6716\n ADDON_LOADED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1250\n NewerVersion = \"1.13.14\"\n IconNumToTexture = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6768\n BattleMusic = <table> {\n }\n ShowRaidIDRequestResults = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4615\n INSTANCE_GROUP_SIZE_CHANGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2794\n GetBossUnitId = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3019\n AddDefaultOptions = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3069\n RegisterEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:931\n InfoFrame = <table> {\n }\n FilterRaidBossEmote = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1092\n RequestTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6275\n UPDATE_BATTLEFIELD_STATUS = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3632\n CHAT_MSG_MONSTER_YELL = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5317\n ReleaseRevision = 20190921120000\n RegisterShortTermEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1033\n LOADING_SCREEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3739\n GetUnitFullName = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2901\n UNIT_DIED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6240\n ReceiveCombatInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6303\n FlashClientIcon = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6756\n RegisterCallback = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1523\n FindInstanceIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6787\n UnregisterCallback = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1532\n RepositionFrames = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1891\n Disable = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6605\n ReceiveTimerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6312\n AddWarning = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:8267\n RangeCheck = <table> {\n }\n BN_CHAT_MSG_ADDON = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4811\n Victory = <table> {\n }\n ModLists = <table> {\n }\n ShowLag = <function> defined @Interfac",
-			["timestamp"] = "2019-10-10 18:47:23",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:848>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:891: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:884>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1009: in function `UnregisterInCombatEvents'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5727: in function `EndCombat'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5408: in function `func'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1707: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1698>\n",
-		}, -- [32]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 18:49:07",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [33]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 18:49:07",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [34]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 18:49:07",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [35]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 18:49:07",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [36]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 18:49:07",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [37]
-		{
-			["message"] = "...eter\\lib\\ThreatClassic-1.0\\ThreatClassModuleCore.lua:1255: attempt to concatenate local 'target' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6d1)\n",
-			["timestamp"] = "2019-10-10 18:51:45",
-			["context"] = "Global",
-			["stack"] = "...eter\\lib\\ThreatClassic-1.0\\ThreatClassModuleCore.lua:1255: in function `getTransaction'\n...eter\\lib\\ThreatClassic-1.0\\ThreatClassModuleCore.lua:1105: in function `AddTargetThreatTransactional'\n...s\\ThreatClassic-1.0\\ClassModules\\Classic\\Warrior.lua:154: in function `?'\n...eter\\lib\\ThreatClassic-1.0\\ThreatClassModuleCore.lua:1222: in function `?'\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:64: in function `Fire'\n...ClassicThreatMeter\\lib\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...ClassicThreatMeter\\lib\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-		}, -- [38]
-		{
-			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: table index is nil",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6d1)\n",
-			["locals"] = "event = \"SPELL_AURA_APPLIED\"\nspellId = 66290\nspellName = nil\nrefs = 0\n(*temporary) = <table> {\n}\n(*temporary) = \"table index is nil\"\nregisteredSpellIds = <table> {\n SPELL_AURA_APPLIED = <table> {\n }\n SPELL_CAST_SUCCESS = <table> {\n }\n}\nDBM = <table> {\n CHAT_MSG_ADDON_LOGGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4759\n StopLogging = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6018\n CheckVoicePackVersion = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:9541\n GetNumGuildPlayersInZone = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2823\n FindDungeonMapIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6775\n GetUnitIdFromGUID = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3036\n CopyProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1851\n CHAT_MSG_MONSTER_EMOTE = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5325\n CHAT_MSG_WHISPER = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6538\n DeleteProfile = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1868\n DungeonMusic = <table> {\n }\n ShowUpdateReminder = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4893\n lastAntiSpamFLASH = 529014.882000\n PLAYER_REGEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5123\n FireEvent = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1508\n CreateModLocalization = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:11428\n IsEnabled = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6617\n GetMyPlayerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2897\n Capitalize = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6716\n ADDON_LOADED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1250\n NewerVersion = \"1.13.13\"\n IconNumToTexture = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6768\n BattleMusic = <table> {\n }\n ShowRaidIDRequestResults = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4615\n INSTANCE_GROUP_SIZE_CHANGED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2794\n GetBossUnitId = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3019\n AddDefaultOptions = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3069\n RegisterEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:931\n InfoFrame = <table> {\n }\n FilterRaidBossEmote = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1092\n RequestTimers = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6275\n UPDATE_BATTLEFIELD_STATUS = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3632\n CHAT_MSG_MONSTER_YELL = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:5317\n ReleaseRevision = 20190921120000\n RegisterShortTermEvents = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1033\n LOADING_SCREEN_DISABLED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:3739\n GetUnitFullName = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:2901\n UNIT_DIED = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6240\n ReceiveCombatInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6303\n FlashClientIcon = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6756\n RegisterCallback = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1523\n FindInstanceIDs = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6787\n UnregisterCallback = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1532\n RepositionFrames = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1891\n Disable = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6605\n ReceiveTimerInfo = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:6312\n AddWarning = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:8267\n RangeCheck = <table> {\n }\n BN_CHAT_MSG_ADDON = <function> defined @Interface\\AddOns\\DBM-Core\\DBM-Core.lua:4811\n Victory = <table> {\n }\n ModLists = <table> {\n }\n ShowLag = <function> defined @Interfac",
-			["timestamp"] = "2019-10-10 19:40:57",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:848>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:891: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:884>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1009: in function `UnregisterInCombatEvents'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5727: in function `EndCombat'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5408: in function `func'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1707: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1698>\n",
-		}, -- [39]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6d1)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-10 19:41:15",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [40]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 22:00:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [41]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 22:00:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [42]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 22:00:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [43]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 22:00:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [44]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-10 22:00:56",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [45]
-		{
-			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
-			["count"] = 20,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6bc)\n",
-			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
-			["timestamp"] = "2019-10-10 22:12:25",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [46]
-		{
-			["message"] = "Interface\\AddOns\\Details\\core\\gears.lua:2443: attempt to index field 'showAnimation' (a nil value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.33\n  NeatPlates, v1.13.2.36\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.1.1 BETA\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6d1)\n",
-			["timestamp"] = "2019-10-10 23:36:43",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\core\\gears.lua:2443: in function `ClassicSpecFromNetwork'\nInterface\\AddOns\\Details\\core\\network.lua:150: in function `func'\nInterface\\AddOns\\Details\\core\\network.lua:542: in function `?'\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:64: in function `Fire'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:218: in function `OnReceiveMultipartLast'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:256: in function <...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [47]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-11 17:00:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [48]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-11 17:00:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [49]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-11 17:00:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [50]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-11 17:00:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [51]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2019-10-11 17:00:31",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [52]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 10,
@@ -476,7 +30,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-11 17:31:26",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [53]
+		}, -- [3]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -485,7 +39,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:47:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [54]
+		}, -- [4]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -494,7 +48,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:47:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [55]
+		}, -- [5]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -503,7 +57,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:47:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [56]
+		}, -- [6]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -512,7 +66,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:47:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [57]
+		}, -- [7]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -521,7 +75,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:47:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [58]
+		}, -- [8]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -530,7 +84,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:49:52",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [59]
+		}, -- [9]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -539,7 +93,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:49:52",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [60]
+		}, -- [10]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -548,7 +102,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:49:52",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [61]
+		}, -- [11]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -557,7 +111,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:49:52",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [62]
+		}, -- [12]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -566,7 +120,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:49:52",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [63]
+		}, -- [13]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -575,7 +129,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:54:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [64]
+		}, -- [14]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -584,7 +138,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:54:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [65]
+		}, -- [15]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -593,7 +147,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:54:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [66]
+		}, -- [16]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -602,7 +156,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:54:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [67]
+		}, -- [17]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -611,7 +165,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 10:54:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [68]
+		}, -- [18]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 16,
@@ -620,7 +174,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 12:07:40",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [69]
+		}, -- [19]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\gears.lua:2444: attempt to index field 'showAnimation' (a nil value)",
 			["count"] = 1,
@@ -628,7 +182,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 12:14:33",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\gears.lua:2444: in function `ClassicSpecFromNetwork'\nInterface\\AddOns\\Details\\core\\network.lua:150: in function `func'\nInterface\\AddOns\\Details\\core\\network.lua:542: in function `?'\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:64: in function `Fire'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:218: in function `OnReceiveMultipartLast'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:256: in function <...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [70]
+		}, -- [20]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_others.lua:413: attempt to compare number with string",
 			["count"] = 3,
@@ -637,7 +191,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 14:10:07",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_others.lua:413: in function <Interface\\AddOns\\Details\\classes\\classe_others.lua:379>\n(tail call): ?\nInterface\\AddOns\\Details\\gumps\\janela_principal.lua:2057: in function <Interface\\AddOns\\Details\\gumps\\janela_principal.lua:2006>\n",
-		}, -- [71]
+		}, -- [21]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -646,7 +200,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 15:50:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [72]
+		}, -- [22]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -655,7 +209,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 15:50:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [73]
+		}, -- [23]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -664,7 +218,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 15:50:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [74]
+		}, -- [24]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -673,7 +227,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 15:50:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [75]
+		}, -- [25]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -682,7 +236,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 15:50:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [76]
+		}, -- [26]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 8,
@@ -691,7 +245,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 16:05:41",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [77]
+		}, -- [27]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\gears.lua:2443: attempt to index field 'showAnimation' (a nil value)",
 			["count"] = 2,
@@ -699,7 +253,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 16:19:37",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\gears.lua:2443: in function `ClassicSpecFromNetwork'\nInterface\\AddOns\\Details\\core\\network.lua:150: in function `func'\nInterface\\AddOns\\Details\\core\\network.lua:542: in function `?'\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:119>\n[C]: ?\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:29: in function <...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:25>\n...sic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:64: in function `Fire'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:218: in function `OnReceiveMultipartLast'\n...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:256: in function <...s\\ClassicThreatMeter\\lib\\AceComm-3.0\\AceComm-3.0.lua:246>\n",
-		}, -- [78]
+		}, -- [28]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -708,7 +262,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:31:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [79]
+		}, -- [29]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -717,7 +271,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:31:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [80]
+		}, -- [30]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -726,7 +280,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:31:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [81]
+		}, -- [31]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -735,7 +289,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:31:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [82]
+		}, -- [32]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -744,7 +298,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:31:05",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [83]
+		}, -- [33]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 26,
@@ -753,7 +307,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-12 19:45:11",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [84]
+		}, -- [34]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -762,7 +316,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:03:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [85]
+		}, -- [35]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -771,7 +325,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:03:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [86]
+		}, -- [36]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -780,7 +334,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:03:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [87]
+		}, -- [37]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -789,7 +343,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:03:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [88]
+		}, -- [38]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -798,7 +352,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:03:49",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [89]
+		}, -- [39]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 7,
@@ -807,7 +361,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 12:21:23",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [90]
+		}, -- [40]
 		{
 			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: table index is nil",
 			["count"] = 3,
@@ -816,7 +370,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 13:18:40",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:848>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:891: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:884>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1009: in function `UnregisterInCombatEvents'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5727: in function `EndCombat'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5408: in function `func'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1707: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1698>\n",
-		}, -- [91]
+		}, -- [41]
 		{
 			["message"] = "Note: AddOn RealMobHealth attempted to call a protected function (PartyMemberFrame1PetFrame:Hide()) during combat lockdown.",
 			["count"] = 1,
@@ -824,7 +378,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 13:34:34",
 			["context"] = "AddOn: RealMobHealth",
 			["stack"] = "[C]: in function `Hide'\nInterface\\FrameXML\\PartyMemberFrame.lua:599: in function `PartyMemberFrame_UpdateOnlineStatus'\nInterface\\FrameXML\\PartyMemberFrame.lua:392: in function `PartyMemberFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-		}, -- [92]
+		}, -- [42]
 		{
 			["message"] = "Note: AddOn Stubby attempted to call a protected function (UNKNOWN()) during combat lockdown.",
 			["count"] = 4,
@@ -832,7 +386,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 15:36:27",
 			["context"] = "AddOn: Stubby",
 			["stack"] = "[C]: ?\n[C]: in function `pcall'\nInterface\\AddOns\\Stubby\\Stubby.lua:342: in function <Interface\\AddOns\\Stubby\\Stubby.lua:326>\n(tail call): ?\nInterface\\FrameXML\\ContainerFrame.lua:1224: in function `ContainerFrameItemButton_OnClick'\n[string \"*:OnClick\"]:12: in function <[string \"*:OnClick\"]:1>\n",
-		}, -- [93]
+		}, -- [43]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -841,7 +395,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:07:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [94]
+		}, -- [44]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -850,7 +404,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:07:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [95]
+		}, -- [45]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -859,7 +413,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:07:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [96]
+		}, -- [46]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -868,7 +422,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:07:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [97]
+		}, -- [47]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -877,7 +431,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:07:35",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [98]
+		}, -- [48]
 		{
 			["message"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: table index is nil",
 			["count"] = 2,
@@ -886,7 +440,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:43:53",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\DBM-Core\\DBM-Core.lua:852: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:848>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:891: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:884>\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1009: in function `UnregisterInCombatEvents'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5727: in function `EndCombat'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:5408: in function `func'\nInterface\\AddOns\\DBM-Core\\DBM-Core.lua:1707: in function <Interface\\AddOns\\DBM-Core\\DBM-Core.lua:1698>\n",
-		}, -- [99]
+		}, -- [49]
 		{
 			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
 			["count"] = 4,
@@ -895,7 +449,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 16:44:09",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
-		}, -- [100]
+		}, -- [50]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -904,7 +458,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 22:09:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [101]
+		}, -- [51]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -913,7 +467,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 22:09:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [102]
+		}, -- [52]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -922,7 +476,7 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 22:09:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [103]
+		}, -- [53]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -931,13 +485,461 @@ SwatterData = {
 			["timestamp"] = "2019-10-13 22:09:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [104]
+		}, -- [54]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
 			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.2.2\n  AtlasLootClassicDungeonsAndRaids, vv1.2.2\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.9\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=324)\n",
 			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
 			["timestamp"] = "2019-10-13 22:09:16",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [55]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 16:06:28",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [56]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 16:06:28",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [57]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 16:06:28",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [58]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 16:06:28",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [59]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 16:06:28",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [60]
+		{
+			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicCrafting, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.34\n  NeatPlates, v1.13.2.38\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.2.1 0 0f28ee6\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=706)\n",
+			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
+			["timestamp"] = "2019-10-14 17:06:05",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
+		}, -- [61]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:37:18",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [62]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:37:18",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [63]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:37:18",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [64]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:37:18",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [65]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:37:18",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [66]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:52:08",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [67]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:52:08",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [68]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:52:08",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [69]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:52:08",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [70]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 17:52:08",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [71]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:06:00",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [72]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:06:00",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [73]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:06:00",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [74]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:06:00",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [75]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:06:00",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [76]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:20:58",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [77]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:20:58",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [78]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:20:58",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [79]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:20:58",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [80]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:20:58",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [81]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:35:54",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [82]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:35:54",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [83]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:35:54",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [84]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:35:54",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [85]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 18:35:54",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [86]
+		{
+			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.34\n  NeatPlates, v1.13.2.38\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.2.1 0 0f28ee6\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6e2)\n",
+			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
+			["timestamp"] = "2019-10-14 19:02:28",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
+		}, -- [87]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:17:25",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [88]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:17:25",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [89]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:17:25",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [90]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:17:25",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [91]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:17:25",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [92]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:32:29",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [93]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:32:29",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [94]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:32:29",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [95]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:32:29",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [96]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-14 19:32:29",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [97]
+		{
+			["message"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: attempt to perform arithmetic on local 'num' (a nil value)",
+			["count"] = 20,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.34\n  NeatPlates, v1.13.2.38\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.2.1 0 0f28ee6\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=6f7)\n",
+			["locals"] = "self = <table> {\n PhysicalCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:87\n ArcaneCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:147\n NatureDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:112\n SpellPenetration = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:62\n FrostCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:127\n HitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21\n FireDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:102\n ShadowCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:137\n Dodge = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:67\n GetStatInfo = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:156\n Round = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:15\n HealingBonus = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:152\n Block = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:77\n RangedCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:57\n FireCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:107\n ShadowDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:132\n ManaRegenNotCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:30\n FrostDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:122\n HolyCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:97\n ManaRegenCasting = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:41\n Parry = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:72\n HolyDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:92\n SpellCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:52\n SpellHitModifier = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:25\n MeleeCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:47\n PhysicalDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:82\n ArcaneDmg = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:142\n ManaRegenCurrent = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:36\n NatureCrit = <function> defined @Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:117\n}\nnum = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = 100\n(*temporary) = \"attempt to perform arithmetic on local 'num' (a nil value)\"\n",
+			["timestamp"] = "2019-10-14 19:45:17",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:17: in function `Round'\nInterface\\AddOns\\ExtendedCharacterStats\\Data.lua:22: in function <Interface\\AddOns\\ExtendedCharacterStats\\Data.lua:21>\n(tail call): ?\nInterface\\AddOns\\ExtendedCharacterStats\\Config.lua:1000: in function `UpdateInformation'\nInterface\\AddOns\\ExtendedCharacterStats\\Main.lua:55: in function <Interface\\AddOns\\ExtendedCharacterStats\\Main.lua:54>\n",
+		}, -- [98]
+		{
+			["message"] = "Note: AddOn TrinketMenu attempted to call a protected function (TrinketMenu_MainFrame:SetWidth()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMOnyxia, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.34\n  NeatPlates, v1.13.2.38\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.2.1 0 0f28ee6\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=706)\n",
+			["timestamp"] = "2019-10-14 20:41:10",
+			["context"] = "AddOn: TrinketMenu",
+			["stack"] = "[C]: in function `SetWidth'\nInterface\\AddOns\\TrinketMenu\\TrinketMenu.lua:132: in function `OrientWindows'\nInterface\\AddOns\\TrinketMenu\\TrinketMenu.lua:532: in function `MainFrame_OnMouseUp'\n[string \"*:OnMouseUp\"]:1: in function <[string \"*:OnMouseUp\"]:1>\n",
+		}, -- [99]
+		{
+			["message"] = "Note: AddOn TrinketMenu attempted to call a protected function (TrinketMenu_MainFrame:SetHeight()) during combat lockdown.",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicThreatMeter, v1.10\n  Coordinates, v2.1.0\n  DBMCore, v@project-version@\n  DBMDefaultSkin, v\n  DBMOnyxia, v\n  DBMPartyClassic, v\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsTinyThreat, v\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  ExRT, v4060\n  ExtendedCharacterStats, v1.5\n  GatherMate2, v1.45.5\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  LeatrixPlus, v1.13.34\n  NeatPlates, v1.13.2.38\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  Questie, v4.2.1 0 0f28ee6\n  RealMobHealth, v2.13\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.2.9\n  WeakAuras, v2.15.2\n  WeaponSwingTimer, v4.1.0\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=706)\n",
+			["timestamp"] = "2019-10-14 20:41:10",
+			["context"] = "AddOn: TrinketMenu",
+			["stack"] = "[C]: in function `SetHeight'\nInterface\\AddOns\\TrinketMenu\\TrinketMenu.lua:133: in function `OrientWindows'\nInterface\\AddOns\\TrinketMenu\\TrinketMenu.lua:532: in function `MainFrame_OnMouseUp'\n[string \"*:OnMouseUp\"]:1: in function <[string \"*:OnMouseUp\"]:1>\n",
+		}, -- [100]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-15 22:13:40",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [101]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-15 22:13:40",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [102]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-15 22:13:40",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [103]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-15 22:13:40",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [104]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.3.0\n  AtlasLootClassicData, vv1.3.0\n  AtlasLootClassicDungeonsAndRaids, vv1.3.0\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  BeanCounter, v8.2.6422 (SwimmingSeadragon)\n  ccc, v0.3.11\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.2.11302 <none>\n  (ck=345)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2019-10-15 22:13:40",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
 		}, -- [105]

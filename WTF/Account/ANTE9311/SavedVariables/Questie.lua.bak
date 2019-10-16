@@ -21500,17 +21500,17 @@ QuestieConfig = {
 				[245] = true,
 				[5265] = true,
 				[469] = true,
-				[2873] = true,
+				[5742] = true,
 				[471] = true,
 				[2741] = true,
 				[470] = true,
-				[244] = true,
+				[975] = true,
 				[2877] = true,
 				[2875] = true,
 				[4451] = true,
 				[6501] = true,
 				[118] = true,
-				[975] = true,
+				[244] = true,
 				[472] = true,
 				[944] = true,
 				[122] = true,
@@ -21574,7 +21574,7 @@ QuestieConfig = {
 				[2867] = true,
 				[2869] = true,
 				[2871] = true,
-				[5742] = true,
+				[2873] = true,
 				[4723] = true,
 				[4727] = true,
 				[4731] = true,
@@ -21667,13 +21667,6 @@ QuestieConfig = {
 		},
 		["Numimage - Ashbringer"] = {
 			["AutoUntrackedQuests"] = {
-			},
-			["TrackerLocation"] = {
-				"RIGHT", -- [1]
-				nil, -- [2]
-				"RIGHT", -- [3]
-				-79.2591094970703, -- [4]
-				128.382736206055, -- [5]
 			},
 			["complete"] = {
 				[183] = true,

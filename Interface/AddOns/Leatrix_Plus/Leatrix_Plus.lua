@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 1.13.34 (9th October 2019)
+-- 	Leatrix Plus 1.13.35 (16th October 2019)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "1.13.34"
+	LeaPlusLC["AddonVer"] = "1.13.35"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -403,6 +403,7 @@
 		-- Frames
 		or	(LeaPlusLC["FrmEnabled"]			~= LeaPlusDB["FrmEnabled"])				-- Manage frames
 		or	(LeaPlusLC["ClassColFrames"]		~= LeaPlusDB["ClassColFrames"])			-- Class colored frames
+		or	(LeaPlusLC["ClassIconPortraits"]	~= LeaPlusDB["ClassIconPortraits"])		-- Class icon portraits
 		or	(LeaPlusLC["ShowPlayerChain"]		~= LeaPlusDB["ShowPlayerChain"])		-- Show player chain
 		or	(LeaPlusLC["ShowRaidToggle"]		~= LeaPlusDB["ShowRaidToggle"])			-- Show raid toggle button
 		or	(LeaPlusLC["CombatPlates"]			~= LeaPlusDB["CombatPlates"])			-- Combat plates
@@ -931,6 +932,66 @@
 						then
 							return true
 						end
+						-- Ignore specific NPCs for accepting quests only
+						if actionType == "Accept" then
+							-- Escort quests
+							if npcID == "467" -- The Defias Traitor (The Defias Brotherhood)
+							or npcID == "349" -- Corporal Keeshan (Missing In Action)
+							or npcID == "1379" -- Miran (Protecting the Shipment)
+							or npcID == "7766" -- Tyrion (The Attack!)
+							or npcID == "1978" -- Deathstalker Erland (Escorting Erland)
+							or npcID == "7784" -- Homing Robot OOX-17/TN (Rescue OOX-17/TN!)
+							or npcID == "2713" -- Kinelory (Hints of a New Plague?)
+							or npcID == "2768" -- Professor Phizzlethorpe (Sunken Treasure)
+							or npcID == "2610" -- Shakes O'Breen (Death From Below)
+							or npcID == "2917" -- Prospector Remtravel (The Absent Minded Prospector)
+							or npcID == "7806" -- Homing Robot OOX-09/HL (Rescue OOX-09/HL!)
+							or npcID == "3439" -- Wizzlecrank's Shredder (The Escape)
+							or npcID == "3465" -- Gilthares Firebough (Free From the Hold)
+							or npcID == "3568" -- Mist (Mist)
+							or npcID == "3584" -- Therylune (Therylune's Escape)
+							or npcID == "4484" -- Feero Ironhand (Supplies to Auberdine)
+							or npcID == "3692" -- Volcor (Escape Through Force)
+							or npcID == "4508" -- Willix the Importer (Willix the Importer)
+							or npcID == "4880" -- "Stinky" Ignatz (Stinky's Escape)
+							or npcID == "4983" -- Ogron (Questioning Reethe)
+							or npcID == "5391" -- Galen Goodward (Galen's Escape)
+							or npcID == "5644" -- Dalinda Malem (Return to Vahlarriel)
+							or npcID == "5955" -- Tooga (Tooga's Quest)
+							or npcID == "7780" -- Rin'ji (Rin'ji is Trapped!)
+							or npcID == "7807" -- Homing Robot OOX-22/FE (Rescue OOX-22/FE!)
+							or npcID == "7774" -- Shay Leafrunner (Wandering Shay)
+							or npcID == "7850" -- Kernobee (A Fine Mess)
+							or npcID == "8284" -- Dorius Stonetender (Suntara Stones)
+							or npcID == "8380" -- Captain Vanessa Beltis (A Crew Under Fire)
+							or npcID == "8516" -- Belnistrasz (Extinguishing the Idol)
+							or npcID == "9020" -- Commander Gor'shak (What Is Going On?)
+							or npcID == "9520" -- Grark Lorkrub (Precarious Predicament)
+							or npcID == "9623" -- A-Me 01 (Chasing A-Me 01)
+							or npcID == "9598" -- Arei (Ancient Spirit)
+							or npcID == "9023" -- Marshal Windsor (Jail Break!)
+							or npcID == "9999" -- Ringo (A Little Help From My Friends)
+							or npcID == "10427" -- Pao'ka Swiftmountain (Homeward Bound)
+							or npcID == "10300" -- Ranshalla (Guardians of the Altar)
+							or npcID == "10646" -- Lakota Windsong (Free at Last)
+							or npcID == "10638" -- Kanati Greycloud (Protect Kanati Greycloud)
+							or npcID == "11016" -- Captured Arko'narin (Rescue From Jaedenar)
+							or npcID == "11218" -- Kerlonian Evershade (The Sleeper Has Awakened)
+							or npcID == "11711" -- Sentinel Aynasha (One Shot. One Kill.)
+							or npcID == "11625" -- Cork Gizelton (Bodyguard for Hire)
+							or npcID == "11626" -- Rigger Gizelton (Gizelton Caravan)
+							or npcID == "1842" -- Highlord Taelan Fordring (In Dreams)
+							or npcID == "12277" -- Melizza Brimbuzzle (Get Me Out of Here!)
+							or npcID == "12580" -- Reginald Windsor (The Great Masquerade)
+							or npcID == "12818" -- Ruul Snowhoof (Freedom to Ruul)
+							or npcID == "11856" -- Kaya Flathoof (Protect Kaya)
+							or npcID == "12858" -- Torek (Torek's Assault)
+							or npcID == "12717" -- Muglash (Vorsha the Lasher)
+							or npcID == "13716" -- Celebras the Redeemed (The Scepter of Celebras)
+							then
+								return true
+							end
+						end
 						-- Ignore specific NPCs for selecting quests only (only used for items that have no other purpose)
 						if actionType == "Select" then
 							if npcID == "12944" -- Lokhtos Darkbargainer (Thorium Brotherhood, Blackrock Depths)
@@ -988,62 +1049,6 @@
 							or npcID == "15765" -- Officer Redblade (Orgrimmar Commendations)
 							or npcID == "15767" -- Officer Thunderstrider (Thunder Bluff Commendations)
 							or npcID == "15761" -- Officer Vu'Shalay (Darkspear Commendations)
-							-- Escort quests
-							or npcID == "467" -- The Defias Traitor (The Defias Brotherhood)
-							or npcID == "219" -- Corporal Keeshan (Missing In Action)
-							or npcID == "309" -- Miran (Protecting the Shipment)
-							or npcID == "434" -- Tyrion (The Attack!)
-							or npcID == "435" -- Deathstalker Erland (Escorting Erland)
-							or npcID == "648" -- Homing Robot OOX-17/TN (Rescue OOX-17/TN!)
-							or npcID == "660" -- Kinelory (Hints of a New Plague?)
-							or npcID == "665" -- Professor Phizzlethorpe (Sunken Treasure)
-							or npcID == "667" -- Shakes O'Breen (Death From Below)
-							or npcID == "731" -- Prospector Remtravel (The Absent Minded Prospector)
-							or npcID == "836" -- Homing Robot OOX-09/HL (Rescue OOX-09/HL!)
-							or npcID == "863" -- Wizzlecrank's Shredder (The Escape)
-							or npcID == "898" -- Gilthares Firebough (Free From the Hold)
-							or npcID == "938" -- Mist (Mist)
-							or npcID == "945" -- Therylune (Therylune's Escape)
-							or npcID == "976" -- Feero Ironhand (Supplies to Auberdine)
-							or npcID == "994" -- Volcor (Escape Through Force)
-							or npcID == "995" -- Volcor (Escape Through Stealth)
-							or npcID == "1144" -- Willix the Importer (Willix the Importer)
-							or npcID == "1222" -- "Stinky" Ignatz (Stinky's Escape)
-							or npcID == "1270" -- "Stinky" Ignatz (Stinky's Escape)
-							or npcID == "1273" -- Ogron (Questioning Reethe)
-							or npcID == "1393" -- Galen Goodward (Galen's Escape)
-							or npcID == "1440" -- Dalinda Malem (Return to Vahlarriel)
-							or npcID == "1560" -- Tooga (Tooga's Quest)
-							or npcID == "2742" -- Rin'ji (Rin'ji is Trapped!)
-							or npcID == "2767" -- Homing Robot OOX-22/FE (Rescue OOX-22/FE!)
-							or npcID == "2845" -- Shay Leafrunner (Wandering Shay)
-							or npcID == "2904" -- Kernobee (A Fine Mess)
-							or npcID == "3367" -- Dorius Stonetender (Suntara Stones)
-							or npcID == "3382" -- Captain Vanessa Beltis (A Crew Under Fire)
-							or npcID == "3525" -- Belnistrasz (Extinguishing the Idol)
-							or npcID == "3982" -- Commander Gor'shak (What Is Going On?)
-							or npcID == "4121" -- Grark Lorkrub (Precarious Predicament)
-							or npcID == "4245" -- A-Me 01 (Chasing A-Me 01)
-							or npcID == "4261" -- Arei (Ancient Spirit)
-							or npcID == "4322" -- Marshal Windsor (Jail Break!)
-							or npcID == "4491" -- Ringo (A Little Help From My Friends)
-							or npcID == "4770" -- Pao'ka Swiftmountain (Homeward Bound)
-							or npcID == "4901" -- Ranshalla (Guardians of the Altar)
-							or npcID == "4904" -- Lakota Windsong (Free at Last)
-							or npcID == "4966" -- Kanati Greycloud (Protect Kanati Greycloud)
-							or npcID == "5203" -- Captured Arko'narin (Rescue From Jaedenar)
-							or npcID == "5321" -- Kerlonian Evershade (The Sleeper Has Awakened)
-							or npcID == "5713" -- Sentinel Aynasha (One Shot. One Kill.)
-							or npcID == "5821" -- Cork Gizelton (Bodyguard for Hire)
-							or npcID == "5943" -- Rigger Gizelton (Gizelton Caravan)
-							or npcID == "5944" -- Highlord Taelan Fordring (In Dreams)
-							or npcID == "6132" -- Melizza Brimbuzzle (Get Me Out of Here!)
-							or npcID == "6403" -- Reginald Windsor (The Great Masquerade)
-							or npcID == "6482" -- Ruul Snowhoof (Freedom to Ruul)
-							or npcID == "6523" -- Kaya Flathoof (Protect Kaya)
-							or npcID == "6544" -- Torek (Torek's Assault)
-							or npcID == "6641" -- Muglash (Vorsha the Lasher)
-							or npcID == "7046" -- Celebras the Redeemed (The Scepter of Celebras)
 							then
 								return true
 							end
@@ -2249,6 +2254,29 @@
 	function LeaPlusLC:Player()
 
 		----------------------------------------------------------------------
+		--	Class icon portraits
+		----------------------------------------------------------------------
+
+		if LeaPlusLC["ClassIconPortraits"] == "On" then
+			hooksecurefunc("UnitFramePortrait_Update",function(self)
+				if self.unit == "player" or self.unit == "pet" then
+					return
+				end
+				if self.portrait then
+					if UnitIsPlayer(self.unit) then
+						local t = CLASS_ICON_TCOORDS[select(2, UnitClass(self.unit))]
+						if t then
+							self.portrait:SetTexture("Interface\\TargetingFrame\\UI-Classes-Circles")
+							self.portrait:SetTexCoord(unpack(t))
+						end
+					else
+						self.portrait:SetTexCoord(0, 1, 0, 1)
+					end
+				end
+			end)
+		end
+
+		----------------------------------------------------------------------
 		--	Enhance trainers
 		----------------------------------------------------------------------
 
@@ -2382,13 +2410,16 @@
 
 				-- ElvUI fixes
 				local function ElvUIFixes()
-					regions[2]:Hide()
-					regions[3]:Hide()
-					RecipeInset:Hide()
-					DetailsInset:Hide()
-					_G["ClassTrainerFrame"]:SetHeight(512)
-					_G["ClassTrainerTrainButton"]:ClearAllPoints()
-					_G["ClassTrainerTrainButton"]:SetPoint("BOTTOMRIGHT", _G["ClassTrainerFrame"], "BOTTOMRIGHT", -42, 78)
+					local E = unpack(ElvUI)
+					if E.private.skins.blizzard.enable and E.private.skins.blizzard.trainer then
+						regions[2]:Hide()
+						regions[3]:Hide()
+						RecipeInset:Hide()
+						DetailsInset:Hide()
+						_G["ClassTrainerFrame"]:SetHeight(512)
+						_G["ClassTrainerTrainButton"]:ClearAllPoints()
+						_G["ClassTrainerTrainButton"]:SetPoint("BOTTOMRIGHT", _G["ClassTrainerFrame"], "BOTTOMRIGHT", -42, 78)
+					end
 				end
 
 				-- Run ElvUI fixes when ElvUI has loaded
@@ -2512,114 +2543,79 @@
 
 		if LeaPlusLC["EnhanceProfessions"] == "On" then
 
+			----------------------------------------------------------------------
+			--	TradeSkill Frame
+			----------------------------------------------------------------------
+
 			local function TradeSkillFunc(frame)
 
-				-- Make the quest log frame double-wide
-				UIPanelWindows[frame .. "Frame"] = {area = "override", pushable = 1, xoffset = -16, yoffset = 12, bottomClampOverride = 140 + 12, width = 714, height = 487, whileDead = 1}
+				-- Make the tradeskill frame double-wide
+				UIPanelWindows["TradeSkillFrame"] = {area = "override", pushable = 1, xoffset = -16, yoffset = 12, bottomClampOverride = 140 + 12, width = 714, height = 487, whileDead = 1}
 
 				-- Size the tradeskill frame
-				_G[frame .. "Frame"]:SetWidth(714)
-				_G[frame .. "Frame"]:SetHeight(487)
+				_G["TradeSkillFrame"]:SetWidth(714)
+				_G["TradeSkillFrame"]:SetHeight(487)
 
-				-- Adjust quest log title text
-				_G[frame .. "FrameTitleText"]:ClearAllPoints()
-				_G[frame .. "FrameTitleText"]:SetPoint("TOP", _G[frame .. "Frame"], "TOP", 0, -18)
+				-- Adjust title text
+				_G["TradeSkillFrameTitleText"]:ClearAllPoints()
+				_G["TradeSkillFrameTitleText"]:SetPoint("TOP", _G["TradeSkillFrame"], "TOP", 0, -18)
 
 				-- Expand the tradeskill list to full height
-				_G[frame .. "ListScrollFrame"]:ClearAllPoints()
-				_G[frame .. "ListScrollFrame"]:SetPoint("TOPLEFT", _G[frame .. "Frame"], "TOPLEFT", 25, -75)
-				_G[frame .. "ListScrollFrame"]:SetSize(295, 336)
+				_G["TradeSkillListScrollFrame"]:ClearAllPoints()
+				_G["TradeSkillListScrollFrame"]:SetPoint("TOPLEFT", _G["TradeSkillFrame"], "TOPLEFT", 25, -75)
+				_G["TradeSkillListScrollFrame"]:SetSize(295, 336)
 
 				-- Create additional list rows
-				if frame == "TradeSkill" then
+				local oldTradeSkillsDisplayed = TRADE_SKILLS_DISPLAYED
 
-					local oldTradeSkillsDisplayed = TRADE_SKILLS_DISPLAYED
+				-- Position existing buttons
+				for i = 1 + 1, TRADE_SKILLS_DISPLAYED do
+					_G["TradeSkillSkill" .. i]:ClearAllPoints()
+					_G["TradeSkillSkill" .. i]:SetPoint("TOPLEFT", _G["TradeSkillSkill" .. (i-1)], "BOTTOMLEFT", 0, 1)
+				end
 
-					-- Position existing buttons
-					for i = 1 + 1, TRADE_SKILLS_DISPLAYED do
-						_G["TradeSkillSkill" .. i]:ClearAllPoints()
-						_G["TradeSkillSkill" .. i]:SetPoint("TOPLEFT", _G["TradeSkillSkill" .. (i-1)], "BOTTOMLEFT", 0, 1)
-					end
-
-					-- Create and position new buttons
-					_G.TRADE_SKILLS_DISPLAYED = _G.TRADE_SKILLS_DISPLAYED + 14
-					for i = oldTradeSkillsDisplayed + 1, TRADE_SKILLS_DISPLAYED do
-						local button = CreateFrame("Button", "TradeSkillSkill" .. i, TradeSkillFrame, "TradeSkillSkillButtonTemplate")
-						button:SetID(i)
-						button:Hide()
-						button:ClearAllPoints()
-						button:SetPoint("TOPLEFT", _G["TradeSkillSkill" .. (i-1)], "BOTTOMLEFT", 0, 1)
-					end
-
-				else
-
-					local oldCraftsDisplayed = CRAFTS_DISPLAYED
-
-					-- Position existing buttons
-					_G["Craft1Cost"]:ClearAllPoints()
-					_G["Craft1Cost"]:SetPoint("RIGHT", _G["Craft1"], "RIGHT", -30, 0)
-
-					for i = 1 + 1, CRAFTS_DISPLAYED do
-						_G["Craft" .. i]:ClearAllPoints()
-						_G["Craft" .. i]:SetPoint("TOPLEFT", _G["Craft" .. (i-1)], "BOTTOMLEFT", 0, 1)
-						_G["Craft" .. i .. "Cost"]:ClearAllPoints()
-						_G["Craft" .. i .. "Cost"]:SetPoint("RIGHT", _G["Craft" .. i], "RIGHT", -30, 0)
-					end
-
-					-- Create and position new buttons
-					_G.CRAFTS_DISPLAYED = _G.CRAFTS_DISPLAYED + 14
-					for i = oldCraftsDisplayed + 1, CRAFTS_DISPLAYED do
-						local button = CreateFrame("Button", "Craft" .. i, CraftFrame, "CraftButtonTemplate")
-						button:SetID(i)
-						button:Hide()
-						button:ClearAllPoints()
-						button:SetPoint("TOPLEFT", _G["Craft" .. (i-1)], "BOTTOMLEFT", 0, 1)
-
-						_G["Craft" .. i .. "Cost"]:ClearAllPoints()
-						_G["Craft" .. i .. "Cost"]:SetPoint("RIGHT", _G["Craft" .. i], "RIGHT", -30, 0)
-
-					end
-
-					-- Move craft frame points (such as Beast Training)
-					CraftFramePointsLabel:ClearAllPoints()
-					CraftFramePointsLabel:SetPoint("TOPLEFT", CraftFrame, "TOPLEFT", 100, -50)
-					CraftFramePointsText:ClearAllPoints()
-					CraftFramePointsText:SetPoint("LEFT", CraftFramePointsLabel, "RIGHT", 3, 0)
-
+				-- Create and position new buttons
+				_G.TRADE_SKILLS_DISPLAYED = _G.TRADE_SKILLS_DISPLAYED + 14
+				for i = oldTradeSkillsDisplayed + 1, TRADE_SKILLS_DISPLAYED do
+					local button = CreateFrame("Button", "TradeSkillSkill" .. i, TradeSkillFrame, "TradeSkillSkillButtonTemplate")
+					button:SetID(i)
+					button:Hide()
+					button:ClearAllPoints()
+					button:SetPoint("TOPLEFT", _G["TradeSkillSkill" .. (i-1)], "BOTTOMLEFT", 0, 1)
 				end
 
 				-- Set highlight bar width when shown
-				hooksecurefunc(_G[frame .. "HighlightFrame"], "Show", function()
-					_G[frame .. "HighlightFrame"]:SetWidth(290)
+				hooksecurefunc(_G["TradeSkillHighlightFrame"], "Show", function()
+					_G["TradeSkillHighlightFrame"]:SetWidth(290)
 				end)
 
 				-- Move the tradeskill detail frame to the right and stretch it to full height
-				_G[frame .. "DetailScrollFrame"]:ClearAllPoints()
-				_G[frame .. "DetailScrollFrame"]:SetPoint("TOPLEFT", _G[frame .. "Frame"], "TOPLEFT", 352, -74)
-				_G[frame .. "DetailScrollFrame"]:SetSize(298, 336)
-				-- _G[frame .. "Reagent1"]:SetHeight(500) -- Debug
+				_G["TradeSkillDetailScrollFrame"]:ClearAllPoints()
+				_G["TradeSkillDetailScrollFrame"]:SetPoint("TOPLEFT", _G["TradeSkillFrame"], "TOPLEFT", 352, -74)
+				_G["TradeSkillDetailScrollFrame"]:SetSize(298, 336)
+				-- _G["TradeSkillReagent1"]:SetHeight(500) -- Debug
 
 				-- Hide detail scroll frame textures
-				_G[frame .. "DetailScrollFrameTop"]:SetAlpha(0)
-				_G[frame .. "DetailScrollFrameBottom"]:SetAlpha(0)
+				_G["TradeSkillDetailScrollFrameTop"]:SetAlpha(0)
+				_G["TradeSkillDetailScrollFrameBottom"]:SetAlpha(0)
 
 				-- Create texture for skills list
-				local RecipeInset = _G[frame .. "Frame"]:CreateTexture(nil, "ARTWORK")
+				local RecipeInset = _G["TradeSkillFrame"]:CreateTexture(nil, "ARTWORK")
 				RecipeInset:SetSize(304, 361)
-				RecipeInset:SetPoint("TOPLEFT", _G[frame .. "Frame"], "TOPLEFT", 16, -72)
+				RecipeInset:SetPoint("TOPLEFT", _G["TradeSkillFrame"], "TOPLEFT", 16, -72)
 				RecipeInset:SetTexture("Interface\\RAIDFRAME\\UI-RaidFrame-GroupBg")
 
 				-- Set detail frame backdrop
-				local DetailsInset = _G[frame .. "Frame"]:CreateTexture(nil, "ARTWORK")
+				local DetailsInset = _G["TradeSkillFrame"]:CreateTexture(nil, "ARTWORK")
 				DetailsInset:SetSize(302, 339)
-				DetailsInset:SetPoint("TOPLEFT", _G[frame .. "Frame"], "TOPLEFT", 348, -72)
+				DetailsInset:SetPoint("TOPLEFT", _G["TradeSkillFrame"], "TOPLEFT", 348, -72)
 				DetailsInset:SetTexture("Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated")
 
 				-- Hide expand tab (left of All button)
-				_G[frame .. "ExpandTabLeft"]:Hide()
+				_G["TradeSkillExpandTabLeft"]:Hide()
 
 				-- Get tradeskill frame textures
-				local regions = {_G[frame .. "Frame"]:GetRegions()}
+				local regions = {_G["TradeSkillFrame"]:GetRegions()}
 
 				-- Set top left texture
 				regions[2]:SetTexture("Interface\\QUESTFRAME\\UI-QuestLogDualPane-Left")
@@ -2640,40 +2636,39 @@
 				regions[10]:Hide()
 
 				-- Move create button row
-				_G[frame .. "CreateButton"]:ClearAllPoints()
-				_G[frame .. "CreateButton"]:SetPoint("RIGHT", _G[frame .. "CancelButton"], "LEFT", -1, 0)
+				_G["TradeSkillCreateButton"]:ClearAllPoints()
+				_G["TradeSkillCreateButton"]:SetPoint("RIGHT", _G["TradeSkillCancelButton"], "LEFT", -1, 0)
 
 				-- Position and size close button
-				_G[frame .. "CancelButton"]:SetSize(80, 22)
-				_G[frame .. "CancelButton"]:SetText(CLOSE)
-				_G[frame .. "CancelButton"]:ClearAllPoints()
-				_G[frame .. "CancelButton"]:SetPoint("BOTTOMRIGHT", _G[frame .. "Frame"], "BOTTOMRIGHT", -42, 54)
+				_G["TradeSkillCancelButton"]:SetSize(80, 22)
+				_G["TradeSkillCancelButton"]:SetText(CLOSE)
+				_G["TradeSkillCancelButton"]:ClearAllPoints()
+				_G["TradeSkillCancelButton"]:SetPoint("BOTTOMRIGHT", _G["TradeSkillFrame"], "BOTTOMRIGHT", -42, 54)
 
 				-- Position close box
-				_G[frame .. "FrameCloseButton"]:ClearAllPoints()
-				_G[frame .. "FrameCloseButton"]:SetPoint("TOPRIGHT", _G[frame .. "Frame"], "TOPRIGHT", -30, -8)
+				_G["TradeSkillFrameCloseButton"]:ClearAllPoints()
+				_G["TradeSkillFrameCloseButton"]:SetPoint("TOPRIGHT", _G["TradeSkillFrame"], "TOPRIGHT", -30, -8)
 
 				-- Position dropdown menus
-				if frame == "TradeSkill" then
-					TradeSkillInvSlotDropDown:ClearAllPoints()
-					TradeSkillInvSlotDropDown:SetPoint("TOPLEFT", TradeSkillFrame, "TOPLEFT", 510, -40)
-					TradeSkillSubClassDropDown:ClearAllPoints()
-					TradeSkillSubClassDropDown:SetPoint("RIGHT", TradeSkillInvSlotDropDown, "LEFT", 0, 0)
-				end
-
-				-- Position rank frame to default location (to fix ElvUI)
-				_G[frame .. "RankFrame"]:ClearAllPoints()
-				_G[frame .. "RankFrame"]:SetPoint("TOPLEFT", _G[frame .. "Frame"], "TOPLEFT", 73, -37)
+				TradeSkillInvSlotDropDown:ClearAllPoints()
+				TradeSkillInvSlotDropDown:SetPoint("TOPLEFT", TradeSkillFrame, "TOPLEFT", 510, -40)
+				TradeSkillSubClassDropDown:ClearAllPoints()
+				TradeSkillSubClassDropDown:SetPoint("RIGHT", TradeSkillInvSlotDropDown, "LEFT", 0, 0)
 
 				-- ElvUI fixes
 				local function ElvUIFixes()
-					regions[2]:Hide()
-					regions[3]:Hide()
-					RecipeInset:Hide()
-					DetailsInset:Hide()
-					_G[frame .. "Frame"]:SetHeight(512)
-					_G[frame .. "CancelButton"]:ClearAllPoints()
-					_G[frame .. "CancelButton"]:SetPoint("BOTTOMRIGHT", _G[frame .. "Frame"], "BOTTOMRIGHT", -42, 78)
+					local E = unpack(ElvUI)
+					if E.private.skins.blizzard.enable and E.private.skins.blizzard.tradeskill then
+						regions[2]:Hide()
+						regions[3]:Hide()
+						RecipeInset:Hide()
+						DetailsInset:Hide()
+						_G["TradeSkillFrame"]:SetHeight(512)
+						_G["TradeSkillCancelButton"]:ClearAllPoints()
+						_G["TradeSkillCancelButton"]:SetPoint("BOTTOMRIGHT", _G["TradeSkillFrame"], "BOTTOMRIGHT", -42, 78)
+						_G["TradeSkillRankFrame"]:ClearAllPoints()
+						_G["TradeSkillRankFrame"]:SetPoint("TOPLEFT", _G["TradeSkillFrame"], "TOPLEFT", 24, -44)
+					end
 				end
 
 				-- Run ElvUI fixes when ElvUI has loaded
@@ -2687,14 +2682,6 @@
 							ElvUIFixes()
 							waitFrame:UnregisterAllEvents()
 						end
-					end)
-				end
-
-				-- Fix for TradeSkillMaster moving the craft create button
-				if frame == "Craft" then
-					hooksecurefunc(CraftCreateButton, "SetFrameLevel", function()
-						CraftCreateButton:ClearAllPoints()
-						CraftCreateButton:SetPoint("RIGHT", CraftCancelButton, "LEFT", -1, 0)
 					end)
 				end
 
@@ -2714,15 +2701,171 @@
 				end)
 			end
 
+			----------------------------------------------------------------------
+			--	Craft Frame
+			----------------------------------------------------------------------
+
+			local function CraftFunc()
+
+				-- Make the craft frame double-wide
+				UIPanelWindows["CraftFrame"] = {area = "override", pushable = 1, xoffset = -16, yoffset = 12, bottomClampOverride = 140 + 12, width = 714, height = 487, whileDead = 1}
+
+				-- Size the craft frame
+				_G["CraftFrame"]:SetWidth(714)
+				_G["CraftFrame"]:SetHeight(487)
+
+				-- Adjust title text
+				_G["CraftFrameTitleText"]:ClearAllPoints()
+				_G["CraftFrameTitleText"]:SetPoint("TOP", _G["CraftFrame"], "TOP", 0, -18)
+
+				-- Expand the crafting list to full height
+				_G["CraftListScrollFrame"]:ClearAllPoints()
+				_G["CraftListScrollFrame"]:SetPoint("TOPLEFT", _G["CraftFrame"], "TOPLEFT", 25, -75)
+				_G["CraftListScrollFrame"]:SetSize(295, 336)
+
+				-- Create additional list rows
+				local oldCraftsDisplayed = CRAFTS_DISPLAYED
+
+				-- Position existing buttons
+				_G["Craft1Cost"]:ClearAllPoints()
+				_G["Craft1Cost"]:SetPoint("RIGHT", _G["Craft1"], "RIGHT", -30, 0)
+				for i = 1 + 1, CRAFTS_DISPLAYED do
+					_G["Craft" .. i]:ClearAllPoints()
+					_G["Craft" .. i]:SetPoint("TOPLEFT", _G["Craft" .. (i-1)], "BOTTOMLEFT", 0, 1)
+					_G["Craft" .. i .. "Cost"]:ClearAllPoints()
+					_G["Craft" .. i .. "Cost"]:SetPoint("RIGHT", _G["Craft" .. i], "RIGHT", -30, 0)
+				end
+
+				-- Create and position new buttons
+				_G.CRAFTS_DISPLAYED = _G.CRAFTS_DISPLAYED + 14
+				for i = oldCraftsDisplayed + 1, CRAFTS_DISPLAYED do
+					local button = CreateFrame("Button", "Craft" .. i, CraftFrame, "CraftButtonTemplate")
+					button:SetID(i)
+					button:Hide()
+					button:ClearAllPoints()
+					button:SetPoint("TOPLEFT", _G["Craft" .. (i-1)], "BOTTOMLEFT", 0, 1)
+					_G["Craft" .. i .. "Cost"]:ClearAllPoints()
+					_G["Craft" .. i .. "Cost"]:SetPoint("RIGHT", _G["Craft" .. i], "RIGHT", -30, 0)
+				end
+
+				-- Move craft frame points (such as Beast Training)
+				CraftFramePointsLabel:ClearAllPoints()
+				CraftFramePointsLabel:SetPoint("TOPLEFT", CraftFrame, "TOPLEFT", 100, -50)
+				CraftFramePointsText:ClearAllPoints()
+				CraftFramePointsText:SetPoint("LEFT", CraftFramePointsLabel, "RIGHT", 3, 0)
+
+				-- Set highlight bar width when shown
+				hooksecurefunc(_G["CraftHighlightFrame"], "Show", function()
+					_G["CraftHighlightFrame"]:SetWidth(290)
+				end)
+
+				-- Move the craft detail frame to the right and stretch it to full height
+				_G["CraftDetailScrollFrame"]:ClearAllPoints()
+				_G["CraftDetailScrollFrame"]:SetPoint("TOPLEFT", _G["CraftFrame"], "TOPLEFT", 352, -74)
+				_G["CraftDetailScrollFrame"]:SetSize(298, 336)
+				-- _G["CraftReagent1"]:SetHeight(500) -- Debug
+
+				-- Hide detail scroll frame textures
+				_G["CraftDetailScrollFrameTop"]:SetAlpha(0)
+				_G["CraftDetailScrollFrameBottom"]:SetAlpha(0)
+
+				-- Create texture for skills list
+				local RecipeInset = _G["CraftFrame"]:CreateTexture(nil, "ARTWORK")
+				RecipeInset:SetSize(304, 361)
+				RecipeInset:SetPoint("TOPLEFT", _G["CraftFrame"], "TOPLEFT", 16, -72)
+				RecipeInset:SetTexture("Interface\\RAIDFRAME\\UI-RaidFrame-GroupBg")
+
+				-- Set detail frame backdrop
+				local DetailsInset = _G["CraftFrame"]:CreateTexture(nil, "ARTWORK")
+				DetailsInset:SetSize(302, 339)
+				DetailsInset:SetPoint("TOPLEFT", _G["CraftFrame"], "TOPLEFT", 348, -72)
+				DetailsInset:SetTexture("Interface\\ACHIEVEMENTFRAME\\UI-GuildAchievement-Parchment-Horizontal-Desaturated")
+
+				-- Hide expand tab (left of All button)
+				_G["CraftExpandTabLeft"]:Hide()
+
+				-- Get craft frame textures
+				local regions = {_G["CraftFrame"]:GetRegions()}
+
+				-- Set top left texture
+				regions[2]:SetTexture("Interface\\QUESTFRAME\\UI-QuestLogDualPane-Left")
+				regions[2]:SetSize(512, 512)
+
+				-- Set top right texture
+				regions[3]:ClearAllPoints()
+				regions[3]:SetPoint("TOPLEFT", regions[2], "TOPRIGHT", 0, 0)
+				regions[3]:SetTexture("Interface\\QUESTFRAME\\UI-QuestLogDualPane-Right")
+				regions[3]:SetSize(256, 512)
+
+				-- Hide bottom left and bottom right textures
+				regions[4]:Hide()
+				regions[5]:Hide()
+
+				-- Hide skills list dividing bar
+				regions[9]:Hide()
+				regions[10]:Hide()
+
+				-- Move create button row
+				_G["CraftCreateButton"]:ClearAllPoints()
+				_G["CraftCreateButton"]:SetPoint("RIGHT", _G["CraftCancelButton"], "LEFT", -1, 0)
+
+				-- Position and size close button
+				_G["CraftCancelButton"]:SetSize(80, 22)
+				_G["CraftCancelButton"]:SetText(CLOSE)
+				_G["CraftCancelButton"]:ClearAllPoints()
+				_G["CraftCancelButton"]:SetPoint("BOTTOMRIGHT", _G["CraftFrame"], "BOTTOMRIGHT", -42, 54)
+
+				-- Position close box
+				_G["CraftFrameCloseButton"]:ClearAllPoints()
+				_G["CraftFrameCloseButton"]:SetPoint("TOPRIGHT", _G["CraftFrame"], "TOPRIGHT", -30, -8)
+
+				-- ElvUI fixes
+				local function ElvUIFixes()
+					local E = unpack(ElvUI)
+					if E.private.skins.blizzard.enable and E.private.skins.blizzard.craft then
+						regions[2]:Hide()
+						regions[3]:Hide()
+						RecipeInset:Hide()
+						DetailsInset:Hide()
+						_G["CraftFrame"]:SetHeight(512)
+						_G["CraftCancelButton"]:ClearAllPoints()
+						_G["CraftCancelButton"]:SetPoint("BOTTOMRIGHT", _G["CraftFrame"], "BOTTOMRIGHT", -42, 78)
+						_G["CraftRankFrame"]:ClearAllPoints()
+						_G["CraftRankFrame"]:SetPoint("TOPLEFT", _G["CraftFrame"], "TOPLEFT", 24, -44)
+					end
+				end
+
+				-- Run ElvUI fixes when ElvUI has loaded
+				if IsAddOnLoaded("ElvUI") then
+					ElvUIFixes()
+				else
+					local waitFrame = CreateFrame("FRAME")
+					waitFrame:RegisterEvent("ADDON_LOADED")
+					waitFrame:SetScript("OnEvent", function(self, event, arg1)
+						if arg1 == "ElvUI" then
+							ElvUIFixes()
+							waitFrame:UnregisterAllEvents()
+						end
+					end)
+				end
+
+				-- Fix for TradeSkillMaster moving the craft create button
+				hooksecurefunc(CraftCreateButton, "SetFrameLevel", function()
+					CraftCreateButton:ClearAllPoints()
+					CraftCreateButton:SetPoint("RIGHT", CraftCancelButton, "LEFT", -1, 0)
+				end)
+
+			end
+
 			-- Run function when Craft UI has loaded
 			if IsAddOnLoaded("Blizzard_CraftUI") then
-				TradeSkillFunc("Craft")
+				CraftFunc()
 			else
 				local waitFrame = CreateFrame("FRAME")
 				waitFrame:RegisterEvent("ADDON_LOADED")
 				waitFrame:SetScript("OnEvent", function(self, event, arg1)
 					if arg1 == "Blizzard_CraftUI" then
-						TradeSkillFunc("Craft")
+						CraftFunc()
 						waitFrame:UnregisterAllEvents()
 					end
 				end)
@@ -2894,21 +3037,20 @@
 
 			-- ElvUI fixes
 			local function ElvUIFixes()
-
 				-- Unpack ElvUI engine
 				local E = unpack(ElvUI)
-
-				-- Skin map button
-				logMapButton:StripTextures()
-				logMapButton:SetTemplate(nil, true)
-				logMapButton:HookScript("OnEnter", function(self) self:SetBackdropBorderColor(unpack(E.media.rgbvaluecolor)) end)
-				logMapButton:HookScript("OnLeave", function(self) self:SetBackdropBorderColor(unpack(E.media.bordercolor)) end)
-				logMapButton:HookScript("OnShow", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
-				logMapButton:HookScript("OnEnable", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
-				logMapButton:HookScript("OnDisable", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
-				logMapButton:HookScript("OnMouseDown", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
-				logMapButton:HookScript("OnMouseUp", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
-
+				if E.private.skins.blizzard.enable and E.private.skins.blizzard.quest then
+					-- Skin map button
+					logMapButton:StripTextures()
+					logMapButton:SetTemplate(nil, true)
+					logMapButton:HookScript("OnEnter", function(self) self:SetBackdropBorderColor(unpack(E.media.rgbvaluecolor)) end)
+					logMapButton:HookScript("OnLeave", function(self) self:SetBackdropBorderColor(unpack(E.media.bordercolor)) end)
+					logMapButton:HookScript("OnShow", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
+					logMapButton:HookScript("OnEnable", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
+					logMapButton:HookScript("OnDisable", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
+					logMapButton:HookScript("OnMouseDown", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
+					logMapButton:HookScript("OnMouseUp", function() logMapButton.Left:Hide(); logMapButton.Middle:Hide(); logMapButton.Right:Hide() end)
+				end
 			end
 
 			-- Run ElvUI fixes when ElvUI has loaded
@@ -6667,6 +6809,7 @@
 				-- Frames
 				LeaPlusLC:LoadVarChk("FrmEnabled", "Off")					-- Manage frames
 				LeaPlusLC:LoadVarChk("ClassColFrames", "Off")				-- Class colored frames
+				LeaPlusLC:LoadVarChk("ClassIconPortraits", "Off")			-- Class icon portraits
 				LeaPlusLC:LoadVarChk("ShowPlayerChain", "Off")				-- Show player chain
 				LeaPlusLC:LoadVarNum("PlayerChainMenu", 2, 1, 3)			-- Player chain dropdown value
 				LeaPlusLC:LoadVarChk("ShowRaidToggle", "Off")				-- Show raid toggle button
@@ -6833,6 +6976,7 @@
 			-- Frames
 			LeaPlusDB["FrmEnabled"]				= LeaPlusLC["FrmEnabled"]
 			LeaPlusDB["ClassColFrames"]			= LeaPlusLC["ClassColFrames"]
+			LeaPlusDB["ClassIconPortraits"]		= LeaPlusLC["ClassIconPortraits"]
 			LeaPlusDB["ShowPlayerChain"]		= LeaPlusLC["ShowPlayerChain"]
 			LeaPlusDB["PlayerChainMenu"]		= LeaPlusLC["PlayerChainMenu"]
 			LeaPlusDB["ShowRaidToggle"]			= LeaPlusLC["ShowRaidToggle"]
@@ -8171,6 +8315,7 @@
 				LeaPlusDB["Frames"]["BuffFrame"]["Scale"] = 0.80
 
 				LeaPlusDB["ClassColFrames"] = "On"				-- Class colored frames
+				LeaPlusDB["ClassIconPortraits"] = "Off"			-- Class icon portraits
 				LeaPlusDB["ShowPlayerChain"] = "On"				-- Show player chain
 				LeaPlusDB["PlayerChainMenu"] = 3				-- Player chain style
 				LeaPlusDB["ShowRaidToggle"] = "On"				-- Show raid toggle button
@@ -8493,9 +8638,10 @@
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Features"					, 	146, -72);
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "FrmEnabled"				,	"Manage frames"					, 	146, -92, 	true,	"If checked, you will be able to change the position and scale of the following frames:|n|n- Player frame|n- Target frame|n- Buffs frame|n- Widget top center frame|n- Timer bar")
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ClassColFrames"			, 	"Class colored frames"			,	146, -112, 	true,	"If checked, class coloring will be used in the player frame and target frame.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowPlayerChain"			, 	"Show player chain"				,	146, -132, 	true,	"If checked, you will be able to show a rare, elite or rare elite chain around the player frame.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowRaidToggle"			, 	"Raid frame toggle"				,	146, -152, 	true,	"If checked, the button to toggle the raid container frame will be shown just above the raid management frame (left side of the screen) instead of in the raid management frame itself.|n|nThis allows you to toggle the raid container frame without needing to open the raid management frame.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "CombatPlates"				, 	"Combat plates"					,	146, -172, 	true,	"If checked, enemy nameplates will be shown during combat and hidden when combat ends.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ClassIconPortraits"		, 	"Class icon portraits"			,	146, -132, 	true,	"If checked, class icons will be shown in the portrait frames.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowPlayerChain"			, 	"Show player chain"				,	146, -152, 	true,	"If checked, you will be able to show a rare, elite or rare elite chain around the player frame.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "ShowRaidToggle"			, 	"Raid frame toggle"				,	146, -172, 	true,	"If checked, the button to toggle the raid container frame will be shown just above the raid management frame (left side of the screen) instead of in the raid management frame itself.|n|nThis allows you to toggle the raid container frame without needing to open the raid management frame.")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "CombatPlates"				, 	"Combat plates"					,	146, -192, 	true,	"If checked, enemy nameplates will be shown during combat and hidden when combat ends.")
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Visibility"				, 	340, -72);
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoGryphons"				,	"Hide gryphons"					, 	340, -92, 	true,	"If checked, the main bar gryphons will not be shown.")

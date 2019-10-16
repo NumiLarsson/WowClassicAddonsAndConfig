@@ -286,11 +286,11 @@ VExRT = {
 	},
 	["Addon"] = {
 		["Version"] = 4060,
+		["Scale"] = 1,
 		["IconMiniMapTop"] = -75.2457596072784,
-		["PreVersion"] = 4060,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -27.1675479409472,
-		["Scale"] = 1,
+		["PreVersion"] = 4060,
 	},
 	["WhoPulled"] = {
 	},

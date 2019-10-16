@@ -1,5 +1,5 @@
 	-- Default Values
-	LFG113globals = { ["version"] = "Version 1.13.16", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019", ["update"] = "10/12/2019" }
+	LFG113globals = { ["version"] = "Version 1.13.19", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019", ["update"] = "10/15/2019" }
 
 	LFG113globals.oldBroadCastChannel = "ljkd98734ks"
 	LFG113globals.BroadCastChannel = "LFG113V04a"
@@ -23,6 +23,15 @@
 	--LFG113globals.BlockList = {
 		-- ["player"] = true
 	--}
+
+	LFG113globals.whispers = {
+		["decline"]		= "I'm sorry but Im not taking you on this adventure to {i}.", 
+		["accept"]		= "You can come along with us if you want to.",
+		["join"]		= "Level {l} {c} {r}",
+		["invite"]		= "I sent an invite to you to so you can join us to {t} {i}",
+		["guildInvite"]		= "I sent a Guild invite to you to so you can join us {t} {i}", 
+		["missingInformation"]	= "Please whisper me your level AND role eg. '60 tank/dps' or more specific 'level 60 warrior dps/tank'"
+	}
 
 	LFG113globals.defaultWhispers = {
 		["decline"]		= "I'm sorry but Im not taking you on this adventure to {i}.", 
