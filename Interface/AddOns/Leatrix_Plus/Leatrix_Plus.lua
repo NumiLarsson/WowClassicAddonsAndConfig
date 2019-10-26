@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 1.13.35 (16th October 2019)
+-- 	Leatrix Plus 1.13.36 (23rd October 2019)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "1.13.35"
+	LeaPlusLC["AddonVer"] = "1.13.36"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -351,6 +351,7 @@
 		LeaPlusLC:LockOption("TipModEnable", "MoveTooltipButton", true)				-- Manage tooltip
 		LeaPlusLC:LockOption("ShowCooldowns", "CooldownsButton", true)				-- Show cooldowns
 		LeaPlusLC:LockOption("FrmEnabled", "MoveFramesButton", true)				-- Manage frames
+		LeaPlusLC:LockOption("ClassColFrames", "ClassColFramesBtn", true)			-- Class colored frames
 		LeaPlusLC:LockOption("ShowPlayerChain", "ModPlayerChain", true)				-- Show player chain
 		LeaPlusLC:LockOption("SetWeatherDensity", "SetWeatherDensityBtn", false)	-- Set weather density
 		LeaPlusLC:LockOption("ViewPortEnable", "ModViewportBtn", true)				-- Enable viewport
@@ -1462,11 +1463,17 @@
 				local chain = LeaPlusLC["PlayerChainMenu"] -- Numeric value
 				-- Set chain style according to value
 				if chain == 1 then -- Rare
-					PlayerFrameTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-Rare.blp");
+					PlayerFrameTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-Rare.blp")
+					PlayerFrameTexture:SetTexCoord(1, .09375, 0, .78125)
+
 				elseif chain == 2 then -- Elite
-					PlayerFrameTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-Elite.blp");
+					PlayerFrameTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-Elite.blp")
+					PlayerFrameTexture:SetTexCoord(1, .09375, 0, .78125)
+
 				elseif chain == 3 then -- Rare Elite
-					PlayerFrameTexture:SetTexture("Interface\\TargetingFrame\\UI-TargetingFrame-Rare-Elite.blp");
+					PlayerFrameTexture:SetTexture("Interface\\AddOns\\Leatrix_Plus\\Leatrix_Plus.blp")
+					PlayerFrameTexture:SetTexCoord(1,.09375, 0, 0.390625)
+
 				end
 			end
 
@@ -1556,6 +1563,8 @@
 
 			-- Create background frame for player frame
 			local PlayFN = CreateFrame("FRAME", nil, PlayerFrame)
+			PlayFN:Hide()
+
 			PlayFN:SetWidth(TargetFrameNameBackground:GetWidth())
 			PlayFN:SetHeight(TargetFrameNameBackground:GetHeight())
 
@@ -1569,7 +1578,7 @@
 			local c = LeaPlusLC["RaidColors"][select(2, UnitClass("player"))]
 			if c then PlayFN.t:SetVertexColor(c.r, c.g, c.b) end
 
-			-- Create color function for target frame
+			-- Create color function for target and focus frames
 			local function TargetFrameCol()
 				if UnitIsPlayer("target") then
 					local c = LeaPlusLC["RaidColors"][select(2, UnitClass("target"))]
@@ -1577,13 +1586,75 @@
 				end
 			end
 
-			-- Set target frame on startup and when events fire
 			local ColTar = CreateFrame("FRAME")
-			ColTar:RegisterEvent("GROUP_ROSTER_UPDATE")
-			ColTar:RegisterEvent("PLAYER_TARGET_CHANGED")
-			ColTar:RegisterEvent("UNIT_FACTION")
-			ColTar:SetScript("OnEvent", TargetFrameCol)
-			TargetFrameCol()
+			ColTar:SetScript("OnEvent", TargetFrameCol) -- Events are registered if target option is enabled
+
+			-- Create configuration panel
+			local ClassFrame = LeaPlusLC:CreatePanel("Class Colored Frames", "ClassFrame")
+
+			LeaPlusLC:MakeTx(ClassFrame, "Settings", 16, -72)
+			LeaPlusLC:MakeCB(ClassFrame, "ClassColPlayer", "Show player frame in class color", 16, -92, false, "If checked, the player frame background will be shown in class color.")
+			LeaPlusLC:MakeCB(ClassFrame, "ClassColTarget", "Show target frame in class color", 16, -112, false, "If checked, the target frame background will be shown in class color.")
+
+			-- Help button hidden
+			ClassFrame.h:Hide()
+
+			-- Back button handler
+			ClassFrame.b:SetScript("OnClick", function() 
+				ClassFrame:Hide(); LeaPlusLC["PageF"]:Show(); LeaPlusLC["Page6"]:Show()
+				return
+			end)
+
+			-- Function to set class colored frames
+			local function SetClassColFrames()
+				-- Player frame
+				if LeaPlusLC["ClassColPlayer"] == "On" then
+					PlayFN:Show()
+				else
+					PlayFN:Hide()
+				end
+				-- Target frame
+				if LeaPlusLC["ClassColTarget"] == "On" then
+					ColTar:RegisterEvent("GROUP_ROSTER_UPDATE")
+					ColTar:RegisterEvent("PLAYER_TARGET_CHANGED")
+					ColTar:RegisterEvent("UNIT_FACTION")
+					TargetFrameCol()
+				else
+					ColTar:UnregisterAllEvents()
+					TargetFrame_CheckFaction(TargetFrame) -- Reset target frame colors
+				end
+			end
+
+			-- Run function when options are clicked and on startup
+			LeaPlusCB["ClassColPlayer"]:HookScript("OnClick", SetClassColFrames)
+			LeaPlusCB["ClassColTarget"]:HookScript("OnClick", SetClassColFrames)
+			SetClassColFrames()
+
+			-- Reset button handler
+			ClassFrame.r:SetScript("OnClick", function()
+
+				-- Reset checkboxes
+				LeaPlusLC["ClassColPlayer"] = "On"
+				LeaPlusLC["ClassColTarget"] = "On"
+
+				-- Update colors and refresh configuration panel
+				SetClassColFrames()
+				ClassFrame:Hide(); ClassFrame:Show()
+
+			end)
+
+			-- Show configuration panal when options panel button is clicked
+			LeaPlusCB["ClassColFramesBtn"]:SetScript("OnClick", function()
+				if IsShiftKeyDown() and IsControlKeyDown() then
+					-- Preset profile
+					LeaPlusLC["ClassColPlayer"] = "On"
+					LeaPlusLC["ClassColTarget"] = "On"
+					SetClassColFrames()
+				else
+					ClassFrame:Show()
+					LeaPlusLC:HideFrames()
+				end
+			end)
 
 		end
 
@@ -2465,7 +2536,7 @@
 			LeaPlusLC:MakeTx(weatherPanel, "Settings", 16, -72)
 			LeaPlusLC:MakeSL(weatherPanel, "WeatherLevel", "Drag to set the density of weather effects.", 0, 3, 1, 16, -92, "%.0f")
 
-			local weatherSliderTable = {"Very Low", "Low", "Medium", "High"}
+			local weatherSliderTable = {L["Very Low"], L["Low"], L["Medium"], L["High"]}
 
 			-- Function to set the weather density
 			local function SetWeatherFunc()
@@ -3779,8 +3850,8 @@
 		if LeaPlusLC["FrmEnabled"] == "On" then
 
 			-- Lock the player and target frames
-			PlayerFrame_SetLocked(true)
-			TargetFrame_SetLocked(true)
+			PlayerFrame:RegisterForDrag()
+			TargetFrame:RegisterForDrag()
 
 			-- Remove integrated movement functions to avoid conflicts
 			_G.PlayerFrame_ResetUserPlacedPosition = function() end
@@ -3830,16 +3901,10 @@
 				end
 				-- Set frame scale to saved value
 				_G[vf]:SetScale(LeaPlusDB["Frames"][vf]["Scale"])
-			end
-
-			-- Set cached status
-			local function LeaPlusFramesSaveCache(frame)
-				_G[frame]:SetMovable(true)
-				if frame == "PlayerFrame" or frame == "TargetFrame" then
-					_G[frame]:SetUserPlaced(true)
-				else
-					_G[frame]:SetUserPlaced(false)
-				end
+				-- Don't save frame position
+				_G[vf]:SetMovable(true)
+				_G[vf]:SetUserPlaced(true)
+				_G[vf]:SetDontSavePosition(true)
 			end
 
 			-- Set frames to manual values
@@ -3997,7 +4062,6 @@
 					v:SetMovable(true)
 					v:ClearAllPoints()
 					v:SetPoint(LeaPlusDB["Frames"][vf]["Point"], UIParent, LeaPlusDB["Frames"][vf]["Relative"], LeaPlusDB["Frames"][vf]["XOffset"], LeaPlusDB["Frames"][vf]["YOffset"])
-					LeaPlusFramesSaveCache(vf)
 				end
 			end
 
@@ -4110,7 +4174,6 @@
 					local vf = v:GetName()
 					if LeaPlusDB["Frames"][vf] then
 						if LeaPlusDB["Frames"][vf]["Point"] and LeaPlusDB["Frames"][vf]["Relative"] and LeaPlusDB["Frames"][vf]["XOffset"] and LeaPlusDB["Frames"][vf]["YOffset"] then
-							LeaPlusFramesSaveCache(vf)
 							_G[vf]:SetMovable(true)
 							_G[vf]:ClearAllPoints()
 							_G[vf]:SetPoint(LeaPlusDB["Frames"][vf]["Point"], UIParent, LeaPlusDB["Frames"][vf]["Relative"], LeaPlusDB["Frames"][vf]["XOffset"], LeaPlusDB["Frames"][vf]["YOffset"])
@@ -4163,7 +4226,6 @@
 						for k,v in pairs(FrameTable) do
 							local vf = v:GetName()
 							LeaPlusDB["Frames"][vf]["Point"], void, LeaPlusDB["Frames"][vf]["Relative"], LeaPlusDB["Frames"][vf]["XOffset"], LeaPlusDB["Frames"][vf]["YOffset"] = _G[vf]:GetPoint()
-							LeaPlusFramesSaveCache(vf)
 						end
 					else
 						-- Show Titan Panel screen adjust warning if Titan Panel is installed with screen adjust enabled
@@ -5697,6 +5759,40 @@
 		end
 
 		----------------------------------------------------------------------
+		-- Create panel in game options panel
+		----------------------------------------------------------------------
+
+		do
+
+			local interPanel = CreateFrame("FRAME")
+			interPanel.name = "Leatrix Plus"
+
+			local maintitle = LeaPlusLC:MakeTx(interPanel, "Leatrix Plus", 0, 0)
+			maintitle:SetFont(maintitle:GetFont(), 72)
+			maintitle:ClearAllPoints()
+			maintitle:SetPoint("TOP", 0, -72)
+
+			local subTitle = LeaPlusLC:MakeTx(interPanel, "curseforge.com/wow/addons/leatrix-plus-classic", 0, 0)
+			subTitle:SetFont(subTitle:GetFont(), 20)
+			subTitle:ClearAllPoints()
+			subTitle:SetPoint("BOTTOM", 0, 72)
+
+			local slashTitle = LeaPlusLC:MakeTx(interPanel, "/ltp", 0, 0)
+			slashTitle:SetFont(slashTitle:GetFont(), 72)
+			slashTitle:ClearAllPoints()
+			slashTitle:SetPoint("BOTTOM", subTitle, "TOP", 0, 40)
+
+			local pTex = interPanel:CreateTexture(nil, "BACKGROUND")
+			pTex:SetAllPoints()
+			pTex:SetTexture("Interface\\GLUES\\Models\\UI_MainMenu\\swordgradient2")
+			pTex:SetAlpha(0.2)
+			pTex:SetTexCoord(0, 1, 1, 0)
+
+			InterfaceOptions_AddCategory(interPanel)
+
+		end
+
+		----------------------------------------------------------------------
 		-- Final code for Player
 		----------------------------------------------------------------------
 
@@ -5758,33 +5854,130 @@
 		function LeaPlusLC:MediaFunc()
 
 			-- Create tables for list data and zone listing
-			local ListData, playlist = {}, {}, {}
+			local ListData, ZoneList, playlist = {}, {}, {}
 			local scrollFrame, willPlay, musicHandle, ZonePage, LastPlayed, LastFolder, TempFolder, HeadingOfClickedTrack, LastMusicHandle
 			local numButtons = 15
-			local uframe = CreateFrame("FRAME")
+			local prefol = "|cffffffaa{" .. L["right-click to go back"] .. "}"
+
+			-- These categories will not appear in random track selections
+			local randomBannedList = {L["Narration"], L["Cinematics"]}
 
 			-- Create a table for each heading
-			local ZoneList = {L["Music"], L["Random"], L["Search"], L["Movies"]}
+			ZoneList = {L["Zones"], L["Dungeons"], L["Various"], L["Random"], L["Search"], L["Movies"]}
 			for k, v in ipairs(ZoneList) do
 				ZoneList[v] = {}
 			end
 
-			-- Music table
-			ZoneList[L["Music"]] = Leatrix_Plus["Music"]
-			tinsert(ZoneList[L["Music"]], 1, "|cffffd800" .. L["Music"])
-			tinsert(ZoneList[L["Music"]], 2, "|cffffd800")
-			tinsert(ZoneList[L["Music"]], 3, "|cffffd800")
-
-			-- Movies table
-			ZoneList[L["Movies"]] = {L["Ten Years of Warcraft"] .. " |r(1)", L["World of Warcraft"] .. " |r(2)"}
-			tinsert(ZoneList[L["Movies"]], 1, "|cffffd800" .. L["Movies"])
-			tinsert(ZoneList[L["Movies"]], 2, "|cffffd800")
-			tinsert(ZoneList[L["Movies"]], 3, "|cffffd800")
+			-- Function to create a table for each zone
+			local function Zn(where, category, zone, tracklist)
+				tinsert(ZoneList[where], {category = category, zone = zone, tracks = tracklist})
+			end
 
 			-- Debug
-			-- ZoneList[L["Music"]] = {"|cffffd800" .. L["Music"], "|cffffd800", "|cffffd800", "citymusic/darnassus/darnassus intro.mp3#53183#3", "citymusic/darnassus/darnassus walking 1.mp3#53184#3", "citymusic/darnassus/darnassus walking 2.mp3#53185#3"}
+			-- Zn(L["Zones"], L["Eastern Kingdoms"], "Debug3", {"|cffffd800" .. L["Zones"] .. ": Debug2", "spells/absorbgethita.ogg#1", "spells/absorbgethitb.ogg#1",})
 
-			-- Give zone table a file level scope so slash command function can access it
+			-- Zones: Eastern Kingdoms
+			Zn(L["Zones"], L["Eastern Kingdoms"], "|cffffd800" .. L["Eastern Kingdoms"], {""})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Alterac Mountains"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Alterac Mountains"], prefol, "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland02.mp3#59", "zonemusic/cursedland/cursedland03.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/battle/battle06.mp3#62",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Arathi Highlands"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Arathi Highlands"], prefol, "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/mountain/daymountain01.mp3#120", "zonemusic/mountain/daymountain02.mp3#67", "zonemusic/mountain/daymountain03.mp3#80", "zonemusic/mountain/nightmountain01.mp3#64", "zonemusic/mountain/nightmountain02.mp3#63", "zonemusic/mountain/nightmountain03.mp3#69", "zonemusic/mountain/nightmountain04.mp3#64", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "musical moments/haunted/haunted01.mp3#62", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/battle/battle05.mp3#45", "musical moments/gloomy/gloomy01.mp3#36", "citymusic/stormwind/stormwind08-zone.mp3#77",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Badlands"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Badlands"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Blasted Lands"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Blasted Lands"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/battle/battle06.mp3#62",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Burning Steppes"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Burning Steppes"], prefol, "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Deadwind Pass"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Deadwind Pass"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "musical moments/haunted/haunted01.mp3#62", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Dun Morogh"]						, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Dun Morogh"], prefol, "zonemusic/mountain/daymountain01.mp3#120", "zonemusic/mountain/daymountain02.mp3#67", "zonemusic/mountain/daymountain03.mp3#80", "zonemusic/mountain/nightmountain01.mp3#64", "zonemusic/mountain/nightmountain02.mp3#63", "zonemusic/mountain/nightmountain03.mp3#69", "zonemusic/mountain/nightmountain04.mp3#64", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/tavernalliance/tavernalliance01.mp3#47", "zonemusic/tavernalliance/tavernalliance02.mp3#51",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Duskwood"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Duskwood"], prefol, "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "musical moments/haunted/haunted01.mp3#62", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Elwynn Forest"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Elwynn Forest"], prefol, "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "citymusic/stormwind/stormwind03-moment.mp3#70", "citymusic/stormwind/stormwind07-zone.mp3#87",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Eastern Plaguelands"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Eastern Plaguelands"], prefol, "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "musical moments/haunted/haunted01.mp3#62", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/undercity/undercity01-zone.mp3#67", "citymusic/undercity/undercity02-zone.mp3#86", "citymusic/undercity/undercity03-zone.mp3#76", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Hillsbrad Foothills"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Hillsbrad Foothills"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/undercity/undercity01-zone.mp3#67", "citymusic/undercity/undercity02-zone.mp3#86", "citymusic/undercity/undercity03-zone.mp3#76", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Hinterlands"]						, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Hinterlands"], prefol, "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Loch Modan"]						, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Loch Modan"], prefol, "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Redridge Mountains"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Redridge Mountains"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/tavernalliance/tavernalliance01.mp3#47", "zonemusic/tavernalliance/tavernalliance02.mp3#51", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Searing Gorge"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Searing Gorge"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Silverpine Forest"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Silverpine Forest"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "musical moments/haunted/haunted01.mp3#62", "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "musical moments/battle/battle04.mp3#36", "musical moments/battle/battle06.mp3#62",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Stranglethorn Vale"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Stranglethorn Vale"], prefol, "zonemusic/barrendry/daybarrendry03.mp3#55", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/zulgurubvoodoo.mp3#85",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Swamp of Sorrows"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Swamp of Sorrows"], prefol, "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Tirisfal Glades"]					, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Tirisfal Glades"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "musical moments/haunted/haunted01.mp3#62", "zonemusic/tavernhorde/tavernhorde03.mp3#47",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Westfall"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Westfall"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/plains/dayplains01.mp3#54", "zonemusic/plains/dayplains02.mp3#77", "zonemusic/plains/nightplains01.mp3#58", "zonemusic/plains/nightplains02.mp3#69",}) -- Mystery1:10
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Western Plaguelands"]				, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Western Plaguelands"], prefol, "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "musical moments/haunted/haunted01.mp3#62", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "musical moments/gloomy/gloomy01.mp3#36", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70",})
+			Zn(L["Zones"], L["Eastern Kingdoms"], L["Wetlands"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Wetlands"], prefol, "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/forest/dayforest01.mp3#56", "zonemusic/forest/dayforest02.mp3#73", "zonemusic/forest/dayforest03.mp3#65", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "musical moments/haunted/haunted01.mp3#62", "musical moments/haunted/haunted02.mp3#60", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/tavernalliance/tavernalliance01.mp3#47", "zonemusic/tavernalliance/tavernalliance02.mp3#51", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+
+			-- Zones: Kalimdor
+			Zn(L["Zones"], L["Kalimdor"], "|cffffd800", {""})
+			Zn(L["Zones"], L["Kalimdor"], "|cffffd800" .. L["Kalimdor"], {""})
+			Zn(L["Zones"], L["Kalimdor"], L["Ashenvale"]								, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Ashenvale"], prefol, "zonemusic/barrendry/daybarrendry03.mp3#55", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland02.mp3#59", "zonemusic/cursedland/cursedland03.mp3#64", "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "musical moments/magic/magic01-zone1.mp3#33", "musical moments/magic/magic01-zone2.mp3#39", "zonemusic/tavernhorde/tavernhorde01.mp3#48", "zonemusic/tavernhorde/tavernhorde02.mp3#39", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/battle/battle06.mp3#62", "citymusic/darnassus/warrior terrace.mp3#53",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Azshara"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Azshara"], prefol, "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "musical moments/haunted/haunted01.mp3#62", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/mountain/daymountain01.mp3#120", "zonemusic/mountain/daymountain02.mp3#67", "zonemusic/mountain/daymountain03.mp3#80", "zonemusic/mountain/nightmountain01.mp3#64", "zonemusic/mountain/nightmountain02.mp3#63", "zonemusic/mountain/nightmountain03.mp3#69", "zonemusic/mountain/nightmountain04.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "zonemusic/barrendry/daybarrendry03.mp3#55", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "musical moments/battle/battle05.mp3#45",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Barrens"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Barrens"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "citymusic/thunderbluff/thunderbluff walking 01.mp3#117", "citymusic/thunderbluff/thunderbluff walking 02.mp3#116", "citymusic/undercity/undercity01-zone.mp3#67", "citymusic/undercity/undercity02-zone.mp3#86", "citymusic/undercity/undercity03-zone.mp3#76", "zonemusic/tavernhorde/undead_dance.mp3#25", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "musical moments/battle/battle04.mp3#36", "musical moments/battle/battle06.mp3#62",})
+			Zn(L["Zones"], L["Kalimdor"], L["Darkshore"]								, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Darkshore"], prefol, "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "musical moments/haunted/haunted01.mp3#62", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",})
+			Zn(L["Zones"], L["Kalimdor"], L["Desolace"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Desolace"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "musical moments/battle/battle05.mp3#45", "musical moments/battle/battle06.mp3#62", "musical moments/gloomy/gloomy01.mp3#36", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/thunderbluff/thunderbluff walking 01.mp3#117", "citymusic/thunderbluff/thunderbluff walking 02.mp3#116", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "zonemusic/tavernhorde/tavernhorde01.mp3#48", "zonemusic/tavernhorde/tavernhorde02.mp3#39",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Durotar"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Durotar"], prefol, "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/tavernhorde/tavernhorde01.mp3#48", "zonemusic/tavernhorde/tavernhorde02.mp3#39", "zonemusic/plains/dayplains01.mp3#54", "zonemusic/plains/dayplains02.mp3#77", "zonemusic/plains/nightplains01.mp3#58", "zonemusic/plains/nightplains02.mp3#69", "citymusic/stormwind/stormwind08-zone.mp3#77",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Dustwallow Marsh"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Dustwallow Marsh"], prefol, "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "citymusic/stormwind/stormwind01-moment.mp3#55", "citymusic/stormwind/stormwind02-moment.mp3#36", "citymusic/stormwind/stormwind03-moment.mp3#70", "citymusic/stormwind/stormwind04-zone.mp3#62", "citymusic/stormwind/stormwind05-zone.mp3#61", "citymusic/stormwind/stormwind06-zone.mp3#54", "citymusic/stormwind/stormwind07-zone.mp3#87", "citymusic/stormwind/stormwind08-zone.mp3#77", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62",})
+			Zn(L["Zones"], L["Kalimdor"], L["Felwood"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Felwood"], prefol, "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland02.mp3#59", "zonemusic/cursedland/cursedland03.mp3#64", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90",})
+			Zn(L["Zones"], L["Kalimdor"], L["Feralas"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Feralas"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/thunderbluff/thunderbluff walking 01.mp3#117", "citymusic/thunderbluff/thunderbluff walking 02.mp3#116", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Moonglade"]								, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Moonglade"], prefol, "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/cursedland/cursedland02.mp3#59", "zonemusic/cursedland/cursedland03.mp3#64",})
+			Zn(L["Zones"], L["Kalimdor"], L["Mulgore"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Mulgore"], prefol, "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/plains/dayplains01.mp3#54", "zonemusic/plains/dayplains02.mp3#77", "zonemusic/plains/nightplains01.mp3#58", "zonemusic/plains/nightplains02.mp3#69", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",})
+			Zn(L["Zones"], L["Kalimdor"], L["Silithus"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Silithus"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Stonetalon Mountains"]						, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Stonetalon Mountains"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/forest/nightforest01.mp3#53", "zonemusic/forest/nightforest02.mp3#43", "zonemusic/forest/nightforest03.mp3#59", "zonemusic/forest/nightforest04.mp3#54", "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/tavernhorde/tavernhorde01.mp3#48", "zonemusic/tavernhorde/tavernhorde02.mp3#39", "citymusic/thunderbluff/thunderbluff walking 01.mp3#117", "citymusic/thunderbluff/thunderbluff walking 02.mp3#116", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",})
+			Zn(L["Zones"], L["Kalimdor"], L["Tanaris"]									, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Tanaris"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64",})
+			Zn(L["Zones"], L["Kalimdor"], L["Teldrassil"]								, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Teldrassil"], prefol, "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Thousand Needles"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Thousand Needles"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "citymusic/thunderbluff/thunderbluff walking 01.mp3#117", "citymusic/thunderbluff/thunderbluff walking 02.mp3#116", "citymusic/thunderbluff/thunderbluff walking 03.mp3#121", "zonemusic/plains/dayplains01.mp3#54", "zonemusic/plains/dayplains02.mp3#77", "zonemusic/plains/nightplains01.mp3#58", "zonemusic/plains/nightplains02.mp3#69",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Un'Goro Crater"]							, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Un'Goro Crater"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58", "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90",}) -- Mystery1:10
+			Zn(L["Zones"], L["Kalimdor"], L["Winterspring"]								, {	"|cffffd800" .. L["Zones"] .. ": " .. L["Winterspring"], prefol, "citymusic/darnassus/darnassus walking 1.mp3#85", "citymusic/darnassus/darnassus walking 2.mp3#69", "citymusic/darnassus/darnassus walking 3.mp3#68", "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "citymusic/gnomeragon/gnomeragon01-zone.mp3#65", "citymusic/gnomeragon/gnomeragon02-zone.mp3#65", "zonemusic/mountain/daymountain01.mp3#120", "zonemusic/mountain/daymountain02.mp3#67", "zonemusic/mountain/daymountain03.mp3#80", "zonemusic/mountain/nightmountain01.mp3#64", "zonemusic/mountain/nightmountain02.mp3#63", "zonemusic/mountain/nightmountain03.mp3#69", "zonemusic/mountain/nightmountain04.mp3#64", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70","zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/gloomy/gloomy01.mp3#36",}) -- Mystery1:10
+
+			-- Dungeons: World of Warcraft
+			Zn(L["Dungeons"], L["World of Warcraft"], "|cffffd800" .. L["World of Warcraft"], {""})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Ahn'Qiraj"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ahn'Qiraj"], prefol, "zonemusic/ahnqiraj/ahnqirajexteriorwalking1.mp3#67", "zonemusic/ahnqiraj/ahnqirajexteriorwalking2.mp3#85", "zonemusic/ahnqiraj/ahnqirajexteriorwalking3.mp3#58", "zonemusic/ahnqiraj/ahnqirajexteriorwalking4.mp3#59",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Blackfathom Deeps"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackfathom Deeps"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Blackrock Depths"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackrock Depths"], prefol, "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Blackwing Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Blackwing Lair"], prefol, "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Deadmines"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Deadmines"], prefol, "citymusic/orgrimmar/orgrimmar01-zone.mp3#69", "citymusic/orgrimmar/orgrimmar02-zone.mp3#62", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland03.mp3#64", "musical moments/battle/battle02.mp3#62", "musical moments/battle/battle06.mp3#62", "citymusic/orgrimmar/orgrimmar02-moment.mp3#62", "musical moments/spooky/spooky01-moment.mp3#26",}) -- Mystery1:10
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Dire Maul"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Dire Maul"], prefol, "zonemusic/enchantedforest/enchantedforest01.mp3#50", "zonemusic/enchantedforest/enchantedforest02.mp3#67", "zonemusic/enchantedforest/enchantedforest03.mp3#235", "zonemusic/enchantedforest/enchantedforest04.mp3#61", "zonemusic/enchantedforest/enchantedforest05.mp3#71", "musical moments/spooky/spooky01-moment.mp3#26", "musical moments/gloomy/gloomy01.mp3#36",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Gnomeregan"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Gnomeregan"], prefol, "citymusic/gnomeragon/gnomeragon01-zone.mp3#65", "citymusic/gnomeragon/gnomeragon02-zone.mp3#65",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Maraudon"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Maraudon"], prefol, "zonemusic/barrendry/daybarrendry01.mp3#64", "zonemusic/barrendry/daybarrendry02.mp3#64", "zonemusic/barrendry/daybarrendry03.mp3#55", "zonemusic/barrendry/nightbarrendry01.mp3#67", "zonemusic/barrendry/nightbarrendry02.mp3#41", "zonemusic/barrendry/nightbarrendry03.mp3#47", "zonemusic/soggyplace/soggyplace-zone2.mp3#98", "zonemusic/soggyplace/soggyplace-zone5.mp3#70", "zonemusic/soggyplace/soggyplace-zone1.mp3#97", "zonemusic/soggyplace/soggyplace-zone3.mp3#91", "zonemusic/soggyplace/soggyplace-zone4.mp3#90", "musical moments/battle/battle02.mp3#62",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Molten Core"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Molten Core"], prefol, "musical moments/battle/battle01.mp3#48", "musical moments/battle/battle02.mp3#62", "musical moments/battle/battle03.mp3#27", "musical moments/battle/battle04.mp3#36", "musical moments/battle/battle05.mp3#45", "musical moments/battle/battle06.mp3#62",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Naxxramas"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Naxxramas"], prefol, "zonemusic/naxxramas/naxxramaswalking1.mp3#102", "zonemusic/naxxramas/naxxramaswalking2.mp3#72", "zonemusic/naxxramas/naxxramaswalking3.mp3#87", "zonemusic/naxxramas/naxxramaswalking4.mp3#82", "zonemusic/naxxramas/naxxramaswalking5.mp3#100", "zonemusic/naxxramas/naxxramaswalking6.mp3#99", "zonemusic/naxxramas/naxxramasabominationboss1.mp3#61", "zonemusic/naxxramas/naxxramasabominationboss2.mp3#67", "zonemusic/naxxramas/naxxramasabominationwing1.mp3#61", "zonemusic/naxxramas/naxxramasabominationwing2.mp3#67", "zonemusic/naxxramas/naxxramasabominationwing3.mp3#61", "zonemusic/naxxramas/naxxramasspiderwing1.mp3#89", "zonemusic/naxxramas/naxxramasspiderwing2.mp3#67", "zonemusic/naxxramas/naxxramasspiderwing3.mp3#47", "zonemusic/naxxramas/naxxramasplagueboss1.mp3#87", "zonemusic/naxxramas/naxxramasplaguewing1.mp3#88", "zonemusic/naxxramas/naxxramasplaguewing2.mp3#72", "zonemusic/naxxramas/naxxramasplaguewing3.mp3#77", "zonemusic/naxxramas/naxxramasspiderboss1.mp3#60", "zonemusic/naxxramas/naxxramasspiderboss2.mp3#64", "zonemusic/naxxramas/naxxramaskelthuzad1.mp3#95", "zonemusic/naxxramas/naxxramaskelthuzad2.mp3#97", "zonemusic/naxxramas/naxxramaskelthuzad3.mp3#76", "zonemusic/naxxramas/naxxramasfrostwyrm1.mp3#58", "zonemusic/naxxramas/naxxramasfrostwyrm2.mp3#82", "zonemusic/naxxramas/naxxramasfrostwyrm3.mp3#62", "zonemusic/naxxramas/naxxramasfrostwyrm4.mp3#60",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Onyxia's Lair"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Onyxia's Lair"], prefol, "zonemusic/barrendry/daybarrendry03.mp3#55",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Razorfen Downs"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Razorfen Downs"], prefol, "citymusic/undercity/undercity01-zone.mp3#67", "citymusic/undercity/undercity02-zone.mp3#86", "citymusic/undercity/undercity03-zone.mp3#76", "zonemusic/tavernhorde/undead_dance.mp3#25",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Scarlet Monastery"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scarlet Monastery"], prefol, "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", })
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Scholomance"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Scholomance"], prefol, "musical moments/haunted/haunted01.mp3#62",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Shadowfang Keep"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Shadowfang Keep"], prefol, "zonemusic/evilforest/dayevilforest01.mp3#71", "zonemusic/evilforest/dayevilforest02.mp3#72", "zonemusic/evilforest/dayevilforest03.mp3#71", "zonemusic/evilforest/nightevilforest01.mp3#57", "zonemusic/evilforest/nightevilforest02.mp3#76", "zonemusic/evilforest/nightevilforest03.mp3#71", "musical moments/battle/battle01.mp3#48", "musical moments/battle/battle02.mp3#62", "musical moments/battle/battle04.mp3#36",}) -- Mystery1:10
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Stockade"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stockade"], prefol, "ambience/wmoambience/stormwindjail.ogg#60",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Stratholme"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Stratholme"], prefol, "citymusic/undercity/undercity01-zone.mp3#67", "citymusic/undercity/undercity02-zone.mp3#86", "citymusic/undercity/undercity03-zone.mp3#76",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Temple of Atal'Hakkar"]		, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Temple of Atal'Hakkar"], prefol, "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Uldaman"]						, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Uldaman"], prefol, "zonemusic/volcanic/dayvolcanic01.mp3#73", "zonemusic/volcanic/dayvolcanic02.mp3#87", "zonemusic/volcanic/nightvolcanic01.mp3#71", "zonemusic/volcanic/nightvolcanic02.mp3#64", "musical moments/battle/battle02.mp3#62", })
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Wailing Caverns"]				, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Wailing Caverns"], prefol, "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Zul'Farrak"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Farrak"], prefol, "zonemusic/desert/daydesert01.mp3#66", "zonemusic/desert/daydesert02.mp3#81", "zonemusic/desert/daydesert03.mp3#54", "zonemusic/desert/nightdesert01.mp3#78", "zonemusic/desert/nightdesert02.mp3#62", "zonemusic/desert/nightdesert03.mp3#58",})
+			Zn(L["Dungeons"], L["World of Warcraft"], L["Zul'Gurub"]					, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Zul'Gurub"], prefol, "zonemusic/jungle/dayjungle01.mp3#46", "zonemusic/jungle/dayjungle02.mp3#99", "zonemusic/jungle/dayjungle03.mp3#48", "zonemusic/jungle/nightjungle01.mp3#55", "zonemusic/jungle/nightjungle02.mp3#53", "zonemusic/jungle/nightjungle03.mp3#89", "musical moments/zulgurubvoodoo.mp3#85",})
+			-- Zn(L["Dungeons"], L["World of Warcraft"], L["Ragefire Chasm"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Ragefire Chasm"], prefol, })
+			-- Zn(L["Dungeons"], L["World of Warcraft"], L["Razorfen Kraul"]			, {	"|cffffd800" .. L["Dungeons"] .. ": " .. L["Razorfen Kraul"], prefol, })
+
+			-- Various
+			Zn(L["Various"], L["Various"], "|cffffd800" .. L["Various"], {""})
+			Zn(L["Various"], L["Various"], L["Battlegrounds"]							, {	"|cffffd800" .. L["Various"] .. ": " .. L["Battlegrounds"], prefol, "zonemusic/pvp/pvp1.mp3#47", "zonemusic/pvp/pvp2.mp3#53", "zonemusic/pvp/pvp3.mp3#40", "zonemusic/pvp/pvp4.mp3#63", "zonemusic/pvp/pvp5.mp3#62", "zonemusic/cursedland/cursedland01.mp3#55", "zonemusic/cursedland/cursedland02.mp3#59", "zonemusic/cursedland/cursedland03.mp3#64", "zonemusic/cursedland/cursedland04.mp3#79", "zonemusic/cursedland/cursedland05.mp3#83", "zonemusic/cursedland/cursedland06.mp3#74", "musical moments/gloomy/gloomy01.mp3#36",}) -- Mystery1:10
+			Zn(L["Various"], L["Various"], L["Cinematics"]								, {	"|cffffd800" .. L["Various"] .. ": " .. L["Cinematics"], prefol, "|cffffd800", "|cffffd800" .. L["World of Warcraft"], "cinematics/logo.mp3#27", "cinematics/wow_intro.mp3#170",}) -- movie.dbc
+			Zn(L["Various"], L["Various"], L["Credits"]									, {	"|cffffd800" .. L["Various"] .. ": " .. L["Credits"], prefol, "citymusic/stormwind/stormwind_intro-moment.mp3#67",})
+			Zn(L["Various"], L["Various"], L["Events"]									, {	"|cffffd800" .. L["Various"] .. ": " .. L["Events"], prefol, 
+				"|cffffd800", "|cffffd800" .. L["Darkmoon Faire"], "worldevents/darkmoonfaire_1.mp3#29", "worldevents/darkmoonfaire_2.mp3#74", "worldevents/darkmoonfaire_3.mp3#59", "worldevents/darkmoonfaire_4.mp3#38",
+			})
+			Zn(L["Various"], L["Various"], L["Main Titles"]								, {	"|cffffd800" .. L["Various"] .. ": " .. L["Main Titles"], prefol, "gluescreenmusic/wow_main_theme.mp3#161",})
+			Zn(L["Various"], L["Various"], L["Musical Moments"]							, {	"|cffffd800" .. L["Various"] .. ": " .. L["Musical Moments"], prefol, 
+				"|cffffd800", "|cffffd800" .. L["Angelic"],	"musical moments/angelic/angelic01.mp3#48",
+				"|cffffd800", "|cffffd800" .. L["Battle"], "musical moments/battle/battle01.mp3#48", "musical moments/battle/battle02.mp3#62", "musical moments/battle/battle03.mp3#27", "musical moments/battle/battle04.mp3#36", "musical moments/battle/battle05.mp3#45", "musical moments/battle/battle06.mp3#62",
+				"|cffffd800", "|cffffd800" .. L["Gloomy"], "musical moments/gloomy/gloomy01.mp3#36", "musical moments/gloomy/gloomy02.mp3#40",
+				"|cffffd800", "|cffffd800" .. L["Haunted"],	"musical moments/haunted/haunted01.mp3#62",	"musical moments/haunted/haunted02.mp3#60",
+				"|cffffd800", "|cffffd800" .. L["Magic"], "musical moments/magic/magic01-moment.mp3#64", -- "musical moments/magic/magic01-zone1.mp3#33", "musical moments/magic/magic01-zone2.mp3#39",
+				"|cffffd800", "|cffffd800" .. L["Mystery"], "musical moments/mystery/mystery01-zone.mp3#61", "musical moments/mystery/mystery02-zone.mp3#54", "musical moments/mystery/mystery03-zone.mp3#61", "musical moments/mystery/mystery04-zone.mp3#64", "musical moments/mystery/mystery05-zone.mp3#82", "musical moments/mystery/mystery06-zone.mp3#65", "musical moments/mystery/mystery07-zone.mp3#83", "musical moments/mystery/mystery08-zone.mp3#83", "musical moments/mystery/mystery09-zone.mp3#82", "musical moments/mystery/mystery10-zone.mp3#62",
+				"|cffffd800", "|cffffd800" .. L["Sacred"], "musical moments/sacred/sacred01.mp3#16", "musical moments/sacred/sacred02.mp3#19",
+				"|cffffd800", "|cffffd800" .. L["Spooky"], "musical moments/spooky/spooky01-moment.mp3#26",
+				"|cffffd800", "|cffffd800" .. L["Swamp"], "musical moments/swamp/swamp01.mp3#35",
+				"|cffffd800", "|cffffd800" .. L["Various"], "musical moments/mystery/ahnqirajintro1.mp3#144", "musical moments/zulgurubvoodoo.mp3#85",
+			})
+			Zn(L["Various"], L["Various"], L["Narration"]								, {	"|cffffd800" .. L["Various"] .. ": " .. L["Narration"], prefol, "cinematicvoices/dwarfnarration.mp3#62", "cinematicvoices/gnomenarration.mp3#78", "cinematicvoices/humannarration.mp3#88", "cinematicvoices/nightelfnarration.mp3#108", "cinematicvoices/orcnarration.mp3#72", "cinematicvoices/taurennarration.mp3#75", "cinematicvoices/trollnarration.mp3#64", "cinematicvoices/undeadnarration.mp3#104",})
+
+			-- Movies
+			Zn(L["Movies"], L["Movies"], "|cffffd800" .. L["Movies"], {""})
+			Zn(L["Movies"], L["Movies"], L["World of Warcraft"]							, {	"|cffffd800" .. L["Movies"] .. ": " .. L["World of Warcraft"], prefol, L["Ten Years of Warcraft"] .. " |r(1)", L["World of Warcraft"] .. " |r(2)"})
+
+			-- Give zone table a file level scope (its used in search)
 			LeaPlusLC["ZoneList"] = ZoneList
 
 			-- Show relevant list items
@@ -5795,8 +5988,8 @@
 					local button = scrollFrame.buttons[index]
 					button.index = offset
 					if offset <= #ListData then
-						-- Show track listing
-						button:SetText(ListData[offset])
+						-- Show zone listing or track listing
+						button:SetText(ListData[offset].zone or ListData[offset])
 						-- Set width of highlight texture
 						if button:GetTextWidth() > 290 then
 							button.t:SetSize(290, 16)
@@ -5815,6 +6008,10 @@
 							if HeadingOfCurrentFolder == HeadingOfClickedTrack then
 								button.s:Show()
 							end
+						end
+						-- Show last played folder highlight bar texture
+						if LastFolder == button:GetText() then
+							button.s:Show()
 						end
 						-- Set width of highlight bar
 						if button:GetTextWidth() > 290 then
@@ -5839,6 +6036,23 @@
 
 			-- Give function file level scope (it's used in SetPlusScale to set the highlight bar scale)
 			LeaPlusLC.UpdateList = UpdateList
+
+			-- Right-button click to go back
+			local function BackClick()
+				-- Return to the current zone list (back button)
+				if type(ListData[1]) == "string" then
+					-- Strip the color code from the list data
+					local nocol = string.gsub(ListData[1], "|cffffd800", "")
+					-- Strip the zone
+					local backzone = strsplit(":", nocol, 2)
+					-- Don't go back if random or search category is being shown
+					if backzone == L["Random"] or backzone == L["Search"] then return end
+					-- Show the tracklist continent 
+					if ZoneList[backzone] then ListData = ZoneList[backzone] end
+					UpdateList()
+					scrollFrame:SetVerticalScroll(ZonePage or 0)
+				end
+			end
 
 			-- Function to make navigation menu buttons
 			local function MakeButton(where, y)
@@ -5882,10 +6096,6 @@
 				mbtn:SetScript("OnClick", function()
 					-- Show zone listing for clicked item
 					ListData = ZoneList[where]
-					-- Show results count for Music and Movies
-					if where == L["Music"] or where == L["Movies"] then
-						ListData[2] = "|cffffffaa{" .. #ZoneList[where] - 3 .. " " .. L["results"] .. "}"
-					end
 					UpdateList()
 				end)
 
@@ -5903,7 +6113,7 @@
 			local function MakeButtonNow(title, anchor)
 				conbtn[title], conbtn[title].s = MakeButton(title, height)
 				conbtn[title]:ClearAllPoints()
-				if title == L["Music"] then
+				if title == L["Zones"] then
 					-- Set first button position
 					conbtn[title]:SetPoint("TOPLEFT", LeaPlusLC["Page9"], "TOPLEFT", 145, -70)
 				elseif anchor then
@@ -5913,8 +6123,10 @@
 				end
 			end
 
-			MakeButtonNow(L["Music"])
-			MakeButtonNow(L["Movies"], L["Music"])
+			MakeButtonNow(L["Zones"])
+			MakeButtonNow(L["Dungeons"], L["Zones"])
+			MakeButtonNow(L["Various"], L["Dungeons"])
+			MakeButtonNow(L["Movies"], L["Various"])
 			MakeButtonNow(L["Random"], L["Movies"])
 			MakeButtonNow(L["Search"]) -- Positioned when search editbox is created
 
@@ -5932,8 +6144,9 @@
 						conbtn[w].s:Show()
 						LeaPlusDB["MusicContinent"] = w
 						scrollFrame:SetVerticalScroll(0)
-						-- Set TempFolder to clicked button
-						TempFolder = L[w]
+						-- Set TempFolder for listings without folders
+						if w == L["Random"] then TempFolder = L["Random"] end
+						if w == L["Search"] then TempFolder = L["Search"] end
 					end)
 				end
 			end
@@ -5962,10 +6175,8 @@
 				end
 				-- Cancel sound file music timer
 				if LeaPlusLC.TrackTimer then LeaPlusLC.TrackTimer:Cancel() end
-				-- Lock button and unregister next track events
+				-- Lock button
 				LeaPlusLC:LockItem(stopBtn, true)
-				uframe:UnregisterEvent("SOUNDKIT_FINISHED")
-				uframe:UnregisterEvent("LOADING_SCREEN_DISABLED")
 			end)
 
 			-- Store currently playing track number
@@ -5975,21 +6186,23 @@
 			local function PlayTrack()
 				-- Play tracks
 				if musicHandle then StopSound(musicHandle) end
-				local file, soundID, trackTime
-				if playlist[tracknumber]:match("([^,]+)%#([^,]+)%#([^,]+)") then
+				local file, trackTime
+				if strfind(playlist[tracknumber], "#") then
 					-- Music file with track time
-					file, soundID, trackTime = playlist[tracknumber]:match("([^,]+)%#([^,]+)%#([^,]+)")
-					--willPlay, musicHandle = PlaySoundFile(soundID, "Master", false, true)
-					-- Play the track (adds the sound/music/ prefix removed in sounds file)
-					willPlay, musicHandle = PlaySoundFile(gsub("sound/music/" .. file, "|C.-|r", ""), "Master", false, true)
-				else
-					-- Sound kit without track time
-					file, soundID = playlist[tracknumber]:match("([^,]+)%#([^,]+)")
-					willPlay, musicHandle = PlaySound(soundID, "Master", false, true)
+					file, trackTime = playlist[tracknumber]:match("([^,]+)%#([^,]+)")
+					local cleanFile = file:gsub("(|C%a%a%a%a%a%a%a%a)[^|]*(|r)", "") -- Remove color tags
+					if strfind(file, "cinematics/") then
+						cleanFile = "interface/" .. cleanFile
+					elseif strfind(file, "cinematicvoices/") or strfind(file, "ambience/") or strfind(file, "spells/") then
+						cleanFile = "sound/" .. cleanFile
+					else
+						cleanFile = "sound/music/" .. cleanFile
+					end
+					willPlay, musicHandle = PlaySoundFile(cleanFile, "Master", false, true)
 				end
 				-- Cancel existing music timer for a sound file
 				if LeaPlusLC.TrackTimer then LeaPlusLC.TrackTimer:Cancel() end
-				if playlist[tracknumber]:match("([^,]+)%#([^,]+)%#([^,]+)") then
+				if strfind(playlist[tracknumber], "#") then
 					-- Track is a sound file with track time so create track timer
 					LeaPlusLC.TrackTimer = C_Timer.NewTimer(trackTime + 1, function()
 						if musicHandle then StopSound(musicHandle) end
@@ -6009,18 +6222,7 @@
 					local button = scrollFrame.buttons[index]
 					local item = button:GetText()
 					if item then
-						if item:match("([^,]+)%#([^,]+)%#([^,]+)") then
-							-- Music file with track time
-							local item, void, void = item:match("([^,]+)%#([^,]+)%#([^,]+)")
-							if item then
-								if item == file and LastFolder == TempFolder then
-									button.s:Show()
-								else
-									button.s:Hide()
-								end
-							end
-						else
-							-- Sound kit without track time
+						if strfind(item, "#") then
 							local item, void = item:match("([^,]+)%#([^,]+)")
 							if item then
 								if item == file and LastFolder == TempFolder then
@@ -6049,7 +6251,7 @@
 						if w == L["Search"] then
 							ListData[1] = "|cffffd800" .. L["Search"]
 							if #ListData == 1 then 
-								ListData[2] = "|cffffffaa{" .. L["enter music or movie name"] .. "}"
+								ListData[2] = "|cffffffaa{" .. L["enter zone or track name"] .. "}"
 							end
 							UpdateList()
 						else
@@ -6069,7 +6271,7 @@
 				ListData[1] = "|cffffd800" .. L["Search"]
 				-- Show the subheading only if no search results are being shown
 				if searchText == "" then
-					ListData[2] = "|cffffffaa{" .. L["enter music or movie name"] .. "}"
+					ListData[2] = "|cffffffaa{" .. L["enter zone or track name"] .. "}"
 				else
 					ListData[2] = ""
 				end
@@ -6079,23 +6281,35 @@
 					RunScript('LeaPlusGlobalHash = {}')
 					local hash = LeaPlusGlobalHash
 					local trackCount = 0
-					for a, b in pairs({L["Music"], L["Movies"]}) do
-						for k, v in pairs(ZoneList[b]) do
-							if (strfind(v, "#") or strfind(v, "|r")) and (strfind(strlower(v), word1) or strfind(strlower(b), word1)) then
-								if not word2 or word2 ~= "" and (strfind(strlower(v), word2) or strfind(strlower(b), word2)) then
-									if not word3 or word3 ~= "" and (strfind(strlower(v), word3) or strfind(strlower(b), word3)) then
-										if not word4 or word4 ~= "" and (strfind(strlower(v), word4) or strfind(strlower(b), word4)) then
-											if not word5 or word5 ~= "" and (strfind(strlower(v), word5) or strfind(strlower(b), word5)) then
-												-- Show category
-												if not hash[b] then
-													tinsert(ListData, "|cffffffff")
-													tinsert(ListData, "|cffffd800" .. b)
-													hash[b] = true
+					for i, e in pairs(LeaPlusLC.ZoneList) do
+						if LeaPlusLC.ZoneList[e] then
+							for a, b in pairs(LeaPlusLC.ZoneList[e]) do
+								if b.tracks then
+									for k, v in pairs(b.tracks) do
+										if (strfind(v, "#") or strfind(v, "|r")) and (strfind(strlower(v), word1) or strfind(strlower(b.zone), word1) or strfind(strlower(b.category), word1)) then
+											if not word2 or word2 ~= "" and (strfind(strlower(v), word2) or strfind(strlower(b.zone), word2) or strfind(strlower(b.category), word2)) then
+												if not word3 or word3 ~= "" and (strfind(strlower(v), word3) or strfind(strlower(b.zone), word3) or strfind(strlower(b.category), word3)) then
+													if not word4 or word4 ~= "" and (strfind(strlower(v), word4) or strfind(strlower(b.zone), word4) or strfind(strlower(b.category), word4)) then
+														if not word5 or word5 ~= "" and (strfind(strlower(v), word5) or strfind(strlower(b.zone), word5) or strfind(strlower(b.category), word5)) then
+															-- Show category
+															if not hash[b.category] then
+																tinsert(ListData, "|cffffffff")
+																if b.category == e then
+																	-- No category so just show ZoneList entry (such as Various)
+																	tinsert(ListData, "|cffffd800" .. e)
+																else
+																	-- Category exists so show that
+																	tinsert(ListData, "|cffffd800" .. e .. ": " .. b.category)
+																end
+																hash[b.category] = true
+															end
+															-- Show track
+															tinsert(ListData, "|Cffffffaa" .. b.zone .. " |r" .. v)
+															trackCount = trackCount + 1
+															hash[v] = true
+														end
+													end
 												end
-												-- Show track
-												tinsert(ListData, v)
-												trackCount = trackCount + 1
-												hash[v] = true
 											end
 										end
 									end
@@ -6145,22 +6359,29 @@
 				if LastFolder == L["Random"] then 
 					stopBtn:Click()
 				end
+				-- Create duplicate check table
+				local dupCheck = {}
 				-- Wipe the track listing for random
 				wipe(ListData)
 				-- Set the track list heading
 				ListData[1] = "|cffffd800" .. L["Random"]
-				ListData[2] = "|Cffffffaa{" .. L["click here to shuffle music"] .. "}" -- Must be capital |C
+				ListData[2] = "|Cffffffaa{" .. L["click here for new selection"] .. "}" -- Must be capital |C
 				ListData[3] = "|cffffd800"
-				ListData[4] = "|cffffd800" .. L["Music"] -- Must be lower case |c
+				ListData[4] = "|cffffd800" .. L["Selection of music tracks"] -- Must be lower case |c
 				-- Populate list data until it contains desired number of tracks
-				while #ListData < #ZoneList[L["Music"]] do
+				while #ListData < 50 do
 					-- Get random category
-					local rCategory = GetRandomArgument(L["Music"])
+					local rCategory = GetRandomArgument(L["Zones"], L["Dungeons"], L["Various"])
+					-- Get random zone within category
+					local rZone = random(1, #ZoneList[rCategory])
 					-- Get random track within zone
-					local rTrack = ZoneList[rCategory][random(1, #ZoneList[L["Music"]])]
-					-- Insert track into ListData if it's not a duplicate
-					if rTrack and rTrack ~= "" and strfind(rTrack, "#") and not tContains(ListData, rTrack) then
-						tinsert(ListData, rTrack)
+					local rTrack = ZoneList[rCategory][rZone].tracks[random(1, #ZoneList[rCategory][rZone].tracks)]
+					-- Insert track into ListData if it's not a duplicate or on the banned list
+					if rTrack and rTrack ~= "" and strfind(rTrack, "#") and not tContains(dupCheck, rTrack) then
+						if not tContains(randomBannedList, L[ZoneList[rCategory][rZone].zone]) and not tContains(randomBannedList, rTrack) then
+							tinsert(ListData, "|Cffffffaa" .. ZoneList[rCategory][rZone].zone .. " |r" .. rTrack)
+							tinsert(dupCheck, rTrack)
+						end
 					end
 				end
 				-- Refresh the track listing
@@ -6223,24 +6444,6 @@
 
 				button:RegisterForClicks("LeftButtonUp", "RightButtonUp")
 
-				-- Handler for playing next SoundKit track in playlist
-				uframe:SetScript("OnEvent", function(self, event, stoppedHandle)
-					if event == "SOUNDKIT_FINISHED" then
-						-- Do nothing if stopped sound kit handle doesnt match last played track handle
-						if LastMusicHandle and LastMusicHandle ~= stoppedHandle then return end
-						-- Reset track number if playlist has reached the end
-						if tracknumber == #playlist then tracknumber = 1 end
-						-- Play next track
-						PlayTrack()
-					elseif event == "LOADING_SCREEN_DISABLED" then
-						-- Restart player if it stopped between tracks during loading screen
-						if playlist and tracknumber and playlist[tracknumber] and not willPlay and not musicHandle then
-							tracknumber = tracknumber - 1
-							C_Timer.After(0.1, PlayTrack)
-						end
-					end
-				end)
-
 				-- Click handler for track, zone and back button
 				button:SetScript("OnClick", function(self, btn)
 					if btn == "LeftButton" then
@@ -6250,7 +6453,7 @@
 						local item = self:GetText()
 						-- Do nothing if its a blank line or informational heading
 						if not item or strfind(item, "|c") then return end
-						if item == "|Cffffffaa{" .. L["click here to shuffle music"] .. "}" then -- must be capital |C
+						if item == "|Cffffffaa{" .. L["click here for new selection"] .. "}" then -- must be capital |C
 							-- Create new random track listing
 							ShowRandomList()
 							return
@@ -6287,8 +6490,10 @@
 							end
 							-- Enable the stop button
 							LeaPlusLC:LockItem(stopBtn, false)
-							-- Set Temp Folder to currently playing folder
-							TempFolder = L[gsub(ListData[1], "|cffffd800", "")]
+							-- Set Temp Folder to Random if track is in Random
+							if ListData[1] == "|cffffd800" .. L["Random"] then TempFolder = L["Random"] end
+							-- Set Temp Folder to Search if track is in Search
+							if ListData[1] == "|cffffd800" .. L["Search"] then TempFolder = L["Search"] end
 							-- Store information about the track we are about to play
 							tracknumber = 1
 							LastPlayed = item
@@ -6296,9 +6501,6 @@
 							HeadingOfClickedTrack = ListData[1]
 							-- Play first track
 							PlayTrack()
-							-- Play subsequent tracks (commented out for now because sound kits are not used)
-							-- uframe:RegisterEvent("SOUNDKIT_FINISHED")
-							-- uframe:RegisterEvent("LOADING_SCREEN_DISABLED")
 							return
 						elseif strfind(item, "|r") then
 							-- A movie was clicked
@@ -6311,11 +6513,45 @@
 								LeaPlusLC:Print("Movie not playable.")
 							end
 							return
+						else
+							-- A zone was clicked so show track listing
+							ZonePage = scrollFrame:GetVerticalScroll()
+							-- Find the track listing for the clicked zone
+							for q, w in pairs(ZoneList) do
+								for k, v in pairs(ZoneList[w]) do
+									if item == v.zone then
+										-- Show track listing
+										TempFolder = item
+										LeaPlusDB["MusicZone"] = item
+										ListData = v.tracks
+										UpdateList()
+										-- Hide hover highlight if track under pointer is a heading
+										if strfind(scrollFrame.buttons[i]:GetText(), "|c") then
+											scrollFrame.buttons[i].t:Hide()
+										end
+										-- Show top of track list
+										scrollFrame:SetVerticalScroll(0)
+										return
+									end
+								end	
+							end
 						end
+					elseif btn == "RightButton" then
+						-- Back button was clicked
+						BackClick()
 					end
 				end)
 
 			end
+
+			-- Right-click to go back (from anywhere on the main content area of the panel)
+			LeaPlusLC["PageF"]:HookScript("OnMouseUp", function(self, btn)
+				if LeaPlusLC["Page9"]:IsShown() and LeaPlusLC["Page9"]:IsMouseOver(0, 0, 0, -440) == false and LeaPlusLC["Page9"]:IsMouseOver(-330, 0, 0, 0) == false then 
+					if btn == "RightButton" then
+						BackClick()
+					end
+				end
+			end)
 
 			-- Delete the global scroll frame pointer
 			_G.LeaPlusScrollFrame = nil
@@ -6328,11 +6564,11 @@
 					conbtn[LeaPlusDB["MusicContinent"]]:Click()
 				else
 					-- Saved continent is not valid button so click default button
-					conbtn[L["Music"]]:Click()
+					conbtn[L["Zones"]]:Click()
 				end
 			else
 				-- Saved music continent does not exist so click default button
-				conbtn[L["Music"]]:Click()
+				conbtn[L["Zones"]]:Click()
 			end
 			UpdateList()
 
@@ -6462,8 +6698,11 @@
 		local InvPanel = LeaPlusLC:CreatePanel("Invite From Whispers", "InvPanel")
 
 		-- Add editbox
-		LeaPlusLC:MakeTx(InvPanel, "Keyword", 16, -72)
-		local KeyBox = LeaPlusLC:CreateEditBox("KeyBox", InvPanel, 140, 10, "TOPLEFT", 20, -92, "KeyBox", "KeyBox")
+		LeaPlusLC:MakeTx(InvPanel, "Settings", 16, -72)
+		LeaPlusLC:MakeCB(InvPanel, "InviteFriendsOnly", "Restrict to friends and guild members", 16, -92, false, "If checked, group invites will only be sent to friends and guild members.|n|nIf unchecked, group invites will be sent to everyone.")
+
+		LeaPlusLC:MakeTx(InvPanel, "Keyword", 356, -72)
+		local KeyBox = LeaPlusLC:CreateEditBox("KeyBox", InvPanel, 140, 10, "TOPLEFT", 356, -92, "KeyBox", "KeyBox")
 
 		-- Function to show the keyword in the option tooltip
 		local function SetKeywordTip()
@@ -6502,6 +6741,8 @@
 
 		-- Add reset button
 		InvPanel.r:SetScript("OnClick", function()
+			-- Settings
+			LeaPlusLC["InviteFriendsOnly"] = "Off"
 			-- Reset the keyword to default
 			LeaPlusLC["InvKey"] = "inv"
 			-- Set the editbox to default
@@ -6524,6 +6765,7 @@
 		LeaPlusCB["InvWhisperBtn"]:SetScript("OnClick", function()
 			if IsShiftKeyDown() and IsControlKeyDown() then
 				-- Preset profile
+				LeaPlusLC["InviteFriendsOnly"] = "On"
 				LeaPlusLC["InvKey"] = "inv"
 				KeyBox:SetText(LeaPlusLC["InvKey"])
 				SetInvKey()
@@ -6557,9 +6799,11 @@
 		----------------------------------------------------------------------
 
 		if event == "CHAT_MSG_WHISPER" or event == "CHAT_MSG_BN_WHISPER" then
-			if (not UnitExists("party1") or UnitIsGroupLeader("player")) and strlower(arg1) == strlower(LeaPlusLC["InvKey"]) then
+			if (not UnitExists("party1") or UnitIsGroupLeader("player") or UnitIsGroupAssistant("player")) and strlower(arg1) == strlower(LeaPlusLC["InvKey"]) then
 				if event == "CHAT_MSG_WHISPER" then
-					InviteUnit(arg2)
+					if LeaPlusLC:FriendCheck(strsplit("-", arg2, 2)) or LeaPlusLC["InviteFriendsOnly"] == "Off" then
+						InviteUnit(arg2)
+					end
 				elseif event == "CHAT_MSG_BN_WHISPER" then
 					local presenceID = select(11, ...)
 					if presenceID and BNIsFriend(presenceID) then
@@ -6737,6 +6981,7 @@
 
 				LeaPlusLC:LoadVarChk("AcceptPartyFriends", "Off")			-- Party from friends
 				LeaPlusLC:LoadVarChk("InviteFromWhisper", "Off")			-- Invite from whispers
+				LeaPlusLC:LoadVarChk("InviteFriendsOnly", "Off")			-- Restrict invites to friends
 				LeaPlusLC["InvKey"]	= LeaPlusDB["InvKey"] or "inv"			-- Invite from whisper keyword
 
 				-- Chat
@@ -6809,6 +7054,8 @@
 				-- Frames
 				LeaPlusLC:LoadVarChk("FrmEnabled", "Off")					-- Manage frames
 				LeaPlusLC:LoadVarChk("ClassColFrames", "Off")				-- Class colored frames
+				LeaPlusLC:LoadVarChk("ClassColPlayer", "On")				-- Class colored player frame
+				LeaPlusLC:LoadVarChk("ClassColTarget", "On")				-- Class colored target frame
 				LeaPlusLC:LoadVarChk("ClassIconPortraits", "Off")			-- Class icon portraits
 				LeaPlusLC:LoadVarChk("ShowPlayerChain", "Off")				-- Show player chain
 				LeaPlusLC:LoadVarNum("PlayerChainMenu", 2, 1, 3)			-- Player chain dropdown value
@@ -6904,6 +7151,7 @@
 
 			LeaPlusDB["AcceptPartyFriends"]		= LeaPlusLC["AcceptPartyFriends"]
 			LeaPlusDB["InviteFromWhisper"]		= LeaPlusLC["InviteFromWhisper"]
+			LeaPlusDB["InviteFriendsOnly"]		= LeaPlusLC["InviteFriendsOnly"]
 			LeaPlusDB["InvKey"]					= LeaPlusLC["InvKey"]
 
 			-- Chat
@@ -6976,6 +7224,8 @@
 			-- Frames
 			LeaPlusDB["FrmEnabled"]				= LeaPlusLC["FrmEnabled"]
 			LeaPlusDB["ClassColFrames"]			= LeaPlusLC["ClassColFrames"]
+			LeaPlusDB["ClassColPlayer"]			= LeaPlusLC["ClassColPlayer"]
+			LeaPlusDB["ClassColTarget"]			= LeaPlusLC["ClassColTarget"]
 			LeaPlusDB["ClassIconPortraits"]		= LeaPlusLC["ClassIconPortraits"]
 			LeaPlusDB["ShowPlayerChain"]		= LeaPlusLC["ShowPlayerChain"]
 			LeaPlusDB["PlayerChainMenu"]		= LeaPlusLC["PlayerChainMenu"]
@@ -7093,14 +7343,6 @@
 		----------------------------------------------------------------------
 		-- Do other stuff during logout
 		----------------------------------------------------------------------
-
-		-- Prevent frame caching if frame customisation is enabled
-		if LeaPlusDB["FrmEnabled"] == "On" then
-			PlayerFrame:SetMovable(true)
-			PlayerFrame:SetUserPlaced(false)
-			TargetFrame:SetMovable(true)
-			TargetFrame:SetUserPlaced(false)
-		end
 
 		-- Store the auction house duration and price type values if auction house option is enabled
 		if LeaPlusDB["AhExtras"] == "On" then
@@ -7457,9 +7699,9 @@
 
 			-- Set skinned button textures
 			mbtn:SetNormalTexture("Interface\\AddOns\\Leatrix_Plus\\Leatrix_Plus.blp")
-			mbtn:GetNormalTexture():SetTexCoord(0.5, 1, 0, 1)
+			mbtn:GetNormalTexture():SetTexCoord(0.5, 1, 0.875, 1)
 			mbtn:SetHighlightTexture("Interface\\AddOns\\Leatrix_Plus\\Leatrix_Plus.blp")
-			mbtn:GetHighlightTexture():SetTexCoord(0, 0.5, 0, 1)
+			mbtn:GetHighlightTexture():SetTexCoord(0, 0.5, 0.875, 1)
 
 			-- Hide the default textures
 			mbtn:HookScript("OnShow", function() mbtn.Left:Hide(); mbtn.Middle:Hide(); mbtn.Right:Hide() end)
@@ -8208,6 +8450,31 @@
 					end
 				end
 				return
+			elseif str == "dup" then
+				-- Print music track duplicates 
+				local found
+				for i, e in pairs(LeaPlusLC.ZoneList) do
+					if LeaPlusLC.ZoneList[e] then
+						for a, b in pairs(LeaPlusLC.ZoneList[e]) do
+							local same = {}
+							if b.tracks then
+								for k, v in pairs(b.tracks) do
+									if not strfind(v, "|c") then
+										if tContains(same, v) then 
+											found = true
+											print("|cffec51ff" .. L["Dup"] .. ": |r" .. e .. ": " .. b.zone .. ":", v)
+										end
+										tinsert(same, v)
+									end
+								end
+							end
+						end
+					end
+				end
+				if not found then 
+					LeaPlusLC:Print("No media duplicates found.") 
+				end
+				return
 			elseif str == "admin" then
 				-- Preset profile (used for testing)
 				LpEvt:UnregisterAllEvents()						-- Prevent changes
@@ -8228,6 +8495,7 @@
 				LeaPlusDB["NoFriendRequests"] = "Off"			-- Block friend requests			
 				LeaPlusDB["AcceptPartyFriends"] = "On"			-- Party from friends
 				LeaPlusDB["InviteFromWhisper"] = "On"			-- Invite from whispers
+				LeaPlusDB["InviteFriendsOnly"] = "On"			-- Restrict invites to friends
 
 				-- Chat
 				LeaPlusDB["UseEasyChatResizing"] = "On"			-- Use easy resizing
@@ -8315,7 +8583,7 @@
 				LeaPlusDB["Frames"]["BuffFrame"]["Scale"] = 0.80
 
 				LeaPlusDB["ClassColFrames"] = "On"				-- Class colored frames
-				LeaPlusDB["ClassIconPortraits"] = "Off"			-- Class icon portraits
+				LeaPlusDB["ClassIconPortraits"] = "On"			-- Class icon portraits
 				LeaPlusDB["ShowPlayerChain"] = "On"				-- Show player chain
 				LeaPlusDB["PlayerChainMenu"] = 3				-- Player chain style
 				LeaPlusDB["ShowRaidToggle"] = "On"				-- Show raid toggle button
@@ -8555,7 +8823,7 @@
 
 	LeaPlusLC:MakeTx(LeaPlusLC[pg], "Groups"					, 	340, -72);
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "AcceptPartyFriends"		, 	"Party from friends"			, 	340, -92, 	false,	"If checked, party invitations from friends or guild members will be automatically accepted.")
-	LeaPlusLC:MakeCB(LeaPlusLC[pg], "InviteFromWhisper"			,   "Invite from whispers"			,	340, -112,	false,	L["If checked, a group invite will be sent to anyone who whispers you with a set keyword.|n|nYou need to be either not in a group or party leader in your own group for this to work."] .. "|n|n" .. L["Keyword"] .. ": |cffffffff" .. "dummy" .. "|r")
+	LeaPlusLC:MakeCB(LeaPlusLC[pg], "InviteFromWhisper"			,   "Invite from whispers"			,	340, -112,	false,	L["If checked, a group invite will be sent to anyone who whispers you with a set keyword as long as you are ungrouped, group leader or raid assistant."] .. "|n|n" .. L["Keyword"] .. ": |cffffffff" .. "dummy" .. "|r")
 
  	LeaPlusLC:CfgBtn("InvWhisperBtn", LeaPlusCB["InviteFromWhisper"])
 
@@ -8648,6 +8916,7 @@
 	LeaPlusLC:MakeCB(LeaPlusLC[pg], "NoClassBar"				,	"Hide stance bar"				, 	340, -112, 	true,	"If checked, the stance bar will not be shown.")
 
 	LeaPlusLC:CfgBtn("MoveFramesButton", LeaPlusCB["FrmEnabled"])
+	LeaPlusLC:CfgBtn("ClassColFramesBtn", LeaPlusCB["ClassColFrames"])
 	LeaPlusLC:CfgBtn("ModPlayerChain", LeaPlusCB["ShowPlayerChain"])
 
 ----------------------------------------------------------------------

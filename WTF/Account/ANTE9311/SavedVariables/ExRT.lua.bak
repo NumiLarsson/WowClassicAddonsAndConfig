@@ -84,15 +84,20 @@ VExRT = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
+			["Serlutka"] = 0,
 			["Numireset"] = 0,
+			["Bezistian"] = 0,
+			["Eyonnix"] = 0,
+			["Numidruid"] = 0,
 			["Numibank"] = 0,
 			["Numiro"] = 0,
-			["Cottonfinger"] = 0,
-			["Numidruid"] = 0,
-			["Näbbmusen"] = 0,
-			["Eyonnix"] = 0,
-			["Midoriana"] = 0,
 			["Naimoqt"] = 0,
+			["Cottonfinger"] = 0,
+			["Arithos"] = 0,
+			["Näbbmusen"] = 0,
+			["James"] = 0,
+			["Midoriana"] = 0,
+			["Maffiakurt"] = 0,
 			["Numimage"] = 0,
 			["Gekyume"] = 0,
 		},
@@ -285,12 +290,14 @@ VExRT = {
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["Addon"] = {
-		["Version"] = 4060,
+		["Version"] = 4080,
+		["Scale"] = 1,
 		["IconMiniMapTop"] = -75.2457596072784,
-		["PreVersion"] = 4060,
 		["IconMiniMapLeft"] = -27.1675479409472,
 		["Timer"] = 0.1,
-		["Scale"] = 1,
+		["PreVersion"] = 4080,
+	},
+	["WhoPulled"] = {
 	},
 	["Profiles"] = {
 	},
@@ -354,6 +361,10 @@ VExRT = {
 		["sync_data"] = {
 		},
 	},
-	["WhoPulled"] = {
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckFrame"] = true,
 	},
 }

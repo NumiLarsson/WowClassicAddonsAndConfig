@@ -6,3 +6,17 @@ X: 0
 Y: 150
 W: 186
 H: 216
+Frame: FarmLog_QuestionDialog
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 100
+W: 250
+H: 100
+Frame: FarmLog_MainWindow
+FrameLevel: 1
+Anchor: RIGHT
+X: -242
+Y: -21
+W: 250
+H: 200

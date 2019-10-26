@@ -17,18 +17,18 @@ ExtendedCharacterStats = {
 			},
 		},
 		["Defense"] = {
-			["Text"] = "Defense",
+			["Block"] = {
+				["Display"] = true,
+				["Text"] = "Block: ",
+				["RefName"] = "BlockChance",
+			},
 			["Dodge"] = {
 				["Display"] = true,
 				["Text"] = "Dodge: ",
 				["RefName"] = "DodgeChance",
 			},
 			["Display"] = true,
-			["Block"] = {
-				["Display"] = true,
-				["Text"] = "Block: ",
-				["RefName"] = "BlockChance",
-			},
+			["Text"] = "Defense",
 			["RefName"] = "DefenseHeader",
 			["Parry"] = {
 				["Display"] = true,
@@ -51,19 +51,24 @@ ExtendedCharacterStats = {
 				["RefName"] = "MeleeCritChance",
 			},
 		},
-		["Spell"] = {
-			["Hit"] = {
+		["Regen"] = {
+			["MP5Current"] = {
 				["Display"] = true,
-				["Text"] = "Hit Modifier: ",
-				["RefName"] = "SpellHit",
+				["Text"] = "MP5: ",
+				["RefName"] = "MP5Current",
+			},
+			["MP5Casting"] = {
+				["Display"] = true,
+				["Text"] = "MP5 (Casting): ",
+				["RefName"] = "MP5Casting",
 			},
 			["Display"] = true,
-			["Text"] = "Spell",
-			["RefName"] = "SpellHeader",
-			["Crit"] = {
+			["Text"] = "Mana",
+			["RefName"] = "ManaHeader",
+			["MP5NotCasting"] = {
 				["Display"] = true,
-				["Text"] = "Crit: ",
-				["RefName"] = "SpellCritChance",
+				["Text"] = "MP5 (Not Casting): ",
+				["RefName"] = "MP5NotCasting",
 			},
 		},
 		["SpellBonus"] = {
@@ -146,24 +151,19 @@ ExtendedCharacterStats = {
 				["RefName"] = "NatureCritChance",
 			},
 		},
-		["Regen"] = {
-			["MP5Current"] = {
+		["Spell"] = {
+			["Hit"] = {
 				["Display"] = true,
-				["Text"] = "MP5: ",
-				["RefName"] = "MP5Current",
-			},
-			["MP5Casting"] = {
-				["Display"] = true,
-				["Text"] = "MP5 (Casting): ",
-				["RefName"] = "MP5Casting",
+				["Text"] = "Hit Modifier: ",
+				["RefName"] = "SpellHit",
 			},
 			["Display"] = true,
-			["Text"] = "Mana",
-			["RefName"] = "ManaHeader",
-			["MP5NotCasting"] = {
+			["Text"] = "Spell",
+			["RefName"] = "SpellHeader",
+			["Crit"] = {
 				["Display"] = true,
-				["Text"] = "MP5 (Not Casting): ",
-				["RefName"] = "MP5NotCasting",
+				["Text"] = "Crit: ",
+				["RefName"] = "SpellCritChance",
 			},
 		},
 	},

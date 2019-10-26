@@ -53,11 +53,12 @@ CTM_Options = {
 		["width"] = 217,
 		["locked"] = true,
 		["test"] = false,
-		["headerColor"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.8, -- [4]
+		["position"] = {
+			"BOTTOMRIGHT", -- [1]
+			"UIParent", -- [2]
+			"BOTTOMRIGHT", -- [3]
+			-84.9746398925781, -- [4]
+			101.709915161133, -- [5]
 		},
 		["height"] = 179,
 		["color"] = {
@@ -66,12 +67,11 @@ CTM_Options = {
 			0, -- [3]
 			0.35, -- [4]
 		},
-		["position"] = {
-			"BOTTOMRIGHT", -- [1]
-			"UIParent", -- [2]
-			"BOTTOMRIGHT", -- [3]
-			-84.9746398925781, -- [4]
-			101.709915161133, -- [5]
+		["headerColor"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.8, -- [4]
 		},
 		["strata"] = "3-MEDIUM",
 	},

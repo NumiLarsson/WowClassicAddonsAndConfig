@@ -2,6 +2,7 @@
 	BINDING_HEADER_LFG113 = "LFG113"
 	BINDING_NAME_LFG113_TOGGLE = "LFG113Show"
 
+	local _, L = ...
 	local mainFrame = CreateFrame ("Frame", "LFG113_MainFrame", UIParent, "BasicFrameTemplate")
 	local popupFrame = CreateFrame ("Frame", nil, UIParent, "BasicFrameTemplate")
 	local MinimapButton = CreateFrame ("Button", nil, Minimap)
@@ -24,26 +25,28 @@
 		return newButton
 	end
 
-	function CreateNewButton (Parent, _x, _y, _width, _height, _text, _image)
+local UpdateFrame
+
+	function CreateNewButton (Parent, _x, _y, _width, _height, _text, _image, _frameNum, _returnFunction)
 		local newButton = CreateFrame ("Frame", nil, Parent)
 		newButton:SetSize (_width, _height)
-		newButton:SetPoint ("TOPLEFT", _x, _y)		
+		newButton:SetPoint ("TOPLEFT", _x, _y)	
 
-		newButton.topBlue =  CreateFrame ("Frame", nil, newButton)
-		newButton.topBlue:SetSize (_width - 4, 8)
-		newButton.topBlue:SetPoint ("TOPLEFT", 2, 0)
-		newButton.topBlue.texture = newButton.topBlue:CreateTexture()
-		newButton.topBlue.texture:SetAllPoints()
-		newButton.topBlue.texture:SetTexture("Interface/LFGFrame/GroupFinder.BLP")
-		newButton.topBlue.texture:SetTexCoord (.01, .27, .867, .876)
+		function ImgBar (_left, _right, _top, _bottom, _location)
+			local newImage =  CreateFrame ("Frame", nil, newButton)
+			newImage:SetSize (_width - 4, 8)
+			newImage:SetPoint (_location, 2, 0)
+			newImage.texture = newImage:CreateTexture()
+			newImage.texture:SetAllPoints()
+			newImage.texture:SetTexture("Interface/LFGFrame/GroupFinder.BLP")
+			newImage.texture:SetTexCoord (_left, _right, _top, _bottom)
+			return newImage
+		end
 
-		newButton.bottomBlue =  CreateFrame ("Frame", nil, newButton)
-		newButton.bottomBlue:SetSize (_width - 4, 8)
-		newButton.bottomBlue:SetPoint ("BOTTOMLEFT", 2, 0)
-		newButton.bottomBlue.texture = newButton.bottomBlue:CreateTexture()
-		newButton.bottomBlue.texture:SetAllPoints()
-		newButton.bottomBlue.texture:SetTexture("Interface/LFGFrame/GroupFinder.BLP")
-		newButton.bottomBlue.texture:SetTexCoord (.01, .27, .838, .847) 
+		newButton.topMouseover = ImgBar (.33, .595, .906, .915, "TOPLEFT")
+		newButton.bottomMouseover = ImgBar (.33, .595, .877, .886, "BOTTOMLEFT")
+		newButton.topSelected = ImgBar (.01, .27, .867, .876, "TOPLEFT")
+		newButton.bottomSelected = ImgBar (.01, .27, .838, .847, "BOTTOMLEFT")
 
 		newButton.button =  CreateFrame ("Button", nil, newButton)
 		newButton.button:SetSize (_width, _height - 16)
@@ -54,33 +57,50 @@
 
 		newButton.button:SetBackdrop ({bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", tile = true, tileSize = 16, edgeSize = 6})
 		newButton.button:SetText (_text)
-
 		newButton.button.Text = newButton.button:GetFontString ()
 		newButton.button.Text:SetJustifyV("LEFT");
 		newButton.button.Text:SetWordWrap (true)
 		newButton.button.Text:SetJustifyH ("TOP")
 		newButton.button:SetFontString (newButton.button.Text)
-
 		newButton.button.image = TextureBasics_CreateTexture(_image, newButton.button, 2, 4, 48, 48)
 
 		newButton.button:SetScript ("OnEnter", function (self)
-				self:GetParent().bottomBlue:Show ()
-				self:GetParent().topBlue:Show ()
+				self:GetParent().bottomMouseover:Show ()
+				self:GetParent().topMouseover:Show ()
 			end)
+
 		newButton.button:SetScript ("OnLeave", function (self)
-				self:GetParent().bottomBlue:Hide ()
-				self:GetParent().topBlue:Hide ()
+				self:GetParent().bottomMouseover:Hide ()
+				self:GetParent().topMouseover:Hide ()
+			end)
+
+		newButton.button:SetScript ("OnClick", function (self)
+				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
+				if _returnFunction then
+					if _returnFunction (self, _frameNum) then
+						self:GetParent().topSelected:Show ()
+						self:GetParent().bottomSelected:Show ()				
+						LFG113globals.TabViewing = _frameNum
+						ClearAllDisplayEntries ()
+						UpdateFrame ()
+					end
+				end
 			end)
 
 		newButton.SetEnabled = function (self, bool) 
 				self.button:SetEnabled (bool)
-				if bool then self.button.image.texture:SetTexCoord (0, .5, 0, 1)
+				if bool then 
+					self.topSelected:Hide ()
+					self.bottomSelected:Hide ()
+					self.button.image.texture:SetTexCoord (0, .5, 0, 1)
 				else self.button.image.texture:SetTexCoord (.5, 1, 0, 1)
 				end
 			end
 	
-		newButton.bottomBlue:Hide ()
-		newButton.topBlue:Hide ()
+		newButton.bottomSelected:Hide ()
+		newButton.topSelected:Hide ()
+		newButton.topMouseover:Hide ()
+		newButton.bottomMouseover:Hide ()
 		return newButton
 	end
 
@@ -95,7 +115,10 @@
 	local function all_my_buttons_OnEnter (self)
 		if self.tooltip then
 			GameTooltip:SetOwner (self, "ANCHOR_CURSOR")
-			GameTooltip:SetText (self.tooltip, nil, nil, nil, nil, true)
+			if self.tooltip then
+				for index = 1, #self.tooltip do if self.tooltip [index] ~= nil then GameTooltip:AddLine (self.tooltip [index][1], self.tooltip [index][2], self.tooltip [index][3], self.tooltip [index][4], false) end 
+				end
+			end
 			GameTooltip:Show()
 		end
 	end
@@ -105,13 +128,11 @@
 	end
 
 	local function LFG113_Broadcast (Channel, Message)
-
 --print ("BROADCAST " .. Channel .. " MESSAGE " .. Message)
 --if LFG113globals.BroadCastChannel == Channel then
 		local index = GetChannelName (Channel)
 		if index ~= nil and Message:len() < 255 then SendChatMessage (Message, "CHANNEL", nil, index) end		
 --end
-
 	end
 
 	local function GetABasicFrame (Parent)
@@ -130,15 +151,15 @@
 	local function StringMacroSub (str)
 		if (str) then
 			local Instance, instanceType, txtRoles = "", 0, ""
-			if LFG113globals.ActivitySelected == 1 then instanceType, Instance = "for the dungeon", LFG113globals.InstanceSelected
-				elseif LFG113globals.ActivitySelected == 2 then instanceType, Instance = "for the raid", LFG113globals.RaidSelected
-				elseif LFG113globals.ActivitySelected == 3 then instanceType, Instance = "to do some questing in", ""
-				elseif LFG113globals.ActivitySelected == 4 then instanceType, Instance = "to PVP in", LFG113globals.PVPSelected
-				elseif LFG113globals.ActivitySelected == 5 then instanceType, Instance = "", ""
+			if LFG113globals.ActivitySelected == 1 then instanceType, Instance = L["txtRoleType"][1], LFG113globals.InstanceSelected
+				elseif LFG113globals.ActivitySelected == 2 then instanceType, Instance = L["txtRoleType"][2], LFG113globals.RaidSelected
+				elseif LFG113globals.ActivitySelected == 3 then instanceType, Instance = L["txtRoleType"][3], ""
+				elseif LFG113globals.ActivitySelected == 4 then instanceType, Instance = L["txtRoleType"][4], LFG113globals.PVPSelected
+				elseif LFG113globals.ActivitySelected == 5 then instanceType, Instance = L["txtRoleType"][5], ""
 			end
-			if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then txtRoles = "Tank " end
-			if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. "Heals " end
-			if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. "DPS" end		
+			if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then txtRoles = L["Tank"] .. " " end
+			if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. L["Heal"] .. "s " end
+			if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then txtRoles = txtRoles .. (txtRoles ~= "" and "/" or "") .. L["DPS"] end		
 			local Result = ((((str:gsub ("{i}", Instance)):gsub ("{t}", instanceType)):gsub ("{r}", txtRoles)):gsub ("{l}", tostring (UnitLevel ("player")))):gsub ("{c}", tostring (UnitClass ("player")))
 			return Result
 		end
@@ -155,7 +176,6 @@
 				LFG113globals.FramePool[Index].btnDecline:SetEnabled (true)
 				LFG113globals.FramePool[Index].btnInvite:SetEnabled (true)
 				LFG113globals.FramePool[Index].btnJoin:SetEnabled (true)
-
 				return LFG113globals.FramePool[Index]
 			end
 		end
@@ -188,11 +208,11 @@
 		newFrame.btnAccept = CreateFrame("Button", nil, newFrame, "UIPanelButtonTemplate")
 		newFrame.btnAccept:SetSize (60, 20)
 		newFrame.btnAccept:SetPoint ("TOPLEFT", 240, -4)
-		newFrame.btnAccept:SetText ("Accept")
+		newFrame.btnAccept:SetText (L["btnAccept"])
 		newFrame.btnAccept:SetScript ("OnClick", function(self)
 				self:SetEnabled (false)
 				LFG113globals.AddOnChatWindowMessages[self:GetParent().player][4] = true
-				SendChatMessage (StringMacroSub (LFG113globals.whispers ["accept"]), "WHISPER", "Common", self:GetParent().player)
+				SendChatMessage (StringMacroSub (LFG113Saved ["whisperAccept"]), "WHISPER", "Common", self:GetParent().player)
 				InviteUnit (self:GetParent().player)
 			end)
 
@@ -200,10 +220,10 @@
 		newFrame.btnDecline = CreateFrame("Button", nil, newFrame, "UIPanelButtonTemplate")
 		newFrame.btnDecline:SetSize (60, 20)
 		newFrame.btnDecline:SetPoint ("TOPLEFT", 240, -35)
-		newFrame.btnDecline:SetText ("Decline")
+		newFrame.btnDecline:SetText (L["btnDecline"])
 		newFrame.btnDecline:SetScript ("OnClick", function(self)
 				self:SetEnabled (false)
-				SendChatMessage (StringMacroSub (LFG113globals.whispers ["decline"]), "WHISPER", "Common", self:GetParent().player)
+				SendChatMessage (StringMacroSub (LFG113Saved ["whisperDecline"]), "WHISPER", "Common", self:GetParent().player)
 				LFG113globals.AddOnChatWindowMessages [self:GetParent ().player] = nil
 			end)
 
@@ -211,7 +231,7 @@
 		newFrame.btnInvite = CreateFrame("Button", nil, newFrame, "UIPanelButtonTemplate")
 		newFrame.btnInvite:SetSize (60, 20)
 		newFrame.btnInvite:SetPoint ("TOPLEFT", 240, -4)
-		newFrame.btnInvite:SetText ("Invite")
+		newFrame.btnInvite:SetText (L["btnInvite"])
 		newFrame.btnInvite:SetScript ("OnClick", function(self)
 				local Instance, instanceType = "", 0
 				if LFG113globals.ActivitySelected == 1 then instanceType, Instance = "for the dungeon", LFG113globals.InstanceSelected
@@ -223,8 +243,8 @@
 
 				if Instance ~= "any" then
 					LFG113_Broadcast (LFG113globals.BroadCastChannel, "4," .. self:GetParent().player .. "," .. Instance)
-					if LFG113globals.guildOnly then SendChatMessage (StringMacroSub (LFG113globals.whispers["guildInvite"]), "WHISPER", "Common", self:GetParent ().player)
-					else SendChatMessage(StringMacroSub (LFG113globals.whispers["invite"]), "WHISPER", "Common", self:GetParent ().player)
+					if LFG113globals.guildOnly then SendChatMessage (StringMacroSub (LFG113Saved ["whisperGuildInvite"]), "WHISPER", "Common", self:GetParent ().player)
+					else SendChatMessage(StringMacroSub (LFG113Saved ["whisperAccept"]), "WHISPER", "Common", self:GetParent ().player)
 					end
 					self:SetEnabled (false)
 					LFG113globals.AddOnChatWindowMessages [self:GetParent ().player][4] = true
@@ -237,16 +257,16 @@
 		newFrame.btnJoin = CreateFrame("Button", nil, newFrame, "UIPanelButtonTemplate")
 		newFrame.btnJoin:SetSize (60, 20)
 		newFrame.btnJoin:SetPoint ("TOPLEFT", 240, -4)
-		newFrame.btnJoin:SetText ("Join")
+		newFrame.btnJoin:SetText (L["btnJoin"])
 		newFrame.btnJoin:SetScript ("OnClick", function(self)		
 				local txtRoles, Roles = "", ""
-				if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then Roles, txtRoles = "1", "Tank " end
-				if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then Roles, txtRoles = Roles .. "2", txtRoles .. (txtRoles~="" and "/" or "") .. "Heals " end
-				if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then Roles, txtRoles = Roles .. "3", txtRoles .. (txtRoles~="" and "/" or "") .. "DPS" end		
+				if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then Roles, txtRoles = "1", L["Tank"] .. " " end
+				if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then Roles, txtRoles = Roles .. "2", txtRoles .. (txtRoles~="" and "/" or "") .. L["Heal"] .. "s " end
+				if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then Roles, txtRoles = Roles .. "3", txtRoles .. (txtRoles~="" and "/" or "") .. L["DPS"] end		
 				if Roles:len() > 0 then
 					LFG113globals.AddOnChatWindowMessages[self:GetParent().player][4] = true
 					LFG113_Broadcast (LFG113globals.BroadCastChannel, "5," .. self:GetParent().player .. "," .. UnitClass ("player") .. "," .. UnitLevel("player") .. "," .. Roles)
-					SendChatMessage(StringMacroSub (LFG113globals.whispers["join"]), "WHISPER", "Common", self:GetParent().player)
+					SendChatMessage(StringMacroSub (LFG113Saved ["whisperJoin"]), "WHISPER", "Common", self:GetParent().player)
 					self:SetEnabled (false)
 				else 
 					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.RAID_WARNING) end
@@ -371,7 +391,7 @@
 									newRow:Show()
 								end	
 								-- Refresh information
-								LFG113globals.TableRowList[key].SetupLFM (LFG113globals.TableRowList[key], Tbl[2], Tbl[3], Tbl[4], Tbl[6], Inst, ToolTip, value[4], value[5])
+								LFG113globals.TableRowList[key].SetupLFM (LFG113globals.TableRowList[key], Tbl[2], Tbl[3], Tbl[4], Tbl[6], Inst, { { ToolTip, 0, 1, 1 } }, value[4], value[5])
 							end
 						end
 					end
@@ -405,7 +425,7 @@
 							newRow:Show()		
 						end
 						-- Refresh information
-						LFG113globals.TableRowList[key].SetupLFG (LFG113globals.TableRowList[key], Tbl[2], Tbl[5] ~= "0" and ("Need " .. Tbl[5]) or "", "", Tbl[6], Inst, ToolTip, value[4], value[5])						
+						LFG113globals.TableRowList[key].SetupLFG (LFG113globals.TableRowList[key], Tbl[2], Tbl[5] ~= "0" and ("Need " .. Tbl[5]) or "", "", Tbl[6], Inst, { { ToolTip, 0, 1, 1 } }, value[4], value[5])
 					end
 				end
 			end
@@ -418,7 +438,7 @@
 					LFG113globals.TableRowList[key] = newRow					
 					newRow:Show()
 				end
-				LFG113globals.TableRowList[key].SetupLFM (LFG113globals.TableRowList[key], Tbl[2], Tbl[4], Tbl[3], Tbl[5], "", "", value[4], value[5])
+				LFG113globals.TableRowList[key].SetupLFM (LFG113globals.TableRowList[key], Tbl[2], Tbl[4], Tbl[3], Tbl[5], "", { { "" } }, value[4], value[5])
 				if not value[4] then DoWeHaveResponses = value[2] end
 			end
 		end
@@ -522,7 +542,7 @@
 
 		if Location == "any" then
 			if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.RAID_WARNING) end
-			ChatFrame1:AddMessage ("Invalid Instance selected. You can not use 'Select Any'", 0, 1, 1)
+			ChatFrame1:AddMessage (L["txtInvalidAny"], 0, 1, 1)
 			return false
 		end
 		if Location:len() > 0 then
@@ -534,20 +554,20 @@
 
 			local Roles = ""
 			if mainFrame.TopTab.TankCheckButton:GetChecked() and LFG113globals.CanTank then
-				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. " Tank"
-				else  myBroadcastString = "Tank " .. myBroadcastString
+				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. " " .. L["Tank"]
+				else  myBroadcastString = L["Tank"] .. " " .. myBroadcastString
 				end
 				Roles = "1"
 			end
 			if mainFrame.TopTab.HealsCheckButton:GetChecked() and LFG113globals.CanHeal then 
-				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. (Roles ~= "" and " /" or "") .. " Heals"
-				else  myBroadcastString ="Heals " ..  (Roles ~= "" and "/ " or "") .. myBroadcastString
+				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. (Roles ~= "" and " / " or " ") .. L["Heal"] .. "s"
+				else  myBroadcastString = L["Heal"] .. "s " ..  (Roles ~= "" and "/ " or "") .. myBroadcastString
 				end
 				Roles = Roles .. "2"
 			end
 			if mainFrame.TopTab.DPSCheckButton:GetChecked() and LFG113globals.CanDPS then
-				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. (Roles ~= "" and " /" or "") .. " DPS "
-				else  myBroadcastString = "DPS " .. (Roles ~= "" and "/ " or "") .. myBroadcastString
+				if LFG113globals.TabViewing == 1 then myBroadcastString = myBroadcastString .. (Roles ~= "" and " / " or " ") .. L["DPS"]
+				else  myBroadcastString = L["DPS"] .. " " .. (Roles ~= "" and "/ " or "") .. myBroadcastString
 				end
 				Roles = Roles .. "3"
 			end
@@ -560,12 +580,12 @@
 				LFG113globals.broadcastOriginalString = myBroadcastString --:lower()
 			else
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.RAID_WARNING) end
-				ChatFrame1:AddMessage ("Missing Role", 0, 1, 1)
+				ChatFrame1:AddMessage (L["txtMissingRole"], 0, 1, 1)
 				return false
 			end
 		else 
 			if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.RAID_WARNING) end
-			ChatFrame1:AddMessage ("Invalid Instance selected", 0, 1, 1)
+			ChatFrame1:AddMessage (L["txtInvalidInst"], 0, 1, 1)
 			return false
 		end
 		return true
@@ -573,9 +593,10 @@
 
 	-- A NewTicker for Removing old messages from table and BROADCAST if we are lfg or lfm at interval
 	local function RemoveTableEntries () 
-		-- Check if timedout. if so remove
-		local CurrentTimeStamp  = 0, 0, time ()
-		for key, value in pairs (LFG113globals.AddOnChatWindowMessages) do if (value[1] + 120) < CurrentTimeStamp then LFG113globals.AddOnChatWindowMessages[key] = nil end
+		-- Check if timed out. if so remove
+		local CurrentTimeStamp = time ()
+		for key, value in pairs (LFG113globals.AddOnChatWindowMessages) do 
+			if (value[1] + 60) < CurrentTimeStamp then LFG113globals.AddOnChatWindowMessages[key] = nil end
 		end
 	end
 
@@ -655,9 +676,9 @@
 		mainFrame.LeftTab.LFGButton:SetEnabled (GetNumGroupMembers() == 0 and true or false)
 		mainFrame.LeftTab.LFMButton:SetEnabled (false)
 		mainFrame.LeftTab.SearchesButton:SetEnabled (false)
-		mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+		mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 		mainFrame.LeftTab.SettingsButton:SetEnabled (true)
-		mainFrame.TopTab.title:SetText ("What do you need in your group:")
+		mainFrame.TopTab.title:SetText (L["lblWhatYouNeed"])
 		SetRollIcons (false)
 		TableUpdate ()	
 	end
@@ -673,21 +694,21 @@
 		mainFrame.LeftTab.LFGButton:SetEnabled (false)
 		mainFrame.LeftTab.LFMButton:SetEnabled ((UnitIsGroupLeader ("player") or GetNumGroupMembers() == 0) and true or false)
 		mainFrame.LeftTab.SearchesButton:SetEnabled (false)
-		mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+		mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 		mainFrame.LeftTab.SettingsButton:SetEnabled (true)
 		mainFrame.LFMTab:Hide ()
 		mainFrame.LFGTab:Show ()
-		mainFrame.TopTab.title:SetText ("What do you want to join a group as:")
+		mainFrame.TopTab.title:SetText (L["lblWhatToJoinAs"])
 		SetRollIcons (true)
 		TableUpdate ()
 	end
 
-	local function DisplayBlockList ()
+	local function DisplayBlackList ()
 		LFG113globals.TabViewing = 3
 		mainFrame.LeftTab.LFGButton:SetEnabled (GetNumGroupMembers() == 0 and true or false)
 		mainFrame.LeftTab.LFMButton:SetEnabled ((UnitIsGroupLeader ("player") or GetNumGroupMembers() == 0) and true or false)
 		mainFrame.LeftTab.SearchesButton:SetEnabled (false)
-		mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+		mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 		mainFrame.LeftTab.SettingsButton:SetEnabled (true)
 		mainFrame.TopTab:Hide ()
 		mainFrame.LFMTab:Hide ()
@@ -695,7 +716,7 @@
 		mainFrame.Settings:Hide ()
 		mainFrame.BlockList:Show ()
 		local _y = 1
-		for key, value in pairs (LFG113Saved ["BlockList"]) do
+		for key, value in pairs (LFG113BlackList) do
 			local Person = GetABasicFrame (mainFrame.BlockList.ScrollArea.content)
 			Person.Player:SetText (key)
 			Person:SetPoint ("TOPLEFT", 10, _y)
@@ -711,7 +732,7 @@
 		mainFrame.LeftTab.LFGButton:SetEnabled (GetNumGroupMembers() == 0 and true or false)
 		mainFrame.LeftTab.LFMButton:SetEnabled ((UnitIsGroupLeader ("player") or GetNumGroupMembers() == 0) and true or false)
 		mainFrame.LeftTab.SearchesButton:SetEnabled (false)
-		mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+		mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 		mainFrame.LeftTab.SettingsButton:SetEnabled (false)
 		mainFrame.TopTab:Hide ()
 		mainFrame.LFMTab:Hide ()
@@ -723,12 +744,6 @@
 		mainFrame.Settings.topTabs ["Communication"].chatLFG:SetChecked (LFG113Saved ["useLFGChat"])
 		mainFrame.Settings.topTabs ["Communication"].chatWorld:SetChecked (LFG113Saved ["useWorldChat"])
 		mainFrame.Settings.topTabs ["Communication"].autoAcceptWhisper:SetChecked (LFG113Saved ["autoAcceptWhisper"])
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperDecline:SetText (LFG113Saved ["whisperDecline"])
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperAccept:SetText (LFG113Saved ["whisperAccept"])
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperJoin:SetText (LFG113Saved ["whisperJoin"])
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperInvite:SetText (LFG113Saved ["whisperInvite"])
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperMissingInfo:SetText (LFG113Saved ["whisperMissingInformation"])
---		mainFrame.Settings.topTabs ["Communication"].txtWhisperGuildInvite:SetText (LFG113Saved ["whisperGuildInvite"])
 		mainFrame.Settings.topTabs ["General"].forceKeybind:SetChecked (LFG113Saved ["ForceKeybind"])
 		mainFrame.Settings.topTabs ["General"].accurateScan:SetChecked (LFG113Saved ["accurateScan"])
 		mainFrame.Settings.topTabs ["General"].fullGRPAudio:SetChecked (LFG113Saved ["fullGRPAudio"])
@@ -748,18 +763,18 @@
 		mainFrame.LeftTab.LFGButton:SetEnabled (GetNumGroupMembers() == 0 and true or false)
 		mainFrame.LeftTab.LFMButton:SetEnabled ((UnitIsGroupLeader ("player") or GetNumGroupMembers() == 0) and true or false)
 		mainFrame.LeftTab.SearchesButton:SetEnabled (false)
-		mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+		mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 		mainFrame.LeftTab.SettingsButton:SetEnabled (true)
-		mainFrame.TopTab.title:SetText ("What do you need in your group:")
+		mainFrame.TopTab.title:SetText (L["lblWhatYouNeed"])
 		SetRollIcons (true)
 		TableUpdate ()
 	end
 
-	local function UpdateFrame ()
-		if mainFrame and mainFrame.TopTab and mainFrame.TopTab.btnSearch:GetText () == "Start\nSearch" then
+	function UpdateFrame ()
+		if mainFrame and mainFrame.TopTab and mainFrame.TopTab.btnSearch:GetText () == L["btnStartSearch"] then
 			if LFG113globals.TabViewing == 1 then DisplayLFM () 
 			elseif LFG113globals.TabViewing == 2 then DisplayLFG () 
-			elseif LFG113globals.TabViewing == 3 then DisplayBlockList () 
+			elseif LFG113globals.TabViewing == 3 then DisplayBlackList () 
 			elseif LFG113globals.TabViewing == 4 then DisplaySettings () 
 			elseif LFG113globals.TabViewing == 5 then DisplaySearches () 
 			end
@@ -824,7 +839,7 @@
 		local checkbutton = CreateFrame("CheckButton", "LFG113CheckButton_" .. nextAvailNumber, parent, "ChatConfigCheckButtonTemplate")
 		checkbutton:SetPoint("TOPLEFT", x_loc, y_loc)
 		checkbutton.tooltip = tooltip
-		getglobal(checkbutton:GetName() .. 'Text'):SetText(displayname)
+		getglobal(checkbutton:GetName() .. "Text"):SetText(displayname)
 		return checkbutton
 	end
 
@@ -981,9 +996,9 @@
 		popupFrame:SetFrameLevel (20)		
 		DragFrame (popupFrame)
 
-		popupFrame.title = CreateString (popupFrame, 68, -5, "GameFontNormal", "LFG113 Popup Notification")
-		popupFrame.message = CreateString (popupFrame, 75, -30, "GameFontNormal", "Person requesting to join")
-		popupFrame.player = CreateString (popupFrame, 5, -50, "GameFontNormalLarge", "Dwane the Rock Johnson")
+		popupFrame.title = CreateString (popupFrame, 68, -5, "GameFontNormal", L["lblLFGNitofication"])
+		popupFrame.message = CreateString (popupFrame, 75, -30, "GameFontNormal", L["lblRequestJoin"])
+		popupFrame.player = CreateString (popupFrame, 5, -50, "GameFontNormalLarge", "")
 		popupFrame.player:SetPoint ("RIGHT", 5)
 		popupFrame.player:SetJustifyH ("CENTER")
 		popupFrame:Hide ()
@@ -1028,7 +1043,7 @@
 
 		-- Frames LFM Button
 		if LFG113Saved ["originalDisplay"] then
-			mainFrame.LeftTab.LFMButton = CreateButton (mainFrame.LeftTab, 2, -40, 145, 60, "Create A\nGroup")
+			mainFrame.LeftTab.LFMButton = CreateButton (mainFrame.LeftTab, 2, -40, 145, 60, L["btnCreateGroup"])
 			local btnFont = mainFrame.LeftTab.LFMButton:GetFontString ()
 			btnFont:SetFont ("Fonts\\MORPHEUS.ttf", 18)
 			mainFrame.LeftTab.LFMButton:SetFontString (btnFont)
@@ -1039,44 +1054,31 @@
 					UpdateFrame ()
 				end)
 		else
-			mainFrame.LeftTab.LFMButton = CreateNewButton (mainFrame.LeftTab, 3, -40, 143, 55, "               Create A\n           Group", "Interface\\AddOns\\LFG113\\textures\\LFM.tga")
-			mainFrame.LeftTab.LFMButton.button:SetScript ("OnClick", function ()
-					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					LFG113globals.TabViewing = 1
-					ClearAllDisplayEntries ()
-					UpdateFrame ()
-				end)
+			mainFrame.LeftTab.LFMButton = CreateNewButton (mainFrame.LeftTab, 3, -40, 143, 55, L["btnNEWCG"], "Interface\\AddOns\\LFG113\\textures\\LFM.tga", 1, function (self, num) return true end)
+			mainFrame.LeftTab.LFMButton.button:GetScript ("OnClick")(mainFrame.LeftTab.LFMButton.button)
 		end
 
 
 		-- Frames LFG Button
 		if LFG113Saved ["originalDisplay"] then
-			mainFrame.LeftTab.LFGButton = CreateButton (mainFrame.LeftTab, 2, -110, 145, 60, "Join A\n Group")
+			mainFrame.LeftTab.LFGButton = CreateButton (mainFrame.LeftTab, 2, -110, 145, 60, L["btnJoinGroup"])
 			local btnFont = mainFrame.LeftTab.LFGButton:GetFontString ()
 			btnFont:SetFont ("Fonts\\MORPHEUS.ttf", 18)
 			mainFrame.LeftTab.LFGButton:SetFontString (btnFont)
 			mainFrame.LeftTab.LFGButton:SetScript ("OnClick", function()
 					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					if GetNumGroupMembers() > 0 then return "" end
+					if GetNumGroupMembers() > 0 then return false end
 					LFG113globals.TabViewing = 2
 					ClearAllDisplayEntries ()
 					UpdateFrame ()
 				end)
 		else
-			mainFrame.LeftTab.LFGButton = CreateNewButton (mainFrame.LeftTab, 3, -110, 143, 55, "           Join A\n           Group",  "Interface\\AddOns\\LFG113\\textures\\LFG.tga")
-			mainFrame.LeftTab.LFGButton.button:SetScript ("OnClick", function()
-					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					if GetNumGroupMembers() > 0 then return "" end
-					LFG113globals.TabViewing = 2
-					ClearAllDisplayEntries ()
-					UpdateFrame ()
-				end)
+			mainFrame.LeftTab.LFGButton = CreateNewButton (mainFrame.LeftTab, 3, -110, 143, 55, L["btnNEWJG"],  "Interface\\AddOns\\LFG113\\textures\\LFG.tga", 2, function (self, num) return not (GetNumGroupMembers() > 0) end)
 		end
 
--- Add Frames:Current Searches  - to viewing, edit or delete ALL current active searches
 		-- Frames Current Searches
 		if LFG113Saved ["originalDisplay"] then
-			mainFrame.LeftTab.SearchesButton = CreateButton (mainFrame.LeftTab, 2, -180, 145, 60, "View Active\nSearches")
+			mainFrame.LeftTab.SearchesButton = CreateButton (mainFrame.LeftTab, 2, -180, 145, 60, L["btnActiveSearchs"])
 			local btnFont = mainFrame.LeftTab.SearchesButton:GetFontString ()
 			btnFont:SetFont ("Fonts\\MORPHEUS.ttf", 18)
 			mainFrame.LeftTab.SearchesButton:SetFontString (btnFont)
@@ -1087,44 +1089,26 @@
 					UpdateFrame ()
 				end)
 		else
-			mainFrame.LeftTab.SearchesButton = CreateNewButton (mainFrame.LeftTab, 3, -180, 143, 55, "            Active\n                Searches",  "Interface\\AddOns\\LFG113\\textures\\ActiveSearches.tga")
-			mainFrame.LeftTab.SearchesButton.button:SetScript ("OnClick", function()
-					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					LFG113globals.TabViewing = 5
-					ClearAllDisplayEntries ()
-					UpdateFrame ()
-				end)
+			mainFrame.LeftTab.SearchesButton = CreateNewButton (mainFrame.LeftTab, 3, -180, 143, 55, L["btnNEWAS"],  "Interface\\AddOns\\LFG113\\textures\\ActiveSearches.tga", 5, function (self, num) return true end)
 		end
-
-
-
-
--- Add Frames:Whispers		- to change default whispers to people
-
 
 		-- Frames Block list Button
 		if LFG113Saved ["originalDisplay"] then
-			mainFrame.LeftTab.BlockListButton = CreateButton (mainFrame.LeftTab, 2, -250, 145, 60, "Black List")
-			local btnFont = mainFrame.LeftTab.BlockListButton:GetFontString ()
+			mainFrame.LeftTab.BlackListButton = CreateButton (mainFrame.LeftTab, 2, -250, 145, 60, L["btnBlackList"])
+			local btnFont = mainFrame.LeftTab.BlackListButton:GetFontString ()
 			btnFont:SetFont ("Fonts\\MORPHEUS.ttf", 18)
-			mainFrame.LeftTab.BlockListButton:SetFontString (btnFont)
-			mainFrame.LeftTab.BlockListButton:SetScript ("OnClick", function()
+			mainFrame.LeftTab.BlackListButton:SetFontString (btnFont)
+			mainFrame.LeftTab.BlackListButton:SetScript ("OnClick", function()
 					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					DisplayBlockList ()
+					DisplayBlackList ()
 				end)
 		else
-			mainFrame.LeftTab.BlockListButton = CreateNewButton (mainFrame.LeftTab, 3, -250, 143, 55, "         Black\n      List", "Interface\\AddOns\\LFG113\\textures\\BlackList.tga")
-			mainFrame.LeftTab.BlockListButton.button:SetScript ("OnClick", function()
-					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					DisplayBlockList ()
-				end)
+			mainFrame.LeftTab.BlackListButton = CreateNewButton (mainFrame.LeftTab, 3, -250, 143, 55, L["btnNEWBL"], "Interface\\AddOns\\LFG113\\textures\\BlackList.tga", 3, function (self, num) return true end)
 		end
---		mainFrame.LeftTab.BlockListButton:Hide()
-		
 
 		-- Frames Settings Button
 		if LFG113Saved ["originalDisplay"] then
-			mainFrame.LeftTab.SettingsButton = CreateButton (mainFrame.LeftTab, 2, -320, 145, 60, "Settings")
+			mainFrame.LeftTab.SettingsButton = CreateButton (mainFrame.LeftTab, 2, -320, 145, 60, L["btnSettings"])
 			local btnFont = mainFrame.LeftTab.SettingsButton:GetFontString ()
 			btnFont:SetFont ("Fonts\\MORPHEUS.ttf", 18)
 			mainFrame.LeftTab.SettingsButton:SetFontString (btnFont)
@@ -1133,15 +1117,11 @@
 					DisplaySettings ()
 				end)	
 		else
-			mainFrame.LeftTab.SettingsButton = CreateNewButton (mainFrame.LeftTab, 3, -320, 143, 55, "              Settings",  "Interface\\AddOns\\LFG113\\textures\\Settings.tga")
-			mainFrame.LeftTab.SettingsButton.button:SetScript ("OnClick", function()
-					if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_CHARACTER_INFO_TAB) end
-					DisplaySettings ()
-				end)
+			mainFrame.LeftTab.SettingsButton = CreateNewButton (mainFrame.LeftTab, 3, -320, 143, 55, L["btnNEWSettings"],  "Interface\\AddOns\\LFG113\\textures\\Settings.tga", 4, function (self, num) return true end)
 		end
 
 		-- Frame count (Stored users)
-		mainFrame.LeftTab.count = CreateString (mainFrame.LeftTab, 10, -400, "GameFontNormal", "New Update Available")
+		mainFrame.LeftTab.count = CreateString (mainFrame.LeftTab, 10, -400, "GameFontNormal", L["txtUpdate"])
 		mainFrame.LeftTab.count:Hide ()
 
 		-- Top Menu selection panel for LFG/LFM/PVP
@@ -1154,7 +1134,7 @@
 		mainFrame.TopTab:SetFrameLevel (2)
 
 		-- Text to user specifying roll needs
-		mainFrame.TopTab.title = CreateString (mainFrame.TopTab, 10, -7, "GameFontNormal", "You are looking for:")
+		mainFrame.TopTab.title = CreateString (mainFrame.TopTab, 10, -7, "GameFontNormal", L["lblWhatYouNeed"])
 
 		-- Role Images
 		mainFrame.TopTab.roleTank = TextureBasics_CreateTexture("Interface\\AddOns\\LFG113\\textures\\Tank.tga", mainFrame.TopTab, 45, -25, 48, 48)
@@ -1162,7 +1142,7 @@
 		mainFrame.TopTab.roleDPS = TextureBasics_CreateTexture("Interface\\AddOns\\LFG113\\textures\\Damage.tga", mainFrame.TopTab, 205, -25, 48, 48)	
 
 		-- Check box for DPS
-		mainFrame.TopTab.DPSCheckButton = createCheckbutton(mainFrame.TopTab, 200, -60, 20, "", "")
+		mainFrame.TopTab.DPSCheckButton = createCheckbutton(mainFrame.TopTab, 200, -60, 20, "", L["DPS"])
 		mainFrame.TopTab.DPSCheckButton:SetFrameLevel (10)
 		mainFrame.TopTab.DPSCheckButton:SetScript("OnClick", function()
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1170,7 +1150,7 @@
 			end)
 
 		-- Check box for Heals
-		mainFrame.TopTab.HealsCheckButton = createCheckbutton(mainFrame.TopTab, 120, -60, 20, "", "")
+		mainFrame.TopTab.HealsCheckButton = createCheckbutton(mainFrame.TopTab, 120, -60, 20, "", L["Heal"])
 		mainFrame.TopTab.HealsCheckButton:SetFrameLevel (9)
 		mainFrame.TopTab.HealsCheckButton:SetScript("OnClick", function()
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1178,7 +1158,7 @@
 			end)
 
 		-- Check box for Tank
-		mainFrame.TopTab.TankCheckButton = createCheckbutton(mainFrame.TopTab, 40, -60, 20, "", "")
+		mainFrame.TopTab.TankCheckButton = createCheckbutton(mainFrame.TopTab, 40, -60, 20, "", L["Tank"])
 		mainFrame.TopTab.TankCheckButton:SetFrameLevel (8)
 		mainFrame.TopTab.TankCheckButton:SetScript("OnClick", function()
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1186,21 +1166,21 @@
 			end)
 
 		-- Activity Title
-		mainFrame.TopTab.lblActivity = CreateString (mainFrame.TopTab, 10, -85, "GameFontNormal", "Activity")
+		mainFrame.TopTab.lblActivity = CreateString (mainFrame.TopTab, 10, -85, "GameFontNormal", L["lblActivity"])
 
 		-- Pull down to select activity like Dungeon, Questing, pvp
-		mainFrame.TopTab.Activity = CreateGeneralPullDown (mainFrame.TopTab, 20, -100, 140, { "Dungeons", "Raids", "Questing", "PVP", "Custom" }, function (Value) 				
+		mainFrame.TopTab.Activity = CreateGeneralPullDown (mainFrame.TopTab, 20, -100, 140, L["cmbActivityPull"], function (Value) 				
 				HideAllPulldowns ()
-				if Value == "Dungeons" then
+				if Value == L["cmbActivityPull"][1] then
 					LFG113globals.ActivitySelected = 1
 					mainFrame.TopTab.instances:Show ()
-				elseif Value == "Raids" then
+				elseif Value == L["cmbActivityPull"][2] then
 					LFG113globals.ActivitySelected = 2
 					mainFrame.TopTab.raids:Show ()
-				elseif Value == "Questing" then
+				elseif Value == L["cmbActivityPull"][3] then
 					LFG113globals.ActivitySelected = 3
 					mainFrame.TopTab.questing:Show ()
-				elseif Value == "PVP" then
+				elseif Value == L["cmbActivityPull"][4] then
 					LFG113globals.ActivitySelected = 4
 					mainFrame.TopTab.pvp:Show ()
 					mainFrame.TopTab.customText:SetPoint("TOPLEFT", 200, -130)
@@ -1208,7 +1188,7 @@
 					if UIDropDownMenu_GetText(mainFrame.TopTab.pvp) == "World PVP" then mainFrame.TopTab.customText:Show ()
 					else mainFrame.TopTab.customText:Hide ()
 					end
-				elseif Value == "Custom" then
+				elseif Value == L["cmbActivityPull"][5] then
 					LFG113globals.ActivitySelected = 5
 					mainFrame.TopTab.customText:SetPoint("TOPLEFT", 40, -130)
 					mainFrame.TopTab.customText:SetWidth(280)
@@ -1217,7 +1197,7 @@
 				ClearAllDisplayEntries ()
 				UpdateFrame ()
 			end)
-		UIDropDownMenu_SetText (mainFrame.TopTab.Activity, "Dungeons")
+		UIDropDownMenu_SetText (mainFrame.TopTab.Activity, L["cmbActivityPull"][1])
 
 		-- Create the pulldown to show the Dungeon interested in
 		mainFrame.TopTab.instances = createPullDown (mainFrame.TopTab, 20, -130, 260, LFG113globals.Instances, LFG113globals.InstancesSorted, function(newValue)
@@ -1228,30 +1208,19 @@
 		UIDropDownMenu_SetText (mainFrame.TopTab.instances, LFG113globals.Instances["any"][2])
 
 		-- Create Pulldown for Questing
-		mainFrame.TopTab.questing = CreateGeneralPullDown (mainFrame.TopTab, 20, -130, 120, { "Select None", "Northern Kalimdor", "Central Kalimdor", "Southern Kalimdor", "Lordaeron", "Khaz Modan", "Azeroth" }, function(Value)
-				if Value == "Northern Kalimdor" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingNK:Show ()
-				elseif Value == "Central Kalimdor" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingCK:Show ()
-				elseif Value == "Southern Kalimdor" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingSK:Show ()
-				elseif Value == "Lordaeron" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingAL:Show ()
-				elseif Value == "Khaz Modan" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingAK:Show ()
-				elseif Value == "Azeroth" then
-					HideAllPulldowns (true)
-					mainFrame.TopTab.questingAA:Show ()
+		mainFrame.TopTab.questing = CreateGeneralPullDown (mainFrame.TopTab, 20, -130, 120, { L["lblSelectNone"], "Northern Kalimdor", "Central Kalimdor", "Southern Kalimdor", "Lordaeron", "Khaz Modan", "Azeroth" }, function(Value)
+				HideAllPulldowns (true)
+				if Value == "Northern Kalimdor" then mainFrame.TopTab.questingNK:Show ()
+				elseif Value == "Central Kalimdor" then mainFrame.TopTab.questingCK:Show ()
+				elseif Value == "Southern Kalimdor" then mainFrame.TopTab.questingSK:Show ()
+				elseif Value == "Lordaeron" then mainFrame.TopTab.questingAL:Show ()
+				elseif Value == "Khaz Modan" then mainFrame.TopTab.questingAK:Show ()
+				elseif Value == "Azeroth" then mainFrame.TopTab.questingAA:Show ()
 				end
 				ClearAllDisplayEntries ()
 				UpdateFrame ()
 			end)
-		UIDropDownMenu_SetText (mainFrame.TopTab.questing, "Select None")
+		UIDropDownMenu_SetText (mainFrame.TopTab.questing, L["lblSelectNone"])
 
 		-- Create Pulldown for Questing NK
 		mainFrame.TopTab.questingNK = createPullDown (mainFrame.TopTab, 160, -130, 140, LFG113globals.QuestingNK, LFG113globals.QuestingNKSorted, function(newValue)
@@ -1366,7 +1335,7 @@
 
 
 		-- Create Checkbox to show ALL items or some
-		mainFrame.TopTab.SelectAllCheckButton = createCheckbutton (mainFrame.TopTab, 240, -100, 100, "Show All", "Show all dungeons")
+		mainFrame.TopTab.SelectAllCheckButton = createCheckbutton (mainFrame.TopTab, 240, -100, 100, L["chkShowAll"], L["pupShowall"])
 		mainFrame.TopTab.SelectAllCheckButton:SetScript ("OnClick", function ()
 				LFG113globals.AllDungeonsChecked = mainFrame.TopTab.SelectAllCheckButton:GetChecked()
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1376,7 +1345,7 @@
 			end)
 
 		-- Create Checkbox to show Only guild activities
-		mainFrame.TopTab.btnGuildOnly = createCheckbutton (mainFrame.TopTab, 240, -80, 100, "Guild Only", "Show only Guild activities")
+		mainFrame.TopTab.btnGuildOnly = createCheckbutton (mainFrame.TopTab, 240, -80, 100, L["chkGuildOnly"], L["pupGuildOnly"])
 		mainFrame.TopTab.btnGuildOnly:SetScript ("OnClick", function ()
 				LFG113globals.guildOnly = mainFrame.TopTab.btnGuildOnly:GetChecked()
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1387,20 +1356,20 @@
 		mainFrame.TopTab.btnGuildOnly:SetEnabled (IsInGuild())
 
 		-- Broadcast Button
-		mainFrame.TopTab.btnSearch = CreateButton (mainFrame.TopTab, 265, -20, 60, 50, "Start\nSearch")
+		mainFrame.TopTab.btnSearch = CreateButton (mainFrame.TopTab, 265, -20, 60, 50, L["btnStartSearch"])
 		mainFrame.TopTab.btnSearch:SetFrameLevel (11)
 		mainFrame.TopTab.btnSearch:SetScript ("OnClick", function(self)			
-				if mainFrame.TopTab.btnSearch:GetText () == "Start\nSearch" then
+				if mainFrame.TopTab.btnSearch:GetText () == L["btnStartSearch"] then
 					if CreateBroadcast () then
 						MinimapButton:Show ()
 						if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.PVP_ENTER_QUEUE) end
-						mainFrame.TopTab.btnSearch:SetText ("Cancel\nSearch") 
+						mainFrame.TopTab.btnSearch:SetText (L["btnCancelSearch"]) 
 						if LFG113globals.TabViewing == 2 then mainFrame.TopTab.btnSearch.EnabledButton = mainFrame.LeftTab.LFMButton
 						else mainFrame.TopTab.btnSearch.EnabledButton = mainFrame.LeftTab.LFGButton
 						end
 						mainFrame.LeftTab.LFGButton:SetEnabled (false)
 						mainFrame.LeftTab.LFMButton:SetEnabled (false)
-						mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+						mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 						mainFrame.LeftTab.SettingsButton:SetEnabled (false)
 						BroadcastOurMessage () -- Send first message instantly
 						rosterFrame.tmrBroadcaster = nil -- In case its already assigned. Free up memory?
@@ -1411,9 +1380,9 @@
 				else
 					MinimapButton:Hide ()
 					if LFG113Saved ["enableSound"] then  PlaySound(SOUNDKIT.IG_PVP_UPDATE) end
-					mainFrame.TopTab.btnSearch:SetText ("Start\nSearch")
+					mainFrame.TopTab.btnSearch:SetText (L["btnStartSearch"])
 					mainFrame.TopTab.btnSearch.EnabledButton:SetEnabled (true)
-					mainFrame.LeftTab.BlockListButton:SetEnabled (false)
+					mainFrame.LeftTab.BlackListButton:SetEnabled (false)
 					mainFrame.LeftTab.SettingsButton:SetEnabled (true)
 					EndBroadcast ()
 					if rosterFrame.tmrBroadcaster then rosterFrame.tmrBroadcaster:Cancel() end
@@ -1448,7 +1417,7 @@
 		mainFrame.BlockList.Add:SetFrameLevel (11)
 		mainFrame.BlockList.Add:SetSize (160, 50)
 		mainFrame.BlockList.Add:SetPoint ("TOPLEFT", 0, 60)
-		mainFrame.BlockList.Add:SetText ("Add")
+		mainFrame.BlockList.Add:SetText (L["btnAdd"])
 		mainFrame.BlockList.Add:SetScript ("OnClick", function(self)
 				StaticPopup_Show  ("LFG113_BLOCK")
 			end)
@@ -1457,7 +1426,7 @@
 		mainFrame.BlockList.Remove:SetFrameLevel (11)
 		mainFrame.BlockList.Remove:SetSize (160, 50)
 		mainFrame.BlockList.Remove:SetPoint ("TOPRIGHT", 0, 60)
-		mainFrame.BlockList.Remove:SetText ("Remove")		
+		mainFrame.BlockList.Remove:SetText (L["btnRemove"])
 		mainFrame.BlockList.Remove:SetScript ("OnClick", function(self)
 				StaticPopup_Show  ("LFG113_BLOCK")
 			end)
@@ -1466,7 +1435,6 @@
 		mainFrame.Settings = CreateFrame("Frame", "LFG113TabbedFrame", mainFrame)
 		mainFrame.Settings:SetPoint("TOPLEFT", 150, -60) -- -19
 		mainFrame.Settings:SetPoint("BOTTOMRIGHT", -5, 10)
---		mainFrame.Settings:SetSize (300, 160)
 		mainFrame.Settings:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background", edgeFile = "Interface/Tooltips/UI-Tooltip-Border", tile = true, tileSize = 16, edgeSize = 16, insets = { left = 4, right = 4, top = 4, bottom = 4 }})
 		mainFrame.Settings:SetBackdropColor(0,0,0,1)
 		mainFrame.Settings:SetFrameLevel (2)
@@ -1508,16 +1476,16 @@
 		end
 		
 		mainFrame.Settings.topTabs = {}
-		mainFrame.Settings.topTabs ["General"], mainFrame.Settings.topTabs ["Communication"], mainFrame.Settings.topTabs ["Display"] = MakeTabs (mainFrame.Settings, 3, {"General", 65}, {"Communication", 103}, {"Display", 70})
+		mainFrame.Settings.topTabs ["General"], mainFrame.Settings.topTabs ["Communication"], mainFrame.Settings.topTabs ["Display"] = MakeTabs (mainFrame.Settings, 3, L["tabGeneral"], L["tabCommunication"], L["tabDisplay"])
 
 		-- Main Settings Head
-		mainFrame.Settings.head = CreateString (mainFrame.Settings, 140, 35, "GameFontNormalLarge", "Settings")
+		mainFrame.Settings.head = CreateString (mainFrame.Settings, 140, 35, "GameFontNormalLarge", L["lblSettings"])
 
 		-- Broadcast Channels section
-		mainFrame.Settings.topTabs ["Communication"].broadcast = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -30, "GameFontNormal", "Channels to broadcast on if your doing a LFG/LFM")
+		mainFrame.Settings.topTabs ["Communication"].broadcast = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -30, "GameFontNormal", L["lblBroadcast"])
 
 		-- Checkbox for Broadcast to General
-		mainFrame.Settings.topTabs ["Communication"].chatGeneral = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 180, -40, 20, "General", "Enable broadcasting to General Channel")
+		mainFrame.Settings.topTabs ["Communication"].chatGeneral = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 180, -40, 20, L["chkGeneral"], L["pupGeneral"])
 		mainFrame.Settings.topTabs ["Communication"].chatGeneral:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Communication"].chatGeneral:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1525,7 +1493,7 @@
 			end)
 
 		-- Checkbox for Broadcast to Trade
-		mainFrame.Settings.topTabs ["Communication"].chatTrade = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -40, 20, "Trade", "Enable broadcasting to Trade Channel")
+		mainFrame.Settings.topTabs ["Communication"].chatTrade = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -40, 20, L["chkTrade"], L["pupTrade"])
 		mainFrame.Settings.topTabs ["Communication"].chatTrade:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Communication"].chatTrade:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1533,7 +1501,7 @@
 			end)
 
 		-- Checkbox for Broadcast to LookingForGroup
-		mainFrame.Settings.topTabs ["Communication"].chatLFG = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 180, -60, 20, "LookingForGroup", "Enable broadcasting to LookingForGroup Channel")
+		mainFrame.Settings.topTabs ["Communication"].chatLFG = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 180, -60, 20, L["chkLFG"], L["pupLFG"])
 		mainFrame.Settings.topTabs ["Communication"].chatLFG:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Communication"].chatLFG:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1541,7 +1509,7 @@
 			end)
 
 		-- Checkbox for Broadcast to World
-		mainFrame.Settings.topTabs ["Communication"].chatWorld = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -60, 20, "World", "Enable broadcasting to World Channel")
+		mainFrame.Settings.topTabs ["Communication"].chatWorld = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -60, 20, L["chkWorld"], L["pupWorld"])
 		mainFrame.Settings.topTabs ["Communication"].chatWorld:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Communication"].chatWorld:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1549,7 +1517,7 @@
 			end)
 
 		-- Timer delay
-		mainFrame.Settings.topTabs ["Communication"].lblSliderTimer = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -90, "GameFontNormal", "Time To Broadcast")
+		mainFrame.Settings.topTabs ["Communication"].lblSliderTimer = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -90, "GameFontNormal", L["lblTTB"])
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer = CreateFrame("Slider", "LFG113sliderTimer", mainFrame.Settings.topTabs ["Communication"], "OptionsSliderTemplate")
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer:SetPoint ("TOPLEFT", 60, -100)
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer:SetOrientation("HORIZONTAL")
@@ -1557,7 +1525,7 @@
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer:SetMinMaxValues(60, 180)
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer:SetValue (LFG113Saved ["sliderTimer"] )
 		mainFrame.Settings.topTabs ["Communication"].sliderTimer:SetValueStep (1)
-		mainFrame.Settings.topTabs ["Communication"].sliderTimer.tooltipText = 'Sets the re-broadcast time in seconds' --Creates a tooltip on mouseover.
+		mainFrame.Settings.topTabs ["Communication"].sliderTimer.tooltipText = L["pupBroadcast"]
 		getglobal(mainFrame.Settings.topTabs ["Communication"].sliderTimer:GetName() .. "Low"):SetText("60")
 		getglobal(mainFrame.Settings.topTabs ["Communication"].sliderTimer:GetName() .. "High"):SetText("180")
 		getglobal(mainFrame.Settings.topTabs ["Communication"].sliderTimer:GetName() .. "Text"):SetText(LFG113Saved ["sliderTimer"])
@@ -1567,22 +1535,33 @@
 			end)
 
 		-- Auto connect
-		mainFrame.Settings.topTabs ["Communication"].autoConnect = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -130, "GameFontNormal", "Auto Whisper")
-		mainFrame.Settings.topTabs ["Communication"].autoAcceptWhisper = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -140, 20, "Accept Whispers", "Auto invite whispers that say their roll/level and if you need that class.")
+		mainFrame.Settings.topTabs ["Communication"].autoConnect = CreateString (mainFrame.Settings.topTabs ["Communication"], 10, -130, "GameFontNormal", L["lblAutoWhisper"])
+		mainFrame.Settings.topTabs ["Communication"].autoAcceptWhisper = createCheckbutton(mainFrame.Settings.topTabs ["Communication"], 60, -140, 20, L["chkWhispers"], L["pupAcceptWhispers"])
 		mainFrame.Settings.topTabs ["Communication"].autoAcceptWhisper:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Communication"].autoAcceptWhisper:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
 				LFG113Saved ["autoAcceptWhisper"] = self:GetChecked()
 			end)
 
-		local function CreateWhisperOptions (_parent, _x, _y, _label, _text, _returnFunction)
+		mainFrame.Settings.topTabs ["Communication"].help = CreateFrame ("Button", nil, mainFrame.Settings.topTabs ["Communication"], "UIPanelButtonTemplate")
+		mainFrame.Settings.topTabs ["Communication"].help:SetPoint ("TOPRIGHT", -20, -135)
+		mainFrame.Settings.topTabs ["Communication"].help:SetSize (30, 30)
+		mainFrame.Settings.topTabs ["Communication"].help:SetText ("?")
+		mainFrame.Settings.topTabs ["Communication"].help.tooltip = L["pupHowtoUse"]
+		mainFrame.Settings.topTabs ["Communication"].help:SetScript("OnEnter", all_my_buttons_OnEnter)
+		mainFrame.Settings.topTabs ["Communication"].help:SetScript("OnLeave", all_my_buttons_OnLeave)
+
+		local function CreateWhisperOptions (_parent, _x, _y, _label, _text, _defaultText, _returnFunction)
 			local frame = CreateFrame("EditBox", nil, _parent, "InputBoxTemplate")
+			frame.label = CreateString (mainFrame.Settings.topTabs ["Communication"], _x, _y, "GameFontNormal", _label)
 			frame:SetPoint("TOPLEFT", _x + 50, _y - 10)
-			frame:SetSize(260, 28)
+			frame:SetSize(220, 28)
 			frame:SetMultiLine(false)
 			frame:SetAutoFocus (false)
 			frame:SetMaxLetters(200)
 			frame:SetFrameLevel (3)
+			frame:SetText (_text)
+			frame:SetCursorPosition (0)
 			frame:SetScript ("OnEditFocusGained", function (self)
 					mainFrame.TopTab.customTextFocus:SetText (self:GetText ())
 					mainFrame.TopTab.customMainText:SetParent (_parent)
@@ -1590,51 +1569,41 @@
 					mainFrame.TopTab.customMainText:Show ()
 					mainFrame.TopTab.customTextFocus:SetFocus ()
 					mainFrame.TopTab.customTextFocus.ReturnText = function (text) 
+							self:SetText (text)
+							self:SetCursorPosition (0)
 							if _returnFunction then _returnFunction (text) end
 						end
-				end)			
-			frame.label = CreateString (mainFrame.Settings.topTabs ["Communication"], _x, _y, "GameFontNormal", _label)
+				end)
+			frame.btnDefault = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+			frame.btnDefault:SetPoint ("TOPLEFT", 225, -2)
+			frame.btnDefault:SetSize (50, 24)
+			frame.btnDefault:SetText (L["btnDefault"])
+			frame.btnDefault:SetScript ("OnClick", function (self) 
+					frame:SetText (_defaultText)
+					frame:SetCursorPosition (0)
+					if _returnFunction then _returnFunction (_defaultText) end
+				end)
 			return frame
 		end
 
 		-- Whisper DECLINE
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperDecline = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -170, "Message when you DECLINE adding to group", LFG113Saved ["whisperDecline"], function (text) 
-				LFG113Saved ["whisperDecline"] = text
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperDecline:SetText (text)
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperDecline:SetCursorPosition (0)
-			end)
+		mainFrame.Settings.topTabs ["Communication"].txtWhisperDecline = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -170, L["lblMessDecline"], LFG113Saved ["whisperDecline"], L["txtDefaultWhispers"]["Decline"], function (text) LFG113Saved ["whisperDecline"] = text end)
 
 		-- Whisper ACCEPT
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperAccept = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -210, "Message when you ACCEPT someone to your group", LFG113Saved ["whisperAccept"], function (text) 
-				LFG113Saved ["whisperAccept"] = text
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperAccept:SetText (text)
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperAccept:SetCursorPosition (0)
-			end)
+		mainFrame.Settings.topTabs ["Communication"].txtWhisperAccept = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -210, L["lblMessAccept"], LFG113Saved ["whisperAccept"], L["txtDefaultWhispers"]["Accept"], function (text) LFG113Saved ["whisperAccept"] = text end)
 
 		-- Whisper JOIN
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperJoin = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -250, "Message when you want to JOIN a group", LFG113Saved ["whisperJoin"], function (text) 
-				LFG113Saved ["whisperJoin"] = text
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperJoin:SetText (text)
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperJoin:SetCursorPosition (0)
-			end)
+		mainFrame.Settings.topTabs ["Communication"].txtWhisperJoin = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -250, L["lblMessJoin"], LFG113Saved ["whisperJoin"], L["txtDefaultWhispers"]["Join"], function (text) LFG113Saved ["whisperJoin"] = text end)
 
 		-- Whisper INVITE
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperInvite = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -290, "Message when you INVITE to your group", LFG113Saved ["whisperInvite"], function (text) 
-				LFG113Saved ["whisperInvite"] = text
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperInvite:SetText (text)
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperInvite:SetCursorPosition (0)
-			end)
+		mainFrame.Settings.topTabs ["Communication"].txtWhisperInvite = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -290, L["lblMessInvite"], LFG113Saved ["whisperInvite"], L["txtDefaultWhispers"]["Invite"], function (text) LFG113Saved ["whisperInvite"] = text end)
 
 		-- Whisper MISSINGINFORMATION
-		mainFrame.Settings.topTabs ["Communication"].txtWhisperMissingInfo = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -330, "Message when whispered with missing info", LFG113Saved ["whisperMissingInformation"], function (text) 
-				LFG113Saved ["whisperMissingInformation"] = text
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperMissingInfo:SetText (text)
-				mainFrame.Settings.topTabs ["Communication"].txtWhisperMissingInfo:SetCursorPosition (0)
-			end)
+		mainFrame.Settings.topTabs ["Communication"].txtWhisperMissingInfo = CreateWhisperOptions (mainFrame.Settings.topTabs ["Communication"], 10, -330, L["lblMessMissing"], LFG113Saved ["whisperMissingInformation"], L["txtDefaultWhispers"]["Missing"], function (text) LFG113Saved ["whisperMissingInformation"] = text end)
 
 		-- Bind the Key to I so all we have to do is press I to open/close interface
-		mainFrame.Settings.topTabs ["General"].keybind = CreateString (mainFrame.Settings.topTabs ["General"], 10, -30, "GameFontNormal", "Keybind")
-		mainFrame.Settings.topTabs ["General"].forceKeybind = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -40, 20, "Force bind to key I", "Force the system to use the I keybind to open and close the LFG113")
+		mainFrame.Settings.topTabs ["General"].keybind = CreateString (mainFrame.Settings.topTabs ["General"], 10, -30, "GameFontNormal", L["lblKeybind"])
+		mainFrame.Settings.topTabs ["General"].forceKeybind = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -40, 20, L["chkForce"], L["pupForce"])
 		mainFrame.Settings.topTabs ["General"].forceKeybind:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].forceKeybind:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1645,8 +1614,8 @@
 			end)
 
 		-- Speed up a more accurate scan of people and display time... but at a cost to system?
-		mainFrame.Settings.topTabs ["General"].accurate = CreateString (mainFrame.Settings.topTabs ["General"], 10, -70, "GameFontNormal", "Accurate Scan (May slow down system)")
-		mainFrame.Settings.topTabs ["General"].accurateScan = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -80, 20, "Enabled", "Enable accurate scanning, may slow down game on slow machines")
+		mainFrame.Settings.topTabs ["General"].accurate = CreateString (mainFrame.Settings.topTabs ["General"], 10, -70, "GameFontNormal", L["lblAccurate"])
+		mainFrame.Settings.topTabs ["General"].accurateScan = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -80, 20, L["chkEnableScan"], L["pupAccurate"])
 		mainFrame.Settings.topTabs ["General"].accurateScan:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].accurateScan:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1654,8 +1623,8 @@
 			end)
 
 		-- Checkbox Notification when full
-		mainFrame.Settings.topTabs ["General"].lblDisableSound = CreateString (mainFrame.Settings.topTabs ["General"], 10, -110, "GameFontNormal", "Notifications/Alerts")
-		mainFrame.Settings.topTabs ["General"].fullGRPAudio = createCheckbutton(mainFrame.Settings.topTabs ["General"], 180, -120, 20, "Full Group Audio", "Notification via sound when your group is full.")
+		mainFrame.Settings.topTabs ["General"].lblDisableSound = CreateString (mainFrame.Settings.topTabs ["General"], 10, -110, "GameFontNormal", L["lblNotifications"])
+		mainFrame.Settings.topTabs ["General"].fullGRPAudio = createCheckbutton(mainFrame.Settings.topTabs ["General"], 180, -120, 20, L["chkFullAudio"], L["pupFullGroup"])
 		mainFrame.Settings.topTabs ["General"].fullGRPAudio:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].fullGRPAudio:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1663,7 +1632,7 @@
 			end)
 
 		-- Disable sound
-		mainFrame.Settings.topTabs ["General"].chkEnableSound = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -120, 20, "Enable Sound", "Sound is enabled for the addon")
+		mainFrame.Settings.topTabs ["General"].chkEnableSound = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -120, 20, L["chkEnableSound"], L["pupEnableSound"])
 		mainFrame.Settings.topTabs ["General"].chkEnableSound:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].chkEnableSound:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1671,7 +1640,7 @@
 			end)
 
 		-- Checkbox for sound
-		mainFrame.Settings.topTabs ["General"].chkPingAlert = createCheckbutton(mainFrame.Settings.topTabs ["General"], 180, -140, 20, "Ping Alert", "Allow audio ping when someone requests invite")
+		mainFrame.Settings.topTabs ["General"].chkPingAlert = createCheckbutton(mainFrame.Settings.topTabs ["General"], 180, -140, 20, L["chkPingAlert"], L["pupPingAlert"])
 		mainFrame.Settings.topTabs ["General"].chkPingAlert:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].chkPingAlert:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1679,7 +1648,7 @@
 			end)
 
 		-- Checkbox for alert using popup box and sound when requesting invite
-		mainFrame.Settings.topTabs ["General"].chkPopupAlert = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -140, 20, "PopUp Alert", "Allow a popup when someone requests invite")
+		mainFrame.Settings.topTabs ["General"].chkPopupAlert = createCheckbutton(mainFrame.Settings.topTabs ["General"], 60, -140, 20, L["chkPopUpAlert"], L["pupPopuAlert"])
 		mainFrame.Settings.topTabs ["General"].chkPopupAlert:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["General"].chkPopupAlert:SetScript("OnClick", function(self)
 				if LFG113Saved ["enableSound"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1687,8 +1656,8 @@
 			end)
 
 		-- Checkbox for what display to use
-		mainFrame.Settings.topTabs ["Display"].lblDesignType = CreateString (mainFrame.Settings.topTabs ["Display"], 10, -30, "GameFontNormal", "Design Type")
-		mainFrame.Settings.topTabs ["Display"].chkDesignType = createCheckbutton(mainFrame.Settings.topTabs ["Display"], 60, -40, 20, "Original Display", "Display buttons and future display updates for addon in classic display. Requires reload")
+		mainFrame.Settings.topTabs ["Display"].lblDesignType = CreateString (mainFrame.Settings.topTabs ["Display"], 10, -30, "GameFontNormal", L["lblDesignType"])
+		mainFrame.Settings.topTabs ["Display"].chkDesignType = createCheckbutton(mainFrame.Settings.topTabs ["Display"], 60, -40, 20, L["chkOriginalDisplay"], L["pupdisplayType"])
 		mainFrame.Settings.topTabs ["Display"].chkDesignType:SetFrameLevel (10)
 		mainFrame.Settings.topTabs ["Display"].chkDesignType:SetScript("OnClick", function(self)
 				if LFG113Saved ["originalDisplay"] then PlaySound(SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON) end
@@ -1703,9 +1672,9 @@
 	
 	function LFG_Roll (msg) 
 		tmpStr = ""
-		if msg:find ("tank") then tmpStr = "1" end
-		if msg:find ("heal") then tmpStr = tmpStr .. "2" end
-		if msg:find ("dps") then tmpStr = tmpStr .. "3" end
+		if msg:find (L["Tank"]:lower()) then tmpStr = "1" end
+		if msg:find (L["Heal"]:lower()) then tmpStr = tmpStr .. "2" end
+		if msg:find (L["DPS"]:lower()) then tmpStr = tmpStr .. "3" end
 		--if tmpStr:len() == 0 then tmpStr = "123" end
 		return tmpStr
 	end
@@ -1728,10 +1697,10 @@
 
 		if event == "CHAT_MSG_WHISPER" then
 			if LFG113Saved ["autoAcceptWhisper"] and LFG113globals.TabViewing == 1 and LFG113globals.broadcastAppString ~= "" and LFG113globals.Player ~= auth then
-				local level = msg:match ('%d+')
+				local level = msg:match ("%d+")
 				local role = LFG_Roll (msg)
 				if (level ~= nil and role == "") or (level == nil and role ~= "") then
-					SendChatMessage(StringMacroSub (LFG113globals.whispers ["missingInformation"]), "WHISPER", "Common", auth)
+					SendChatMessage(StringMacroSub (LFG113Saved ["whisperMissingInformation"]), "WHISPER", "Common", auth)
 					return ""
 				elseif not level or role == "" then return "" -- Ignore message, doesnt have anything we need
 				else -- 5,player,class,level,role
@@ -1761,8 +1730,7 @@
 						if Tbl[1] == "1" or Tbl[1] == "2" then LFG113globals.AddOnChatWindowMessages [Tbl [2]] = { time (), msgOriginal[1], msgOriginal[2] or "", false, false }					
 						elseif Tbl[1] == "3" then LFG113globals.AddOnChatWindowMessages [Tbl [2]] = nil
 						elseif Tbl[1] == "4" then 		
-						elseif Tbl[1] == "5" and LFG113globals.Player == Tbl [2] then 
-							LFG113globals.AddOnChatWindowMessages [auth] = { time (), "5," .. auth .. "," .. Tbl[3] .. "," .. Tbl[4] .. "," .. Tbl[5], "", false, true }
+						elseif Tbl[1] == "5" and LFG113globals.Player == Tbl [2] then LFG113globals.AddOnChatWindowMessages [auth] = { time (), "5," .. auth .. "," .. Tbl[3] .. "," .. Tbl[4] .. "," .. Tbl[5], "", false, true }
 						elseif Tbl[1] == "6" then
 						end
 					end
@@ -1782,7 +1750,7 @@
 					local BroadcastString = "1," .. auth .. ","
 					local tmpStr, ValidInstance = "", 0
 					msg = PrepMessage (msg)
-					local level = msg:match ('%d+')
+					local level = msg:match ("%d+")
 					if not level then level = 0 end
 				
 					for key, value in pairs (LFG113globals.PlayerClass) do
@@ -1852,20 +1820,17 @@
 			local Broadcaster = C_Timer.After (5, function ()
 				LFG113globals.login = nil
 				rosterFrame:UnregisterEvent("PLAYER_LOGIN")
-
 				guildName, guildRankName, guildRankIndex = GetGuildInfo("player")			
 				LFG113globals.guildName = (guildName or ""):lower()
 
+				if LFG113BlackList == nil then LFG113BlackList = {} end
 				if not LFG113Saved then LFG113Saved = {} end
-				if not LFG113Saved ["BlockList"] then LFG113Saved ["BlockList"] = {} end
 				if LFG113Saved ["useGeneralChat"] == nil then LFG113Saved ["useGeneralChat"] = false end
 				if LFG113Saved ["useTradeChat"] == nil then LFG113Saved ["useTradeChat"] = true end
 				if LFG113Saved ["useLFGChat"] == nil then LFG113Saved ["useLFGChat"] = true end
 				if LFG113Saved ["useWorldChat"] == nil then LFG113Saved ["useWorldChat"] = false end
 				if LFG113Saved ["ForceKeybind"] == nil then LFG113Saved ["ForceKeybind"] = false end
 				if LFG113Saved ["accurateScan"] == nil then LFG113Saved ["accurateScan"] = false end
-				--if LFG113Saved ["autoRequest"] == nil then LFG113Saved ["autoRequest"] = false end
-				--if LFG113Saved ["autoInvite"] == nil then LFG113Saved ["autoInvite"] = false end
 				if LFG113Saved ["autoAcceptWhisper"] == nil then LFG113Saved ["autoAcceptWhisper"] = true end
 				if LFG113Saved ["fullGRPAudio"] == nil then LFG113Saved ["fullGRPAudio"] = true end
 				if LFG113Saved ["enableSound"] == nil then LFG113Saved ["enableSound"] = true end
@@ -1873,12 +1838,12 @@
 				if LFG113Saved ["pingAlert"] == nil then LFG113Saved ["pingAlert"] = true end
 				if LFG113Saved ["sliderTimer"] == nil then LFG113Saved ["sliderTimer"] = 60 end
 				if LFG113Saved ["originalDisplay"] == nil then LFG113Saved ["originalDisplay"] = false end
-				if LFG113Saved ["whisperDecline"] == nil then LFG113Saved ["whisperDecline"] = LFG113globals.defaultWhispers ["decline"] end
-				if LFG113Saved ["whisperAccept"] == nil then LFG113Saved ["whisperAccept"] = LFG113globals.defaultWhispers ["accept"] end
-				if LFG113Saved ["whisperJoin"] == nil then LFG113Saved ["whisperJoin"] = LFG113globals.defaultWhispers ["join"] end
-				if LFG113Saved ["whisperInvite"] == nil then LFG113Saved ["whisperInvite"] = LFG113globals.defaultWhispers ["invite"] end
-				if LFG113Saved ["whisperGuildInvite"] == nil then LFG113Saved ["whisperGuildInvite"] = LFG113globals.defaultWhispers ["guildInvite"] end
-				if LFG113Saved ["whisperMissingInformation"] == nil then LFG113Saved ["whisperMissingInformation"] = LFG113globals.defaultWhispers ["missingInformation"] end
+				if LFG113Saved ["whisperDecline"] == nil then LFG113Saved ["whisperDecline"] = L["txtDefaultWhispers"]["Decline"] end
+				if LFG113Saved ["whisperAccept"] == nil then LFG113Saved ["whisperAccept"] = L["txtDefaultWhispers"]["Accept"] end
+				if LFG113Saved ["whisperJoin"] == nil then LFG113Saved ["whisperJoin"] = L["txtDefaultWhispers"]["Join"] end
+				if LFG113Saved ["whisperInvite"] == nil then LFG113Saved ["whisperInvite"] = L["txtDefaultWhispers"]["Invite"] end
+				if LFG113Saved ["whisperGuildInvite"] == nil then LFG113Saved ["whisperGuildInvite"] = L["txtDefaultWhispers"]["Guild"] end
+				if LFG113Saved ["whisperMissingInformation"] == nil then LFG113Saved ["whisperMissingInformation"] = L["txtDefaultWhispers"]["Missing"] end
 
 				-- Create main frame/Display
 				LFG113_CreateDisplay ()
@@ -1887,16 +1852,15 @@
 				UpdateFrame ()
 
 				-- Join addon channel
-				--JoinTemporaryChannel (LFG113globals.oldBroadCastChannel, "@dff$398^7n9")
 				JoinTemporaryChannel (LFG113globals.BroadCastChannel, "@dff$398^7n9")
 				JoinTemporaryChannel ("LookingForGroup")
 				JoinTemporaryChannel ("World")
 
 				-- Removing old messages from table
-				rosterFrame.tmrRemoveTableEntries = C_Timer.NewTicker (LFG113Saved ["accurateScan"] and 30 or 2, RemoveTableEntries)
+				rosterFrame.tmrRemoveTableEntries = C_Timer.NewTicker (LFG113Saved ["accurateScan"] and 1 or 30, RemoveTableEntries)
 
 				-- Table Definitions updated
-				rosterFrame.tmrTableUpdate = C_Timer.NewTicker (LFG113Saved ["accurateScan"] and 5 or 2, TableUpdate)
+				rosterFrame.tmrTableUpdate = C_Timer.NewTicker (LFG113Saved ["accurateScan"] and 1 or 5, TableUpdate)
 			
 				-- MovingEye
 				rosterFrame.tmrEyeMovement = C_Timer.NewTicker (.1, MovingEye)
@@ -1907,7 +1871,7 @@
 				if not GetBindingByKey("I") or LFG113Saved ["ForceKeybind"] then SetBinding ("I", "LFG113_TOGGLE") end
 
 				-- Let everyone know addon has loaded succesfuly
-				ChatFrame1:AddMessage ("LFG113 BETA V." .. LFG113globals.version:sub(14) .. " Loaded, use /lfg to display.", 0, 1, 1)
+				ChatFrame1:AddMessage (L["txtLoaded"] .. "Beta." .. LFG113globals.version:sub(14), 0, 1, 1)
 				
 				-- Check status and if in group on initial startup ... set buttons 
 				if not (UnitIsGroupLeader ("player") or GetNumGroupMembers() == 0) then 
@@ -1954,8 +1918,8 @@
 		button1 = "Block", button2 = "Cancel",
 		OnAccept = function(self)
 			if self.editBox:GetText() and self.editBox:GetText():len() > 0 then
-				if LFG113Saved ["BlockList"] [self.editBox:GetText ()] then ChatFrame1:AddMessage (self.editBox:GetText () .. " Already exists", 0, 1, 1) end
-				LFG113Saved ["BlockList"] [self.editBox:GetText ()] = true
+--				if LFG113BlackList [self.editBox:GetText ()] then ChatFrame1:AddMessage (self.editBox:GetText () .. " Already exists", 0, 1, 1) end
+--				LFG113BlackList [self.editBox:GetText ()] = true
 			end
 		end,
 		timeout = 0, whileDead = true, hideOnEscape = true, hasEditBox = true, preferredIndex = 3,
@@ -1977,37 +1941,37 @@
 		LFG113Show () 
 	end
 
+
 -- ADD MINIMAP EYE
 	function MinimapButton:Load()
 		local myIconPos = 0
 
-		self:SetFrameStrata ('HIGH')
-		self:SetWidth (31)
-		self:SetHeight (31)
+		self:SetFrameStrata ("HIGH")
+		self:SetWidth (32)
+		self:SetHeight (32)
 		self:SetFrameLevel (8)
-		self:RegisterForClicks ('anyUp')
+		self:RegisterForClicks ("anyUp")
 		self:SetMovable (true)
-		self:SetHighlightTexture ('Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight')
+		self:SetHighlightTexture ("Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight")
 
-		local overlay = self:CreateTexture (nil, 'OVERLAY')
+		local overlay = self:CreateTexture (nil, "OVERLAY")
 		overlay:SetWidth (53)
 		overlay:SetHeight (53)
-		overlay:SetTexture ('Interface\\Minimap\\MiniMap-TrackingBorder')
-		overlay:SetPoint ('TOPLEFT')
+		overlay:SetTexture ("Interface\\Minimap\\MiniMap-TrackingBorder")
+		overlay:SetPoint ("TOPLEFT")
 
-		self.icon = self:CreateTexture (nil, 'BACKGROUND')
+		self.icon = self:CreateTexture (nil, "BACKGROUND")
 		self.icon:SetTexture ("Interface\\AddOns\\LFG113\\textures\\LFG-Eye.tga")
 		self.icon:SetTexCoord (0, .5, 0, 1)
 		self.icon:SetWidth (32)
 		self.icon:SetHeight (32)
-		self.icon:SetPoint ('TOPLEFT', 0, 0)
-		self:SetPoint ("BOTTOMRIGHT", Minimap, "BOTTOMRIGHT", -2, 2)
-
-		self.tooltip = "You have an active search going!\n\nLeft click - Open/close\nRight click - Move icon"
+		self.icon:SetPoint ("TOPLEFT", 0, 0)
+		if not LFG113Saved ["minimapX"] then self:SetPoint ("BOTTOMRIGHT", Minimap, "BOTTOMRIGHT", -2, 2) end
+		self.tooltip = L["pupActiveSearch"]
 		self:SetScript("OnEnter", all_my_buttons_OnEnter)
 		self:SetScript("OnLeave", all_my_buttons_OnLeave)			
 
-		self:SetScript ('OnClick', function (_, button)	if button == 'LeftButton' then LFG113Show () end end)
+		self:SetScript ("OnClick", function (_, button)	if button == "LeftButton" then LFG113Show () end end)
  
 		-- Control movement
 		local function UpdateMapBtn ()
@@ -2035,3 +1999,21 @@
 		
 		if LFG113Saved ["minimapX"] and LFG113Saved ["minimapY"] then self:SetPoint ("TOPLEFT", Minimap, "TOPLEFT", LFG113Saved ["minimapX"], LFG113Saved ["minimapY"]) end
 	end
+
+
+-- Black list:
+	-- unitID CAN only be reported once by each person. (cant report same person multiple times)
+	-- Reported individual can be displayed via options, they will have an icon to donate having been reported previously.
+	-- populate own list through saved vars. OVER TIME populate list through addon channel by asking leader for list. 
+	-- When leader signifies done, someone else chimes in and broadcasts what is missing on list (Syncing list to EVERYONE)
+
+	-- Chat: 8, 1, Request# -- request 1: all anmes:numbers, 2: Specific Name (all records)
+	-- Chat: 8, 2, Name:Number, [...] -- Get all names and records
+	-- Chat: 8, 3, UnitID, Reported By, Date/Time Of Report, Message from reporter -- Get specific info
+
+	-- [unitID] 	= { { date/time, Reporter, Issue}, [...] }
+
+	-- LFG113BlackList
+
+
+

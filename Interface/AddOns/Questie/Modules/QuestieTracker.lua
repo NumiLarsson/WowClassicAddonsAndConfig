@@ -218,15 +218,18 @@ local function _SetTomTomTarget(title, zone, x, y)
 end
 
 local function _ShowQuestLog(Quest)
-    if QuestLogExFrame then
-        QuestLogExFrame:Show()
-        if QuestLogExFrameMaximizeButton then
-            QuestLogExFrameMaximizeButton:GetScript("OnClick")(QuestLogExFrameMaximizeButton)
-        end
-    else
-        ToggleQuestLog();
+    -- Priority order first check if addon exist otherwise default to original
+    local questFrame = QuestLogExFrame or QuestLogFrame;
+    HideUIPanel(questFrame);
+    local questLogIndex = GetQuestLogIndexByID(Quest.Id);
+    SelectQuestLogEntry(questLogIndex)
+    ShowUIPanel(questFrame);
+
+    --Addon specific behaviors
+    if(QuestLogEx) then
+        QuestLogEx:Maximize();
     end
-    SelectQuestLogEntry(GetQuestLogIndexByID(Quest.Id))
+
     QuestLog_UpdateQuestDetails()
     QuestLog_Update()
 end
@@ -1065,20 +1068,13 @@ function QuestieTracker:Update()
             line:SetQuest(Quest)
             line:SetObjective(nil)
 
-            local questString = (Quest.LocalizedName or Quest.Name)
-            if Questie.db.global.trackerShowQuestLevel then
-                questString = "[" .. Quest.Level .. "] " .. questString
-            end
-            if complete then
-                questString  = questString .. " " .. QuestieLocale:GetUIString('TOOLTIP_QUEST_COMPLETE')
-            end
-            line.label:SetText(QuestieLib:PrintDifficultyColor(Quest.Level, questString))
-            
+            local questName = (Quest.LocalizedName or Quest.Name)
+            local coloredQuestName = QuestieLib:GetColoredQuestName(Quest.Id, questName, Quest.Level, Questie.db.global.trackerShowQuestLevel, complete)
+            line.label:SetText(coloredQuestName)
+
             line:Show()
             line.label:Show()
             trackerWidth = math.max(trackerWidth, line.label:GetWidth())
-            --
-
 
             if Quest.Objectives and not complete then
                 for _,Objective in pairs(Quest.Objectives) do

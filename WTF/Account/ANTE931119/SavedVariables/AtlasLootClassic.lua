@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 1030000,
+		["__addonrevision"] = 1030002,
 	},
 	["profileKeys"] = {
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
@@ -79,14 +79,14 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					97, -- [4]
-					43, -- [5]
+					116.469253540039, -- [4]
+					35.0000724792481, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"DireMaulNorth", -- [2]
-					6, -- [3]
-					1, -- [4]
+					"MoltenCore", -- [2]
+					10, -- [3]
+					3, -- [4]
 					0, -- [5]
 				},
 			},

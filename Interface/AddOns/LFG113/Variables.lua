@@ -1,5 +1,7 @@
+	local _, L = ...
+
 	-- Default Values
-	LFG113globals = { ["version"] = "Version 1.13.19", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019", ["update"] = "10/15/2019" }
+	LFG113globals = { ["version"] = "Version 1.13.22", ["author"] = "Joseph Forrest", ["date"] = "09/20/2019", ["update"] = "10/19/2019" }
 
 	LFG113globals.oldBroadCastChannel = "ljkd98734ks"
 	LFG113globals.BroadCastChannel = "LFG113V04a"
@@ -11,36 +13,15 @@
 	LFG113globals.NotifiedOfUpdate = false
 	LFG113globals.PeopleWaiting = false
 
+	LFG113globals.SelectedSearches = {}
+
 	LFG113globals.AddOnChatWindowMessages = {
 		-- ["player"] = { timestamp, addonMessage, originalMessage, Requested Invite/Join, Response if any (Accepted/Denied) }
 	}
 
-	LFG113globals.FilledRoles = {
-		--["Player"] = role
-	}
-
-	--Saved variable...
-	--LFG113globals.BlockList = {
-		-- ["player"] = true
-	--}
-
-	LFG113globals.whispers = {
-		["decline"]		= "I'm sorry but Im not taking you on this adventure to {i}.", 
-		["accept"]		= "You can come along with us if you want to.",
-		["join"]		= "Level {l} {c} {r}",
-		["invite"]		= "I sent an invite to you to so you can join us to {t} {i}",
-		["guildInvite"]		= "I sent a Guild invite to you to so you can join us {t} {i}", 
-		["missingInformation"]	= "Please whisper me your level AND role eg. '60 tank/dps' or more specific 'level 60 warrior dps/tank'"
-	}
-
-	LFG113globals.defaultWhispers = {
-		["decline"]		= "I'm sorry but Im not taking you on this adventure to {i}.", 
-		["accept"]		= "You can come along with us if you want to.",
-		["join"]		= "Level {l} {c} {r}",
-		["invite"]		= "I sent an invite to you to so you can join us to {t} {i}",
-		["guildInvite"]		= "I sent a Guild invite to you to so you can join us {t} {i}", 
-		["missingInformation"]	= "Please whisper me your level AND role eg. '60 tank/dps' or more specific 'level 60 warrior dps/tank'"
-	}
+--	LFG113globals.FilledRoles = {
+--		--["Player"] = role
+--	}
 
 	LFG113globals.InstancesSorted = { "any", "rfc", "wc", "vc", "sfk", "bfd", "stocks", "gnomer", "rfk", "sm gy", "sm lib", "sm arm", "sm cath", "rfd", "ulda", "zf", "mara", "st", "brd", "lbrs", "ubrs", "dm", "strat", "scholo" }
 	LFG113globals.Instances = { -- 	= {#people, name, lowest level, highest level, text name,  {#tank,#heals,#dps}}

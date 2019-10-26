@@ -84,15 +84,20 @@ VExRT = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
+			["Serlutka"] = 0,
 			["Numireset"] = 0,
-			["Numibank"] = 0,
-			["Numiro"] = 0,
-			["Cottonfinger"] = 0,
-			["Numidruid"] = 0,
-			["Näbbmusen"] = 0,
 			["Eyonnix"] = 0,
+			["Numibank"] = 0,
+			["Maffiakurt"] = 0,
+			["Bezistian"] = 0,
+			["Numiro"] = 0,
 			["Midoriana"] = 0,
+			["Numidruid"] = 0,
+			["Arithos"] = 0,
+			["Näbbmusen"] = 0,
+			["James"] = 0,
 			["Naimoqt"] = 0,
+			["Cottonfinger"] = 0,
 			["Numimage"] = 0,
 			["Gekyume"] = 0,
 		},
@@ -285,14 +290,26 @@ VExRT = {
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["Addon"] = {
-		["Version"] = 4060,
+		["Version"] = 4080,
+		["PreVersion"] = 4080,
 		["Scale"] = 1,
-		["IconMiniMapTop"] = -75.2457596072784,
 		["Timer"] = 0.1,
 		["IconMiniMapLeft"] = -27.1675479409472,
-		["PreVersion"] = 4060,
+		["IconMiniMapTop"] = -75.2457596072784,
 	},
-	["WhoPulled"] = {
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckFrame"] = true,
+	},
+	["BossWatcher"] = {
+		["optionsDamageGraph"] = true,
+		["fightsNum"] = 2,
+		["optionsPositionsDist"] = true,
+		["optionsHealingGraph"] = true,
+		["trackingDamageSpells"] = {
+		},
 	},
 	["Profiles"] = {
 	},
@@ -348,12 +365,6 @@ VExRT = {
 		["sync_data"] = {
 		},
 	},
-	["BossWatcher"] = {
-		["optionsDamageGraph"] = true,
-		["fightsNum"] = 2,
-		["optionsPositionsDist"] = true,
-		["optionsHealingGraph"] = true,
-		["trackingDamageSpells"] = {
-		},
+	["WhoPulled"] = {
 	},
 }

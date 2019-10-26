@@ -90,6 +90,31 @@ VExRT = {
 				"^671^9^1570652047^152^1^40^56.73^Gilal", -- [26]
 				"^672^9^1570653084^166^1^40^57.06^Bordsbön", -- [27]
 				"^1084^9^1571076341^306^1^40^57.50^Otix", -- [28]
+				"^663^9^1571249649^64^1^40^57.50^", -- [29]
+				"^664^9^1571249984^97^1^40^57.50^", -- [30]
+				"^665^9^1571250688^62^1^40^58.19^", -- [31]
+				"^666^9^1571250992^83^0^40^58.19^Tazgo", -- [32]
+				"^666^9^1571251631^158^1^40^59.81^Deleldur", -- [33]
+				"^668^9^1571252386^91^1^40^59.81^Zwemmel", -- [34]
+				"^667^9^1571253320^111^1^40^59.81^Chuunin", -- [35]
+				"^669^9^1571254401^98^1^40^59.81^", -- [36]
+				"^670^9^1571255069^91^1^40^59.81^", -- [37]
+				"^671^9^1571255496^144^1^40^59.81^", -- [38]
+				"^672^9^1571256316^171^1^40^59.81^Haakonar", -- [39]
+				"^1084^9^1571257740^271^1^40^58.71^Gilal", -- [40]
+				"^663^9^1571855088^65^1^40^56.42^Blaezer", -- [41]
+				"^664^9^1571855380^88^1^40^56.42^Illia", -- [42]
+				"^665^9^1571856119^62^1^40^56.09^", -- [43]
+				"^666^9^1571856848^129^1^40^56.09^", -- [44]
+				"^668^9^1571857527^87^1^40^56.09^Haakonar", -- [45]
+				"^667^9^1571858314^94^1^40^51.26^Illia", -- [46]
+				"^669^9^1571859497^95^1^40^51.26^", -- [47]
+				"^670^9^1571860092^81^1^40^51.26^", -- [48]
+				"^671^9^1571860559^136^1^40^51.26^Turbotom", -- [49]
+				"^672^9^1571861352^154^1^40^51.26^Blaezer", -- [50]
+				"^1084^9^1571862755^464^0^40^50.06^Zerden", -- [51]
+				"^1084^9^1571863416^30^0^40^50.06^Naimoqt", -- [52]
+				"^1084^9^1571863883^276^1^40^50.06^Mega", -- [53]
 			},
 			["Numibank"] = {
 			},
@@ -116,9 +141,12 @@ VExRT = {
 		["gnGUIDs"] = {
 			["Flubbershy"] = 0,
 			["Tazgo"] = 0,
+			["Szejtan"] = 0,
 			["Zirks"] = 0,
+			["Tardcore"] = 0,
 			["Dehors"] = 0,
 			["Bubulak"] = 0,
+			["Mega"] = 0,
 			["Numimage"] = 0,
 			["Sørenryge"] = 0,
 			["Soon"] = 0,
@@ -128,8 +156,10 @@ VExRT = {
 			["Numiro"] = 0,
 			["Marinator"] = 0,
 			["Cicini"] = 0,
+			["Akhundelar"] = 0,
 			["Pepeger"] = 0,
 			["Amilly"] = 0,
+			["Pineapple"] = 0,
 			["Kydraen"] = 0,
 			["Kalinna"] = 0,
 			["Aimon"] = 0,
@@ -137,59 +167,76 @@ VExRT = {
 			["Deleldur"] = 0,
 			["Henghast"] = 0,
 			["Lucïya"] = 0,
+			["Chuunin"] = 0,
 			["Beringei"] = 0,
 			["Faberius"] = 0,
 			["Zwemmel"] = 0,
 			["Peekaaboo"] = 0,
 			["Shine"] = 0,
 			["Megatf"] = 0,
+			["Zuppex"] = 0,
+			["Waynan"] = 0,
+			["Leeshin"] = 0,
+			["Lechiblya"] = 0,
 			["Shortcrank"] = 0,
 			["Numibank"] = 0,
+			["Nydwen"] = 0,
+			["Dâmaso"] = 0,
 			["Foyada"] = 0,
+			["Raélag"] = 0,
+			["Korsfarer"] = 0,
 			["Kruber"] = 0,
+			["Eilieen"] = 0,
 			["Mitzanu"] = 0,
 			["Vashekk"] = 0,
 			["Maddepadde"] = 0,
+			["Serlutka"] = 0,
 			["Blush"] = 0,
+			["Dius"] = 0,
+			["Saple"] = 0,
+			["Vicia"] = 0,
 			["Eyonnix"] = 0,
 			["Galinj"] = 0,
+			["Emath"] = 0,
+			["Gingerale"] = 0,
 			["Michaela"] = 0,
-			["Monto"] = 0,
+			["Midoriana"] = 0,
+			["Fredasmys"] = 0,
 			["Zsanet"] = 0,
 			["Topkek"] = 0,
-			["Zverk"] = 0,
-			["Fredasmys"] = 0,
 			["Tyrrannis"] = 0,
-			["Emath"] = 0,
+			["Monto"] = 0,
+			["Skade"] = 0,
 			["Roxxanne"] = 0,
-			["Midoriana"] = 0,
-			["Odan"] = 0,
-			["Retardior"] = 0,
 			["Umberslisk"] = 0,
-			["Saple"] = 0,
-			["Zuppex"] = 0,
 			["Artsi"] = 0,
-			["Onyxil"] = 0,
-			["Gersimi"] = 0,
-			["Naimoqt"] = 0,
+			["Nimor"] = 0,
+			["Blaezer"] = 0,
 			["Hanzee"] = 0,
 			["Youngthug"] = 0,
+			["Momento"] = 0,
 			["Deadgamelul"] = 0,
-			["Blaezer"] = 0,
+			["Onyxil"] = 0,
+			["Gersimi"] = 0,
+			["Bimkieguy"] = 0,
 			["Kellthar"] = 0,
 			["Mashx"] = 0,
-			["Nimor"] = 0,
-			["Ytsejam"] = 0,
-			["Bimkieguy"] = 0,
+			["Teppich"] = 0,
+			["Naimoqt"] = 0,
+			["Odan"] = 0,
+			["Turbotom"] = 0,
 			["Judás"] = 0,
+			["Ytsejam"] = 0,
+			["Retardior"] = 0,
+			["Zerden"] = 0,
 			["Bjarnur"] = 0,
 			["Caewen"] = 0,
 			["Medkraft"] = 0,
 			["Saroq"] = 0,
-			["Gingerale"] = 0,
+			["Blk"] = 0,
 			["Shalladris"] = 0,
-			["Dius"] = 0,
-			["Skade"] = 0,
+			["Zverk"] = 0,
+			["Arithos"] = 0,
 			["Chuurix"] = 0,
 		},
 		["NoRaid"] = true,
@@ -401,12 +448,18 @@ VExRT = {
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["Addon"] = {
-		["Version"] = 4060,
-		["PreVersion"] = 4060,
+		["Version"] = 4080,
+		["PreVersion"] = 4080,
 		["Scale"] = 1,
 		["IconMiniMapLeft"] = -36.3747600140523,
 		["Timer"] = 0.1,
 		["IconMiniMapTop"] = -71.2522058179261,
+	},
+	["RaidCheck"] = {
+		["FlaskExp"] = 1,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckFrameOnlyRL"] = true,
+		["ReadyCheckFrame"] = true,
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,

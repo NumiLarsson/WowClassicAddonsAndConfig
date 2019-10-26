@@ -1,13 +1,12 @@
-lightweight tag 0b14a596a4523b30f0bff08ec07edd55d00c79fe 1.13.2.39
+lightweight tag aacce52bdc78c742a698af4fa9e86d839803bb28 1.13.2.40
 Author:	Luxocracy <luxor355@gmail.com>
-Date:	Mon Oct 14 21:01:45 2019 +0200
+Date:	Mon Oct 21 11:41:58 2019 +0200
 
-commit 0b14a596a4523b30f0bff08ec07edd55d00c79fe
+commit aacce52bdc78c742a698af4fa9e86d839803bb28
 Author: Luxocracy <luxor355@gmail.com>
-Date:   Mon Oct 14 21:00:02 2019 +0200
+Date:   Mon Oct 21 11:41:58 2019 +0200
 
-    Minor fixes
+    Lib Updates
     
-    - AuraCache should now clear on nameplate destroyed events. (Not sure if this is the cause of some memory leaks but should help)
-    - Removed some debug code
+    - Updated Libraries
 

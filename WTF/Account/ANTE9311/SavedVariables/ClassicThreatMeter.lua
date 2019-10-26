@@ -52,12 +52,6 @@ CTM_Options = {
 		["scale"] = 1,
 		["width"] = 217,
 		["strata"] = "3-MEDIUM",
-		["headerColor"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.8, -- [4]
-		},
 		["position"] = {
 			"BOTTOMRIGHT", -- [1]
 			"UIParent", -- [2]
@@ -65,15 +59,21 @@ CTM_Options = {
 			-84.9746398925781, -- [4]
 			101.709915161133, -- [5]
 		},
-		["height"] = 179,
+		["headerColor"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.8, -- [4]
+		},
+		["test"] = false,
 		["color"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			0.35, -- [4]
 		},
-		["test"] = false,
 		["locked"] = true,
+		["height"] = 179,
 	},
 	["backdrop"] = {
 		["bgColor"] = {

@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 1030000,
+		["__addonrevision"] = 1030002,
 	},
 	["profileKeys"] = {
 		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
@@ -43,15 +43,15 @@ AtlasLootClassicDB = {
 					"RIGHT", -- [1]
 					nil, -- [2]
 					"RIGHT", -- [3]
-					-218, -- [4]
-					-59.0000038146973, -- [5]
+					-218.000061035156, -- [4]
+					-59.0000190734863, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"DireMaulWest", -- [2]
-					5, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"Alchemy", -- [2]
+					7, -- [3]
 					1, -- [4]
-					0, -- [5]
+					-0, -- [5]
 				},
 			},
 		},
@@ -94,6 +94,9 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Numidruid - Ashbringer"] = {
+			["minimap"] = {
+				["minimapPos"] = 229.572768941085,
+			},
 			["GUI"] = {
 				["point"] = {
 					"BOTTOMRIGHT", -- [1]
@@ -103,15 +106,12 @@ AtlasLootClassicDB = {
 					-0, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"BlackrockDepths", -- [2]
-					18, -- [3]
-					1, -- [4]
+					"AtlasLootClassic_Collections", -- [1]
+					"TierSets", -- [2]
+					4, -- [3]
+					2, -- [4]
 					-0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 229.572768941085,
 			},
 		},
 		["Numiwar - Gehennas"] = {

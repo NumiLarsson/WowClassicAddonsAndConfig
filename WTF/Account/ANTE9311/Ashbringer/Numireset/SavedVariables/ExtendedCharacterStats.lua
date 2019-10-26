@@ -17,18 +17,18 @@ ExtendedCharacterStats = {
 			},
 		},
 		["Defense"] = {
-			["Block"] = {
-				["Display"] = true,
-				["Text"] = "Block: ",
-				["RefName"] = "BlockChance",
-			},
+			["Text"] = "Defense",
 			["Dodge"] = {
 				["Display"] = true,
 				["Text"] = "Dodge: ",
 				["RefName"] = "DodgeChance",
 			},
 			["Display"] = true,
-			["Text"] = "Defense",
+			["Block"] = {
+				["Display"] = true,
+				["Text"] = "Block: ",
+				["RefName"] = "BlockChance",
+			},
 			["RefName"] = "DefenseHeader",
 			["Parry"] = {
 				["Display"] = true,
@@ -49,6 +49,21 @@ ExtendedCharacterStats = {
 				["Display"] = true,
 				["Text"] = "Crit: ",
 				["RefName"] = "MeleeCritChance",
+			},
+		},
+		["Spell"] = {
+			["Hit"] = {
+				["Display"] = true,
+				["Text"] = "Hit Modifier: ",
+				["RefName"] = "SpellHit",
+			},
+			["Display"] = true,
+			["Text"] = "Spell",
+			["RefName"] = "SpellHeader",
+			["Crit"] = {
+				["Display"] = true,
+				["Text"] = "Crit: ",
+				["RefName"] = "SpellCritChance",
 			},
 		},
 		["Regen"] = {
@@ -149,21 +164,6 @@ ExtendedCharacterStats = {
 				["Display"] = true,
 				["Text"] = "Nature Crit: ",
 				["RefName"] = "NatureCritChance",
-			},
-		},
-		["Spell"] = {
-			["Hit"] = {
-				["Display"] = true,
-				["Text"] = "Hit Modifier: ",
-				["RefName"] = "SpellHit",
-			},
-			["Display"] = true,
-			["Text"] = "Spell",
-			["RefName"] = "SpellHeader",
-			["Crit"] = {
-				["Display"] = true,
-				["Text"] = "Crit: ",
-				["RefName"] = "SpellCritChance",
 			},
 		},
 	},

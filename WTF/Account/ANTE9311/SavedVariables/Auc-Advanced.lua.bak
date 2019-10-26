@@ -33,7 +33,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:-0.0:-57.4",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.8:-99.2",
 			},
 		},
 		["configator.top"] = 651.666625976563,
@@ -51,7 +51,7 @@ AucAdvancedData = {
 			["ignoretimeleft.filter.Resale"] = true,
 			["enchantmats.PriceAdjust.11174"] = 115,
 			["enchantmats.PriceAdjust.10938"] = 115,
-			["resale.seen.min"] = 25,
+			["resale.seen.min"] = 51,
 			["snatch.columnsortcurDir"] = 1,
 			["enchantmats.PriceAdjust.11082"] = 115,
 			["enchantmats.PriceAdjust.11175"] = 115,
@@ -66,8 +66,11 @@ AucAdvancedData = {
 			["ignoreitemprice.ignorelist"] = {
 				["13896"] = 0,
 				["17030"] = 0,
+				["16250"] = 896750,
 				["13893"] = 0,
+				["4411"] = 6000000,
 				["11176"] = 1,
+				["9425"] = 9999999,
 				["9941:1966"] = 0,
 				["9941:1851"] = 0,
 				["804"] = 0,
@@ -77,21 +80,21 @@ AucAdvancedData = {
 			["general.maxbid"] = 9999999999,
 			["enchantmats.PriceAdjust.11135"] = 115,
 			["snatch.columnsortcurSort"] = 1,
-			["vendor.allow.bid"] = false,
-			["ignoretimeleft.enable"] = true,
+			["enchantmats.PriceAdjust.11083"] = 115,
+			["vendor.timeleft"] = 1,
 			["enchantmats.PriceAdjust.10998"] = 115,
 			["smelting.level.max"] = 250,
-			["enchantmats.PriceAdjust.11083"] = 115,
+			["columnsortcurSort"] = 3,
 			["enchantmats.PriceAdjust.11137"] = 115,
 			["disenchant.profit.pct"] = 50.5,
-			["enchantmats.PriceAdjust.16202"] = 115,
+			["enchantmats.PriceAdjust.16203"] = 115,
 			["snatch.itemsList"] = {
 			},
 			["resale.profit.min"] = 10000,
-			["enchantmats.PriceAdjust.16203"] = 115,
+			["enchantmats.PriceAdjust.16202"] = 115,
 			["columnsortcurDir"] = -1,
 			["enchantmats.PriceAdjust.10940"] = 115,
-			["columnsortcurSort"] = 3,
+			["ignoretimeleft.enable"] = true,
 			["smelting.profit.min"] = 1000,
 		},
 		["Global"] = {
@@ -103,12 +106,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
-	["Timestamp"] = 1569684329,
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["KnownServerKeys"] = {
-		["Ashbringer"] = 1571170295,
-	},
+	["Timestamp"] = 1569684329,
 	["Version"] = 1,
+	["KnownServerKeys"] = {
+		["Ashbringer"] = 1571943462,
+	},
 }

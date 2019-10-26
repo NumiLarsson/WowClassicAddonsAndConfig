@@ -10,7 +10,7 @@ AtlasLootClassicDB = {
 		["Numiafk - Ashbringer"] = "Numiafk - Ashbringer",
 	},
 	["global"] = {
-		["__addonrevision"] = 1030000,
+		["__addonrevision"] = 1030002,
 	},
 	["profiles"] = {
 		["Numiwar - Gehennas"] = {
@@ -98,13 +98,13 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					97.419807434082, -- [4]
-					42.9999656677246, -- [5]
+					122.000015258789, -- [4]
+					35.0000076293945, -- [5]
 				},
 				["selected"] = {
 					nil, -- [1]
-					"DireMaulNorth", -- [2]
-					6, -- [3]
+					"BlackrockDepths", -- [2]
+					20, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},

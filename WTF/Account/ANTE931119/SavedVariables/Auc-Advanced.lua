@@ -21,7 +21,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "LEFT:LEFT:0.0:99.2",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:0.0:-51.7",
 			},
 		},
 		["stat"] = {
@@ -69,12 +69,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1569684329,
 	["KnownServerKeys"] = {
-		["Ashbringer"] = 1571170425,
+		["Ashbringer"] = 1571946318,
 	},
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["Version"] = 1,
-	["Timestamp"] = 1569684329,
 }
