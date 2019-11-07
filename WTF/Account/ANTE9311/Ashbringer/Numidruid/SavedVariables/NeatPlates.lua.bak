@@ -13,8 +13,8 @@ NeatPlatesOptions = {
 	["WelcomeShown"] = true,
 	["EnforceRequiredCVars"] = true,
 	["ForceBlizzardFont"] = false,
-	["NameplateClickableHeight"] = 1,
 	["BlizzardScaling"] = false,
+	["NameplateClickableHeight"] = 1,
 	["NameplateClickableWidth"] = 1,
 	["FirstSpecProfile"] = "Default",
 }

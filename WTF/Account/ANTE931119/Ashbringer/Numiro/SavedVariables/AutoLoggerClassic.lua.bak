@@ -1,6 +1,7 @@
 
 ALCOptions = {
 	["minimapTable"] = {
+		["hide"] = true,
 	},
 	["instances"] = {
 		[409] = true,

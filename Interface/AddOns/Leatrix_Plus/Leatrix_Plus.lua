@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 1.13.36 (23rd October 2019)
+-- 	Leatrix Plus 1.13.37 (31st October 2019)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "1.13.36"
+	LeaPlusLC["AddonVer"] = "1.13.37"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -2298,6 +2298,7 @@
 							err == ERR_RAID_GROUP_ONLY or
 							err == ERR_PET_SPELL_DEAD or
 							err == ERR_PLAYER_DEAD or
+							err == ERR_FEIGN_DEATH_RESISTED or
 							err == SPELL_FAILED_TARGET_NO_POCKETS or
 							err == ERR_ALREADY_PICKPOCKETED then
 							return OrigErrHandler(self, event, id, err, ...)
@@ -3083,10 +3084,17 @@
 						-- Get quest title and check
 						local questLogTitle = _G["QuestLogTitle" .. i]
 						local questCheck = _G["QuestLogTitle" .. i .. "Check"]
-						local title, level, void, isHeader = GetQuestLogTitle(questIndex)
+						local title, level, suggestedGroup, isHeader = GetQuestLogTitle(questIndex)
 						if not isHeader then
 							-- Add level tag if its not a header
-							local questTextFormatted = string.format("  [%02d] %s", level, title)
+							local levelSuffix = ""
+							if suggestedGroup then
+								if suggestedGroup == LFG_TYPE_DUNGEON then levelSuffix = "D"
+								elseif suggestedGroup == RAID then levelSuffix = "R"
+								elseif suggestedGroup == ELITE then levelSuffix = "+"
+								end
+							end
+							local questTextFormatted = string.format("  [%d" .. levelSuffix  .. "] %s", level, title)
 							questLogTitle:SetText(questTextFormatted)
 							QuestLogDummyText:SetText(questTextFormatted)
 						end

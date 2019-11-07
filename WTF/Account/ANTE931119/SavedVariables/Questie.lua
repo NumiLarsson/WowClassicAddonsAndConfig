@@ -11,6 +11,13 @@ QuestieConfig = {
 				[5047] = true,
 				[5128] = true,
 			},
+			["TrackerLocation"] = {
+				"TOPRIGHT", -- [1]
+				"MinimapCluster", -- [2]
+				"BOTTOMRIGHT", -- [3]
+				-191.456802368164, -- [4]
+				-64.7901000976563, -- [5]
+			},
 			["complete"] = {
 				[5] = true,
 				[6] = true,
@@ -467,6 +474,7 @@ QuestieConfig = {
 				[783] = true,
 				[3130] = true,
 				[5237] = true,
+				[5241] = true,
 				[5249] = true,
 				[8460] = true,
 				[4242] = true,
@@ -544,22 +552,25 @@ QuestieConfig = {
 				[5102] = true,
 				[1791] = true,
 				[6141] = true,
+				[4701] = true,
+				[8470] = true,
+				[8465] = true,
 				[6161] = true,
 				[5142] = true,
 				[4123] = true,
 				[4127] = true,
 				[4131] = true,
 				[4135] = true,
-				[4701] = true,
-				[8470] = true,
-				[8465] = true,
-				[7486] = true,
+				[1194] = true,
 				[8366] = true,
 				[4733] = true,
-				[453] = true,
 				[7728] = true,
 				[7727] = true,
 				[7724] = true,
+				[453] = true,
+				[7722] = true,
+				[7721] = true,
+				[5265] = true,
 				[2603] = true,
 				[2605] = true,
 				[3630] = true,
@@ -569,45 +580,44 @@ QuestieConfig = {
 				[5226] = true,
 				[3640] = true,
 				[3642] = true,
-				[7722] = true,
-				[7721] = true,
+				[7486] = true,
+				[7482] = true,
 				[4223] = true,
 				[5250] = true,
-				[5384] = true,
+				[7461] = true,
 				[8462] = true,
 				[5262] = true,
-				[7482] = true,
-				[7461] = true,
-				[1194] = true,
 				[7068] = true,
 				[7067] = true,
-				[4263] = true,
-				[4267] = true,
 				[597] = true,
 				[7046] = true,
 				[7044] = true,
-				[4283] = true,
-				[4287] = true,
+				[4263] = true,
+				[4267] = true,
 				[6823] = true,
 				[6821] = true,
 				[265] = true,
+				[4283] = true,
+				[4287] = true,
 				[6804] = true,
 				[6624] = true,
 				[6502] = true,
 				[6501] = true,
 				[6182] = true,
-				[463] = true,
 				[6027] = true,
-				[3702] = true,
+				[6024] = true,
+				[6021] = true,
+				[463] = true,
 				[5903] = true,
-				[464] = true,
+				[3702] = true,
 				[5885] = true,
+				[464] = true,
 				[2861] = true,
 				[5863] = true,
+				[4183] = true,
 				[465] = true,
 				[5382] = true,
 				[4363] = true,
-				[4183] = true,
 				[665] = true,
 				[5845] = true,
 				[2606] = true,
@@ -620,23 +630,24 @@ QuestieConfig = {
 				[5518] = true,
 				[5515] = true,
 				[5507] = true,
-				[469] = true,
 				[5503] = true,
+				[469] = true,
+				[5384] = true,
 				[7496] = true,
-				[5265] = true,
-				[470] = true,
 				[5264] = true,
+				[470] = true,
 				[5263] = true,
 				[5244] = true,
+				[5223] = true,
 				[4451] = true,
 				[2741] = true,
-				[5223] = true,
 				[5220] = true,
+				[5215] = true,
 				[472] = true,
 				[944] = true,
-				[5215] = true,
 				[5214] = true,
 				[279] = true,
+				[5149] = true,
 				[5128] = true,
 				[5123] = true,
 				[947] = true,
@@ -24407,6 +24418,159 @@ QuestieConfig = {
 					["Quest"] = 3825,
 					["Level"] = 60,
 				}, -- [2003]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Mage",
+							["Name"] = "Numimage",
+							["Level"] = 7,
+						}, -- [1]
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 60,
+					["Quest"] = 1019,
+					["Timestamp"] = 1572184176,
+				}, -- [2004]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Mage",
+							["Name"] = "Numimage",
+							["Level"] = 7,
+						}, -- [1]
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 60,
+					["Quest"] = 7494,
+					["Timestamp"] = 1572184179,
+				}, -- [2005]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [1]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [2]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [3]
+					},
+					["Level"] = 60,
+					["Quest"] = 2582,
+					["Timestamp"] = 1572861808,
+					["SubType"] = "Accept",
+					["Event"] = "Quest",
+				}, -- [2006]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [1]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [2]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Bucharest",
+							["Level"] = 60,
+						}, -- [3]
+					},
+					["Level"] = 60,
+					["Quest"] = 2582,
+					["Timestamp"] = 1572861810,
+					["SubType"] = "Complete",
+					["Event"] = "Quest",
+				}, -- [2007]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [1]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [2]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [3]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [4]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [5]
+					},
+					["Level"] = 60,
+					["Quest"] = 5211,
+					["Timestamp"] = 1572862141,
+					["SubType"] = "Abandon",
+					["Event"] = "Quest",
+				}, -- [2008]
+				{
+					["Party"] = {
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [1]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [2]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [3]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [4]
+						{
+							["Class"] = "Warrior",
+							["Name"] = "Rorymercury",
+							["Level"] = 60,
+						}, -- [5]
+					},
+					["Level"] = 60,
+					["Quest"] = 1019,
+					["Timestamp"] = 1572862155,
+					["SubType"] = "Abandon",
+					["Event"] = "Quest",
+				}, -- [2009]
+				{
+					["Party"] = {
+					},
+					["SubType"] = "Accept",
+					["Event"] = "Quest",
+					["Timestamp"] = 1573059769,
+					["Quest"] = 7441,
+					["Level"] = 60,
+				}, -- [2010]
 			},
 			["TrackerHiddenObjectives"] = {
 			},
@@ -24416,6 +24580,14 @@ QuestieConfig = {
 			},
 		},
 		["Numibank - Ashbringer"] = {
+			["TrackedQuests"] = {
+			},
+			["TrackerHiddenObjectives"] = {
+			},
+			["AutoUntrackedQuests"] = {
+			},
+			["TrackerHiddenQuests"] = {
+			},
 			["journey"] = {
 				{
 					["Party"] = {
@@ -24452,16 +24624,18 @@ QuestieConfig = {
 					["SubType"] = "Complete",
 				}, -- [4]
 			},
-			["TrackerHiddenObjectives"] = {
+			["complete"] = {
+				[2159] = true,
 			},
+		},
+		["Numiafk - Ashbringer"] = {
 			["AutoUntrackedQuests"] = {
 			},
 			["TrackerHiddenQuests"] = {
 			},
 			["TrackedQuests"] = {
 			},
-			["complete"] = {
-				[2159] = true,
+			["TrackerHiddenObjectives"] = {
 			},
 		},
 	},
@@ -24477,6 +24651,7 @@ QuestieConfig = {
 		["Default"] = {
 			["minimap"] = {
 				["minimapPos"] = 197.691954797454,
+				["hide"] = true,
 			},
 		},
 	},

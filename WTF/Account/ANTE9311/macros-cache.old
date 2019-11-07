@@ -2,7 +2,7 @@ VER 3 0000000000000006 "Curses" "INV_MISC_QUESTIONMARK"
 /rw Hexen = Shadows, High = Recklessness, Judas = Elements
 END
 VER 3 0000000000000001 "da" "INV_MISC_QUESTIONMARK"
-LFM MC 1 heals! Come Ironforge bridge and /poke Numiro for inspect! Going ASAP! Semi-guild run!
+/tar jed
 END
 VER 3 0000000000000005 "da " "INV_MISC_QUESTIONMARK"
 /rw Zirks on Boss, Quelserrar on Skull, Eyonnix on Cross, Friedman on Triangle, Robben on Diamond
@@ -27,15 +27,5 @@ VER 3 0000000000000002 "Horde NO" "INV_MISC_QUESTIONMARK"
 /raid Noynac + Robben on Diamond
 END
 VER 3 0000000000000004 "Spirit" "INV_MISC_QUESTIONMARK"
-/equip Sanctimonial Rod
-/equip Mail Combat Headguard
-/equip Explorers' League Commendation
-/equip Traveler's Cloak
-/equip Gahz'rilla 
-/equip Duskwoven Bracers
-/equip Conjurer's Breeches
-/equip Durtfeet 
-/equip Roy
-/equip Gloves of 
-/equip Atal'ai Boots 
+/Script ResetInstances()
 END

@@ -1,5 +1,0 @@
-<Bindings>
-	<Binding name="LFG113_TOGGLE" header="LFG113" category="ADDONS">
-		LFG113Show ();
-	</Binding>
-</Bindings>

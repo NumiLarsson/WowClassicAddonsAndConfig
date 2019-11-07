@@ -3,5 +3,6 @@ WeakAurasCompanion: enabled
 ElvUI: enabled
 !Compatibility: enabled
 CensusPlusClassic: disabled
-SpeedrunSplits: enabled
+SpeedrunSplits: disabled
 LFG113: disabled
+ItemRackOptions: enabled

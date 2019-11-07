@@ -3,6 +3,7 @@ GatherMate2DB = {
 	["profileKeys"] = {
 		["Numiro - Ashbringer"] = "Default",
 		["Numibank - Ashbringer"] = "Default",
+		["Numiafk - Ashbringer"] = "Default",
 	},
 	["global"] = {
 		["data_version"] = 5,
@@ -29,10 +30,12 @@ GatherMate2MineDB = {
 		[3936848300] = 214,
 	},
 	[1452] = {
-		[3744352800] = 206,
-		[5503270900] = 206,
 		[4926143000] = 215,
+		[5503270900] = 206,
 		[5503209100] = 214,
+		[3744352800] = 206,
+		[5117078700] = 208,
+		[5039167300] = 215,
 	},
 	[1428] = {
 		[8077484500] = 214,

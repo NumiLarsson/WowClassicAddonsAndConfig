@@ -32,37 +32,110 @@ VExRT = {
 			[72] = 10,
 			[104] = 10,
 			[73] = 10,
-			[581] = 10,
-			[105] = 10,
-			[577] = 10,
-			[256] = 10,
-			[254] = 10,
 			[252] = 10,
+			[105] = 10,
+			[254] = 10,
+			[256] = 10,
+			[577] = 10,
+			[581] = 10,
 		},
 		["Strata"] = "HIGH",
 		["timeToKillAnalyze"] = 15,
 	},
 	["ProfileKeys"] = {
-		["Numimage-Ashbringer"] = "default",
 		["Numibank-Ashbringer"] = "default",
-		["Numireset-Ashbringer"] = "default",
 		["Numiro-Ashbringer"] = "default",
 		["Numidruid-Ashbringer"] = "default",
+		["Numimage-Ashbringer"] = "default",
 	},
 	["Encounter"] = {
+		["names"] = {
+			[668] = "Baron Geddon",
+			[670] = "Golemagg the Incinerator",
+			[672] = "Ragnaros",
+			[663] = "Lucifron",
+			[665] = "Gehennas",
+			[667] = "Shazzrah",
+			[669] = "Sulfuron Harbinger",
+			[671] = "Majordomo Executus",
+			[664] = "Magmadar",
+			[666] = "Garr",
+			[1084] = "Onyxia",
+		},
 		["list"] = {
 			["Numidruid"] = {
 			},
-			["Numireset"] = {
-			},
 			["Numibank"] = {
+			},
+			["Numiro"] = {
+				"^1084^9^1569780969^473^1^40^55.79^Bobla", -- [1]
+				"^663^9^1570040985^92^1^40^55.00^Flubbershy", -- [2]
+				"^664^9^1570041397^114^1^40^55.00^", -- [3]
+				"^665^9^1570042141^72^1^40^56.31^Kalinna", -- [4]
+				"^666^9^1570042997^171^1^40^57.46^Flubbershy", -- [5]
+				"^668^9^1570043798^106^1^40^55.96^Megatf", -- [6]
+				"^667^9^1570044759^112^1^40^55.96^ßeastmode", -- [7]
+				"^669^9^1570046062^123^1^40^55.96^", -- [8]
+				"^670^9^1570046739^102^1^40^55.96^", -- [9]
+				"^1084^9^1570050775^0^0^40^55.96^ßeastmode", -- [10]
+				"^1084^9^1570051512^288^1^40^55.96^Judás", -- [11]
+				"^671^9^1570128200^152^0^40^54.06^Poxpoone", -- [12]
+				"^671^9^1570129128^178^0^40^52.55^Numiro", -- [13]
+				"^671^9^1570129736^225^1^40^52.55^Numiro", -- [14]
+				"^672^9^1570131558^138^0^40^52.29^Aritus", -- [15]
+				"^672^9^1570132206^2222^1^40^53.36^Ellinas", -- [16]
+				"^1084^9^1570471738^266^1^40^55.00^Älluin", -- [17]
+				"^663^9^1570644868^65^1^40^56.50^Youngthug", -- [18]
+				"^664^9^1570645222^89^1^40^57.38^", -- [19]
+				"^665^9^1570645903^60^1^40^57.38^", -- [20]
+				"^666^9^1570646587^135^1^40^57.46^Raélag", -- [21]
+				"^668^9^1570647307^104^1^40^57.46^Numiro", -- [22]
+				"^667^9^1570648176^101^1^40^57.46^", -- [23]
+				"^669^9^1570649529^107^1^40^57.46^", -- [24]
+				"^670^9^1570650207^122^1^40^57.46^Bulli", -- [25]
+				"^671^9^1570652047^152^1^40^56.73^Gilal", -- [26]
+				"^672^9^1570653084^166^1^40^57.06^Bordsbön", -- [27]
+				"^1084^9^1571076341^306^1^40^57.50^Otix", -- [28]
+				"^663^9^1571249649^64^1^40^57.50^", -- [29]
+				"^664^9^1571249984^97^1^40^57.50^", -- [30]
+				"^665^9^1571250688^62^1^40^58.19^", -- [31]
+				"^666^9^1571250992^83^0^40^58.19^Tazgo", -- [32]
+				"^666^9^1571251631^158^1^40^59.81^Deleldur", -- [33]
+				"^668^9^1571252386^91^1^40^59.81^Zwemmel", -- [34]
+				"^667^9^1571253320^111^1^40^59.81^Chuunin", -- [35]
+				"^669^9^1571254401^98^1^40^59.81^", -- [36]
+				"^670^9^1571255069^91^1^40^59.81^", -- [37]
+				"^671^9^1571255496^144^1^40^59.81^", -- [38]
+				"^672^9^1571256316^171^1^40^59.81^Haakonar", -- [39]
+				"^1084^9^1571257740^271^1^40^58.71^Gilal", -- [40]
+				"^663^9^1571855088^65^1^40^56.42^Blaezer", -- [41]
+				"^664^9^1571855380^88^1^40^56.42^Illia", -- [42]
+				"^665^9^1571856119^62^1^40^56.09^", -- [43]
+				"^666^9^1571856848^129^1^40^56.09^", -- [44]
+				"^668^9^1571857527^87^1^40^56.09^Haakonar", -- [45]
+				"^667^9^1571858314^94^1^40^51.26^Illia", -- [46]
+				"^669^9^1571859497^95^1^40^51.26^", -- [47]
+				"^670^9^1571860092^81^1^40^51.26^", -- [48]
+				"^671^9^1571860559^136^1^40^51.26^Turbotom", -- [49]
+				"^672^9^1571861352^154^1^40^51.26^Blaezer", -- [50]
+				"^1084^9^1571862755^464^0^40^50.06^Zerden", -- [51]
+				"^1084^9^1571863416^30^0^40^50.06^Naimoqt", -- [52]
+				"^1084^9^1571863883^276^1^40^50.06^Mega", -- [53]
+				"^664^9^1572463248^78^1^40^55.13^", -- [54]
+				"^665^9^1572463864^58^1^40^56.31^", -- [55]
+				"^666^9^1572464451^111^1^40^45.71^", -- [56]
+				"^668^9^1572465001^79^1^40^46.15^", -- [57]
+				"^667^9^1572465604^81^1^40^46.15^", -- [58]
+				"^669^9^1572466598^89^1^40^46.15^Aritus", -- [59]
+				"^670^9^1572467144^78^1^40^46.15^", -- [60]
+				"^671^9^1572467508^118^1^40^46.15^Blaezer", -- [61]
+				"^672^9^1572468184^136^1^40^46.15^Gersimi", -- [62]
+				"^1084^9^1572469819^0^0^40^45.54^Youngthug", -- [63]
+				"^1084^9^1572470563^439^1^40^45.54^Flubbershy", -- [64]
+				"^1084^9^1572894540^262^1^40^57.04^Otix", -- [65]
 			},
 			["Numimage"] = {
 			},
-			["Numiro"] = {
-			},
-		},
-		["names"] = {
 		},
 	},
 	["InviteTool"] = {
@@ -84,29 +157,140 @@ VExRT = {
 		["default_userDuration"] = {
 		},
 		["gnGUIDs"] = {
-			["Serlutka"] = 0,
-			["Numireset"] = 0,
-			["Eyonnix"] = 0,
-			["Numibank"] = 0,
-			["Maffiakurt"] = 0,
-			["Bezistian"] = 0,
-			["Numiro"] = 0,
-			["Midoriana"] = 0,
-			["Numidruid"] = 0,
-			["Arithos"] = 0,
-			["Näbbmusen"] = 0,
-			["James"] = 0,
-			["Naimoqt"] = 0,
-			["Cottonfinger"] = 0,
+			["Flubbershy"] = 0,
+			["Tazgo"] = 0,
+			["Bucharest"] = 0,
+			["Szejtan"] = 0,
+			["Zirks"] = 0,
+			["Tardcore"] = 0,
+			["Dehors"] = 0,
+			["Bubulak"] = 0,
+			["Shirotora"] = 0,
+			["Mega"] = 0,
 			["Numimage"] = 0,
-			["Gekyume"] = 0,
+			["Bjornson"] = 0,
+			["Sørenryge"] = 0,
+			["Soon"] = 0,
+			["Samarah"] = 0,
+			["Haakonar"] = 0,
+			["Brodolf"] = 0,
+			["Numiro"] = 0,
+			["Marinator"] = 0,
+			["Cicini"] = 0,
+			["Belakor"] = 0,
+			["Akhundelar"] = 0,
+			["Pepeger"] = 0,
+			["Amilly"] = 0,
+			["Nonkeymews"] = 0,
+			["Pineapple"] = 0,
+			["Ozan"] = 0,
+			["Kydraen"] = 0,
+			["Kalinna"] = 0,
+			["Aimon"] = 0,
+			["Dius"] = 0,
+			["Suzaxe"] = 0,
+			["Deleldur"] = 0,
+			["Dâmaso"] = 0,
+			["Avuç"] = 0,
+			["Snipe"] = 0,
+			["Zverk"] = 0,
+			["Lucïya"] = 0,
+			["Korsfarer"] = 0,
+			["Numidruid"] = 0,
+			["Chuunin"] = 0,
+			["Beringei"] = 0,
+			["Zuppex"] = 0,
+			["Saple"] = 0,
+			["Friedman"] = 0,
+			["Faberius"] = 0,
+			["Aritus"] = 0,
+			["Blk"] = 0,
+			["Zwemmel"] = 0,
+			["Leeshin"] = 0,
+			["Lechiblya"] = 0,
+			["Zerden"] = 0,
+			["Gingerale"] = 0,
+			["Peekaaboo"] = 0,
+			["Shine"] = 0,
+			["Megatf"] = 0,
+			["Laphroaig"] = 0,
+			["Judás"] = 0,
+			["Roxxanne"] = 0,
+			["Jira"] = 0,
+			["Blyant"] = 0,
+			["Trixxes"] = 0,
+			["Shortcrank"] = 0,
+			["Numibank"] = 0,
+			["Nydwen"] = 0,
+			["Nimor"] = 0,
+			["Foyada"] = 0,
+			["Raélag"] = 0,
+			["Momento"] = 0,
+			["Kruber"] = 0,
+			["Eilieen"] = 0,
+			["Mitzanu"] = 0,
+			["Emath"] = 0,
+			["Serlutka"] = 0,
+			["Maddepadde"] = 0,
+			["Blush"] = 0,
+			["Korv"] = 0,
+			["Cujo"] = 0,
+			["Vicia"] = 0,
+			["Eyonnix"] = 0,
+			["Galinj"] = 0,
+			["Mortigern"] = 0,
+			["Gerralt"] = 0,
+			["Michaela"] = 0,
+			["Artsi"] = 0,
+			["Monto"] = 0,
+			["Zsanet"] = 0,
+			["Topkek"] = 0,
+			["Tyrrannis"] = 0,
+			["Turbotom"] = 0,
+			["Skade"] = 0,
+			["Kellthar"] = 0,
+			["Mashx"] = 0,
+			["Youngthug"] = 0,
+			["Fredasmys"] = 0,
+			["Hanzee"] = 0,
+			["Deadgamelul"] = 0,
+			["Bimkieguy"] = 0,
+			["Naimoqt"] = 0,
+			["Blaezer"] = 0,
+			["Onyxil"] = 0,
+			["Gersimi"] = 0,
+			["Jinzibo"] = 0,
+			["Vashekk"] = 0,
+			["Odan"] = 0,
+			["Teppich"] = 0,
+			["Midoriana"] = 0,
+			["Kocsonya"] = 0,
+			["Kmen"] = 0,
+			["Retardior"] = 0,
+			["Ytsejam"] = 0,
+			["Waynan"] = 0,
+			["Arithos"] = 0,
+			["Bjarnur"] = 0,
+			["Caewen"] = 0,
+			["Medkraft"] = 0,
+			["Saroq"] = 0,
+			["Henghast"] = 0,
+			["Shalladris"] = 0,
+			["Talyia"] = 0,
+			["Umberslisk"] = 0,
+			["Chuurix"] = 0,
 		},
 		["NoRaid"] = true,
 		["CDECol"] = {
+			["871;1"] = 3,
+			["12975;1"] = 3,
+			["20748;1"] = 2,
+			["10310;1"] = 3,
+			["19752;1"] = 2,
 		},
 		["default_userCD"] = {
 		},
-		["userDB"] = {
+		["Save"] = {
 		},
 		["colSet"] = {
 			{
@@ -116,13 +300,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [1]
 			{
 				["enabled"] = true,
@@ -131,13 +315,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [2]
 			{
 				["enabled"] = true,
@@ -146,13 +330,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [3]
 			{
 				["frameGeneral"] = true,
@@ -160,13 +344,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [4]
 			{
 				["frameGeneral"] = true,
@@ -174,13 +358,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [5]
 			{
 				["frameGeneral"] = true,
@@ -188,13 +372,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [6]
 			{
 				["frameGeneral"] = true,
@@ -202,13 +386,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [7]
 			{
 				["frameGeneral"] = true,
@@ -216,13 +400,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [8]
 			{
 				["frameGeneral"] = true,
@@ -230,13 +414,13 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [9]
 			{
 				["frameGeneral"] = true,
@@ -244,38 +428,54 @@ VExRT = {
 				["textGeneral"] = true,
 				["methodsGeneral"] = true,
 				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
+				["textureGeneral"] = true,
 				["iconGeneral"] = true,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
 				["fontGeneral"] = true,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["fontShadow"] = false,
 			}, -- [10]
 			{
-				["frameGeneral"] = true,
+				["fontSize"] = 12,
 				["iconGray"] = true,
-				["textGeneral"] = true,
-				["methodsGeneral"] = true,
-				["blacklistGeneral"] = true,
-				["fontShadow"] = false,
-				["iconGeneral"] = true,
+				["frameBetweenLines"] = 0,
 				["fontOutline"] = true,
 				["visibilityGeneral"] = true,
-				["fontGeneral"] = true,
+				["fontShadow"] = false,
+				["frameLines"] = 15,
+				["textureAlphaTimeLine"] = 0.8,
+				["textureBorderSize"] = 0,
 				["textureAnimation"] = true,
-				["textureGeneral"] = true,
+				["frameBlackBack"] = 0,
+				["frameScale"] = 100,
+				["blacklistGeneral"] = true,
+				["methodsAlphaNotInRangeNum"] = 90,
+				["textureSmoothAnimationDuration"] = 50,
+				["frameAlpha"] = 100,
+				["frameColumns"] = 1,
+				["iconSize"] = 16,
+				["textureAlphaBackground"] = 0.3,
+				["frameWidth"] = 130,
+				["textureAlphaCooldown"] = 1,
 			}, -- [11]
 		},
 		["Priority"] = {
 		},
 		["CDE"] = {
+			[20748] = true,
+			[10310] = true,
+			[29166] = true,
+			[19752] = true,
+			[871] = true,
+			[12975] = true,
 		},
-		["Save"] = {
+		["userDB"] = {
 		},
 	},
 	["Attendance"] = {
-		["enabled"] = 2,
+		["enabled"] = 4,
+		["ModuleViewed3580"] = true,
 		["data"] = {
 		},
 		["alts"] = {
@@ -285,23 +485,26 @@ VExRT = {
 		["ColorizeLowIlvl685"] = false,
 		["ColorizeNoEnch"] = true,
 		["ColorizeNoGems"] = true,
-		["ColorizeLowIlvl"] = true,
 		["ColorizeNoTopEnchGems"] = false,
+		["ColorizeLowIlvl"] = true,
 		["ColorizeNoValorUpgrade"] = false,
 	},
 	["Addon"] = {
-		["Version"] = 4080,
-		["PreVersion"] = 4080,
 		["Scale"] = 1,
+		["Version"] = 4110,
+		["IconMiniMapLeft"] = -36.3747600140523,
+		["IconMiniMapHide"] = true,
 		["Timer"] = 0.1,
-		["IconMiniMapLeft"] = -27.1675479409472,
-		["IconMiniMapTop"] = -75.2457596072784,
+		["PreVersion"] = 4110,
+		["IconMiniMapTop"] = -71.2522058179261,
 	},
 	["RaidCheck"] = {
-		["FlaskExp"] = 1,
-		["ReadyCheckFrameTimerFade"] = 4,
 		["ReadyCheckFrameOnlyRL"] = true,
 		["ReadyCheckFrame"] = true,
+		["ReadyCheckFrameTimerFade"] = 4,
+		["ReadyCheckTop"] = 784.376708984375,
+		["ReadyCheckLeft"] = 301.826965332031,
+		["FlaskExp"] = 1,
 	},
 	["BossWatcher"] = {
 		["optionsDamageGraph"] = true,
@@ -332,12 +535,12 @@ VExRT = {
 		["OnlyPromoted"] = true,
 		["Strata"] = "HIGH",
 		["Height"] = 99.9999694824219,
+		["BlackLastUpdateTime"] = {
+		},
 		["Black"] = {
 			"", -- [1]
 			"", -- [2]
 			"", -- [3]
-		},
-		["BlackLastUpdateTime"] = {
 		},
 		["OptionsFormatting"] = true,
 	},
@@ -352,9 +555,9 @@ VExRT = {
 		},
 		["Strata"] = "HIGH",
 		["pulltimer"] = 10,
-		["enabled"] = true,
-		["Left"] = 1019.15399169922,
 		["Top"] = 853.333312988281,
+		["Left"] = 1098.16577148438,
+		["enabled"] = true,
 	},
 	["VisNote"] = {
 		["data"] = {

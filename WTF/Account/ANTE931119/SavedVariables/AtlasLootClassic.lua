@@ -1,7 +1,7 @@
 
 AtlasLootClassicDB = {
 	["global"] = {
-		["__addonrevision"] = 1030002,
+		["__addonrevision"] = 1030003,
 	},
 	["profileKeys"] = {
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
@@ -72,21 +72,21 @@ AtlasLootClassicDB = {
 		},
 		["Numiro - Ashbringer"] = {
 			["minimap"] = {
-				["minimapPos"] = 174.775379102156,
+				["minimapPos"] = 181.252831594622,
 			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					116.469253540039, -- [4]
-					35.0000724792481, -- [5]
+					-27.5309505462647, -- [4]
+					40.2098541259766, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"MoltenCore", -- [2]
-					10, -- [3]
-					3, -- [4]
+					"AtlasLootClassic_PvP", -- [1]
+					"ClassSets", -- [2]
+					2, -- [3]
+					2, -- [4]
 					0, -- [5]
 				},
 			},

@@ -1,9 +1,10 @@
 
 ccc_settings = {
-	["alpha"] = 0.85,
-	["scale"] = 1,
-	["growth"] = "up",
+	["aoe"] = "target",
 	["invert"] = false,
+	["scale"] = 1,
+	["alpha"] = 0.85,
+	["growth"] = "up",
 	["ignore"] = {
 	},
 }

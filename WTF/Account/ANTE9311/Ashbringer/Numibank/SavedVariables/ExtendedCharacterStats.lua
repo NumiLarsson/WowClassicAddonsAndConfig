@@ -51,6 +51,26 @@ ExtendedCharacterStats = {
 				["RefName"] = "MeleeCritChance",
 			},
 		},
+		["Regen"] = {
+			["MP5Current"] = {
+				["Display"] = true,
+				["Text"] = "MP5: ",
+				["RefName"] = "MP5Current",
+			},
+			["MP5Casting"] = {
+				["Display"] = true,
+				["Text"] = "MP5 (Casting): ",
+				["RefName"] = "MP5Casting",
+			},
+			["Display"] = true,
+			["Text"] = "Mana",
+			["RefName"] = "ManaHeader",
+			["MP5NotCasting"] = {
+				["Display"] = true,
+				["Text"] = "MP5 (Not Casting): ",
+				["RefName"] = "MP5NotCasting",
+			},
+		},
 		["SpellBonus"] = {
 			["PhysicalCrit"] = {
 				["Display"] = true,
@@ -129,26 +149,6 @@ ExtendedCharacterStats = {
 				["Display"] = true,
 				["Text"] = "Nature Crit: ",
 				["RefName"] = "NatureCritChance",
-			},
-		},
-		["Regen"] = {
-			["MP5Current"] = {
-				["Display"] = true,
-				["Text"] = "MP5: ",
-				["RefName"] = "MP5Current",
-			},
-			["MP5Casting"] = {
-				["Display"] = true,
-				["Text"] = "MP5 (Casting): ",
-				["RefName"] = "MP5Casting",
-			},
-			["Display"] = true,
-			["Text"] = "Mana",
-			["RefName"] = "ManaHeader",
-			["MP5NotCasting"] = {
-				["Display"] = true,
-				["Text"] = "MP5 (Not Casting): ",
-				["RefName"] = "MP5NotCasting",
 			},
 		},
 		["Spell"] = {

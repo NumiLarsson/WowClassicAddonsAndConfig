@@ -1,7 +1,14 @@
 
 EnchantConfig = {
 	["profile.Default"] = {
-		["miniicon.angle"] = 165.011435274976,
+		["configator.left"] = 611.358032226563,
+		["miniicon.angle"] = 351.498311029641,
+		["AutoDeOnlyIfBoughtForDE"] = true,
+		["AutoDeRareItems"] = false,
+		["autoLootDE"] = true,
+		["AutoDeEpicItems"] = false,
+		["ScanValueType"] = "adv:market",
+		["configator.top"] = 651.666687011719,
 	},
 	["cache"] = {
 		["prices"] = {
@@ -16,8 +23,8 @@ EnchantConfig = {
 				["market"] = 5000,
 			},
 			[16203] = {
-				["timestamp"] = 1571955926,
-				["price5"] = 30973,
+				["timestamp"] = 1572211863,
+				["price5"] = 30737,
 				["market"] = 50000,
 			},
 			[11135] = {
@@ -31,13 +38,13 @@ EnchantConfig = {
 				["market"] = 10000,
 			},
 			[16204] = {
-				["timestamp"] = 1571955926,
-				["price5"] = 8331,
+				["timestamp"] = 1572211863,
+				["price5"] = 8281,
 				["market"] = 13000,
 			},
 			[11175] = {
-				["timestamp"] = 1571957784,
-				["price5"] = 26154,
+				["timestamp"] = 1572212572,
+				["price5"] = 26123,
 				["market"] = 50000,
 			},
 			[11137] = {
@@ -46,8 +53,8 @@ EnchantConfig = {
 				["market"] = 5000,
 			},
 			[11176] = {
-				["timestamp"] = 1571957784,
-				["price5"] = 3528,
+				["timestamp"] = 1572212572,
+				["price5"] = 3534,
 				["market"] = 8000,
 			},
 			[10998] = {
@@ -56,7 +63,7 @@ EnchantConfig = {
 				["market"] = 2000,
 			},
 			[20725] = {
-				["timestamp"] = 1571958949,
+				["timestamp"] = 1572213062,
 				["market"] = 100000,
 			},
 			[11138] = {
@@ -75,8 +82,8 @@ EnchantConfig = {
 				["market"] = 10000,
 			},
 			[11178] = {
-				["timestamp"] = 1571957784,
-				["price5"] = 25903,
+				["timestamp"] = 1572212572,
+				["price5"] = 26115,
 				["market"] = 20000,
 			},
 			[10938] = {
@@ -110,8 +117,8 @@ EnchantConfig = {
 				["market"] = 1000,
 			},
 			[14344] = {
-				["timestamp"] = 1571958949,
-				["price5"] = 25587,
+				["timestamp"] = 1572213062,
+				["price5"] = 25355,
 				["market"] = 200000,
 			},
 			[16202] = {
@@ -120,8 +127,8 @@ EnchantConfig = {
 				["market"] = 32500,
 			},
 			[14343] = {
-				["timestamp"] = 1571956307,
-				["price5"] = 7153,
+				["timestamp"] = 1572211863,
+				["price5"] = 7262,
 				["market"] = 25000,
 			},
 		},
@@ -359,30 +366,20 @@ EnchantConfig = {
 			[76135] = "Roguestone#|cff1eff00|Hitem:76135:0:0:0:0:0:0:0:100:251:0:0:0|h[Roguestone]|h|r#2#87#0#Gem#Purple#200##Interface\\ICONS\\INV_Misc_Gem_AmethystRough_03.blp",
 		},
 		["names"] = {
-			["Greater Astral Essence"] = "item:11082:0:0:0",
+			["Vision Dust"] = "item:11137:0:0:0",
+			["Greater Eternal Essence"] = "item:16203:0:0:0",
 			["Lesser Nether Essence"] = "item:11174:0:0:0",
 			["Nexus Crystal"] = "item:20725:0:0:0",
+			["Illusion Dust"] = "item:16204:0:0:0",
+			["Small Radiant Shard"] = "item:11177:0:0:0",
 			["Large Brilliant Shard"] = "item:14344:0:0:0",
 			["Greater Mystic Essence"] = "item:11135:0:0:0",
-			["Lesser Mystic Essence"] = "item:11134:0:0:0",
-			["Greater Eternal Essence"] = "item:16203:0:0:0",
-			["Small Brilliant Shard"] = "item:14343:0:0:0",
-			["Vision Dust"] = "item:11137:0:0:0",
-			["Large Glimmering Shard"] = "item:11084:0:0:0",
-			["Soul Dust"] = "item:11083:0:0:0",
-			["Large Radiant Shard"] = "item:11178:0:0:0",
-			["Dream Dust"] = "item:11176:0:0:0",
-			["Lesser Astral Essence"] = "item:10998:0:0:0",
-			["Small Radiant Shard"] = "item:11177:0:0:0",
-			["Small Glimmering Shard"] = "item:10978:0:0:0",
 			["Lesser Eternal Essence"] = "item:16202:0:0:0",
-			["Lesser Magic Essence"] = "item:10938:0:0:0",
-			["Strange Dust"] = "item:10940:0:0:0",
-			["Greater Magic Essence"] = "item:10939:0:0:0",
 			["Large Glowing Shard"] = "item:11139:0:0:0",
-			["Small Glowing Shard"] = "item:11138:0:0:0",
+			["Dream Dust"] = "item:11176:0:0:0",
+			["Large Radiant Shard"] = "item:11178:0:0:0",
 			["Greater Nether Essence"] = "item:11175:0:0:0",
-			["Illusion Dust"] = "item:16204:0:0:0",
+			["Small Brilliant Shard"] = "item:14343:0:0:0",
 		},
 	},
 }

@@ -10,8 +10,9 @@ DBM_AllSavedOptions = {
 		["StatusEnabled"] = true,
 		["DontRestoreIcons"] = false,
 		["DontShowNameplateIcons"] = false,
-		["CoreSavedRevision"] = 20190921120000,
+		["CoreSavedRevision"] = 20191101174800,
 		["RangeFrameX"] = 336.02490234375,
+		["AlwaysShowSpeedKillTimer"] = true,
 		["RangeFrameY"] = 10.0494451522827,
 		["FilterInterruptNoteName"] = false,
 		["EnableModels"] = true,
@@ -31,6 +32,7 @@ DBM_AllSavedOptions = {
 		["SpecialWarningX"] = 0,
 		["WorldBossAlert"] = true,
 		["DontShowPT2"] = false,
+		["WorldBuffAlert"] = true,
 		["DontShowSpecialWarnings"] = false,
 		["MoviesSeen"] = {
 		},
@@ -81,6 +83,7 @@ DBM_AllSavedOptions = {
 		["EventSoundDungeonBGM"] = "None",
 		["CountdownVoice2"] = "Kolt",
 		["AutoAcceptGuildInvite"] = false,
+		["EnableWBSharing"] = false,
 		["ArrowPosX"] = 0,
 		["AITimer"] = true,
 		["SpecialWarningFlashDura3"] = 1,
@@ -219,4 +222,5 @@ DBM_AllSavedOptions = {
 }
 DBM_MinimapIcon = {
 	["minimapPos"] = 119.470903699952,
+	["hide"] = true,
 }
