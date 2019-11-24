@@ -10,3 +10,7 @@
 2019-09-11 
 - Fixed the format of the treasure nodes
 - Shifted the Eastern Plaguelands nodes
+
+2019-11-21
+- Updates to EPL herbs from moodinsk (https://www.curseforge.com/members/moodinsk)
+- Cleared out some obviously wrong nodes (outside zones etc)

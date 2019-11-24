@@ -3,7 +3,7 @@
 ## Title: GatherMate2Data
 ## Author: kagaro, Xinhuan, Spinx
 ## X-Category: Map
-## Version: v2019-09-25
+## Version: v2019-11-21
 ## LoadOnDemand: 1
 ## Dependencies: GatherMate2
 
