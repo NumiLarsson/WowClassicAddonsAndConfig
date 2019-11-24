@@ -424,6 +424,8 @@ local EnemyNameSubtextFunctions = {}
 NeatPlatesHubMenus.EnemyNameSubtextModes = {}
 NeatPlatesHubDefaults.HeadlineEnemySubtext = "RoleGuildLevel"
 NeatPlatesHubDefaults.HeadlineFriendlySubtext = "RoleGuildLevel"
+NeatPlatesHubDefaults.EnemySubtext = "None"
+NeatPlatesHubDefaults.FriendlySubtext = "None"
 AddHubFunction(EnemyNameSubtextFunctions, NeatPlatesHubMenus.EnemyNameSubtextModes, DummyFunction, L["None"], "None")
 AddHubFunction(EnemyNameSubtextFunctions, NeatPlatesHubMenus.EnemyNameSubtextModes, TextHealthPercentColored, L["Percent Health (Colored)"], "PercentHealthColored")
 AddHubFunction(EnemyNameSubtextFunctions, NeatPlatesHubMenus.EnemyNameSubtextModes, TextHealthPercent, L["Percent Health"], "PercentHealth")
@@ -449,20 +451,23 @@ AddHubFunction(FriendlyNameSubtextFunctions, NeatPlatesHubMenus.FriendlyNameSubt
 AddHubFunction(FriendlyNameSubtextFunctions, NeatPlatesHubMenus.FriendlyNameSubtextModes, TextAll, "Role, Guild, Level or Health Percent", "RoleGuildLevelHealth")
 --]]
 
-local function CustomTextBinaryDelegate(unit)
+local function SubTextDelegate(unit)
 	--if unit.style == "NameOnly" then
-
+	local func
 	if StyleDelegate(unit) == "NameOnly" then
-		local func
 		if unit.reaction == "FRIENDLY" then
 			func = EnemyNameSubtextFunctions[LocalVars.HeadlineFriendlySubtext or 0] or DummyFunction
 		else
 			func = EnemyNameSubtextFunctions[LocalVars.HeadlineEnemySubtext or 0] or DummyFunction
 		end
-
-		return func(unit)
+	else
+		if unit.reaction == "FRIENDLY" then
+			func = EnemyNameSubtextFunctions[LocalVars.FriendlySubtext or 0] or DummyFunction
+		else
+			func = EnemyNameSubtextFunctions[LocalVars.EnemySubtext or 0] or DummyFunction
+		end
 	end
-	return HealthTextDelegate(unit)
+	return func(unit)
 end
 
 local function CastbarDurationRemaining(currentTime, startTime, endTime, isChannel)
@@ -515,6 +520,6 @@ HubData.RegisterCallback(OnVariableChange)
 
 
 NeatPlatesHubFunctions.SetCustomText = HealthTextDelegate
-NeatPlatesHubFunctions.SetCustomTextBinary = CustomTextBinaryDelegate
+NeatPlatesHubFunctions.SetSubText = SubTextDelegate
 NeatPlatesHubFunctions.SetCastbarDuration = CastbarDurationDelegate
 

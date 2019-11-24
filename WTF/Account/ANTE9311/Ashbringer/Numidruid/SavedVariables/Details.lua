@@ -7,585 +7,54 @@ _detalhes_database = {
 		["tabelas"] = {
 			{
 				{
-					["combatId"] = 213,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.008321,
-							["monster"] = true,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 369,
-							},
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 369.008321,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 369.008321,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4468-0-193-2102-000042D100",
-							["nome"] = "Dragonmaw Grunt",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 53,
-										["targets"] = {
-											["Numidruid"] = 314,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 314,
-										["n_min"] = 28,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 314,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Shield Slam"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 28,
-										["targets"] = {
-											["Numidruid"] = 55,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 55,
-										["n_min"] = 27,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 55,
-										["c_max"] = 0,
-										["id"] = "Shield Slam",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1573065144,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 6.008321,
-							["start_time"] = 1573065123,
-							["delay"] = 0,
-							["last_event"] = 1573065144,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008292,
-							["friendlyfire"] = {
-							},
-							["damage_from"] = {
-								["Dragonmaw Grunt"] = true,
-							},
-							["targets"] = {
-								["Dragonmaw Grunt"] = 6,
-							},
-							["colocacao"] = 1,
-							["pets"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 6.008292,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 6.008292,
-							["classe"] = "DRUID",
-							["serial"] = "Player-4742-013DADF5",
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["Thorns"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 2,
-										["targets"] = {
-											["Dragonmaw Grunt"] = 6,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 6,
-										["n_min"] = 1,
-										["g_dmg"] = 0,
-										["counter"] = 10,
-										["total"] = 6,
-										["c_max"] = 0,
-										["RESIST"] = 6,
-										["id"] = "Thorns",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["end_time"] = 1573065144,
-							["last_dps"] = 0.282996184828348,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 369.008292,
-							["start_time"] = 1573065123,
-							["delay"] = 0,
-							["last_event"] = 1573065144,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 213,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 213,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 213,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["tipo"] = 4,
-							["last_event"] = 1573065144,
-							["buff_uptime"] = 63,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Bear Form"] = {
-										["activedamt"] = 1,
-										["id"] = "Bear Form",
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mark of the Wild"] = {
-										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["classe"] = "DRUID",
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Dragonmaw Grunt",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Shield Slam"] = 2,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-0-193-2102-000042D100",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 213,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["last_events_tables"] = {
-					{
-						{
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								28, -- [3]
-								1573065122.598, -- [4]
-								341, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								53, -- [3]
-								1573065125.028, -- [4]
-								313, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								34, -- [3]
-								1573065127.108, -- [4]
-								260, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								42, -- [3]
-								1573065129.089, -- [4]
-								226, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								4, -- [1]
-								"Shield Slam", -- [2]
-								1, -- [3]
-								1573065131.121, -- [4]
-								184, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								"Shield Slam", -- [2]
-								27, -- [3]
-								1573065131.121, -- [4]
-								184, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								45, -- [3]
-								1573065133.134, -- [4]
-								157, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								49, -- [3]
-								1573065135.125, -- [4]
-								112, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								4, -- [1]
-								"Shield Slam", -- [2]
-								1, -- [3]
-								1573065139.647, -- [4]
-								63, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								"Shield Slam", -- [2]
-								28, -- [3]
-								1573065139.647, -- [4]
-								63, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								34, -- [3]
-								1573065141.638, -- [4]
-								35, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [11]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								29, -- [3]
-								1573065143.648, -- [4]
-								1, -- [5]
-								"Dragonmaw Grunt", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								28, -- [10]
-							}, -- [12]
-							{
-								3, -- [1]
-								0, -- [2]
-								0, -- [3]
-								0, -- [4]
-								0, -- [5]
-								"Numidruid", -- [6]
-							}, -- [13]
-						}, -- [1]
-						1573065144.119, -- [2]
-						"Numidruid", -- [3]
-						"DRUID", -- [4]
-						211, -- [5]
-						"0m 21s", -- [6]
-						["dead_at"] = 21.5209999997169,
-						["dead"] = true,
-					}, -- [1]
-				},
-				["overall_added"] = true,
-				["cleu_timeline"] = {
-				},
-				["alternate_power"] = {
-				},
-				["tempo_start"] = 1573065123,
-				["enemy"] = "Dragonmaw Grunt",
-				["combat_counter"] = 7087,
-				["playing_solo"] = true,
-				["totals"] = {
-					375, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatEndedAt"] = 2327721.943,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "19:32:03",
-				["end_time"] = 2327721.943,
-				["totals_grupo"] = {
-					6, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["combat_id"] = 213,
-				["TotalElapsedCombatTime"] = 2327721.943,
-				["frags_need_refresh"] = false,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 6.008292,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-				},
-				["data_fim"] = "19:32:25",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 2327700.422,
-				["contra"] = "Dragonmaw Grunt",
-				["TimeData"] = {
-				},
-			}, -- [1]
-			{
-				{
-					["combatId"] = 212,
+					["combatId"] = 337,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005262,
+							["totalabsorbed"] = 0.001963,
 							["damage_from"] = {
+								["Grizzled Black Bear"] = true,
+								["Environment (Falling)"] = true,
 							},
 							["targets"] = {
-								["Leech Stalker"] = 1,
+								["Grizzled Black Bear"] = 341,
 							},
-							["total"] = 1.005262,
 							["pets"] = {
 							},
 							["on_hold"] = false,
 							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 1.005262,
+							["total_without_pet"] = 341.001963,
 							["colocacao"] = 1,
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
-							["end_time"] = 1573064945,
+							["end_time"] = 1573498665,
 							["friendlyfire_total"] = 0,
 							["spec"] = 103,
 							["nome"] = "Numidruid",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									["Thorns"] = {
+									["Wrath"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 1,
+										["n_max"] = 31,
 										["targets"] = {
-											["Leech Stalker"] = 1,
+											["Grizzled Black Bear"] = 31,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 1,
-										["n_min"] = 1,
+										["n_dmg"] = 31,
+										["n_min"] = 31,
 										["g_dmg"] = 0,
 										["counter"] = 1,
-										["total"] = 1,
+										["total"] = 31,
 										["c_max"] = 0,
-										["id"] = "Thorns",
+										["id"] = "Wrath",
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
 										["a_dmg"] = 0,
@@ -598,230 +67,50 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 1.00325548915996,
-							["custom"] = 0,
-							["last_event"] = 1573064944,
-							["damage_taken"] = 0.005262,
-							["start_time"] = 1573064944,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006142,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["monster"] = true,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006142,
-							["on_hold"] = false,
-							["dps_started"] = false,
-							["total"] = 0.006142,
-							["classe"] = "UNKNOW",
-							["serial"] = "Creature-0-4468-0-193-1111-0000427B63",
-							["nome"] = "Leech Stalker",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-								},
-							},
-							["friendlyfire"] = {
-							},
-							["end_time"] = 1573064945,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 1.006142,
-							["start_time"] = 1573064945,
-							["delay"] = 0,
-							["last_event"] = 0,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 212,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 212,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 212,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-					},
-				}, -- [4]
-				{
-					["combatId"] = 212,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2327697.978,
-				["tempo_start"] = 1573064944,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["enemy"] = "Leech Stalker",
-				["combat_counter"] = 7086,
-				["overall_added"] = true,
-				["totals"] = {
-					1, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["instance_type"] = "none",
-				["frags_need_refresh"] = false,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "19:29:04",
-				["end_time"] = 2327522.406,
-				["combat_id"] = 212,
-				["cleu_timeline"] = {
-				},
-				["totals_grupo"] = {
-					1, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 1.005262,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-				},
-				["data_fim"] = "19:29:05",
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 2327521.404,
-				["contra"] = "Leech Stalker",
-				["TimeData"] = {
-				},
-			}, -- [2]
-			{
-				{
-					["combatId"] = 211,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.007351,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 190,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 190.007351,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573064944,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Black Slime",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
+									["Maul"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 39,
+										["n_max"] = 53,
 										["targets"] = {
-											["Numidruid"] = 190,
+											["Grizzled Black Bear"] = 53,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 190,
-										["n_min"] = 26,
+										["n_dmg"] = 53,
+										["n_min"] = 53,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 190,
+										["counter"] = 1,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 48,
+										["targets"] = {
+											["Grizzled Black Bear"] = 163,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 163,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 163,
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
@@ -831,73 +120,56 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
+										["b_dmg"] = 33,
+										["n_amt"] = 4,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-								},
-							},
-							["total"] = 190.007351,
-							["serial"] = "Creature-0-4468-0-193-1030-0002C2A575",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573064938,
-							["damage_taken"] = 6.007351,
-							["start_time"] = 1573064928,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001957,
-							["damage_from"] = {
-								["Black Slime"] = true,
-								["Leech Stalker"] = true,
-							},
-							["targets"] = {
-								["Black Slime"] = 6,
-								["Leech Stalker"] = 5,
-							},
-							["total"] = 11.001957,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 11.001957,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1573064944,
-							["friendlyfire_total"] = 0,
-							["spec"] = 103,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Grizzled Black Bear"] = 52,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 52,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 52,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
 									["Thorns"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 2,
+										["n_max"] = 6,
 										["targets"] = {
-											["Black Slime"] = 6,
-											["Leech Stalker"] = 5,
+											["Grizzled Black Bear"] = 42,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 11,
-										["n_min"] = 1,
+										["n_dmg"] = 42,
+										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 11,
+										["counter"] = 7,
+										["total"] = 42,
 										["c_max"] = 0,
-										["RESIST"] = 2,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
@@ -914,37 +186,39 @@ _detalhes_database = {
 								},
 							},
 							["grupo"] = true,
+							["total"] = 341.001963,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 0.692382441781606,
+							["last_dps"] = 15.9093945600386,
 							["custom"] = 0,
-							["last_event"] = 1573064942,
-							["damage_taken"] = 336.001957,
-							["start_time"] = 1573064929,
+							["last_event"] = 1573498658,
+							["damage_taken"] = 98.001963,
+							["start_time"] = 1573498644,
 							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [2]
+						}, -- [1]
 						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.006323,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004091,
+							["monster"] = true,
 							["damage_from"] = {
 								["Numidruid"] = true,
 							},
 							["targets"] = {
-								["Numidruid"] = 146,
+								["Numidruid"] = 82,
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["fight_component"] = true,
+							["friendlyfire_total"] = 0,
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 146.006323,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573064944,
-							["friendlyfire_total"] = 0,
+							["total_without_pet"] = 82.004091,
 							["on_hold"] = false,
-							["nome"] = "Leech Stalker",
+							["dps_started"] = false,
+							["total"] = 82.004091,
+							["classe"] = "UNKNOW",
+							["serial"] = "Creature-0-4469-0-784-1188-000149AEB0",
+							["nome"] = "Grizzled Black Bear",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
@@ -953,16 +227,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 53,
+										["n_max"] = 17,
 										["targets"] = {
-											["Numidruid"] = 146,
+											["Numidruid"] = 82,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 146,
-										["n_min"] = 28,
+										["n_dmg"] = 82,
+										["n_min"] = 8,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 146,
+										["counter"] = 7,
+										["total"] = 82,
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
@@ -973,63 +247,197 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 7,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
 								},
 							},
-							["total"] = 146.006323,
-							["serial"] = "Creature-0-4468-0-193-1111-0000427B63",
 							["friendlyfire"] = {
 							},
+							["end_time"] = 1573498665,
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1573064943,
-							["damage_taken"] = 5.006323,
-							["start_time"] = 1573064937,
-							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [3]
+							["damage_taken"] = 341.004091,
+							["start_time"] = 1573498645,
+							["delay"] = 0,
+							["last_event"] = 1573498657,
+						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 211,
+					["combatId"] = 337,
 					["tipo"] = 3,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.004113,
+							["last_hps"] = 0,
+							["targets_overheal"] = {
+								["Numidruid"] = 38,
+							},
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 116,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["totalover_without_pet"] = 0.004113,
+							["healing_taken"] = 78.004113,
+							["totalover"] = 38.004113,
+							["total_without_pet"] = 78.004113,
+							["end_time"] = 1573498665,
+							["classe"] = "DRUID",
+							["fight_component"] = true,
+							["total"] = 78.004113,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1573498648,
+							["nome"] = "Numidruid",
+							["spec"] = 103,
+							["grupo"] = true,
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 38,
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 78,
+										},
+										["n_min"] = 12,
+										["counter"] = 4,
+										["overheal"] = 38,
+										["total"] = 78,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 78,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["heal_enemy"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["custom"] = 0,
+							["tipo"] = 2,
+							["on_hold"] = false,
+							["totaldenied"] = 0.004113,
+							["delay"] = 0,
+							["last_event"] = 1573498657,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 211,
+					["combatId"] = 337,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 211,
+					["combatId"] = 337,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 7,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573498656,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
 							},
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Bear Form"] = 1,
-							},
-							["buff_uptime"] = 42,
-							["nome"] = "Numidruid",
-							["pets"] = {
-							},
-							["last_event"] = 1573064943,
+							["buff_uptime"] = 131,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
 									["Bear Form"] = {
 										["activedamt"] = 1,
 										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
 										["targets"] = {
 										},
 										["uptime"] = 12,
@@ -1038,12 +446,12 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Mark of the Wild"] = {
+									["Lesser Armor"] = {
 										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
+										["id"] = "Lesser Armor",
 										["targets"] = {
 										},
-										["uptime"] = 15,
+										["uptime"] = 21,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -1054,7 +462,7 @@ _detalhes_database = {
 										["id"] = "Thorns",
 										["targets"] = {
 										},
-										["uptime"] = 15,
+										["uptime"] = 21,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -1062,523 +470,31 @@ _detalhes_database = {
 									},
 								},
 							},
-							["serial"] = "Player-4742-013DADF5",
-							["tipo"] = 4,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 211,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["last_events_tables"] = {
-					{
-						{
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								36, -- [3]
-								1573064927.4, -- [4]
-								213, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								32, -- [3]
-								1573064929.464, -- [4]
-								177, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								26, -- [3]
-								1573064931.423, -- [4]
-								232, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								4, -- [1]
-								"Dazed", -- [2]
-								1, -- [3]
-								1573064931.822, -- [4]
-								232, -- [5]
-								"Black Slime", -- [6]
-								false, -- [7]
-								false, -- [8]
-								false, -- [9]
-								false, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								29, -- [3]
-								1573064933.452, -- [4]
-								206, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								39, -- [3]
-								1573064935.462, -- [4]
-								177, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								28, -- [3]
-								1573064937.084, -- [4]
-								138, -- [5]
-								"Leech Stalker", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								28, -- [3]
-								1573064937.894, -- [4]
-								110, -- [5]
-								"Black Slime", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [8]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								35, -- [3]
-								1573064939.084, -- [4]
-								82, -- [5]
-								"Leech Stalker", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [9]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								30, -- [3]
-								1573064941.085, -- [4]
-								47, -- [5]
-								"Leech Stalker", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [10]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								53, -- [3]
-								1573064943.095, -- [4]
-								17, -- [5]
-								"Leech Stalker", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								36, -- [10]
-							}, -- [11]
-							{
-								3, -- [1]
-								0, -- [2]
-								0, -- [3]
-								0, -- [4]
-								0, -- [5]
-								"Numidruid", -- [6]
-							}, -- [12]
-						}, -- [1]
-						1573064943.58, -- [2]
-						"Numidruid", -- [3]
-						"DRUID", -- [4]
-						211, -- [5]
-						"0m 16s", -- [6]
-						["dead_at"] = 16.1800000001676,
-						["dead"] = true,
-					}, -- [1]
-				},
-				["overall_added"] = true,
-				["cleu_timeline"] = {
-				},
-				["alternate_power"] = {
-				},
-				["tempo_start"] = 1573064928,
-				["enemy"] = "Black Slime",
-				["combat_counter"] = 7085,
-				["playing_solo"] = true,
-				["totals"] = {
-					347, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["CombatEndedAt"] = 2327521.404,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "19:28:48",
-				["end_time"] = 2327521.404,
-				["totals_grupo"] = {
-					11, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["combat_id"] = 211,
-				["TotalElapsedCombatTime"] = 2327521.404,
-				["frags_need_refresh"] = false,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 11.001957,
-						}, -- [1]
-					},
-				},
-				["frags"] = {
-				},
-				["data_fim"] = "19:29:04",
-				["instance_type"] = "none",
-				["CombatSkillCache"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-				["start_time"] = 2327505.224,
-				["contra"] = "Black Slime",
-				["TimeData"] = {
-				},
-			}, -- [3]
-			{
-				{
-					["combatId"] = 210,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.007995,
-							["damage_from"] = {
-								["Environment (Drowning)"] = true,
-								["Bluegill Raider"] = true,
-							},
-							["targets"] = {
-							},
-							["on_hold"] = false,
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.007995,
-							["spec"] = 103,
-							["dps_started"] = false,
-							["total"] = 0.007995,
-							["classe"] = "DRUID",
-							["serial"] = "Player-4742-013DADF5",
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["Thorns"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-											["Bluegill Raider"] = 0,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 0,
-										["c_max"] = 0,
-										["RESIST"] = 4,
-										["id"] = "Thorns",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["end_time"] = 1573064503,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["damage_taken"] = 945.007995,
-							["start_time"] = 1573064503,
-							["delay"] = 0,
-							["last_event"] = 1573064503,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.008557,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Numidruid"] = 487,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 487.008557,
-							["monster"] = true,
 							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573064503,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Bluegill Raider",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 88,
-										["g_amt"] = 0,
-										["n_max"] = 67,
-										["targets"] = {
-											["Numidruid"] = 271,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 183,
-										["n_min"] = 54,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 271,
-										["c_max"] = 88,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 88,
-									},
-									["Throw"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 61,
-										["targets"] = {
-											["Numidruid"] = 216,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 216,
-										["n_min"] = 51,
-										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 216,
-										["c_max"] = 0,
-										["id"] = "Throw",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["total"] = 487.008557,
-							["serial"] = "Creature-0-4468-0-193-1418-0003C30E29",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573064502,
-							["damage_taken"] = 0.008557,
-							["start_time"] = 1573064492,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 210,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 210,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 210,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
+							["debuff_uptime"] = 7,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
-							["buff_uptime"] = 20,
+							["spell_cast"] = {
+								["Maul"] = 1,
+								["Rejuvenation"] = 1,
+								["Demoralizing Roar"] = 1,
+								["Bear Form"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573498665,
 							["nome"] = "Numidruid",
 							["pets"] = {
-							},
-							["last_event"] = 1573064502,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mark of the Wild"] = {
-										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
-										["targets"] = {
-										},
-										["uptime"] = 10,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
 							},
 							["serial"] = "Player-4742-013DADF5",
 							["tipo"] = 4,
 						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Bluegill Raider",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Throw"] = 3,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-0-193-1418-0003C30E29",
-							["classe"] = "UNKNOW",
-						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 210,
+					["combatId"] = 337,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -1586,132 +502,20 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2327501.553,
-				["tempo_start"] = 1573064492,
 				["last_events_tables"] = {
-					{
-						{
-							{
-								true, -- [1]
-								"Throw", -- [2]
-								52, -- [3]
-								1573064492.103, -- [4]
-								449, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [1]
-							{
-								true, -- [1]
-								"Throw", -- [2]
-								61, -- [3]
-								1573064494.083, -- [4]
-								397, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [2]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								62, -- [3]
-								1573064495.304, -- [4]
-								336, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [3]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								67, -- [3]
-								1573064497.316, -- [4]
-								274, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [4]
-							{
-								true, -- [1]
-								"Throw", -- [2]
-								52, -- [3]
-								1573064498.343, -- [4]
-								207, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [5]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								54, -- [3]
-								1573064499.384, -- [4]
-								155, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [6]
-							{
-								true, -- [1]
-								"Throw", -- [2]
-								51, -- [3]
-								1573064500.396, -- [4]
-								101, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								-1, -- [10]
-							}, -- [7]
-							{
-								true, -- [1]
-								"!Melee", -- [2]
-								88, -- [3]
-								1573064501.375, -- [4]
-								50, -- [5]
-								"Bluegill Raider", -- [6]
-								nil, -- [7]
-								1, -- [8]
-								false, -- [9]
-								38, -- [10]
-							}, -- [8]
-							{
-								3, -- [1]
-								0, -- [2]
-								0, -- [3]
-								0, -- [4]
-								0, -- [5]
-								"Numidruid", -- [6]
-							}, -- [9]
-						}, -- [1]
-						1573064502.177, -- [2]
-						"Numidruid", -- [3]
-						"DRUID", -- [4]
-						349, -- [5]
-						"0m 10s", -- [6]
-						["dead_at"] = 10.0740000000224,
-						["dead"] = true,
-					}, -- [1]
+				},
+				["overall_added"] = true,
+				["cleu_timeline"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 7084,
+				["tempo_start"] = 1573498644,
+				["enemy"] = "Grizzled Black Bear",
+				["combat_counter"] = 7214,
 				["playing_solo"] = true,
 				["totals"] = {
-					486.989896, -- [1]
-					0, -- [2]
+					422.994466, -- [1]
+					78, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -1727,156 +531,36 @@ _detalhes_database = {
 						["interrupt"] = 0,
 						["dispell"] = 0,
 						["cc_break"] = 0,
-						["dead"] = 1,
+						["dead"] = 0,
 					}, -- [4]
 					["frags_total"] = 0,
 					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					0, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 1,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = false,
-				["instance_type"] = "none",
-				["data_fim"] = "19:21:43",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Bluegill Raider",
-				["TotalElapsedCombatTime"] = 2327080.001,
-				["CombatEndedAt"] = 2327080.001,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 0.007995,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 2327080.001,
-				["combat_id"] = 210,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
 				},
 				["player_last_events"] = {
 					["Numidruid"] = {
 						{
 							true, -- [1]
-							"Drowning", -- [2]
-							10, -- [3]
-							1573064822.078, -- [4]
-							369, -- [5]
-							"Environment (Drowning)", -- [6]
+							"Falling", -- [2]
+							16, -- [3]
+							1573498698.393, -- [4]
+							434, -- [5]
+							"Environment (Falling)", -- [6]
 							nil, -- [7]
 							3, -- [8]
 							false, -- [9]
 							-1, -- [10]
 						}, -- [1]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							75, -- [3]
-							1573064824.128, -- [4]
-							359, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [2]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							75, -- [3]
-							1573064826.118, -- [4]
-							292, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [3]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							75, -- [3]
-							1573064828.148, -- [4]
-							225, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [4]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							74, -- [3]
-							1573064830.168, -- [4]
-							158, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [5]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							75, -- [3]
-							1573064832.188, -- [4]
-							92, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [6]
 						{
-							true, -- [1]
-							"Drowning", -- [2]
-							74, -- [3]
-							1573064834.208, -- [4]
-							25, -- [5]
-							"Environment (Drowning)", -- [6]
-							nil, -- [7]
-							3, -- [8]
-							false, -- [9]
-							-1, -- [10]
 						}, -- [7]
 						{
 						}, -- [8]
@@ -1954,98 +638,125 @@ _detalhes_database = {
 						}, -- [44]
 						{
 						}, -- [45]
-						["n"] = 8,
+						["n"] = 2,
 					},
 				},
-				["data_inicio"] = "19:21:33",
-				["CombatSkillCache"] = {
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["CombatEndedAt"] = 432252.57,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["data_inicio"] = "19:57:24",
+				["end_time"] = 432252.57,
+				["totals_grupo"] = {
+					341, -- [1]
+					78, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["combat_id"] = 337,
+				["TotalElapsedCombatTime"] = 432252.57,
+				["frags_need_refresh"] = true,
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 78.004113,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 341.001963,
+						}, -- [1]
+					},
 				},
 				["frags"] = {
+					["Grizzled Black Bear"] = 1,
 				},
-				["start_time"] = 2327069.927,
+				["data_fim"] = "19:57:45",
+				["instance_type"] = "none",
+				["CombatSkillCache"] = {
+				},
+				["spells_cast_timeline"] = {
+				},
+				["start_time"] = 432231.136,
+				["contra"] = "Grizzled Black Bear",
 				["TimeData"] = {
 				},
-				["contra"] = "Bluegill Raider",
-			}, -- [4]
+			}, -- [1]
 			{
 				{
-					["combatId"] = 209,
+					["combatId"] = 336,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.006479,
-							["spec"] = 103,
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.002556,
 							["damage_from"] = {
-								["Elder Darkshore Thresher"] = true,
+								["Numidruid"] = true,
 							},
 							["targets"] = {
-								["Elder Darkshore Thresher"] = 356,
+								["Numidruid"] = 174,
 							},
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["end_time"] = 1573064036,
-							["classe"] = "DRUID",
+							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 356.006479,
-							["friendlyfire"] = {
-							},
+							["total_without_pet"] = 174.002556,
+							["monster"] = true,
+							["fight_component"] = true,
 							["dps_started"] = false,
-							["total"] = 356.006479,
+							["end_time"] = 1573498560,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
-							["nome"] = "Numidruid",
+							["nome"] = "Black Bear Patriarch",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									["Wrath"] = {
+									["!Melee"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 31,
+										["n_max"] = 20,
 										["targets"] = {
-											["Elder Darkshore Thresher"] = 61,
+											["Numidruid"] = 174,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 61,
-										["n_min"] = 30,
+										["n_dmg"] = 174,
+										["n_min"] = 14,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 61,
+										["counter"] = 11,
+										["total"] = 174,
 										["c_max"] = 0,
-										["id"] = "Wrath",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Maul"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 1,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 42,
-										["targets"] = {
-											["Elder Darkshore Thresher"] = 81,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 81,
-										["n_min"] = 39,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 81,
-										["c_max"] = 0,
-										["id"] = "Maul",
+										["MISS"] = 1,
+										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
@@ -2053,28 +764,70 @@ _detalhes_database = {
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
-										["b_dmg"] = 39,
-										["n_amt"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									["!Melee"] = {
+								},
+							},
+							["total"] = 174.002556,
+							["serial"] = "Creature-0-4469-0-784-1189-0000499C68",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573498557,
+							["damage_taken"] = 467.002556,
+							["start_time"] = 1573498537,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007355,
+							["damage_from"] = {
+								["Black Bear Patriarch"] = true,
+							},
+							["targets"] = {
+								["Black Bear Patriarch"] = 467,
+							},
+							["total"] = 467.007355,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 467.007355,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1573498560,
+							["friendlyfire_total"] = 0,
+							["spec"] = 103,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Maul"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 33,
+										["n_max"] = 54,
 										["targets"] = {
-											["Elder Darkshore Thresher"] = 93,
+											["Black Bear Patriarch"] = 158,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 93,
-										["n_min"] = 30,
+										["n_dmg"] = 158,
+										["n_min"] = 52,
 										["g_dmg"] = 0,
 										["counter"] = 3,
-										["total"] = 93,
+										["total"] = 158,
 										["c_max"] = 0,
-										["id"] = "!Melee",
+										["id"] = "Maul",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
@@ -2087,32 +840,62 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									["Moonfire"] = {
+									["Wrath"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 17,
+										["n_max"] = 0,
 										["targets"] = {
-											["Elder Darkshore Thresher"] = 49,
+											["Grizzled Black Bear"] = 0,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 49,
-										["n_min"] = 8,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 49,
+										["counter"] = 1,
+										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = "Moonfire",
+										["RESIST"] = 1,
+										["id"] = "Wrath",
 										["r_dmg"] = 0,
-										["spellschool"] = 64,
+										["spellschool"] = 8,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 45,
+										["targets"] = {
+											["Black Bear Patriarch"] = 249,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 249,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 249,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -2123,14 +906,14 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6,
 										["targets"] = {
-											["Elder Darkshore Thresher"] = 72,
+											["Black Bear Patriarch"] = 60,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 72,
+										["n_dmg"] = 60,
 										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 72,
+										["counter"] = 10,
+										["total"] = 60,
 										["c_max"] = 0,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
@@ -2141,7 +924,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 12,
+										["n_amt"] = 10,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -2149,168 +932,56 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 12.131345975449,
+							["last_dps"] = 22.4328636276621,
 							["custom"] = 0,
-							["last_event"] = 1573064035,
-							["damage_taken"] = 243.006479,
-							["start_time"] = 1573064006,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.007762,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 243,
-							},
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4468-1-205-2187-000042B96E",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 243.007762,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 243.007762,
-							["end_time"] = 1573064036,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Elder Darkshore Thresher",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 23,
-										["targets"] = {
-											["Numidruid"] = 243,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 243,
-										["n_min"] = 16,
-										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 243,
-										["c_max"] = 0,
-										["MISS"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 12,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Pierce Armor"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Pierce Armor",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573064034,
-							["damage_taken"] = 356.007762,
-							["start_time"] = 1573064010,
+							["last_event"] = 1573498643,
+							["damage_taken"] = 174.007355,
+							["start_time"] = 1573498538,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 209,
+					["combatId"] = 336,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 209,
+					["combatId"] = 336,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 209,
+					["combatId"] = 336,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
 							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["activedamt"] = 0,
-										["id"] = "Moonfire",
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
+							["buff_uptime_targets"] = {
 							},
-							["buff_uptime"] = 85,
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Maul"] = 3,
+							},
+							["buff_uptime"] = 138,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["last_event"] = 1573498560,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									["Bear Form"] = {
+									["Well Fed"] = {
 										["activedamt"] = 1,
-										["id"] = "Bear Form",
+										["id"] = "Well Fed",
 										["targets"] = {
 										},
-										["uptime"] = 25,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 30,
+										["uptime"] = 23,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -2321,7 +992,51 @@ _detalhes_database = {
 										["id"] = "Mark of the Wild",
 										["targets"] = {
 										},
-										["uptime"] = 30,
+										["uptime"] = 23,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 23,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 23,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -2329,45 +1044,13 @@ _detalhes_database = {
 									},
 								},
 							},
-							["debuff_uptime"] = 12,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Maul"] = 2,
-								["Bear Form"] = 1,
-								["Moonfire"] = 1,
-								["Wrath"] = 1,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1573064036,
-							["nome"] = "Numidruid",
-							["pets"] = {
-							},
 							["serial"] = "Player-4742-013DADF5",
 							["tipo"] = 4,
 						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Elder Darkshore Thresher",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Pierce Armor"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2187-000042B96E",
-							["classe"] = "UNKNOW",
-						}, -- [2]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 209,
+					["combatId"] = 336,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -2375,16 +1058,16 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2327068.293,
-				["tempo_start"] = 1573064006,
+				["CombatStartedAt"] = 432229.523,
+				["tempo_start"] = 1573498537,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 7083,
+				["combat_counter"] = 7213,
 				["playing_solo"] = true,
 				["totals"] = {
-					599, -- [1]
+					641, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -2407,7 +1090,7 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
-					356, -- [1]
+					467, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -2429,12 +1112,12 @@ _detalhes_database = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
-				["data_fim"] = "19:13:56",
+				["data_fim"] = "19:56:00",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Elder Darkshore Thresher",
-				["TotalElapsedCombatTime"] = 2326613.368,
-				["CombatEndedAt"] = 2326613.368,
+				["enemy"] = "Black Bear Patriarch",
+				["TotalElapsedCombatTime"] = 432147.289,
+				["CombatEndedAt"] = 432147.289,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -2454,12 +1137,12 @@ _detalhes_database = {
 					},
 					["damage"] = {
 						{
-							["Numidruid"] = 356.006479,
+							["Numidruid"] = 467.007355,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 2326613.368,
-				["combat_id"] = 209,
+				["end_time"] = 432147.289,
+				["combat_id"] = 336,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -2468,143 +1151,72 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "19:13:27",
+				["data_inicio"] = "19:55:38",
 				["CombatSkillCache"] = {
 				},
 				["frags"] = {
-					["Elder Darkshore Thresher"] = 1,
+					["Black Bear Patriarch"] = 1,
 				},
-				["start_time"] = 2326584.022,
+				["start_time"] = 432124.976,
 				["TimeData"] = {
 				},
-				["contra"] = "Elder Darkshore Thresher",
-			}, -- [5]
+				["contra"] = "Black Bear Patriarch",
+			}, -- [2]
 			{
 				{
-					["combatId"] = 208,
+					["combatId"] = 335,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.00152,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 177,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 177.00152,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573063948,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Coastal Frenzy",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 11,
-										["targets"] = {
-											["Numidruid"] = 177,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 177,
-										["n_min"] = 7,
-										["g_dmg"] = 0,
-										["counter"] = 25,
-										["MISS"] = 1,
-										["total"] = 177,
-										["c_max"] = 0,
-										["DODGE"] = 3,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 21,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["total"] = 177.00152,
-							["serial"] = "Creature-0-4468-1-205-2174-0004C22B17",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573063947,
-							["damage_taken"] = 349.00152,
-							["start_time"] = 1573063923,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005561,
+							["totalabsorbed"] = 0.002826,
 							["damage_from"] = {
-								["Coastal Frenzy"] = true,
+								["Grizzled Black Bear"] = true,
 							},
 							["targets"] = {
-								["Coastal Frenzy"] = 349,
+								["Grizzled Black Bear"] = 393,
 							},
-							["total"] = 349.005561,
+							["total"] = 393.002826,
 							["pets"] = {
 							},
 							["on_hold"] = false,
 							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 349.005561,
+							["total_without_pet"] = 393.002826,
 							["colocacao"] = 1,
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
-							["end_time"] = 1573063948,
+							["end_time"] = 1573498529,
 							["friendlyfire_total"] = 0,
 							["spec"] = 103,
 							["nome"] = "Numidruid",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									["Maul"] = {
+									["Wrath"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 44,
+										["n_max"] = 30,
 										["targets"] = {
-											["Coastal Frenzy"] = 44,
+											["Grizzled Black Bear"] = 30,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 44,
-										["n_min"] = 44,
+										["n_dmg"] = 30,
+										["n_min"] = 30,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 44,
+										["counter"] = 1,
+										["total"] = 30,
 										["c_max"] = 0,
-										["a_amt"] = 0,
-										["id"] = "Maul",
+										["id"] = "Wrath",
 										["r_dmg"] = 0,
-										["spellschool"] = 1,
+										["spellschool"] = 8,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["PARRY"] = 2,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -2612,23 +1224,51 @@ _detalhes_database = {
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 54,
+										["targets"] = {
+											["Grizzled Black Bear"] = 108,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 108,
+										["n_min"] = 54,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 108,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
 									["!Melee"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 35,
+										["n_max"] = 44,
 										["targets"] = {
-											["Coastal Frenzy"] = 126,
+											["Grizzled Black Bear"] = 172,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 126,
-										["n_min"] = 28,
+										["n_dmg"] = 172,
+										["n_min"] = 40,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 126,
+										["counter"] = 4,
+										["total"] = 172,
 										["c_max"] = 0,
-										["MISS"] = 1,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -2649,7 +1289,7 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 21,
 										["targets"] = {
-											["Coastal Frenzy"] = 53,
+											["Grizzled Black Bear"] = 53,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 53,
@@ -2678,15 +1318,16 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6,
 										["targets"] = {
-											["Coastal Frenzy"] = 126,
+											["Grizzled Black Bear"] = 30,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 126,
+										["n_dmg"] = 30,
 										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 21,
-										["total"] = 126,
+										["counter"] = 6,
+										["total"] = 30,
 										["c_max"] = 0,
+										["RESIST"] = 1,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
@@ -2696,7 +1337,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 21,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -2704,30 +1345,99 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 14.544928568384,
+							["last_dps"] = 26.0594672766961,
 							["custom"] = 0,
-							["last_event"] = 1573063947,
-							["damage_taken"] = 177.005561,
-							["start_time"] = 1573063924,
+							["last_event"] = 1573498528,
+							["damage_taken"] = 89.002826,
+							["start_time"] = 1573498513,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001513,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 89,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 89.001513,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573498529,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Grizzled Black Bear",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 21,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 89,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 68,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 89,
+										["c_max"] = 21,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 21,
+									},
+								},
+							},
+							["total"] = 89.001513,
+							["serial"] = "Creature-0-4469-0-784-1188-0000499E86",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573498526,
+							["damage_taken"] = 393.001513,
+							["start_time"] = 1573498514,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 208,
+					["combatId"] = 335,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 					},
 				}, -- [2]
 				{
-					["combatId"] = 208,
+					["combatId"] = 335,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 208,
+					["combatId"] = 335,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -2735,41 +1445,42 @@ _detalhes_database = {
 							["debuff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									["Moonfire"] = {
+									["Demoralizing Roar"] = {
 										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Moonfire"] = {
+										["activedamt"] = -1,
 										["id"] = "Moonfire",
 										["targets"] = {
 										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
+										["actived_at"] = 1573498525,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
-							["buff_uptime"] = 72,
+							["buff_uptime"] = 95,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									["Bear Form"] = {
+									["Well Fed"] = {
 										["activedamt"] = 1,
-										["id"] = "Bear Form",
+										["id"] = "Well Fed",
 										["targets"] = {
 										},
-										["uptime"] = 22,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 25,
+										["uptime"] = 16,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -2780,7 +1491,51 @@ _detalhes_database = {
 										["id"] = "Mark of the Wild",
 										["targets"] = {
 										},
-										["uptime"] = 25,
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 16,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 16,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -2788,19 +1543,19 @@ _detalhes_database = {
 									},
 								},
 							},
-							["debuff_uptime"] = 12,
+							["debuff_uptime"] = 9,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Maul"] = 3,
+								["Maul"] = 2,
 								["Bear Form"] = 1,
-								["Moonfire"] = 1,
+								["Demoralizing Roar"] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1573063948,
+							["last_event"] = 1573498529,
 							["nome"] = "Numidruid",
 							["pets"] = {
 							},
@@ -2810,7 +1565,7 @@ _detalhes_database = {
 					},
 				}, -- [4]
 				{
-					["combatId"] = 208,
+					["combatId"] = 335,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -2818,16 +1573,16 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2326582.584,
-				["tempo_start"] = 1573063923,
+				["CombatStartedAt"] = 432123.776,
+				["tempo_start"] = 1573498513,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 7082,
+				["combat_counter"] = 7212,
 				["playing_solo"] = true,
 				["totals"] = {
-					526, -- [1]
+					482, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -2850,7 +1605,7 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
-					349, -- [1]
+					393, -- [1]
 					0, -- [2]
 					{
 						0, -- [1]
@@ -2872,12 +1627,12 @@ _detalhes_database = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
-				["data_fim"] = "19:12:28",
+				["data_fim"] = "19:55:29",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Coastal Frenzy",
-				["TotalElapsedCombatTime"] = 2326525.492,
-				["CombatEndedAt"] = 2326525.492,
+				["enemy"] = "Grizzled Black Bear",
+				["TotalElapsedCombatTime"] = 432116.508,
+				["CombatEndedAt"] = 432116.508,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -2897,12 +1652,12 @@ _detalhes_database = {
 					},
 					["damage"] = {
 						{
-							["Numidruid"] = 349.005561,
+							["Numidruid"] = 393.002826,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 2326525.492,
-				["combat_id"] = 208,
+				["end_time"] = 432116.508,
+				["combat_id"] = 335,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -2911,44 +1666,110 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "19:12:03",
+				["data_inicio"] = "19:55:13",
 				["CombatSkillCache"] = {
 				},
 				["frags"] = {
-					["Coastal Frenzy"] = 1,
+					["Grizzled Black Bear"] = 1,
 				},
-				["start_time"] = 2326500.764,
+				["start_time"] = 432100.314,
 				["TimeData"] = {
 				},
-				["contra"] = "Coastal Frenzy",
-			}, -- [6]
+				["contra"] = "Grizzled Black Bear",
+			}, -- [3]
 			{
 				{
-					["combatId"] = 207,
+					["combatId"] = 334,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008733,
-							["spec"] = 103,
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.00334,
 							["damage_from"] = {
-								["Greymist Warrior"] = true,
+								["Numidruid"] = true,
 							},
 							["targets"] = {
-								["Greymist Warrior"] = 344,
+								["Numidruid"] = 170,
 							},
 							["pets"] = {
 							},
-							["colocacao"] = 1,
-							["end_time"] = 1573063884,
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 170.00334,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573498315,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Loch Crocolisk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22,
+										["targets"] = {
+											["Numidruid"] = 170,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 170,
+										["n_min"] = 17,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 170,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 170.00334,
+							["serial"] = "Creature-0-4469-0-784-1693-0000C9AA34",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573498312,
+							["damage_taken"] = 336.00334,
+							["start_time"] = 1573498296,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.008086,
+							["damage_from"] = {
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Loch Crocolisk"] = 336,
+							},
+							["pets"] = {
+							},
 							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 344.008733,
+							["total_without_pet"] = 336.008086,
 							["friendlyfire"] = {
 							},
+							["colocacao"] = 1,
 							["dps_started"] = false,
-							["total"] = 344.008733,
+							["end_time"] = 1573498315,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
 							["nome"] = "Numidruid",
@@ -2956,20 +1777,4333 @@ _detalhes_database = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									["Maul"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 93,
+										["g_amt"] = 0,
+										["n_max"] = 47,
+										["targets"] = {
+											["Loch Crocolisk"] = 140,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 47,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 140,
+										["c_max"] = 93,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 93,
+									},
+									["!Melee"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 45,
+										["n_max"] = 38,
 										["targets"] = {
-											["Greymist Warrior"] = 86,
+											["Loch Crocolisk"] = 73,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 86,
-										["n_min"] = 41,
+										["n_dmg"] = 73,
+										["n_min"] = 35,
 										["g_dmg"] = 0,
 										["counter"] = 2,
-										["total"] = 86,
+										["total"] = 73,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Loch Crocolisk"] = 69,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 69,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 69,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Loch Crocolisk"] = 54,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 54,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 54,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 336.008086,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 19.7002864680583,
+							["custom"] = 0,
+							["last_event"] = 1573498313,
+							["damage_taken"] = 170.008086,
+							["start_time"] = 1573498296,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 334,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.006201,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 116,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.006201,
+							["targets_overheal"] = {
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 0.006201,
+							["total_without_pet"] = 116.006201,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573498315,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 116.006201,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 116,
+										},
+										["n_min"] = 29,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 116,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 116,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 116.006201,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573498303,
+							["custom"] = 0,
+							["last_event"] = 1573498312,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006201,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 334,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 334,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = 0,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 117,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 12,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Maul"] = 2,
+								["Rejuvenation"] = 1,
+								["Moonfire"] = 2,
+								["Bear Form"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573498315,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 334,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 432100.314,
+				["tempo_start"] = 1573498296,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7211,
+				["playing_solo"] = true,
+				["totals"] = {
+					506, -- [1]
+					116, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					336, -- [1]
+					116, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:51:55",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Loch Crocolisk",
+				["TotalElapsedCombatTime"] = 431902.181,
+				["CombatEndedAt"] = 431902.181,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 116.006201,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 336.008086,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431902.181,
+				["combat_id"] = 334,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:51:36",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Loch Crocolisk"] = 1,
+				},
+				["start_time"] = 431883.533,
+				["TimeData"] = {
+				},
+				["contra"] = "Loch Crocolisk",
+			}, -- [4]
+			{
+				{
+					["combatId"] = 333,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007102,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 21,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 21.007102,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573498207,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Loch Frenzy",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 3,
+										["targets"] = {
+											["Numidruid"] = 21,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 21,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["DODGE"] = 1,
+										["total"] = 21,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 21.007102,
+							["serial"] = "Creature-0-4469-0-784-1193-0004C37CC1",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573498194,
+							["damage_taken"] = 164.007102,
+							["start_time"] = 1573498194,
+							["delay"] = 1573498194,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006281,
+							["damage_from"] = {
+								["Loch Frenzy"] = true,
+							},
+							["targets"] = {
+								["Loch Frenzy"] = 164,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 164.006281,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1573498207,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Loch Frenzy"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 0,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Loch Frenzy"] = 110,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 110,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 110,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Loch Frenzy"] = 54,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 54,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 54,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 164.006281,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 8.32519192892909,
+							["custom"] = 0,
+							["last_event"] = 1573498201,
+							["damage_taken"] = 21.006281,
+							["start_time"] = 1573498182,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 333,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 333,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 333,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 19,
+							["debuff_uptime_targets"] = {
+							},
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = 0,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 3,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Numidruid",
+							["spell_cast"] = {
+								["Moonfire"] = 4,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 125,
+							["tipo"] = 4,
+							["last_event"] = 1573498207,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["classe"] = "DRUID",
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 333,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431882.32,
+				["tempo_start"] = 1573498182,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7210,
+				["playing_solo"] = true,
+				["totals"] = {
+					185, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					164, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = false,
+				["instance_type"] = "none",
+				["data_fim"] = "19:50:08",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Loch Frenzy",
+				["TotalElapsedCombatTime"] = 431794.793,
+				["CombatEndedAt"] = 431794.793,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 164.006281,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431794.793,
+				["combat_id"] = 333,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:49:42",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+				},
+				["start_time"] = 431769.293,
+				["TimeData"] = {
+				},
+				["contra"] = "Loch Frenzy",
+			}, -- [5]
+			{
+				{
+					["combatId"] = 332,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.001871,
+							["damage_from"] = {
+								["Dark Iron Sapper"] = true,
+							},
+							["targets"] = {
+								["Dark Iron Sapper"] = 744,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 744.001871,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1573498108,
+							["dps_started"] = false,
+							["total"] = 744.001871,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 2,
+										["c_dmg"] = 135,
+										["g_amt"] = 0,
+										["n_max"] = 36,
+										["targets"] = {
+											["Dark Iron Sapper"] = 398,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 263,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 398,
+										["c_max"] = 68,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 57,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 67,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 52,
+										["targets"] = {
+											["Dark Iron Sapper"] = 52,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 52,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 52,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13,
+										["targets"] = {
+											["Dark Iron Sapper"] = 95,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 95,
+										["n_min"] = 4,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 95,
+										["c_max"] = 0,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 4,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Dark Iron Sapper"] = 103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 103,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 103,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Dark Iron Sapper"] = 96,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 96,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 17,
+										["total"] = 96,
+										["c_max"] = 0,
+										["RESIST"] = 1,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 24.2117176283052,
+							["custom"] = 0,
+							["last_event"] = 1573498105,
+							["damage_taken"] = 303.001871,
+							["start_time"] = 1573498075,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001933,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 303,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 303.001933,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573498108,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Dark Iron Sapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 29,
+										["g_amt"] = 0,
+										["n_max"] = 25,
+										["targets"] = {
+											["Numidruid"] = 303,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 274,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["DODGE"] = 2,
+										["total"] = 303,
+										["c_max"] = 29,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 16,
+										["r_amt"] = 0,
+										["c_min"] = 29,
+									},
+									["Sapper Explode"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Sapper Explode",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 303.001933,
+							["serial"] = "Creature-0-4469-0-784-1222-000049AC1E",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573498100,
+							["damage_taken"] = 744.001933,
+							["start_time"] = 1573498078,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 332,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.005725,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 116,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005725,
+							["targets_overheal"] = {
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 0.005725,
+							["total_without_pet"] = 116.005725,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573498108,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 116.005725,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 116,
+										},
+										["n_min"] = 29,
+										["counter"] = 4,
+										["overheal"] = 0,
+										["total"] = 116,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 116,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 116.005725,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573498098,
+							["custom"] = 0,
+							["last_event"] = 1573498089,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005725,
+							["delay"] = 1573498089,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 332,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 332,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573498088,
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 206,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 12,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 36,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Rejuvenation"] = 1,
+								["Maul"] = 1,
+								["Bear Form"] = 1,
+								["Moonfire"] = 1,
+								["Swipe"] = 4,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573498108,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Dark Iron Sapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Sapper Explode"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1222-0000C9AC1E",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 332,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431768.785,
+				["tempo_start"] = 1573498075,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7209,
+				["playing_solo"] = true,
+				["totals"] = {
+					1047, -- [1]
+					116, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					744, -- [1]
+					116, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:48:29",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Dark Iron Sapper",
+				["TotalElapsedCombatTime"] = 431695.887,
+				["CombatEndedAt"] = 431695.887,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 116.005725,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 744.001871,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431695.887,
+				["combat_id"] = 332,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:47:55",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Dark Iron Sapper"] = 2,
+				},
+				["start_time"] = 431662.258,
+				["TimeData"] = {
+				},
+				["contra"] = "Dark Iron Sapper",
+			}, -- [6]
+			{
+				{
+					["combatId"] = 331,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.00283,
+							["spec"] = 103,
+							["damage_from"] = {
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Loch Crocolisk"] = 922,
+							},
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1573497872,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 922.00283,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["total"] = 922.00283,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 68,
+										["g_amt"] = 0,
+										["n_max"] = 40,
+										["targets"] = {
+											["Loch Crocolisk"] = 426,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 358,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["total"] = 426,
+										["c_max"] = 68,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 68,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Loch Crocolisk"] = 49,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 49,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 49,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Loch Crocolisk"] = 121,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 121,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["a_amt"] = 0,
+										["total"] = 121,
+										["c_max"] = 0,
+										["DODGE"] = 2,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 2,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Loch Crocolisk"] = 152,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 152,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 152,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Loch Crocolisk"] = 174,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 174,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 29,
+										["total"] = 174,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 29,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 23.4391608195994,
+							["custom"] = 0,
+							["last_event"] = 1573497870,
+							["damage_taken"] = 356.00283,
+							["start_time"] = 1573497832,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006071,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 356,
+								["Loch Crocolisk"] = 2,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4469-0-784-1693-000049A9A7",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 358.006071,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 358.006071,
+							["end_time"] = 1573497872,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Loch Crocolisk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 46,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Numidruid"] = 356,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 310,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 35,
+										["MISS"] = 2,
+										["total"] = 356,
+										["c_max"] = 24,
+										["DODGE"] = 4,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 27,
+										["r_amt"] = 0,
+										["c_min"] = 22,
+									},
+									["Thrash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Loch Crocolisk"] = 2,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 2,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 2,
+										["c_max"] = 0,
+										["id"] = "Thrash",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497868,
+							["damage_taken"] = 924.006071,
+							["start_time"] = 1573497838,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 331,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 331,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 331,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497849,
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 28,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 233,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["debuff_uptime"] = 40,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Maul"] = 1,
+								["Bear Form"] = 1,
+								["Moonfire"] = 2,
+								["Swipe"] = 5,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497872,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 331,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431662.258,
+				["tempo_start"] = 1573497832,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7208,
+				["playing_solo"] = true,
+				["totals"] = {
+					1280, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					922, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:44:32",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Loch Crocolisk",
+				["TotalElapsedCombatTime"] = 431459.191,
+				["CombatEndedAt"] = 431459.191,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 922.00283,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431459.191,
+				["combat_id"] = 331,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:43:53",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Loch Crocolisk"] = 3,
+				},
+				["start_time"] = 431419.855,
+				["TimeData"] = {
+				},
+				["contra"] = "Loch Crocolisk",
+			}, -- [7]
+			{
+				{
+					["combatId"] = 330,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002019,
+							["damage_from"] = {
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Loch Crocolisk"] = 740,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 740.002019,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1573497737,
+							["dps_started"] = false,
+							["total"] = 740.002019,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37,
+										["targets"] = {
+											["Loch Crocolisk"] = 142,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 142,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 142,
+										["c_max"] = 0,
+										["MISS"] = 2,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 49,
+										["targets"] = {
+											["Loch Crocolisk"] = 49,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 49,
+										["n_min"] = 49,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 49,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Loch Crocolisk"] = 100,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 100,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 100,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 7,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Loch Crocolisk"] = 203,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 203,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 20,
+										["total"] = 203,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Loch Crocolisk"] = 246,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 246,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 42,
+										["total"] = 246,
+										["c_max"] = 0,
+										["RESIST"] = 1,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 41,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 28.9018129589216,
+							["custom"] = 0,
+							["last_event"] = 1573497736,
+							["damage_taken"] = 612.002019,
+							["start_time"] = 1573497711,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007195,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 612,
+								["Loch Crocolisk"] = 12,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 624.007195,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497737,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Loch Crocolisk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 6,
+										["b_amt"] = 0,
+										["c_dmg"] = 154,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Numidruid"] = 612,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 458,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 49,
+										["MISS"] = 2,
+										["total"] = 612,
+										["c_max"] = 40,
+										["DODGE"] = 4,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 37,
+										["r_amt"] = 0,
+										["c_min"] = 17,
+									},
+									["Thrash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Loch Crocolisk"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 12,
+										["c_max"] = 0,
+										["id"] = "Thrash",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 624.007195,
+							["serial"] = "Creature-0-4469-0-784-1693-000049A7DC",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497736,
+							["damage_taken"] = 752.007195,
+							["start_time"] = 1573497715,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 330,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.004353,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 28,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.004353,
+							["targets_overheal"] = {
+								["Numidruid"] = 14,
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 14.004353,
+							["total_without_pet"] = 28.004353,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573497737,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 28.004353,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 14,
+										},
+										["n_max"] = 14,
+										["targets"] = {
+											["Numidruid"] = 28,
+										},
+										["n_min"] = 14,
+										["counter"] = 3,
+										["overheal"] = 14,
+										["total"] = 28,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 28,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 28.004353,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497730,
+							["custom"] = 0,
+							["last_event"] = 1573497719,
+							["on_hold"] = false,
+							["totaldenied"] = 0.004353,
+							["delay"] = 1573497719,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 330,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 330,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497727,
+										["uptime"] = 14,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 1,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 4,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 127,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497711,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 25,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 32,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Maul"] = 1,
+								["Bear Form"] = 1,
+								["Moonfire"] = 3,
+								["Swipe"] = 3,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497737,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 330,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431419.855,
+				["tempo_start"] = 1573497711,
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								19, -- [3]
+								1573497714.87, -- [4]
+								434, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								false, -- [1]
+								"Regrowth", -- [2]
+								14, -- [3]
+								1573497715.93, -- [4]
+								415, -- [5]
+								"Numidruid", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [2]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								19, -- [3]
+								1573497716.08, -- [4]
+								415, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								40, -- [3]
+								1573497716.472, -- [4]
+								429, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								14, -- [3]
+								1573497716.853, -- [4]
+								410, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [5]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								16, -- [3]
+								1573497717.305, -- [4]
+								495, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [6]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								16, -- [3]
+								1573497717.305, -- [4]
+								495, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [7]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								16, -- [3]
+								1573497718.095, -- [4]
+								495, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [8]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								18, -- [3]
+								1573497718.455, -- [4]
+								463, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [9]
+							{
+								false, -- [1]
+								"Regrowth", -- [2]
+								14, -- [3]
+								1573497718.935, -- [4]
+								447, -- [5]
+								"Numidruid", -- [6]
+								nil, -- [7]
+								0, -- [8]
+							}, -- [10]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497719.43, -- [4]
+								443, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [11]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								10, -- [3]
+								1573497720.09, -- [4]
+								443, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [12]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								14, -- [3]
+								1573497720.491, -- [4]
+								432, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [13]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497721.271, -- [4]
+								408, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [14]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								13, -- [3]
+								1573497721.431, -- [4]
+								408, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [15]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								9, -- [3]
+								1573497722.101, -- [4]
+								397, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [16]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								14, -- [3]
+								1573497722.491, -- [4]
+								384, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [17]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								13, -- [3]
+								1573497723.791, -- [4]
+								361, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [18]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								22, -- [3]
+								1573497724.461, -- [4]
+								361, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [19]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497724.601, -- [4]
+								348, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [20]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								10, -- [3]
+								1573497724.601, -- [4]
+								348, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [21]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497725.411, -- [4]
+								305, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [22]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								10, -- [3]
+								1573497726.601, -- [4]
+								294, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [23]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497726.601, -- [4]
+								294, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [24]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								14, -- [3]
+								1573497726.921, -- [4]
+								294, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [25]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								27, -- [3]
+								1573497727.121, -- [4]
+								284, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [26]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								26, -- [3]
+								1573497727.121, -- [4]
+								284, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [27]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497727.801, -- [4]
+								206, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [28]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								9, -- [3]
+								1573497727.801, -- [4]
+								206, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [29]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								22, -- [3]
+								1573497728.642, -- [4]
+								206, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [30]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497729.012, -- [4]
+								185, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [31]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								17, -- [3]
+								1573497729.852, -- [4]
+								152, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [32]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								10, -- [3]
+								1573497730.652, -- [4]
+								152, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [33]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497731.022, -- [4]
+								135, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [34]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497731.142, -- [4]
+								125, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [35]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497731.863, -- [4]
+								113, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [36]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497732.647, -- [4]
+								90, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [37]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								13, -- [3]
+								1573497733.027, -- [4]
+								90, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [38]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								10, -- [3]
+								1573497733.147, -- [4]
+								79, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [39]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497733.487, -- [4]
+								66, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [40]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497733.487, -- [4]
+								66, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [41]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								11, -- [3]
+								1573497734.567, -- [4]
+								33, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [42]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497735.107, -- [4]
+								22, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [43]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								9, -- [3]
+								1573497735.877, -- [4]
+								22, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [44]
+							{
+								true, -- [1]
+								"!Melee", -- [2]
+								12, -- [3]
+								1573497736.009, -- [4]
+								10, -- [5]
+								"Loch Crocolisk", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								11, -- [10]
+							}, -- [45]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Numidruid", -- [6]
+							}, -- [46]
+						}, -- [1]
+						1573497736.649, -- [2]
+						"Numidruid", -- [3]
+						"DRUID", -- [4]
+						374, -- [5]
+						"0m 25s", -- [6]
+						["dead_at"] = 25.8150000000023,
+						["dead"] = true,
+					}, -- [1]
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7207,
+				["playing_solo"] = true,
+				["totals"] = {
+					1364, -- [1]
+					28, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					740, -- [1]
+					28, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 1,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:42:17",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Loch Crocolisk",
+				["TotalElapsedCombatTime"] = 431324.198,
+				["CombatEndedAt"] = 431324.198,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 28.004353,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 740.002019,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431324.198,
+				["combat_id"] = 330,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:41:51",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Loch Crocolisk"] = 1,
+				},
+				["start_time"] = 431298.383,
+				["TimeData"] = {
+				},
+				["contra"] = "Loch Crocolisk",
+			}, -- [8]
+			{
+				{
+					["combatId"] = 329,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006632,
+							["damage_from"] = {
+								["Stonesplinter Bonesnapper"] = true,
+								["Loch Crocolisk"] = true,
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Bonesnapper"] = 1147,
+								["Loch Crocolisk"] = 625,
+								["Stonesplinter Shaman"] = 392,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2164.006632,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1573497693,
+							["dps_started"] = false,
+							["total"] = 2164.006632,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Wrath"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 30,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Wrath",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 3,
+										["b_amt"] = 2,
+										["c_dmg"] = 82,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 59,
+											["Loch Crocolisk"] = 156,
+											["Stonesplinter Shaman"] = 95,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 228,
+										["a_amt"] = 0,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 26,
+										["DODGE"] = 1,
+										["total"] = 310,
+										["c_max"] = 28,
+										["MISS"] = 3,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 12,
+										["n_amt"] = 18,
+										["r_amt"] = 0,
+										["c_min"] = 27,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 53,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 152,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 152,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 152,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 47,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 3,
+										["b_amt"] = 1,
+										["c_dmg"] = 235,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 687,
+											["Loch Crocolisk"] = 307,
+											["Stonesplinter Shaman"] = 177,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 936,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 30,
+										["MISS"] = 1,
+										["total"] = 1171,
+										["c_max"] = 79,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 29,
+										["n_amt"] = 25,
+										["r_amt"] = 0,
+										["c_min"] = 77,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 51,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 51,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 168,
+											["Loch Crocolisk"] = 162,
+											["Stonesplinter Shaman"] = 120,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 450,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 75,
+										["total"] = 450,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 75,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 19.9298830550561,
+							["custom"] = 0,
+							["last_event"] = 1573497692,
+							["damage_taken"] = 1057.006632,
+							["start_time"] = 1573497584,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001086,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 452,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4469-0-784-1164-000049AAEA",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 452.001086,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 452.001086,
+							["end_time"] = 1573497693,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Numidruid"] = 331,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 331,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 331,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 24,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 38,
+										["targets"] = {
+											["Numidruid"] = 121,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 121,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 121,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497669,
+							["damage_taken"] = 1147.001086,
+							["start_time"] = 1573497639,
+							["delay"] = 1573497669,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.007202,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 279,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4469-0-784-1197-000049AB04",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 279.007202,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 279.007202,
+							["end_time"] = 1573497693,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Numidruid"] = 279,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 279,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 30,
+										["MISS"] = 4,
+										["total"] = 279,
+										["c_max"] = 0,
+										["DODGE"] = 6,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 20,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Healing Wave",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 3,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497674,
+							["damage_taken"] = 392.007202,
+							["start_time"] = 1573497642,
+							["delay"] = 1573497674,
+							["tipo"] = 1,
+						}, -- [3]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.006728,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Loch Crocolisk"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 326,
+								["Loch Crocolisk"] = 4,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4469-0-784-1693-000049A873",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 330.006728,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 330.006728,
+							["end_time"] = 1573497693,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Loch Crocolisk",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Numidruid"] = 326,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 326,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 37,
+										["DODGE"] = 7,
+										["total"] = 326,
+										["c_max"] = 0,
+										["MISS"] = 3,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 27,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thrash"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 2,
+										["targets"] = {
+											["Loch Crocolisk"] = 4,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 4,
+										["n_min"] = 2,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 4,
+										["c_max"] = 0,
+										["id"] = "Thrash",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497691,
+							["damage_taken"] = 629.006728,
+							["start_time"] = 1573497653,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [4]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 329,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.005097,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 587,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005097,
+							["targets_overheal"] = {
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 0.005097,
+							["total_without_pet"] = 587.005097,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573497693,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 587.005097,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Healing Potion"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 164,
+										["targets"] = {
+											["Numidruid"] = 164,
+										},
+										["n_min"] = 164,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 164,
+										["c_max"] = 0,
+										["id"] = "Healing Potion",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 164,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 232,
+										},
+										["n_min"] = 29,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 232,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 232,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 93,
+										["targets"] = {
+											["Numidruid"] = 191,
+										},
+										["n_min"] = 14,
+										["counter"] = 8,
+										["overheal"] = 0,
+										["total"] = 191,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 191,
+										["n_amt"] = 8,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 587.005097,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497662,
+							["custom"] = 0,
+							["last_event"] = 1573497669,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005097,
+							["delay"] = 1573497669,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 329,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 329,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bash"] = {
+										["activedamt"] = 0,
+										["id"] = "Bash",
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 63,
+										["appliedamt"] = 5,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497596,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 686,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 109,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 109,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 2,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 96,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 109,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 2,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 109,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 109,
+										["appliedamt"] = 1,
+										["refreshamt"] = 1,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 65,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Regrowth"] = 1,
+								["Healing Potion"] = 1,
+								["Bash"] = 1,
+								["Swipe"] = 11,
+								["Wrath"] = 1,
+								["Bear Form"] = 2,
+								["Maul"] = 4,
+								["Rejuvenation"] = 2,
+								["Demoralizing Roar"] = 3,
+								["Thorns"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497693,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Strike"] = 4,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1164-000049AAEA",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Shaman",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Healing Wave"] = 3,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049AA7D",
+							["classe"] = "UNKNOW",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 329,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431298.383,
+				["tempo_start"] = 1573497584,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7206,
+				["playing_solo"] = true,
+				["totals"] = {
+					3225, -- [1]
+					586.988695, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					2164, -- [1]
+					587, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:41:33",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Bonesnapper",
+				["TotalElapsedCombatTime"] = 431280.563,
+				["CombatEndedAt"] = 431280.563,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 587.005097,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 2164.006632,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431280.563,
+				["combat_id"] = 329,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:39:44",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Bonesnapper"] = 2,
+					["Loch Crocolisk"] = 2,
+					["Stonesplinter Shaman"] = 1,
+				},
+				["start_time"] = 431171.214,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Bonesnapper",
+			}, -- [9]
+			{
+				{
+					["combatId"] = 328,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006037,
+							["damage_from"] = {
+								["Stonesplinter Skullthumper"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Skullthumper"] = 326,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 326.006037,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1573497532,
+							["dps_started"] = false,
+							["total"] = 326.006037,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Wrath"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Stonesplinter Skullthumper"] = 31,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31,
+										["n_min"] = 31,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = "Wrath",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 55,
+										["targets"] = {
+											["Stonesplinter Skullthumper"] = 102,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 102,
+										["n_min"] = 47,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 102,
 										["c_max"] = 0,
 										["id"] = "Maul",
 										["r_dmg"] = 0,
@@ -2988,27 +6122,53 @@ _detalhes_database = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
-										["g_amt"] = 3,
-										["n_max"] = 31,
+										["g_amt"] = 0,
+										["n_max"] = 41,
 										["targets"] = {
-											["Greymist Warrior"] = 186,
+											["Stonesplinter Skullthumper"] = 112,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 138,
-										["MISS"] = 1,
-										["n_min"] = 23,
-										["g_dmg"] = 48,
-										["counter"] = 11,
-										["a_amt"] = 0,
-										["total"] = 186,
+										["n_dmg"] = 112,
+										["n_min"] = 35,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 112,
 										["c_max"] = 0,
-										["DODGE"] = 1,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["PARRY"] = 1,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Stonesplinter Skullthumper"] = 51,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 51,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 51,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
@@ -3023,14 +6183,14 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6,
 										["targets"] = {
-											["Greymist Warrior"] = 72,
+											["Stonesplinter Skullthumper"] = 30,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 72,
+										["n_dmg"] = 30,
 										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 12,
-										["total"] = 72,
+										["counter"] = 5,
+										["total"] = 30,
 										["c_max"] = 0,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
@@ -3041,7 +6201,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 12,
+										["n_amt"] = 5,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -3049,57 +6209,782 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 9.4713453098768,
+							["last_dps"] = 23.6768129131152,
 							["custom"] = 0,
-							["last_event"] = 1573063883,
-							["damage_taken"] = 257.008733,
-							["start_time"] = 1573063846,
+							["last_event"] = 1573497531,
+							["damage_taken"] = 85.006037,
+							["start_time"] = 1573497518,
 							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.002486,
+							["totalabsorbed"] = 0.006064,
 							["damage_from"] = {
 								["Numidruid"] = true,
 							},
 							["targets"] = {
-								["Numidruid"] = 257,
+								["Numidruid"] = 85,
 							},
 							["pets"] = {
 							},
-							["serial"] = "Creature-0-4468-1-205-2205-00004303D7",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 257.002486,
+							["total_without_pet"] = 85.006064,
 							["monster"] = true,
 							["fight_component"] = true,
 							["dps_started"] = false,
-							["total"] = 257.002486,
-							["end_time"] = 1573063884,
+							["end_time"] = 1573497532,
 							["friendlyfire_total"] = 0,
-							["nome"] = "Greymist Warrior",
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Skullthumper",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									["!Melee"] = {
 										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 36,
+										["c_dmg"] = 34,
 										["g_amt"] = 0,
-										["n_max"] = 25,
+										["n_max"] = 16,
 										["targets"] = {
-											["Numidruid"] = 257,
+											["Numidruid"] = 78,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 221,
-										["n_min"] = 15,
+										["n_dmg"] = 44,
+										["n_min"] = 13,
 										["g_dmg"] = 0,
-										["counter"] = 13,
-										["total"] = 257,
-										["c_max"] = 36,
+										["counter"] = 5,
+										["total"] = 78,
+										["c_max"] = 34,
 										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 34,
+									},
+									["Gouge"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 7,
+										["targets"] = {
+											["Numidruid"] = 7,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 7,
+										["n_min"] = 7,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 7,
+										["c_max"] = 0,
+										["id"] = "Gouge",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 85.006064,
+							["serial"] = "Creature-0-4469-0-784-1163-000049A07B",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497529,
+							["damage_taken"] = 326.006064,
+							["start_time"] = 1573497520,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 328,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.006516,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 114,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.006516,
+							["targets_overheal"] = {
+								["Numidruid"] = 78,
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 78.006516,
+							["total_without_pet"] = 65.006516,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573497532,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 65.006516,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 77,
+										},
+										["n_max"] = 8,
+										["targets"] = {
+											["Numidruid"] = 10,
+										},
+										["n_min"] = 2,
+										["counter"] = 3,
+										["overheal"] = 77,
+										["total"] = 10,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 10,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 1,
+										},
+										["n_max"] = 14,
+										["targets"] = {
+											["Numidruid"] = 55,
+										},
+										["n_min"] = 13,
+										["counter"] = 4,
+										["overheal"] = 1,
+										["total"] = 55,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 55,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 65.006516,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497520,
+							["custom"] = 0,
+							["last_event"] = 1573497530,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006516,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 328,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 328,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497530,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 106,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 14,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 0,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Maul"] = 2,
+								["Bear Form"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497532,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Skullthumper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Gouge"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1163-000049A07B",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 328,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431171.214,
+				["tempo_start"] = 1573497518,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7205,
+				["playing_solo"] = true,
+				["totals"] = {
+					410.983638, -- [1]
+					65, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.0149910000000002,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					326, -- [1]
+					65, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:38:52",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Skullthumper",
+				["TotalElapsedCombatTime"] = 431119.349,
+				["CombatEndedAt"] = 431119.349,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 65.006516,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 326.006037,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431119.349,
+				["combat_id"] = 328,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:38:38",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Skullthumper"] = 1,
+				},
+				["start_time"] = 431105.58,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Skullthumper",
+			}, -- [10]
+			{
+				{
+					["combatId"] = 327,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.005598,
+							["damage_from"] = {
+								["Stonesplinter Skullthumper"] = true,
+								["Stonesplinter Seer"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Seer"] = 255,
+								["Stonesplinter Skullthumper"] = 159,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 414.005598,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1573497503,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Stonesplinter Skullthumper"] = 14,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14,
+										["c_max"] = 0,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 240,
+										["g_amt"] = 0,
+										["n_max"] = 43,
+										["targets"] = {
+											["Stonesplinter Seer"] = 249,
+											["Stonesplinter Skullthumper"] = 109,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 118,
+										["n_min"] = 37,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 358,
+										["c_max"] = 86,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 71,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Skullthumper"] = 36,
+											["Stonesplinter Seer"] = 6,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 42,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 7,
+										["total"] = 42,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 414.005598,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 22.0157191171961,
+							["custom"] = 0,
+							["last_event"] = 1573497500,
+							["damage_taken"] = 56.005598,
+							["start_time"] = 1573497483,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007435,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Klathgrave"] = true,
+								["Kimmis"] = true,
+								["Nusy"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 9,
+								["Klathgrave"] = 51,
+								["Nusy"] = 43,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 103.007435,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497503,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Seer",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Lightning Bolt"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 51,
+										["targets"] = {
+											["Numidruid"] = 0,
+											["Klathgrave"] = 51,
+											["Nusy"] = 43,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 94,
+										["n_min"] = 43,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 94,
+										["c_max"] = 0,
+										["id"] = "Lightning Bolt",
+										["r_dmg"] = 0,
+										["RESIST"] = 2,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 4,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 9,
+										["targets"] = {
+											["Numidruid"] = 9,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 9,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 9,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 103.007435,
+							["serial"] = "Creature-0-4469-0-784-1166-000049A8E6",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497491,
+							["damage_taken"] = 487.007435,
+							["start_time"] = 1573497495,
+							["delay"] = 1573497491,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.008119,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Klathgrave"] = true,
+								["Kimmis"] = true,
+								["Nusy"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 47,
+								["Klathgrave"] = 29,
+								["Nusy"] = 16,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 92.008119,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497503,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Skullthumper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 11,
+										["targets"] = {
+											["Numidruid"] = 42,
+											["Klathgrave"] = 29,
+											["Nusy"] = 16,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 87,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["MISS"] = 1,
+										["total"] = 87,
+										["c_max"] = 0,
+										["DODGE"] = 2,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -3111,9 +6996,1167 @@ _detalhes_database = {
 										["b_dmg"] = 0,
 										["n_amt"] = 11,
 										["r_amt"] = 0,
-										["c_min"] = 36,
+										["c_min"] = 0,
 									},
-									["Battle Shout"] = {
+									["Gouge"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 5,
+										["targets"] = {
+											["Numidruid"] = 5,
+											["Nusy"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 5,
+										["n_min"] = 5,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 5,
+										["c_max"] = 0,
+										["id"] = "Gouge",
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 92.008119,
+							["serial"] = "Creature-0-4469-0-784-1163-000049A91A",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497501,
+							["damage_taken"] = 571.008119,
+							["start_time"] = 1573497484,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 327,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 327,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 327,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 15,
+							["debuff_uptime_targets"] = {
+							},
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 15,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Numidruid",
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Swipe"] = 1,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 120,
+							["tipo"] = 4,
+							["last_event"] = 1573497503,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 20,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["classe"] = "DRUID",
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Seer",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Lightning Bolt"] = 4,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1166-000049A88D",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Skullthumper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Gouge"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1163-000049A892",
+							["classe"] = "UNKNOW",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 327,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431105.58,
+				["tempo_start"] = 1573497483,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7204,
+				["playing_solo"] = true,
+				["totals"] = {
+					608.979988, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00496799999999098,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					414, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:38:23",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Seer",
+				["TotalElapsedCombatTime"] = 431090.524,
+				["CombatEndedAt"] = 431090.524,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 414.005598,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431090.524,
+				["combat_id"] = 327,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:38:03",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Seer"] = 2,
+					["Stonesplinter Skullthumper"] = 2,
+				},
+				["start_time"] = 431070.583,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Seer",
+			}, -- [11]
+			{
+				{
+					["combatId"] = 326,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007769,
+							["damage_from"] = {
+								["Stonesplinter Bonesnapper"] = true,
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Bonesnapper"] = 330,
+								["Stonesplinter Shaman"] = 343,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 673.007769,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1573497470,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 72,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 71,
+											["Stonesplinter Shaman"] = 263,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 262,
+										["n_min"] = 32,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 334,
+										["c_max"] = 72,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 72,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 54,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 106,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 106,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 106,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 26,
+											["Stonesplinter Shaman"] = 0,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 26,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 49,
+											["Stonesplinter Shaman"] = 50,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 99,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 99,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 78,
+											["Stonesplinter Shaman"] = 30,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 108,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["total"] = 108,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 18,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 673.007769,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 19.9889443998964,
+							["custom"] = 0,
+							["last_event"] = 1573497468,
+							["damage_taken"] = 254.007769,
+							["start_time"] = 1573497436,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.002438,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Klathgrave"] = true,
+								["Kimmis"] = true,
+								["Nusy"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 185,
+								["Nusy"] = 93,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 278.002438,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497470,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Numidruid"] = 156,
+											["Nusy"] = 54,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 210,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 16,
+										["total"] = 210,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 39,
+										["targets"] = {
+											["Numidruid"] = 29,
+											["Nusy"] = 39,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 68,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 68,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 278.002438,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A883",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497466,
+							["damage_taken"] = 715.002438,
+							["start_time"] = 1573497442,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005286,
+							["damage_from"] = {
+								["Numidruid"] = true,
+								["Klathgrave"] = true,
+								["Kimmis"] = true,
+								["Nusy"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 69,
+								["Nusy"] = 70,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 139.005286,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497470,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Numidruid"] = 69,
+											["Nusy"] = 70,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 139,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 139,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 139.005286,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A892",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497451,
+							["damage_taken"] = 784.005286,
+							["start_time"] = 1573497461,
+							["delay"] = 1573497451,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 326,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.008801,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 85,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.008801,
+							["targets_overheal"] = {
+								["Numidruid"] = 86,
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 86.008801,
+							["total_without_pet"] = 85.008801,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573497470,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 85.008801,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 58,
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 29,
+										},
+										["n_min"] = 29,
+										["counter"] = 3,
+										["overheal"] = 58,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 29,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 28,
+										},
+										["n_max"] = 14,
+										["targets"] = {
+											["Numidruid"] = 56,
+										},
+										["n_min"] = 14,
+										["counter"] = 6,
+										["overheal"] = 28,
+										["total"] = 56,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 56,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 85.008801,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497454,
+							["custom"] = 0,
+							["last_event"] = 1573497454,
+							["on_hold"] = false,
+							["totaldenied"] = 0.008801,
+							["delay"] = 1573497454,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 326,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 326,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bash"] = {
+										["activedamt"] = 0,
+										["id"] = "Bash",
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 22,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497450,
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 227,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 34,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 34,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Bash"] = 1,
+								["Maul"] = 2,
+								["Bear Form"] = 1,
+								["Moonfire"] = 1,
+								["Swipe"] = 2,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497470,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Strike"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A883",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 326,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431069.13,
+				["tempo_start"] = 1573497436,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7203,
+				["playing_solo"] = true,
+				["totals"] = {
+					1089.974317, -- [1]
+					85, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.00946999999999321,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					673, -- [1]
+					85, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:37:50",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Bonesnapper",
+				["TotalElapsedCombatTime"] = 431057.387,
+				["CombatEndedAt"] = 431057.387,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 85.008801,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 673.007769,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431057.387,
+				["combat_id"] = 326,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:37:17",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Bonesnapper"] = 2,
+					["Stonesplinter Shaman"] = 2,
+				},
+				["start_time"] = 431023.718,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Bonesnapper",
+			}, -- [12]
+			{
+				{
+					["combatId"] = 325,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.00594,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 107,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 107.00594,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497428,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 22,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 107,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 85,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 107,
+										["c_max"] = 22,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 22,
+									},
+									["Healing Wave"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
@@ -3128,7 +8171,7 @@ _detalhes_database = {
 										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = "Battle Shout",
+										["id"] = "Healing Wave",
 										["r_dmg"] = 0,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
@@ -3142,21 +8185,2375 @@ _detalhes_database = {
 									},
 								},
 							},
-							["on_hold"] = false,
+							["total"] = 107.00594,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8C1",
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1573063871,
-							["damage_taken"] = 344.002486,
-							["start_time"] = 1573063859,
-							["delay"] = 1573063871,
+							["last_event"] = 1573497407,
+							["damage_taken"] = 451.00594,
+							["start_time"] = 1573497408,
+							["delay"] = 1573497407,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007462,
+							["damage_from"] = {
+								["Stonesplinter Bonesnapper"] = true,
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Bonesnapper"] = 385,
+								["Stonesplinter Shaman"] = 451,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 836.007462,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1573497428,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 46,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 92,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 92,
+										["n_min"] = 46,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 92,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 45,
+											["Stonesplinter Shaman"] = 56,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 101,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["a_amt"] = 0,
+										["total"] = 101,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 6,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 1,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 146,
+											["Stonesplinter Shaman"] = 347,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 493,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["total"] = 493,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 30,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 102,
+											["Stonesplinter Shaman"] = 48,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 150,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 25,
+										["total"] = 150,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 25,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 836.007462,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 21.3218256522881,
+							["custom"] = 0,
+							["last_event"] = 1573497427,
+							["damage_taken"] = 378.007462,
+							["start_time"] = 1573497388,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 2632,
+							["totalabsorbed"] = 0.005979,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 271,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 271.005979,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497428,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Numidruid"] = 210,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 210,
+										["n_min"] = 12,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 210,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 32,
+										["targets"] = {
+											["Numidruid"] = 61,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 61,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 61,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 271.005979,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A87D",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497422,
+							["damage_taken"] = 385.005979,
+							["start_time"] = 1573497390,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 325,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1304,
+							["totalabsorb"] = 0.005964,
+							["last_hps"] = 0,
+							["healing_from"] = {
+							},
+							["targets"] = {
+								["Numidruid"] = 174,
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Holy Light"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 174,
+										["targets"] = {
+											["Numidruid"] = 174,
+										},
+										["n_min"] = 174,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 174,
+										["c_max"] = 0,
+										["id"] = "Holy Light",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 174,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.005964,
+							["targets_overheal"] = {
+							},
+							["classe"] = "UNGROUPPLAYER",
+							["totalover"] = 0.005964,
+							["total_without_pet"] = 174.005964,
+							["serial"] = "Player-4742-00BDCA2D",
+							["iniciar_hps"] = false,
+							["fight_component"] = true,
+							["total"] = 174.005964,
+							["heal_enemy_amt"] = 0,
+							["end_time"] = 1573497428,
+							["nome"] = "Nusy",
+							["targets_absorbs"] = {
+							},
+							["healing_taken"] = 0.005964,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497423,
+							["custom"] = 0,
+							["last_event"] = 1573497423,
+							["on_hold"] = false,
+							["totaldenied"] = 0.005964,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.007048,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Nusy"] = true,
+							},
+							["targets"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.007048,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 174.007048,
+							["totalover"] = 0.007048,
+							["total_without_pet"] = 0.007048,
+							["targets_overheal"] = {
+							},
+							["end_time"] = 1573497428,
+							["iniciar_hps"] = false,
+							["total"] = 0.007048,
+							["classe"] = "DRUID",
+							["heal_enemy_amt"] = 0,
+							["nome"] = "Numidruid",
+							["targets_absorbs"] = {
+							},
+							["grupo"] = true,
+							["start_time"] = 1573497428,
+							["heal_enemy"] = {
+							},
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+								},
+							},
+							["custom"] = 0,
+							["last_event"] = 0,
+							["on_hold"] = false,
+							["totaldenied"] = 0.007048,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [2]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 325,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+						{
+							["received"] = 0.007271,
+							["resource"] = 0.007271,
+							["targets"] = {
+								["Kimmis"] = 20,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "UNGROUPPLAYER",
+							["passiveover"] = 0.007271,
+							["fight_component"] = true,
+							["total"] = 20.007271,
+							["nome"] = "Nusy",
+							["spells"] = {
+								["tipo"] = 7,
+								["_ActorTable"] = {
+									["Blessing of Wisdom"] = {
+										["total"] = 20,
+										["id"] = "Blessing of Wisdom",
+										["totalover"] = 0,
+										["targets"] = {
+											["Kimmis"] = 20,
+										},
+										["counter"] = 2,
+									},
+								},
+							},
+							["flag_original"] = 1304,
+							["last_event"] = 1573497428,
+							["alternatepower"] = 0.007271,
+							["tipo"] = 3,
+							["serial"] = "Player-4742-00BDCA2D",
+							["totalover"] = 0.007271,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["combatId"] = 325,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 30,
+							["debuff_uptime_targets"] = {
+							},
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Numidruid",
+							["spell_cast"] = {
+								["Maul"] = 2,
+								["Demoralizing Roar"] = 1,
+								["Swipe"] = 5,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 240,
+							["tipo"] = 4,
+							["last_event"] = 1573497428,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Enrage"] = {
+										["activedamt"] = 1,
+										["id"] = "Enrage",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497388,
+										["uptime"] = 0,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = true,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 40,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["classe"] = "DRUID",
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Strike"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A87D",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Shaman",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Healing Wave"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8C1",
+							["classe"] = "UNKNOW",
+						}, -- [3]
+						{
+							["flag_original"] = 1304,
+							["nome"] = "Nusy",
+							["pets"] = {
+							},
+							["tipo"] = 4,
+							["fight_component"] = true,
+							["last_event"] = 0,
+							["spell_cast"] = {
+								["Holy Light"] = 1,
+							},
+							["serial"] = "Player-4742-00BDCA2D",
+							["classe"] = "UNGROUPPLAYER",
+						}, -- [4]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 325,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 431023.718,
+				["tempo_start"] = 1573497388,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7202,
+				["playing_solo"] = true,
+				["totals"] = {
+					1214, -- [1]
+					173.996047, -- [2]
+					{
+						0, -- [1]
+						[0] = 19.992766,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					836, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:37:08",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Shaman",
+				["TotalElapsedCombatTime"] = 431015.638,
+				["CombatEndedAt"] = 431015.638,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 0.007048,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 836.007462,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 431015.638,
+				["combat_id"] = 325,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:36:28",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Bonesnapper"] = 1,
+					["Stonesplinter Shaman"] = 1,
+				},
+				["start_time"] = 430975.385,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Shaman",
+			}, -- [13]
+			{
+				{
+					["combatId"] = 324,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006566,
+							["damage_from"] = {
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Shaman"] = 312,
+							},
+							["pets"] = {
+							},
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 312.006566,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["dps_started"] = false,
+							["end_time"] = 1573497379,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Wrath"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 30,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Wrath",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 57,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 57,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 57,
+										["n_min"] = 57,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 57,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 77,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 160,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 83,
+										["n_min"] = 41,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 160,
+										["c_max"] = 77,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 77,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 53,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 53,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 53,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 12,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 12,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 12,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 312.006566,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 25.2106145766217,
+							["custom"] = 0,
+							["last_event"] = 1573497388,
+							["damage_taken"] = 32.006566,
+							["start_time"] = 1573497366,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.005757,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 32,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 32.005757,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497379,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 32,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32,
+										["n_min"] = 15,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 32,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 32.005757,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A88D",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497377,
+							["damage_taken"] = 312.005757,
+							["start_time"] = 1573497370,
+							["delay"] = 0,
 							["tipo"] = 1,
 						}, -- [2]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 207,
+					["combatId"] = 324,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorb"] = 0.006863,
+							["last_hps"] = 0,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 29,
+							},
+							["targets_absorbs"] = {
+							},
+							["pets"] = {
+							},
+							["totalover_without_pet"] = 0.006863,
+							["targets_overheal"] = {
+								["Numidruid"] = 126,
+							},
+							["classe"] = "DRUID",
+							["totalover"] = 126.006863,
+							["total_without_pet"] = 17.006863,
+							["iniciar_hps"] = false,
+							["heal_enemy_amt"] = 0,
+							["fight_component"] = true,
+							["end_time"] = 1573497379,
+							["serial"] = "Player-4742-013DADF5",
+							["healing_taken"] = 17.006863,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 56,
+										},
+										["n_max"] = 0,
+										["targets"] = {
+											["Numidruid"] = 0,
+										},
+										["n_min"] = 0,
+										["counter"] = 4,
+										["overheal"] = 56,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 0,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 70,
+										},
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 17,
+										},
+										["n_min"] = 0,
+										["counter"] = 3,
+										["overheal"] = 70,
+										["total"] = 17,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 17,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["total"] = 17.006863,
+							["heal_enemy"] = {
+							},
+							["start_time"] = 1573497368,
+							["custom"] = 0,
+							["last_event"] = 1573497377,
+							["on_hold"] = false,
+							["totaldenied"] = 0.006863,
+							["delay"] = 0,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 324,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 324,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bash"] = {
+										["activedamt"] = 0,
+										["id"] = "Bash",
+										["targets"] = {
+										},
+										["uptime"] = 2,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497378,
+										["uptime"] = 0,
+										["appliedamt"] = 0,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 97,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 11,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 8,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 13,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 2,
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Maul"] = 1,
+								["Bear Form"] = 1,
+								["Bash"] = 1,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497379,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 324,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 430972.656,
+				["tempo_start"] = 1573497366,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7201,
+				["playing_solo"] = true,
+				["totals"] = {
+					344, -- [1]
+					17, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					312, -- [1]
+					17, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:36:19",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Shaman",
+				["TotalElapsedCombatTime"] = 430966.617,
+				["CombatEndedAt"] = 430966.617,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 17.006863,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 312.006566,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 430966.617,
+				["combat_id"] = 324,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:36:06",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Shaman"] = 1,
+				},
+				["start_time"] = 430953.617,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Shaman",
+			}, -- [14]
+			{
+				{
+					["combatId"] = 323,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.007763,
+							["damage_from"] = {
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Shaman"] = 676,
+							},
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 676.007763,
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1573497355,
+							["dps_started"] = false,
+							["total"] = 676.007763,
+							["colocacao"] = 1,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Wrath"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 29,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 29,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29,
+										["n_min"] = 29,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 29,
+										["c_max"] = 0,
+										["id"] = "Wrath",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 14,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 14,
+										["n_min"] = 14,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 14,
+										["c_max"] = 0,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 56,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 159,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 159,
+										["n_min"] = 48,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 159,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 41,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 229,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 229,
+										["n_min"] = 36,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 229,
+										["c_max"] = 0,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 155,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 155,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 155,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 90,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 90,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 15,
+										["total"] = 90,
+										["c_max"] = 0,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 19.6131883540754,
+							["custom"] = 0,
+							["last_event"] = 1573497353,
+							["damage_taken"] = 187.007763,
+							["start_time"] = 1573497320,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007813,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 187,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 187.007813,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497355,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Numidruid"] = 187,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 187,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 18,
+										["DODGE"] = 2,
+										["total"] = 187,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 15,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Healing Wave",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 187.007813,
+							["serial"] = "Creature-0-4469-0-784-1197-0000C9A8FB",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497351,
+							["damage_taken"] = 676.007813,
+							["start_time"] = 1573497323,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 323,
+					["tipo"] = 3,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["combatId"] = 323,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 323,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime"] = 36,
+							["debuff_uptime_targets"] = {
+							},
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497337,
+										["uptime"] = 12,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 24,
+										["appliedamt"] = 3,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime_targets"] = {
+							},
+							["grupo"] = true,
+							["nome"] = "Numidruid",
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Maul"] = 4,
+								["Bear Form"] = 1,
+								["Moonfire"] = 2,
+								["Swipe"] = 1,
+							},
+							["pets"] = {
+							},
+							["buff_uptime"] = 204,
+							["tipo"] = 4,
+							["last_event"] = 1573497355,
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 29,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 35,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["classe"] = "DRUID",
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Shaman",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Healing Wave"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8C1",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 323,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 430953.617,
+				["tempo_start"] = 1573497320,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7200,
+				["playing_solo"] = true,
+				["totals"] = {
+					862.99227, -- [1]
+					-0.00838, -- [2]
+					{
+						0, -- [1]
+						[0] = -0.0101179999999985,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					676, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:35:55",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Shaman",
+				["TotalElapsedCombatTime"] = 430942.32,
+				["CombatEndedAt"] = 430942.32,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 676.007763,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 430942.32,
+				["combat_id"] = 323,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:35:21",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Shaman"] = 1,
+				},
+				["start_time"] = 430907.853,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Shaman",
+			}, -- [15]
+			{
+				{
+					["combatId"] = 322,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.006695,
+							["damage_from"] = {
+								["Stonesplinter Bonesnapper"] = true,
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Bonesnapper"] = 686,
+								["Stonesplinter Shaman"] = 497,
+							},
+							["total"] = 1183.006695,
+							["pets"] = {
+							},
+							["on_hold"] = false,
+							["classe"] = "DRUID",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1183.006695,
+							["colocacao"] = 1,
+							["friendlyfire"] = {
+							},
+							["dps_started"] = false,
+							["end_time"] = 1573497282,
+							["friendlyfire_total"] = 0,
+							["spec"] = 103,
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["Wrath"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 30,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 30,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30,
+										["n_min"] = 30,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 30,
+										["c_max"] = 0,
+										["id"] = "Wrath",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Swipe"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 13,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 65,
+											["Stonesplinter Shaman"] = 13,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 78,
+										["n_min"] = 13,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["MISS"] = 1,
+										["total"] = 78,
+										["c_max"] = 0,
+										["DODGE"] = 2,
+										["id"] = "Swipe",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Maul"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 53,
+										["targets"] = {
+											["Stonesplinter Shaman"] = 158,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 158,
+										["n_min"] = 52,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 158,
+										["c_max"] = 0,
+										["id"] = "Maul",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 42,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 300,
+											["Stonesplinter Shaman"] = 196,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 496,
+										["n_min"] = 33,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 496,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 13,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 30,
+										["g_amt"] = 0,
+										["n_max"] = 20,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 87,
+											["Stonesplinter Shaman"] = 52,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 109,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 139,
+										["c_max"] = 30,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 11,
+										["r_amt"] = 0,
+										["c_min"] = 30,
+									},
+									["Thorns"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 6,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 234,
+											["Stonesplinter Shaman"] = 48,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 282,
+										["n_min"] = 6,
+										["g_dmg"] = 0,
+										["counter"] = 49,
+										["total"] = 282,
+										["c_max"] = 0,
+										["RESIST"] = 2,
+										["id"] = "Thorns",
+										["r_dmg"] = 0,
+										["spellschool"] = 8,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 47,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["serial"] = "Player-4742-013DADF5",
+							["last_dps"] = 17.7017311836113,
+							["custom"] = 0,
+							["last_event"] = 1573497281,
+							["damage_taken"] = 802.006695,
+							["start_time"] = 1573497215,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006776,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 678,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 678.006776,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497282,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 93,
+										["g_amt"] = 0,
+										["n_max"] = 19,
+										["targets"] = {
+											["Numidruid"] = 551,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 458,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 41,
+										["total"] = 551,
+										["c_max"] = 32,
+										["DODGE"] = 4,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 34,
+										["r_amt"] = 0,
+										["c_min"] = 30,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 34,
+										["targets"] = {
+											["Numidruid"] = 127,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 127,
+										["n_min"] = 28,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 127,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 5,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 678.006776,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A8F0",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497276,
+							["damage_taken"] = 686.006776,
+							["start_time"] = 1573497221,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.006956,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 124,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 124.006956,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497282,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Numidruid"] = 124,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 124,
+										["n_min"] = 10,
+										["g_dmg"] = 0,
+										["counter"] = 11,
+										["MISS"] = 1,
+										["total"] = 124,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Healing Wave",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 124.006956,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8FB",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497246,
+							["damage_taken"] = 497.006956,
+							["start_time"] = 1573497256,
+							["delay"] = 1573497246,
+							["tipo"] = 1,
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 322,
 					["tipo"] = 3,
 					["_ActorTable"] = {
 						{
@@ -3168,30 +10565,57 @@ _detalhes_database = {
 							},
 							["iniciar_hps"] = false,
 							["classe"] = "DRUID",
-							["totalover"] = 0.001294,
-							["total_without_pet"] = 313.001294,
-							["total"] = 313.001294,
+							["totalover"] = 0.006983,
+							["total_without_pet"] = 480.006983,
+							["total"] = 480.006983,
 							["targets_absorbs"] = {
 							},
 							["heal_enemy"] = {
 							},
 							["on_hold"] = false,
 							["serial"] = "Player-4742-013DADF5",
-							["totalabsorb"] = 0.001294,
+							["totalabsorb"] = 0.006983,
 							["last_hps"] = 0,
 							["targets"] = {
-								["Numidruid"] = 313,
+								["Numidruid"] = 480,
 							},
-							["totalover_without_pet"] = 0.001294,
-							["healing_taken"] = 313.001294,
+							["totalover_without_pet"] = 0.006983,
+							["healing_taken"] = 480.006983,
 							["fight_component"] = true,
-							["end_time"] = 1573063884,
+							["end_time"] = 1573497282,
 							["targets_overheal"] = {
 							},
 							["nome"] = "Numidruid",
 							["spells"] = {
 								["tipo"] = 3,
 								["_ActorTable"] = {
+									["Healing Potion"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 163,
+										["targets"] = {
+											["Numidruid"] = 163,
+										},
+										["n_min"] = 163,
+										["counter"] = 1,
+										["overheal"] = 0,
+										["total"] = 163,
+										["c_max"] = 0,
+										["id"] = "Healing Potion",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 163,
+										["n_amt"] = 1,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
 									["Rejuvenation"] = {
 										["c_amt"] = 0,
 										["totalabsorb"] = 0,
@@ -3224,14 +10648,14 @@ _detalhes_database = {
 										["totalabsorb"] = 0,
 										["targets_overheal"] = {
 										},
-										["n_max"] = 99,
+										["n_max"] = 103,
 										["targets"] = {
-											["Numidruid"] = 197,
+											["Numidruid"] = 201,
 										},
 										["n_min"] = 14,
 										["counter"] = 8,
 										["overheal"] = 0,
-										["total"] = 197,
+										["total"] = 201,
 										["c_max"] = 0,
 										["id"] = "Regrowth",
 										["targets_absorbs"] = {
@@ -3240,7 +10664,7 @@ _detalhes_database = {
 										["m_crit"] = 0,
 										["c_min"] = 0,
 										["m_amt"] = 0,
-										["n_curado"] = 197,
+										["n_curado"] = 201,
 										["n_amt"] = 8,
 										["totaldenied"] = 0,
 										["m_healed"] = 0,
@@ -3250,1320 +10674,24 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["heal_enemy_amt"] = 0,
-							["start_time"] = 1573063860,
+							["start_time"] = 1573497250,
 							["custom"] = 0,
-							["last_event"] = 1573063881,
+							["last_event"] = 1573497277,
 							["spec"] = 103,
-							["totaldenied"] = 0.001294,
+							["totaldenied"] = 0.006983,
 							["delay"] = 0,
 							["tipo"] = 2,
 						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 207,
+					["combatId"] = 322,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 207,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["fight_component"] = true,
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["spec"] = 103,
-							["grupo"] = true,
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 120,
-							["pets"] = {
-							},
-							["spell_cast"] = {
-								["Maul"] = 2,
-								["Rejuvenation"] = 1,
-								["Regrowth"] = 1,
-							},
-							["classe"] = "DRUID",
-							["tipo"] = 4,
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Regrowth"] = {
-										["activedamt"] = 1,
-										["id"] = "Regrowth",
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Rejuvenation"] = {
-										["activedamt"] = 1,
-										["id"] = "Rejuvenation",
-										["targets"] = {
-										},
-										["uptime"] = 12,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Bear Form"] = {
-										["activedamt"] = 1,
-										["id"] = "Bear Form",
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 38,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mark of the Wild"] = {
-										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
-										["targets"] = {
-										},
-										["uptime"] = 38,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["last_event"] = 1573063884,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Greymist Warrior",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Battle Shout"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2205-00004303D7",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 207,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2326499.571,
-				["tempo_start"] = 1573063846,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 7081,
-				["playing_solo"] = true,
-				["totals"] = {
-					601, -- [1]
-					313, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					344, -- [1]
-					313, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "19:11:24",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Greymist Warrior",
-				["TotalElapsedCombatTime"] = 2326461.106,
-				["CombatEndedAt"] = 2326461.106,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Numidruid"] = 313.001294,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 344.008733,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 2326461.106,
-				["combat_id"] = 207,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "19:10:46",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Greymist Warrior"] = 1,
-				},
-				["start_time"] = 2326423.84,
-				["TimeData"] = {
-				},
-				["contra"] = "Greymist Warrior",
-			}, -- [7]
-			{
-				{
-					["combatId"] = 206,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.002733,
-							["spec"] = 103,
-							["damage_from"] = {
-								["Greymist Warrior"] = true,
-								["Greymist Netter"] = true,
-							},
-							["targets"] = {
-								["Greymist Warrior"] = 368,
-								["Greymist Netter"] = 600,
-							},
-							["pets"] = {
-							},
-							["colocacao"] = 1,
-							["end_time"] = 1573063842,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 968.002733,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["total"] = 968.002733,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["Wrath"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Greymist Netter"] = 94,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 94,
-										["n_min"] = 30,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 94,
-										["c_max"] = 0,
-										["id"] = "Wrath",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 3,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Maul"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 43,
-										["targets"] = {
-											["Greymist Netter"] = 43,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 43,
-										["n_min"] = 43,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 43,
-										["c_max"] = 0,
-										["id"] = "Maul",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["!Melee"] = {
-										["c_amt"] = 3,
-										["b_amt"] = 1,
-										["c_dmg"] = 158,
-										["g_amt"] = 11,
-										["n_max"] = 34,
-										["targets"] = {
-											["Greymist Warrior"] = 161,
-											["Greymist Netter"] = 241,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 172,
-										["n_min"] = 17,
-										["g_dmg"] = 72,
-										["counter"] = 24,
-										["a_amt"] = 0,
-										["total"] = 402,
-										["c_max"] = 59,
-										["MISS"] = 2,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 2,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 17,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 45,
-									},
-									["Moonfire"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 31,
-										["g_amt"] = 0,
-										["n_max"] = 21,
-										["targets"] = {
-											["Greymist Warrior"] = 81,
-											["Greymist Netter"] = 138,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 188,
-										["n_min"] = 8,
-										["g_dmg"] = 0,
-										["counter"] = 20,
-										["total"] = 219,
-										["c_max"] = 31,
-										["RESIST"] = 1,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 18,
-										["r_amt"] = 0,
-										["c_min"] = 31,
-									},
-									["Thorns"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6,
-										["targets"] = {
-											["Greymist Warrior"] = 126,
-											["Greymist Netter"] = 84,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 210,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 37,
-										["total"] = 210,
-										["c_max"] = 0,
-										["RESIST"] = 2,
-										["id"] = "Thorns",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 35,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 8.52400215741796,
-							["custom"] = 0,
-							["last_event"] = 1573063841,
-							["damage_taken"] = 836.002733,
-							["start_time"] = 1573063741,
-							["delay"] = 1573063767,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.006182,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 248,
-							},
-							["pets"] = {
-							},
-							["serial"] = "Creature-0-4468-1-205-2204-0000430A2D",
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 248.006182,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["total"] = 248.006182,
-							["end_time"] = 1573063842,
-							["friendlyfire_total"] = 0,
-							["nome"] = "Greymist Netter",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 34,
-										["g_amt"] = 0,
-										["n_max"] = 19,
-										["targets"] = {
-											["Numidruid"] = 248,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 214,
-										["n_min"] = 13,
-										["g_dmg"] = 0,
-										["counter"] = 17,
-										["total"] = 248,
-										["c_max"] = 34,
-										["DODGE"] = 2,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 14,
-										["r_amt"] = 0,
-										["c_min"] = 34,
-									},
-									["Net"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Net",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 3,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["on_hold"] = false,
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573063788,
-							["damage_taken"] = 600.006182,
-							["start_time"] = 1573063806,
-							["delay"] = 1573063788,
-							["tipo"] = 1,
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.008922,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 588,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 588.008922,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573063842,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Greymist Warrior",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 1,
-										["b_amt"] = 0,
-										["c_dmg"] = 46,
-										["g_amt"] = 0,
-										["n_max"] = 29,
-										["targets"] = {
-											["Numidruid"] = 588,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 542,
-										["n_min"] = 21,
-										["g_dmg"] = 0,
-										["counter"] = 27,
-										["DODGE"] = 2,
-										["total"] = 588,
-										["c_max"] = 46,
-										["MISS"] = 3,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 21,
-										["r_amt"] = 0,
-										["c_min"] = 46,
-									},
-									["Battle Shout"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 0,
-										["targets"] = {
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 0,
-										["n_min"] = 0,
-										["g_dmg"] = 0,
-										["counter"] = 0,
-										["total"] = 0,
-										["c_max"] = 0,
-										["id"] = "Battle Shout",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 2,
-										["b_dmg"] = 0,
-										["n_amt"] = 0,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["total"] = 588.008922,
-							["serial"] = "Creature-0-4468-1-205-2205-0000430A66",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573063832,
-							["damage_taken"] = 368.008922,
-							["start_time"] = 1573063792,
-							["delay"] = 1573063832,
-							["tipo"] = 1,
-						}, -- [3]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 206,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Numidruid"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
-							["totalover"] = 42.005352,
-							["total_without_pet"] = 625.005352,
-							["total"] = 625.005352,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4742-013DADF5",
-							["totalabsorb"] = 0.005352,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Numidruid"] = 638,
-							},
-							["totalover_without_pet"] = 0.005352,
-							["healing_taken"] = 625.005352,
-							["fight_component"] = true,
-							["end_time"] = 1573063842,
-							["targets_overheal"] = {
-								["Numidruid"] = 42,
-							},
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									["Regrowth"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-										},
-										["n_max"] = 105,
-										["targets"] = {
-											["Numidruid"] = 203,
-										},
-										["n_min"] = 14,
-										["counter"] = 8,
-										["overheal"] = 0,
-										["total"] = 203,
-										["c_max"] = 0,
-										["id"] = "Regrowth",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 203,
-										["n_amt"] = 8,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-									["Rejuvenation"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Numidruid"] = 42,
-										},
-										["n_max"] = 29,
-										["targets"] = {
-											["Numidruid"] = 422,
-										},
-										["n_min"] = 16,
-										["counter"] = 16,
-										["overheal"] = 42,
-										["total"] = 422,
-										["c_max"] = 0,
-										["id"] = "Rejuvenation",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 422,
-										["n_amt"] = 16,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1573063788,
-							["custom"] = 0,
-							["last_event"] = 1573063831,
-							["spec"] = 103,
-							["totaldenied"] = 0.005352,
-							["delay"] = 1573063831,
-							["tipo"] = 2,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 206,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 206,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["activedamt"] = 0,
-										["id"] = "Moonfire",
-										["targets"] = {
-										},
-										["uptime"] = 43,
-										["appliedamt"] = 5,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["buff_uptime"] = 336,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Regrowth"] = {
-										["activedamt"] = 1,
-										["id"] = "Regrowth",
-										["targets"] = {
-										},
-										["uptime"] = 21,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Bear Form"] = {
-										["activedamt"] = 3,
-										["id"] = "Bear Form",
-										["targets"] = {
-										},
-										["uptime"] = 37,
-										["appliedamt"] = 3,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Rejuvenation"] = {
-										["activedamt"] = 4,
-										["id"] = "Rejuvenation",
-										["targets"] = {
-										},
-										["uptime"] = 48,
-										["appliedamt"] = 4,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 115,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mark of the Wild"] = {
-										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
-										["targets"] = {
-										},
-										["uptime"] = 115,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["fight_component"] = true,
-							["debuff_uptime"] = 43,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Wrath"] = 2,
-								["Regrowth"] = 1,
-								["Maul"] = 1,
-								["Rejuvenation"] = 4,
-								["Moonfire"] = 6,
-								["Bear Form"] = 3,
-							},
-							["debuff_uptime_targets"] = {
-							},
-							["last_event"] = 1573063842,
-							["nome"] = "Numidruid",
-							["pets"] = {
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["tipo"] = 4,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Greymist Netter",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Net"] = 3,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2204-0000430A2D",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-						{
-							["flag_original"] = 68168,
-							["nome"] = "Greymist Warrior",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Battle Shout"] = 2,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2205-0000430A66",
-							["classe"] = "UNKNOW",
-						}, -- [3]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 206,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2326420.595,
-				["tempo_start"] = 1573063727,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 7080,
-				["playing_solo"] = true,
-				["totals"] = {
-					1804, -- [1]
-					625, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					968, -- [1]
-					625, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "19:10:42",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Greymist Netter",
-				["TotalElapsedCombatTime"] = 2326419.382,
-				["CombatEndedAt"] = 2326419.382,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-							["Numidruid"] = 625.005352,
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 968.002733,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 2326419.382,
-				["combat_id"] = 206,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "19:08:47",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Greymist Warrior"] = 1,
-					["Greymist Netter"] = 2,
-				},
-				["start_time"] = 2326304.804,
-				["TimeData"] = {
-				},
-				["contra"] = "Greymist Netter",
-			}, -- [8]
-			{
-				{
-					["combatId"] = 205,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003413,
-							["damage_from"] = {
-								["Moonstalker Runt"] = true,
-							},
-							["targets"] = {
-								["Moonstalker Runt"] = 221,
-							},
-							["total"] = 221.003413,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 221.003413,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1573063690,
-							["friendlyfire_total"] = 0,
-							["spec"] = 103,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["Maul"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 52,
-										["targets"] = {
-											["Moonstalker Runt"] = 52,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 52,
-										["n_min"] = 52,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 52,
-										["c_max"] = 0,
-										["id"] = "Maul",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 38,
-										["targets"] = {
-											["Moonstalker Runt"] = 70,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 70,
-										["n_min"] = 32,
-										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 70,
-										["c_max"] = 0,
-										["a_amt"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["PARRY"] = 1,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 19,
-										["targets"] = {
-											["Moonstalker Runt"] = 51,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 51,
-										["n_min"] = 8,
-										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 51,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["spellschool"] = 64,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 5,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-									["Thorns"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 6,
-										["targets"] = {
-											["Moonstalker Runt"] = 48,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 48,
-										["n_min"] = 6,
-										["g_dmg"] = 0,
-										["counter"] = 8,
-										["total"] = 48,
-										["c_max"] = 0,
-										["id"] = "Thorns",
-										["r_dmg"] = 0,
-										["spellschool"] = 8,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 8,
-										["r_amt"] = 0,
-										["c_min"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 17.7941556361776,
-							["custom"] = 0,
-							["last_event"] = 1573063688,
-							["damage_taken"] = 55.003413,
-							["start_time"] = 1573063676,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.003809,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-								["Numidruid"] = 55,
-							},
-							["pets"] = {
-							},
-							["classe"] = "UNKNOW",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 55.003809,
-							["monster"] = true,
-							["fight_component"] = true,
-							["dps_started"] = false,
-							["end_time"] = 1573063690,
-							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Moonstalker Runt",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 2,
-										["b_amt"] = 0,
-										["c_dmg"] = 18,
-										["g_amt"] = 0,
-										["n_max"] = 8,
-										["targets"] = {
-											["Numidruid"] = 55,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 37,
-										["n_min"] = 5,
-										["g_dmg"] = 0,
-										["counter"] = 9,
-										["total"] = 55,
-										["c_max"] = 9,
-										["DODGE"] = 1,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["spellschool"] = 1,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 6,
-										["r_amt"] = 0,
-										["c_min"] = 9,
-									},
-								},
-							},
-							["total"] = 55.003809,
-							["serial"] = "Creature-0-4468-1-205-2070-0002C22B16",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573063687,
-							["damage_taken"] = 221.003809,
-							["start_time"] = 1573063679,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 205,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["healing_from"] = {
-								["Numidruid"] = true,
-							},
-							["pets"] = {
-							},
-							["iniciar_hps"] = false,
-							["classe"] = "DRUID",
-							["totalover"] = 61.006764,
-							["total_without_pet"] = 55.006764,
-							["total"] = 55.006764,
-							["targets_absorbs"] = {
-							},
-							["heal_enemy"] = {
-							},
-							["on_hold"] = false,
-							["serial"] = "Player-4742-013DADF5",
-							["totalabsorb"] = 0.006764,
-							["last_hps"] = 0,
-							["targets"] = {
-								["Numidruid"] = 116,
-							},
-							["totalover_without_pet"] = 0.006764,
-							["healing_taken"] = 55.006764,
-							["fight_component"] = true,
-							["end_time"] = 1573063690,
-							["targets_overheal"] = {
-								["Numidruid"] = 61,
-							},
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 3,
-								["_ActorTable"] = {
-									["Rejuvenation"] = {
-										["c_amt"] = 0,
-										["totalabsorb"] = 0,
-										["targets_overheal"] = {
-											["Numidruid"] = 61,
-										},
-										["n_max"] = 17,
-										["targets"] = {
-											["Numidruid"] = 55,
-										},
-										["n_min"] = 11,
-										["counter"] = 4,
-										["overheal"] = 61,
-										["total"] = 55,
-										["c_max"] = 0,
-										["id"] = "Rejuvenation",
-										["targets_absorbs"] = {
-										},
-										["c_curado"] = 0,
-										["m_crit"] = 0,
-										["c_min"] = 0,
-										["m_amt"] = 0,
-										["n_curado"] = 55,
-										["n_amt"] = 4,
-										["totaldenied"] = 0,
-										["m_healed"] = 0,
-										["absorbed"] = 0,
-									},
-								},
-							},
-							["grupo"] = true,
-							["heal_enemy_amt"] = 0,
-							["start_time"] = 1573063680,
-							["custom"] = 0,
-							["last_event"] = 1573063689,
-							["spec"] = 103,
-							["totaldenied"] = 0.006764,
-							["delay"] = 0,
-							["tipo"] = 2,
-						}, -- [1]
-					},
-				}, -- [2]
-				{
-					["combatId"] = 205,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 205,
+					["combatId"] = 322,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -4576,31 +10704,30 @@ _detalhes_database = {
 										["id"] = "Moonfire",
 										["targets"] = {
 										},
-										["actived_at"] = 1573063688,
-										["uptime"] = 0,
-										["appliedamt"] = 0,
+										["uptime"] = 63,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 30,
+										["appliedamt"] = 3,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
-							["buff_uptime"] = 51,
+							["buff_uptime"] = 417,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
-									["Bear Form"] = {
-										["activedamt"] = 1,
-										["id"] = "Bear Form",
-										["targets"] = {
-										},
-										["uptime"] = 11,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
 									["Rejuvenation"] = {
 										["activedamt"] = 1,
 										["id"] = "Rejuvenation",
@@ -4612,12 +10739,12 @@ _detalhes_database = {
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Thorns"] = {
+									["Well Fed"] = {
 										["activedamt"] = 1,
-										["id"] = "Thorns",
+										["id"] = "Well Fed",
 										["targets"] = {
 										},
-										["uptime"] = 14,
+										["uptime"] = 67,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -4628,7 +10755,62 @@ _detalhes_database = {
 										["id"] = "Mark of the Wild",
 										["targets"] = {
 										},
-										["uptime"] = 14,
+										["uptime"] = 67,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 21,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 67,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Bear Form"] = {
+										["activedamt"] = 2,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 49,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 67,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 67,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -4637,29 +10819,64 @@ _detalhes_database = {
 								},
 							},
 							["fight_component"] = true,
-							["debuff_uptime"] = 0,
+							["debuff_uptime"] = 93,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Maul"] = 1,
 								["Rejuvenation"] = 1,
-								["Bear Form"] = 1,
+								["Demoralizing Roar"] = 1,
+								["Healing Potion"] = 1,
+								["Regrowth"] = 1,
+								["Maul"] = 3,
+								["Bear Form"] = 2,
+								["Moonfire"] = 2,
+								["Swipe"] = 4,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1573063690,
+							["last_event"] = 1573497282,
 							["nome"] = "Numidruid",
 							["pets"] = {
 							},
 							["serial"] = "Player-4742-013DADF5",
 							["tipo"] = 4,
 						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Strike"] = 5,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A8F0",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Shaman",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Healing Wave"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8FB",
+							["classe"] = "UNKNOW",
+						}, -- [3]
 					},
 				}, -- [4]
 				{
-					["combatId"] = 205,
+					["combatId"] = 322,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 					},
@@ -4667,17 +10884,17 @@ _detalhes_database = {
 				["raid_roster"] = {
 					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2326303.518,
-				["tempo_start"] = 1573063676,
+				["CombatStartedAt"] = 430907.853,
+				["tempo_start"] = 1573497215,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["combat_counter"] = 7079,
+				["combat_counter"] = 7199,
 				["playing_solo"] = true,
 				["totals"] = {
-					276, -- [1]
-					55, -- [2]
+					1985, -- [1]
+					479.995172, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -4699,8 +10916,8 @@ _detalhes_database = {
 					["voidzone_damage"] = 0,
 				},
 				["totals_grupo"] = {
-					221, -- [1]
-					55, -- [2]
+					1183, -- [1]
+					480, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
@@ -4721,12 +10938,12 @@ _detalhes_database = {
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
-				["data_fim"] = "19:08:10",
+				["data_fim"] = "19:34:43",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Moonstalker Runt",
-				["TotalElapsedCombatTime"] = 2326267.546,
-				["CombatEndedAt"] = 2326267.546,
+				["enemy"] = "Stonesplinter Shaman",
+				["TotalElapsedCombatTime"] = 430869.756,
+				["CombatEndedAt"] = 430869.756,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
@@ -4740,19 +10957,19 @@ _detalhes_database = {
 					},
 					["heal"] = {
 						{
-							["Numidruid"] = 55.006764,
+							["Numidruid"] = 480.006983,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
 					["damage"] = {
 						{
-							["Numidruid"] = 221.003413,
+							["Numidruid"] = 1183.006695,
 						}, -- [1]
 					},
 				},
-				["end_time"] = 2326267.546,
-				["combat_id"] = 205,
+				["end_time"] = 430869.756,
+				["combat_id"] = 322,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
@@ -4761,162 +10978,99 @@ _detalhes_database = {
 				},
 				["player_last_events"] = {
 				},
-				["data_inicio"] = "19:07:56",
+				["data_inicio"] = "19:33:36",
 				["CombatSkillCache"] = {
 				},
 				["frags"] = {
-					["Moonstalker Runt"] = 1,
+					["Stonesplinter Bonesnapper"] = 2,
+					["Stonesplinter Shaman"] = 1,
 				},
-				["start_time"] = 2326253.339,
+				["start_time"] = 430802.926,
 				["TimeData"] = {
 				},
-				["contra"] = "Moonstalker Runt",
-			}, -- [9]
+				["contra"] = "Stonesplinter Shaman",
+			}, -- [16]
 			{
 				{
-					["combatId"] = 204,
+					["combatId"] = 321,
 					["tipo"] = 2,
 					["_ActorTable"] = {
 						{
-							["flag_original"] = 68168,
-							["totalabsorbed"] = 0.001546,
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.002478,
+							["spec"] = 103,
 							["damage_from"] = {
-								["Numidruid"] = true,
+								["Stonesplinter Bonesnapper"] = true,
+								["Stonesplinter Shaman"] = true,
 							},
 							["targets"] = {
-								["Numidruid"] = 70,
+								["Stonesplinter Bonesnapper"] = 370,
+								["Stonesplinter Shaman"] = 455,
 							},
 							["pets"] = {
 							},
-							["classe"] = "UNKNOW",
+							["colocacao"] = 1,
+							["end_time"] = 1573497195,
+							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 70.001546,
-							["monster"] = true,
-							["fight_component"] = true,
+							["total_without_pet"] = 825.002478,
+							["friendlyfire"] = {
+							},
 							["dps_started"] = false,
-							["end_time"] = 1573063592,
+							["total"] = 825.002478,
 							["friendlyfire_total"] = 0,
 							["on_hold"] = false,
-							["nome"] = "Thistle Bear",
+							["nome"] = "Numidruid",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
 									["!Melee"] = {
-										["c_amt"] = 1,
+										["c_amt"] = 0,
 										["b_amt"] = 0,
-										["c_dmg"] = 19,
+										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 10,
+										["n_max"] = 43,
 										["targets"] = {
-											["Numidruid"] = 58,
+											["Stonesplinter Bonesnapper"] = 114,
+											["Stonesplinter Shaman"] = 319,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 39,
-										["n_min"] = 9,
+										["n_dmg"] = 433,
+										["n_min"] = 34,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 58,
-										["c_max"] = 19,
-										["MISS"] = 1,
+										["counter"] = 12,
+										["total"] = 433,
+										["c_max"] = 0,
+										["a_amt"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
-										["a_amt"] = 0,
+										["PARRY"] = 1,
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
-										["r_amt"] = 0,
-										["c_min"] = 19,
-									},
-									["Ravage"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 12,
-										["targets"] = {
-											["Numidruid"] = 12,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 12,
-										["n_min"] = 12,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 12,
-										["c_max"] = 0,
-										["id"] = "Ravage",
-										["r_dmg"] = 0,
-										["a_dmg"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 1,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
+										["n_amt"] = 11,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-								},
-							},
-							["total"] = 70.001546,
-							["serial"] = "Creature-0-4468-1-205-2163-000042A40E",
-							["friendlyfire"] = {
-							},
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["last_event"] = 1573063589,
-							["damage_taken"] = 306.001546,
-							["start_time"] = 1573063575,
-							["delay"] = 0,
-							["tipo"] = 1,
-						}, -- [1]
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.00893,
-							["damage_from"] = {
-								["Thistle Bear"] = true,
-							},
-							["targets"] = {
-								["Thistle Bear"] = 306,
-							},
-							["total"] = 306.00893,
-							["pets"] = {
-							},
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 306.00893,
-							["colocacao"] = 1,
-							["friendlyfire"] = {
-							},
-							["dps_started"] = false,
-							["end_time"] = 1573063592,
-							["friendlyfire_total"] = 0,
-							["spec"] = 103,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["tipo"] = 2,
-								["_ActorTable"] = {
 									["Maul"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 55,
+										["n_max"] = 47,
 										["targets"] = {
-											["Thistle Bear"] = 109,
+											["Stonesplinter Bonesnapper"] = 47,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 109,
-										["n_min"] = 54,
+										["n_dmg"] = 47,
+										["n_min"] = 47,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 109,
+										["counter"] = 1,
+										["total"] = 47,
 										["c_max"] = 0,
 										["id"] = "Maul",
 										["r_dmg"] = 0,
@@ -4927,27 +11081,29 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									["!Melee"] = {
-										["c_amt"] = 0,
+									["Swipe"] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 26,
 										["g_amt"] = 0,
-										["n_max"] = 42,
+										["n_max"] = 14,
 										["targets"] = {
-											["Thistle Bear"] = 161,
+											["Stonesplinter Bonesnapper"] = 66,
+											["Stonesplinter Shaman"] = 42,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 161,
-										["n_min"] = 39,
+										["n_dmg"] = 82,
+										["n_min"] = 13,
 										["g_dmg"] = 0,
-										["counter"] = 4,
-										["total"] = 161,
-										["c_max"] = 0,
-										["id"] = "!Melee",
+										["counter"] = 8,
+										["total"] = 108,
+										["c_max"] = 26,
+										["MISS"] = 1,
+										["id"] = "Swipe",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
@@ -4956,7 +11112,37 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 4,
+										["n_amt"] = 6,
+										["r_amt"] = 0,
+										["c_min"] = 26,
+									},
+									["Moonfire"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 21,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 53,
+											["Stonesplinter Shaman"] = 52,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 105,
+										["n_min"] = 8,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 105,
+										["c_max"] = 0,
+										["id"] = "Moonfire",
+										["r_dmg"] = 0,
+										["spellschool"] = 64,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -4967,15 +11153,17 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6,
 										["targets"] = {
-											["Thistle Bear"] = 36,
+											["Stonesplinter Bonesnapper"] = 90,
+											["Stonesplinter Shaman"] = 42,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 36,
+										["n_dmg"] = 132,
 										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 6,
-										["total"] = 36,
+										["counter"] = 23,
+										["total"] = 132,
 										["c_max"] = 0,
+										["RESIST"] = 1,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
 										["spellschool"] = 8,
@@ -4985,7 +11173,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 6,
+										["n_amt"] = 22,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -4993,245 +11181,37 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 19.0079464558354,
+							["last_dps"] = 24.0000720872727,
 							["custom"] = 0,
-							["last_event"] = 1573063591,
-							["damage_taken"] = 70.00893,
-							["start_time"] = 1573063575,
+							["last_event"] = 1573497194,
+							["damage_taken"] = 336.002478,
+							["start_time"] = 1573497159,
 							["delay"] = 0,
 							["tipo"] = 1,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["combatId"] = 204,
-					["tipo"] = 3,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["combatId"] = 204,
-					["tipo"] = 7,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["combatId"] = 204,
-					["tipo"] = 9,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["buff_uptime_targets"] = {
-							},
-							["spec"] = 103,
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Maul"] = 2,
-							},
-							["buff_uptime"] = 51,
-							["nome"] = "Numidruid",
-							["pets"] = {
-							},
-							["last_event"] = 1573063592,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["tipo"] = 9,
-								["_ActorTable"] = {
-									["Bear Form"] = {
-										["activedamt"] = 1,
-										["id"] = "Bear Form",
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Thorns"] = {
-										["activedamt"] = 1,
-										["id"] = "Thorns",
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-									["Mark of the Wild"] = {
-										["activedamt"] = 1,
-										["id"] = "Mark of the Wild",
-										["targets"] = {
-										},
-										["uptime"] = 17,
-										["appliedamt"] = 1,
-										["refreshamt"] = 0,
-										["actived"] = false,
-										["counter"] = 0,
-									},
-								},
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["tipo"] = 4,
 						}, -- [1]
 						{
 							["flag_original"] = 68168,
-							["nome"] = "Thistle Bear",
-							["tipo"] = 4,
-							["pets"] = {
-							},
-							["fight_component"] = true,
-							["spell_cast"] = {
-								["Ravage"] = 1,
-							},
-							["last_event"] = 0,
-							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2163-000042A40E",
-							["classe"] = "UNKNOW",
-						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 204,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2326253.339,
-				["tempo_start"] = 1573063575,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 7078,
-				["playing_solo"] = true,
-				["totals"] = {
-					376, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					306, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "19:06:32",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Thistle Bear",
-				["TotalElapsedCombatTime"] = 2326169.65,
-				["CombatEndedAt"] = 2326169.65,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 306.00893,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 2326169.65,
-				["combat_id"] = 204,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "19:06:15",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Thistle Bear"] = 1,
-				},
-				["start_time"] = 2326152.266,
-				["TimeData"] = {
-				},
-				["contra"] = "Thistle Bear",
-			}, -- [10]
-			{
-				{
-					["combatId"] = 203,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 2632,
-							["totalabsorbed"] = 0.004766,
+							["totalabsorbed"] = 0.007161,
 							["damage_from"] = {
 								["Numidruid"] = true,
 							},
 							["targets"] = {
-								["Numidruid"] = 84,
+								["Numidruid"] = 240,
 							},
 							["pets"] = {
 							},
+							["serial"] = "Creature-0-4469-0-784-1164-000049A85E",
 							["classe"] = "UNKNOW",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 84.004766,
+							["total_without_pet"] = 240.007161,
 							["monster"] = true,
 							["fight_component"] = true,
 							["dps_started"] = false,
-							["end_time"] = 1573063568,
+							["total"] = 240.007161,
+							["end_time"] = 1573497195,
 							["friendlyfire_total"] = 0,
-							["on_hold"] = false,
-							["nome"] = "Thistle Bear",
+							["nome"] = "Stonesplinter Bonesnapper",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
@@ -5240,16 +11220,16 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 14,
+										["n_max"] = 22,
 										["targets"] = {
-											["Numidruid"] = 84,
+											["Numidruid"] = 209,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 84,
+										["n_dmg"] = 209,
 										["n_min"] = 10,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 84,
+										["counter"] = 14,
+										["total"] = 209,
 										["c_max"] = 0,
 										["id"] = "!Melee",
 										["r_dmg"] = 0,
@@ -5260,29 +11240,126 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 14,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
-									["Ravage"] = {
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 31,
+										["targets"] = {
+											["Numidruid"] = 31,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31,
+										["n_min"] = 31,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["DODGE"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["on_hold"] = false,
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497191,
+							["damage_taken"] = 370.007161,
+							["start_time"] = 1573497161,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.004936,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 96,
+							},
+							["pets"] = {
+							},
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8A7",
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 96.004936,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["total"] = 96.004936,
+							["end_time"] = 1573497195,
+							["friendlyfire_total"] = 0,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 18,
+										["targets"] = {
+											["Numidruid"] = 96,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 96,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["MISS"] = 1,
+										["total"] = 96,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Healing Wave"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
 										["n_max"] = 0,
 										["targets"] = {
-											["Numidruid"] = 0,
 										},
 										["m_dmg"] = 0,
 										["n_dmg"] = 0,
 										["n_min"] = 0,
 										["g_dmg"] = 0,
-										["counter"] = 1,
+										["counter"] = 0,
 										["total"] = 0,
 										["c_max"] = 0,
-										["id"] = "Ravage",
+										["id"] = "Healing Wave",
 										["r_dmg"] = 0,
-										["DODGE"] = 1,
 										["a_dmg"] = 0,
 										["m_crit"] = 0,
 										["a_amt"] = 0,
@@ -5295,62 +11372,514 @@ _detalhes_database = {
 									},
 								},
 							},
-							["total"] = 84.004766,
-							["serial"] = "Creature-0-4468-1-205-2163-000042BBEA",
+							["on_hold"] = false,
 							["friendlyfire"] = {
 							},
 							["last_dps"] = 0,
 							["custom"] = 0,
-							["last_event"] = 1573063566,
-							["damage_taken"] = 321.004766,
-							["start_time"] = 1573063552,
-							["delay"] = 0,
+							["last_event"] = 1573497184,
+							["damage_taken"] = 455.004936,
+							["start_time"] = 1573497175,
+							["delay"] = 1573497184,
 							["tipo"] = 1,
-						}, -- [1]
+						}, -- [3]
+					},
+				}, -- [1]
+				{
+					["combatId"] = 321,
+					["tipo"] = 3,
+					["_ActorTable"] = {
 						{
 							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001027,
-							["damage_from"] = {
-								["Thistle Bear"] = true,
+							["healing_from"] = {
+								["Numidruid"] = true,
 							},
-							["targets"] = {
-								["Thistle Bear"] = 321,
-							},
-							["total"] = 321.001027,
 							["pets"] = {
 							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 21.005821,
+							["total_without_pet"] = 150.005821,
+							["total"] = 150.005821,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
 							["on_hold"] = false,
+							["serial"] = "Player-4742-013DADF5",
+							["totalabsorb"] = 0.005821,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Numidruid"] = 171,
+							},
+							["totalover_without_pet"] = 0.005821,
+							["healing_taken"] = 150.005821,
+							["fight_component"] = true,
+							["end_time"] = 1573497195,
+							["targets_overheal"] = {
+								["Numidruid"] = 21,
+							},
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 21,
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 66,
+										},
+										["n_min"] = 8,
+										["counter"] = 3,
+										["overheal"] = 21,
+										["total"] = 66,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 66,
+										["n_amt"] = 3,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+										},
+										["n_max"] = 14,
+										["targets"] = {
+											["Numidruid"] = 84,
+										},
+										["n_min"] = 14,
+										["counter"] = 6,
+										["overheal"] = 0,
+										["total"] = 84,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 84,
+										["n_amt"] = 6,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1573497179,
+							["custom"] = 0,
+							["last_event"] = 1573497177,
+							["spec"] = 103,
+							["totaldenied"] = 0.005821,
+							["delay"] = 1573497177,
+							["tipo"] = 2,
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["combatId"] = 321,
+					["tipo"] = 7,
+					["_ActorTable"] = {
+					},
+				}, -- [3]
+				{
+					["combatId"] = 321,
+					["tipo"] = 9,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Moonfire"] = {
+										["activedamt"] = -1,
+										["id"] = "Moonfire",
+										["targets"] = {
+										},
+										["actived_at"] = 1573497173,
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 27,
+										["appliedamt"] = 2,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["buff_uptime"] = 240,
+							["classe"] = "DRUID",
+							["buff_uptime_spells"] = {
+								["tipo"] = 9,
+								["_ActorTable"] = {
+									["Bear Form"] = {
+										["activedamt"] = 1,
+										["id"] = "Bear Form",
+										["targets"] = {
+										},
+										["uptime"] = 33,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Well Fed"] = {
+										["activedamt"] = 1,
+										["id"] = "Well Fed",
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Mark of the Wild"] = {
+										["activedamt"] = 1,
+										["id"] = "Mark of the Wild",
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 18,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 9,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 36,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+							},
+							["fight_component"] = true,
+							["debuff_uptime"] = 37,
+							["buff_uptime_targets"] = {
+							},
+							["spec"] = 103,
+							["grupo"] = true,
+							["spell_cast"] = {
+								["Demoralizing Roar"] = 1,
+								["Maul"] = 1,
+								["Bear Form"] = 1,
+								["Moonfire"] = 1,
+								["Swipe"] = 4,
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["last_event"] = 1573497195,
+							["nome"] = "Numidruid",
+							["pets"] = {
+							},
+							["serial"] = "Player-4742-013DADF5",
+							["tipo"] = 4,
+						}, -- [1]
+						{
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Strike"] = 2,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A85E",
+							["classe"] = "UNKNOW",
+						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Shaman",
+							["tipo"] = 4,
+							["pets"] = {
+							},
+							["fight_component"] = true,
+							["spell_cast"] = {
+								["Healing Wave"] = 1,
+							},
+							["last_event"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A8A7",
+							["classe"] = "UNKNOW",
+						}, -- [3]
+					},
+				}, -- [4]
+				{
+					["combatId"] = 321,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Numidruid"] = true,
+				},
+				["CombatStartedAt"] = 430802.926,
+				["tempo_start"] = 1573497159,
+				["last_events_tables"] = {
+				},
+				["alternate_power"] = {
+				},
+				["combat_counter"] = 7198,
+				["playing_solo"] = true,
+				["totals"] = {
+					1160.989269, -- [1]
+					149.995837, -- [2]
+					{
+						-0.00157000000000007, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
+				},
+				["totals_grupo"] = {
+					825, -- [1]
+					150, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
+				},
+				["frags_need_refresh"] = true,
+				["instance_type"] = "none",
+				["data_fim"] = "19:33:15",
+				["cleu_timeline"] = {
+				},
+				["enemy"] = "Stonesplinter Bonesnapper",
+				["TotalElapsedCombatTime"] = 430782.635,
+				["CombatEndedAt"] = 430782.635,
+				["aura_timeline"] = {
+				},
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+							["Numidruid"] = 150.005821,
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+					["damage"] = {
+						{
+							["Numidruid"] = 825.002478,
+						}, -- [1]
+					},
+				},
+				["end_time"] = 430782.635,
+				["combat_id"] = 321,
+				["cleu_events"] = {
+					["n"] = 1,
+				},
+				["overall_added"] = true,
+				["spells_cast_timeline"] = {
+				},
+				["player_last_events"] = {
+				},
+				["data_inicio"] = "19:32:40",
+				["CombatSkillCache"] = {
+				},
+				["frags"] = {
+					["Stonesplinter Bonesnapper"] = 1,
+					["Stonesplinter Shaman"] = 1,
+				},
+				["start_time"] = 430747.018,
+				["TimeData"] = {
+				},
+				["contra"] = "Stonesplinter Bonesnapper",
+			}, -- [17]
+			{
+				{
+					["combatId"] = 320,
+					["tipo"] = 2,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["totalabsorbed"] = 0.004058,
+							["spec"] = 103,
+							["damage_from"] = {
+								["Stonesplinter Bonesnapper"] = true,
+								["Stonesplinter Shaman"] = true,
+							},
+							["targets"] = {
+								["Stonesplinter Bonesnapper"] = 347,
+								["Stonesplinter Shaman"] = 453,
+							},
+							["pets"] = {
+							},
+							["colocacao"] = 1,
+							["end_time"] = 1573497152,
 							["classe"] = "DRUID",
 							["raid_targets"] = {
 							},
-							["total_without_pet"] = 321.001027,
-							["colocacao"] = 1,
+							["total_without_pet"] = 800.004058,
 							["friendlyfire"] = {
 							},
 							["dps_started"] = false,
-							["end_time"] = 1573063568,
+							["total"] = 800.004058,
 							["friendlyfire_total"] = 0,
-							["spec"] = 103,
+							["on_hold"] = false,
 							["nome"] = "Numidruid",
 							["spells"] = {
 								["tipo"] = 2,
 								["_ActorTable"] = {
-									["Maul"] = {
-										["c_amt"] = 0,
+									["!Melee"] = {
+										["c_amt"] = 1,
 										["b_amt"] = 0,
-										["c_dmg"] = 0,
+										["c_dmg"] = 76,
 										["g_amt"] = 0,
-										["n_max"] = 57,
+										["n_max"] = 39,
 										["targets"] = {
-											["Thistle Bear"] = 112,
+											["Stonesplinter Bonesnapper"] = 72,
+											["Stonesplinter Shaman"] = 258,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 112,
-										["n_min"] = 55,
+										["n_dmg"] = 254,
+										["n_min"] = 34,
 										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 112,
-										["c_max"] = 0,
+										["counter"] = 10,
+										["a_amt"] = 0,
+										["total"] = 330,
+										["c_max"] = 76,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["PARRY"] = 1,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 76,
+									},
+									["Maul"] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 204,
+										["g_amt"] = 0,
+										["n_max"] = 50,
+										["targets"] = {
+											["Stonesplinter Bonesnapper"] = 151,
+											["Stonesplinter Shaman"] = 103,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 50,
+										["n_min"] = 50,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 254,
+										["c_max"] = 103,
 										["id"] = "Maul",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
@@ -5360,27 +11889,29 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 2,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
-										["c_min"] = 0,
+										["c_min"] = 101,
 									},
-									["!Melee"] = {
+									["Swipe"] = {
 										["c_amt"] = 0,
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 42,
+										["n_max"] = 13,
 										["targets"] = {
-											["Thistle Bear"] = 118,
+											["Stonesplinter Bonesnapper"] = 13,
+											["Stonesplinter Shaman"] = 0,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 118,
-										["n_min"] = 35,
+										["n_dmg"] = 13,
+										["n_min"] = 13,
 										["g_dmg"] = 0,
-										["counter"] = 3,
-										["total"] = 118,
+										["counter"] = 2,
+										["total"] = 13,
 										["c_max"] = 0,
-										["id"] = "!Melee",
+										["DODGE"] = 1,
+										["id"] = "Swipe",
 										["r_dmg"] = 0,
 										["spellschool"] = 1,
 										["a_dmg"] = 0,
@@ -5389,7 +11920,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 3,
+										["n_amt"] = 1,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -5398,16 +11929,17 @@ _detalhes_database = {
 										["b_amt"] = 0,
 										["c_dmg"] = 0,
 										["g_amt"] = 0,
-										["n_max"] = 17,
+										["n_max"] = 19,
 										["targets"] = {
-											["Thistle Bear"] = 49,
+											["Stonesplinter Bonesnapper"] = 51,
+											["Stonesplinter Shaman"] = 50,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 49,
+										["n_dmg"] = 101,
 										["n_min"] = 8,
 										["g_dmg"] = 0,
-										["counter"] = 5,
-										["total"] = 49,
+										["counter"] = 10,
+										["total"] = 101,
 										["c_max"] = 0,
 										["id"] = "Moonfire",
 										["r_dmg"] = 0,
@@ -5418,7 +11950,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 5,
+										["n_amt"] = 10,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -5429,14 +11961,15 @@ _detalhes_database = {
 										["g_amt"] = 0,
 										["n_max"] = 6,
 										["targets"] = {
-											["Thistle Bear"] = 42,
+											["Stonesplinter Bonesnapper"] = 60,
+											["Stonesplinter Shaman"] = 42,
 										},
 										["m_dmg"] = 0,
-										["n_dmg"] = 42,
+										["n_dmg"] = 102,
 										["n_min"] = 6,
 										["g_dmg"] = 0,
-										["counter"] = 7,
-										["total"] = 42,
+										["counter"] = 17,
+										["total"] = 102,
 										["c_max"] = 0,
 										["id"] = "Thorns",
 										["r_dmg"] = 0,
@@ -5447,7 +11980,7 @@ _detalhes_database = {
 										["m_amt"] = 0,
 										["successful_casted"] = 0,
 										["b_dmg"] = 0,
-										["n_amt"] = 7,
+										["n_amt"] = 17,
 										["r_amt"] = 0,
 										["c_min"] = 0,
 									},
@@ -5455,30 +11988,327 @@ _detalhes_database = {
 							},
 							["grupo"] = true,
 							["serial"] = "Player-4742-013DADF5",
-							["last_dps"] = 21.2119888318205,
+							["last_dps"] = 22.1142209752103,
 							["custom"] = 0,
-							["last_event"] = 1573063567,
-							["damage_taken"] = 84.001027,
-							["start_time"] = 1573063552,
+							["last_event"] = 1573497150,
+							["damage_taken"] = 225.004058,
+							["start_time"] = 1573497114,
 							["delay"] = 0,
 							["tipo"] = 1,
+						}, -- [1]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.007368,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 87,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 87.007368,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497152,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Shaman",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 87,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 87,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 87,
+										["c_max"] = 0,
+										["DODGE"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Healing Wave"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 0,
+										["total"] = 0,
+										["c_max"] = 0,
+										["id"] = "Healing Wave",
+										["r_dmg"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 1,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 87.007368,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A883",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497136,
+							["damage_taken"] = 453.007368,
+							["start_time"] = 1573497134,
+							["delay"] = 1573497136,
+							["tipo"] = 1,
 						}, -- [2]
+						{
+							["flag_original"] = 68168,
+							["totalabsorbed"] = 0.001548,
+							["damage_from"] = {
+								["Numidruid"] = true,
+							},
+							["targets"] = {
+								["Numidruid"] = 138,
+							},
+							["pets"] = {
+							},
+							["classe"] = "UNKNOW",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 138.001548,
+							["monster"] = true,
+							["fight_component"] = true,
+							["dps_started"] = false,
+							["end_time"] = 1573497152,
+							["friendlyfire_total"] = 0,
+							["on_hold"] = false,
+							["nome"] = "Stonesplinter Bonesnapper",
+							["spells"] = {
+								["tipo"] = 2,
+								["_ActorTable"] = {
+									["!Melee"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17,
+										["targets"] = {
+											["Numidruid"] = 112,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 112,
+										["n_min"] = 9,
+										["g_dmg"] = 0,
+										["counter"] = 13,
+										["DODGE"] = 3,
+										["total"] = 112,
+										["c_max"] = 0,
+										["MISS"] = 1,
+										["id"] = "!Melee",
+										["r_dmg"] = 0,
+										["spellschool"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 9,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+									["Strike"] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 26,
+										["targets"] = {
+											["Numidruid"] = 26,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 26,
+										["n_min"] = 26,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 26,
+										["c_max"] = 0,
+										["id"] = "Strike",
+										["r_dmg"] = 0,
+										["MISS"] = 1,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 2,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["r_amt"] = 0,
+										["c_min"] = 0,
+									},
+								},
+							},
+							["total"] = 138.001548,
+							["serial"] = "Creature-0-4469-0-784-1164-000049A849",
+							["friendlyfire"] = {
+							},
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["last_event"] = 1573497147,
+							["damage_taken"] = 347.001548,
+							["start_time"] = 1573497119,
+							["delay"] = 0,
+							["tipo"] = 1,
+						}, -- [3]
 					},
 				}, -- [1]
 				{
-					["combatId"] = 203,
+					["combatId"] = 320,
 					["tipo"] = 3,
 					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["healing_from"] = {
+								["Numidruid"] = true,
+							},
+							["pets"] = {
+							},
+							["iniciar_hps"] = false,
+							["classe"] = "DRUID",
+							["totalover"] = 86.001,
+							["total_without_pet"] = 128.001,
+							["total"] = 128.001,
+							["targets_absorbs"] = {
+							},
+							["heal_enemy"] = {
+							},
+							["on_hold"] = false,
+							["serial"] = "Player-4742-013DADF5",
+							["totalabsorb"] = 0.001,
+							["last_hps"] = 0,
+							["targets"] = {
+								["Numidruid"] = 128,
+							},
+							["totalover_without_pet"] = 0.001,
+							["healing_taken"] = 128.001,
+							["fight_component"] = true,
+							["end_time"] = 1573497152,
+							["targets_overheal"] = {
+								["Numidruid"] = 86,
+							},
+							["nome"] = "Numidruid",
+							["spells"] = {
+								["tipo"] = 3,
+								["_ActorTable"] = {
+									["Rejuvenation"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 58,
+										},
+										["n_max"] = 29,
+										["targets"] = {
+											["Numidruid"] = 58,
+										},
+										["n_min"] = 29,
+										["counter"] = 4,
+										["overheal"] = 58,
+										["total"] = 58,
+										["c_max"] = 0,
+										["id"] = "Rejuvenation",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 58,
+										["n_amt"] = 4,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+									["Regrowth"] = {
+										["c_amt"] = 0,
+										["totalabsorb"] = 0,
+										["targets_overheal"] = {
+											["Numidruid"] = 28,
+										},
+										["n_max"] = 14,
+										["targets"] = {
+											["Numidruid"] = 70,
+										},
+										["n_min"] = 14,
+										["counter"] = 7,
+										["overheal"] = 28,
+										["total"] = 70,
+										["c_max"] = 0,
+										["id"] = "Regrowth",
+										["targets_absorbs"] = {
+										},
+										["c_curado"] = 0,
+										["m_crit"] = 0,
+										["c_min"] = 0,
+										["m_amt"] = 0,
+										["n_curado"] = 70,
+										["n_amt"] = 7,
+										["totaldenied"] = 0,
+										["m_healed"] = 0,
+										["absorbed"] = 0,
+									},
+								},
+							},
+							["grupo"] = true,
+							["heal_enemy_amt"] = 0,
+							["start_time"] = 1573497133,
+							["custom"] = 0,
+							["last_event"] = 1573497133,
+							["spec"] = 103,
+							["totaldenied"] = 0.001,
+							["delay"] = 1573497133,
+							["tipo"] = 2,
+						}, -- [1]
 					},
 				}, -- [2]
 				{
-					["combatId"] = 203,
+					["combatId"] = 320,
 					["tipo"] = 7,
 					["_ActorTable"] = {
 					},
 				}, -- [3]
 				{
-					["combatId"] = 203,
+					["combatId"] = 320,
 					["tipo"] = 9,
 					["_ActorTable"] = {
 						{
@@ -5487,19 +12317,31 @@ _detalhes_database = {
 								["tipo"] = 9,
 								["_ActorTable"] = {
 									["Moonfire"] = {
-										["activedamt"] = 0,
+										["activedamt"] = -1,
 										["id"] = "Moonfire",
 										["targets"] = {
 										},
-										["uptime"] = 12,
+										["actived_at"] = 1573497127,
+										["uptime"] = 11,
 										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Demoralizing Roar"] = {
+										["activedamt"] = 0,
+										["id"] = "Demoralizing Roar",
+										["targets"] = {
+										},
+										["uptime"] = 28,
+										["appliedamt"] = 2,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
 								},
 							},
-							["buff_uptime"] = 46,
+							["buff_uptime"] = 254,
 							["classe"] = "DRUID",
 							["buff_uptime_spells"] = {
 								["tipo"] = 9,
@@ -5509,18 +12351,18 @@ _detalhes_database = {
 										["id"] = "Bear Form",
 										["targets"] = {
 										},
-										["uptime"] = 14,
+										["uptime"] = 35,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
 										["counter"] = 0,
 									},
-									["Thorns"] = {
+									["Well Fed"] = {
 										["activedamt"] = 1,
-										["id"] = "Thorns",
+										["id"] = "Well Fed",
 										["targets"] = {
 										},
-										["uptime"] = 16,
+										["uptime"] = 38,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -5531,7 +12373,62 @@ _detalhes_database = {
 										["id"] = "Mark of the Wild",
 										["targets"] = {
 										},
-										["uptime"] = 16,
+										["uptime"] = 38,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Regrowth"] = {
+										["activedamt"] = 1,
+										["id"] = "Regrowth",
+										["targets"] = {
+										},
+										["uptime"] = 19,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Armor"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Armor",
+										["targets"] = {
+										},
+										["uptime"] = 38,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Rejuvenation"] = {
+										["activedamt"] = 1,
+										["id"] = "Rejuvenation",
+										["targets"] = {
+										},
+										["uptime"] = 10,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Lesser Strength"] = {
+										["activedamt"] = 1,
+										["id"] = "Lesser Strength",
+										["targets"] = {
+										},
+										["uptime"] = 38,
+										["appliedamt"] = 1,
+										["refreshamt"] = 0,
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									["Thorns"] = {
+										["activedamt"] = 1,
+										["id"] = "Thorns",
+										["targets"] = {
+										},
+										["uptime"] = 38,
 										["appliedamt"] = 1,
 										["refreshamt"] = 0,
 										["actived"] = false,
@@ -5539,19 +12436,22 @@ _detalhes_database = {
 									},
 								},
 							},
-							["debuff_uptime"] = 12,
+							["fight_component"] = true,
+							["debuff_uptime"] = 39,
 							["buff_uptime_targets"] = {
 							},
 							["spec"] = 103,
 							["grupo"] = true,
 							["spell_cast"] = {
-								["Maul"] = 2,
+								["Demoralizing Roar"] = 1,
+								["Maul"] = 3,
 								["Bear Form"] = 1,
 								["Moonfire"] = 1,
+								["Swipe"] = 1,
 							},
 							["debuff_uptime_targets"] = {
 							},
-							["last_event"] = 1573063568,
+							["last_event"] = 1573497152,
 							["nome"] = "Numidruid",
 							["pets"] = {
 							},
@@ -5559,2187 +12459,151 @@ _detalhes_database = {
 							["tipo"] = 4,
 						}, -- [1]
 						{
-							["flag_original"] = 68168,
-							["nome"] = "Thistle Bear",
+							["flag_original"] = 2632,
+							["nome"] = "Stonesplinter Bonesnapper",
 							["tipo"] = 4,
 							["pets"] = {
 							},
 							["fight_component"] = true,
 							["spell_cast"] = {
-								["Ravage"] = 1,
+								["Strike"] = 2,
 							},
 							["last_event"] = 0,
 							["monster"] = true,
-							["serial"] = "Creature-0-4468-1-205-2163-000042BBEA",
+							["serial"] = "Creature-0-4469-0-784-1164-000049A849",
 							["classe"] = "UNKNOW",
 						}, -- [2]
-					},
-				}, -- [4]
-				{
-					["combatId"] = 203,
-					["tipo"] = 2,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2326151.052,
-				["tempo_start"] = 1573063552,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["combat_counter"] = 7077,
-				["playing_solo"] = true,
-				["totals"] = {
-					405, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-					["frags_total"] = 0,
-					["voidzone_damage"] = 0,
-				},
-				["totals_grupo"] = {
-					321, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[3] = 0,
-						[6] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["debuff_uptime"] = 0,
-						["cooldowns_defensive"] = 0,
-						["interrupt"] = 0,
-						["dispell"] = 0,
-						["cc_break"] = 0,
-						["dead"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["data_fim"] = "19:06:08",
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Thistle Bear",
-				["TotalElapsedCombatTime"] = 2326145.782,
-				["CombatEndedAt"] = 2326145.782,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["heal_section"] = {
-					},
-					["heal"] = {
 						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-					["damage"] = {
-						{
-							["Numidruid"] = 321.001027,
-						}, -- [1]
-					},
-				},
-				["end_time"] = 2326145.782,
-				["combat_id"] = 203,
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["player_last_events"] = {
-				},
-				["data_inicio"] = "19:05:52",
-				["CombatSkillCache"] = {
-				},
-				["frags"] = {
-					["Thistle Bear"] = 1,
-				},
-				["start_time"] = 2326129.624,
-				["TimeData"] = {
-				},
-				["contra"] = "Thistle Bear",
-			}, -- [11]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 202,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005468,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Squirrel"] = 31,
-							},
-							["pets"] = {
-							},
-							["delay"] = 0,
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 31.005468,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["dps_started"] = false,
-							["total"] = 31.005468,
-							["classe"] = "DRUID",
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 31,
-										["targets"] = {
-											["Squirrel"] = 31,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 31,
-										["n_min"] = 31,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 31,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Numidruid",
-							["spec"] = 103,
-							["grupo"] = true,
-							["end_time"] = 1573043083,
-							["damage_taken"] = 0.005468,
-							["last_dps"] = 16.4747438916642,
-							["colocacao"] = 1,
-							["last_event"] = 1573043081,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573043081,
-							["serial"] = "Player-4742-013DADF5",
-							["on_hold"] = false,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.005643,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.005643,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.005643,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Squirrel",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 31.005643,
-							["end_time"] = 1573043083,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573043083,
-							["serial"] = "Creature-0-4468-1-206-1412-000042BA05",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 202,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 202,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 202,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["spec"] = 103,
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 4,
-							["classe"] = "DRUID",
+							["flag_original"] = 68168,
+							["nome"] = "Stonesplinter Shaman",
 							["tipo"] = 4,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["last_event"] = 1573043083,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 202,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2326128.432,
-				["tempo_start"] = 1573043081,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					31, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:24:44",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Squirrel",
-				["TotalElapsedCombatTime"] = 1.60800000000745,
-				["CombatEndedAt"] = 2305661.218,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:24:42",
-				["end_time"] = 2305661.218,
-				["combat_id"] = 202,
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["frags"] = {
-					["Squirrel"] = 1,
-				},
-				["combat_counter"] = 7075,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					31, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305659.336,
-				["TimeData"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 31.005468,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-			}, -- [12]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 201,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.005287,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Squirrel"] = 32,
-							},
-							["delay"] = 0,
 							["pets"] = {
 							},
-							["custom"] = 0,
-							["tipo"] = 1,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 32.005287,
-							["friendlyfire_total"] = 0,
-							["dps_started"] = false,
-							["total"] = 32.005287,
-							["damage_taken"] = 0.005287,
-							["spells"] = {
-								["_ActorTable"] = {
-									["!Melee"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 32,
-										["targets"] = {
-											["Squirrel"] = 32,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 32,
-										["n_min"] = 32,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 32,
-										["c_max"] = 0,
-										["id"] = "!Melee",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 1,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["nome"] = "Numidruid",
-							["spec"] = 103,
-							["grupo"] = true,
-							["last_dps"] = 320.05287,
-							["end_time"] = 1573043078,
-							["colocacao"] = 1,
-							["last_event"] = 1573043076,
-							["on_hold"] = false,
-							["start_time"] = 1573043076,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire"] = {
-							},
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.007281,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.007281,
-							["last_event"] = 0,
 							["fight_component"] = true,
-							["total"] = 0.007281,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Squirrel",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
+							["spell_cast"] = {
+								["Healing Wave"] = 1,
 							},
-							["damage_taken"] = 32.007281,
-							["end_time"] = 1573043078,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573043078,
-							["serial"] = "Creature-0-4468-1-206-1412-000042BA44",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 201,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 201,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 201,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["spec"] = 103,
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["buff_uptime_targets"] = {
-							},
-							["buff_uptime"] = 4,
-							["classe"] = "DRUID",
-							["tipo"] = 4,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["last_event"] = 1573043078,
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 201,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2305654.318,
-				["tempo_start"] = 1573043076,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					32, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:24:39",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Squirrel",
-				["TotalElapsedCombatTime"] = 1.66399999987334,
-				["CombatEndedAt"] = 2305655.982,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:24:37",
-				["end_time"] = 2305655.982,
-				["combat_id"] = 201,
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["frags"] = {
-					["Squirrel"] = 1,
-				},
-				["combat_counter"] = 7074,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					32, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305654.318,
-				["TimeData"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 32.005287,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-			}, -- [13]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 200,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003783,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Rabbit"] = 20,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 20.003783,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1573042677,
-							["total"] = 20.003783,
-							["damage_taken"] = 0.003783,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 20,
-										["targets"] = {
-											["Rabbit"] = 20,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 20,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 20,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 157.510102533154,
-							["colocacao"] = 1,
-							["last_event"] = 1573042676,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573042676,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.003523,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.003523,
 							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.003523,
-							["delay"] = 0,
+							["monster"] = true,
+							["serial"] = "Creature-0-4469-0-784-1197-000049A883",
 							["classe"] = "UNKNOW",
-							["nome"] = "Rabbit",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 20.003523,
-							["end_time"] = 1573042677,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042677,
-							["serial"] = "Creature-0-4469-1-208-721-0000C22B1B",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 200,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 200,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 200,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["last_event"] = 1573042677,
-							["tipo"] = 4,
-							["buff_uptime"] = 2,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["buff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 200,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["tempo_start"] = 1573042676,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					20, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["totals_grupo"] = {
-					20, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:17:58",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Rabbit",
-				["TotalElapsedCombatTime"] = 2305255.347,
-				["CombatEndedAt"] = 2305255.347,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:17:56",
-				["end_time"] = 2305255.347,
-				["combat_id"] = 200,
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 20.003783,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-				["frags"] = {
-					["Rabbit"] = 1,
-				},
-				["overall_added"] = true,
-				["combat_counter"] = 7073,
-				["CombatSkillCache"] = {
-				},
-				["player_last_events"] = {
-				},
-				["start_time"] = 2305253.72,
-				["TimeData"] = {
-				},
-				["spells_cast_timeline"] = {
-				},
-			}, -- [14]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 199,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001172,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Squirrel"] = 19,
-								["Deer"] = 17,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 36.001172,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1573042610,
-							["total"] = 36.001172,
-							["damage_taken"] = 0.001172,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 19,
-										["targets"] = {
-											["Squirrel"] = 19,
-											["Deer"] = 17,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 36,
-										["n_min"] = 17,
-										["g_dmg"] = 0,
-										["counter"] = 2,
-										["total"] = 36,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 2,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 21.2021036473077,
-							["colocacao"] = 1,
-							["last_event"] = 1573042608,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573042606,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.001353,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.001353,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.001353,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Squirrel",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 19.001353,
-							["end_time"] = 1573042610,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042610,
-							["serial"] = "Creature-0-4469-1-208-1412-0001C22B16",
-							["dps_started"] = false,
-						}, -- [2]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.0047,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.0047,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.0047,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Deer",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 17.0047,
-							["end_time"] = 1573042610,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042610,
-							["serial"] = "Creature-0-4469-1-208-883-0003422B1D",
-							["dps_started"] = false,
 						}, -- [3]
 					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 199,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 199,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 199,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["debuff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 0,
-										["refreshamt"] = 0,
-										["id"] = "Moonfire",
-										["uptime"] = 0,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["buff_uptime"] = 8,
-							["classe"] = "DRUID",
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 4,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["debuff_uptime"] = 0,
-							["buff_uptime_targets"] = {
-							},
-							["grupo"] = true,
-							["spell_cast"] = {
-								["Moonfire"] = 1,
-							},
-							["nome"] = "Numidruid",
-							["tipo"] = 4,
-							["debuff_uptime_targets"] = {
-							},
-							["pets"] = {
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["last_event"] = 1573042610,
-						}, -- [1]
-					},
 				}, -- [4]
 				{
+					["combatId"] = 320,
 					["tipo"] = 2,
-					["combatId"] = 199,
 					["_ActorTable"] = {
 					},
 				}, -- [5]
 				["raid_roster"] = {
 					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2305253.72,
-				["tempo_start"] = 1573042606,
+				["CombatStartedAt"] = 430747.018,
+				["tempo_start"] = 1573497114,
 				["last_events_tables"] = {
 				},
 				["alternate_power"] = {
 				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
+				["combat_counter"] = 7197,
 				["playing_solo"] = true,
 				["totals"] = {
-					36, -- [1]
-					0, -- [2]
+					1025, -- [1]
+					127.996467, -- [2]
 					{
 						0, -- [1]
 						[0] = 0,
 						["alternatepower"] = 0,
-						[6] = 0,
 						[3] = 0,
+						[6] = 0,
 					}, -- [3]
 					{
 						["buff_uptime"] = 0,
 						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
 						["debuff_uptime"] = 0,
-						["dispell"] = 0,
 						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
 					}, -- [4]
-					["voidzone_damage"] = 0,
 					["frags_total"] = 0,
+					["voidzone_damage"] = 0,
 				},
-				["player_last_events"] = {
+				["totals_grupo"] = {
+					800, -- [1]
+					128, -- [2]
+					{
+						0, -- [1]
+						[0] = 0,
+						["alternatepower"] = 0,
+						[3] = 0,
+						[6] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["debuff_uptime"] = 0,
+						["cooldowns_defensive"] = 0,
+						["interrupt"] = 0,
+						["dispell"] = 0,
+						["cc_break"] = 0,
+						["dead"] = 0,
+					}, -- [4]
 				},
 				["frags_need_refresh"] = true,
 				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:16:51",
-				["pvp"] = true,
+				["data_fim"] = "19:32:32",
 				["cleu_timeline"] = {
 				},
-				["enemy"] = "Squirrel",
-				["TotalElapsedCombatTime"] = 2305188.019,
-				["CombatEndedAt"] = 2305188.019,
+				["enemy"] = "Stonesplinter Shaman",
+				["TotalElapsedCombatTime"] = 430739.309,
+				["CombatEndedAt"] = 430739.309,
 				["aura_timeline"] = {
 				},
 				["__call"] = {
-				},
-				["data_inicio"] = "13:16:47",
-				["end_time"] = 2305188.019,
-				["combat_id"] = 199,
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["frags"] = {
-					["Squirrel"] = 1,
-					["Deer"] = 1,
-				},
-				["combat_counter"] = 7072,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					36, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305184.349,
-				["TimeData"] = {
 				},
 				["PhaseData"] = {
 					{
 						1, -- [1]
 						1, -- [2]
 					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 36.001172,
-						}, -- [1]
-					},
 					["heal_section"] = {
 					},
 					["heal"] = {
 						{
+							["Numidruid"] = 128.001,
 						}, -- [1]
 					},
 					["damage_section"] = {
 					},
-				},
-			}, -- [15]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 198,
-					["_ActorTable"] = {
+					["damage"] = {
 						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.001167,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Squirrel"] = 21,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 21.001167,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1573042604,
-							["total"] = 21.001167,
-							["damage_taken"] = 0.001167,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 21,
-										["targets"] = {
-											["Squirrel"] = 21,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 21,
-										["n_min"] = 21,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 21,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 148.944446989529,
-							["colocacao"] = 1,
-							["last_event"] = 1573042602,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573042602,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.002629,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.002629,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.002629,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Squirrel",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 21.002629,
-							["end_time"] = 1573042604,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042604,
-							["serial"] = "Creature-0-4469-1-208-1412-0002422B14",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 198,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 198,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 198,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["last_event"] = 1573042604,
-							["tipo"] = 4,
-							["buff_uptime"] = 4,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["buff_uptime_targets"] = {
-							},
+							["Numidruid"] = 800.004058,
 						}, -- [1]
 					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 198,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
 				},
-				["CombatStartedAt"] = 2305184.349,
-				["tempo_start"] = 1573042602,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
+				["end_time"] = 430739.309,
+				["combat_id"] = 320,
 				["cleu_events"] = {
 					["n"] = 1,
 				},
-				["playing_solo"] = true,
-				["totals"] = {
-					21, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:16:45",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Squirrel",
-				["TotalElapsedCombatTime"] = 2305181.932,
-				["CombatEndedAt"] = 2305181.932,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:16:43",
-				["end_time"] = 2305181.932,
-				["combat_id"] = 198,
 				["overall_added"] = true,
 				["spells_cast_timeline"] = {
 				},
-				["frags"] = {
-					["Squirrel"] = 1,
-				},
-				["combat_counter"] = 7071,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					21, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305179.902,
-				["TimeData"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 21.001167,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-			}, -- [16]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 197,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.003819,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Deer"] = 20,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 20.003819,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1573042600,
-							["total"] = 20.003819,
-							["damage_taken"] = 0.003819,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 20,
-										["targets"] = {
-											["Deer"] = 20,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 20,
-										["n_min"] = 20,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 20,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 102.060301022348,
-							["colocacao"] = 1,
-							["last_event"] = 1573042599,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573042599,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.008012,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.008012,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.008012,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Deer",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 20.008012,
-							["end_time"] = 1573042600,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042600,
-							["serial"] = "Creature-0-4469-1-208-883-0001422B1A",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 197,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 197,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 197,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["last_event"] = 1573042600,
-							["tipo"] = 4,
-							["buff_uptime"] = 2,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 1,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["buff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 197,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2305179.902,
-				["tempo_start"] = 1573042599,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					20, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
 				["player_last_events"] = {
 				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:16:41",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Deer",
-				["TotalElapsedCombatTime"] = 2305178.269,
-				["CombatEndedAt"] = 2305178.269,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:16:39",
-				["end_time"] = 2305178.269,
-				["combat_id"] = 197,
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
-				["frags"] = {
-					["Deer"] = 1,
-				},
-				["combat_counter"] = 7070,
+				["data_inicio"] = "19:31:54",
 				["CombatSkillCache"] = {
 				},
-				["totals_grupo"] = {
-					20, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305176.65,
-				["TimeData"] = {
-				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 20.003819,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
-			}, -- [17]
-			{
-				{
-					["tipo"] = 2,
-					["combatId"] = 196,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1297,
-							["totalabsorbed"] = 0.008305,
-							["damage_from"] = {
-							},
-							["targets"] = {
-								["Squirrel"] = 18,
-							},
-							["pets"] = {
-							},
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["classe"] = "DRUID",
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 18.008305,
-							["delay"] = 0,
-							["dps_started"] = false,
-							["end_time"] = 1573042597,
-							["total"] = 18.008305,
-							["damage_taken"] = 0.008305,
-							["nome"] = "Numidruid",
-							["spells"] = {
-								["_ActorTable"] = {
-									["Moonfire"] = {
-										["c_amt"] = 0,
-										["b_amt"] = 0,
-										["c_dmg"] = 0,
-										["g_amt"] = 0,
-										["n_max"] = 18,
-										["targets"] = {
-											["Squirrel"] = 18,
-										},
-										["m_dmg"] = 0,
-										["n_dmg"] = 18,
-										["n_min"] = 18,
-										["g_dmg"] = 0,
-										["counter"] = 1,
-										["total"] = 18,
-										["c_max"] = 0,
-										["id"] = "Moonfire",
-										["r_dmg"] = 0,
-										["c_min"] = 0,
-										["r_amt"] = 0,
-										["m_crit"] = 0,
-										["a_amt"] = 0,
-										["m_amt"] = 0,
-										["successful_casted"] = 0,
-										["b_dmg"] = 0,
-										["n_amt"] = 1,
-										["a_dmg"] = 0,
-										["spellschool"] = 64,
-									},
-								},
-								["tipo"] = 2,
-							},
-							["grupo"] = true,
-							["custom"] = 0,
-							["last_dps"] = 180.08305,
-							["colocacao"] = 1,
-							["last_event"] = 1573042595,
-							["friendlyfire"] = {
-							},
-							["start_time"] = 1573042595,
-							["serial"] = "Player-4742-013DADF5",
-							["friendlyfire_total"] = 0,
-						}, -- [1]
-						{
-							["flag_original"] = 68136,
-							["totalabsorbed"] = 0.006395,
-							["damage_from"] = {
-								["Numidruid"] = true,
-							},
-							["targets"] = {
-							},
-							["pets"] = {
-							},
-							["friendlyfire"] = {
-							},
-							["friendlyfire_total"] = 0,
-							["raid_targets"] = {
-							},
-							["total_without_pet"] = 0.006395,
-							["last_event"] = 0,
-							["fight_component"] = true,
-							["total"] = 0.006395,
-							["delay"] = 0,
-							["classe"] = "UNKNOW",
-							["nome"] = "Squirrel",
-							["spells"] = {
-								["_ActorTable"] = {
-								},
-								["tipo"] = 2,
-							},
-							["damage_taken"] = 18.006395,
-							["end_time"] = 1573042597,
-							["last_dps"] = 0,
-							["custom"] = 0,
-							["tipo"] = 1,
-							["on_hold"] = false,
-							["start_time"] = 1573042597,
-							["serial"] = "Creature-0-4469-1-208-1412-0003C22B1C",
-							["dps_started"] = false,
-						}, -- [2]
-					},
-				}, -- [1]
-				{
-					["tipo"] = 3,
-					["combatId"] = 196,
-					["_ActorTable"] = {
-					},
-				}, -- [2]
-				{
-					["tipo"] = 7,
-					["combatId"] = 196,
-					["_ActorTable"] = {
-					},
-				}, -- [3]
-				{
-					["tipo"] = 9,
-					["combatId"] = 196,
-					["_ActorTable"] = {
-						{
-							["flag_original"] = 1047,
-							["nome"] = "Numidruid",
-							["grupo"] = true,
-							["pets"] = {
-							},
-							["classe"] = "DRUID",
-							["last_event"] = 1573042597,
-							["tipo"] = 4,
-							["buff_uptime"] = 4,
-							["buff_uptime_spells"] = {
-								["_ActorTable"] = {
-									["Mark of the Wild"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Mark of the Wild",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-									["Thorns"] = {
-										["counter"] = 0,
-										["actived"] = false,
-										["activedamt"] = 1,
-										["refreshamt"] = 0,
-										["id"] = "Thorns",
-										["uptime"] = 2,
-										["targets"] = {
-										},
-										["appliedamt"] = 1,
-									},
-								},
-								["tipo"] = 9,
-							},
-							["serial"] = "Player-4742-013DADF5",
-							["buff_uptime_targets"] = {
-							},
-						}, -- [1]
-					},
-				}, -- [4]
-				{
-					["tipo"] = 2,
-					["combatId"] = 196,
-					["_ActorTable"] = {
-					},
-				}, -- [5]
-				["raid_roster"] = {
-					["Numidruid"] = true,
-				},
-				["CombatStartedAt"] = 2305176.65,
-				["tempo_start"] = 1573042595,
-				["last_events_tables"] = {
-				},
-				["alternate_power"] = {
-				},
-				["cleu_events"] = {
-					["n"] = 1,
-				},
-				["playing_solo"] = true,
-				["totals"] = {
-					18, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-					["voidzone_damage"] = 0,
-					["frags_total"] = 0,
-				},
-				["player_last_events"] = {
-				},
-				["frags_need_refresh"] = true,
-				["instance_type"] = "none",
-				["hasSaved"] = true,
-				["data_fim"] = "13:16:38",
-				["pvp"] = true,
-				["cleu_timeline"] = {
-				},
-				["enemy"] = "Squirrel",
-				["TotalElapsedCombatTime"] = 2305175.038,
-				["CombatEndedAt"] = 2305175.038,
-				["aura_timeline"] = {
-				},
-				["__call"] = {
-				},
-				["data_inicio"] = "13:16:36",
-				["end_time"] = 2305175.038,
-				["combat_id"] = 196,
-				["overall_added"] = true,
-				["spells_cast_timeline"] = {
-				},
 				["frags"] = {
-					["Squirrel"] = 1,
+					["Stonesplinter Bonesnapper"] = 1,
+					["Stonesplinter Shaman"] = 1,
 				},
-				["combat_counter"] = 7069,
-				["CombatSkillCache"] = {
-				},
-				["totals_grupo"] = {
-					18, -- [1]
-					0, -- [2]
-					{
-						0, -- [1]
-						[0] = 0,
-						["alternatepower"] = 0,
-						[6] = 0,
-						[3] = 0,
-					}, -- [3]
-					{
-						["buff_uptime"] = 0,
-						["ress"] = 0,
-						["dead"] = 0,
-						["cc_break"] = 0,
-						["interrupt"] = 0,
-						["debuff_uptime"] = 0,
-						["dispell"] = 0,
-						["cooldowns_defensive"] = 0,
-					}, -- [4]
-				},
-				["start_time"] = 2305173.34,
+				["start_time"] = 430701.212,
 				["TimeData"] = {
 				},
-				["PhaseData"] = {
-					{
-						1, -- [1]
-						1, -- [2]
-					}, -- [1]
-					["damage"] = {
-						{
-							["Numidruid"] = 18.008305,
-						}, -- [1]
-					},
-					["heal_section"] = {
-					},
-					["heal"] = {
-						{
-						}, -- [1]
-					},
-					["damage_section"] = {
-					},
-				},
+				["contra"] = "Stonesplinter Shaman",
 			}, -- [18]
 		},
 	},
@@ -8124,27 +12988,83 @@ _detalhes_database = {
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 0.2,
-			["showamount"] = false,
+			["enabled"] = true,
 			["animate"] = false,
 			["useplayercolor"] = false,
-			["useclasscolors"] = false,
 			["author"] = "Details! Team",
+			["useclasscolors"] = false,
 			["playercolor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["enabled"] = true,
+			["showamount"] = false,
 		},
 	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["combat_counter"] = 7214,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = false,
+			["verticalSnap"] = false,
+			["is_open"] = true,
+			["isLocked"] = false,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				5, -- [4]
+				1, -- [5]
+			},
+			["snap"] = {
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -228.345748901367,
+					["x"] = 549.914855957031,
+					["w"] = 309.999938964844,
+					["h"] = 157.999969482422,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+	},
 	["force_font_outline"] = "",
-	["last_encounter"] = "Onyxia",
 	["announce_prepots"] = {
 		["enabled"] = false,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "06",
+	["last_day"] = "11",
+	["combat_id"] = 337,
+	["savedStyles"] = {
+	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["character_data"] = {
+		["logons"] = 182,
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["last_realversion"] = 140,
 	["cached_talents"] = {
 		["Player-4742-013DADF5"] = {
 			{
@@ -8302,7 +13222,7 @@ _detalhes_database = {
 			}, -- [17]
 			{
 				132121, -- [1]
-				2, -- [2]
+				4, -- [2]
 				1, -- [3]
 				3, -- [4]
 				2, -- [5]
@@ -8572,67 +13492,11 @@ _detalhes_database = {
 			}, -- [47]
 		},
 	},
-	["last_realversion"] = 140,
-	["combat_id"] = 213,
-	["savedStyles"] = {
-	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
-	},
-	["combat_counter"] = 7087,
-	["announce_deaths"] = {
-		["enabled"] = false,
-		["last_hits"] = 1,
-		["only_first"] = 5,
-		["where"] = 1,
-	},
-	["local_instances_config"] = {
-		{
-			["segment"] = 0,
-			["sub_attribute"] = 1,
-			["horizontalSnap"] = false,
-			["verticalSnap"] = false,
-			["is_open"] = true,
-			["isLocked"] = false,
-			["sub_atributo_last"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				5, -- [4]
-				1, -- [5]
-			},
-			["snap"] = {
-			},
-			["mode"] = 2,
-			["attribute"] = 1,
-			["pos"] = {
-				["normal"] = {
-					["y"] = -228.345748901367,
-					["x"] = 549.914855957031,
-					["w"] = 309.999938964844,
-					["h"] = 157.999969482422,
-				},
-				["solo"] = {
-					["y"] = 2,
-					["x"] = 1,
-					["w"] = 300,
-					["h"] = 200,
-				},
-			},
-		}, -- [1]
-	},
-	["character_data"] = {
-		["logons"] = 179,
-	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
+	["last_encounter"] = "Onyxia",
 	["announce_cooldowns"] = {
-		["enabled"] = false,
 		["ignored_cooldowns"] = {
 		},
+		["enabled"] = false,
 		["custom"] = "",
 		["channel"] = "RAID",
 	},

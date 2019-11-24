@@ -23,10 +23,17 @@ L["Automation"] = true
 L["Enemy Nameplates"] = true
 L["Friendly Nameplates"] = true
 	-- Automation Dropdown
+	L["Combat"] = true
+	L["World"] = true
+	L["Dungeon"] = true
+	L["Raid"] = true
+	L["Battleground"] = true
+	L["Arena"] = true
+	L["Scenario"] = true
+	-- Tooltip
+	L["Show"] = true
+	L["Hide"] = true
 	L["No Automation"] = true
-	L["Show during Combat, Hide when Combat ends"] = true
-	L["Hide when Combat starts, Show when Combat ends"] = true
-	L["Hide in instances, Show outside of instances"] = true
 
 L["General Aura Filters"] = true
 
@@ -143,10 +150,13 @@ L["Friendly Status Text"] = true
 	L["Level and Approx Health"] = true
 	L["Arena ID"] = true
 	L["Arena ID, Health, and Power"] = true
+L["Enemy Subtext"] = true
+L["Friendly Subtext"] = true
 
 L["Show Level"] = true
 L["Force Shadow on Status Text"] = true
 L["Show Different Server Indicator (*)"] = true
+L["Show Subtext in Bar View"] = true
 L["Show Status Text on Target & Mouseover"] = true
 L["Show Status Text on Active/Damaged Units"] = true
 L["Use Custom Target Color"] = true

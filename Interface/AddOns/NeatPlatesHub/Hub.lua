@@ -130,6 +130,7 @@ local function BuildHubPanel(panel)
 	panel.EnemyStatusTextMode, F =  CreateQuickDropdown(objectName.."EnemyStatusTextMode", cEnemy..L["Enemy Status Text"]..':', TextModes, 1, AlignmentColumn, F )
 	--panel.EnemyStatusTextModeCenter, F =  CreateQuickDropdown(objectName.."EnemyStatusTextModeCenter", "", BasicTextModes, 1, AlignmentColumn, F, 0, -14 )
 	--panel.EnemyStatusTextModeRight, F =  CreateQuickDropdown(objectName.."EnemyStatusTextModeRight", "", BasicTextModes, 1, AlignmentColumn, F, 0, -14 )
+	panel.EnemySubtext, F =  CreateQuickDropdown(objectName.."EnemySubtext", cEnemy..L["Enemy Subtext"]..':', EnemyNameSubtextModes, 1, AlignmentColumn, F )
 
 	-- Friendly
 	panel.FriendlyBarColorMode, F =  CreateQuickDropdown(objectName.."FriendlyBarColorMode", cFriendly..L["Friendly Bar Color"]..':', FriendlyBarModes, 1, AlignmentColumn, panel.HealthBarLabel, OffsetColumnB)
@@ -137,6 +138,7 @@ local function BuildHubPanel(panel)
 	panel.FriendlyStatusTextMode, F =  CreateQuickDropdown(objectName.."FriendlyStatusTextMode", cFriendly..L["Friendly Status Text"]..':', TextModes, 1, AlignmentColumn, F, OffsetColumnB)
 	--panel.FriendlyStatusTextModeCenter, F =  CreateQuickDropdown(objectName.."FriendlyStatusTextModeCenter", "", BasicTextModes, 1, AlignmentColumn, F, OffsetColumnB, -14)
 	--panel.FriendlyStatusTextModeRight, F =  CreateQuickDropdown(objectName.."FriendlyStatusTextModeRight", "", BasicTextModes, 1, AlignmentColumn, F, OffsetColumnB, -14)
+	panel.FriendlySubtext, F =  CreateQuickDropdown(objectName.."FriendlySubtext", cFriendly..L["Friendly Subtext"]..':', EnemyNameSubtextModes, 1, AlignmentColumn, F, OffsetColumnB )
 
 	-- Other
 	panel.TextShowLevel, F = CreateQuickCheckbutton(objectName.."TextShowLevel", L["Show Level"], AlignmentColumn, F, 0, 2)

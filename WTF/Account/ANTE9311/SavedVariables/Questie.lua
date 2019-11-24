@@ -24324,7 +24324,7 @@ QuestieConfig = {
 				[1791] = true,
 				[4740] = true,
 				[6141] = true,
-				[244] = true,
+				[2873] = true,
 				[8366] = true,
 				[4727] = true,
 				[225] = true,
@@ -24337,7 +24337,7 @@ QuestieConfig = {
 				[113] = true,
 				[226] = true,
 				[4723] = true,
-				[2873] = true,
+				[975] = true,
 				[2871] = true,
 				[2869] = true,
 				[453] = true,
@@ -24357,9 +24357,9 @@ QuestieConfig = {
 				[3884] = true,
 				[4223] = true,
 				[5250] = true,
-				[5262] = true,
+				[8470] = true,
 				[8462] = true,
-				[229] = true,
+				[5262] = true,
 				[5885] = true,
 				[6182] = true,
 				[4241] = true,
@@ -24472,14 +24472,14 @@ QuestieConfig = {
 				[5903] = true,
 				[6021] = true,
 				[6024] = true,
-				[8470] = true,
+				[229] = true,
 				[2861] = true,
 				[6027] = true,
 				[2865] = true,
 				[2867] = true,
 				[61] = true,
 				[122] = true,
-				[975] = true,
+				[244] = true,
 				[2875] = true,
 				[2877] = true,
 				[4731] = true,
@@ -24589,11 +24589,11 @@ QuestieConfig = {
 				[179] = true,
 				[233] = true,
 			},
-			["TrackedQuests"] = {
+			["TrackerHiddenQuests"] = {
 			},
 			["TrackerHiddenObjectives"] = {
 			},
-			["TrackerHiddenQuests"] = {
+			["TrackedQuests"] = {
 			},
 		},
 		["Numibank - Ashbringer"] = {
@@ -24645,16 +24645,17 @@ QuestieConfig = {
 				[2159] = true,
 			},
 		},
-		["Numidruid - Ashbringer"] = {
-			["TrackedQuests"] = {
+		["Numireset - Ashbringer"] = {
+			["AutoUntrackedQuests"] = {
 			},
 			["TrackerHiddenQuests"] = {
 			},
+			["TrackedQuests"] = {
+			},
 			["TrackerHiddenObjectives"] = {
 			},
-			["AutoUntrackedQuests"] = {
-				[957] = true,
-			},
+		},
+		["Numidruid - Ashbringer"] = {
 			["journey"] = {
 				{
 					["Party"] = {
@@ -25163,6 +25164,416 @@ QuestieConfig = {
 					["SubType"] = "Accept",
 					["Event"] = "Quest",
 				}, -- [57]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573402980,
+					["Quest"] = 436,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [58]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573403330,
+					["Quest"] = 1002,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Abandon",
+				}, -- [59]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573403504,
+					["Quest"] = 1339,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [60]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573403505,
+					["Quest"] = 1338,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [61]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573403506,
+					["Quest"] = 307,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [62]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573404973,
+					["Quest"] = 436,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [63]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573404974,
+					["Quest"] = 297,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [64]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573404982,
+					["Quest"] = 298,
+					["Level"] = 16,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [65]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405039,
+					["Event"] = "Level",
+					["NewLevel"] = 17,
+				}, -- [66]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405040,
+					["Quest"] = 418,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [67]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405063,
+					["Quest"] = 416,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [68]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405074,
+					["Quest"] = 298,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [69]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405075,
+					["Quest"] = 301,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [70]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405258,
+					["Quest"] = 307,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [71]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405603,
+					["Quest"] = 301,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [72]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405604,
+					["Quest"] = 302,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [73]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405756,
+					["Quest"] = 302,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [74]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405757,
+					["Quest"] = 273,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [75]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405875,
+					["Quest"] = 224,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [76]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573405898,
+					["Quest"] = 267,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [77]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573406812,
+					["Quest"] = 224,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [78]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573406824,
+					["Quest"] = 237,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+				}, -- [79]
+				{
+					["Party"] = {
+					},
+					["Timestamp"] = 1573406836,
+					["Quest"] = 267,
+					["Level"] = 17,
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+				}, -- [80]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 17,
+					["Quest"] = 237,
+					["Timestamp"] = 1573493962,
+				}, -- [81]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 17,
+					["Quest"] = 263,
+					["Timestamp"] = 1573493989,
+				}, -- [82]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 17,
+					["Quest"] = 273,
+					["Timestamp"] = 1573494248,
+				}, -- [83]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 17,
+					["Quest"] = 454,
+					["Timestamp"] = 1573494249,
+				}, -- [84]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 17,
+					["Quest"] = 454,
+					["Timestamp"] = 1573494250,
+				}, -- [85]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 17,
+					["Quest"] = 309,
+					["Timestamp"] = 1573494254,
+				}, -- [86]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 17,
+					["Quest"] = 309,
+					["Timestamp"] = 1573494457,
+				}, -- [87]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 17,
+					["Quest"] = 297,
+					["Timestamp"] = 1573495230,
+				}, -- [88]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 17,
+					["Quest"] = 385,
+					["Timestamp"] = 1573495528,
+				}, -- [89]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 17,
+					["Quest"] = 257,
+					["Timestamp"] = 1573495540,
+				}, -- [90]
+				{
+					["Timestamp"] = 1573495663,
+					["Party"] = {
+					},
+					["Event"] = "Level",
+					["NewLevel"] = 18,
+				}, -- [91]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 18,
+					["Quest"] = 257,
+					["Timestamp"] = 1573495780,
+				}, -- [92]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 258,
+					["Timestamp"] = 1573495781,
+				}, -- [93]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 18,
+					["Quest"] = 258,
+					["Timestamp"] = 1573496274,
+				}, -- [94]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 271,
+					["Timestamp"] = 1573496289,
+				}, -- [95]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 2038,
+					["Timestamp"] = 1573496376,
+				}, -- [96]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 250,
+					["Timestamp"] = 1573498022,
+				}, -- [97]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 18,
+					["Quest"] = 250,
+					["Timestamp"] = 1573498112,
+				}, -- [98]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 199,
+					["Timestamp"] = 1573498113,
+				}, -- [99]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 18,
+					["Quest"] = 199,
+					["Timestamp"] = 1573498168,
+				}, -- [100]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Accept",
+					["Level"] = 18,
+					["Quest"] = 161,
+					["Timestamp"] = 1573498169,
+				}, -- [101]
+				{
+					["Party"] = {
+					},
+					["Event"] = "Quest",
+					["SubType"] = "Complete",
+					["Level"] = 18,
+					["Quest"] = 2038,
+					["Timestamp"] = 1573498317,
+				}, -- [102]
+			},
+			["TrackerHiddenQuests"] = {
+			},
+			["TrackerHiddenObjectives"] = {
+			},
+			["AutoUntrackedQuests"] = {
+				[957] = true,
+			},
+			["TrackedQuests"] = {
 			},
 			["TrackerLocation"] = {
 				"TOPRIGHT", -- [1]
@@ -25173,13 +25584,16 @@ QuestieConfig = {
 			},
 			["complete"] = {
 				[956] = true,
-				[2459] = true,
+				[488] = true,
 				[4761] = true,
+				[258] = true,
 				[917] = true,
 				[933] = true,
 				[957] = true,
 				[965] = true,
-				[2178] = true,
+				[298] = true,
+				[302] = true,
+				[997] = true,
 				[457] = true,
 				[918] = true,
 				[934] = true,
@@ -25187,73 +25601,119 @@ QuestieConfig = {
 				[958] = true,
 				[966] = true,
 				[489] = true,
-				[982] = true,
+				[2118] = true,
 				[5921] = true,
+				[267] = true,
 				[919] = true,
 				[5923] = true,
 				[935] = true,
 				[5924] = true,
-				[5925] = true,
+				[418] = true,
 				[983] = true,
+				[1339] = true,
+				[982] = true,
+				[224] = true,
 				[5929] = true,
 				[4723] = true,
 				[458] = true,
 				[920] = true,
 				[928] = true,
 				[4725] = true,
+				[2178] = true,
 				[3522] = true,
+				[940] = true,
 				[4727] = true,
+				[932] = true,
 				[984] = true,
+				[250] = true,
+				[454] = true,
+				[916] = true,
 				[3524] = true,
 				[2159] = true,
 				[6001] = true,
+				[29] = true,
 				[921] = true,
 				[929] = true,
 				[937] = true,
-				[953] = true,
-				[985] = true,
-				[1001] = true,
 				[7383] = true,
-				[997] = true,
-				[2499] = true,
+				[953] = true,
+				[2399] = true,
+				[2438] = true,
+				[2459] = true,
+				[985] = true,
+				[436] = true,
+				[1001] = true,
+				[5931] = true,
+				[5925] = true,
+				[4161] = true,
+				[4811] = true,
 				[459] = true,
 				[922] = true,
 				[930] = true,
-				[6344] = true,
+				[955] = true,
 				[475] = true,
 				[954] = true,
-				[6121] = true,
-				[487] = true,
-				[6343] = true,
-				[456] = true,
-				[4681] = true,
-				[4161] = true,
-				[3120] = true,
-				[2118] = true,
-				[26] = true,
 				[947] = true,
-				[4811] = true,
-				[923] = true,
+				[487] = true,
+				[26] = true,
 				[931] = true,
+				[4681] = true,
+				[923] = true,
+				[3120] = true,
+				[257] = true,
+				[3521] = true,
+				[2499] = true,
+				[199] = true,
+				[273] = true,
+				[4812] = true,
 				[4495] = true,
 				[4813] = true,
-				[955] = true,
+				[416] = true,
 				[963] = true,
-				[488] = true,
-				[2438] = true,
+				[297] = true,
+				[301] = true,
 				[2138] = true,
-				[4812] = true,
-				[2399] = true,
+				[309] = true,
+				[6121] = true,
 				[6341] = true,
-				[3519] = true,
+				[307] = true,
 				[6342] = true,
-				[29] = true,
-				[916] = true,
-				[5931] = true,
-				[932] = true,
-				[940] = true,
+				[456] = true,
+				[6343] = true,
+				[3519] = true,
+				[6344] = true,
+				[237] = true,
 				[476] = true,
-				[3521] = true,
+				[2038] = true,
+			},
+		},
+		["Numilock - Ashbringer"] = {
+			["complete"] = {
+				[3361] = true,
+				[170] = true,
+				[3365] = true,
+				[317] = true,
+				[182] = true,
+				[310] = true,
+				[318] = true,
+				[5541] = true,
+				[233] = true,
+				[311] = true,
+				[319] = true,
+				[183] = true,
+				[312] = true,
+				[320] = true,
+				[234] = true,
+				[313] = true,
+				[179] = true,
+				[384] = true,
+				[412] = true,
+				[400] = true,
+				[315] = true,
+				[1599] = true,
+				[2160] = true,
+				[3115] = true,
+				[3364] = true,
 			},
 		},
 	},
@@ -25261,7 +25721,9 @@ QuestieConfig = {
 		["Numiro - Ashbringer"] = "Default",
 		["Numimage - Ashbringer"] = "Default",
 		["Numibank - Ashbringer"] = "Default",
+		["Numireset - Ashbringer"] = "Default",
 		["Numidruid - Ashbringer"] = "Default",
+		["Numilock - Ashbringer"] = "Default",
 		["Numiafk - Ashbringer"] = "Default",
 	},
 	["global"] = {

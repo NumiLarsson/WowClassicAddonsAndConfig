@@ -1,12 +1,37 @@
-lightweight tag 32b827e8c44c1b155b559f5133e664cc4e4ea5cd 1.13.2.41
+lightweight tag 7af30ee21191f01206cdc3153d0194c36f508fcb 1.13.2.44
 Author:	Luxocracy <luxor355@gmail.com>
-Date:	Sun Nov 3 12:03:01 2019 +0100
+Date:	Sun Nov 17 18:31:21 2019 +0100
 
-commit 32b827e8c44c1b155b559f5133e664cc4e4ea5cd
+commit 7af30ee21191f01206cdc3153d0194c36f508fcb
 Author: Luxocracy <luxor355@gmail.com>
-Date:   Sun Nov 3 12:03:01 2019 +0100
+Date:   Sun Nov 17 18:31:21 2019 +0100
 
-    Updated LibClassicDurations
+    Lib Update
     
-    - Updated LibClassicDurations
+    - 'LibClassicDurations' updated
+
+commit 1b7276118cfddc00f4c58cccd250d1d558e6f214
+Author: Luxocracy <luxor355@gmail.com>
+Date:   Sun Nov 17 18:24:41 2019 +0100
+
+    Changed how subtext is handled in bar view
+    
+    - Changed how subtext is handled in 'Bar View' by adding new subtext options, that are seperate from 'Headline View' options, to 'Bar View' instead of a checkbox.
+    - Fixed an issue with Auras where it would sometimes show buffs one row higher than intended if there were not debuffs on the unit.
+
+commit 1225a06e46df8b00ee7921e246fc1570189ddbca
+Author: Luxocracy <luxor355@gmail.com>
+Date:   Sat Nov 16 15:41:57 2019 +0100
+
+    Added subtext to bar view
+    
+    - Added subtext to bar view, this can be enabled through an option under 'Health Bar View'. (Still need to find a way to fix the offset on 'Auras' when the unit doesn't have a subtext)
+
+commit ca8d594435df8c3a458ca213b7d064c17a487b0b
+Author: Luxocracy <luxor355@gmail.com>
+Date:   Fri Nov 15 19:33:48 2019 +0100
+
+    Locale Updates
+    
+    - Updated Locales
 

@@ -4,15 +4,17 @@ AtlasLootClassicDB = {
 		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
 		["Numimage - Ashbringer"] = "Numimage - Ashbringer",
 		["Numibank - Ashbringer"] = "Numibank - Ashbringer",
+		["Numireset - Ashbringer"] = "Numireset - Ashbringer",
 		["Numiafk - Ashbringer"] = "Numiafk - Ashbringer",
 		["Numiduotest - Gehennas"] = "Numiduotest - Gehennas",
 		["Numi - Gehennas"] = "Numi - Gehennas",
 		["Numidruid - Ashbringer"] = "Numidruid - Ashbringer",
+		["Numilock - Ashbringer"] = "Numilock - Ashbringer",
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
 		["Numiro - Firemaw"] = "Numiro - Firemaw",
 	},
 	["global"] = {
-		["__addonrevision"] = 1030003,
+		["__addonrevision"] = 1030004,
 	},
 	["profiles"] = {
 		["Numiro - Ashbringer"] = {
@@ -37,6 +39,25 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Numimage - Ashbringer"] = {
+			["minimap"] = {
+				["minimapPos"] = 207.816740981231,
+			},
+			["GUI"] = {
+				["point"] = {
+					"TOPRIGHT", -- [1]
+					nil, -- [2]
+					"TOPRIGHT", -- [3]
+					-255.000061035156, -- [4]
+					-42.0000190734863, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"Blacksmithing", -- [2]
+					8, -- [3]
+					4, -- [4]
+					-0, -- [5]
+				},
+			},
 		},
 		["Numibank - Ashbringer"] = {
 			["GUI"] = {
@@ -48,6 +69,8 @@ AtlasLootClassicDB = {
 					-0, -- [5]
 				},
 			},
+		},
+		["Numireset - Ashbringer"] = {
 		},
 		["Numiafk - Ashbringer"] = {
 		},
@@ -80,17 +103,19 @@ AtlasLootClassicDB = {
 					nil, -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					-22.0000534057617, -- [4]
-					41.0000076293945, -- [5]
+					-17.2591209411621, -- [4]
+					40.2098541259766, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Leatherworking", -- [2]
-					3, -- [3]
-					3, -- [4]
+					nil, -- [1]
+					"ScarletMonasteryLibrary", -- [2]
+					2, -- [3]
+					1, -- [4]
 					-0, -- [5]
 				},
 			},
+		},
+		["Numilock - Ashbringer"] = {
 		},
 		["Numiwar - Gehennas"] = {
 			["minimap"] = {

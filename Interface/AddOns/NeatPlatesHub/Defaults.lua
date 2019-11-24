@@ -42,13 +42,13 @@ NeatPlatesHubDefaults = {
 	StyleHeadlineNeutral = false,
 	StyleHeadlineMiniMobs = false,
 
-	ColorEnemyBarMode =  1,
-	ColorEnemyNameMode = 1,
-	ColorEnemyStatusTextMode = 1,
+	--ColorEnemyBarMode =  1,
+	--ColorEnemyNameMode = 1,
+	--ColorEnemyStatusTextMode = 1,
 
-	ColorFriendlyBarMode =  1,
-	ColorFriendlyNameMode = 1,
-	ColorFriendlyStatusTextMode = 1,
+	--ColorFriendlyBarMode =  1,
+	--ColorFriendlyNameMode = 1,
+	--ColorFriendlyStatusTextMode = 1,
 
 	TextShowOnlyOnActive = false,
 
@@ -63,7 +63,7 @@ NeatPlatesHubDefaults = {
 	HeadlineEnemyColor = 4,
 	HeadlineFriendlyColor = 4,
 	HeadlineEnemySubtext = 3,
-
+	HeadlineFriendlySubtext = 1,
 
 	-- Opacity
 	---------------------------------------

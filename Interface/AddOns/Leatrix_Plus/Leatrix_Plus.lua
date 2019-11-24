@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- 	Leatrix Plus 1.13.37 (31st October 2019)
+-- 	Leatrix Plus 1.13.38 (20th November 2019)
 ----------------------------------------------------------------------
 
 --	01:Functions	20:Live			50:RunOnce		70:Logout			
@@ -20,7 +20,7 @@
 	local void
 
 --	Version
-	LeaPlusLC["AddonVer"] = "1.13.37"
+	LeaPlusLC["AddonVer"] = "1.13.38"
 	LeaPlusLC["RestartReq"] = nil
 
 --	If client restart is required and has not been done, show warning and quit
@@ -3085,7 +3085,7 @@
 						local questLogTitle = _G["QuestLogTitle" .. i]
 						local questCheck = _G["QuestLogTitle" .. i .. "Check"]
 						local title, level, suggestedGroup, isHeader = GetQuestLogTitle(questIndex)
-						if not isHeader then
+						if title and level and not isHeader then
 							-- Add level tag if its not a header
 							local levelSuffix = ""
 							if suggestedGroup then

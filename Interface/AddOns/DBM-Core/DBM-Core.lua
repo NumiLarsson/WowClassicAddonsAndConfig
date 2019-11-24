@@ -68,9 +68,9 @@ local function showRealDate(curseDate)
 end
 
 DBM = {
-	Revision = parseCurseDate("20191101174800"),
-	DisplayVersion = "1.13.19 alpha", -- the string that is shown as version
-	ReleaseRevision = releaseDate(2019, 10, 29) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
+	Revision = parseCurseDate("20191119153631"),
+	DisplayVersion = "1.13.20", -- the string that is shown as version
+	ReleaseRevision = releaseDate(2019, 11, 19) -- the date of the latest stable version that is available, optionally pass hours, minutes, and seconds for multiple releases in one day
 }
 DBM.HighestRelease = DBM.ReleaseRevision --Updated if newer version is detected, used by update nags to reflect critical fixes user is missing on boss pulls
 
@@ -173,7 +173,8 @@ DBM.DefaultOptions = {
 	--FilterSelfHud = true,
 	AutologBosses = false,
 	AdvancedAutologBosses = false,
-	LogOnlyRaidBosses = false,
+	RecordOnlyBosses = false,
+	LogOnlyNonTrivial = true,
 	UseSoundChannel = "Master",
 	LFDEnhance = true,
 	WorldBossNearAlert = false,
@@ -3810,6 +3811,14 @@ do
 				DBM.RangeCheck:Hide(true)
 			end
 		end
+		-- Auto Logging for entire zone if record only bosses is off
+		if not DBM.Options.RecordOnlyBosses then
+			if LastInstanceType == "raid" or LastInstanceType == "party" then
+				self:StartLogging(0, nil)
+			else
+				self:StopLogging()
+			end
+		end
 	end
 	--Faster and more accurate loading for instances, but useless outside of them
 	function DBM:LOADING_SCREEN_DISABLED()
@@ -3976,7 +3985,7 @@ end
 
 do
 	local function checkForActualPull()
-		if #inCombat == 0 then
+		if DBM.Options.RecordOnlyBosses and #inCombat == 0 then
 			DBM:StopLogging()
 		end
 	end
@@ -4164,7 +4173,9 @@ do
 				dummyMod.text:Schedule(timer, DBM_CORE_ANNOUNCE_PULL_NOW)
 			end
 		end
-		DBM:StartLogging(timer, checkForActualPull)
+		if DBM.Options.RecordOnlyBosses then
+			DBM:StartLogging(timer, checkForActualPull)
+		end
 		--[[if DBM.Options.CheckGear then
 			local bagilvl, equippedilvl = GetAverageItemLevel()
 			local difference = bagilvl - equippedilvl
@@ -4300,10 +4311,8 @@ do
 					end
 					--Find min revision.
 					updateNotificationDisplayed = 2
-					if not DBM.Options.DontShowReminders then
-						AddMsg(DBM, DBM_CORE_UPDATEREMINDER_HEADER:match("([^\n]*)"))
-						AddMsg(DBM, DBM_CORE_UPDATEREMINDER_HEADER:match("\n(.*)"):format(displayVersion, version))
-					end
+					AddMsg(DBM, DBM_CORE_UPDATEREMINDER_HEADER:match("([^\n]*)"))
+					AddMsg(DBM, DBM_CORE_UPDATEREMINDER_HEADER:match("\n(.*)"):format(displayVersion, version))
 					showConstantReminder = 1
 				elseif not noRaid and #newerVersionPerson == 3 and updateNotificationDisplayed < 3 then--The following code requires at least THREE people to send that higher revision. That should be more than adaquate
 					--Disable if revision grossly out of date even if not major patch.
@@ -4312,7 +4321,8 @@ do
 						if revDifference > 100000000 then--Approx 1 month old 20190416172622
 							if updateNotificationDisplayed < 3 then
 								updateNotificationDisplayed = 3
-								AddMsg(DBM, DBM_CORE_UPDATEREMINDER_NODISABLE)
+								AddMsg(DBM, DBM_CORE_UPDATEREMINDER_DISABLE)
+								DBM:Disable(true)
 							end
 						end
 					--Disable if out of date and it's a major patch.
@@ -5693,7 +5703,9 @@ do
 			end
 			--process global options
 			self:HideBlizzardEvents(1)
-			self:StartLogging(0, nil)
+			if self.Options.RecordOnlyBosses then
+				self:StartLogging(0, nil)
+			end
 			if self.Options.HideObjectivesFrame and not InCombatLockdown() then
 				if QuestWatchFrame:IsVisible() then
 					--ObjectiveTrackerFrame:Hide()
@@ -6009,7 +6021,9 @@ do
 			if #inCombat == 0 then--prevent error if you pulled multiple boss. (Earth, Wind and Fire)
 				statusWhisperDisabled = false
 				statusGuildDisabled = false
-				self:Schedule(10, self.StopLogging, self)--small delay to catch kill/died combatlog events
+				if self.Options.RecordOnlyBosses then
+					self:Schedule(10, self.StopLogging, self)--small delay to catch kill/died combatlog events
+				end
 				self:HideBlizzardEvents(0)
 				self:Unschedule(checkBossHealth)
 				self:Unschedule(checkCustomBossHealth)
@@ -6092,7 +6106,7 @@ do
 
 	function DBM:StartLogging(timer, checkFunc)
 		self:Unschedule(DBM.StopLogging)
-		if self.Options.LogOnlyRaidBosses and not IsInRaid() then return end
+		if self.Options.LogOnlyNonTrivial and not IsInRaid() then return end
 		if self.Options.AutologBosses then
 			if not LoggingCombat() then
 				autoLog = true
@@ -6157,7 +6171,7 @@ end
 function DBM:GetCurrentInstanceDifficulty()
 	local _, instanceType, difficulty, difficultyName, _, _, _, _, instanceGroupSize = GetInstanceInfo()
 	if difficulty == 0 or (difficulty == 1 and instanceType == "none") then--draenor field returns 1, causing world boss mod bug.
-		return "worldboss", RAID_INFO_WORLD_BOSS.." - ", difficulty, instanceGroupSize, keystoneLevel
+		return "worldboss", RAID_INFO_WORLD_BOSS.." - ", difficulty, instanceGroupSize
 	elseif difficulty == 1 then--5 man Normal Dungeon
 		return "normal5", difficultyName.." - ", difficulty, instanceGroupSize
 	elseif difficulty == 2 then--5 man Heroic Dungeon
@@ -6173,7 +6187,7 @@ function DBM:GetCurrentInstanceDifficulty()
 	elseif difficulty == 7 then--Legacy 25 man LFR (ie pre WoD zones)
 		return "lfr25", difficultyName.." - ", difficulty, instanceGroupSize
 	elseif difficulty == 8 then--Dungeon, Mythic+ (Challenge modes in mists and wod)
-		--local keystoneLevel = C_ChallengeMode.GetActiveKeystoneInfo() or 0
+		local keystoneLevel = C_ChallengeMode and C_ChallengeMode.GetActiveKeystoneInfo() or 0
 		return "challenge5", PLAYER_DIFFICULTY6.."+ ("..keystoneLevel..") - ", difficulty, instanceGroupSize
 	elseif difficulty == 9 then--Legacy 40 man raids, no longer returned as index 3 (normal 10man raids)
 		return "normal40", difficultyName.." - ",difficulty, instanceGroupSize

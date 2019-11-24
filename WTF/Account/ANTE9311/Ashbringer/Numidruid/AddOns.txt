@@ -1,8 +1,9 @@
 WeakAurasCompanion: enabled
 !DebugTools: disabled
-ElvUI: enabled
+ElvUI: disabled
 !Compatibility: enabled
 CensusPlusClassic: disabled
 SpeedrunSplits: disabled
 LFG113: disabled
 ItemRackOptions: enabled
+ElvUI_OptionsUI: enabled

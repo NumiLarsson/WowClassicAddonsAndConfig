@@ -6,3 +6,5 @@ CensusPlusClassic: disabled
 SpeedrunSplits: disabled
 LFG113: disabled
 ItemRackOptions: enabled
+WeaponSwingTimer: disabled
+Questie: disabled

@@ -1,5 +1,5 @@
 
 ClassicAuraDurationsDB = {
-	["enemyBuffs"] = true,
 	["portraitIcon"] = false,
+	["enemyBuffs"] = true,
 }
