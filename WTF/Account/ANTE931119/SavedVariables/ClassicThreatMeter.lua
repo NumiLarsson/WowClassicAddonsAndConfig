@@ -43,21 +43,29 @@ CTM_Options = {
 	["warnings"] = {
 		["threshold"] = 80,
 		["pulledFile"] = "Sound\\Interface\\Aggro_Pulled_Aggro.ogg",
-		["visual"] = true,
-		["warningFile"] = "Sound\\Interface\\Aggro_Enter_Warning_State.ogg",
 		["sounds"] = true,
+		["warningFile"] = "Sound\\Interface\\Aggro_Enter_Warning_State.ogg",
+		["visual"] = true,
 	},
 	["frame"] = {
 		["headerShow"] = true,
 		["scale"] = 1,
 		["width"] = 217.000045776367,
-		["strata"] = "3-MEDIUM",
+		["height"] = 171.098861694336,
+		["locked"] = true,
 		["position"] = {
-			"BOTTOMRIGHT", -- [1]
+			"RIGHT", -- [1]
 			"UIParent", -- [2]
-			"BOTTOMRIGHT", -- [3]
-			-81.8145370483399, -- [4]
-			96.178955078125, -- [5]
+			"RIGHT", -- [3]
+			-338.813598632813, -- [4]
+			79.7287368774414, -- [5]
+		},
+		["test"] = false,
+		["color"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.35, -- [4]
 		},
 		["headerColor"] = {
 			0, -- [1]
@@ -65,15 +73,7 @@ CTM_Options = {
 			0, -- [3]
 			0.8, -- [4]
 		},
-		["height"] = 171.098861694336,
-		["color"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.35, -- [4]
-		},
-		["test"] = false,
-		["locked"] = true,
+		["strata"] = "3-MEDIUM",
 	},
 	["backdrop"] = {
 		["bgColor"] = {
@@ -85,15 +85,15 @@ CTM_Options = {
 		["bgFile"] = "Interface\\ChatFrame\\ChatFrameBackground",
 		["tileSize"] = 0,
 		["edgeFile"] = "Interface\\ChatFrame\\ChatFrameBackground",
-		["tile"] = false,
-		["edgeSize"] = 1,
-		["inset"] = 0,
 		["edgeColor"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["edgeSize"] = 1,
+		["inset"] = 0,
+		["tile"] = false,
 	},
 	["bar"] = {
 		["descend"] = true,

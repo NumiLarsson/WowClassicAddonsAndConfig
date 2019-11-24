@@ -17,23 +17,23 @@ TrinketMenuPerOptions = {
 		["10720"] = 0,
 		["11815"] = 0,
 		["14023"] = 0,
-		["15873"] = 0,
+		["13515"] = 0,
 		["18854"] = 0,
-		["10645"] = 0,
+		["11810"] = 0,
 		["18587"] = 0,
 		["13209"] = 0,
 		["13965"] = 0,
 		["13379"] = 0,
 		["18639"] = 0,
-		["11810"] = 0,
-		["13515"] = 0,
+		["10645"] = 0,
+		["15873"] = 0,
 	},
 	["Hidden"] = {
 	},
-	["MenuScale"] = 1,
+	["MenuDock"] = "BOTTOMLEFT",
 	["MainDock"] = "BOTTOMRIGHT",
 	["YPos"] = 382.308135986328,
-	["MenuDock"] = "BOTTOMLEFT",
+	["MenuScale"] = 1,
 	["MenuOrient"] = "HORIZONTAL",
 }
 TrinketMenuQueue = {
@@ -42,9 +42,9 @@ TrinketMenuQueue = {
 		[0] = false,
 	},
 	["Stats"] = {
-		["17774"] = {
-		},
 		["11815"] = {
+		},
+		["17774"] = {
 		},
 	},
 	["Sort"] = {

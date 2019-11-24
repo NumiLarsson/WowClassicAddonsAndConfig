@@ -47,15 +47,15 @@ AtlasLootClassicDB = {
 					"TOPRIGHT", -- [1]
 					nil, -- [2]
 					"TOPRIGHT", -- [3]
-					-255.000061035156, -- [4]
+					-255.790161132813, -- [4]
 					-42.0000190734863, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Blacksmithing", -- [2]
-					8, -- [3]
-					4, -- [4]
-					-0, -- [5]
+					nil, -- [1]
+					"TheTempleofAhnQiraj", -- [2]
+					nil, -- [3]
+					3, -- [4]
+					0, -- [5]
 				},
 			},
 		},
