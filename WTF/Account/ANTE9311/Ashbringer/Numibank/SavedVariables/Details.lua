@@ -7,7 +7,7 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v1.13.2.176",
+	["last_version"] = "v1.13.2.177",
 	["SoloTablesSaved"] = {
 		["Mode"] = 1,
 	},
@@ -15,7 +15,7 @@ _detalhes_database = {
 	},
 	["on_death_menu"] = true,
 	["nick_tag_cache"] = {
-		["nextreset"] = 1573146250,
+		["nextreset"] = 1574698026,
 		["last_version"] = 11,
 	},
 	["last_instance_id"] = 0,
@@ -56,14 +56,14 @@ _detalhes_database = {
 			["enabled"] = true,
 		},
 	},
+	["cached_talents"] = {
+	},
 	["announce_prepots"] = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "23",
-	["cached_talents"] = {
-	},
+	["last_day"] = "10",
 	["benchmark_db"] = {
 		["frame"] = {
 		},
@@ -76,7 +76,7 @@ _detalhes_database = {
 		["enabled"] = true,
 		["channel"] = "SELF",
 	},
-	["combat_counter"] = 18,
+	["combat_counter"] = 26,
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -236,7 +236,7 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["character_data"] = {
-		["logons"] = 9,
+		["logons"] = 13,
 	},
 	["announce_cooldowns"] = {
 		["enabled"] = false,

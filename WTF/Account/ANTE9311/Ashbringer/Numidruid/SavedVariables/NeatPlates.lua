@@ -1,12 +1,14 @@
 
 NeatPlatesOptions = {
 	["SecondSpecProfile"] = "Default",
-	["EnemyAutomation"] = "No Automation",
+	["EnemyAutomation"] = {
+	},
 	["ActiveTheme"] = "Neon",
 	["EmulatedTargetPlate"] = false,
 	["OverrideOutline"] = 1,
 	["HealthFrequent"] = true,
-	["FriendlyAutomation"] = "No Automation",
+	["FriendlyAutomation"] = {
+	},
 	["DisableCastBars"] = false,
 	["FourthSpecProfile"] = "Default",
 	["ThirdSpecProfile"] = "Default",

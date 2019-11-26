@@ -20,7 +20,7 @@ AucAdvancedConfig = {
 		},
 		["util"] = {
 			["appraiser"] = {
-				["columnsortcurDir"] = 1,
+				["columnsortcurDir"] = -1,
 				["columnsortcurSort"] = 6,
 			},
 			["automagic"] = {
@@ -29,7 +29,7 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:-0.0:-92.9",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:3.2:-77.9",
 			},
 		},
 		["configator.top"] = 651.666687011719,
@@ -42,24 +42,23 @@ AucAdvancedData = {
 	["UtilSearchUiData"] = {
 		["Version"] = 1,
 		["Current"] = {
-			["snatch.columnsortcurSort"] = 1,
 			["general.maxbuy"] = 9999999999,
-			["vendor.timeleft"] = 1,
+			["snatch.columnsortcurSort"] = 1,
 			["general.maxbid"] = 9999999999,
 			["converter.allow.bid"] = false,
 			["enchantmats.level.max"] = 275,
-			["columnsortcurDir"] = -1,
+			["snatch.columnsortcurDir"] = 1,
 			["resale.seen.check"] = true,
 			["columnsortcurSort"] = 3,
+			["resale.seen.min"] = 15,
+			["snatch.itemsList"] = {
+			},
 			["ignoreitemprice.ignorelist"] = {
 				["3713"] = 0,
 				["3728"] = 0,
 			},
-			["snatch.itemsList"] = {
-			},
-			["resale.seen.min"] = 15,
-			["resale.allow.bid"] = false,
-			["snatch.columnsortcurDir"] = 1,
+			["columnsortcurDir"] = -1,
+			["vendor.timeleft"] = 1,
 			["smelting.allow.bid"] = false,
 			["smelting.profit.min"] = 10000,
 		},
@@ -72,12 +71,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
+	["Timestamp"] = 1569684329,
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["Timestamp"] = 1569684329,
-	["Version"] = 1,
 	["KnownServerKeys"] = {
-		["Ashbringer"] = 1574629089,
+		["Ashbringer"] = 1574628008,
 	},
+	["Version"] = 1,
 }

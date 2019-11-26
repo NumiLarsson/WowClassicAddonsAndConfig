@@ -34,6 +34,13 @@ X: 0
 Y: 0
 W: 365
 H: 200
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -256
+Y: -42
+W: 920
+H: 600
 Frame: AucAdvancedBuyPrompt
 FrameLevel: 1
 Anchor: TOPRIGHT
@@ -83,13 +90,6 @@ X: 119
 Y: 66
 W: 500
 H: 280
-Frame: AtlasLoot_GUI-Frame
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -256
-Y: -42
-W: 920
-H: 600
 Frame: TargetFrame
 FrameLevel: 1
 Anchor: CENTER

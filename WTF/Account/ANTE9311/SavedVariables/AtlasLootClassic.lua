@@ -2,15 +2,13 @@
 AtlasLootClassicDB = {
 	["profileKeys"] = {
 		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
-		["Numimage - Ashbringer"] = "Numimage - Ashbringer",
 		["Numibank - Ashbringer"] = "Numibank - Ashbringer",
-		["Numireset - Ashbringer"] = "Numireset - Ashbringer",
 		["Numiafk - Ashbringer"] = "Numiafk - Ashbringer",
 		["Numiduotest - Gehennas"] = "Numiduotest - Gehennas",
 		["Numi - Gehennas"] = "Numi - Gehennas",
-		["Numidruid - Ashbringer"] = "Numidruid - Ashbringer",
-		["Numilock - Ashbringer"] = "Numilock - Ashbringer",
+		["Numimeme - Ashbringer"] = "Numimeme - Ashbringer",
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
+		["Numiherb - Ashbringer"] = "Numiherb - Ashbringer",
 		["Numiro - Firemaw"] = "Numiro - Firemaw",
 	},
 	["global"] = {
@@ -18,43 +16,22 @@ AtlasLootClassicDB = {
 	},
 	["profiles"] = {
 		["Numiro - Ashbringer"] = {
+			["minimap"] = {
+				["minimapPos"] = 175.413365230505,
+			},
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-21.9012622833252, -- [4]
-					40.6790313720703, -- [5]
+					"RIGHT", -- [3]
+					-224, -- [4]
+					-14, -- [5]
 				},
 				["selected"] = {
 					"AtlasLootClassic_Crafting", -- [1]
-					"Engineering", -- [2]
-					3, -- [3]
-					1, -- [4]
-					-0, -- [5]
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 181.252831594622,
-			},
-		},
-		["Numimage - Ashbringer"] = {
-			["minimap"] = {
-				["minimapPos"] = 207.816740981231,
-			},
-			["GUI"] = {
-				["point"] = {
-					"TOPRIGHT", -- [1]
-					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-255.999984741211, -- [4]
-					-42, -- [5]
-				},
-				["selected"] = {
-					nil, -- [1]
-					"MoltenCore", -- [2]
-					10, -- [3]
-					3, -- [4]
+					"Blacksmithing", -- [2]
+					8, -- [3]
+					4, -- [4]
 					0, -- [5]
 				},
 			},
@@ -66,11 +43,9 @@ AtlasLootClassicDB = {
 					"Leatherworking", -- [2]
 					6, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
-		},
-		["Numireset - Ashbringer"] = {
 		},
 		["Numiafk - Ashbringer"] = {
 		},
@@ -90,32 +65,30 @@ AtlasLootClassicDB = {
 					"BlackwingLair", -- [2]
 					6, -- [3]
 					3, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 			["minimap"] = {
 				["minimapPos"] = 351.195847512043,
 			},
 		},
-		["Numidruid - Ashbringer"] = {
+		["Numimeme - Ashbringer"] = {
 			["GUI"] = {
 				["point"] = {
-					nil, -- [1]
+					"RIGHT", -- [1]
 					nil, -- [2]
-					"CENTER", -- [3]
-					-17.2591209411621, -- [4]
-					40.2098541259766, -- [5]
+					"RIGHT", -- [3]
+					-142, -- [4]
+					23, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"ScarletMonasteryLibrary", -- [2]
-					2, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"Leatherworking", -- [2]
+					11, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
-		},
-		["Numilock - Ashbringer"] = {
 		},
 		["Numiwar - Gehennas"] = {
 			["minimap"] = {
@@ -126,7 +99,7 @@ AtlasLootClassicDB = {
 					"LEFT", -- [1]
 					nil, -- [2]
 					"LEFT", -- [3]
-					-0, -- [4]
+					0, -- [4]
 					-44.2470626831055, -- [5]
 				},
 				["selected"] = {
@@ -134,9 +107,11 @@ AtlasLootClassicDB = {
 					"Ragefire", -- [2]
 					nil, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
+		},
+		["Numiherb - Ashbringer"] = {
 		},
 		["Numiro - Firemaw"] = {
 			["GUI"] = {
@@ -152,7 +127,7 @@ AtlasLootClassicDB = {
 					"WailingCaverns", -- [2]
 					2, -- [3]
 					1, -- [4]
-					-0, -- [5]
+					0, -- [5]
 				},
 			},
 			["minimap"] = {

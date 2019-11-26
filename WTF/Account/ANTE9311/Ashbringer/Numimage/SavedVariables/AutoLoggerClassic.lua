@@ -9,7 +9,7 @@ ALCOptions = {
 		[509] = true,
 		[531] = true,
 		[533] = true,
-		[469] = true,
 		[309] = true,
+		[469] = true,
 	},
 }
