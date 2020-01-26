@@ -1,6 +1,14 @@
+VER 3 0000000001000009 "Charge" "INV_MISC_QUESTIONMARK"
+#showtooltip [stance:3] Intercept; [stance:1] Charge
+/cast [stance:3] Intercept; [stance:1] Charge
+END
 VER 3 0000000001000003 "DW" "INV_MISC_QUESTIONMARK"
 /equip Dal'Rend's Sacred Charge
 /equip Dal'Rend's Tribal Guardian
+END
+VER 3 0000000001000008 "Interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip [stance:3] Pummel; Shield Bash
+/cast [stance:3] Pummel(Rank 2); Shield Bash(Rank 3)
 END
 VER 3 0000000001000006 "MS" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -21,9 +29,14 @@ VER 3 0000000001000002 "Shield" "INV_MISC_QUESTIONMARK"
 /equip Dal'Rend's Sacred Charge
 END
 VER 3 0000000001000007 "SLAM" "INV_MISC_QUESTIONMARK"
-/Stopattack
+#showtooltip
+/stopattack
 /cast Slam(Rank 4)
 /startattack
+END
+VER 3 000000000100000A "StanceSpecial" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast  [stance: 1] Overpower; [stance:2] Disarm; [stance:3] Berserker Rage
 END
 VER 3 0000000001000001 "Sunder" "INV_MISC_QUESTIONMARK"
 #showtooltip

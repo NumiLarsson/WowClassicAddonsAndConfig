@@ -1,8 +1,8 @@
-## Interface: 11302
+## Interface: 11303
 ## Title: NeatPlates
 ## Notes: Enjoys long walks on Darkshore
 ## Author: Luxocracy and friends
-## Version: 1.13.2.45
+## Version: 1.13.3.9
 ## SavedVariables: NeatPlatesSettings, NeatPlatesSpellDB
 ## SavedVariablesPerCharacter: NeatPlatesOptions
 

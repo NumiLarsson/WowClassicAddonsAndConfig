@@ -3,8 +3,8 @@ WeakAurasCompanion: enabled
 ElvUI: enabled
 !Compatibility: enabled
 CensusPlusClassic: disabled
-SpeedrunSplits: disabled
+SpeedrunSplits: enabled
 LFG113: disabled
 ItemRackOptions: enabled
-WeaponSwingTimer: disabled
-Questie: disabled
+WeaponSwingTimer: enabled
+Questie: enabled

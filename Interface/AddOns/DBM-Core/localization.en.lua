@@ -29,7 +29,7 @@ DBM_CORE_LOOT_SPEC_REMINDER			= "Your current spec is %s. Your current loot choi
 
 DBM_CORE_BIGWIGS_ICON_CONFLICT		= "DBM has detected that you have raid icons turned on in both BigWigs and DBM. Please disable icons in one of them to avoid conflicts"
 
-DBM_CORE_MOD_AVAILABLE				= "%s is available for this zone. You can find download on Curse/Twitch or WoWI or deadlybossmods.com"
+DBM_CORE_MOD_AVAILABLE				= "%s is available for this zone. You can find download on Curse/Twitch or WoWI"
 
 DBM_CORE_COMBAT_STARTED				= "%s engaged. Good luck and have fun! :)"
 DBM_CORE_COMBAT_STARTED_IN_PROGRESS	= "Engaged an in progress fight against %s. Good luck and have fun! :)"
@@ -382,8 +382,8 @@ DBM_CORE_AUTO_SPEC_WARN_TEXTS = {
 	switch			= "%s - switch targets",
 	switchcount		= "%s - switch targets (%%s)",
 	gtfo			= "%%s under you - move away",
-	Adds			= "Incoming Adds - switch targets",
-	Addscustom		= "Incoming Adds - %%s",
+	adds			= "Incoming Adds - switch targets",
+	addscustom		= "Incoming Adds - %%s",
 	targetchange	= "Target Change - switch to %%s"
 }
 
@@ -428,8 +428,8 @@ DBM_CORE_AUTO_SPEC_WARN_OPTIONS = {
 	switch			= "Show special warning to switch targets for $spell:%s",
 	switchcount		= "Show special warning (with count) to switch targets for $spell:%s",
 	gtfo 			= "Show special warning to move out of bad stuff on ground",
-	Adds			= "Show special warning to switch targets for incoming adds",
-	Addscustom		= "Show special warning for incoming adds",
+	adds			= "Show special warning to switch targets for incoming adds",
+	addscustom		= "Show special warning for incoming adds",
 	targetchange	= "Show special warning for priority target changes"
 }
 

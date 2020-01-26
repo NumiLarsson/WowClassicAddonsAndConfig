@@ -2,9 +2,9 @@
 NeatPlatesSettings = {
 	["GlobalEmphasizedAuraList"] = "",
 	["DefaultProfile"] = "Default",
-	["GlobalEmphasizedAuraPriority"] = {
-	},
 	["GlobalAuraLookup"] = {
+	},
+	["GlobalEmphasizedAuraPriority"] = {
 	},
 	["GlobalEmphasizedAuraLookup"] = {
 	},
@@ -27,27 +27,28 @@ NeatPlatesSpellDB = {
 			["castTime"] = 37939,
 		},
 		["Arcane Elixir"] = {
-			["castTime"] = 3181,
+			["castTime"] = 3000,
 		},
 		["Frostweave Tunic"] = {
-			["castTime"] = 32059,
+			["castTime"] = 30067.0000001192,
 		},
 		["Mithril Shield Spike"] = {
-			["castTime"] = 3046,
+			["castTime"] = 3066,
 		},
 		["Heroic Strike"] = {
+			["castTime"] = 3250,
 		},
 		["Dampen Magic"] = {
 			["castTime"] = 11597.0000000596,
 		},
 		["Sinister Strike"] = {
-			["castTime"] = 4733,
+			["castTime"] = 2066.0000000149,
 		},
 		["Dense Sharpening Stone"] = {
-			["castTime"] = 3947,
+			["castTime"] = 4000,
 		},
 		["Enchant Bracer - Superior Spirit"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5036.99999999255,
 		},
 		["Runecloth Tunic"] = {
 			["castTime"] = 31556,
@@ -56,19 +57,19 @@ NeatPlatesSpellDB = {
 			["castTime"] = 23501.0000000298,
 		},
 		["Fireball"] = {
-			["castTime"] = 3598,
+			["castTime"] = 2298,
 		},
 		["Enchant Bracer - Superior Strength"] = {
 			["castTime"] = 4949,
 		},
 		["Arcane Intellect"] = {
-			["castTime"] = 25014,
+			["castTime"] = 152181,
 		},
 		["Stoneform"] = {
-			["castTime"] = 4407,
+			["castTime"] = 459068,
 		},
 		["Heavy Blasting Powder"] = {
-			["castTime"] = 2971,
+			["castTime"] = 3033,
 		},
 		["Heavy Kodo Stew"] = {
 			["castTime"] = 2965,
@@ -80,7 +81,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2966,
 		},
 		["EZ-Thro Dynamite II"] = {
-			["castTime"] = 2998.9999999702,
+			["castTime"] = 3033,
 		},
 		["Ritual of Doom"] = {
 			["castTime"] = 10006,
@@ -89,7 +90,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 4482,
 		},
 		["Enchant Weapon - Fiery Weapon"] = {
-			["castTime"] = 5003,
+			["castTime"] = 5200,
 		},
 		["Wing Clip"] = {
 			["castTime"] = 2248,
@@ -104,19 +105,19 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3020,
 		},
 		["Transmute: Earth to Water"] = {
-			["castTime"] = 9983,
+			["castTime"] = 10033,
 		},
 		["Felcloth Hood"] = {
 			["castTime"] = 30200,
 		},
 		["Black Mageweave Gloves"] = {
-			["castTime"] = 36070,
+			["castTime"] = 32555.0000000037,
 		},
 		["Transmute: Mithril to Truesilver"] = {
 			["castTime"] = 9966.9999999702,
 		},
 		["Weak Troll's Blood Potion"] = {
-			["castTime"] = 3066,
+			["castTime"] = 3034,
 		},
 		["Westfall Stew"] = {
 			["castTime"] = 3067,
@@ -125,43 +126,43 @@ NeatPlatesSpellDB = {
 			["castTime"] = 7736.0000000149,
 		},
 		["Mageweave Bandage"] = {
-			["castTime"] = 2903.99999988079,
+			["castTime"] = 3034,
 		},
 		["The Mortar: Reloaded"] = {
 			["castTime"] = 10000,
 		},
 		["Heavy Runecloth Bandage"] = {
-			["castTime"] = 3209.99999988079,
+			["castTime"] = 3034,
 		},
 		["Enchant Chest - Superior Health"] = {
-			["castTime"] = 4921.9999999702,
+			["castTime"] = 5073.9999999851,
 		},
 		["Heavy Armor Kit"] = {
-			["castTime"] = 3213,
+			["castTime"] = 3001,
 		},
 		["Superior Mana Potion"] = {
-			["castTime"] = 3049,
+			["castTime"] = 3066.0000000149,
 		},
 		["Sprint"] = {
-			["castTime"] = 50121,
+			["castTime"] = 162953,
 		},
 		["Rough Bronze Leggings"] = {
-			["castTime"] = 6315,
+			["castTime"] = 5566,
 		},
 		["Heavy Scorpid Vest"] = {
 			["castTime"] = 33519,
 		},
 		["Greater Fire Protection Potion"] = {
-			["castTime"] = 2937,
+			["castTime"] = 3067,
 		},
 		["Dreamweave Gloves"] = {
-			["castTime"] = 30567,
+			["castTime"] = 37500,
 		},
 		["Throw Rock"] = {
 			["castTime"] = 9373,
 		},
 		["Enchant Chest - Superior Mana"] = {
-			["castTime"] = 5043,
+			["castTime"] = 4934,
 		},
 		["Copper Chain Belt"] = {
 			["castTime"] = 109775,
@@ -169,10 +170,8 @@ NeatPlatesSpellDB = {
 		["Enchant 2H Weapon - Superior Impact"] = {
 			["castTime"] = 5000,
 		},
-		["Deep Wound"] = {
-		},
 		["Summon Charger"] = {
-			["castTime"] = 2968.99999988079,
+			["castTime"] = 2966,
 		},
 		["Instant Poison V"] = {
 			["castTime"] = 3066,
@@ -181,16 +180,19 @@ NeatPlatesSpellDB = {
 			["castTime"] = 7456,
 		},
 		["Demon Armor"] = {
-			["castTime"] = 8325966.00000006,
+			["castTime"] = 4666.00000005961,
 		},
 		["Mana Potion"] = {
-			["castTime"] = 5032,
+			["castTime"] = 5087,
 		},
 		["Charge"] = {
 			["castTime"] = 5454,
 		},
 		["Lesser Healing Potion"] = {
-			["castTime"] = 2993.99999988079,
+			["castTime"] = 4699.9999999851,
+		},
+		["Handstitched Linen Britches"] = {
+			["castTime"] = 4966,
 		},
 		["Seal of Wisdom"] = {
 			["castTime"] = 4000,
@@ -199,10 +201,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Runecloth Belt"] = {
-			["castTime"] = 32098,
+			["castTime"] = 31557,
 		},
 		["Robe of Winter Night"] = {
-			["castTime"] = 29935,
+			["castTime"] = 31566.0000004768,
+		},
+		["Sharpen Blade III"] = {
+			["castTime"] = 3067,
 		},
 		["Place Unfired Blade"] = {
 			["castTime"] = 1000,
@@ -214,7 +219,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 12,
 		},
 		["Bronze Framework"] = {
-			["castTime"] = 3056.9999999404,
+			["castTime"] = 3000,
 		},
 		["Physical Protection"] = {
 			["castTime"] = 845,
@@ -223,16 +228,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3478073,
 		},
 		["Anti-Venom"] = {
-			["castTime"] = 2920,
+			["castTime"] = 2902,
 		},
 		["Shackle Undead"] = {
 			["castTime"] = 1496,
 		},
 		["Enchant 2H Weapon - Greater Impact"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5067,
 		},
 		["Greater Arcane Elixir"] = {
-			["castTime"] = 3014,
+			["castTime"] = 2966,
 		},
 		["Bloodthirst"] = {
 			["castTime"] = 5033,
@@ -240,19 +245,17 @@ NeatPlatesSpellDB = {
 		["Rich Purple Silk Shirt"] = {
 			["castTime"] = 10031,
 		},
-		["Recently Bandaged"] = {
-		},
 		["Bounty of the Harvest"] = {
 			["castTime"] = 3000,
 		},
 		["Gnomish Mind Control Cap"] = {
-			["castTime"] = 10007,
+			["castTime"] = 10065.9999997616,
 		},
 		["Earthbind Totem"] = {
 			["castTime"] = 1670,
 		},
 		["Field Repair Bot 74A"] = {
-			["castTime"] = 60000,
+			["castTime"] = 30033.9999999404,
 		},
 		["Cooked Crab Claw"] = {
 			["castTime"] = 2987,
@@ -261,27 +264,28 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3416,
 		},
 		["Prayer of Fortitude"] = {
-			["castTime"] = 84936.9999999404,
+			["castTime"] = 1613,
 		},
 		["Barkskin"] = {
 			["castTime"] = 2603057,
 		},
 		["Curiously Tasty Omelet"] = {
-			["castTime"] = 3033,
+			["castTime"] = 2933,
 		},
-		["Sunder Armor"] = {
+		["Dark Leather Shoulders"] = {
+			["castTime"] = 12167,
 		},
 		["Crocolisk Steak"] = {
 			["castTime"] = 3066,
 		},
 		["Enchant Boots - Stamina"] = {
-			["castTime"] = 4989,
+			["castTime"] = 5067,
 		},
 		["Whirlwind"] = {
 			["castTime"] = 3807,
 		},
 		["Lesser Healing Wave"] = {
-			["castTime"] = 1557,
+			["castTime"] = 1505,
 		},
 		["Health Funnel"] = {
 			["castTime"] = 2336,
@@ -302,16 +306,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 7227.9999999851,
 		},
 		["Wicked Leather Headband"] = {
-			["castTime"] = 30799,
+			["castTime"] = 30034,
 		},
 		["Crude Scope"] = {
-			["castTime"] = 3007,
+			["castTime"] = 2966,
 		},
 		["Enchant  Weapon - Healing Power"] = {
 			["castTime"] = 5000,
 		},
 		["Azure Silk Hood"] = {
-			["castTime"] = 5393,
+			["castTime"] = 5267,
 		},
 		["Deadly Poison III"] = {
 			["castTime"] = 3000,
@@ -320,7 +324,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 16698,
 		},
 		["Enchant Weapon - Lesser Beastslayer"] = {
-			["castTime"] = 4970.0000000596,
+			["castTime"] = 4934,
 		},
 		["Soul Fire"] = {
 			["castTime"] = 4023,
@@ -332,44 +336,43 @@ NeatPlatesSpellDB = {
 			["castTime"] = 1000,
 		},
 		["Thorium Grenade"] = {
-			["castTime"] = 1027,
+			["castTime"] = 976,
 		},
 		["Frost Armor"] = {
-			["castTime"] = 237105,
+			["castTime"] = 430680,
 		},
 		["Bolt of Runecloth"] = {
-			["castTime"] = 5035,
+			["castTime"] = 4966,
 		},
 		["Shadoweave Gloves"] = {
 			["castTime"] = 33531,
 		},
 		["Boiled Clams"] = {
-			["castTime"] = 2965,
+			["castTime"] = 2933,
 		},
 		["Concentration Aura"] = {
-			["castTime"] = 36959,
+			["castTime"] = 2667,
 		},
 		["Enchant Chest - Minor Absorption"] = {
 			["castTime"] = 4932,
 		},
-		["Dash"] = {
-		},
-		["Holy Strength"] = {
-		},
 		["Enchant 2H Weapon - Lesser Intellect"] = {
-			["castTime"] = 5041,
+			["castTime"] = 4966,
 		},
 		["Light Leather"] = {
-			["castTime"] = 4519,
+			["castTime"] = 3067,
 		},
 		["Gift of Arthas"] = {
-			["castTime"] = 3131,
+			["castTime"] = 2966,
 		},
 		["Swim Speed Potion"] = {
 			["castTime"] = 3014.0000000596,
 		},
 		["Teleport: Orgrimmar"] = {
 			["castTime"] = 10061,
+		},
+		["Enchant Gloves - Mining"] = {
+			["castTime"] = 4973,
 		},
 		["Curse of Exhaustion"] = {
 			["castTime"] = 1214.9999999851,
@@ -378,74 +381,73 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2934,
 		},
 		["Elixir of Giant Growth"] = {
-			["castTime"] = 3013,
+			["castTime"] = 2833,
 		},
 		["Crocolisk Gumbo"] = {
-			["castTime"] = 2956,
+			["castTime"] = 3100,
 		},
 		["Lightning Shield"] = {
 			["castTime"] = 2730,
 		},
 		["Felcloth Gloves"] = {
-			["castTime"] = 30074,
+			["castTime"] = 30004.9999999926,
 		},
 		["Counterspell"] = {
 			["castTime"] = 562,
 		},
-		["Illumination"] = {
-		},
 		["Black Dragonscale Shoulders"] = {
-			["castTime"] = 30021,
+			["castTime"] = 30000,
 		},
 		["Teleport: Darnassus"] = {
-			["castTime"] = 10132,
+			["castTime"] = 10067,
 		},
 		["Noggenfogger Elixir"] = {
-			["castTime"] = 13988.0000001192,
+			["castTime"] = 2334,
 		},
 		["Consecration"] = {
 			["castTime"] = 918,
 		},
 		["Berserker Stance"] = {
-			["castTime"] = 1226250,
+			["castTime"] = 91386.9999995232,
 		},
 		["Fear"] = {
-			["castTime"] = 1917.0000000596,
+			["castTime"] = 1432,
 		},
 		["Howl of Terror"] = {
-			["castTime"] = 2166,
+			["castTime"] = 2062,
 		},
 		["Mithril Headed Trout"] = {
-			["castTime"] = 3074,
+			["castTime"] = 3100.00000000093,
 		},
 		["Salt Shaker"] = {
-			["castTime"] = 25086,
+			["castTime"] = 24964,
 		},
 		["Enchant Gloves - Fishing"] = {
-			["castTime"] = 5000,
+			["castTime"] = 4900,
 		},
 		["Tender Wolf Steak"] = {
-			["castTime"] = 3032,
+			["castTime"] = 2966,
 		},
 		["Enchant 2H Weapon - Lesser Impact"] = {
 			["castTime"] = 5000,
 		},
+		["Flarecore Wraps"] = {
+			["castTime"] = 30033,
+		},
 		["Elixir of Greater Intellect"] = {
-			["castTime"] = 3011,
+			["castTime"] = 2967,
 		},
 		["Slam"] = {
-			["castTime"] = 1510,
-		},
-		["Unbridled Wrath"] = {
+			["castTime"] = 1100,
 		},
 		["Goblin Dragon Gun"] = {
 			["castTime"] = 9944,
 		},
 		["Rugged Armor Kit"] = {
-			["castTime"] = 4957,
+			["castTime"] = 5000,
 		},
 		["Prayer of Spirit"] = {
-			["castTime"] = 3603,
+			["castTime"] = 3252,
 		},
 		["Tranquilizing Shot"] = {
 			["castTime"] = 1078,
@@ -460,24 +462,22 @@ NeatPlatesSpellDB = {
 			["castTime"] = 17862,
 		},
 		["Goblin Sapper Charge"] = {
-			["castTime"] = 8629.0000000149,
+			["castTime"] = 96347,
 		},
 		["Elixir of Ogre's Strength"] = {
-			["castTime"] = 3003,
+			["castTime"] = 3067.0000000596,
 		},
 		["Plant Thornling"] = {
 			["castTime"] = 24235,
 		},
 		["Elixir of Defense"] = {
-			["castTime"] = 2985.9999999404,
+			["castTime"] = 3022.9999999404,
 		},
 		["Gordok Ogre Suit"] = {
 			["castTime"] = 29971,
 		},
-		["Track Undead"] = {
-		},
 		["Sharpen Blade IV"] = {
-			["castTime"] = 3042.99999988079,
+			["castTime"] = 2900,
 		},
 		["Whipper Root Tuber"] = {
 			["castTime"] = 2259,
@@ -498,31 +498,31 @@ NeatPlatesSpellDB = {
 			["castTime"] = 184946,
 		},
 		["Renew"] = {
-			["castTime"] = 1815,
+			["castTime"] = 10365.9999999404,
 		},
 		["Seal of Righteousness"] = {
-			["castTime"] = 29028,
+			["castTime"] = 13334,
 		},
 		["Enchant Bracer - Superior Stamina"] = {
-			["castTime"] = 5018,
+			["castTime"] = 4967,
 		},
 		["Polymorph"] = {
-			["castTime"] = 1502.9999999404,
+			["castTime"] = 1425,
 		},
 		["Enchant Gloves - Riding Skill"] = {
 			["castTime"] = 5071,
 		},
 		["Enchant Bracer - Minor Health"] = {
-			["castTime"] = 5066,
+			["castTime"] = 5034,
 		},
 		["Drain Soul"] = {
-			["castTime"] = 967,
+			["castTime"] = 242448,
 		},
 		["Heavy Copper Maul"] = {
-			["castTime"] = 9004,
+			["castTime"] = 8433,
 		},
 		["Robe of the Archmage"] = {
-			["castTime"] = 30024,
+			["castTime"] = 30033,
 		},
 		["Will of the Forsaken"] = {
 			["castTime"] = 2234,
@@ -537,59 +537,55 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3033,
 		},
 		["Blessing of Wisdom"] = {
-			["castTime"] = 3875,
+			["castTime"] = 114682.000000477,
 		},
 		["Mark of the Dragon Lord"] = {
 			["castTime"] = 3312,
 		},
 		["Runed Truesilver Rod"] = {
-			["castTime"] = 30013,
+			["castTime"] = 29971,
 		},
 		["Elixir of Detect Demon"] = {
 			["castTime"] = 2967,
 		},
 		["Enchant Chest - Minor Health"] = {
-			["castTime"] = 4999,
+			["castTime"] = 5035.00000047684,
 		},
 		["Robes of Arcana"] = {
-			["castTime"] = 12912,
+			["castTime"] = 10006,
 		},
 		["Vanish"] = {
-			["castTime"] = 24426.0000000149,
+			["castTime"] = 122081,
 		},
 		["Armor +24"] = {
-			["castTime"] = 3047,
+			["castTime"] = 2948,
 		},
 		["Curse of Tongues"] = {
 			["castTime"] = 3801,
 		},
 		["Smelt Tin"] = {
-			["castTime"] = 3146,
+			["castTime"] = 2998,
 		},
 		["Solid Sharpening Stone"] = {
-			["castTime"] = 3106.9999999702,
+			["castTime"] = 3000,
 		},
 		["Summon Smolderweb"] = {
-			["castTime"] = 1000,
-		},
-		["Death Wish"] = {
-		},
-		["Evil Twin"] = {
+			["castTime"] = 100,
 		},
 		["Healing Potion"] = {
-			["castTime"] = 2993,
+			["castTime"] = 2933,
 		},
 		["Banish"] = {
-			["castTime"] = 1502,
+			["castTime"] = 3767,
 		},
 		["Enchant Bracer - Lesser Strength"] = {
-			["castTime"] = 5000,
+			["castTime"] = 4907.00000005961,
 		},
 		["Replenish Mana"] = {
 			["castTime"] = 2181.0000000298,
 		},
 		["Enchant Cloak - Minor Agility"] = {
-			["castTime"] = 5048,
+			["castTime"] = 5000,
 		},
 		["Place Scryer"] = {
 			["castTime"] = 3007,
@@ -601,34 +597,34 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5047,
 		},
 		["Mighty Troll's Blood Potion"] = {
-			["castTime"] = 5062,
+			["castTime"] = 5067.0000000149,
 		},
 		["Flask of the Titans"] = {
 			["castTime"] = 10009.9999999702,
 		},
 		["Rough Dynamite"] = {
-			["castTime"] = 1019.9999999404,
+			["castTime"] = 933.999999970198,
 		},
 		["Silver Contact"] = {
-			["castTime"] = 2990.9999999404,
+			["castTime"] = 3034,
 		},
 		["Copper Modulator"] = {
-			["castTime"] = 2966,
+			["castTime"] = 3166,
 		},
 		["Spider Sausage"] = {
-			["castTime"] = 3000,
+			["castTime"] = 2934,
 		},
 		["Runed Silver Rod"] = {
-			["castTime"] = 30088.0000000298,
+			["castTime"] = 30035,
 		},
 		["Aspect of the Cheetah"] = {
-			["castTime"] = 150132,
+			["castTime"] = 72959,
 		},
 		["Seal Felvine Shard"] = {
 			["castTime"] = 3014,
 		},
 		["Whirring Bronze Gizmo"] = {
-			["castTime"] = 3094.99999988079,
+			["castTime"] = 3033,
 		},
 		["Weapon Counterweight"] = {
 			["castTime"] = 3042,
@@ -637,22 +633,22 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000.99999976158,
 		},
 		["Soothing Turtle Bisque"] = {
-			["castTime"] = 3033.9999999404,
+			["castTime"] = 3000,
 		},
 		["Golden Scale Bracers"] = {
 			["castTime"] = 10005.9999997616,
 		},
 		["Philosophers' Stone"] = {
-			["castTime"] = 30088.0000000596,
+			["castTime"] = 29966.9999999702,
 		},
 		["Light Leather Bracers"] = {
 			["castTime"] = 3230,
 		},
 		["Armor +8"] = {
-			["castTime"] = 3045,
+			["castTime"] = 3000,
 		},
 		["Medium Armor Kit"] = {
-			["castTime"] = 3032.99999976158,
+			["castTime"] = 3011,
 		},
 		["Yaaarrrr"] = {
 			["castTime"] = 41222,
@@ -661,39 +657,40 @@ NeatPlatesSpellDB = {
 			["castTime"] = 9913,
 		},
 		["Goblin Rocket Fuel Recipe"] = {
-			["castTime"] = 10049.9999997616,
+			["castTime"] = 10001,
 		},
 		["Heavy Woolen Gloves"] = {
 			["castTime"] = 6830,
 		},
 		["Wound Poison"] = {
-			["castTime"] = 2952,
+			["castTime"] = 3000,
 		},
 		["Elixir of Firepower"] = {
-			["castTime"] = 3076.0000000298,
+			["castTime"] = 3000,
 		},
 		["Mana Shield"] = {
-			["castTime"] = 14364,
+			["castTime"] = 593754,
 		},
 		["Runed Arcanite Rod"] = {
-			["castTime"] = 29940,
+			["castTime"] = 29966,
 		},
 		["Small Silk Pack"] = {
-			["castTime"] = 9899.99999988079,
+			["castTime"] = 12967,
 		},
 		["Gnomish Rocket Boots"] = {
 			["castTime"] = 8000,
 		},
 		["Enchanted Mageweave Pouch"] = {
-			["castTime"] = 15899.9999997616,
+			["castTime"] = 22500,
 		},
 		["Abolish Disease"] = {
 			["castTime"] = 4688.0000000298,
 		},
-		["Regeneration"] = {
-		},
 		["Scare Beast"] = {
-			["castTime"] = 3353,
+			["castTime"] = 1572,
+		},
+		["Lightwell"] = {
+			["castTime"] = 1617,
 		},
 		["Enchant Shield - Stamina"] = {
 			["castTime"] = 5012.0000000596,
@@ -702,49 +699,52 @@ NeatPlatesSpellDB = {
 			["castTime"] = 14224.0000001192,
 		},
 		["Green Linen Bracers"] = {
-			["castTime"] = 5691,
+			["castTime"] = 4033,
 		},
 		["Triage"] = {
 			["castTime"] = 6998.00000011921,
 		},
 		["Summon Succubus"] = {
-			["castTime"] = 506,
+			["castTime"] = 6067,
 		},
 		["Silvered Bronze Gauntlets"] = {
-			["castTime"] = 12186,
+			["castTime"] = 12985.0000000298,
 		},
 		["Heavy Linen Gloves"] = {
-			["castTime"] = 3773,
+			["castTime"] = 3839.99999976158,
 		},
 		["Pearl-clasped Cloak"] = {
-			["castTime"] = 6966,
+			["castTime"] = 8034,
 		},
 		["Poison Cleansing Totem"] = {
 			["castTime"] = 2317,
 		},
 		["Bronze Tube"] = {
-			["castTime"] = 2976.99999988079,
+			["castTime"] = 3034.0000000596,
 		},
 		["Crippling Poison II"] = {
-			["castTime"] = 2951,
+			["castTime"] = 3063,
 		},
 		["Goblin Construction Helmet"] = {
 			["castTime"] = 10049,
 		},
 		["Enchant Gloves - Strength"] = {
-			["castTime"] = 5069,
+			["castTime"] = 5033,
 		},
 		["Curse of Doom"] = {
 			["castTime"] = 2441,
 		},
 		["Enchant Chest - Health"] = {
-			["castTime"] = 5073,
+			["castTime"] = 5000,
 		},
 		["Invisibility Potion"] = {
-			["castTime"] = 3089,
+			["castTime"] = 3000,
 		},
 		["Health"] = {
 			["castTime"] = 18393,
+		},
+		["Melodious Rapture"] = {
+			["castTime"] = 1033.0000000596,
 		},
 		["Enchant Bracer - Spirit"] = {
 			["castTime"] = 5174,
@@ -774,85 +774,91 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Ritual of Summoning"] = {
-			["castTime"] = 4966,
+			["castTime"] = 4967,
 		},
 		["Double-stitched Woolen Shoulders"] = {
-			["castTime"] = 4972,
+			["castTime"] = 5010.0000000298,
 		},
 		["Hamstring"] = {
 			["castTime"] = 340271,
 		},
 		["Brightcloth Cloak"] = {
-			["castTime"] = 31028,
+			["castTime"] = 30482,
+		},
+		["Distract"] = {
+			["castTime"] = 12067,
 		},
 		["Mind Control"] = {
 			["castTime"] = 2999.0000000149,
 		},
 		["Barbaric Shoulders"] = {
-			["castTime"] = 20594.0000002384,
+			["castTime"] = 27000,
 		},
 		["Linen Bandage"] = {
-			["castTime"] = 48193,
+			["castTime"] = 3067,
 		},
 		["Enchant Bracer - Minor Deflect"] = {
 			["castTime"] = 5000,
 		},
 		["Wool Bandage"] = {
-			["castTime"] = 3202,
+			["castTime"] = 3000,
 		},
 		["Quickdraw Quiver"] = {
-			["castTime"] = 9976,
+			["castTime"] = 10000,
 		},
 		["Enchant Bracer - Minor Spirit"] = {
 			["castTime"] = 5000,
 		},
 		["Smelt Mithril"] = {
-			["castTime"] = 2981.99999988079,
+			["castTime"] = 3000,
 		},
 		["Charred Wolf Meat"] = {
-			["castTime"] = 2924.99999988079,
+			["castTime"] = 3067.00000000186,
 		},
 		["Mind Flay"] = {
 			["castTime"] = 1074,
 		},
 		["Rage Potion"] = {
-			["castTime"] = 3039,
+			["castTime"] = 3000,
 		},
 		["Magic Resistance Potion"] = {
 			["castTime"] = 3233,
 		},
 		["Blink"] = {
-			["castTime"] = 9114,
+			["castTime"] = 868563,
 		},
 		["Elixir of Demonslaying"] = {
-			["castTime"] = 2971.00000023842,
+			["castTime"] = 3000,
 		},
 		["Goblin Deviled Clams"] = {
-			["castTime"] = 3051.9999999702,
+			["castTime"] = 2966.0000000596,
 		},
 		["Hi-Explosive Bomb"] = {
-			["castTime"] = 1043,
+			["castTime"] = 1100,
 		},
 		["Chain Lightning"] = {
 			["castTime"] = 1606,
 		},
 		["Hide of the Wild"] = {
-			["castTime"] = 32693.9999999404,
+			["castTime"] = 30041,
 		},
 		["Defensive Stance"] = {
-			["castTime"] = 26155.9999998808,
+			["castTime"] = 38067,
 		},
 		["Dawn's Gambit"] = {
 			["castTime"] = 1501,
 		},
 		["Dense Grinding Stone"] = {
-			["castTime"] = 8016,
+			["castTime"] = 4100,
+		},
+		["Enchant Cloak - Lesser Shadow Resistance"] = {
+			["castTime"] = 4933.9999999851,
 		},
 		["Enchant Cloak - Minor Protection"] = {
 			["castTime"] = 5033,
 		},
 		["Enchant Gloves - Greater Agility"] = {
-			["castTime"] = 4976,
+			["castTime"] = 5000,
 		},
 		["Iron Counterweight"] = {
 			["castTime"] = 10206.9999999702,
@@ -873,16 +879,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 38042,
 		},
 		["Red Mageweave Bag"] = {
-			["castTime"] = 60000,
+			["castTime"] = 35566,
 		},
 		["Transmute: Iron to Gold"] = {
-			["castTime"] = 9979.00000023842,
+			["castTime"] = 10033.0000004768,
 		},
 		["Throw Dark Iron Ale"] = {
 			["castTime"] = 492,
 		},
 		["Smelt Gold"] = {
-			["castTime"] = 2933,
+			["castTime"] = 2934,
 		},
 		["Goretusk Liver Pie"] = {
 			["castTime"] = 3483,
@@ -906,28 +912,28 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2402,
 		},
 		["Elixir of Minor Defense"] = {
-			["castTime"] = 3095.9999999404,
+			["castTime"] = 3033,
 		},
 		["Goblin Rocket Boots"] = {
 			["castTime"] = 5141,
 		},
 		["Transmute: Life to Earth"] = {
-			["castTime"] = 10085,
+			["castTime"] = 10067,
 		},
 		["Drive Nimboya's Laden Pike"] = {
 			["castTime"] = 2032.00000000186,
 		},
 		["Deadly Poison IV"] = {
-			["castTime"] = 3034,
+			["castTime"] = 3033,
 		},
 		["Elixir of Fortitude"] = {
-			["castTime"] = 5018,
+			["castTime"] = 5167,
 		},
 		["Wicked Leather Gauntlets"] = {
-			["castTime"] = 33536,
+			["castTime"] = 31567,
 		},
 		["Flamestrike"] = {
-			["castTime"] = 3050,
+			["castTime"] = 2967,
 		},
 		["Disarm Trap"] = {
 			["castTime"] = 2000,
@@ -936,7 +942,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 10000,
 		},
 		["Heavy Silk Bandage"] = {
-			["castTime"] = 3030,
+			["castTime"] = 2964,
 		},
 		["Hemorrhage"] = {
 			["castTime"] = 8109,
@@ -945,59 +951,55 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Enchant Gloves - Advanced Herbalism"] = {
-			["castTime"] = 4975.9999999702,
-		},
-		["Shadow Protection "] = {
+			["castTime"] = 5066.00000000047,
 		},
 		["Evocation"] = {
-			["castTime"] = 2777,
+			["castTime"] = 1900,
 		},
 		["Seasoned Wolf Kabob"] = {
 			["castTime"] = 2977,
 		},
 		["Enchant Shield - Minor Stamina"] = {
-			["castTime"] = 4889,
+			["castTime"] = 5066,
 		},
 		["Big Bronze Knife"] = {
 			["castTime"] = 14558.0000002384,
 		},
 		["Immolate"] = {
-			["castTime"] = 1478,
+			["castTime"] = 1958,
 		},
 		["Teleport: Stormwind"] = {
-			["castTime"] = 10176,
+			["castTime"] = 10007.9999999851,
 		},
 		["Inferno"] = {
-			["castTime"] = 1904,
+			["castTime"] = 2034,
 		},
 		["Gift of the Wild"] = {
 			["castTime"] = 6128.00000005961,
 		},
 		["Enchant Bracer - Greater Strength"] = {
-			["castTime"] = 5059,
+			["castTime"] = 4993,
 		},
 		["Net-o-Matic"] = {
 			["castTime"] = 1460,
 		},
 		["Enchant Chest - Minor Stats"] = {
-			["castTime"] = 4932.9999999404,
+			["castTime"] = 5100,
 		},
 		["Bolt of Woolen Cloth"] = {
-			["castTime"] = 2935,
+			["castTime"] = 3000,
 		},
 		["Mightfish Steak"] = {
-			["castTime"] = 3074.9999999702,
+			["castTime"] = 3000,
 		},
 		["Thick Armor Kit"] = {
 			["castTime"] = 2966,
 		},
 		["Feed Pet"] = {
-			["castTime"] = 7300117,
+			["castTime"] = 825137,
 		},
 		["Enchant 2H Weapon - Major Intellect"] = {
-			["castTime"] = 5000,
-		},
-		["Spinal Reaper"] = {
+			["castTime"] = 4966,
 		},
 		["EZ-Thro Dynamite"] = {
 			["castTime"] = 3013.00000011921,
@@ -1017,19 +1019,17 @@ NeatPlatesSpellDB = {
 		["Death Coil"] = {
 			["castTime"] = 5601,
 		},
-		["Track Demons"] = {
-		},
 		["Create Soulstone (Major)"] = {
-			["castTime"] = 2996,
+			["castTime"] = 3100,
 		},
 		["Heavy Grinding Stone"] = {
-			["castTime"] = 3933.9999999404,
+			["castTime"] = 3999,
 		},
 		["Thorium Bracers"] = {
 			["castTime"] = 34010,
 		},
 		["Summon Felsteed"] = {
-			["castTime"] = 3165,
+			["castTime"] = 2967,
 		},
 		["Bat Costume"] = {
 			["castTime"] = 796592,
@@ -1038,25 +1038,25 @@ NeatPlatesSpellDB = {
 			["castTime"] = 4086,
 		},
 		["Enchant Cloak - Superior Defense"] = {
-			["castTime"] = 5193,
+			["castTime"] = 5066,
 		},
 		["Transmute: Arcanite"] = {
-			["castTime"] = 24908,
+			["castTime"] = 24952,
 		},
 		["Enchant Chest - Stats"] = {
-			["castTime"] = 4956,
+			["castTime"] = 5156,
 		},
 		["Barbaric Harness"] = {
 			["castTime"] = 9961,
 		},
 		["Greater Arcane Protection Potion"] = {
-			["castTime"] = 3067,
+			["castTime"] = 3000,
 		},
 		["Grounding Totem"] = {
 			["castTime"] = 6717,
 		},
 		["Solid Grinding Stone"] = {
-			["castTime"] = 3966.9999999702,
+			["castTime"] = 4000,
 		},
 		["Shadow Power"] = {
 			["castTime"] = 7718,
@@ -1065,16 +1065,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 16243.9999999404,
 		},
 		["Frostbolt"] = {
-			["castTime"] = 2513.00000011921,
+			["castTime"] = 1798,
 		},
 		["Enchant Gloves - Minor Haste"] = {
 			["castTime"] = 5045,
 		},
 		["Furbolg Form"] = {
-			["castTime"] = 1993,
+			["castTime"] = 1966,
 		},
 		["Dismiss Pet"] = {
-			["castTime"] = 5049,
+			["castTime"] = 5157,
 		},
 		["Desperate Prayer"] = {
 			["castTime"] = 1051,
@@ -1082,28 +1082,38 @@ NeatPlatesSpellDB = {
 		["Elemental Mastery"] = {
 			["castTime"] = 803,
 		},
+		["Rocket Blast"] = {
+			["castTime"] = 3000,
+		},
 		["Rough Bronze Boots"] = {
 			["castTime"] = 4466.00000000745,
 		},
+		["Swift Boots"] = {
+			["castTime"] = 14967,
+		},
 		["Cat Form"] = {
-			["castTime"] = 12974.9999999404,
+			["castTime"] = 29900,
 		},
 		["Remove Lesser Curse"] = {
 			["castTime"] = 3387,
 		},
 		["Innervate"] = {
-			["castTime"] = 2056,
+			["castTime"] = 5800,
 		},
 		["Spider Belt"] = {
-			["castTime"] = 27000,
+			["castTime"] = 24467,
 		},
 		["Copper Tube"] = {
 			["castTime"] = 3659,
 		},
-		["Flurry"] = {
+		["Gingerbread Cookie"] = {
+			["castTime"] = 2947.00000011921,
 		},
 		["Brilliant Smallfish"] = {
-			["castTime"] = 3008.9999999404,
+			["castTime"] = 2967,
+		},
+		["Create Spellstone (Major)"] = {
+			["castTime"] = 5050,
 		},
 		["Immolation Trap"] = {
 			["castTime"] = 2657,
@@ -1112,61 +1122,64 @@ NeatPlatesSpellDB = {
 			["castTime"] = 10570,
 		},
 		["Gnomish Battle Chicken"] = {
-			["castTime"] = 10034,
+			["castTime"] = 899833,
 		},
 		["Elemental Sharpening Stone"] = {
-			["castTime"] = 4267,
+			["castTime"] = 3982,
+		},
+		["Red Whelp Gloves"] = {
+			["castTime"] = 4933,
 		},
 		["Enchant Bracer - Minor Agility"] = {
-			["castTime"] = 5250,
+			["castTime"] = 5066.9999999851,
 		},
 		["Truesilver Transformer"] = {
 			["castTime"] = 4066,
 		},
 		["Swiftness Potion"] = {
-			["castTime"] = 3026,
+			["castTime"] = 2967,
 		},
 		["Silk Headband"] = {
-			["castTime"] = 11975.0000001192,
+			["castTime"] = 11400,
 		},
 		["Iron Shield Spike"] = {
 			["castTime"] = 2966,
 		},
 		["Regrowth"] = {
-			["castTime"] = 1544,
+			["castTime"] = 1967,
 		},
 		["Greater Mana Potion"] = {
-			["castTime"] = 2835,
+			["castTime"] = 3033.00000047684,
 		},
 		["Spotted Yellowtail"] = {
-			["castTime"] = 3026.00000011921,
+			["castTime"] = 3000,
 		},
 		["Trueshot Aura"] = {
 			["castTime"] = 34917,
 		},
 		["Wicked Leather Bracers"] = {
-			["castTime"] = 33991.9999999404,
+			["castTime"] = 32033.9999997616,
 		},
 		["Barbecued Buzzard Wing"] = {
-			["castTime"] = 2960,
+			["castTime"] = 2967,
 		},
 		["White Bandit Mask"] = {
-			["castTime"] = 30865,
+			["castTime"] = 30000,
 		},
 		["White Swashbuckler's Shirt"] = {
 			["castTime"] = 10000,
 		},
 		["Wrath"] = {
-			["castTime"] = 1500,
+			["castTime"] = 1597,
 		},
 		["Blessing of Kings"] = {
-			["castTime"] = 3942,
+			["castTime"] = 19167.0000004768,
 		},
 		["Elixir of the Sages"] = {
-			["castTime"] = 3031,
+			["castTime"] = 2966,
 		},
 		["Armor +40"] = {
-			["castTime"] = 3066,
+			["castTime"] = 3000,
 		},
 		["Enhance Blunt Weapon V"] = {
 			["castTime"] = 2998,
@@ -1175,7 +1188,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 32993,
 		},
 		["The Big One"] = {
-			["castTime"] = 4997,
+			["castTime"] = 2967.00000011921,
 		},
 		["Distracting Shot"] = {
 			["castTime"] = 810.999999761581,
@@ -1184,37 +1197,37 @@ NeatPlatesSpellDB = {
 			["castTime"] = 34717,
 		},
 		["Crafted Heavy Shot"] = {
-			["castTime"] = 3012.9999999702,
+			["castTime"] = 3057,
 		},
 		["Runed Copper Rod"] = {
-			["castTime"] = 10015,
+			["castTime"] = 9967,
 		},
 		["Smite"] = {
-			["castTime"] = 1946,
+			["castTime"] = 3004,
 		},
 		["Crippling Poison"] = {
-			["castTime"] = 3138,
+			["castTime"] = 3033,
 		},
 		["Poison Cloud"] = {
 			["castTime"] = 1000,
 		},
 		["Nightfin Soup"] = {
-			["castTime"] = 3360,
+			["castTime"] = 3000,
 		},
 		["Divine Favor"] = {
-			["castTime"] = 1872,
+			["castTime"] = 6400,
 		},
 		["Rumsey Rum Black Label"] = {
 			["castTime"] = 10,
 		},
 		["Cultivate Packet of Seeds"] = {
-			["castTime"] = 9984,
+			["castTime"] = 10000,
 		},
 		["Detect Magic"] = {
 			["castTime"] = 1187,
 		},
 		["Curse of Agony"] = {
-			["castTime"] = 61800.9999999404,
+			["castTime"] = 1433,
 		},
 		["Enchant Boots - Greater Agility"] = {
 			["castTime"] = 5000,
@@ -1223,7 +1236,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 19922,
 		},
 		["Enchant Weapon - Striking"] = {
-			["castTime"] = 5009,
+			["castTime"] = 5000,
 		},
 		["Berserker Rage"] = {
 			["castTime"] = 5999,
@@ -1232,7 +1245,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2488,
 		},
 		["Blackmouth Oil"] = {
-			["castTime"] = 5305,
+			["castTime"] = 5000,
 		},
 		["Raptor Strike"] = {
 			["castTime"] = 2403,
@@ -1244,21 +1257,22 @@ NeatPlatesSpellDB = {
 			["castTime"] = 29989,
 		},
 		["Enchant Gloves - Advanced Mining"] = {
-			["castTime"] = 5066.0000000596,
+			["castTime"] = 5000,
+		},
+		["Black Mageweave Vest"] = {
+			["castTime"] = 30000,
 		},
 		["Rough Weightstone"] = {
 			["castTime"] = 5125,
 		},
 		["Elixir of Minor Agility"] = {
-			["castTime"] = 3024,
-		},
-		["Track Humanoids"] = {
+			["castTime"] = 3000,
 		},
 		["Ice Block"] = {
-			["castTime"] = 1638.9999999404,
+			["castTime"] = 21302.0000004768,
 		},
 		["Stealth"] = {
-			["castTime"] = 4426071,
+			["castTime"] = 429070,
 		},
 		["Restore Mana"] = {
 			["castTime"] = 6120,
@@ -1267,13 +1281,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5695.99999976158,
 		},
 		["Truefaith Vestments"] = {
-			["castTime"] = 29947,
+			["castTime"] = 30104,
 		},
 		["Arcane Power"] = {
 			["castTime"] = 2700,
 		},
 		["Fire Blast"] = {
-			["castTime"] = 2162,
+			["castTime"] = 11405,
 		},
 		["Purge"] = {
 			["castTime"] = 573.999999940395,
@@ -1282,44 +1296,43 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5075.00000023842,
 		},
 		["Gyrofreeze Ice Reflector"] = {
-			["castTime"] = 14913.0000004768,
+			["castTime"] = 17532.9999997616,
 		},
-		["Greater Armor"] = {
+		["Brown Linen Vest"] = {
+			["castTime"] = 4100,
 		},
 		["Smelt Silver"] = {
-			["castTime"] = 3040,
-		},
-		["Bolt of Linen Cloth"] = {
 			["castTime"] = 3066,
 		},
+		["Bolt of Linen Cloth"] = {
+			["castTime"] = 2967,
+		},
 		["Runecloth Bandage"] = {
-			["castTime"] = 3032,
+			["castTime"] = 3066,
 		},
 		["Smelt Truesilver"] = {
-			["castTime"] = 2966,
-		},
-		["Distilled Wisdom"] = {
+			["castTime"] = 3100,
 		},
 		["Summon Imp"] = {
-			["castTime"] = 10195,
+			["castTime"] = 433,
 		},
 		["Smelt Thorium"] = {
-			["castTime"] = 3030,
+			["castTime"] = 2998,
 		},
 		["Dusky Belt"] = {
-			["castTime"] = 25566,
+			["castTime"] = 15023,
 		},
 		["Aspect of the Hawk"] = {
 			["castTime"] = 84514,
 		},
 		["Limited Invulnerability Potion"] = {
-			["castTime"] = 2920,
+			["castTime"] = 3434.0000000149,
 		},
 		["Flame Shock"] = {
-			["castTime"] = 3508.9999999404,
+			["castTime"] = 2265,
 		},
 		["Bolt of Mageweave"] = {
-			["castTime"] = 3936,
+			["castTime"] = 3992,
 		},
 		["Purification Potion"] = {
 			["castTime"] = 2983,
@@ -1328,16 +1341,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 9512,
 		},
 		["Enchant Shield - Greater Spirit"] = {
-			["castTime"] = 5019,
+			["castTime"] = 5000,
 		},
 		["Greater Eternal Essence"] = {
-			["castTime"] = 90684,
+			["castTime"] = 225761,
 		},
 		["Minor Mana Potion"] = {
-			["castTime"] = 2991,
+			["castTime"] = 2933,
 		},
 		["Summon Dreadsteed"] = {
-			["castTime"] = 3036,
+			["castTime"] = 3000,
 		},
 		["Frost Shock"] = {
 			["castTime"] = 1335,
@@ -1346,10 +1359,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3015.00000000186,
 		},
 		["War Stomp"] = {
-			["castTime"] = 529.999999880791,
+			["castTime"] = 506,
 		},
 		["Travel Form"] = {
-			["castTime"] = 3084.00000011921,
+			["castTime"] = 8967.00000000373,
 		},
 		["Amplify Magic"] = {
 			["castTime"] = 6952,
@@ -1358,10 +1371,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 29942.0000000298,
 		},
 		["Lesser Nether Essence"] = {
-			["castTime"] = 63650,
+			["castTime"] = 18912,
 		},
 		["Dragonbreath Chili"] = {
-			["castTime"] = 3004.00000023842,
+			["castTime"] = 2933,
 		},
 		["Binding Volume II"] = {
 			["castTime"] = 5000,
@@ -1376,19 +1389,19 @@ NeatPlatesSpellDB = {
 			["castTime"] = 29999.0000000596,
 		},
 		["Lesser Heal"] = {
-			["castTime"] = 2030,
+			["castTime"] = 2567,
 		},
 		["Searing Pain"] = {
-			["castTime"] = 1570,
+			["castTime"] = 1478,
 		},
 		["Create Soulstone (Greater)"] = {
-			["castTime"] = 3063,
+			["castTime"] = 3000,
 		},
 		["Enchant Shield - Lesser Block"] = {
 			["castTime"] = 5000,
 		},
 		["Summon Warhorse"] = {
-			["castTime"] = 2998,
+			["castTime"] = 3065.9999999404,
 		},
 		["Shadowmeld"] = {
 			["castTime"] = 5806.9999999404,
@@ -1397,16 +1410,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Enchant Cloak - Minor Resistance"] = {
-			["castTime"] = 5076,
+			["castTime"] = 4966,
 		},
 		["Solid Weightstone"] = {
-			["castTime"] = 3000,
+			["castTime"] = 2933,
 		},
 		["Dark Leather Belt"] = {
 			["castTime"] = 13818,
 		},
 		["Coarse Blasting Powder"] = {
-			["castTime"] = 2981,
+			["castTime"] = 3000,
 		},
 		["Enchant 2H Weapon - Major Spirit"] = {
 			["castTime"] = 5019,
@@ -1415,78 +1428,81 @@ NeatPlatesSpellDB = {
 			["castTime"] = 4060,
 		},
 		["Enchant 2H Weapon - Minor Impact"] = {
-			["castTime"] = 4967,
+			["castTime"] = 4933,
 		},
 		["Starfire"] = {
 			["castTime"] = 3507.9999999404,
 		},
 		["Kaldorei Spider Kabob"] = {
-			["castTime"] = 2995.0000000298,
+			["castTime"] = 3092,
 		},
 		["Enchant Boots - Minor Speed"] = {
-			["castTime"] = 4955,
+			["castTime"] = 5000,
 		},
 		["Conjure Food"] = {
-			["castTime"] = 3173,
+			["castTime"] = 3067,
 		},
 		["Minor Recombobulator"] = {
-			["castTime"] = 5001,
+			["castTime"] = 4966,
 		},
 		["Revenge"] = {
 			["castTime"] = 43867,
 		},
 		["Large Seaforium Charge"] = {
-			["castTime"] = 4913,
+			["castTime"] = 5000,
 		},
 		["Runed Golden Rod"] = {
-			["castTime"] = 30272,
+			["castTime"] = 29966,
 		},
 		["Thorium Widget"] = {
-			["castTime"] = 3973,
+			["castTime"] = 3933,
 		},
 		["Iron Buckle"] = {
 			["castTime"] = 3084,
 		},
 		["Runecloth Pants"] = {
-			["castTime"] = 31029.0000001192,
+			["castTime"] = 31000,
 		},
 		["Demonic Rune"] = {
 			["castTime"] = 5639,
 		},
 		["Gyrochronatom"] = {
-			["castTime"] = 3930,
+			["castTime"] = 4034,
 		},
 		["Enchanter's Cowl"] = {
-			["castTime"] = 28462,
+			["castTime"] = 26533,
 		},
-		["Enrage"] = {
+		["Intellect"] = {
 		},
 		["Inner Focus"] = {
-			["castTime"] = 2492,
+			["castTime"] = 1777,
 		},
 		["Ghost Dye"] = {
-			["castTime"] = 3102.00000023842,
+			["castTime"] = 3000,
 		},
 		["Weapon Chain"] = {
-			["castTime"] = 2967,
+			["castTime"] = 3000,
 		},
 		["Gooey Spider Cake"] = {
-			["castTime"] = 3001,
+			["castTime"] = 3008,
 		},
 		["Rugged Leather"] = {
-			["castTime"] = 4103,
+			["castTime"] = 4033.00000000745,
 		},
 		["Lesser Invisibility Potion"] = {
-			["castTime"] = 3015,
+			["castTime"] = 3000,
+		},
+		["Enchant Weapon - Winter's Might"] = {
+			["castTime"] = 5066,
 		},
 		["Catseye Elixir"] = {
 			["castTime"] = 5000,
 		},
 		["Summon Felhunter"] = {
-			["castTime"] = 5977,
+			["castTime"] = 8000,
 		},
 		["Grilled Squid"] = {
-			["castTime"] = 3021,
+			["castTime"] = 3067,
 		},
 		["Chain Heal"] = {
 			["castTime"] = 2547.99999988079,
@@ -1495,33 +1511,31 @@ NeatPlatesSpellDB = {
 			["castTime"] = 27685,
 		},
 		["Enchant Chest - Greater Health"] = {
-			["castTime"] = 4921.9999999404,
+			["castTime"] = 5033,
 		},
 		["Devilsaur Leggings"] = {
-			["castTime"] = 29923,
+			["castTime"] = 29999,
 		},
 		["Summon Worg Pup"] = {
 			["castTime"] = 1000,
 		},
 		["Instant Poison VI"] = {
-			["castTime"] = 2951,
-		},
-		["Blessed Sunfruit"] = {
+			["castTime"] = 3000,
 		},
 		["Deviate Scale Belt"] = {
-			["castTime"] = 12979.0000000298,
+			["castTime"] = 10100,
 		},
 		["Bolt of Silk Cloth"] = {
-			["castTime"] = 3139,
+			["castTime"] = 3020,
 		},
 		["Embossed Leather Gloves"] = {
-			["castTime"] = 4039,
+			["castTime"] = 4734,
 		},
 		["Great Rage Potion"] = {
-			["castTime"] = 3127,
+			["castTime"] = 3000,
 		},
 		["Enchant Boots - Agility"] = {
-			["castTime"] = 5066,
+			["castTime"] = 4967,
 		},
 		["Deadly Poison II"] = {
 			["castTime"] = 3023,
@@ -1530,22 +1544,22 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3145,
 		},
 		["Skinning"] = {
-			["castTime"] = 3012,
+			["castTime"] = 2500,
 		},
 		["Join Map Fragments"] = {
-			["castTime"] = 2000,
+			["castTime"] = 1967,
 		},
 		["Elixir of Giants"] = {
-			["castTime"] = 3030,
+			["castTime"] = 3033,
 		},
 		["Greater Blessing of Salvation"] = {
 			["castTime"] = 53705,
 		},
 		["Elixir of Brute Force"] = {
-			["castTime"] = 2967,
+			["castTime"] = 3100,
 		},
 		["Goblin Jumper Cables XL"] = {
-			["castTime"] = 5017,
+			["castTime"] = 5033,
 		},
 		["Murloc Scale Belt"] = {
 			["castTime"] = 3940,
@@ -1554,12 +1568,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2983.99999988079,
 		},
 		["Mark of the Wild"] = {
-			["castTime"] = 23750,
+			["castTime"] = 1000,
 		},
 		["Eye of Kilrogg"] = {
 			["castTime"] = 5102.00000005961,
-		},
-		["Sense Undead"] = {
 		},
 		["Pick Lock"] = {
 			["castTime"] = 5000,
@@ -1589,7 +1601,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 495621.000000477,
 		},
 		["Brightcloth Gloves"] = {
-			["castTime"] = 31459.9999999702,
+			["castTime"] = 30500,
 		},
 		["Hillman's Shoulders"] = {
 			["castTime"] = 13394.9999999702,
@@ -1598,33 +1610,31 @@ NeatPlatesSpellDB = {
 			["castTime"] = 28790,
 		},
 		["Minor Rejuvenation Potion"] = {
-			["castTime"] = 2988,
+			["castTime"] = 3050,
 		},
 		["Shadowform"] = {
-			["castTime"] = 6107,
+			["castTime"] = 1167,
 		},
 		["Cure Poison"] = {
 			["castTime"] = 3306,
 		},
 		["Practice Lock"] = {
-			["castTime"] = 4092,
+			["castTime"] = 3967,
 		},
 		["Greater Healing Potion"] = {
-			["castTime"] = 3250.9999999404,
+			["castTime"] = 2978,
 		},
 		["Create Healthstone (Minor)"] = {
-			["castTime"] = 3000,
+			["castTime"] = 3033.00000047684,
 		},
 		["Create Soulstone (Lesser)"] = {
-			["castTime"] = 2932,
+			["castTime"] = 3033,
 		},
 		["Compact Harvest Reaper Kit"] = {
 			["castTime"] = 10226,
 		},
 		["Poached Sunscale Salmon"] = {
-			["castTime"] = 3796,
-		},
-		["Greater Agility"] = {
+			["castTime"] = 2967,
 		},
 		["Summon Sprite Darter Hatchling"] = {
 			["castTime"] = 1000,
@@ -1636,7 +1646,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5064,
 		},
 		["Shadow Oil"] = {
-			["castTime"] = 3018,
+			["castTime"] = 3100,
 		},
 		["Copper Chain Pants"] = {
 			["castTime"] = 2943,
@@ -1645,7 +1655,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 13443,
 		},
 		["Entangling Roots"] = {
-			["castTime"] = 2483,
+			["castTime"] = 1509,
 		},
 		["Pyroblast"] = {
 			["castTime"] = 5952,
@@ -1654,7 +1664,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 24975.0000001192,
 		},
 		["Dreamweave Vest"] = {
-			["castTime"] = 37499,
+			["castTime"] = 37524,
 		},
 		["Ironforge Breastplate"] = {
 			["castTime"] = 7606,
@@ -1663,16 +1673,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5071,
 		},
 		["Rainbow Fin Albacore"] = {
-			["castTime"] = 3049,
+			["castTime"] = 3033,
 		},
 		["Ornate Mithril Pants"] = {
 			["castTime"] = 37948.9999998808,
 		},
 		["Basic Campfire"] = {
-			["castTime"] = 9954,
+			["castTime"] = 9933,
 		},
 		["Enchanted Thorium"] = {
-			["castTime"] = 4916,
+			["castTime"] = 4966.9999999851,
 		},
 		["Enchant Bracer - Lesser Intellect"] = {
 			["castTime"] = 5000,
@@ -1681,34 +1691,37 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5034,
 		},
 		["Mighty Rage Potion"] = {
-			["castTime"] = 3100,
+			["castTime"] = 3034,
 		},
 		["Reinforced Linen Cape"] = {
 			["castTime"] = 5618,
 		},
+		["Black Swashbuckler's Shirt"] = {
+			["castTime"] = 10000,
+		},
 		["Guardian Gloves"] = {
-			["castTime"] = 10036,
+			["castTime"] = 10100,
 		},
 		["Conjure Mana Agate"] = {
-			["castTime"] = 2942,
+			["castTime"] = 3033,
 		},
 		["Instant Poison II"] = {
-			["castTime"] = 3136,
+			["castTime"] = 3066.9999999404,
 		},
 		["Wildvine Potion"] = {
-			["castTime"] = 3051,
+			["castTime"] = 3005,
 		},
 		["Black Dragonscale Boots"] = {
-			["castTime"] = 29995,
+			["castTime"] = 30000,
 		},
 		["Enchant Weapon - Minor Beastslayer"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5100.0000000596,
 		},
 		["Holy Shield"] = {
 			["castTime"] = 6814,
 		},
 		["Enchant Bracer - Greater Intellect"] = {
-			["castTime"] = 4988,
+			["castTime"] = 5067,
 		},
 		["Undermine Clam Chowder"] = {
 			["castTime"] = 3037,
@@ -1716,13 +1729,11 @@ NeatPlatesSpellDB = {
 		["Glinting Steel Dagger"] = {
 			["castTime"] = 45000,
 		},
-		["Mana Regeneration"] = {
-		},
 		["Redemption"] = {
-			["castTime"] = 10009,
+			["castTime"] = 9833,
 		},
 		["Presence of Mind"] = {
-			["castTime"] = 13775,
+			["castTime"] = 34694.0000002384,
 		},
 		["Greater Blessing of Sanctuary"] = {
 			["castTime"] = 8212,
@@ -1731,19 +1742,19 @@ NeatPlatesSpellDB = {
 			["castTime"] = 1534,
 		},
 		["Smelt Iron"] = {
-			["castTime"] = 2959.00000011921,
+			["castTime"] = 3000,
 		},
 		["Collect Rookery Egg"] = {
 			["castTime"] = 510,
 		},
 		["Multi-Shot"] = {
-			["castTime"] = 405,
+			["castTime"] = 468,
 		},
 		["Create Nimboya's Laden Pike"] = {
 			["castTime"] = 1500,
 		},
 		["Azure Silk Cloak"] = {
-			["castTime"] = 26501,
+			["castTime"] = 15116,
 		},
 		["Strength"] = {
 			["castTime"] = 15976,
@@ -1758,48 +1769,46 @@ NeatPlatesSpellDB = {
 			["castTime"] = 4200.00000023842,
 		},
 		["Nature Protection Potion"] = {
-			["castTime"] = 3000,
+			["castTime"] = 2934,
 		},
 		["Holy Wrath"] = {
-			["castTime"] = 3989,
+			["castTime"] = 1967,
 		},
 		["Enchant Chest - Lesser Stats"] = {
 			["castTime"] = 4968,
 		},
-		["Increased Intellect"] = {
-		},
 		["Devilsaur Gauntlets"] = {
-			["castTime"] = 30000,
+			["castTime"] = 30040,
 		},
 		["Greater Magic Essence"] = {
 			["castTime"] = 174908,
 		},
 		["Rejuvenation"] = {
-			["castTime"] = 1289,
+			["castTime"] = 3266,
 		},
 		["Rain of Fire"] = {
-			["castTime"] = 26578.0000000596,
+			["castTime"] = 3467,
 		},
 		["Dense Weightstone"] = {
-			["castTime"] = 16416,
+			["castTime"] = 4000,
 		},
 		["Elixir of Minor Fortitude"] = {
-			["castTime"] = 3008,
+			["castTime"] = 3434,
 		},
 		["Fire Protection Potion"] = {
-			["castTime"] = 6177,
+			["castTime"] = 3000,
 		},
 		["Enchant Shield - Greater Stamina"] = {
-			["castTime"] = 5021,
+			["castTime"] = 5372,
 		},
 		["Ghost Wolf"] = {
-			["castTime"] = 3033,
+			["castTime"] = 1012,
 		},
 		["Fade"] = {
-			["castTime"] = 1240,
+			["castTime"] = 666,
 		},
 		["Enchant Bracer - Greater Stamina"] = {
-			["castTime"] = 5003,
+			["castTime"] = 5051.0000000149,
 		},
 		["Enchant 2H Weapon - Lesser Spirit"] = {
 			["castTime"] = 4967,
@@ -1808,52 +1817,58 @@ NeatPlatesSpellDB = {
 			["castTime"] = 34059,
 		},
 		["Explosive Sheep"] = {
-			["castTime"] = 3930,
+			["castTime"] = 4011,
 		},
 		["Enchant Shield - Spirit"] = {
 			["castTime"] = 5014,
 		},
 		["Instant Poison III"] = {
-			["castTime"] = 2735,
+			["castTime"] = 3066,
 		},
 		["Greater Heal"] = {
-			["castTime"] = 2509,
+			["castTime"] = 2579,
 		},
 		["Patterned Bronze Bracers"] = {
 			["castTime"] = 5003,
 		},
 		["Elixir of Poison Resistance"] = {
-			["castTime"] = 3000,
+			["castTime"] = 3067,
 		},
 		["Enchant Bracer - Minor Stamina"] = {
-			["castTime"] = 5082,
+			["castTime"] = 4967,
+		},
+		["Create Spellstone"] = {
+			["castTime"] = 5033,
 		},
 		["Smelt Bronze"] = {
-			["castTime"] = 3385,
+			["castTime"] = 3003,
 		},
 		["Gloves of Meditation"] = {
 			["castTime"] = 13430.0000000298,
 		},
 		["Greater Nether Essence"] = {
-			["castTime"] = 131238,
+			["castTime"] = 108467,
 		},
 		["Hallow's End Candy"] = {
 			["castTime"] = 179337,
 		},
 		["Instant Poison IV"] = {
-			["castTime"] = 2985,
+			["castTime"] = 3000,
 		},
 		["Green Silk Pack"] = {
 			["castTime"] = 25039.9999999404,
+		},
+		["Egg Nog"] = {
+			["castTime"] = 2967,
 		},
 		["Hunter's Mark"] = {
 			["castTime"] = 8052.9999999404,
 		},
 		["Elixir of Lion's Strength"] = {
-			["castTime"] = 2966,
+			["castTime"] = 2902.00000000047,
 		},
 		["Ornate Spyglass"] = {
-			["castTime"] = 5252,
+			["castTime"] = 5033,
 		},
 		["Arcane Missiles"] = {
 			["castTime"] = 1038754.00000003,
@@ -1862,10 +1877,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 11620,
 		},
 		["Accurate Scope"] = {
-			["castTime"] = 3000,
+			["castTime"] = 2733,
 		},
 		["Green Tinted Goggles"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5100,
 		},
 		["Free Action"] = {
 			["castTime"] = 2190,
@@ -1874,42 +1889,40 @@ NeatPlatesSpellDB = {
 			["castTime"] = 30050,
 		},
 		["Shadow Goggles"] = {
-			["castTime"] = 14191,
+			["castTime"] = 13200,
 		},
 		["Bristle Whisker Catfish"] = {
-			["castTime"] = 3038,
+			["castTime"] = 3000,
 		},
 		["Linen Boots"] = {
 			["castTime"] = 5331,
 		},
-		["Pirate Costume"] = {
-		},
 		["Create Healthstone (Greater)"] = {
-			["castTime"] = 3000,
+			["castTime"] = 2982,
 		},
 		["Greater Intellect"] = {
 			["castTime"] = 11905,
 		},
 		["Lesser Wizard's Robe"] = {
-			["castTime"] = 5067,
+			["castTime"] = 5167.00000023842,
 		},
 		["Green Silken Shoulders"] = {
-			["castTime"] = 25559.0000000298,
+			["castTime"] = 23567,
 		},
 		["Barbaric Linen Vest"] = {
-			["castTime"] = 8770.0000000149,
+			["castTime"] = 9000,
 		},
 		["Conjure Lily Root"] = {
-			["castTime"] = 5069,
+			["castTime"] = 3067,
 		},
 		["Everlook Transporter"] = {
-			["castTime"] = 10033.9999999702,
+			["castTime"] = 9933.0000000149,
 		},
 		["Murloc Fin Soup"] = {
-			["castTime"] = 3034,
+			["castTime"] = 3033,
 		},
 		["Transmute: Fire to Earth"] = {
-			["castTime"] = 9982.00000011921,
+			["castTime"] = 10033,
 		},
 		["Mithril Scale Bracers"] = {
 			["castTime"] = 37000,
@@ -1939,250 +1952,300 @@ NeatPlatesSpellDB = {
 			["castTime"] = 11603,
 		},
 		["Greater Frost Protection Potion"] = {
-			["castTime"] = 3122.0000000298,
+			["castTime"] = 3067,
 		},
-		["Roasted Boar Meat"] = {
-			["castTime"] = 3021,
+		["Enchant Bracer - Minor Strength"] = {
+			["castTime"] = 4961.00000000186,
+		},
+		["Dazed"] = {
+		},
+		["Crimson Silk Pantaloons"] = {
+			["castTime"] = 25000,
+		},
+		["Strong Troll's Blood Potion"] = {
+			["castTime"] = 3034.00000000047,
 		},
 		["Enchant Chest - Greater Mana"] = {
-			["castTime"] = 4987,
+			["castTime"] = 4967,
+		},
+		["Cured Light Hide"] = {
+			["castTime"] = 2967,
 		},
 		["Rough Blasting Powder"] = {
-			["castTime"] = 4265,
+			["castTime"] = 4200.00000000093,
 		},
 		["Fill the Egg of Hakkar"] = {
 			["castTime"] = 4988,
 		},
-		["Sagefish Delight"] = {
-			["castTime"] = 3110.0000000298,
+		["Runn Tum Tuber Surprise"] = {
+			["castTime"] = 3000,
 		},
-		["Piercing Howl"] = {
+		["Sagefish Delight"] = {
+			["castTime"] = 2952,
+		},
+		["Roasted Boar Meat"] = {
+			["castTime"] = 2966,
+		},
+		["Righteous Fury"] = {
+			["castTime"] = 14215,
+		},
+		["Frost Protection Potion"] = {
+			["castTime"] = 3023,
+		},
+		["Greater Shadow Protection Potion"] = {
+			["castTime"] = 2967,
 		},
 		["Brightcloth Pants"] = {
 			["castTime"] = 31002,
 		},
-		["Intellect"] = {
+		["Greater Magic Wand"] = {
+			["castTime"] = 9967,
 		},
-		["Weakened Soul"] = {
+		["Restorative Potion"] = {
+			["castTime"] = 2966,
 		},
-		["Swift Palomino"] = {
+		["Thorium Tube"] = {
+			["castTime"] = 4045.00000005961,
+		},
+		["Binding Volume III"] = {
+			["castTime"] = 4974,
 		},
 		["Demon Skin"] = {
 			["castTime"] = 202370,
 		},
-		["Rage of Ages"] = {
+		["Pick Pocket"] = {
+			["castTime"] = 18125,
 		},
-		["Leader of the Pack"] = {
+		["Mind-numbing Poison III"] = {
+			["castTime"] = 2967.99999952316,
 		},
 		["Linen Bag"] = {
 			["castTime"] = 4282,
 		},
-		["Touch of Shadow"] = {
+		["Piccolo of the Flaming Fire"] = {
+			["castTime"] = 6000,
 		},
 		["Barbaric Bracers"] = {
-			["castTime"] = 12691,
+			["castTime"] = 10100,
 		},
-		["Robe of Power"] = {
-			["castTime"] = 40930,
+		["Lesser Stoneshield Potion"] = {
+			["castTime"] = 5100,
 		},
-		["Furor"] = {
+		["Azure Silk Gloves"] = {
+			["castTime"] = 11786,
 		},
-		["Lesser Mystic Essence"] = {
+		["Demonic Sacrifice"] = {
+			["castTime"] = 2734,
 		},
-		["Feed Pet Effect"] = {
+		["Create Scrying Bowl"] = {
+			["castTime"] = 2500,
 		},
 		["Discombobulator Ray"] = {
 			["castTime"] = 5066,
 		},
 		["Blessing of Salvation"] = {
-			["castTime"] = 7324.99999976158,
+			["castTime"] = 16149.0000002384,
 		},
-		["Winterfall Firewater"] = {
+		["Blast Wave"] = {
+			["castTime"] = 460327,
 		},
-		["Increased Agility"] = {
+		["Comfortable Leather Hat"] = {
+			["castTime"] = 45000,
 		},
 		["Heavy Dynamite"] = {
-			["castTime"] = 1100.00000011921,
+			["castTime"] = 912.999999880791,
 		},
 		["Fire Resistance Aura"] = {
-			["castTime"] = 3768.9999999404,
+			["castTime"] = 122633,
 		},
 		["Coarse Dynamite"] = {
-			["castTime"] = 2929,
+			["castTime"] = 3100,
 		},
 		["Enchant Boots - Spirit"] = {
-			["castTime"] = 4991,
+			["castTime"] = 4833,
 		},
 		["Faerie Fire"] = {
 			["castTime"] = 12013,
 		},
-		["Rough Grinding Stone"] = {
-			["castTime"] = 3071,
+		["Solid Dynamite"] = {
+			["castTime"] = 934,
 		},
 		["Dire Bear Form"] = {
-			["castTime"] = 6676,
+			["castTime"] = 72753.0000000149,
 		},
-		["Demoralizing Shout"] = {
+		["Thick War Axe"] = {
+			["castTime"] = 7801,
 		},
 		["Ornate Mithril Boots"] = {
 			["castTime"] = 34001,
 		},
-		["Sweeping Strikes"] = {
+		["Arcane Shot"] = {
+			["castTime"] = 1883,
 		},
-		["Execute"] = {
+		["Embossed Leather Boots"] = {
+			["castTime"] = 4057,
 		},
 		["Mind Vision"] = {
-			["castTime"] = 246105,
+			["castTime"] = 65666,
 		},
-		["Judgement of Righteousness"] = {
+		["Free Action Potion"] = {
+			["castTime"] = 3000,
 		},
 		["Enchant Gloves - Greater Strength"] = {
 			["castTime"] = 5244,
 		},
 		["Enchant Bracer - Lesser Stamina"] = {
-			["castTime"] = 5050,
+			["castTime"] = 5000,
 		},
-		["Charge Stun"] = {
+		["Fire Protection"] = {
+			["castTime"] = 21672,
+		},
+		["Moonfire"] = {
+			["castTime"] = 13451,
 		},
 		["Fire Ward"] = {
-			["castTime"] = 3645,
+			["castTime"] = 1100,
 		},
 		["Curse of the Elements"] = {
 			["castTime"] = 60395,
 		},
 		["Lesser Magic Wand"] = {
-			["castTime"] = 10000,
+			["castTime"] = 10069,
 		},
 		["Moonkin Form"] = {
-			["castTime"] = 1946.9999999851,
+			["castTime"] = 1447274,
 		},
 		["Enchanted Leather"] = {
-			["castTime"] = 5002,
+			["castTime"] = 5067,
 		},
-		["Lay on Hands"] = {
-			["castTime"] = 12223,
+		["Create Healthstone"] = {
+			["castTime"] = 3000,
 		},
-		["Arcane Shot"] = {
-			["castTime"] = 1883,
+		["Barbaric Leggings"] = {
+			["castTime"] = 14967,
 		},
-		["Life Tap"] = {
-			["castTime"] = 112360,
+		["Cindercloth Pants"] = {
+			["castTime"] = 31000,
+		},
+		["Blue Firework"] = {
+			["castTime"] = 2967,
 		},
 		["Fel Domination"] = {
-			["castTime"] = 5404,
+			["castTime"] = 1300,
 		},
 		["Night Dragon's Breath"] = {
 			["castTime"] = 2560.99999976158,
 		},
-		["Runecloth Gloves"] = {
-			["castTime"] = 31112,
+		["Coarse Sharpening Stone"] = {
+			["castTime"] = 3106,
 		},
-		["Cloaking"] = {
-			["castTime"] = 4263.0000000298,
+		["Runed Copper Gauntlets"] = {
+			["castTime"] = 4687,
 		},
-		["Arcane Explosion"] = {
-			["castTime"] = 2575,
+		["Snake Burst Firework"] = {
+			["castTime"] = 5059,
 		},
 		["Kick"] = {
 			["castTime"] = 60201,
 		},
-		["Dark Rune"] = {
-			["castTime"] = 3668,
+		["Light Armor Kit"] = {
+			["castTime"] = 3867,
 		},
-		["Hibernate"] = {
-			["castTime"] = 1510,
+		["Enchant Chest - Lesser Health"] = {
+			["castTime"] = 4966,
 		},
-		["Ice Armor"] = {
-			["castTime"] = 22097,
+		["Claw"] = {
+			["castTime"] = 1970232,
+		},
+		["Enchant Gloves - Skinning"] = {
+			["castTime"] = 5111,
+		},
+		["Create Healthstone (Lesser)"] = {
+			["castTime"] = 3067,
 		},
 		["Cold Blood"] = {
 			["castTime"] = 964182,
 		},
-		["Create Healthstone (Lesser)"] = {
-			["castTime"] = 3101,
-		},
-		["Prowl"] = {
-			["castTime"] = 17463,
-		},
 		["Healing Wave"] = {
-			["castTime"] = 2534,
+			["castTime"] = 3066.99999988079,
 		},
 		["Blizzard"] = {
-			["castTime"] = 21235.9999999404,
+			["castTime"] = 5933,
 		},
-		["Blood Craze"] = {
+		["Orb of Deception"] = {
+			["castTime"] = 114734,
 		},
 		["Tranquility"] = {
-			["castTime"] = 1757.99999999977,
+			["castTime"] = 280333,
 		},
-		["Create Healthstone"] = {
-			["castTime"] = 3080,
+		["Turn Undead"] = {
+			["castTime"] = 2512,
 		},
-		["Cooked Glossy Mightfish"] = {
-			["castTime"] = 3005,
+		["Soulstone Resurrection"] = {
+			["castTime"] = 5466,
 		},
-		["Teleport: Ironforge"] = {
-			["castTime"] = 9997,
+		["Robe of Power"] = {
+			["castTime"] = 40930,
 		},
 		["Runecloth Bag"] = {
-			["castTime"] = 29902,
+			["castTime"] = 30021.0000000149,
 		},
-		["Levitate"] = {
-			["castTime"] = 55469.9999999404,
+		["Shrink Ray"] = {
+			["castTime"] = 3262,
 		},
-		["Embossed Leather Boots"] = {
-			["castTime"] = 4057,
+		["Dusky Leather Leggings"] = {
+			["castTime"] = 25000,
 		},
-		["Greater Shadow Protection Potion"] = {
-			["castTime"] = 2967,
+		["Enchant Shield - Superior Spirit"] = {
+			["castTime"] = 5000,
 		},
-		["Mithril Scale Pants"] = {
-			["castTime"] = 60000,
+		["Flames of Retribution"] = {
+			["castTime"] = 3000,
 		},
-		["Crafted Light Shot"] = {
-			["castTime"] = 3364,
+		["Heavy Copper Broadsword"] = {
+			["castTime"] = 12500,
 		},
-		["Agility"] = {
-			["castTime"] = 50155,
+		["Copper Shortsword"] = {
+			["castTime"] = 5125,
 		},
-		["Swiftmend"] = {
-			["castTime"] = 2099911,
+		["Azure Silk Belt"] = {
+			["castTime"] = 24032.9999999404,
 		},
-		["Dreamless Sleep Potion"] = {
-			["castTime"] = 3069.0000000298,
+		["Create Soulstone"] = {
+			["castTime"] = 3067,
 		},
 		["Thick Leather"] = {
-			["castTime"] = 3924.9999999702,
+			["castTime"] = 3967,
 		},
 		["Black Dragonscale Leggings"] = {
-			["castTime"] = 30060,
+			["castTime"] = 30033.9999999702,
 		},
-		["Savory Deviate Delight"] = {
-			["castTime"] = 3235,
+		["Stoneclaw Totem"] = {
+			["castTime"] = 2580,
 		},
-		["Piccolo of the Flaming Fire"] = {
-			["castTime"] = 17909.0000001192,
+		["Thorns"] = {
+			["castTime"] = 2233.99999976158,
 		},
-		["Thorium Tube"] = {
-			["castTime"] = 4045.00000005961,
+		["Blade Flurry"] = {
+			["castTime"] = 1200,
 		},
 		["Psychic Scream"] = {
-			["castTime"] = 1099.0000000596,
+			["castTime"] = 4966,
 		},
-		["Mooncloth Bag"] = {
-			["castTime"] = 30074,
+		["Eagle Eye"] = {
+			["castTime"] = 17437.0000000298,
 		},
-		["Aspect of the Monkey"] = {
-			["castTime"] = 17266,
+		["Handstitched Leather Belt"] = {
+			["castTime"] = 3480,
 		},
 		["Heavy Wool Bandage"] = {
-			["castTime"] = 3063.00000011921,
+			["castTime"] = 3059,
 		},
 		["Power Word: Fortitude"] = {
-			["castTime"] = 9703.00000005961,
+			["castTime"] = 916232,
 		},
-		["Healing Touch"] = {
-			["castTime"] = 3072,
+		["Woolen Bag"] = {
+			["castTime"] = 7300,
 		},
 		["Enchant: Fiery Blaze"] = {
 			["castTime"] = 3000,
@@ -2191,16 +2254,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5011,
 		},
 		["Green Iron Bracers"] = {
-			["castTime"] = 11987.0000000149,
+			["castTime"] = 10366,
 		},
 		["Resurrection"] = {
-			["castTime"] = 10046.0000000596,
+			["castTime"] = 9967,
 		},
-		["Enchant Bracer - Minor Strength"] = {
-			["castTime"] = 4961.00000000186,
+		["Black Mageweave Shoulders"] = {
+			["castTime"] = 36988,
 		},
 		["Stonescale Oil"] = {
-			["castTime"] = 3002,
+			["castTime"] = 2966,
 		},
 		["Crab Cake"] = {
 			["castTime"] = 3000,
@@ -2211,312 +2274,314 @@ NeatPlatesSpellDB = {
 		["Hammer of Wrath"] = {
 			["castTime"] = 1013,
 		},
-		["Enchant Gloves - Skinning"] = {
-			["castTime"] = 5111,
+		["Frost Oil"] = {
+			["castTime"] = 5046.99999999628,
 		},
 		["Goblin Mortar"] = {
 			["castTime"] = 1000,
 		},
-		["Hand of Justice"] = {
+		["Beer Basted Boar Ribs"] = {
+			["castTime"] = 3033,
 		},
-		["Longjaw Mud Snapper"] = {
-			["castTime"] = 3000,
+		["Escape Artist"] = {
+			["castTime"] = 400,
 		},
-		["Imperial Plate Bracers"] = {
-			["castTime"] = 32999,
+		["Sharpen Weapon - Critical"] = {
+			["castTime"] = 2999.00000005961,
 		},
-		["Eyes of the Beast"] = {
-			["castTime"] = 1991,
+		["Adrenaline Rush"] = {
+			["castTime"] = 643478,
 		},
 		["Health II"] = {
 			["castTime"] = 12947.9999998808,
 		},
-		["Strong Troll's Blood Potion"] = {
-			["castTime"] = 3000,
+		["Levitate"] = {
+			["castTime"] = 55469.9999999404,
 		},
-		["Handstitched Leather Boots"] = {
-			["castTime"] = 3665,
+		["Holy Fire"] = {
+			["castTime"] = 3607,
 		},
 		["Inner Fire"] = {
-			["castTime"] = 231191,
+			["castTime"] = 3420749,
 		},
-		["Goblin Rocket Fuel"] = {
-			["castTime"] = 2992,
+		["Mage Armor"] = {
+			["castTime"] = 1800,
 		},
-		["Eagle Eye"] = {
-			["castTime"] = 17437.0000000298,
+		["Agility"] = {
+			["castTime"] = 46433,
 		},
 		["Green Iron Helm"] = {
 			["castTime"] = 11099,
 		},
-		["Fire Protection"] = {
-			["castTime"] = 21672,
+		["Enchant Cloak - Greater Defense"] = {
+			["castTime"] = 5005,
 		},
-		["Living Shoulders"] = {
-			["castTime"] = 30086,
+		["Lay on Hands"] = {
+			["castTime"] = 12223,
 		},
 		["Rumsey Rum"] = {
 			["castTime"] = 1000,
 		},
 		["Silk Bandage"] = {
-			["castTime"] = 2990.00000011921,
+			["castTime"] = 3034,
 		},
 		["Elixir of the Mongoose"] = {
-			["castTime"] = 3045,
+			["castTime"] = 3033.9999999851,
 		},
 		["Teleport: Moonglade"] = {
-			["castTime"] = 10016,
+			["castTime"] = 9923,
 		},
 		["Seal of Justice"] = {
 			["castTime"] = 3519,
 		},
-		["Flying Tiger Goggles"] = {
-			["castTime"] = 5000,
+		["Cindercloth Cloak"] = {
+			["castTime"] = 29933,
 		},
-		["Barbaric Leggings"] = {
-			["castTime"] = 27586,
+		["Serpent Sting"] = {
+			["castTime"] = 12232,
 		},
-		["Teleport: Thunder Bluff"] = {
-			["castTime"] = 10002.0000000149,
+		["Nature's Swiftness"] = {
+			["castTime"] = 4040.9999999404,
 		},
-		["Mithril Frag Bomb"] = {
-			["castTime"] = 1000,
+		["Ultrasafe Transporter - Gadgetzan"] = {
+			["castTime"] = 15034,
 		},
-		["Gouge"] = {
-			["castTime"] = 25341,
+		["Smoked Sagefish"] = {
+			["castTime"] = 3066.9999999851,
 		},
-		["Aspect of Neptulon"] = {
-			["castTime"] = 995,
+		["Big Bronze Bomb"] = {
+			["castTime"] = 1078.00000011921,
 		},
-		["Smelt Dark Iron"] = {
-			["castTime"] = 3000,
+		["Hibernate"] = {
+			["castTime"] = 2506,
 		},
-		["Aquatic Form"] = {
-			["castTime"] = 180922,
+		["Blessing of Protection"] = {
+			["castTime"] = 1899,
 		},
 		["Rapid Fire"] = {
 			["castTime"] = 791,
 		},
-		["Handstitched Leather Belt"] = {
-			["castTime"] = 3480,
+		["Intimidation"] = {
+			["castTime"] = 3667,
 		},
-		["Stoneclaw Totem"] = {
-			["castTime"] = 2580,
+		["Shrink"] = {
+			["castTime"] = 3258,
 		},
-		["Cured Light Hide"] = {
-			["castTime"] = 2957.99999976158,
+		["Conjure Mana Jade"] = {
+			["castTime"] = 3067.00000000373,
 		},
-		["Heal"] = {
-			["castTime"] = 2433,
+		["Divine Protection"] = {
+			["castTime"] = 2714,
 		},
-		["Mortal Strike"] = {
+		["Aura of Protection"] = {
+			["castTime"] = 1670,
 		},
-		["Linken's Boomerang"] = {
-			["castTime"] = 490.000000014901,
+		["Red Mageweave Pants"] = {
+			["castTime"] = 30966.0000002384,
 		},
-		["Free Action Potion"] = {
-			["castTime"] = 3078,
+		["Shadow Bolt"] = {
+			["castTime"] = 4259,
 		},
 		["Felcloth Bag"] = {
-			["castTime"] = 30103.0000000596,
+			["castTime"] = 30100,
 		},
-		["Enchant Boots - Greater Stamina"] = {
-			["castTime"] = 110,
+		["Swiftmend"] = {
+			["castTime"] = 2099911,
 		},
 		["Embossed Leather Cloak"] = {
 			["castTime"] = 4996,
 		},
-		["Seal of Command"] = {
-			["castTime"] = 230,
+		["Smelt Steel"] = {
+			["castTime"] = 3133.00000005961,
 		},
-		["Elixir of Wisdom"] = {
-			["castTime"] = 3000,
+		["Hillman's Cloak"] = {
+			["castTime"] = 5166,
 		},
-		["Enchant Cloak - Lesser Fire Resistance"] = {
-			["castTime"] = 4954,
+		["Heavy Scorpid Gauntlets"] = {
+			["castTime"] = 31532,
 		},
 		["Balance of Light and Shadow"] = {
-			["castTime"] = 10004,
+			["castTime"] = 9883.00000047684,
 		},
-		["Runed Copper Belt"] = {
-			["castTime"] = 4996.9999999851,
+		["Curse of Weakness"] = {
+			["castTime"] = 2151,
 		},
-		["Crimson Silk Vest"] = {
-			["castTime"] = 10035,
+		["Flash Heal"] = {
+			["castTime"] = 1400.0000000596,
 		},
-		["Elixir of Superior Defense"] = {
-			["castTime"] = 3231,
+		["Cured Medium Hide"] = {
+			["castTime"] = 3900,
 		},
-		["Heavy Linen Bandage"] = {
-			["castTime"] = 3054,
+		["Mend Pet"] = {
+			["castTime"] = 9416,
 		},
 		["Rebirth"] = {
 			["castTime"] = 2179.0000000596,
 		},
-		["Blood Sausage"] = {
-			["castTime"] = 3271,
+		["Major Rejuvenation Potion"] = {
+			["castTime"] = 2967,
 		},
-		["Adrenaline Rush"] = {
-			["castTime"] = 643478,
+		["Deadly Scope"] = {
+			["castTime"] = 2848,
 		},
-		["Conjure Mana Ruby"] = {
-			["castTime"] = 3043,
+		["Enchant Boots - Lesser Agility"] = {
+			["castTime"] = 5066,
 		},
-		["Lesser Mana Potion"] = {
-			["castTime"] = 3234,
+		["Enchant Weapon - Crusader"] = {
+			["castTime"] = 4980,
 		},
-		["Bloodrage"] = {
-			["castTime"] = 40854,
+		["Backstab"] = {
+			["castTime"] = 2671489,
 		},
 		["Flash of Light"] = {
-			["castTime"] = 1625,
+			["castTime"] = 1500,
 		},
 		["Heavy Leather"] = {
-			["castTime"] = 4063,
+			["castTime"] = 67869,
 		},
 		["Enchant Cloak - Greater Resistance"] = {
-			["castTime"] = 5067,
+			["castTime"] = 5033.9999999702,
 		},
-		["Pick Pocket"] = {
-			["castTime"] = 18125,
+		["Shadow Ward"] = {
+			["castTime"] = 34844.9999995232,
 		},
-		["Herb Baked Egg"] = {
-			["castTime"] = 2830,
+		["Soft-soled Linen Boots"] = {
+			["castTime"] = 8267,
 		},
-		["Instant Poison"] = {
-			["castTime"] = 3033,
+		["Seal of Command"] = {
+			["castTime"] = 1467,
 		},
-		["Blinding Powder"] = {
-			["castTime"] = 3035,
+		["Aquadynamic Fish Attractor"] = {
+			["castTime"] = 3948,
 		},
-		["Amplify Curse"] = {
-			["castTime"] = 3963,
+		["Freezing Trap"] = {
+			["castTime"] = 14241,
 		},
 		["Coyote Steak"] = {
-			["castTime"] = 2975,
+			["castTime"] = 3046,
 		},
-		["Turn Undead"] = {
-			["castTime"] = 2512,
+		["Blessing of Might"] = {
+			["castTime"] = 2267,
 		},
-		["Holy Light"] = {
-			["castTime"] = 2504,
+		["Toughened Leather Gloves"] = {
+			["castTime"] = 31434.0000004768,
 		},
-		["Conjure Mana Citrine"] = {
-			["castTime"] = 3035.00000011921,
+		["Blessing of Sanctuary"] = {
+			["castTime"] = 1267,
 		},
 		["Greater Stoneshield Potion"] = {
-			["castTime"] = 3016.0000000149,
+			["castTime"] = 3000,
 		},
-		["Sharpen Weapon - Critical"] = {
-			["castTime"] = 2999.00000005961,
+		["Frostsaber Boots"] = {
+			["castTime"] = 31454.0000000596,
 		},
-		["Ornate Mithril Helm"] = {
-			["castTime"] = 34089.9999999404,
+		["Arcane Explosion"] = {
+			["castTime"] = 80904.0000002384,
 		},
 		["Enchant  Weapon - Spell Power"] = {
 			["castTime"] = 5000,
 		},
 		["Lean Wolf Steak"] = {
-			["castTime"] = 3000,
+			["castTime"] = 3005,
 		},
-		["Battle Stance"] = {
-			["castTime"] = 6742,
+		["Formal White Shirt"] = {
+			["castTime"] = 11446,
 		},
-		["Iron Grenade"] = {
-			["castTime"] = 1086,
+		["Heavy Mageweave Bandage"] = {
+			["castTime"] = 3034,
 		},
-		["Blessing of Protection"] = {
-			["castTime"] = 1899,
+		["Target Dummy"] = {
+			["castTime"] = 4000,
 		},
-		["Solid Dynamite"] = {
-			["castTime"] = 1100,
+		["Elixir of Frost Power"] = {
+			["castTime"] = 3033,
 		},
-		["Enchant Cloak - Greater Defense"] = {
-			["castTime"] = 5034,
+		["Mithril Frag Bomb"] = {
+			["castTime"] = 1000,
 		},
 		["Prayer of Healing"] = {
-			["castTime"] = 3004,
+			["castTime"] = 3066,
 		},
-		["Golden Rod"] = {
-			["castTime"] = 4034,
+		["Ephemeral Power"] = {
+			["castTime"] = 1966,
 		},
-		["Rough Copper Bomb"] = {
-			["castTime"] = 966.999999940395,
+		["Teleport: Thunder Bluff"] = {
+			["castTime"] = 10002.0000000149,
 		},
 		["Small Bronze Bomb"] = {
 			["castTime"] = 4085.99999976158,
 		},
-		["Curse of Weakness"] = {
-			["castTime"] = 2151,
+		["Aspect of Neptulon"] = {
+			["castTime"] = 995,
 		},
-		["Perception"] = {
-			["castTime"] = 3729.9999999702,
+		["Frost Resistance Totem"] = {
+			["castTime"] = 4423,
 		},
-		["Magma Totem"] = {
-			["castTime"] = 2467.00000005961,
+		["Black Silk Pack"] = {
+			["castTime"] = 23934,
 		},
 		["Sniper Scope"] = {
-			["castTime"] = 2965,
+			["castTime"] = 3067,
 		},
-		["Enchant Cloak - Fire Resistance"] = {
-			["castTime"] = 5144,
+		["Elixir of Superior Defense"] = {
+			["castTime"] = 3033.0000000149,
 		},
-		["Coarse Grinding Stone"] = {
-			["castTime"] = 3033,
+		["Earth Shock"] = {
+			["castTime"] = 1759,
 		},
 		["Redridge Goulash"] = {
 			["castTime"] = 3143,
 		},
 		["Thistle Tea"] = {
-			["castTime"] = 2971,
+			["castTime"] = 3639,
 		},
-		["Lifestone Healing"] = {
-			["castTime"] = 7165,
+		["Heavy Linen Bandage"] = {
+			["castTime"] = 2934,
 		},
-		["Crafted Solid Shot"] = {
-			["castTime"] = 3033,
+		["Eyes of the Beast"] = {
+			["castTime"] = 3280.0000000149,
 		},
-		["Battle Shout"] = {
-			["castTime"] = 3879,
+		["Shield Slam"] = {
+			["castTime"] = 1077,
 		},
-		["Insect Swarm"] = {
-			["castTime"] = 17909,
+		["Dreamless Sleep Potion"] = {
+			["castTime"] = 3167,
 		},
 		["Call Pet"] = {
-			["castTime"] = 40425,
+			["castTime"] = 2600,
 		},
-		["Cloak of Warding"] = {
-			["castTime"] = 30028.0000001192,
+		["Blinding Powder"] = {
+			["castTime"] = 3000,
 		},
-		["Gnomish Death Ray"] = {
-			["castTime"] = 5010.99999976158,
+		["Holy Light"] = {
+			["castTime"] = 2534,
 		},
-		["Divine Protection"] = {
-			["castTime"] = 2714,
+		["Runecloth Shoulders"] = {
+			["castTime"] = 313711,
 		},
 		["Mind Soothe"] = {
 			["castTime"] = 10029,
 		},
-		["Detect Greater Invisibility"] = {
-			["castTime"] = 1150.0000000596,
+		["Major Healing Potion"] = {
+			["castTime"] = 3033,
 		},
 		["Brown Linen Robe"] = {
-			["castTime"] = 5383.00000011921,
+			["castTime"] = 3900,
 		},
-		["Large Copper Bomb"] = {
-			["castTime"] = 4165,
+		["Dark Leather Boots"] = {
+			["castTime"] = 4329,
 		},
 		["Call Benediction"] = {
-			["castTime"] = 1005,
+			["castTime"] = 1033,
 		},
 		["Filet of Redgill"] = {
-			["castTime"] = 2993.0000000596,
+			["castTime"] = 3033,
 		},
 		["Dry Pork Ribs"] = {
-			["castTime"] = 2902.99999952316,
+			["castTime"] = 2933,
 		},
-		["Call Anathema"] = {
-			["castTime"] = 1100.9999999702,
+		["Crimson Silk Vest"] = {
+			["castTime"] = 9966.9999999702,
 		},
 		["Masterwork Target Dummy"] = {
 			["castTime"] = 5067,
@@ -2524,35 +2589,35 @@ NeatPlatesSpellDB = {
 		["Golden Skeleton Key"] = {
 			["castTime"] = 4017,
 		},
-		["Enchant 2H Weapon - Impact"] = {
-			["castTime"] = 5030,
+		["Armor +32"] = {
+			["castTime"] = 2967.00000000186,
 		},
-		["Frost Oil"] = {
-			["castTime"] = 5034.99999988079,
+		["Prowl"] = {
+			["castTime"] = 43021,
 		},
-		["Intimidation"] = {
-			["castTime"] = 3667,
+		["Conjure Water"] = {
+			["castTime"] = 3034,
 		},
-		["Major Healing Potion"] = {
-			["castTime"] = 2981,
+		["Scorch"] = {
+			["castTime"] = 1582.99999988079,
 		},
-		["Fine Leather Cloak"] = {
-			["castTime"] = 4644,
+		["Intercept"] = {
+			["castTime"] = 1093423,
 		},
 		["Drain Life"] = {
 			["castTime"] = 6239,
 		},
-		["Windfury Weapon"] = {
-			["castTime"] = 32945,
+		["Evasion"] = {
+			["castTime"] = 103744.000000007,
 		},
-		["Enchant Bracer - Intellect"] = {
-			["castTime"] = 4911,
+		["Smelt Copper"] = {
+			["castTime"] = 3122,
 		},
-		["Runecloth Shoulders"] = {
-			["castTime"] = 313711,
+		["Immune Fear/Polymorph/Stun"] = {
+			["castTime"] = 4633,
 		},
-		["Dimensional Ripper - Everlook"] = {
-			["castTime"] = 14951.0000004768,
+		["Runed Copper Breastplate"] = {
+			["castTime"] = 8433,
 		},
 		["Wizardweave Leggings"] = {
 			["castTime"] = 31025.0000000001,
@@ -2561,139 +2626,139 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60678,
 		},
 		["Frost Nova"] = {
-			["castTime"] = 914.999999880791,
+			["castTime"] = 573,
 		},
-		["Ancestral Spirit"] = {
-			["castTime"] = 9982.00000005961,
+		["Battle Stance"] = {
+			["castTime"] = 1176579,
 		},
-		["Serpent Sting"] = {
-			["castTime"] = 12232,
+		["Strength of Earth Totem"] = {
+			["castTime"] = 14084,
 		},
-		["Formal White Shirt"] = {
-			["castTime"] = 11446,
+		["Enchant Gloves - Agility"] = {
+			["castTime"] = 4934.0000000149,
 		},
 		["Felcloth Shoulders"] = {
-			["castTime"] = 60000,
+			["castTime"] = 30000,
 		},
 		["Immune Charm/Fear/Stun"] = {
 			["castTime"] = 1775,
 		},
-		["Thorns"] = {
-			["castTime"] = 210996,
+		["Shadow Protection Potion"] = {
+			["castTime"] = 2925,
+		},
+		["Enchant Chest - Major Health"] = {
+			["castTime"] = 5100,
+		},
+		["Volcanic Shoulders"] = {
+			["castTime"] = 30040,
+		},
+		["Mechanical Dragonling"] = {
+			["castTime"] = 25049,
+		},
+		["Heavy Quiver"] = {
+			["castTime"] = 4931,
+		},
+		["Mana Spring Totem"] = {
+			["castTime"] = 5861.9999999851,
+		},
+		["Stormshroud Shoulders"] = {
+			["castTime"] = 30000,
+		},
+		["Elixir of Greater Agility"] = {
+			["castTime"] = 3066.9999999851,
+		},
+		["Mithril Spurs"] = {
+			["castTime"] = 3033.00000000745,
+		},
+		["Heavy Leather Ammo Pouch"] = {
+			["castTime"] = 4961,
+		},
+		["Azure Silk Pants"] = {
+			["castTime"] = 11366,
+		},
+		["Enchant Bracer - Strength"] = {
+			["castTime"] = 5033,
+		},
+		["Vampiric Embrace"] = {
+			["castTime"] = 1720,
+		},
+		["Linen Belt"] = {
+			["castTime"] = 3533,
+		},
+		["Long Silken Cloak"] = {
+			["castTime"] = 25019,
+		},
+		["Transmute: Undeath to Water"] = {
+			["castTime"] = 10000,
 		},
 		["Silver Rod"] = {
 			["castTime"] = 4600,
 		},
-		["Flash Heal"] = {
-			["castTime"] = 1400,
-		},
-		["Thorium Shield Spike"] = {
-			["castTime"] = 3037,
-		},
-		["Smelt Steel"] = {
-			["castTime"] = 3054,
-		},
-		["Monster Omelet"] = {
-			["castTime"] = 3059,
-		},
-		["Rough Copper Vest"] = {
-			["castTime"] = 4451,
-		},
-		["Heavy Leather Ball"] = {
-			["castTime"] = 3937,
-		},
-		["Mithril Spurs"] = {
-			["castTime"] = 2990,
-		},
-		["Kreeg's Stout Beatdown"] = {
-			["castTime"] = 1000,
-		},
-		["Conjure Water"] = {
-			["castTime"] = 2942,
-		},
-		["Intercept"] = {
-			["castTime"] = 4383.00000005961,
-		},
-		["Ephemeral Power"] = {
-			["castTime"] = 12989.0000000149,
-		},
-		["Steel Breastplate"] = {
-			["castTime"] = 25000,
-		},
-		["Dark Leather Boots"] = {
-			["castTime"] = 4329,
-		},
-		["Bestial Wrath"] = {
-			["castTime"] = 3500,
-		},
-		["Greater Blessing of Light"] = {
-			["castTime"] = 84036,
-		},
 		["Dreamweave Circlet"] = {
-			["castTime"] = 33493.9999999702,
+			["castTime"] = 30009,
 		},
-		["Heavy Mageweave Bandage"] = {
-			["castTime"] = 2910.00000011921,
+		["Cooked Glossy Mightfish"] = {
+			["castTime"] = 3005,
 		},
 		["Nature's Grasp"] = {
 			["castTime"] = 3962,
 		},
-		["Power Infusion"] = {
-			["castTime"] = 74978,
+		["Shadoweave Pants"] = {
+			["castTime"] = 33519,
 		},
 		["Summon Voidwalker"] = {
-			["castTime"] = 10002,
+			["castTime"] = 10060.0000000075,
 		},
 		["Enchant Boots - Minor Stamina"] = {
-			["castTime"] = 5091,
+			["castTime"] = 5000,
 		},
-		["Blue Firework"] = {
-			["castTime"] = 2957.9999999702,
+		["Aimed Shot"] = {
+			["castTime"] = 3167,
 		},
-		["Repentance"] = {
-			["castTime"] = 4943.9999999851,
-		},
-		["Elixir of Greater Agility"] = {
+		["Rockscale Cod"] = {
 			["castTime"] = 3034,
 		},
-		["Dominion of Soul"] = {
-			["castTime"] = 3000,
+		["Rough Copper Vest"] = {
+			["castTime"] = 4451,
 		},
-		["Armor +32"] = {
-			["castTime"] = 2967,
+		["Arcane Brilliance"] = {
+			["castTime"] = 6033,
+		},
+		["Cured Rugged Hide"] = {
+			["castTime"] = 4991.9999999851,
 		},
 		["Cone of Cold"] = {
-			["castTime"] = 901,
+			["castTime"] = 1006,
 		},
 		["Elixir of Detect Undead"] = {
-			["castTime"] = 2945.00000011921,
+			["castTime"] = 6741,
 		},
 		["Sharpen Blade V"] = {
-			["castTime"] = 2998,
+			["castTime"] = 3033.00000000093,
 		},
-		["Power Word: Shield"] = {
-			["castTime"] = 7745,
+		["Goblin Jumper Cables"] = {
+			["castTime"] = 5000,
 		},
 		["Enchant Bracer - Stamina"] = {
-			["castTime"] = 5073,
+			["castTime"] = 4970,
 		},
 		["Create Healthstone (Major)"] = {
-			["castTime"] = 3059,
+			["castTime"] = 2949,
 		},
 		["Holy Nova"] = {
-			["castTime"] = 2143,
+			["castTime"] = 49400,
 		},
-		["Hot Wolf Ribs"] = {
-			["castTime"] = 2987.9999999702,
+		["Deadly Poison"] = {
+			["castTime"] = 2939,
 		},
 		["Bottomless Bag"] = {
 			["castTime"] = 29994,
 		},
 		["Mystery Stew"] = {
-			["castTime"] = 3115,
+			["castTime"] = 3000,
 		},
-		["Rockscale Cod"] = {
-			["castTime"] = 3003,
+		["Mongoose Boots"] = {
+			["castTime"] = 30067,
 		},
 		["Brown Linen Shirt"] = {
 			["castTime"] = 3831.99999988079,
@@ -2701,79 +2766,80 @@ NeatPlatesSpellDB = {
 		["Second Wind"] = {
 			["castTime"] = 4133,
 		},
-		["Enchant Weapon - Superior Striking"] = {
-			["castTime"] = 5000,
+		["Iron Strut"] = {
+			["castTime"] = 3980.0000000298,
 		},
 		["Seal of Light"] = {
 			["castTime"] = 2754,
 		},
-		["Lightning Bolt"] = {
-			["castTime"] = 1932,
-		},
-		["Stormstrike"] = {
-			["castTime"] = 1550.9999999404,
-		},
-		["Enchant Weapon - Minor Striking"] = {
-			["castTime"] = 4978,
+		["Bestial Wrath"] = {
+			["castTime"] = 3500,
 		},
 		["Ice Barrier"] = {
-			["castTime"] = 3079,
+			["castTime"] = 267711,
 		},
-		["Lobster Stew"] = {
-			["castTime"] = 3106,
+		["Enchant Weapon - Minor Striking"] = {
+			["castTime"] = 4907,
+		},
+		["Big Iron Bomb"] = {
+			["castTime"] = 5041,
+		},
+		["Fire Oil"] = {
+			["castTime"] = 5066,
 		},
 		["Black Mageweave Boots"] = {
-			["castTime"] = 29991,
+			["castTime"] = 30534,
 		},
-		["Nature's Swiftness"] = {
-			["castTime"] = 4040.9999999404,
+		["Divining Scroll Spell"] = {
+			["castTime"] = 1500,
 		},
-		["Flames of Retribution"] = {
-			["castTime"] = 3000,
-		},
-		["Azure Silk Pants"] = {
-			["castTime"] = 12583,
-		},
-		["Cured Heavy Hide"] = {
-			["castTime"] = 5093,
-		},
-		["Fletcher's Gloves"] = {
-			["castTime"] = 14959.0000002384,
-		},
-		["Enchant Weapon - Lifestealing"] = {
-			["castTime"] = 5000,
-		},
-		["Azure Silk Vest"] = {
-			["castTime"] = 11780,
-		},
-		["Soft-soled Linen Boots"] = {
-			["castTime"] = 7066,
-		},
-		["Hearthstone"] = {
-			["castTime"] = 9955,
+		["Enchant 2H Weapon - Impact"] = {
+			["castTime"] = 5100,
 		},
 		["Handstitched Leather Cloak"] = {
 			["castTime"] = 3886.99999976158,
 		},
-		["Greater Magic Wand"] = {
-			["castTime"] = 9967.9999999404,
+		["Azure Silk Vest"] = {
+			["castTime"] = 10600,
+		},
+		["Soul Link"] = {
+			["castTime"] = 1233,
+		},
+		["Enchant Weapon - Lifestealing"] = {
+			["castTime"] = 5000,
+		},
+		["Teleport: Undercity"] = {
+			["castTime"] = 9956,
+		},
+		["Golden Rod"] = {
+			["castTime"] = 4034,
+		},
+		["Hearthstone"] = {
+			["castTime"] = 10033,
+		},
+		["Cured Heavy Hide"] = {
+			["castTime"] = 5067,
+		},
+		["Black Mageweave Leggings"] = {
+			["castTime"] = 60000,
 		},
 		["Rough Sharpening Stone"] = {
-			["castTime"] = 2996,
+			["castTime"] = 3000,
 		},
-		["Mongoose Boots"] = {
-			["castTime"] = 30052,
+		["Divine Intervention"] = {
+			["castTime"] = 4809,
 		},
 		["Divine Shield"] = {
 			["castTime"] = 3108,
 		},
+		["Crafted Light Shot"] = {
+			["castTime"] = 3767,
+		},
+		["Lesser Eternal Essence"] = {
+			["castTime"] = 215133,
+		},
 		["Arclight Spanner"] = {
-			["castTime"] = 6339.00000023842,
-		},
-		["Shield Slam"] = {
-			["castTime"] = 1077,
-		},
-		["Cleave"] = {
+			["castTime"] = 6133.00000047684,
 		},
 		["Red Linen Robe"] = {
 			["castTime"] = 6037.00000005961,
@@ -2781,104 +2847,104 @@ NeatPlatesSpellDB = {
 		["Defibrillate"] = {
 			["castTime"] = 3993,
 		},
-		["Thick War Axe"] = {
-			["castTime"] = 7801,
+		["Monster Omelet"] = {
+			["castTime"] = 3034,
 		},
-		["Shadow Resistance Aura"] = {
-			["castTime"] = 18336,
+		["Steel Breastplate"] = {
+			["castTime"] = 25000,
 		},
-		["Heavy Quiver"] = {
-			["castTime"] = 4931,
+		["Flying Tiger Goggles"] = {
+			["castTime"] = 5099.9999999702,
 		},
-		["Curse of Recklessness"] = {
-			["castTime"] = 158136,
+		["Blood Sausage"] = {
+			["castTime"] = 3271,
 		},
-		["Arcane Brilliance"] = {
-			["castTime"] = 8110,
+		["Crafted Solid Shot"] = {
+			["castTime"] = 3065.99999952316,
 		},
-		["Teleport: Undercity"] = {
-			["castTime"] = 9956,
+		["Spidersilk Boots"] = {
+			["castTime"] = 31542,
 		},
 		["Frostweave Gloves"] = {
 			["castTime"] = 30076.9999998808,
 		},
+		["Elixir of Water Breathing"] = {
+			["castTime"] = 3033,
+		},
 		["Jungle Stew"] = {
 			["castTime"] = 3000,
 		},
-		["Big Iron Bomb"] = {
-			["castTime"] = 1011,
+		["Fletcher's Gloves"] = {
+			["castTime"] = 14959.0000002384,
 		},
-		["Transmute: Undeath to Water"] = {
-			["castTime"] = 10083.9999998808,
-		},
-		["Goblin Jumper Cables"] = {
-			["castTime"] = 4966,
+		["Conjure Mana Citrine"] = {
+			["castTime"] = 2933,
 		},
 		["Siphon Life"] = {
 			["castTime"] = 2433,
 		},
-		["Mechanical Squirrel"] = {
-			["castTime"] = 1000,
+		["Heavy Leather Ball"] = {
+			["castTime"] = 3937,
 		},
 		["Lesser Astral Essence"] = {
 			["castTime"] = 1461,
 		},
-		["Lesser Eternal Essence"] = {
-			["castTime"] = 5324,
+		["Enchant Cloak - Fire Resistance"] = {
+			["castTime"] = 4967,
 		},
-		["Holy Shock"] = {
-			["castTime"] = 2761,
+		["Conjure Mana Ruby"] = {
+			["castTime"] = 2933,
 		},
-		["Mana Spring Totem"] = {
-			["castTime"] = 5861.9999999851,
+		["Lightning Bolt"] = {
+			["castTime"] = 3033.00000011921,
 		},
-		["Frostsaber Boots"] = {
-			["castTime"] = 31454.0000000596,
+		["Hot Wolf Ribs"] = {
+			["castTime"] = 3033,
 		},
-		["Deadly Poison"] = {
-			["castTime"] = 2939,
+		["Thorium Shield Spike"] = {
+			["castTime"] = 3099.99999952316,
 		},
-		["Carrion Surprise"] = {
-			["castTime"] = 2962,
+		["Mechanical Squirrel"] = {
+			["castTime"] = 1000,
 		},
-		["Enchant Chest - Major Health"] = {
-			["castTime"] = 105,
+		["Power Word: Shield"] = {
+			["castTime"] = 1314235.99999976,
 		},
-		["Elixir of Water Breathing"] = {
-			["castTime"] = 3103,
+		["Rough Copper Bomb"] = {
+			["castTime"] = 3533.99999952316,
 		},
-		["Linen Belt"] = {
-			["castTime"] = 3975,
+		["Instant Poison"] = {
+			["castTime"] = 3033,
 		},
-		["Strength of Earth Totem"] = {
-			["castTime"] = 14084,
+		["Dominion of Soul"] = {
+			["castTime"] = 3000,
 		},
-		["Vampiric Embrace"] = {
-			["castTime"] = 1720,
+		["Powerful Seaforium Charge"] = {
+			["castTime"] = 4986,
 		},
-		["Runed Copper Breastplate"] = {
-			["castTime"] = 8433,
+		["Repentance"] = {
+			["castTime"] = 4943.9999999851,
 		},
 		["Corruption"] = {
-			["castTime"] = 10,
+			["castTime"] = 1256,
 		},
-		["Evasion"] = {
-			["castTime"] = 6900,
+		["Power Infusion"] = {
+			["castTime"] = 74978,
 		},
-		["Long Silken Cloak"] = {
-			["castTime"] = 25019,
+		["Windfury Weapon"] = {
+			["castTime"] = 60607.0000001192,
 		},
-		["Cured Medium Hide"] = {
-			["castTime"] = 4020.0000000298,
+		["Ancestral Spirit"] = {
+			["castTime"] = 9982.00000005961,
 		},
-		["Scorch"] = {
-			["castTime"] = 1582.99999988079,
+		["Hillman's Leather Gloves"] = {
+			["castTime"] = 13467,
 		},
-		["Righteous Fury"] = {
-			["castTime"] = 14215,
+		["Revive Pet"] = {
+			["castTime"] = 10052,
 		},
-		["Aimed Shot"] = {
-			["castTime"] = 3056,
+		["Battle Shout"] = {
+			["castTime"] = 3879,
 		},
 		["Biznicks 247x128 Accurascope"] = {
 			["castTime"] = 3009.9999999404,
@@ -2886,350 +2952,362 @@ NeatPlatesSpellDB = {
 		["Greater Blessing of Might"] = {
 			["castTime"] = 6522.9999999404,
 		},
-		["Revive Pet"] = {
-			["castTime"] = 10016,
+		["Greater Blessing of Light"] = {
+			["castTime"] = 84036,
 		},
-		["Conjure Mana Jade"] = {
-			["castTime"] = 3001,
-		},
-		["Mechanical Dragonling"] = {
-			["castTime"] = 25049,
-		},
-		["Elixir of Agility"] = {
-			["castTime"] = 3080.0000000298,
-		},
-		["Medium Leather"] = {
-			["castTime"] = 3951,
-		},
-		["Black Mageweave Shoulders"] = {
-			["castTime"] = 60000,
-		},
-		["Shadoweave Pants"] = {
-			["castTime"] = 33519,
-		},
-		["Handful of Copper Bolts"] = {
-			["castTime"] = 3633,
-		},
-		["Enchant Weapon - Lesser Elemental Slayer"] = {
-			["castTime"] = 5034,
-		},
-		["Hillman's Leather Gloves"] = {
-			["castTime"] = 13467,
-		},
-		["Cured Rugged Hide"] = {
-			["castTime"] = 5002,
-		},
-		["Volley"] = {
-			["castTime"] = 329,
-		},
-		["Moonfire"] = {
-			["castTime"] = 16940,
-		},
-		["Armor +16"] = {
-			["castTime"] = 3005,
-		},
-		["Target Dummy"] = {
-			["castTime"] = 4140.99999988079,
-		},
-		["Strong Anti-Venom"] = {
-			["castTime"] = 2966,
-		},
-		["Enchant Bracer - Strength"] = {
-			["castTime"] = 5000,
-		},
-		["Fire Oil"] = {
-			["castTime"] = 4999,
-		},
-		["Shadow Ward"] = {
-			["castTime"] = 1519.9999999702,
-		},
-		["Major Mana Potion"] = {
-			["castTime"] = 3002.00000011921,
-		},
-		["Blessing of Might"] = {
-			["castTime"] = 2734,
-		},
-		["Freezing Trap"] = {
-			["castTime"] = 14241,
-		},
-		["Spiced Wolf Meat"] = {
-			["castTime"] = 3066.9999999702,
-		},
-		["Iron Strut"] = {
-			["castTime"] = 3980.0000000298,
-		},
-		["Enchant Weapon - Crusader"] = {
-			["castTime"] = 4980,
-		},
-		["Divine Intervention"] = {
-			["castTime"] = 4809,
-		},
-		["Backstab"] = {
-			["castTime"] = 2671489,
-		},
-		["Runecloth Headband"] = {
-			["castTime"] = 29971,
-		},
-		["Enchant Boots - Lesser Agility"] = {
-			["castTime"] = 5066,
-		},
-		["Spidersilk Boots"] = {
-			["castTime"] = 28967,
-		},
-		["Mage Armor"] = {
-			["castTime"] = 79311,
-		},
-		["Cindercloth Gloves"] = {
-			["castTime"] = 30588,
-		},
-		["Greater Mystic Essence"] = {
-			["castTime"] = 772580,
+		["Amplify Curse"] = {
+			["castTime"] = 3963,
 		},
 		["Cold Snap"] = {
 			["castTime"] = 2403,
 		},
+		["Elixir of Agility"] = {
+			["castTime"] = 3033.0000000149,
+		},
+		["Medium Leather"] = {
+			["castTime"] = 4067,
+		},
+		["Stormstrike"] = {
+			["castTime"] = 1550.9999999404,
+		},
+		["Embossed Leather Vest"] = {
+			["castTime"] = 9766.9999999702,
+		},
+		["Gnomish Death Ray"] = {
+			["castTime"] = 5033,
+		},
+		["Enchant Weapon - Lesser Elemental Slayer"] = {
+			["castTime"] = 5034,
+		},
+		["Gouge"] = {
+			["castTime"] = 25341,
+		},
+		["Carrion Surprise"] = {
+			["castTime"] = 2962,
+		},
+		["Volley"] = {
+			["castTime"] = 533,
+		},
+		["Detect Greater Invisibility"] = {
+			["castTime"] = 168630,
+		},
+		["Armor +16"] = {
+			["castTime"] = 2932.9999999702,
+		},
+		["Enchant Bracer - Intellect"] = {
+			["castTime"] = 4946.0000000149,
+		},
+		["Rough Grinding Stone"] = {
+			["castTime"] = 2943,
+		},
+		["Onyxia Scale Cloak"] = {
+			["castTime"] = 30072,
+		},
+		["Enchant Boots - Greater Stamina"] = {
+			["castTime"] = 4934,
+		},
+		["Kreeg's Stout Beatdown"] = {
+			["castTime"] = 1000,
+		},
+		["Major Mana Potion"] = {
+			["castTime"] = 2967,
+		},
+		["Call Anathema"] = {
+			["castTime"] = 1066,
+		},
+		["Large Copper Bomb"] = {
+			["castTime"] = 4165,
+		},
+		["Spiced Wolf Meat"] = {
+			["castTime"] = 3066.9999999702,
+		},
+		["Major Recombobulator"] = {
+			["castTime"] = 10063,
+		},
+		["Strong Anti-Venom"] = {
+			["castTime"] = 3000,
+		},
+		["Bloodrage"] = {
+			["castTime"] = 24580,
+		},
+		["Insect Swarm"] = {
+			["castTime"] = 17909,
+		},
+		["Runecloth Headband"] = {
+			["castTime"] = 30467,
+		},
+		["Lifestone Healing"] = {
+			["castTime"] = 7165,
+		},
+		["Iron Grenade"] = {
+			["castTime"] = 1032.9999999702,
+		},
+		["Longsight"] = {
+			["castTime"] = 1034,
+		},
+		["Cindercloth Gloves"] = {
+			["castTime"] = 31033,
+		},
+		["Greater Mystic Essence"] = {
+			["castTime"] = 772580,
+		},
+		["Handful of Copper Bolts"] = {
+			["castTime"] = 3133,
+		},
 		["Lionheart Helm"] = {
 			["castTime"] = 30055,
+		},
+		["Longjaw Mud Snapper"] = {
+			["castTime"] = 2999.00000005961,
 		},
 		["Signing"] = {
 			["castTime"] = 2490,
 		},
-		["Deadly Scope"] = {
-			["castTime"] = 2997.00000000186,
-		},
 		["Enchant Weapon - Greater Striking"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5046,
 		},
 		["Advanced Target Dummy"] = {
-			["castTime"] = 4998,
+			["castTime"] = 5033,
 		},
-		["Earth Shock"] = {
-			["castTime"] = 1759,
+		["Cloak of Warding"] = {
+			["castTime"] = 30028.0000001192,
 		},
-		["Aura of Protection"] = {
-			["castTime"] = 1670,
+		["Ornate Mithril Helm"] = {
+			["castTime"] = 34089.9999999404,
 		},
-		["Heavy Scorpid Gauntlets"] = {
-			["castTime"] = 31532,
+		["Holy Shock"] = {
+			["castTime"] = 9533.9999999404,
 		},
-		["Big Bronze Bomb"] = {
-			["castTime"] = 1078.00000011921,
+		["Handstitched Leather Boots"] = {
+			["castTime"] = 3665,
 		},
-		["Elixir of Greater Water Breathing"] = {
-			["castTime"] = 3054,
+		["Runecloth Gloves"] = {
+			["castTime"] = 30950,
 		},
-		["Blade Flurry"] = {
-			["castTime"] = 15299,
+		["Standard Scope"] = {
+			["castTime"] = 3933,
 		},
-		["Cured Thick Hide"] = {
-			["castTime"] = 4957,
+		["Tasty Lion Steak"] = {
+			["castTime"] = 2933.00000047684,
 		},
-		["Shadow Protection Potion"] = {
-			["castTime"] = 3031.9999999851,
+		["Mooncloth Bag"] = {
+			["castTime"] = 30048.0000000596,
 		},
-		["Murloc Scale Breastplate"] = {
-			["castTime"] = 4965.99999976158,
+		["Shadow Resistance Aura"] = {
+			["castTime"] = 18336,
 		},
-		["Smoked Sagefish"] = {
-			["castTime"] = 3025.9999999851,
+		["Herb Baked Egg"] = {
+			["castTime"] = 3133,
 		},
-		["Holy Fire"] = {
-			["castTime"] = 2989,
+		["Aquatic Form"] = {
+			["castTime"] = 180922,
 		},
 		["Elixir of Greater Defense"] = {
 			["castTime"] = 3041,
 		},
 		["Black Mageweave Headband"] = {
-			["castTime"] = 36012,
+			["castTime"] = 30033.0000000075,
 		},
 		["Blessing of Freedom"] = {
-			["castTime"] = 2046,
+			["castTime"] = 22869.9999997616,
 		},
 		["Cheap Shot"] = {
 			["castTime"] = 1010734,
 		},
-		["Red Mageweave Pants"] = {
-			["castTime"] = 30966.0000002384,
+		["Lobster Stew"] = {
+			["castTime"] = 3106,
 		},
-		["Major Rejuvenation Potion"] = {
-			["castTime"] = 2934,
+		["Enchant Boots - Lesser Stamina"] = {
+			["castTime"] = 4966,
 		},
-		["Major Recombobulator"] = {
-			["castTime"] = 10063,
+		["Savory Deviate Delight"] = {
+			["castTime"] = 3032.00000047684,
 		},
 		["Deterrence"] = {
 			["castTime"] = 5481,
 		},
-		["Heavy Copper Broadsword"] = {
-			["castTime"] = 12500,
+		["Aspect of the Monkey"] = {
+			["castTime"] = 17266,
 		},
-		["Shrink"] = {
-			["castTime"] = 3258,
-		},
-		["Runed Copper Gauntlets"] = {
-			["castTime"] = 4687,
-		},
-		["Escape Artist"] = {
-			["castTime"] = 509,
-		},
-		["Blessing of Sanctuary"] = {
-			["castTime"] = 1267,
-		},
-		["Red Linen Bag"] = {
-			["castTime"] = 7052,
-		},
-		["Soulstone Resurrection"] = {
-			["castTime"] = 3008,
-		},
-		["Superior Healing Potion"] = {
-			["castTime"] = 3034,
-		},
-		["Powerful Seaforium Charge"] = {
-			["castTime"] = 4986,
-		},
-		["Restorative Potion"] = {
-			["castTime"] = 3032,
-		},
-		["Mind-numbing Poison III"] = {
-			["castTime"] = 3016,
-		},
-		["Create Soulstone"] = {
-			["castTime"] = 3077,
-		},
-		["Enchant Cloak - Resistance"] = {
-			["castTime"] = 5017,
-		},
-		["Enchant Gloves - Agility"] = {
-			["castTime"] = 5000,
-		},
-		["Truefaith Gloves"] = {
-			["castTime"] = 12594,
-		},
-		["Create Soulstone (Minor)"] = {
-			["castTime"] = 3000,
+		["Elixir of Wisdom"] = {
+			["castTime"] = 3032.9999999702,
 		},
 		["Fear Ward"] = {
 			["castTime"] = 8494,
 		},
-		["Standard Scope"] = {
-			["castTime"] = 3016,
+		["Speed"] = {
+			["castTime"] = 67296,
 		},
-		["Mend Pet"] = {
-			["castTime"] = 9416,
+		["Magma Totem"] = {
+			["castTime"] = 9743,
 		},
-		["Smelt Copper"] = {
+		["Perception"] = {
+			["castTime"] = 3729.9999999702,
+		},
+		["Coarse Grinding Stone"] = {
+			["castTime"] = 2867,
+		},
+		["Superior Healing Potion"] = {
+			["castTime"] = 2968,
+		},
+		["Runed Copper Belt"] = {
+			["castTime"] = 4666,
+		},
+		["Volcanic Breastplate"] = {
+			["castTime"] = 29966,
+		},
+		["Mithril Scale Pants"] = {
+			["castTime"] = 60000,
+		},
+		["Smelt Dark Iron"] = {
 			["castTime"] = 3000,
 		},
-		["Minor Healing Potion"] = {
-			["castTime"] = 3124,
+		["Enchant Cloak - Resistance"] = {
+			["castTime"] = 5066,
 		},
-		["Orb of Deception"] = {
-			["castTime"] = 114734,
+		["Enchant Cloak - Lesser Agility"] = {
+			["castTime"] = 99.9999999995344,
+		},
+		["Truefaith Gloves"] = {
+			["castTime"] = 12594,
+		},
+		["Cloaking"] = {
+			["castTime"] = 4263.0000000298,
+		},
+		["Fine Leather Cloak"] = {
+			["castTime"] = 4644,
+		},
+		["Curse of Recklessness"] = {
+			["castTime"] = 158136,
+		},
+		["Stronghold Gauntlets"] = {
+			["castTime"] = 30034,
+		},
+		["Living Shoulders"] = {
+			["castTime"] = 30067.0000000037,
+		},
+		["Minor Healing Potion"] = {
+			["castTime"] = 2933,
+		},
+		["Goblin Rocket Fuel"] = {
+			["castTime"] = 3067,
+		},
+		["Create Soulstone (Minor)"] = {
+			["castTime"] = 3088,
 		},
 		["Mageweave Bag"] = {
-			["castTime"] = 31967,
-		},
-		["Woolen Bag"] = {
-			["castTime"] = 6246,
+			["castTime"] = 30067,
 		},
 		["Astral Recall"] = {
 			["castTime"] = 9775.9999999702,
 		},
-		["Enchant Chest - Lesser Health"] = {
-			["castTime"] = 5019,
+		["Imperial Plate Bracers"] = {
+			["castTime"] = 32100,
 		},
-		["Speed"] = {
-			["castTime"] = 67296,
+		["Annihilator"] = {
+			["castTime"] = 30016,
 		},
 		["Greater Blessing of Wisdom"] = {
-			["castTime"] = 14814,
+			["castTime"] = 6987,
 		},
-		["Toughened Leather Gloves"] = {
-			["castTime"] = 25534.0000001192,
+		["Red Linen Bag"] = {
+			["castTime"] = 7052,
 		},
-		["Coarse Sharpening Stone"] = {
-			["castTime"] = 3111,
+		["Healing Touch"] = {
+			["castTime"] = 3000,
 		},
-		["Light Armor Kit"] = {
-			["castTime"] = 4670,
+		["Robe of the Void"] = {
+			["castTime"] = 30072.9999999999,
 		},
-		["Divine Spirit"] = {
-			["castTime"] = 4467.9999999702,
+		["Snowball"] = {
+			["castTime"] = 17138,
 		},
 		["Mana Burn"] = {
 			["castTime"] = 2973,
 		},
-		["Binding Volume I"] = {
-			["castTime"] = 4914,
+		["Blessing of Light"] = {
+			["castTime"] = 2633,
 		},
-		["Snake Burst Firework"] = {
-			["castTime"] = 5059,
+		["Enchant Cloak - Lesser Fire Resistance"] = {
+			["castTime"] = 4954,
 		},
-		["Hillman's Cloak"] = {
-			["castTime"] = 4966.00000011921,
+		["Dark Rune"] = {
+			["castTime"] = 3668,
 		},
-		["Frost Resistance Totem"] = {
-			["castTime"] = 4423,
+		["Simple Linen Pants"] = {
+			["castTime"] = 3133,
 		},
 		["Mind Blast"] = {
-			["castTime"] = 1639.99999988079,
+			["castTime"] = 1506,
 		},
 		["Viper Sting"] = {
 			["castTime"] = 5680,
 		},
 		["Enchant Weapon - Lesser Striking"] = {
-			["castTime"] = 5000,
+			["castTime"] = 5038,
 		},
-		["Embossed Leather Vest"] = {
-			["castTime"] = 9766.9999999702,
+		["Divine Spirit"] = {
+			["castTime"] = 4467.9999999702,
 		},
-		["Blessing of Light"] = {
-			["castTime"] = 22205,
+		["Linken's Boomerang"] = {
+			["castTime"] = 490.000000014901,
 		},
-		["Create Scrying Bowl"] = {
-			["castTime"] = 2534,
-		},
-		["Longsight"] = {
-			["castTime"] = 1102,
-		},
-		["Runn Tum Tuber Surprise"] = {
-			["castTime"] = 3028.99999988079,
-		},
-		["Enchant Cloak - Lesser Agility"] = {
-			["castTime"] = 5000,
-		},
-		["Nightscape Tunic"] = {
-			["castTime"] = 30018,
+		["Teleport: Ironforge"] = {
+			["castTime"] = 10014,
 		},
 		["Elixir of Lesser Agility"] = {
-			["castTime"] = 2048,
+			["castTime"] = 3033,
 		},
-		["Binding Volume III"] = {
-			["castTime"] = 4974,
+		["Binding Volume I"] = {
+			["castTime"] = 5033,
+		},
+		["Green Iron Gauntlets"] = {
+			["castTime"] = 13134,
+		},
+		["Nightscape Tunic"] = {
+			["castTime"] = 30004,
+		},
+		["Cured Thick Hide"] = {
+			["castTime"] = 5000,
+		},
+		["Ice Armor"] = {
+			["castTime"] = 5100,
 		},
 		["Copper Bracers"] = {
 			["castTime"] = 287068,
 		},
-		["Tasty Lion Steak"] = {
-			["castTime"] = 3253,
+		["Demoralizing Roar"] = {
+			["castTime"] = 10265,
 		},
-		["Aquadynamic Fish Attractor"] = {
-			["castTime"] = 4044,
+		["Murloc Scale Breastplate"] = {
+			["castTime"] = 4965.99999976158,
 		},
-		["Shrink Ray"] = {
-			["castTime"] = 3262,
+		["Elixir of Greater Water Breathing"] = {
+			["castTime"] = 3034,
 		},
 		["Radiant Belt"] = {
 			["castTime"] = 60000,
 		},
-		["Shadow Bolt"] = {
-			["castTime"] = 2434,
+		["Dimensional Ripper - Everlook"] = {
+			["castTime"] = 14951.0000004768,
+		},
+		["Lesser Mana Potion"] = {
+			["castTime"] = 3033,
+		},
+		["Enchant Weapon - Superior Striking"] = {
+			["castTime"] = 5000,
+		},
+		["Heal"] = {
+			["castTime"] = 2533,
 		},
 		["Elixir of Shadow Power"] = {
-			["castTime"] = 3016.9999999702,
+			["castTime"] = 2900.0000000149,
+		},
+		["Life Tap"] = {
+			["castTime"] = 913996,
 		},
 		["Woolen Cape"] = {
-			["castTime"] = 4099,
+			["castTime"] = 4311,
 		},
 	},
 	["Creature"] = {
@@ -3260,38 +3338,14 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1993.99999999627,
 			},
 		},
-		["Diseased Spit"] = {
-			["10678"] = {
-				["castTime"] = 2997,
+		["Tainted Mind"] = {
+			["8524"] = {
+				["castTime"] = 418,
 			},
 		},
-		["Immolate"] = {
-			["8910"] = {
-				["castTime"] = 1999,
-			},
-			["9499"] = {
-				["castTime"] = 2006,
-			},
-			["10430"] = {
-				["castTime"] = 3632.0000000298,
-			},
-			["11662"] = {
-				["castTime"] = 2430,
-			},
-			["7118"] = {
-				["castTime"] = 2004,
-			},
-			["9039"] = {
-				["castTime"] = 2011,
-			},
-			["11448"] = {
-				["castTime"] = 2003,
-			},
-			["7461"] = {
-				["castTime"] = 2096,
-			},
-			["14327"] = {
-				["castTime"] = 2003,
+		["Searing Totem"] = {
+			["2570"] = {
+				["castTime"] = 4853.9999999702,
 			},
 		},
 		["Hammer of Justice"] = {
@@ -3299,20 +3353,29 @@ NeatPlatesSpellDB = {
 				["castTime"] = 8503,
 			},
 		},
-		["Volatile Infection"] = {
-			["10901"] = {
-				["castTime"] = 2011,
-			},
-			["4475"] = {
-				["castTime"] = 2052,
+		["Lightning Blast"] = {
+			["3715"] = {
+				["castTime"] = 3251,
 			},
 		},
 		["Banshee Curse"] = {
+			["2177"] = {
+				["castTime"] = 2014.00000047684,
+			},
+			["3667"] = {
+				["castTime"] = 2011,
+			},
+			["2178"] = {
+				["castTime"] = 2013,
+			},
 			["10464"] = {
 				["castTime"] = 6860,
 			},
 			["10436"] = {
 				["castTime"] = 2827,
+			},
+			["2176"] = {
+				["castTime"] = 2009.00000047684,
 			},
 			["8542"] = {
 				["castTime"] = 2013,
@@ -3355,11 +3418,11 @@ NeatPlatesSpellDB = {
 			},
 		},
 		["Firebolt"] = {
+			["12922"] = {
+				["castTime"] = 1994,
+			},
 			["416"] = {
 				["castTime"] = 2000,
-			},
-			["12922"] = {
-				["castTime"] = 1993,
 			},
 		},
 		["Frost Nova"] = {
@@ -3386,15 +3449,141 @@ NeatPlatesSpellDB = {
 				["castTime"] = 505,
 			},
 		},
-		["Holy Smite"] = {
-			["10423"] = {
-				["castTime"] = 2494,
+		["Fireball"] = {
+			["2018"] = {
+				["castTime"] = 2998.99999976158,
+			},
+			["9438"] = {
+				["castTime"] = 3007,
+			},
+			["4463"] = {
+				["castTime"] = 3006,
+			},
+			["11457"] = {
+				["castTime"] = 3001,
+			},
+			["8913"] = {
+				["castTime"] = 3009,
+			},
+			["7026"] = {
+				["castTime"] = 3041.9999999404,
+			},
+			["14324"] = {
+				["castTime"] = 3040.00000005961,
+			},
+			["4038"] = {
+				["castTime"] = 3000,
+			},
+			["10430"] = {
+				["castTime"] = 3009.0000000298,
+			},
+			["2319"] = {
+				["castTime"] = 3031,
+			},
+			["335"] = {
+				["castTime"] = 2915,
+			},
+			["5858"] = {
+				["castTime"] = 3036.0000000298,
+			},
+			["4844"] = {
+				["castTime"] = 3013,
+			},
+			["9818"] = {
+				["castTime"] = 2990.00000011921,
+			},
+			["7048"] = {
+				["castTime"] = 3051,
+			},
+			["4324"] = {
+				["castTime"] = 2981,
+			},
+			["8909"] = {
+				["castTime"] = 2989,
+			},
+			["2725"] = {
+				["castTime"] = 3112.99999999977,
+			},
+			["10184"] = {
+				["castTime"] = 3015,
+			},
+			["8916"] = {
+				["castTime"] = 3000,
+			},
+			["910"] = {
+				["castTime"] = 3003,
+			},
+			["14349"] = {
+				["castTime"] = 3002.00000011921,
 			},
 			["8904"] = {
-				["castTime"] = 2482,
+				["castTime"] = 2995.99999976158,
 			},
-			["14393"] = {
-				["castTime"] = 2446,
+			["2887"] = {
+				["castTime"] = 3003.99999976158,
+			},
+			["2160"] = {
+				["castTime"] = 3010,
+			},
+			["5862"] = {
+				["castTime"] = 1500,
+			},
+			["7041"] = {
+				["castTime"] = 3070,
+			},
+			["11466"] = {
+				["castTime"] = 2999,
+			},
+			["1826"] = {
+				["castTime"] = 1500,
+			},
+			["7111"] = {
+				["castTime"] = 3006,
+			},
+			["589"] = {
+				["castTime"] = 3013,
+			},
+			["12265"] = {
+				["castTime"] = 2021,
+			},
+			["8896"] = {
+				["castTime"] = 3003.00000005961,
+			},
+			["9262"] = {
+				["castTime"] = 2997,
+			},
+			["7047"] = {
+				["castTime"] = 3000.99999999953,
+			},
+			["6202"] = {
+				["castTime"] = 3011,
+			},
+			["9318"] = {
+				["castTime"] = 3009,
+			},
+			["11443"] = {
+				["castTime"] = 3043,
+			},
+			["9778"] = {
+				["castTime"] = 2907,
+			},
+			["5839"] = {
+				["castTime"] = 3041,
+			},
+			["8444"] = {
+				["castTime"] = 4502,
+			},
+			["441"] = {
+				["castTime"] = 2988.0000000149,
+			},
+			["14354"] = {
+				["castTime"] = 3000,
+			},
+			["891"] = {
+				["castTime"] = 1500,
+			},
+			["2192"] = {
+				["castTime"] = 3008,
 			},
 		},
 		["Molten Blast"] = {
@@ -3402,29 +3591,67 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2000,
 			},
 		},
-		["Weak Frostbolt"] = {
-			["946"] = {
-				["castTime"] = 2209.9999999404,
+		["Attack"] = {
+			["3903"] = {
+				["castTime"] = 2141,
+			},
+			["3904"] = {
+				["castTime"] = 2227,
+			},
+			["7400"] = {
+				["castTime"] = 2277.9999999851,
+			},
+			["7402"] = {
+				["castTime"] = 2200,
+			},
+			["3902"] = {
+				["castTime"] = 2198,
+			},
+			["9637"] = {
+				["castTime"] = 1998,
 			},
 		},
-		["Fire Blast"] = {
+		["Bomb"] = {
+			["4062"] = {
+				["castTime"] = 2004.0000000596,
+			},
+			["5839"] = {
+				["castTime"] = 2143.0000000298,
+			},
+			["8897"] = {
+				["castTime"] = 2021,
+			},
+		},
+		["Immolate"] = {
 			["8910"] = {
-				["castTime"] = 4843,
+				["castTime"] = 1999,
 			},
-			["11444"] = {
-				["castTime"] = 30739,
+			["9499"] = {
+				["castTime"] = 2006,
 			},
-			["11466"] = {
-				["castTime"] = 4866,
+			["10430"] = {
+				["castTime"] = 3632.0000000298,
 			},
-			["8902"] = {
-				["castTime"] = 6098.00000005961,
+			["11662"] = {
+				["castTime"] = 2430,
 			},
-			["10422"] = {
-				["castTime"] = 3644,
+			["1057"] = {
+				["castTime"] = 2038.9999999702,
 			},
-			["10372"] = {
-				["castTime"] = 3641,
+			["7118"] = {
+				["castTime"] = 2004,
+			},
+			["9039"] = {
+				["castTime"] = 2011,
+			},
+			["11448"] = {
+				["castTime"] = 2003,
+			},
+			["7461"] = {
+				["castTime"] = 2096,
+			},
+			["14327"] = {
+				["castTime"] = 2003,
 			},
 		},
 		["Explosive Shot"] = {
@@ -3432,9 +3659,24 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1502,
 			},
 		},
+		["Sapper Explode"] = {
+			["1222"] = {
+				["castTime"] = 5000,
+			},
+		},
 		["Massive Geyser"] = {
 			["13280"] = {
 				["castTime"] = 1494.99999988079,
+			},
+		},
+		["Scorching Totem"] = {
+			["9024"] = {
+				["castTime"] = 4822,
+			},
+		},
+		["Flame Cannon"] = {
+			["8907"] = {
+				["castTime"] = 1508,
 			},
 		},
 		["Slow"] = {
@@ -3448,9 +3690,26 @@ NeatPlatesSpellDB = {
 				["castTime"] = 6876,
 			},
 		},
-		["Burning Winds"] = {
-			["10811"] = {
-				["castTime"] = 1001,
+		["Elemental Fire"] = {
+			["11502"] = {
+				["castTime"] = 518,
+			},
+		},
+		["Fear"] = {
+			["10502"] = {
+				["castTime"] = 1520.0000000596,
+			},
+			["10470"] = {
+				["castTime"] = 1494.9999999404,
+			},
+			["11445"] = {
+				["castTime"] = 1500,
+			},
+			["10508"] = {
+				["castTime"] = 1500,
+			},
+			["1785"] = {
+				["castTime"] = 1580,
 			},
 		},
 		["Hex"] = {
@@ -3466,6 +3725,16 @@ NeatPlatesSpellDB = {
 				["castTime"] = 4439,
 			},
 		},
+		["Diseased Spit"] = {
+			["10678"] = {
+				["castTime"] = 2997,
+			},
+		},
+		["Thunderclap"] = {
+			["8928"] = {
+				["castTime"] = 9351,
+			},
+		},
 		["Fiery Burst"] = {
 			["9017"] = {
 				["castTime"] = 1502.0000000596,
@@ -3474,14 +3743,47 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2015.0000000298,
 			},
 		},
+		["Shadow Word: Pain"] = {
+			["11487"] = {
+				["castTime"] = 6426,
+			},
+			["2371"] = {
+				["castTime"] = 3165,
+			},
+			["436"] = {
+				["castTime"] = 3686,
+			},
+			["9018"] = {
+				["castTime"] = 11326.9999999851,
+			},
+		},
 		["Domination"] = {
 			["10812"] = {
 				["castTime"] = 1008,
 			},
 		},
-		["Enervate"] = {
+		["Wild Regeneration"] = {
 			["11492"] = {
-				["castTime"] = 1515,
+				["castTime"] = 3005,
+			},
+		},
+		["Bloodlust"] = {
+			["11444"] = {
+				["castTime"] = 7283,
+			},
+			["9201"] = {
+				["castTime"] = 7270.00000000373,
+			},
+			["11443"] = {
+				["castTime"] = 6038,
+			},
+			["9197"] = {
+				["castTime"] = 10961.0000000149,
+			},
+		},
+		["Grasping Vines"] = {
+			["11489"] = {
+				["castTime"] = 1009.99999988079,
 			},
 		},
 		["Soul Consumption"] = {
@@ -3489,22 +3791,45 @@ NeatPlatesSpellDB = {
 				["castTime"] = 3961.99999988079,
 			},
 		},
-		["Fire Shield II"] = {
-			["4463"] = {
-				["castTime"] = 1060,
+		["Volatile Infection"] = {
+			["10901"] = {
+				["castTime"] = 2011,
+			},
+			["4475"] = {
+				["castTime"] = 2052,
 			},
 		},
-		["Rallying Cry of the Dragonslayer"] = {
-			["14394"] = {
+		["Holy Smite"] = {
+			["3732"] = {
+				["castTime"] = 2502.0000000298,
+			},
+			["8904"] = {
+				["castTime"] = 2482,
+			},
+			["12321"] = {
+				["castTime"] = 2419.9999999702,
+			},
+			["14393"] = {
+				["castTime"] = 2446,
+			},
+			["10423"] = {
+				["castTime"] = 2494,
+			},
+			["2180"] = {
+				["castTime"] = 2460,
 			},
 		},
-		["Mol'dar's Moxie"] = {
-			["14326"] = {
+		["Exploding Shot"] = {
+			["11454"] = {
+				["castTime"] = 1515.9999999404,
+			},
+			["8920"] = {
+				["castTime"] = 1509,
 			},
 		},
 		["Cone of Cold"] = {
-			["10469"] = {
-				["castTime"] = 8511,
+			["11471"] = {
+				["castTime"] = 4864,
 			},
 			["9038"] = {
 				["castTime"] = 9676,
@@ -3512,13 +3837,13 @@ NeatPlatesSpellDB = {
 			["10390"] = {
 				["castTime"] = 2425,
 			},
-			["11471"] = {
-				["castTime"] = 4864,
+			["10469"] = {
+				["castTime"] = 8511,
 			},
 		},
-		["Flamecrack"] = {
-			["9693"] = {
-				["castTime"] = 2500,
+		["Prayer of Healing"] = {
+			["8894"] = {
+				["castTime"] = 3019,
 			},
 		},
 		["Cripple"] = {
@@ -3543,31 +3868,35 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1004,
 			},
 		},
-		["Wither Touch"] = {
-			["2556"] = {
-				["castTime"] = 2019.99999976158,
-			},
-			["11598"] = {
-				["castTime"] = 2000,
+		["Counterspell"] = {
+			["9098"] = {
+				["castTime"] = 4848.99999999628,
 			},
 		},
-		["Intense Pain"] = {
-			["11490"] = {
-				["castTime"] = 1005,
+		["Frostbolt Volley"] = {
+			["10508"] = {
+				["castTime"] = 1995,
 			},
 		},
-		["Pierce Armor"] = {
-			["8932"] = {
+		["Haunting Phantoms"] = {
+			["10385"] = {
+				["castTime"] = 2005,
+			},
+			["10384"] = {
+				["castTime"] = 2010.0000000149,
 			},
 		},
 		["Poison"] = {
+			["2575"] = {
+				["castTime"] = 13304,
+			},
 			["8925"] = {
 				["castTime"] = 6060,
 			},
 		},
-		["Flame Cannon"] = {
-			["8907"] = {
-				["castTime"] = 1508,
+		["Enervate"] = {
+			["11492"] = {
+				["castTime"] = 1515,
 			},
 		},
 		["Summon Ragnaros"] = {
@@ -3575,29 +3904,14 @@ NeatPlatesSpellDB = {
 				["castTime"] = 9996,
 			},
 		},
-		["Entangling Roots"] = {
-			["6519"] = {
-				["castTime"] = 1513,
-			},
-			["7100"] = {
-				["castTime"] = 1470,
-			},
-			["11464"] = {
-				["castTime"] = 1501,
+		["Proudmoore's Defense"] = {
+			["4967"] = {
+				["castTime"] = 3035,
 			},
 		},
-		["Venom Spit"] = {
-			["7447"] = {
-				["castTime"] = 2427.00000000745,
-			},
-			["3721"] = {
-				["castTime"] = 2437.9999999404,
-			},
-			["8925"] = {
-				["castTime"] = 2501,
-			},
-			["10417"] = {
-				["castTime"] = 2510,
+		["Pyroblast"] = {
+			["10811"] = {
+				["castTime"] = 5996.99999988079,
 			},
 		},
 		["Fire Shield IV"] = {
@@ -3608,12 +3922,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1047,
 			},
 		},
-		["Curse of Agony"] = {
-			["9547"] = {
-				["castTime"] = 4837,
-			},
-			["8904"] = {
-				["castTime"] = 8486,
+		["Seal of Reckoning"] = {
+			["9056"] = {
+				["castTime"] = 3652,
 			},
 		},
 		["Crypt Scarabs"] = {
@@ -3633,15 +3944,18 @@ NeatPlatesSpellDB = {
 			["14399"] = {
 				["castTime"] = 2507.00000011921,
 			},
-		},
-		["Chill Nova"] = {
-			["10508"] = {
-				["castTime"] = 3639,
+			["3783"] = {
+				["castTime"] = 3008,
 			},
 		},
-		["Scorching Totem"] = {
-			["9024"] = {
-				["castTime"] = 4822,
+		["Flamecrack"] = {
+			["9693"] = {
+				["castTime"] = 2500,
+			},
+		},
+		["Wing Buffet"] = {
+			["10184"] = {
+				["castTime"] = 999,
 			},
 		},
 		["Enchant Annals of Darrowshire"] = {
@@ -3654,21 +3968,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2012,
 			},
 		},
-		["Fear"] = {
-			["10502"] = {
-				["castTime"] = 1520.0000000596,
-			},
-			["10470"] = {
-				["castTime"] = 1494.9999999404,
-			},
-			["11445"] = {
-				["castTime"] = 1500,
-			},
-			["10508"] = {
-				["castTime"] = 1500,
-			},
-			["1785"] = {
-				["castTime"] = 1580,
+		["Scarshield Portal"] = {
+			["9257"] = {
+				["castTime"] = 1501,
 			},
 		},
 		["Demoralizing Shout"] = {
@@ -3679,35 +3981,27 @@ NeatPlatesSpellDB = {
 				["castTime"] = 4862.9999999702,
 			},
 		},
+		["Frost Shock"] = {
+			["10393"] = {
+				["castTime"] = 3623,
+			},
+			["10469"] = {
+				["castTime"] = 5698.00000005961,
+			},
+		},
+		["Corrosive Poison"] = {
+			["2348"] = {
+				["castTime"] = 1528.0000000596,
+			},
+		},
 		["Holy Strike"] = {
 			["8898"] = {
 				["castTime"] = 11636,
 			},
 		},
-		["Thunderclap"] = {
+		["Lizard Bolt"] = {
 			["8928"] = {
-				["castTime"] = 9351,
-			},
-		},
-		["Resupply"] = {
-			["2575"] = {
-				["castTime"] = 1971.0000000149,
-			},
-		},
-		["Strike"] = {
-			["8902"] = {
-				["castTime"] = 14460,
-			},
-			["9034"] = {
-				["castTime"] = 10464,
-			},
-		},
-		["Exploding Shot"] = {
-			["11454"] = {
-				["castTime"] = 1515.9999999404,
-			},
-			["8920"] = {
-				["castTime"] = 1509,
+				["castTime"] = 1995.0000000596,
 			},
 		},
 		["Dredge Sickness"] = {
@@ -3715,9 +4009,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 12105,
 			},
 		},
-		["Slowing Poison"] = {
-			["9044"] = {
-				["castTime"] = 543,
+		["Summon Eliza's Guard"] = {
+			["314"] = {
+				["castTime"] = 6052,
 			},
 		},
 		["Raise Undead Scarab"] = {
@@ -3725,22 +4019,46 @@ NeatPlatesSpellDB = {
 				["castTime"] = 999,
 			},
 		},
-		["Haunting Phantoms"] = {
-			["10385"] = {
-				["castTime"] = 2005,
-			},
-			["10384"] = {
-				["castTime"] = 2010.0000000149,
+		["Blood Howl"] = {
+			["3824"] = {
+				["castTime"] = 1013.0000000298,
 			},
 		},
-		["Tainted Mind"] = {
-			["8524"] = {
-				["castTime"] = 418,
+		["Arcane Explosion"] = {
+			["12264"] = {
+				["castTime"] = 514,
+			},
+			["10390"] = {
+				["castTime"] = 1503,
+			},
+			["13197"] = {
+				["castTime"] = 4032,
+			},
+			["14397"] = {
+				["castTime"] = 994.999999880791,
+			},
+			["1835"] = {
+				["castTime"] = 1510.9999999702,
+			},
+			["8900"] = {
+				["castTime"] = 1505,
+			},
+			["9030"] = {
+				["castTime"] = 1497,
+			},
+			["14324"] = {
+				["castTime"] = 1500,
+			},
+			["10425"] = {
+				["castTime"] = 1507,
+			},
+			["8913"] = {
+				["castTime"] = 1505.9999999404,
 			},
 		},
-		["Mighty Blow"] = {
-			["8519"] = {
-				["castTime"] = 10871,
+		["Coarse Dynamite"] = {
+			["1073"] = {
+				["castTime"] = 1000,
 			},
 		},
 		["Divine Shield"] = {
@@ -3748,31 +4066,46 @@ NeatPlatesSpellDB = {
 				["castTime"] = 9693,
 			},
 		},
-		["Disjunction"] = {
-			["8928"] = {
-				["castTime"] = 10932,
+		["Faerie Fire"] = {
+			["2002"] = {
+				["castTime"] = 2012.00000023842,
+			},
+			["1121"] = {
+				["castTime"] = 2000,
+			},
+			["7442"] = {
+				["castTime"] = 2049,
+			},
+			["2694"] = {
+				["castTime"] = 2060,
+			},
+			["2167"] = {
+				["castTime"] = 2003.99999952316,
 			},
 		},
-		["Pyroblast"] = {
-			["10811"] = {
-				["castTime"] = 5996.99999988079,
+		["Curse of the Firebrand"] = {
+			["9263"] = {
+				["castTime"] = 2006,
+			},
+			["9261"] = {
+				["castTime"] = 2006,
 			},
 		},
 		["Cleave"] = {
 			["8899"] = {
 				["castTime"] = 6147.00000023842,
 			},
-			["12119"] = {
-				["castTime"] = 3934,
+			["10184"] = {
+				["castTime"] = 393726,
 			},
 			["8902"] = {
 				["castTime"] = 9747,
 			},
-			["10184"] = {
-				["castTime"] = 393726,
-			},
 			["14516"] = {
 				["castTime"] = 9031.9999999702,
+			},
+			["12119"] = {
+				["castTime"] = 3934,
 			},
 		},
 		["Toxic Bolt"] = {
@@ -3785,23 +4118,17 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2004,
 			},
 		},
-		["Wing Buffet"] = {
-			["10184"] = {
-				["castTime"] = 999,
+		["Wither Touch"] = {
+			["11598"] = {
+				["castTime"] = 2000,
+			},
+			["2556"] = {
+				["castTime"] = 2019.99999976158,
 			},
 		},
-		["Frost Armor"] = {
-			["8913"] = {
-				["castTime"] = 4844,
-			},
-		},
-		["Putrid Enzyme"] = {
-			["8932"] = {
-			},
-		},
-		["Wild Regeneration"] = {
-			["11492"] = {
-				["castTime"] = 3005,
+		["Chill Nova"] = {
+			["10508"] = {
+				["castTime"] = 3639,
 			},
 		},
 		["Blast Wave"] = {
@@ -3809,17 +4136,36 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1211,
 			},
 		},
-		["Coarse Dynamite"] = {
-			["1073"] = {
-				["castTime"] = 1000,
+		["Healing Ward"] = {
+			["2555"] = {
+				["castTime"] = 1942,
+			},
+			["2169"] = {
+				["castTime"] = 1996,
 			},
 		},
-		["Scorch"] = {
-			["8910"] = {
-				["castTime"] = 1501,
+		["Fire Nova"] = {
+			["10811"] = {
+				["castTime"] = 9738,
 			},
-			["10419"] = {
-				["castTime"] = 1508.00000011921,
+			["1784"] = {
+				["castTime"] = 6044,
+			},
+			["10372"] = {
+				["castTime"] = 4457,
+			},
+			["10083"] = {
+				["castTime"] = 7307,
+			},
+		},
+		["Disjunction"] = {
+			["8928"] = {
+				["castTime"] = 10932,
+			},
+		},
+		["Chains of Ice"] = {
+			["11471"] = {
+				["castTime"] = 1009,
 			},
 		},
 		["Sacrifice"] = {
@@ -3827,29 +4173,120 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1003,
 			},
 		},
-		["Fengus' Ferocity"] = {
-			["14321"] = {
+		["Frostbolt"] = {
+			["2720"] = {
+				["castTime"] = 2991.00000000012,
+			},
+			["2573"] = {
+				["castTime"] = 2921,
+			},
+			["4494"] = {
+				["castTime"] = 3000,
+			},
+			["11444"] = {
+				["castTime"] = 3009,
+			},
+			["10469"] = {
+				["castTime"] = 3000,
+			},
+			["15213"] = {
+				["castTime"] = 3012,
+			},
+			["10393"] = {
+				["castTime"] = 1005.9999999702,
+			},
+			["11883"] = {
+				["castTime"] = 3010,
+			},
+			["7437"] = {
+				["castTime"] = 1500,
+			},
+			["1009"] = {
+				["castTime"] = 2940,
+			},
+			["203"] = {
+				["castTime"] = 2993,
+			},
+			["8913"] = {
+				["castTime"] = 3016,
+			},
+			["1826"] = {
+				["castTime"] = 2992,
+			},
+			["2567"] = {
+				["castTime"] = 2958,
+			},
+			["10442"] = {
+				["castTime"] = 3006,
+			},
+			["11471"] = {
+				["castTime"] = 1001,
+			},
+			["1784"] = {
+				["castTime"] = 3026,
+			},
+			["3717"] = {
+				["castTime"] = 3008,
+			},
+			["10419"] = {
+				["castTime"] = 3008,
+			},
+			["9038"] = {
+				["castTime"] = 2996,
+			},
+			["9041"] = {
+				["castTime"] = 3000,
+			},
+			["1852"] = {
+				["castTime"] = 1500,
+			},
+			["314"] = {
+				["castTime"] = 2998,
+			},
+			["10438"] = {
+				["castTime"] = 2000,
+			},
+			["548"] = {
+				["castTime"] = 2992,
+			},
+			["2591"] = {
+				["castTime"] = 2938.9999999702,
+			},
+			["5981"] = {
+				["castTime"] = 3026,
+			},
+			["10390"] = {
+				["castTime"] = 3008,
 			},
 		},
-		["Arcane Might"] = {
-			["10422"] = {
-				["castTime"] = 6066,
+		["Fireball Volley"] = {
+			["10083"] = {
+				["castTime"] = 9714,
+			},
+			["10442"] = {
+				["castTime"] = 3018.0000000596,
 			},
 		},
-		["Forked Lightning"] = {
-			["9198"] = {
-				["castTime"] = 2008,
-			},
-			["14399"] = {
-				["castTime"] = 2428,
+		["Curse of the Darkmaster"] = {
+			["1853"] = {
+				["castTime"] = 2012.9999999404,
 			},
 		},
-		["Banshee Wail"] = {
-			["10436"] = {
-				["castTime"] = 1508,
+		["Venom Spit"] = {
+			["7447"] = {
+				["castTime"] = 2427.00000000745,
 			},
-			["10463"] = {
-				["castTime"] = 1510,
+			["8925"] = {
+				["castTime"] = 2501,
+			},
+			["3820"] = {
+				["castTime"] = 2503,
+			},
+			["10417"] = {
+				["castTime"] = 2510,
+			},
+			["3721"] = {
+				["castTime"] = 2437.9999999404,
 			},
 		},
 		["Frailty"] = {
@@ -3857,15 +4294,12 @@ NeatPlatesSpellDB = {
 				["castTime"] = 9750,
 			},
 		},
-		["Faerie Fire"] = {
-			["2694"] = {
-				["castTime"] = 2060,
+		["Boulder"] = {
+			["11881"] = {
+				["castTime"] = 2010,
 			},
-			["7442"] = {
-				["castTime"] = 2049,
-			},
-			["1121"] = {
-				["castTime"] = 2000,
+			["2716"] = {
+				["castTime"] = 1980,
 			},
 		},
 		["Dominate Mind"] = {
@@ -3878,14 +4312,14 @@ NeatPlatesSpellDB = {
 			["12119"] = {
 				["castTime"] = 2011,
 			},
-			["1840"] = {
-				["castTime"] = 2084,
+			["10502"] = {
+				["castTime"] = 2011,
 			},
 			["7461"] = {
 				["castTime"] = 2038.9999999404,
 			},
-			["10502"] = {
-				["castTime"] = 2011,
+			["1840"] = {
+				["castTime"] = 2084,
 			},
 		},
 		["Summon Carrion Scarab"] = {
@@ -3901,6 +4335,9 @@ NeatPlatesSpellDB = {
 		["Shadow Bolt"] = {
 			["2640"] = {
 				["castTime"] = 1700,
+			},
+			["533"] = {
+				["castTime"] = 3002,
 			},
 			["10470"] = {
 				["castTime"] = 2993,
@@ -3925,6 +4362,9 @@ NeatPlatesSpellDB = {
 			},
 			["8636"] = {
 				["castTime"] = 3017,
+			},
+			["1038"] = {
+				["castTime"] = 2995.9999999702,
 			},
 			["14523"] = {
 				["castTime"] = 1700,
@@ -3956,74 +4396,11 @@ NeatPlatesSpellDB = {
 			["9261"] = {
 				["castTime"] = 3001,
 			},
+			["787"] = {
+				["castTime"] = 2998,
+			},
 			["8916"] = {
 				["castTime"] = 3001,
-			},
-			["1060"] = {
-				["castTime"] = 3007,
-			},
-			["8904"] = {
-				["castTime"] = 2994,
-			},
-			["9031"] = {
-				["castTime"] = 3011.00000011921,
-			},
-			["12259"] = {
-				["castTime"] = 502,
-			},
-			["2590"] = {
-				["castTime"] = 2997,
-			},
-			["10680"] = {
-				["castTime"] = 3013.00000023842,
-			},
-			["7461"] = {
-				["castTime"] = 3007.9999999404,
-			},
-			["436"] = {
-				["castTime"] = 3011,
-			},
-			["8550"] = {
-				["castTime"] = 3011,
-			},
-			["941"] = {
-				["castTime"] = 1700,
-			},
-			["14521"] = {
-				["castTime"] = 3008,
-			},
-			["9499"] = {
-				["castTime"] = 1878.12499996275,
-			},
-			["2553"] = {
-				["castTime"] = 1700,
-			},
-			["7109"] = {
-				["castTime"] = 3017,
-			},
-			["429"] = {
-				["castTime"] = 3010,
-			},
-			["10476"] = {
-				["castTime"] = 3023,
-			},
-			["14511"] = {
-				["castTime"] = 3012,
-			},
-			["8526"] = {
-				["castTime"] = 2982,
-			},
-			["9547"] = {
-				["castTime"] = 3017,
-			},
-			["14516"] = {
-				["castTime"] = 2009.9999999702,
-			},
-			["8902"] = {
-				["castTime"] = 2999.00000023842,
-			},
-			["11448"] = {
-				["castTime"] = 3000.9999999404,
 			},
 			["10440"] = {
 				["castTime"] = 2003,
@@ -4031,90 +4408,90 @@ NeatPlatesSpellDB = {
 			["9257"] = {
 				["castTime"] = 3011,
 			},
-		},
-		["Frostbolt"] = {
-			["2720"] = {
-				["castTime"] = 2991.00000000012,
+			["8904"] = {
+				["castTime"] = 2994,
 			},
-			["2573"] = {
-				["castTime"] = 2921,
+			["9031"] = {
+				["castTime"] = 3011.00000011921,
 			},
-			["4494"] = {
-				["castTime"] = 3000,
+			["2590"] = {
+				["castTime"] = 2997,
 			},
-			["11444"] = {
-				["castTime"] = 3009,
+			["8902"] = {
+				["castTime"] = 2999.00000023842,
 			},
-			["10469"] = {
-				["castTime"] = 3000,
+			["10680"] = {
+				["castTime"] = 3013.00000023842,
 			},
-			["15213"] = {
+			["7461"] = {
+				["castTime"] = 3007.9999999404,
+			},
+			["941"] = {
+				["castTime"] = 1700,
+			},
+			["8550"] = {
+				["castTime"] = 3011,
+			},
+			["14516"] = {
+				["castTime"] = 2009.9999999702,
+			},
+			["9547"] = {
+				["castTime"] = 3017,
+			},
+			["9499"] = {
+				["castTime"] = 1878.12499996275,
+			},
+			["2003"] = {
+				["castTime"] = 3093.00000023842,
+			},
+			["7109"] = {
+				["castTime"] = 3017,
+			},
+			["429"] = {
+				["castTime"] = 3003,
+			},
+			["8526"] = {
+				["castTime"] = 2982,
+			},
+			["14511"] = {
 				["castTime"] = 3012,
 			},
-			["10393"] = {
-				["castTime"] = 1005.9999999702,
+			["10476"] = {
+				["castTime"] = 3023,
 			},
-			["11883"] = {
-				["castTime"] = 3010,
+			["2553"] = {
+				["castTime"] = 1700,
 			},
-			["8913"] = {
-				["castTime"] = 3016,
-			},
-			["1826"] = {
-				["castTime"] = 2992,
-			},
-			["10438"] = {
-				["castTime"] = 2000,
-			},
-			["10442"] = {
-				["castTime"] = 3006,
-			},
-			["11471"] = {
-				["castTime"] = 1001,
-			},
-			["1784"] = {
-				["castTime"] = 3026,
-			},
-			["3717"] = {
-				["castTime"] = 1500,
-			},
-			["10419"] = {
+			["14521"] = {
 				["castTime"] = 3008,
 			},
-			["548"] = {
-				["castTime"] = 3000,
+			["436"] = {
+				["castTime"] = 3011,
 			},
-			["1852"] = {
-				["castTime"] = 1500,
+			["11448"] = {
+				["castTime"] = 3000.9999999404,
 			},
-			["9038"] = {
-				["castTime"] = 2996,
+			["12259"] = {
+				["castTime"] = 502,
 			},
-			["9041"] = {
-				["castTime"] = 3000,
+			["1060"] = {
+				["castTime"] = 3007,
 			},
-			["7437"] = {
-				["castTime"] = 1500,
+		},
+		["Fire Shield II"] = {
+			["4463"] = {
+				["castTime"] = 1011,
 			},
-			["2567"] = {
-				["castTime"] = 2958,
-			},
-			["2591"] = {
-				["castTime"] = 2938.9999999702,
-			},
-			["5981"] = {
-				["castTime"] = 3026,
-			},
-			["10390"] = {
-				["castTime"] = 3008,
+			["1251"] = {
+				["castTime"] = 993,
 			},
 		},
 		["Heal"] = {
-			["8929"] = {
-				["castTime"] = 3000,
+			["787"] = {
+				["castTime"] = 3005,
 			},
-			["8896"] = {
-				["castTime"] = 3502,
+			["6366"] = {
+				["castTime"] = 3504.9999999702,
 			},
 			["10423"] = {
 				["castTime"] = 3500,
@@ -4125,20 +4502,35 @@ NeatPlatesSpellDB = {
 			["8916"] = {
 				["castTime"] = 3500,
 			},
-			["9036"] = {
-				["castTime"] = 3000,
-			},
 			["940"] = {
-				["castTime"] = 3033,
+				["castTime"] = 3005,
+			},
+			["2338"] = {
+				["castTime"] = 3017,
+			},
+			["8929"] = {
+				["castTime"] = 3000,
 			},
 			["14324"] = {
 				["castTime"] = 3000,
 			},
-			["6366"] = {
-				["castTime"] = 3504.9999999702,
+			["9045"] = {
+				["castTime"] = 2990,
+			},
+			["9036"] = {
+				["castTime"] = 3000,
+			},
+			["8896"] = {
+				["castTime"] = 3502,
 			},
 			["14393"] = {
 				["castTime"] = 3010,
+			},
+			["3732"] = {
+				["castTime"] = 3000,
+			},
+			["3944"] = {
+				["castTime"] = 3543,
 			},
 			["8902"] = {
 				["castTime"] = 3495,
@@ -4146,8 +4538,8 @@ NeatPlatesSpellDB = {
 			["10505"] = {
 				["castTime"] = 3000,
 			},
-			["9045"] = {
-				["castTime"] = 2990,
+			["2180"] = {
+				["castTime"] = 3495.99999952316,
 			},
 		},
 		["Corrosive Acid"] = {
@@ -4155,9 +4547,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1507,
 			},
 		},
-		["Corpse Explosion"] = {
-			["10477"] = {
-				["castTime"] = 6077,
+		["Chain Heal"] = {
+			["9239"] = {
+				["castTime"] = 2499,
 			},
 		},
 		["Eye of Immol'thar"] = {
@@ -4170,20 +4562,67 @@ NeatPlatesSpellDB = {
 				["castTime"] = 3632,
 			},
 		},
-		["Demon Armor"] = {
-			["11448"] = {
-				["castTime"] = 1815,
-			},
-			["9031"] = {
-				["castTime"] = 4870,
-			},
-			["10390"] = {
-				["castTime"] = 3642,
+		["Toxic Saliva"] = {
+			["1791"] = {
+				["castTime"] = 415,
 			},
 		},
-		["Throw Wrench"] = {
-			["8897"] = {
-				["castTime"] = 504,
+		["Frost Breath"] = {
+			["1135"] = {
+				["castTime"] = 271.000000059605,
+			},
+			["1134"] = {
+				["castTime"] = 260.999999940395,
+			},
+			["2251"] = {
+				["castTime"] = 253.999999880791,
+			},
+			["2250"] = {
+				["castTime"] = 252,
+			},
+		},
+		["Dark Sludge"] = {
+			["1030"] = {
+				["castTime"] = 4965,
+			},
+		},
+		["Holy Light"] = {
+			["8895"] = {
+				["castTime"] = 2506.99999976158,
+			},
+			["8898"] = {
+				["castTime"] = 2507,
+			},
+			["10421"] = {
+				["castTime"] = 2500,
+			},
+			["11032"] = {
+				["castTime"] = 2500,
+			},
+			["9056"] = {
+				["castTime"] = 2500,
+			},
+		},
+		["Summon Illusions"] = {
+			["10503"] = {
+				["castTime"] = 4853,
+			},
+		},
+		["Veil of Shadow"] = {
+			["10385"] = {
+				["castTime"] = 1498,
+			},
+			["11598"] = {
+				["castTime"] = 1505,
+			},
+			["10680"] = {
+				["castTime"] = 1504.0000000298,
+			},
+			["9817"] = {
+				["castTime"] = 1512,
+			},
+			["10504"] = {
+				["castTime"] = 1506,
 			},
 		},
 		["Renew"] = {
@@ -4208,94 +4647,20 @@ NeatPlatesSpellDB = {
 				["castTime"] = 16033,
 			},
 		},
-		["Sonic Burst"] = {
-		},
-		["Healing Wave"] = {
-			["9198"] = {
-				["castTime"] = 3002,
+		["Banshee Wail"] = {
+			["10463"] = {
+				["castTime"] = 1510,
 			},
-			["9269"] = {
-				["castTime"] = 3007,
-			},
-			["14324"] = {
-				["castTime"] = 3006,
-			},
-			["4363"] = {
-				["castTime"] = 3006.0000000298,
-			},
-			["430"] = {
-				["castTime"] = 2411,
-			},
-			["5860"] = {
-				["castTime"] = 3010.0000000596,
-			},
-			["672"] = {
-				["castTime"] = 3070,
-			},
-			["548"] = {
-				["castTime"] = 1500,
-			},
-			["4467"] = {
-				["castTime"] = 2985,
-			},
-			["2570"] = {
-				["castTime"] = 3024,
-			},
-			["4404"] = {
-				["castTime"] = 1500,
+			["10436"] = {
+				["castTime"] = 1508,
 			},
 		},
-		["Arcane Explosion"] = {
-			["12264"] = {
-				["castTime"] = 514,
+		["Curse of Stalvan"] = {
+			["2044"] = {
+				["castTime"] = 980,
 			},
-			["8913"] = {
-				["castTime"] = 1505.9999999404,
-			},
-			["13197"] = {
-				["castTime"] = 4032,
-			},
-			["14397"] = {
-				["castTime"] = 994.999999880791,
-			},
-			["1835"] = {
-				["castTime"] = 1510.9999999702,
-			},
-			["8900"] = {
-				["castTime"] = 1505,
-			},
-			["10425"] = {
-				["castTime"] = 1507,
-			},
-			["14324"] = {
-				["castTime"] = 1500,
-			},
-			["9030"] = {
-				["castTime"] = 1497,
-			},
-			["10390"] = {
-				["castTime"] = 1503,
-			},
-		},
-		["Holy Light"] = {
-			["8895"] = {
-				["castTime"] = 2506.99999976158,
-			},
-			["8898"] = {
-				["castTime"] = 2507,
-			},
-			["10421"] = {
-				["castTime"] = 2500,
-			},
-			["11032"] = {
-				["castTime"] = 2500,
-			},
-			["9056"] = {
-				["castTime"] = 2500,
-			},
-		},
-		["Cadaver Worms"] = {
-			["10382"] = {
+			["315"] = {
+				["castTime"] = 1001,
 			},
 		},
 		["Polymorph"] = {
@@ -4315,28 +4680,92 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1506,
 			},
 		},
-		["Chains of Ice"] = {
-			["11471"] = {
-				["castTime"] = 1009,
+		["Arcane Might"] = {
+			["10422"] = {
+				["castTime"] = 6066,
 			},
 		},
-		["Toxic Saliva"] = {
-			["1791"] = {
-				["castTime"] = 415,
+		["Forked Lightning"] = {
+			["9198"] = {
+				["castTime"] = 2008,
+			},
+			["14399"] = {
+				["castTime"] = 2428,
 			},
 		},
-		["Flame Spray"] = {
-			["5852"] = {
-				["castTime"] = 1766,
+		["Scorch"] = {
+			["8910"] = {
+				["castTime"] = 1501,
+			},
+			["10419"] = {
+				["castTime"] = 1508.00000011921,
 			},
 		},
-		["Slip'kik's Savvy"] = {
-			["14323"] = {
+		["Healing Wave"] = {
+			["9198"] = {
+				["castTime"] = 3002,
+			},
+			["3742"] = {
+				["castTime"] = 1500,
+			},
+			["9269"] = {
+				["castTime"] = 3007,
+			},
+			["14324"] = {
+				["castTime"] = 3006,
+			},
+			["4363"] = {
+				["castTime"] = 3006.0000000298,
+			},
+			["4467"] = {
+				["castTime"] = 2985,
+			},
+			["2570"] = {
+				["castTime"] = 3024,
+			},
+			["1197"] = {
+				["castTime"] = 2434,
+			},
+			["5860"] = {
+				["castTime"] = 3010.0000000596,
+			},
+			["430"] = {
+				["castTime"] = 2425,
+			},
+			["672"] = {
+				["castTime"] = 3070,
+			},
+			["548"] = {
+				["castTime"] = 1500,
+			},
+			["4404"] = {
+				["castTime"] = 1500,
+			},
+			["2207"] = {
+				["castTime"] = 3006,
+			},
+			["2376"] = {
+				["castTime"] = 3004,
+			},
+			["2203"] = {
+				["castTime"] = 2450.99999952316,
 			},
 		},
-		["Summon Risen Lackey"] = {
-			["11582"] = {
-				["castTime"] = 2013.0000000596,
+		["Hooked Net"] = {
+			["9736"] = {
+				["castTime"] = 511,
+			},
+			["8890"] = {
+				["castTime"] = 507,
+			},
+			["14363"] = {
+				["castTime"] = 534,
+			},
+			["9258"] = {
+				["castTime"] = 516,
+			},
+			["14365"] = {
+				["castTime"] = 533,
 			},
 		},
 		["Multi-Shot"] = {
@@ -4346,11 +4775,11 @@ NeatPlatesSpellDB = {
 			["9044"] = {
 				["castTime"] = 520,
 			},
-			["10558"] = {
-				["castTime"] = 494.999999970198,
-			},
 			["8920"] = {
 				["castTime"] = 503,
+			},
+			["10558"] = {
+				["castTime"] = 494.999999970198,
 			},
 		},
 		["Freeze"] = {
@@ -4359,10 +4788,10 @@ NeatPlatesSpellDB = {
 			},
 		},
 		["Curse of Thorns"] = {
-			["10680"] = {
+			["14518"] = {
 				["castTime"] = 2000,
 			},
-			["14518"] = {
+			["10680"] = {
 				["castTime"] = 2000,
 			},
 			["9817"] = {
@@ -4372,30 +4801,15 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2010,
 			},
 		},
-		["Shadow Bolt Volley"] = {
-			["9039"] = {
-				["castTime"] = 3000,
-			},
-			["10477"] = {
-				["castTime"] = 3003.9999999404,
-			},
-			["9029"] = {
-				["castTime"] = 2994,
-			},
-			["14511"] = {
-				["castTime"] = 3003,
-			},
-			["1794"] = {
-				["castTime"] = 3019,
-			},
-			["1789"] = {
-				["castTime"] = 2986,
-			},
-			["9261"] = {
-				["castTime"] = 3000,
+		["Stun Bomb"] = {
+			["9736"] = {
+				["castTime"] = 2003,
 			},
 		},
 		["Enchanted Quickness"] = {
+			["910"] = {
+				["castTime"] = 3008,
+			},
 			["7886"] = {
 				["castTime"] = 3010,
 			},
@@ -4421,30 +4835,27 @@ NeatPlatesSpellDB = {
 				["castTime"] = 10527,
 			},
 		},
-		["Power Word: Shield"] = {
-			["10423"] = {
-				["castTime"] = 3626.0000000149,
-			},
-			["9036"] = {
-				["castTime"] = 7302,
+		["Image Projection"] = {
+			["10498"] = {
+				["castTime"] = 4038,
 			},
 		},
-		["Fire Storm"] = {
-			["9017"] = {
-				["castTime"] = 2001,
+		["Throw Wrench"] = {
+			["8897"] = {
+				["castTime"] = 504,
 			},
 		},
 		["Psychic Scream"] = {
-			["14324"] = {
-				["castTime"] = 2410.9999999404,
-			},
 			["10812"] = {
 				["castTime"] = 2430,
 			},
+			["14324"] = {
+				["castTime"] = 2410.9999999404,
+			},
 		},
-		["Blink"] = {
-			["11483"] = {
-				["castTime"] = 14539,
+		["Plague Mind"] = {
+			["570"] = {
+				["castTime"] = 4032.9999999404,
 			},
 		},
 		["Summon Illusory Wraith"] = {
@@ -4462,35 +4873,14 @@ NeatPlatesSpellDB = {
 				["castTime"] = 6087,
 			},
 		},
-		["Dire Wolf Form"] = {
-			["11492"] = {
-				["castTime"] = 7299,
+		["Summon Risen Lackey"] = {
+			["11582"] = {
+				["castTime"] = 2013.0000000596,
 			},
 		},
-		["Chain Lightning"] = {
-			["9198"] = {
-				["castTime"] = 3007.00000000373,
-			},
-			["15213"] = {
-				["castTime"] = 2500,
-			},
-			["9239"] = {
-				["castTime"] = 3004.99999999628,
-			},
-			["14324"] = {
-				["castTime"] = 3016.00000005961,
-			},
-			["8983"] = {
-				["castTime"] = 3010,
-			},
-			["11470"] = {
-				["castTime"] = 2994,
-			},
-			["11483"] = {
-				["castTime"] = 3003,
-			},
-			["9197"] = {
-				["castTime"] = 2500,
+		["Curse of Mending"] = {
+			["2336"] = {
+				["castTime"] = 1011,
 			},
 		},
 		["Cannon Fire"] = {
@@ -4498,9 +4888,15 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1109,
 			},
 		},
-		["Stun Bomb"] = {
-			["9736"] = {
-				["castTime"] = 2003,
+		["Silence"] = {
+			["10498"] = {
+				["castTime"] = 1500.9999999404,
+			},
+			["10502"] = {
+				["castTime"] = 1514.0000000596,
+			},
+			["10436"] = {
+				["castTime"] = 1501.0000000298,
 			},
 		},
 		["King of the Gordok"] = {
@@ -4524,110 +4920,51 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2009,
 			},
 		},
-		["Veil of Shadow"] = {
-			["10385"] = {
-				["castTime"] = 1498,
+		["Chain Lightning"] = {
+			["9198"] = {
+				["castTime"] = 3007.00000000373,
 			},
-			["10504"] = {
-				["castTime"] = 1506,
+			["15213"] = {
+				["castTime"] = 2500,
 			},
-			["11598"] = {
-				["castTime"] = 1505,
+			["9197"] = {
+				["castTime"] = 2500,
 			},
-			["9817"] = {
-				["castTime"] = 1512,
+			["14324"] = {
+				["castTime"] = 3016.00000005961,
 			},
-			["10680"] = {
-				["castTime"] = 1504.0000000298,
+			["8983"] = {
+				["castTime"] = 3010,
+			},
+			["11483"] = {
+				["castTime"] = 3003,
+			},
+			["11470"] = {
+				["castTime"] = 2994,
+			},
+			["9239"] = {
+				["castTime"] = 3004.99999999628,
 			},
 		},
-		["Jadefire"] = {
-			["7111"] = {
-				["castTime"] = 6478,
+		["Corpse Explosion"] = {
+			["10477"] = {
+				["castTime"] = 6077,
 			},
 		},
-		["Hooked Net"] = {
-			["9736"] = {
-				["castTime"] = 511,
-			},
-			["8890"] = {
-				["castTime"] = 507,
-			},
-			["14363"] = {
-				["castTime"] = 534,
-			},
-			["9258"] = {
-				["castTime"] = 516,
-			},
-			["14365"] = {
-				["castTime"] = 502.999999970198,
+		["Wandering Plague"] = {
+			["604"] = {
+				["castTime"] = 2014.9999999404,
 			},
 		},
 		["Dark Mending"] = {
-			["10471"] = {
-				["castTime"] = 3492,
-			},
 			["11662"] = {
 				["castTime"] = 1991,
 			},
 			["1789"] = {
 				["castTime"] = 3475.99999976158,
 			},
-		},
-		["Decayed Strength"] = {
-			["1211"] = {
-				["castTime"] = 1914.0000000596,
-			},
-		},
-		["Corruption"] = {
-			["10505"] = {
-				["castTime"] = 2011.00000005961,
-			},
-		},
-		["Curse of Weakness"] = {
-			["9039"] = {
-				["castTime"] = 5258,
-			},
-		},
-		["Enchanting Lullaby"] = {
-			["10558"] = {
-				["castTime"] = 991,
-			},
-		},
-		["Trelane's Freezing Touch"] = {
-			["2793"] = {
-				["castTime"] = 3000,
-			},
-		},
-		["Frost Breath"] = {
-			["1135"] = {
-				["castTime"] = 271.000000059605,
-			},
-			["1134"] = {
-				["castTime"] = 260.999999940395,
-			},
-		},
-		["Counterspell"] = {
-			["9098"] = {
-				["castTime"] = 4848.99999999628,
-			},
-		},
-		["Volley"] = {
-			["11488"] = {
-				["castTime"] = 497,
-			},
-		},
-		["Image Projection"] = {
-			["10498"] = {
-				["castTime"] = 4038,
-			},
-		},
-		["Frost Shock"] = {
-			["10393"] = {
-				["castTime"] = 3623,
-			},
-			["10469"] = {
-				["castTime"] = 5698.00000005961,
+			["10471"] = {
+				["castTime"] = 3492,
 			},
 		},
 		["Summon Blackhand Veteran"] = {
@@ -4635,9 +4972,83 @@ NeatPlatesSpellDB = {
 				["castTime"] = 4992.99999976158,
 			},
 		},
-		["Dark Whispers"] = {
-			["8548"] = {
-				["castTime"] = 3045,
+		["Jadefire"] = {
+			["7111"] = {
+				["castTime"] = 6478,
+			},
+		},
+		["Gust of Wind"] = {
+			["832"] = {
+				["castTime"] = 2006,
+			},
+			["2324"] = {
+				["castTime"] = 2051,
+			},
+		},
+		["Curse of Blood"] = {
+			["14520"] = {
+				["castTime"] = 2000,
+			},
+			["11582"] = {
+				["castTime"] = 2019,
+			},
+			["10503"] = {
+				["castTime"] = 2014,
+			},
+			["9236"] = {
+				["castTime"] = 1992.00000000373,
+			},
+			["511"] = {
+				["castTime"] = 2077,
+			},
+		},
+		["Trelane's Freezing Touch"] = {
+			["2793"] = {
+				["castTime"] = 3000,
+			},
+		},
+		["Frost Shot"] = {
+			["8920"] = {
+				["castTime"] = 508.000000059605,
+			},
+			["6195"] = {
+				["castTime"] = 602,
+			},
+		},
+		["Ground Smash"] = {
+			["11032"] = {
+				["castTime"] = 5745,
+			},
+		},
+		["Curse of Tongues"] = {
+			["14327"] = {
+				["castTime"] = 7299,
+			},
+			["11448"] = {
+				["castTime"] = 14554,
+			},
+		},
+		["Wrath"] = {
+			["7235"] = {
+				["castTime"] = 2020,
+			},
+		},
+		["Creeping Mold"] = {
+			["4361"] = {
+				["castTime"] = 2979,
+			},
+		},
+		["Gargoyle Strike"] = {
+			["10409"] = {
+				["castTime"] = 1504,
+			},
+		},
+		["Mark of Flames"] = {
+			["9263"] = {
+				["castTime"] = 1006.9999999851,
+			},
+			["9261"] = {
+				["castTime"] = 995,
 			},
 		},
 		["Summon Water Elemental"] = {
@@ -4658,51 +5069,12 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1996,
 			},
 		},
-		["Silence"] = {
-			["10498"] = {
-				["castTime"] = 1500.9999999404,
-			},
-			["10502"] = {
-				["castTime"] = 1514.0000000596,
-			},
-			["10436"] = {
-				["castTime"] = 1501.0000000298,
-			},
-		},
-		["Ground Smash"] = {
-			["11032"] = {
-				["castTime"] = 5745,
-			},
-		},
 		["Sleep"] = {
 			["2590"] = {
 				["castTime"] = 940,
 			},
 			["10812"] = {
 				["castTime"] = 1005,
-			},
-		},
-		["Glacial Roar"] = {
-			["1388"] = {
-				["castTime"] = 1069.99999976158,
-			},
-		},
-		["Mark of Flames"] = {
-			["9263"] = {
-				["castTime"] = 1006.9999999851,
-			},
-			["9261"] = {
-				["castTime"] = 995,
-			},
-		},
-		["Gargoyle Strike"] = {
-			["10409"] = {
-				["castTime"] = 1504,
-			},
-		},
-		["Rejuvenation"] = {
-			["9198"] = {
-				["castTime"] = 8068,
 			},
 		},
 		["Rain of Fire"] = {
@@ -4715,17 +5087,50 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1997,
 			},
 		},
+		["Quick Bloodlust"] = {
+			["1205"] = {
+				["castTime"] = 1914,
+			},
+		},
+		["Rejuvenation"] = {
+			["9198"] = {
+				["castTime"] = 8068,
+			},
+		},
+		["Dark Whispers"] = {
+			["8548"] = {
+				["castTime"] = 3045,
+			},
+		},
+		["Sunder Armor"] = {
+			["14365"] = {
+				["castTime"] = 12672,
+			},
+			["8902"] = {
+				["castTime"] = 8509,
+			},
+		},
+		["Glacial Roar"] = {
+			["1388"] = {
+				["castTime"] = 1069.99999976158,
+			},
+		},
+		["Thorns"] = {
+			["11492"] = {
+				["castTime"] = 6083.00000023842,
+			},
+			["1121"] = {
+				["castTime"] = 6066,
+			},
+		},
+		["Enrage"] = {
+			["4463"] = {
+				["castTime"] = 3631.9999999702,
+			},
+		},
 		["Deafening Screech"] = {
 			["10463"] = {
 				["castTime"] = 14597,
-			},
-		},
-		["Frost Shot"] = {
-			["6195"] = {
-				["castTime"] = 602,
-			},
-			["8920"] = {
-				["castTime"] = 508.000000059605,
 			},
 		},
 		["Split"] = {
@@ -4747,12 +5152,12 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2998,
 			},
 		},
-		["Curse of Tongues"] = {
-			["11448"] = {
-				["castTime"] = 14554,
+		["Encasing Webs"] = {
+			["10437"] = {
+				["castTime"] = 1999,
 			},
-			["14327"] = {
-				["castTime"] = 7299,
+			["10413"] = {
+				["castTime"] = 2001,
 			},
 		},
 		["Shadow Shield"] = {
@@ -4770,11 +5175,11 @@ NeatPlatesSpellDB = {
 			["11480"] = {
 				["castTime"] = 1000,
 			},
-			["8913"] = {
-				["castTime"] = 1002.9999999404,
+			["10390"] = {
+				["castTime"] = 1010,
 			},
-			["10422"] = {
-				["castTime"] = 1014,
+			["9693"] = {
+				["castTime"] = 1008,
 			},
 			["13197"] = {
 				["castTime"] = 1005,
@@ -4788,55 +5193,46 @@ NeatPlatesSpellDB = {
 			["8900"] = {
 				["castTime"] = 997,
 			},
-			["9098"] = {
-				["castTime"] = 1007,
-			},
 			["8524"] = {
 				["castTime"] = 1000,
 			},
-			["9693"] = {
-				["castTime"] = 1008,
+			["9098"] = {
+				["castTime"] = 1007,
+			},
+			["10422"] = {
+				["castTime"] = 1014,
+			},
+			["8913"] = {
+				["castTime"] = 1002.9999999404,
+			},
+		},
+		["Curse of Weakness"] = {
+			["9039"] = {
+				["castTime"] = 5258,
+			},
+			["429"] = {
+				["castTime"] = 18290,
+			},
+		},
+		["Demon Armor"] = {
+			["11448"] = {
+				["castTime"] = 1815,
+			},
+			["9031"] = {
+				["castTime"] = 4870,
 			},
 			["10390"] = {
-				["castTime"] = 1010,
+				["castTime"] = 3642,
 			},
 		},
-		["Encasing Webs"] = {
-			["10437"] = {
-				["castTime"] = 1999,
-			},
-			["10413"] = {
-				["castTime"] = 2001,
+		["Decayed Strength"] = {
+			["1211"] = {
+				["castTime"] = 1914.0000000596,
 			},
 		},
-		["Thorns"] = {
-			["11492"] = {
-				["castTime"] = 6083.00000023842,
-			},
-			["1121"] = {
-				["castTime"] = 6066,
-			},
-		},
-		["Sunder Armor"] = {
-			["14365"] = {
-				["castTime"] = 12672,
-			},
-			["8902"] = {
-				["castTime"] = 8509,
-			},
-		},
-		["Curse of Blood"] = {
-			["10503"] = {
-				["castTime"] = 2014,
-			},
-			["14520"] = {
-				["castTime"] = 2000,
-			},
-			["11582"] = {
-				["castTime"] = 2019,
-			},
-			["9236"] = {
-				["castTime"] = 1992.00000000373,
+		["Blink"] = {
+			["11483"] = {
+				["castTime"] = 14539,
 			},
 		},
 		["Shadow Shock"] = {
@@ -4847,9 +5243,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 7273,
 			},
 		},
-		["Crystal Gaze"] = {
-			["5990"] = {
-				["castTime"] = 2071,
+		["Enchanting Lullaby"] = {
+			["10558"] = {
+				["castTime"] = 991,
 			},
 		},
 		["Starshards"] = {
@@ -4862,25 +5258,22 @@ NeatPlatesSpellDB = {
 				["castTime"] = 984.999999996275,
 			},
 		},
-		["Scarshield Portal"] = {
-			["9257"] = {
-				["castTime"] = 1501,
+		["Volley"] = {
+			["11488"] = {
+				["castTime"] = 497,
 			},
 		},
-		["Bomb"] = {
-			["8897"] = {
-				["castTime"] = 2021,
-			},
-			["5839"] = {
-				["castTime"] = 2143.0000000298,
-			},
-			["4062"] = {
-				["castTime"] = 2002.0000000596,
+		["Dire Wolf Form"] = {
+			["11492"] = {
+				["castTime"] = 7299,
 			},
 		},
-		["Seal of Reckoning"] = {
-			["9056"] = {
-				["castTime"] = 3652,
+		["Power Word: Shield"] = {
+			["10423"] = {
+				["castTime"] = 3626.0000000149,
+			},
+			["9036"] = {
+				["castTime"] = 7302,
 			},
 		},
 		["Flash Heal"] = {
@@ -4894,9 +5287,12 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1525.99999999627,
 			},
 		},
-		["Frostbolt Volley"] = {
-			["10508"] = {
-				["castTime"] = 1995,
+		["Corruption"] = {
+			["10505"] = {
+				["castTime"] = 2011.00000005961,
+			},
+			["1038"] = {
+				["castTime"] = 2067.9999999702,
 			},
 		},
 		["Banish"] = {
@@ -4917,67 +5313,13 @@ NeatPlatesSpellDB = {
 			},
 		},
 		["Fire Shield"] = {
-			["8909"] = {
-			},
-		},
-		["Boulder"] = {
-			["11881"] = {
-				["castTime"] = 2010,
-			},
-			["2716"] = {
-				["castTime"] = 1980,
-			},
-		},
-		["Fireball Volley"] = {
-			["10083"] = {
-				["castTime"] = 9714,
-			},
-			["10442"] = {
-				["castTime"] = 3018.0000000596,
-			},
-		},
-		["Aural Shock"] = {
-			["8927"] = {
-			},
-		},
-		["Searing Totem"] = {
-			["2570"] = {
-				["castTime"] = 4853.9999999702,
-			},
-		},
-		["Chain Heal"] = {
-			["9239"] = {
-				["castTime"] = 2499,
-			},
-		},
-		["Dispel Magic"] = {
-			["9240"] = {
-				["castTime"] = 3643,
-			},
-		},
-		["Curse of the Darkmaster"] = {
-			["1853"] = {
-				["castTime"] = 2012.9999999404,
-			},
-		},
-		["Shadow Portal"] = {
-			["1853"] = {
-				["castTime"] = 1014,
+			["1174"] = {
+				["castTime"] = 1050,
 			},
 		},
 		["Kick"] = {
 			["9056"] = {
 				["castTime"] = 3628,
-			},
-		},
-		["Fire Shield III"] = {
-			["8904"] = {
-				["castTime"] = 999,
-			},
-		},
-		["Healing Ward"] = {
-			["2555"] = {
-				["castTime"] = 1942,
 			},
 		},
 		["Lightning Bolt"] = {
@@ -4987,20 +5329,41 @@ NeatPlatesSpellDB = {
 			["4467"] = {
 				["castTime"] = 3101,
 			},
+			["4363"] = {
+				["castTime"] = 3013,
+			},
+			["2021"] = {
+				["castTime"] = 3002,
+			},
+			["2371"] = {
+				["castTime"] = 3036,
+			},
+			["11464"] = {
+				["castTime"] = 3003,
+			},
+			["4404"] = {
+				["castTime"] = 2940.9999999404,
+			},
+			["2596"] = {
+				["castTime"] = 3004.99999999953,
+			},
+			["14324"] = {
+				["castTime"] = 3003,
+			},
 			["1397"] = {
 				["castTime"] = 3007,
 			},
 			["10442"] = {
 				["castTime"] = 3005,
 			},
-			["14324"] = {
-				["castTime"] = 3003,
-			},
-			["4363"] = {
-				["castTime"] = 3009,
-			},
 			["430"] = {
-				["castTime"] = 2928,
+				["castTime"] = 3043.9999999702,
+			},
+			["2570"] = {
+				["castTime"] = 3010.0000000298,
+			},
+			["3783"] = {
+				["castTime"] = 3021,
 			},
 			["672"] = {
 				["castTime"] = 3002,
@@ -5008,17 +5371,94 @@ NeatPlatesSpellDB = {
 			["2718"] = {
 				["castTime"] = 3080,
 			},
-			["4404"] = {
-				["castTime"] = 2940.9999999404,
+			["2376"] = {
+				["castTime"] = 3006,
 			},
-			["11464"] = {
+			["2207"] = {
+				["castTime"] = 2998,
+			},
+			["701"] = {
+				["castTime"] = 3002,
+			},
+			["1166"] = {
+				["castTime"] = 3008,
+			},
+		},
+		["Crystal Gaze"] = {
+			["5990"] = {
+				["castTime"] = 2071,
+			},
+			["689"] = {
+				["castTime"] = 1993.00000011921,
+			},
+			["688"] = {
+				["castTime"] = 2008,
+			},
+			["4150"] = {
+				["castTime"] = 2025,
+			},
+		},
+		["Mighty Blow"] = {
+			["8519"] = {
+				["castTime"] = 10871,
+			},
+		},
+		["Fire Storm"] = {
+			["9017"] = {
+				["castTime"] = 2001,
+			},
+		},
+		["Dispel Magic"] = {
+			["9240"] = {
+				["castTime"] = 3643,
+			},
+		},
+		["Shadow Bolt Volley"] = {
+			["9039"] = {
+				["castTime"] = 3000,
+			},
+			["10477"] = {
+				["castTime"] = 3003.9999999404,
+			},
+			["9029"] = {
+				["castTime"] = 2994,
+			},
+			["9261"] = {
+				["castTime"] = 3000,
+			},
+			["1794"] = {
+				["castTime"] = 3019,
+			},
+			["1789"] = {
+				["castTime"] = 2986,
+			},
+			["14511"] = {
 				["castTime"] = 3003,
 			},
-			["2570"] = {
-				["castTime"] = 3010.0000000298,
+		},
+		["Shadow Portal"] = {
+			["1853"] = {
+				["castTime"] = 1014,
 			},
-			["2596"] = {
-				["castTime"] = 3004.99999999953,
+		},
+		["Enveloping Web"] = {
+			["10412"] = {
+				["castTime"] = 3226.9999999404,
+			},
+		},
+		["Fire Shield III"] = {
+			["8904"] = {
+				["castTime"] = 999,
+			},
+		},
+		["Spirit Decay"] = {
+			["1008"] = {
+				["castTime"] = 2004.0000000298,
+			},
+		},
+		["Flame Spray"] = {
+			["5852"] = {
+				["castTime"] = 1766,
 			},
 		},
 		["Mana Burn"] = {
@@ -5064,41 +5504,41 @@ NeatPlatesSpellDB = {
 			["672"] = {
 				["castTime"] = 3008,
 			},
+			["4151"] = {
+				["castTime"] = 3007,
+			},
 			["10426"] = {
 				["castTime"] = 2014,
 			},
 			["1794"] = {
 				["castTime"] = 3000,
 			},
-			["9240"] = {
-				["castTime"] = 2997.99999999628,
-			},
 			["7462"] = {
 				["castTime"] = 3003,
 			},
+			["9240"] = {
+				["castTime"] = 2997.99999999628,
+			},
 		},
-		["Summon Illusions"] = {
-			["10503"] = {
-				["castTime"] = 4853,
+		["Slowing Poison"] = {
+			["9044"] = {
+				["castTime"] = 543,
 			},
 		},
 		["Rend"] = {
 			["8921"] = {
 				["castTime"] = 6890,
 			},
-			["7462"] = {
-				["castTime"] = 3646,
-			},
 			["14520"] = {
 				["castTime"] = 8504,
 			},
-		},
-		["Curse of the Firebrand"] = {
-			["9263"] = {
-				["castTime"] = 2006,
+			["7462"] = {
+				["castTime"] = 3646,
 			},
-			["9261"] = {
-				["castTime"] = 2006,
+		},
+		["Touch of Death"] = {
+			["1200"] = {
+				["castTime"] = 3019,
 			},
 		},
 		["Black Sludge"] = {
@@ -5128,28 +5568,28 @@ NeatPlatesSpellDB = {
 			["11487"] = {
 				["castTime"] = 1511,
 			},
-			["10812"] = {
-				["castTime"] = 1504,
+			["4472"] = {
+				["castTime"] = 1450,
 			},
 			["8894"] = {
 				["castTime"] = 1506,
 			},
-			["4472"] = {
-				["castTime"] = 1450,
+			["10812"] = {
+				["castTime"] = 1504,
 			},
 		},
-		["Fire Nova"] = {
-			["10811"] = {
-				["castTime"] = 9738,
+		["Entangling Roots"] = {
+			["6519"] = {
+				["castTime"] = 1513,
 			},
-			["10372"] = {
-				["castTime"] = 4457,
+			["14424"] = {
+				["castTime"] = 1489,
 			},
-			["10083"] = {
-				["castTime"] = 7307,
+			["7100"] = {
+				["castTime"] = 1470,
 			},
-			["1784"] = {
-				["castTime"] = 6044,
+			["11464"] = {
+				["castTime"] = 1501,
 			},
 		},
 		["Bellowing Roar"] = {
@@ -5157,9 +5597,9 @@ NeatPlatesSpellDB = {
 				["castTime"] = 1497,
 			},
 		},
-		["Lizard Bolt"] = {
-			["8928"] = {
-				["castTime"] = 1995.0000000596,
+		["Burning Winds"] = {
+			["10811"] = {
+				["castTime"] = 1001,
 			},
 		},
 		["Slave Drain"] = {
@@ -5171,8 +5611,8 @@ NeatPlatesSpellDB = {
 			["7026"] = {
 				["castTime"] = 3319,
 			},
-			["10432"] = {
-				["castTime"] = 3013.9999999404,
+			["10083"] = {
+				["castTime"] = 3005.00000047684,
 			},
 			["9262"] = {
 				["castTime"] = 3012,
@@ -5180,23 +5620,21 @@ NeatPlatesSpellDB = {
 			["11444"] = {
 				["castTime"] = 3008,
 			},
-			["10083"] = {
-				["castTime"] = 3005.00000047684,
-			},
 			["10363"] = {
 				["castTime"] = 2497,
 			},
-		},
-		["Enveloping Web"] = {
-			["9031"] = {
-			},
-			["10412"] = {
-				["castTime"] = 3226.9999999404,
+			["10432"] = {
+				["castTime"] = 3013.9999999404,
 			},
 		},
-		["Elemental Fire"] = {
-			["11502"] = {
-				["castTime"] = 518,
+		["Intense Pain"] = {
+			["11490"] = {
+				["castTime"] = 1005,
+			},
+		},
+		["Weak Frostbolt"] = {
+			["946"] = {
+				["castTime"] = 2209.9999999404,
 			},
 		},
 		["Warosh's Transform"] = {
@@ -5209,125 +5647,14 @@ NeatPlatesSpellDB = {
 				["castTime"] = 5009,
 			},
 		},
-		["Prayer of Healing"] = {
-			["8894"] = {
-				["castTime"] = 3019,
+		["Frost Armor"] = {
+			["8913"] = {
+				["castTime"] = 4844,
 			},
 		},
-		["Fireball"] = {
-			["9438"] = {
-				["castTime"] = 3007,
-			},
-			["4463"] = {
-				["castTime"] = 3010,
-			},
-			["11457"] = {
-				["castTime"] = 3001,
-			},
-			["8913"] = {
-				["castTime"] = 3009,
-			},
-			["7026"] = {
-				["castTime"] = 3041.9999999404,
-			},
-			["14324"] = {
-				["castTime"] = 3040.00000005961,
-			},
-			["4038"] = {
-				["castTime"] = 3000,
-			},
-			["10430"] = {
-				["castTime"] = 3009.0000000298,
-			},
-			["335"] = {
-				["castTime"] = 2915,
-			},
-			["5858"] = {
-				["castTime"] = 3036.0000000298,
-			},
-			["4844"] = {
-				["castTime"] = 3013,
-			},
-			["9818"] = {
-				["castTime"] = 2990.00000011921,
-			},
-			["7048"] = {
-				["castTime"] = 3051,
-			},
-			["4324"] = {
-				["castTime"] = 2981,
-			},
-			["8909"] = {
-				["castTime"] = 2989,
-			},
-			["2725"] = {
-				["castTime"] = 3112.99999999977,
-			},
-			["10184"] = {
-				["castTime"] = 3015,
-			},
-			["8916"] = {
-				["castTime"] = 3000,
-			},
-			["14349"] = {
-				["castTime"] = 3002.00000011921,
-			},
-			["8904"] = {
-				["castTime"] = 2995.99999976158,
-			},
-			["2887"] = {
-				["castTime"] = 3003.99999976158,
-			},
-			["7041"] = {
-				["castTime"] = 3070,
-			},
-			["7111"] = {
-				["castTime"] = 3006,
-			},
-			["5862"] = {
-				["castTime"] = 1500,
-			},
-			["12265"] = {
-				["castTime"] = 2021,
-			},
-			["8896"] = {
-				["castTime"] = 3003.00000005961,
-			},
-			["9262"] = {
-				["castTime"] = 2997,
-			},
-			["8444"] = {
-				["castTime"] = 4502,
-			},
-			["7047"] = {
-				["castTime"] = 3000.99999999953,
-			},
-			["9318"] = {
-				["castTime"] = 3009,
-			},
-			["441"] = {
-				["castTime"] = 3043,
-			},
-			["9778"] = {
-				["castTime"] = 2907,
-			},
-			["11443"] = {
-				["castTime"] = 3043,
-			},
-			["6202"] = {
-				["castTime"] = 3011,
-			},
-			["11466"] = {
-				["castTime"] = 2999,
-			},
-			["14354"] = {
-				["castTime"] = 3000,
-			},
-			["1826"] = {
-				["castTime"] = 1500,
-			},
-			["5839"] = {
-				["castTime"] = 3041,
+		["Tree Form"] = {
+			["11492"] = {
+				["castTime"] = 2450,
 			},
 		},
 		["Curse of the Deadwood"] = {
@@ -5344,28 +5671,19 @@ NeatPlatesSpellDB = {
 			["10217"] = {
 				["castTime"] = 2208,
 			},
-			["7043"] = {
-				["castTime"] = 2273.0000000149,
+			["7037"] = {
+				["castTime"] = 2212,
 			},
 			["10372"] = {
 				["castTime"] = 1504,
 			},
-			["7037"] = {
-				["castTime"] = 2212,
+			["7043"] = {
+				["castTime"] = 2273.0000000149,
 			},
 		},
-		["Bloodlust"] = {
-			["9201"] = {
-				["castTime"] = 7270.00000000373,
-			},
-			["11444"] = {
-				["castTime"] = 7283,
-			},
-			["11443"] = {
-				["castTime"] = 6038,
-			},
-			["9197"] = {
-				["castTime"] = 10961.0000000149,
+		["Enveloping Winds"] = {
+			["2371"] = {
+				["castTime"] = 2008,
 			},
 		},
 		["Torch Toss"] = {
@@ -5373,25 +5691,37 @@ NeatPlatesSpellDB = {
 				["castTime"] = 2950.0000000596,
 			},
 		},
-		["Grasping Vines"] = {
-			["11489"] = {
-				["castTime"] = 1009.99999988079,
+		["Resupply"] = {
+			["2575"] = {
+				["castTime"] = 2017,
 			},
 		},
-		["Tree Form"] = {
-			["11492"] = {
-				["castTime"] = 2450,
+		["Strike"] = {
+			["8902"] = {
+				["castTime"] = 14460,
+			},
+			["9034"] = {
+				["castTime"] = 10464,
 			},
 		},
-		["Shadow Word: Pain"] = {
-			["9018"] = {
-				["castTime"] = 11326.9999999851,
+		["Fire Blast"] = {
+			["8910"] = {
+				["castTime"] = 4843,
 			},
-			["436"] = {
-				["castTime"] = 3686,
+			["10422"] = {
+				["castTime"] = 3644,
 			},
-			["11487"] = {
-				["castTime"] = 6426,
+			["11466"] = {
+				["castTime"] = 4866,
+			},
+			["8902"] = {
+				["castTime"] = 6098.00000005961,
+			},
+			["10372"] = {
+				["castTime"] = 3641,
+			},
+			["11444"] = {
+				["castTime"] = 30739,
 			},
 		},
 		["Wither"] = {
@@ -5412,37 +5742,25 @@ NeatPlatesSpellDB = {
 				["castTime"] = 4000,
 			},
 		},
-		["Attack"] = {
-			["3903"] = {
-				["castTime"] = 2182,
+		["Curse of Agony"] = {
+			["9547"] = {
+				["castTime"] = 4837,
 			},
-			["3904"] = {
-				["castTime"] = 2227,
-			},
-			["7400"] = {
-				["castTime"] = 2277.9999999851,
-			},
-			["9637"] = {
-				["castTime"] = 1998,
-			},
-			["3902"] = {
-				["castTime"] = 2205,
-			},
-			["7402"] = {
-				["castTime"] = 2171,
+			["8904"] = {
+				["castTime"] = 8486,
 			},
 		},
 	},
 	["default"] = {
 		["Enchant Cloak - Greater Defense"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Spotted"] = {
 			["texture"] = 136173,
 		},
 		["Diseased Spit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136134,
 		},
 		["Arcane Elixir"] = {
@@ -5450,19 +5768,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 134810,
 		},
 		["Aynasha's Arrow"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Shadow Guard"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Nightmare Riding"] = {
 			["texture"] = 136103,
 		},
 		["Sharpen Blade V"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Icy Scale Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rancid Ooze Effect"] = {
 			["texture"] = 136133,
@@ -5484,7 +5802,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Reputation - Gadgetzan +500"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Dreamwalker"] = {
 			["texture"] = 135900,
@@ -5497,7 +5815,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135812,
 		},
 		["Enchant Gloves - Superior Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Scorpid Sting"] = {
@@ -5507,7 +5825,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135848,
 		},
 		["Seeping Willow"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136016,
 		},
 		["Elemental Slayer"] = {
@@ -5523,13 +5841,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Create Hive'Regal Rubbing DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Spiteful Phantom"] = {
 			["texture"] = 136122,
 		},
 		["Dire Growl"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132278,
 		},
 		["Tuxedo Jacket"] = {
@@ -5553,7 +5871,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136126,
 		},
 		["Zul'Gurub Talisman PAL R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Consuming Shadows"] = {
 			["texture"] = 136163,
@@ -5566,7 +5884,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136048,
 		},
 		["Detonation"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135805,
 		},
 		["Copper Chain Belt"] = {
@@ -5574,7 +5892,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Sacrifice (NSE)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135896,
 		},
 		["Green Dragonscale Gauntlets"] = {
@@ -5582,14 +5900,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Enchant 2H Weapon - Superior Impact"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Deep Wound"] = {
 			["texture"] = 132090,
 		},
 		["Summon Shield Guard"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136075,
 		},
 		["Frostweave Robe"] = {
@@ -5597,7 +5915,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Chromatic Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lobster Stew"] = {
 			["castTime"] = 3000,
@@ -5608,7 +5926,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Create Firestone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132386,
 		},
 		["Lesser Healing Potion"] = {
@@ -5616,7 +5934,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Living Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Radiation Cloud"] = {
 			["texture"] = 136133,
@@ -5625,7 +5943,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136066,
 		},
 		["Place Unfired Blade"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Magma Splash"] = {
 			["texture"] = 135817,
@@ -5640,13 +5958,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Schematic: Small Seaforium Charge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Hillman's Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Stormshroud Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Eviscerate"] = {
 			["texture"] = 132292,
@@ -5658,7 +5976,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132489,
 		},
 		["Field Repair Bot 74A"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 			["texture"] = 136172,
 		},
 		["Thunderstomp"] = {
@@ -5684,7 +6002,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135972,
 		},
 		["Silence"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135975,
 		},
 		["Dawn's Edge"] = {
@@ -5692,7 +6010,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Abolish Magic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136006,
 		},
 		["Sword Specialization (OLD)"] = {
@@ -5705,15 +6023,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 132164,
 		},
 		["Enchant  Weapon - Healing Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Empower Pet"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136146,
 		},
 		["Healing Ward"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135928,
 		},
 		["Quiet Suicide (Frost)"] = {
@@ -5724,7 +6042,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134941,
 		},
 		["Enchant Weapon - Lesser Beastslayer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Elixir of the Giants"] = {
@@ -5737,7 +6055,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132109,
 		},
 		["Conjure Vipore's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Smite's Hammer"] = {
 			["texture"] = 133487,
@@ -5746,7 +6064,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132794,
 		},
 		["[PH] Teleport to Balthule"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Bloodrage"] = {
 			["texture"] = 132277,
@@ -5755,19 +6073,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 136022,
 		},
 		["Demon Pick"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Creature - Frog Form"] = {
 			["texture"] = 136232,
 		},
 		["Recipe: Sagefish Delight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Reload Explode"] = {
 			["texture"] = 135805,
 		},
 		["Molten Blast"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135805,
 		},
 		["Black Dragonscale Shoulders"] = {
@@ -5777,13 +6095,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Pattern: Robe of the Void"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Craftsman's Monocle"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Far Sight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136034,
 		},
 		["Unholy Armor"] = {
@@ -5801,7 +6119,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Lash of Pain"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136136,
 		},
 		["Throw Liquid Fire"] = {
@@ -5819,7 +6137,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Pattern: Wild Leather Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wild Rage"] = {
 			["texture"] = 136162,
@@ -5828,11 +6146,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135989,
 		},
 		["Blood Howl"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136168,
 		},
 		["Pattern: Ghostweave Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hand of Ragnaros"] = {
 			["texture"] = 135807,
@@ -5841,7 +6159,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136104,
 		},
 		["Schematic: Firework Launcher"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Track Undead"] = {
@@ -5851,7 +6169,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136129,
 		},
 		["Pattern: Felcloth Hood"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tranquil Air"] = {
 			["texture"] = 136013,
@@ -5868,7 +6186,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Pattern: Runic Leather Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Two-Handed Maces"] = {
 			["texture"] = 133479,
@@ -5878,7 +6196,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Polymorph"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136071,
 		},
 		["Tough Scorpid Boots"] = {
@@ -5888,7 +6206,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136051,
 		},
 		["Honor Points +228"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Increased Flash of Light Healing"] = {
 			["texture"] = 136052,
@@ -5913,11 +6231,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136225,
 		},
 		["Flash Bomb"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 			["texture"] = 136142,
 		},
 		["Recipe: Cowardly Flight Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blacksmithing"] = {
 			["texture"] = 136241,
@@ -5926,11 +6244,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136224,
 		},
 		["Runed Truesilver Rod"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 135148,
 		},
 		["Threatening Growl"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132278,
 		},
 		["Robes of Arcana"] = {
@@ -5938,7 +6256,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Summon Shadowstrike"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Prayer of Protection II"] = {
 			["texture"] = 135923,
@@ -5956,7 +6274,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136053,
 		},
 		["Shadow Port"] = {
-			["castTime"] = 338,
+			["castTime"] = 250,
 			["texture"] = 136121,
 		},
 		["Earthshaker"] = {
@@ -5976,10 +6294,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135962,
 		},
 		["Pattern: Heavy Scorpid Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Bracer - Lesser Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Dragon Orb"] = {
@@ -5989,11 +6307,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Sol M"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135859,
 		},
 		["Pattern: Chimeric Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Copy of Hallow's End Candy"] = {
 			["texture"] = 134015,
@@ -6002,7 +6320,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 133748,
 		},
 		["Create Mage's Orb"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Simple Dress"] = {
 			["castTime"] = 5125,
@@ -6019,7 +6337,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Seal Felvine Shard"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136074,
 		},
 		["Static Electricity"] = {
@@ -6030,14 +6348,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: Redridge Goulash"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Light Leather Bracers"] = {
 			["castTime"] = 5125,
 			["texture"] = 136021,
 		},
 		["Armor +8"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Two-Hand Strike II"] = {
 			["texture"] = 132316,
@@ -6047,7 +6365,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Icy Scale Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Seal of Fire II * (NSE)"] = {
 			["texture"] = 135968,
@@ -6063,13 +6381,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Imperial Plate Chest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Water"] = {
 			["texture"] = 135861,
 		},
 		["Pattern: Heavy Scorpid Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Heavy Mithril Pants"] = {
 			["castTime"] = 60000,
@@ -6082,14 +6400,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136036,
 		},
 		["Teleport Elwynn"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Enchant 2H Weapon - Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Succubus"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136220,
 		},
 		["Light Winter Boots"] = {
@@ -6104,13 +6422,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Nagmara's Love Potion"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Tag: Clear"] = {
 			["texture"] = 132156,
 		},
 		["Banshee Wail"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136197,
 		},
 		["Firecrackers"] = {
@@ -6126,16 +6444,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Water Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arcane Shot"] = {
 			["texture"] = 132218,
 		},
 		["Pattern: Gloves of the Greatfather"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Chains of Ice"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135834,
 		},
 		["Walking Bomb Effect"] = {
@@ -6152,21 +6470,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 132337,
 		},
 		["Amplify Flames"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135807,
 		},
 		["Concussion"] = {
 			["texture"] = 135807,
 		},
 		["Formula: Enchant Shield - Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dark Sludge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136134,
 		},
 		["Exorcise Spirits"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["QAEnchant Gloves +7 Strength"] = {
 			["texture"] = 135913,
@@ -6208,18 +6526,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 136160,
 		},
 		["Pattern: Corehound Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dense Grinding Stone"] = {
 			["castTime"] = 8000,
 			["texture"] = 136192,
 		},
 		["Engulfing Shadows"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136169,
 		},
 		["Enchant Cloak - Lesser Fire Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Improved Aspect of the Hawk"] = {
@@ -6229,7 +6547,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135953,
 		},
 		["Nullify Poison"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136067,
 		},
 		["Frost Shot"] = {
@@ -6245,21 +6563,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136134,
 		},
 		["Pattern: Red Linen Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Transmute: Iron to Gold"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 133217,
 		},
 		["Recipe: Crocolisk Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Goblin Rocket Boots"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 135805,
 		},
 		["Pattern: Shadow Hood"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Intercept Cooldown Reduction"] = {
 			["texture"] = 132307,
@@ -6272,13 +6590,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Reflect Magic (TEST)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Strength of the Champion"] = {
 			["texture"] = 135940,
 		},
 		["Thunderclap"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136105,
 		},
 		["Flee"] = {
@@ -6300,7 +6618,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136142,
 		},
 		["Opening Strongbox"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Searing Light"] = {
 			["texture"] = 135973,
@@ -6309,14 +6627,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136018,
 		},
 		["Enchant Chest - Lesser Absorption"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Rhinag's Poison"] = {
 			["texture"] = 136016,
 		},
 		["Gift of the Wild"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136078,
 		},
 		["Rhahk'Zor Slam"] = {
@@ -6329,7 +6647,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135914,
 		},
 		["Enchant Chest - Minor Stats"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Feed Pet"] = {
@@ -6339,7 +6657,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136170,
 		},
 		["EZ-Thro Dynamite"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Spirit of Redemption"] = {
 			["texture"] = 132864,
@@ -6357,11 +6675,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135744,
 		},
 		["Exorcism"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135903,
 		},
 		["Frostbolt Volley"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135846,
 		},
 		["Runed Mithril Hammer"] = {
@@ -6369,20 +6687,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Fevered Plague"] = {
-			["castTime"] = 6075,
+			["castTime"] = 4500,
 			["texture"] = 136066,
 		},
 		["Blood Tap"] = {
 			["texture"] = 132278,
 		},
 		["Create Coagulated Rot"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Improved Charge"] = {
 			["texture"] = 132337,
 		},
 		["Enchant Annals of Darrowshire"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 		},
 		["Demoralizing Shout"] = {
 			["texture"] = 132366,
@@ -6407,14 +6725,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136018,
 		},
 		["Frostbolt"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135846,
 		},
 		["Concussive Shot Cooldown Reduction"] = {
 			["texture"] = 135860,
 		},
 		["Mor'rogal Enchant"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 		},
 		["Knockout"] = {
 			["texture"] = 132939,
@@ -6434,14 +6752,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Runecloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Heavy Copper Broadsword"] = {
 			["castTime"] = 12500,
 			["texture"] = 136192,
 		},
 		["Burning Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136126,
 		},
 		["Abolish Poison Effect"] = {
@@ -6463,7 +6781,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135864,
 		},
 		["Player Lost Shackles DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Summon Arcanite Dragonling"] = {
 			["texture"] = 132281,
@@ -6472,13 +6790,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136217,
 		},
 		["Deadly Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Last Stand"] = {
 			["texture"] = 135871,
 		},
 		["Pattern: Living Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pummel"] = {
 			["texture"] = 132938,
@@ -6508,7 +6826,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Formula: Brilliant Mana Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Swift Zulian Tiger"] = {
 			["castTime"] = 3000,
@@ -6521,7 +6839,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135995,
 		},
 		["Formula: Enchant 2H Weapon - Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Forsaken Skill: Holy"] = {
 			["texture"] = 135920,
@@ -6534,10 +6852,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Formula: Enchant Cloak - Subtlety"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Teleport Northshire Abbey"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Brutal Impact"] = {
 			["texture"] = 132114,
@@ -6546,13 +6864,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136022,
 		},
 		["Goblin Camera Connection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Drain Mana"] = {
 			["texture"] = 136208,
 		},
 		["Summon Confessor's Belt DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Mend Pet"] = {
 			["texture"] = 132179,
@@ -6570,7 +6888,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136207,
 		},
 		["Plans: Arcanite Reaper"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tricked or Treated"] = {
 			["texture"] = 134015,
@@ -6592,10 +6910,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136115,
 		},
 		["Pattern: Bottomless Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Zul'Gurub Talisman HUN R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Immune Root"] = {
 			["texture"] = 136115,
@@ -6612,14 +6930,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Strike"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132282,
 		},
 		["Ancestral Healing"] = {
 			["texture"] = 136109,
 		},
 		["Enchant Gloves - Advanced Mining"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Black Mageweave Vest"] = {
@@ -6627,11 +6945,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Schematic: Core Marksman Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Summon"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135736,
 		},
 		["Toughened Leather Gloves"] = {
@@ -6639,7 +6957,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Summon Theurgist"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136075,
 		},
 		["Stealth"] = {
@@ -6652,23 +6970,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["Fix Ritual Candle (DND)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ornate Mithril Shoulders"] = {
 			["castTime"] = 60000,
 			["texture"] = 136192,
 		},
 		["Green Lens"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Arcane Resistance"] = {
 			["texture"] = 136116,
 		},
 		["Create Signet of Beckoning: Fire"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Unlocking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Hellfire Effect"] = {
 			["texture"] = 135818,
@@ -6683,14 +7001,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132115,
 		},
 		["Summon Magram Ravager"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136187,
 		},
 		["Fill Jennea's Flask"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summon Imp"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136218,
 		},
 		["Smelt Thorium"] = {
@@ -6721,7 +7039,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Banish Thundering Exile"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136168,
 		},
 		["Stealth (TEST)"] = {
@@ -6732,7 +7050,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134399,
 		},
 		["Bury Samuel's Remains"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summon Riding Gryphon"] = {
 			["castTime"] = 3000,
@@ -6749,7 +7067,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136007,
 		},
 		["Prophetic Aura"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Poison Mind"] = {
 			["texture"] = 136016,
@@ -6761,7 +7079,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136106,
 		},
 		["Plans: Bleakwood Hew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Protection Potion"] = {
 			["castTime"] = 3000,
@@ -6770,7 +7088,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136184,
 		},
 		["Summon Warhorse"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136103,
 		},
 		["Relentless Strikes"] = {
@@ -6781,7 +7099,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant Bracer - Greater Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Healing Focus"] = {
@@ -6795,7 +7113,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Core Marksman Rifle"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Master Hammersmith"] = {
 			["texture"] = 133060,
@@ -6813,7 +7131,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136118,
 		},
 		["Plans: Dark Iron Destroyer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pester"] = {
 			["texture"] = 136128,
@@ -6825,7 +7143,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132403,
 		},
 		["Pattern: Wicked Leather Headband"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Banshee Shriek"] = {
 			["texture"] = 136164,
@@ -6834,7 +7152,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Mechanical Repair Kit"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Runecloth Pants"] = {
 			["castTime"] = 60000,
@@ -6876,7 +7194,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Presence of Sight"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Catseye Elixir"] = {
 			["castTime"] = 5000,
@@ -6890,13 +7208,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Pattern: Dark Leather Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Worm Blast"] = {
 			["texture"] = 135807,
 		},
 		["Formula: Enchant Gloves - Fire Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immolation Trap Effect"] = {
 			["texture"] = 135813,
@@ -6914,7 +7232,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 25000,
 		},
 		["Plans: Girdle of the Dawn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Green Iron Shoulders"] = {
 			["castTime"] = 45000,
@@ -6935,7 +7253,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135970,
 		},
 		["Shock"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136115,
 		},
 		["Elixir of Brute Force"] = {
@@ -6943,10 +7261,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 134820,
 		},
 		["Goblin Jumper Cables XL"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Undying Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136109,
 		},
 		["Power Word: Shield 500"] = {
@@ -6957,20 +7275,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136016,
 		},
 		["Create Cluster Rocket Launcher"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 133861,
 		},
 		["Plans: Heavy Timbermaw Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Guardian Leather Bracers"] = {
 			["castTime"] = 45000,
 		},
 		["Plans: Dark Iron Sunderer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hellfire III"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Shadowburn"] = {
@@ -6986,11 +7304,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Slow"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136091,
 		},
 		["Harvest Silithid Egg"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Aspect of Jeklik"] = {
 			["texture"] = 136222,
@@ -7018,11 +7336,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136067,
 		},
 		["Enchant Bracer - Lesser Deflection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Nature Weakness"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134397,
 		},
 		["Dreamweave Vest"] = {
@@ -7030,10 +7348,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Comfortable Leather Hat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Shield - Lesser Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Fire Focus"] = {
@@ -7061,7 +7379,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Deepdive Helmet"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Crash of Waves"] = {
 			["castTime"] = 2000,
@@ -7071,7 +7389,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134300,
 		},
 		["Formula: Enchant Cloak - Minor Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tame Swoop"] = {
 			["texture"] = 132164,
@@ -7081,7 +7399,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Harvest Swarm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135899,
 		},
 		["Knockdown Proc"] = {
@@ -7110,14 +7428,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135736,
 		},
 		["Remove Curse"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135952,
 		},
 		["Portal Effect: Stormwind"] = {
 			["texture"] = 135748,
 		},
 		["Honor Points +2388"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132486,
 		},
 		["Seal Fate"] = {
@@ -7127,7 +7445,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Divine Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135954,
 		},
 		["Cruelty"] = {
@@ -7137,34 +7455,34 @@ NeatPlatesSpellDB = {
 			["texture"] = 135865,
 		},
 		["Savage Guard"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Magma Totem"] = {
 			["texture"] = 135826,
 		},
 		["Arcane Spirit III"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135932,
 		},
 		["Flask of Chromatic Resistance"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 		},
 		["Recipe: Mageblood Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Defias Tower I"] = {
 			["texture"] = 136168,
 		},
 		["Arcane Bomb"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135975,
 		},
 		["Trelane's Freezing Touch"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136230,
 		},
 		["Enchant Chest - Lesser Stats"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Golden Scale Gauntlets"] = {
@@ -7188,24 +7506,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Thorns"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136104,
 		},
 		["Aura of Flames"] = {
 			["texture"] = 135805,
 		},
 		["Pattern: White Leather Jerkin"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Force Reactive Disk"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 			["texture"] = 135990,
 		},
 		["Master Conjuror"] = {
 			["texture"] = 136210,
 		},
 		["Plans: Ornate Thorium Handaxe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lava Bomb"] = {
 			["texture"] = 135826,
@@ -7222,10 +7540,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Plans: Ironvine Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Chest - Minor Mana"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rift Spawn Manifestation"] = {
 			["texture"] = 135994,
@@ -7235,7 +7553,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132224,
 		},
 		["Plans: Searing Golden Blade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Black Battlestrider"] = {
 			["castTime"] = 3000,
@@ -7252,13 +7570,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132212,
 		},
 		["Formula: Imbue Chest - Minor Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fungal Regrowth"] = {
 			["texture"] = 135953,
 		},
 		["Recipe: Savory Deviate Delight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Aggression"] = {
 			["texture"] = 132275,
@@ -7267,43 +7585,43 @@ NeatPlatesSpellDB = {
 			["texture"] = 134063,
 		},
 		["Pattern: Runecloth Headband"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flame Breath"] = {
-			["castTime"] = 2295,
+			["castTime"] = 1700,
 			["texture"] = 135805,
 		},
 		["Balance of Nature Failure"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Cured Rugged Hide"] = {
 			["castTime"] = 12500,
 			["texture"] = 136021,
 		},
 		["Schematic: Pet Bombling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Righteous Fury"] = {
 			["texture"] = 135962,
 		},
 		["Create Healthstone (Greater)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135230,
 		},
 		["Schematic: Minor Recombobulator"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Snowmaster 9000"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arcanum of Rapidity"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Serrated Blades"] = {
 			["texture"] = 135315,
 		},
 		["Plans: Mithril Scale Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Orange Martial Shirt"] = {
 			["castTime"] = 45000,
@@ -7313,7 +7631,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136081,
 		},
 		["Burning Winds"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136018,
 		},
 		["Archaedas Awaken Visual (DND)"] = {
@@ -7336,13 +7654,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136116,
 		},
 		["Tame Pet (TEST)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Shadow Vulnerability"] = {
 			["texture"] = 136123,
 		},
 		["Demon Skin"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136185,
 		},
 		["Mana Tide"] = {
@@ -7352,18 +7670,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132363,
 		},
 		["Small Red Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Slowing Poison"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136093,
 		},
 		["Coarse Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Enchant Boots - Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Epiphany"] = {
@@ -7390,7 +7708,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136184,
 		},
 		["Dominate Mind"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136206,
 		},
 		["Mind Quickening"] = {
@@ -7406,7 +7724,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Create Healthstone (Lesser)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135230,
 		},
 		["Banish Frost Spectres"] = {
@@ -7416,7 +7734,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136116,
 		},
 		["Shadow Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Shadowmeld Passive"] = {
 			["texture"] = 132089,
@@ -7442,7 +7760,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Runed Stygian Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant: Fiery Blaze"] = {
 			["castTime"] = 3000,
@@ -7452,7 +7770,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Mithril Blunderbuss"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Crab Cake"] = {
 			["castTime"] = 3000,
@@ -7468,7 +7786,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136047,
 		},
 		["Summon Water Elemental"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136192,
 		},
 		["Fishing Poles"] = {
@@ -7479,16 +7797,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 134812,
 		},
 		["Teleport Altar of the Tides"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Flawless Arcanite Rifle"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Summon Crawler"] = {
 			["texture"] = 133708,
 		},
 		["Summon Ring of Unspoken Names DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cowering Roar"] = {
 			["texture"] = 132111,
@@ -7500,10 +7818,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136205,
 		},
 		["Plans: Radiant Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Detonate"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136116,
 		},
 		["Harden Skin"] = {
@@ -7516,7 +7834,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Recipe: Invisibility Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magma Totem Passive"] = {
 			["texture"] = 135826,
@@ -7531,13 +7849,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136246,
 		},
 		["Pattern: Stormshroud Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Survivalist"] = {
 			["texture"] = 136223,
 		},
 		["Goblin Jumper Cables"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Conviction"] = {
 			["texture"] = 135957,
@@ -7560,14 +7878,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132864,
 		},
 		["Pattern: Glacial Wrists"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Filet of Redgill"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Schematic: Ice Deflector"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Exploding Shot"] = {
 			["castTime"] = 1000,
@@ -7577,7 +7895,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 25000,
 		},
 		["Enchant 2H Weapon - Impact"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Hive'Zora Egg"] = {
@@ -7594,10 +7912,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136141,
 		},
 		["Create Zul'Gurub Talisman SHM R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Plans: Nightfall"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Clam Chowder"] = {
 			["castTime"] = 3000,
@@ -7607,10 +7925,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135825,
 		},
 		["Recipe: Minor Magic Resistance Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Opening Chest"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Wide Sweep"] = {
 			["castTime"] = 4000,
@@ -7631,20 +7949,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132349,
 		},
 		["Enchant Bracer - Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Naraxis Web"] = {
 			["texture"] = 136100,
 		},
 		["Ice Deflector"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["QAEnchant Cloak +5 Resistances"] = {
 			["texture"] = 135913,
 		},
 		["Black Arrow"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132323,
 		},
 		["Magic Stone Helmet"] = {
@@ -7654,7 +7972,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135864,
 		},
 		["Enchant Weapon - Lifestealing"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Mark of Didier"] = {
@@ -7664,13 +7982,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Nature Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Reputation - Booty Bay +500"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["[PH] Teleport to Orgrimmar"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Spirit of Runn Tum"] = {
 			["texture"] = 134011,
@@ -7679,11 +7997,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136098,
 		},
 		["Curse of the Tribes"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136138,
 		},
 		["Blessing of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135928,
 		},
 		["Primal Fury"] = {
@@ -7693,7 +8011,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136130,
 		},
 		["Corrosive Acid"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136007,
 		},
 		["Staff Strike II"] = {
@@ -7713,7 +8031,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132281,
 		},
 		["Blessing of Might"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135906,
 		},
 		["Heal Brother"] = {
@@ -7730,7 +8048,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136152,
 		},
 		["Handful of Copper Bolts"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Smoked Sagefish"] = {
 			["castTime"] = 3000,
@@ -7747,11 +8065,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136095,
 		},
 		["Dark Iron Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Pattern: Red Woolen Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Olive Snapjaw"] = {
 			["castTime"] = 1000,
@@ -7761,7 +8079,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132185,
 		},
 		["Recipe: Nightfin Soup"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cannibalize"] = {
 			["texture"] = 132278,
@@ -7783,7 +8101,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132326,
 		},
 		["Formula: Enchant Chest - Major Mana"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Brilliance Aura IV"] = {
 			["texture"] = 136013,
@@ -7810,11 +8128,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132169,
 		},
 		["Schematic: Green Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Formula: Lesser Mana Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stoneskin"] = {
 			["castTime"] = 6000,
@@ -7827,7 +8145,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135842,
 		},
 		["Seal of Reckoning"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136121,
 		},
 		["Brood Affliction: Green"] = {
@@ -7844,17 +8162,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Guardian Leather Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Acid Splash"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132793,
 		},
 		["Smoke Aura Visual"] = {
 			["texture"] = 135817,
 		},
 		["Formula: Enchant Boots - Greater Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Cresting Exile"] = {
 			["texture"] = 136192,
@@ -7867,26 +8185,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Holy Smite"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 135924,
 		},
 		["Recipe: Elixir of Greater Firepower"] = {
-			["castTime"] = 4050,
-		},
-		["Heavy Blasting Powder"] = {
 			["castTime"] = 3000,
 		},
+		["Heavy Blasting Powder"] = {
+			["castTime"] = 5125,
+		},
 		["Formula: Enchant Gloves - Advanced Mining"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Watered-down Beer"] = {
 			["texture"] = 132791,
 		},
 		["Filling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elderberry Pie"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 133952,
 		},
 		["Potion Strength II"] = {
@@ -7905,14 +8223,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136218,
 		},
 		["Pattern: Fine Leather Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Transmute: Earth to Water"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Draco-Incarcinatrix 900"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Will of Weavil"] = {
 			["texture"] = 135727,
@@ -7936,16 +8254,16 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Pattern: Runecloth Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Admiral's Hat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Draining Blow"] = {
 			["texture"] = 136130,
 		},
 		["Bright Baubles"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134335,
 		},
 		["One-Handed Axes"] = {
@@ -7965,14 +8283,14 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Enchant Chest - Superior Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Holy Mount Visual"] = {
 			["texture"] = 136103,
 		},
 		["Pattern: Ironfeather Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ghoul Plague"] = {
 			["texture"] = 135914,
@@ -7981,7 +8299,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134154,
 		},
 		["Recipe: Frost Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ghost Visual"] = {
 			["texture"] = 135864,
@@ -8000,11 +8318,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136051,
 		},
 		["Dark Desire"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135460,
 		},
 		["Schematic: Goblin Rocket Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bombard II"] = {
 			["castTime"] = 3000,
@@ -8026,7 +8344,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Hand of Iruxos"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Minor Tremor"] = {
 			["texture"] = 136025,
@@ -8041,14 +8359,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136063,
 		},
 		["Quick Bloodlust"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136012,
 		},
 		["Dark Leather Shoulders"] = {
 			["castTime"] = 25000,
 		},
 		["Formula: Enchant Gloves - Healing Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Baneful Poison"] = {
 			["texture"] = 136016,
@@ -8061,11 +8379,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132243,
 		},
 		["Enchant Boots - Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Health Funnel"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136168,
 		},
 		["Darken Vision"] = {
@@ -8079,7 +8397,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135767,
 		},
 		["Plans: Imperial Plate Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Heavy Mithril Boots"] = {
 			["castTime"] = 60000,
@@ -8098,11 +8416,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136160,
 		},
 		["Bellowing Roar"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135805,
 		},
 		["Summon Bloodpetal Mini Pests"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136142,
 		},
 		["Lash"] = {
@@ -8133,7 +8451,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Mechanical Patch Kit"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132997,
 		},
 		["MHTest01"] = {
@@ -8143,19 +8461,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Summon Rookery Whelp"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Ended Battleground"] = {
 			["texture"] = 132091,
 		},
 		["Summon Gunther's Visage"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Vigor"] = {
 			["texture"] = 136023,
 		},
 		["Schematic: Shadow Goggles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Staff V"] = {
 			["texture"] = 132325,
@@ -8167,7 +8485,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Formula: Enchant Cloak - Superior Defense"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Specialization"] = {
 			["texture"] = 136130,
@@ -8179,7 +8497,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136144,
 		},
 		["Howl of Terror"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136147,
 		},
 		["Bright Yellow Shirt"] = {
@@ -8197,7 +8515,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132290,
 		},
 		["Draw of Thistlenettle"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136163,
 		},
 		["Feed Sarilus Passive"] = {
@@ -8210,14 +8528,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132302,
 		},
 		["Delicate Arcanite Converter"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Hot Wolf Ribs"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Greater Healing Wave"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Travel Form (Passive)"] = {
 			["texture"] = 132144,
@@ -8226,7 +8544,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Create Handbook DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Avoidance"] = {
 			["texture"] = 132353,
@@ -8251,36 +8569,36 @@ NeatPlatesSpellDB = {
 			["texture"] = 135873,
 		},
 		["Enhance Blunt Weapon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Debilitating Charge"] = {
 			["texture"] = 132122,
 		},
 		["Shadow Ward"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136121,
 		},
 		["Two-Hand Strike"] = {
 			["texture"] = 132316,
 		},
 		["Torment"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136160,
 		},
 		["Shadowstalker Stealth"] = {
 			["texture"] = 132320,
 		},
 		["Schematic: Portable Bronze Mortar"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Longjaw Mud Snapper"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Arcane Amalgamation"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Getting Tide Pool Sample #3"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Immolate"] = {
 			["texture"] = 135817,
@@ -8295,10 +8613,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136187,
 		},
 		["Formula: Enchant Cloak - Greater Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135824,
 		},
 		["Prayer of Protection"] = {
@@ -8308,7 +8626,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132161,
 		},
 		["Glare"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Swift Olive Raptor"] = {
 			["castTime"] = 3000,
@@ -8321,35 +8639,35 @@ NeatPlatesSpellDB = {
 			["texture"] = 135999,
 		},
 		["Word of Recall (OLD)"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Recipe: Greater Shadow Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Arcane Missiles"] = {
 			["texture"] = 136096,
 		},
 		["Formula: Enchant Gloves - Herbalism"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Smelt Tin"] = {
 			["castTime"] = 3000,
 		},
 		["Formula: Enchant 2H Weapon - Major Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Artisan Cook"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 133971,
 		},
 		["Plans: Dark Iron Reaver"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["TEST Heal Self"] = {
 			["texture"] = 135913,
 		},
 		["Recipe: Heavy Kodo Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Weakening Disease"] = {
 			["texture"] = 136118,
@@ -8358,14 +8676,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Poison Bolt"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136016,
 		},
 		["Aural Shock"] = {
 			["texture"] = 136183,
 		},
 		["Pattern: Tuxedo Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Runic Breastplate"] = {
 			["castTime"] = 60000,
@@ -8378,7 +8696,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136052,
 		},
 		["Goldshire Portal"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Track Elementals"] = {
 			["texture"] = 135861,
@@ -8394,7 +8712,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Pattern: Red Linen Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spider Sausage"] = {
 			["castTime"] = 3000,
@@ -8404,13 +8722,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Plans: Copper Chain Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elemental Focus"] = {
 			["texture"] = 136170,
 		},
 		["Plans: Frostguard"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magic Resistance"] = {
 			["texture"] = 136120,
@@ -8436,7 +8754,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136106,
 		},
 		["Mobile Alarm"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["QAEnchant Gloves - Riding Skill"] = {
 			["texture"] = 135913,
@@ -8448,13 +8766,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 134501,
 		},
 		["Pattern: Crimson Silk Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Five Fat Finger Exploding Heart Technique"] = {
 			["texture"] = 136133,
 		},
 		["Plans: Volcanic Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Viscidus Slowed More"] = {
 			["texture"] = 136006,
@@ -8481,7 +8799,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132111,
 		},
 		["Fire Goggles"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Invisibility Potion"] = {
 			["castTime"] = 3000,
@@ -8497,16 +8815,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 136064,
 		},
 		["Pattern: Cindercloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Theradrim Shardling"] = {
 			["texture"] = 135849,
 		},
 		["Summon Madcap's Mantle DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Bloodvine Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Curse of Idiocy"] = {
 			["texture"] = 136174,
@@ -8516,7 +8834,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Plans: Black Grasp of the Destroyer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon White Kitten"] = {
 			["castTime"] = 1000,
@@ -8530,10 +8848,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132195,
 		},
 		["Schematic: Spellpower Goggles Xtreme"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Area Burn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Star Belt"] = {
@@ -8544,7 +8862,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132329,
 		},
 		["Placing Pendant"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Defias Tower II"] = {
 			["texture"] = 135812,
@@ -8556,7 +8874,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132386,
 		},
 		["Dawn's Gambit"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Orb of Fire"] = {
 			["texture"] = 135812,
@@ -8568,21 +8886,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136136,
 		},
 		["Formula: Enchant Gloves - Frost Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thieves' Tool Rack Conjure"] = {
 			["texture"] = 136058,
 		},
 		["Feeblemind II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136175,
 		},
 		["Enchant Bracer - Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Schematic: Thorium Tube"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Nature's Reach"] = {
@@ -8593,7 +8911,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Imperial Plate Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Charisma"] = {
 			["texture"] = 135967,
@@ -8618,10 +8936,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136091,
 		},
 		["Pattern: Red Mageweave Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Green Whelp Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Artisan Weaponsmith"] = {
 			["texture"] = 136241,
@@ -8636,23 +8954,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132319,
 		},
 		["Opening Booty Chest"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Formula: Enchant Bracer - Minor Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Frost Trap Aura"] = {
 			["texture"] = 135848,
 		},
 		["Summon Spider God"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136168,
 		},
 		["Scarlet Resurrected"] = {
 			["texture"] = 135955,
 		},
 		["Capture Grark"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hemorrhage"] = {
 			["texture"] = 136168,
@@ -8667,7 +8985,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135917,
 		},
 		["Recipe: Roasted Kodo Meat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Brain Damage"] = {
 			["texture"] = 132155,
@@ -8698,10 +9016,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136094,
 		},
 		["Spirit Spawn-out"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Summon Treasure Horde Visual"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Ice Nova"] = {
 			["texture"] = 135848,
@@ -8710,15 +9028,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 132288,
 		},
 		["Haunting Phantoms"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136123,
 		},
 		["Greater Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136047,
 		},
 		["Plans: Golden Scale Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bloodlust III"] = {
 			["texture"] = 136012,
@@ -8733,14 +9051,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Flesh Eating Worm"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134335,
 		},
 		["Wilt"] = {
 			["texture"] = 135902,
 		},
 		["Righteous Flame On"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135926,
 		},
 		["Tough Scorpid Bracers"] = {
@@ -8751,14 +9069,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134459,
 		},
 		["Enchant Chest - Stats"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Greater Spellstone"] = {
 			["texture"] = 134131,
 		},
 		["Psychometry"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135954,
 		},
 		["Forsaken Skill: Fire"] = {
@@ -8778,7 +9096,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132225,
 		},
 		["Potion Toss"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135999,
 		},
 		["Desperate Prayer"] = {
@@ -8791,7 +9109,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132788,
 		},
 		["Moonfire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136096,
 		},
 		["Summon Scarlet Hound"] = {
@@ -8826,10 +9144,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: White Bandit Mask"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ritual: Mooncloth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Orphan"] = {
 			["castTime"] = 1000,
@@ -8898,11 +9216,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136052,
 		},
 		["Schematic: Small Green Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Copy of Enchant Weapon - Unholy Weapon"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Turquoise Raptor"] = {
@@ -8910,27 +9228,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132253,
 		},
 		["Create Zul'Gurub Talisman WLK R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Shadow Shell"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136121,
 		},
 		["Crafted Heavy Shot"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Lock Down"] = {
 			["texture"] = 132995,
 		},
 		["Polymorph: Chicken"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135996,
 		},
 		["Pattern: Frostweave Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Vindicator's Armguards  DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Theka Transform"] = {
 			["texture"] = 136121,
@@ -8942,29 +9260,29 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Pattern: Bloodvine Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Lean Wolf Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Invisibility and Stealth Detection"] = {
 			["texture"] = 136129,
 		},
 		["Recipe: Transmute Air to Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Curse of Agony"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136139,
 		},
 		["Plans: Runic Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Berserker Rage"] = {
 			["texture"] = 136009,
 		},
 		["Icicle"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135846,
 		},
 		["Dark Leather Pants"] = {
@@ -8975,7 +9293,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136224,
 		},
 		["Blessed Wizard Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Pummel"] = {
 			["texture"] = 132938,
@@ -8998,7 +9316,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Formula: Enchant Boots - Minor Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Transform"] = {
 			["texture"] = 136172,
@@ -9007,14 +9325,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136048,
 		},
 		["Raise Dead"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136187,
 		},
 		["Bear Form (Passive2)"] = {
 			["texture"] = 132276,
 		},
 		["Recipe: Heavy Crocilisk Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["MHTest03"] = {
 			["texture"] = 135913,
@@ -9030,18 +9348,18 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Druid's Slumber"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136090,
 		},
 		["Spell Reflection"] = {
 			["texture"] = 136222,
 		},
 		["Unyielding Will"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136112,
 		},
 		["Spell Deflection (NYI)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Distilled Wisdom"] = {
 			["texture"] = 134877,
@@ -9053,14 +9371,14 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Break Stuff"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136137,
 		},
 		["Create Greater Mark of the Dawn"] = {
 			["texture"] = 134501,
 		},
 		["Plans: Dawnbringer Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Expert Leatherworking"] = {
 			["texture"] = 133611,
@@ -9069,11 +9387,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135881,
 		},
 		["Enchant Cloak - Defense"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Freethinker's Belt DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Heal on Kill"] = {
 			["texture"] = 135934,
@@ -9082,10 +9400,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135834,
 		},
 		["Plans: Dark Iron Mail"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Radiation Bolt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136133,
 		},
 		["Brown Kodo"] = {
@@ -9097,10 +9415,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Segra Darkthorn Effect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shoot Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132385,
 		},
 		["Wild Leather Helmet"] = {
@@ -9125,14 +9443,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Summon Edana Hatetalon"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Truesilver Champion"] = {
 			["castTime"] = 60000,
 			["texture"] = 136192,
 		},
 		["Call of the Void"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136145,
 		},
 		["Goldthorn Tea"] = {
@@ -9144,14 +9462,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Starfire"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 			["texture"] = 135753,
 		},
 		["Hammertoe's Sacrifice"] = {
 			["texture"] = 135954,
 		},
 		["Zandalar Signet of Mojo"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Silithid Swarm Call"] = {
 			["texture"] = 136122,
@@ -9177,14 +9495,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136122,
 		},
 		["Unstable Concoction"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135818,
 		},
 		["Recipe: Gift of Arthas"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Festive Red Dress"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Blessing of Salvation"] = {
 			["texture"] = 135967,
@@ -9203,7 +9521,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135863,
 		},
 		["Summon Echeyakee"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136168,
 		},
 		["Eruption"] = {
@@ -9216,7 +9534,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Pattern: Wizardweave Turban"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Seal of Fortitude (NSE)"] = {
 			["texture"] = 135968,
@@ -9235,7 +9553,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132270,
 		},
 		["DEBUG Create Samophlange Manual"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Elemental Protection Totem"] = {
 			["texture"] = 136069,
@@ -9244,7 +9562,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136127,
 		},
 		["Formula: Brilliant Wizard Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Explosive Sheep Passive"] = {
 			["texture"] = 135805,
@@ -9265,11 +9583,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135741,
 		},
 		["Elemental Fury"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135806,
 		},
 		["Summon Ring of Infinite Wisdom DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Baby Murloc Dance"] = {
 			["texture"] = 134301,
@@ -9285,10 +9603,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Summon Ancient Spirits"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Consecrated Weapon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Nature's Grasp"] = {
 			["texture"] = 136063,
@@ -9309,7 +9627,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Mithril Frag Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Superheated Flames"] = {
@@ -9325,14 +9643,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136011,
 		},
 		["Enchant Weapon - Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Digestive Acid"] = {
 			["texture"] = 132099,
 		},
 		["Create Soulstone (Lesser)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Righteous Aura III"] = {
@@ -9343,10 +9661,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Summon Vindicator's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Guile of the Raptor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134295,
 		},
 		["Woolen Boots"] = {
@@ -9361,33 +9679,33 @@ NeatPlatesSpellDB = {
 			["texture"] = 132248,
 		},
 		["Pattern: Mooncloth Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bloodpetal Poison Proc"] = {
 			["texture"] = 136188,
 		},
 		["Destroy Bijou"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Pester Effect"] = {
 			["texture"] = 136128,
 		},
 		["Pattern: Heavy Scorpid Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Razor Mane"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136104,
 		},
 		["Schematic: Firework Cluster Launcher"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Pattern: Sylvan Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Sageblade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ninja Costume"] = {
 			["texture"] = 132219,
@@ -9399,13 +9717,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135864,
 		},
 		["Teleport Duskwood"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Sharp Weapon +3"] = {
 			["texture"] = 132223,
 		},
 		["Chained Bolt"] = {
-			["castTime"] = 2430,
+			["castTime"] = 1800,
 			["texture"] = 136015,
 		},
 		["Wildvine Potion"] = {
@@ -9415,7 +9733,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136197,
 		},
 		["Enchant Weapon - Minor Beastslayer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Minor Scorpion Venom"] = {
@@ -9425,7 +9743,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136245,
 		},
 		["Fill Phial"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Improved Blink"] = {
 			["texture"] = 136090,
@@ -9438,14 +9756,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132288,
 		},
 		["Teleport"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135736,
 		},
 		["Red Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Curse of Blood"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136189,
 		},
 		["Serious Wound"] = {
@@ -9456,7 +9774,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant Gloves - Shadow Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Challenger is Dazed"] = {
@@ -9466,7 +9784,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Revive Pet"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 132163,
 		},
 		["Runic Leather Shoulders"] = {
@@ -9483,21 +9801,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 132092,
 		},
 		["Formula: Enchant Bracer - Greater Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Truesilver Rod"] = {
 			["castTime"] = 8000,
 			["texture"] = 136192,
 		},
 		["Replenish Spirit II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136057,
 		},
 		["Spirit of Old"] = {
 			["texture"] = 136222,
 		},
 		["Seal of Might"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Tamed Spider"] = {
 			["texture"] = 136113,
@@ -9519,18 +9837,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Imbue Chest - Lesser Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Spellstone"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134131,
 		},
 		["Smelt Bronze"] = {
 			["castTime"] = 3000,
 		},
 		["Shadow Bolt Volley"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136197,
 		},
 		["Summon Hawk Owl"] = {
@@ -9548,7 +9866,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132243,
 		},
 		["Curse of Timmy"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136203,
 		},
 		["Flip Out"] = {
@@ -9587,7 +9905,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Teleport Monastery"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Azure Silk Belt"] = {
 			["castTime"] = 45000,
@@ -9603,7 +9921,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136080,
 		},
 		["Displacing Temporal Rift"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Earthquake III"] = {
 			["texture"] = 136025,
@@ -9624,23 +9942,23 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Polymorph: Turtle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132199,
 		},
 		["Guardian Cloak"] = {
 			["castTime"] = 45000,
 		},
 		["Recipe: Transmute Life to Earth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Winter Reveler - Troll Female"] = {
 			["texture"] = 135849,
 		},
 		["Plans: Barbaric Iron Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Green Iron Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rune of the Dawn"] = {
 			["texture"] = 133440,
@@ -9649,7 +9967,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135903,
 		},
 		["Schematic: Thorium Widget"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Snare Poison"] = {
@@ -9668,7 +9986,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Mind Vision"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135934,
 		},
 		["Improved Hamstring"] = {
@@ -9693,7 +10011,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136103,
 		},
 		["Plans: Thorium Shield Spike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Pink Tallstrider"] = {
 			["texture"] = 132253,
@@ -9712,7 +10030,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135892,
 		},
 		["Enchant Boots - Lesser Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Stunning Smash II"] = {
@@ -9729,10 +10047,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136127,
 		},
 		["Pattern: Red Mageweave Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Inducing Vision"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 136168,
 		},
 		["Revive"] = {
@@ -9743,31 +10061,31 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Inner Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135926,
 		},
 		["Gain Whirlwind Weapon"] = {
 			["texture"] = 136168,
 		},
 		["Pattern: Tough Scorpid Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Master Engineer's Goggles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Teleport Darkshire"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Plans: Heavy Obsidian Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Green Skeletal Warhorse"] = {
 			["castTime"] = 3000,
 			["texture"] = 132264,
 		},
 		["Recipe: Rage Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Embossed Leather Cloak"] = {
 			["castTime"] = 8000,
@@ -9787,20 +10105,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Phoenix Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Battle Net"] = {
 			["texture"] = 132149,
 		},
 		["Schematic: Large Green Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Serpentbloom Snake"] = {
 			["texture"] = 134298,
 		},
 		["Punctured Voodoo Doll MAG DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Kick"] = {
 			["texture"] = 132219,
@@ -9815,7 +10133,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132117,
 		},
 		["Pattern: Runecloth Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Swamp Spirit"] = {
 			["castTime"] = 1500,
@@ -9828,16 +10146,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Plans: Whitesoul Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Mithril Head Trout"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Resist Silence"] = {
 			["texture"] = 136225,
 		},
 		["Plans: Light Obsidian Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Swift Orange Raptor"] = {
 			["castTime"] = 3000,
@@ -9847,14 +10165,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135863,
 		},
 		["Lightning Blast"] = {
-			["castTime"] = 4320,
+			["castTime"] = 3200,
 			["texture"] = 136048,
 		},
 		["Armor +32"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Heavy Leather Ball"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Inner Rage"] = {
 			["texture"] = 132347,
@@ -9923,13 +10241,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Nefarius Attack 001"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Bolt of Silk"] = {
 			["texture"] = 136021,
 		},
 		["Summon Blade of Vaulted Secrets DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Great Rage"] = {
 			["texture"] = 132366,
@@ -9938,7 +10256,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132307,
 		},
 		["Enchant Weapon - Mighty Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Sayge's Dark Fortune of Intelligence"] = {
@@ -9958,28 +10276,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Plans: Thorium Greatsword"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Warbear Harness"] = {
 			["castTime"] = 60000,
 		},
 		["Create Water of the Seers"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136168,
 		},
 		["Call Lupine Horror"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 			["texture"] = 136130,
 		},
 		["Phase Shift"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136164,
 		},
 		["Pattern: Mongoose Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dominion of Soul"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136206,
 		},
 		["Greater Firestone Effect"] = {
@@ -9999,7 +10317,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132153,
 		},
 		["Schematic: Catseye Ultra Goggles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Zombie Form"] = {
 			["texture"] = 136224,
@@ -10014,15 +10332,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 135230,
 		},
 		["Curse of Weakness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136138,
 		},
 		["Enchant Weapon - Greater Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Rugged Leather Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Murder"] = {
 			["texture"] = 136147,
@@ -10031,7 +10349,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136016,
 		},
 		["Recipe: Ghost Dye"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Radiation Poisoning"] = {
 			["texture"] = 136133,
@@ -10040,10 +10358,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 134301,
 		},
 		["Recipe: Gingerbread Cookie"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Ornate Mithril Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Deviate Scale Gloves"] = {
 			["castTime"] = 25000,
@@ -10055,30 +10373,30 @@ NeatPlatesSpellDB = {
 			["texture"] = 132355,
 		},
 		["Create Rift"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flight Visual State"] = {
 			["texture"] = 132150,
 		},
 		["Fear (NYI)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136183,
 		},
 		["Kalaran Conjures Torch"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Orb of Deception"] = {
 			["texture"] = 136121,
 		},
 		["Enchant Chest - Lesser Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Reindeer Dust Effect"] = {
-			["castTime"] = 10800,
+			["castTime"] = 8000,
 		},
 		["Charging"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136155,
 		},
 		["Heavy Timbermaw Boots"] = {
@@ -10093,7 +10411,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132157,
 		},
 		["Create Chapter 1 DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Feign Death"] = {
 			["texture"] = 132293,
@@ -10112,7 +10430,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132224,
 		},
 		["Urok Minions Vanish"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Tremor Totem Effect"] = {
 			["texture"] = 136108,
@@ -10125,7 +10443,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132261,
 		},
 		["Recipe: Transmute Iron to Gold"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ez-Thro Dynamite Backfire"] = {
 			["texture"] = 135826,
@@ -10142,24 +10460,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Schematic: Deepdive Helmet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mithril Shield Spike"] = {
 			["castTime"] = 45000,
 			["texture"] = 136192,
 		},
 		["Plans: Imperial Plate Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Invis Placing Bear Trap"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Dampen Magic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136006,
 		},
 		["Plans: Runic Plate Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sand Storms"] = {
 			["texture"] = 136022,
@@ -10192,7 +10510,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134845,
 		},
 		["[PH] Teleport to Auberdine"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Green Dragonscale Breastplate"] = {
 			["castTime"] = 60000,
@@ -10207,7 +10525,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132312,
 		},
 		["Plans: Huge Thorium Battleaxe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Self Healing"] = {
 			["texture"] = 135915,
@@ -10241,11 +10559,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Copy of Great Heal"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135915,
 		},
 		["Delete Me"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 134938,
 		},
 		["Aura of Penitence"] = {
@@ -10256,7 +10574,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Fireball Volley"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135812,
 		},
 		["Self Fear"] = {
@@ -10304,13 +10622,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135145,
 		},
 		["Plans: Corruption"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Toxic Slime"] = {
 			["texture"] = 136006,
 		},
 		["Summon Remote-Controlled Golem"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132281,
 		},
 		["Frost Oil"] = {
@@ -10322,10 +10640,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Collect Corrupted Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Hillman's Leather Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Leader of the Pack"] = {
 			["texture"] = 136112,
@@ -10340,7 +10658,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Recipe: Dirge's Kickin' Chimaerok Chops"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sunder Armor"] = {
 			["texture"] = 132363,
@@ -10368,10 +10686,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132940,
 		},
 		["Sharpen Blade II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Murloc Scale Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Withering Poison Proc"] = {
 			["texture"] = 136188,
@@ -10380,13 +10698,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Summon Vindicator's Belt  DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Vengeance"] = {
 			["texture"] = 136224,
 		},
 		["Tharnariun's Heal"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136052,
 		},
 		["Faerie Dragon Form"] = {
@@ -10435,15 +10753,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 135825,
 		},
 		["Teleport: Orgrimmar"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135759,
 		},
 		["Enchant Gloves - Mining"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Plans: Runic Plate Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dragon's Call"] = {
 			["texture"] = 136221,
@@ -10452,14 +10770,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Counterspell"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135856,
 		},
 		["Transformed"] = {
 			["texture"] = 135468,
 		},
 		["Zul'Gurub Talisman PAL R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Buff"] = {
 			["texture"] = 136101,
@@ -10468,7 +10786,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136208,
 		},
 		["Recipe: Big Bear Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Chromatic Protection: Nature"] = {
 			["texture"] = 134563,
@@ -10481,7 +10799,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132245,
 		},
 		["Arygos's Vengeance"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Mithril Headed Trout"] = {
 			["castTime"] = 3000,
@@ -10491,20 +10809,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136128,
 		},
 		["Recipe: Elixir of Giant Growth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Transmute Undeath to Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lava Spout Totem Passive"] = {
 			["texture"] = 135826,
 		},
 		["Might of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136116,
 		},
 		["Goblin Dragon Gun"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 			["texture"] = 135818,
 		},
 		["Simple Black Dress"] = {
@@ -10541,7 +10859,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135225,
 		},
 		["Create Zul'Gurub Talisman SHM R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Improved Firebolt"] = {
 			["texture"] = 135809,
@@ -10553,7 +10871,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132298,
 		},
 		["Eyes of the Beast"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132150,
 		},
 		["Tiger"] = {
@@ -10561,10 +10879,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132242,
 		},
 		["Gold Power Core"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["True Fulfillment"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136129,
 		},
 		["Toast"] = {
@@ -10577,7 +10895,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134951,
 		},
 		["Pattern: Pink Mageweave Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Engineering Specialization"] = {
 			["texture"] = 134063,
@@ -10586,7 +10904,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135989,
 		},
 		["Recipe: Alchemist's Stone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Robe of the Archmage"] = {
 			["castTime"] = 60000,
@@ -10602,7 +10920,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136248,
 		},
 		["Bright-Eye Goggles"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Fire Power"] = {
 			["texture"] = 135807,
@@ -10617,11 +10935,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132310,
 		},
 		["Maypole"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136223,
 		},
 		["Pattern: Dark Silk Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Vanish"] = {
 			["texture"] = 132331,
@@ -10645,7 +10963,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Imbue Chest - Lesser Absorb"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Truesilver Breastplate"] = {
@@ -10657,22 +10975,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Banish"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136135,
 		},
 		["Deadmines Dynamite"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Curse of the Plague Rat"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136224,
 		},
 		["Shadow Weaving"] = {
 			["texture"] = 136123,
 		},
 		["Schematic: Gnomish Cloaking Device"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crystal Imprisonment"] = {
 			["texture"] = 134075,
@@ -10681,23 +10999,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132312,
 		},
 		["Incendia Powder"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Red Dragonscale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["White Linen Shirt"] = {
 			["castTime"] = 5125,
 			["texture"] = 132149,
 		},
 		["Plans: Mithril Shield Spike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Petrification"] = {
 			["texture"] = 134806,
 		},
 		["Capturing Termites"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Barbs"] = {
 			["texture"] = 136104,
@@ -10707,17 +11025,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Conjure Dream Rift"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Quest - Prepare Field Duty Papers"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Elixir of Water Breathing"] = {
 			["castTime"] = 3000,
 			["texture"] = 136021,
 		},
 		["Pattern: Earthen Leather Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wound Poison"] = {
 			["castTime"] = 3000,
@@ -10727,7 +11045,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136058,
 		},
 		["Bomb"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Small Silk Pack"] = {
@@ -10755,11 +11073,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135864,
 		},
 		["Fiery Burst"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135809,
 		},
 		["Jaina's Autograph"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Hardened Iron Shortsword"] = {
 			["castTime"] = 45000,
@@ -10769,7 +11087,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Soul Shatter"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135805,
 		},
 		["Pet Fish"] = {
@@ -10782,14 +11100,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Enchant Chest - Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Quillboar Channeling"] = {
 			["texture"] = 136121,
 		},
 		["Goblin Bomb Dispenser"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Tremor Totem"] = {
 			["texture"] = 136108,
@@ -10804,7 +11122,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132115,
 		},
 		["Plans: Dawn's Edge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Eskhandar's Rake"] = {
 			["texture"] = 132152,
@@ -10816,11 +11134,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135893,
 		},
 		["Summon Snufflenose"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136074,
 		},
 		["Getting Tide Pool Sample #2"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Son of Flame H"] = {
 			["texture"] = 135819,
@@ -10869,10 +11187,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136140,
 		},
 		["Fix Ritual Bell (DND)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dark Mending"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 			["texture"] = 136130,
 		},
 		["Find Treasure"] = {
@@ -10882,11 +11200,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Enchant Cloak - Lesser Shadow Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Flame Burst"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Skeletal Miner Explode"] = {
@@ -10904,23 +11222,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 135758,
 		},
 		["Pattern: Mooncloth Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Terky"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Recipe: Elixir of Detect Lesser Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Helm of the Great Chief"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sprint Duration Increase"] = {
 			["texture"] = 132307,
 		},
 		["Fire Elemental"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mind-numbing Poison II"] = {
 			["castTime"] = 3000,
@@ -10931,29 +11249,29 @@ NeatPlatesSpellDB = {
 			["texture"] = 132266,
 		},
 		["Pattern: Black Silk Pack"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Empty Festive Mug"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summon Razelikh"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Firework"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Consume Shadows"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136121,
 		},
 		["Stoneclaw Totem"] = {
 			["texture"] = 136097,
 		},
 		["Parachute Cloak"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Schematic: Discombobulator Ray"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Heart of the Scale"] = {
 			["texture"] = 135817,
@@ -10986,7 +11304,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Portal: Undercity"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135751,
 		},
 		["Summon Murki"] = {
@@ -11034,7 +11352,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135351,
 		},
 		["Shadow Nova II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136195,
 		},
 		["Wailing Dead"] = {
@@ -11044,10 +11362,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5125,
 		},
 		["Create Fervor Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Jade Serpentblade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Baby Murloc (Green)"] = {
 			["texture"] = 134300,
@@ -11067,7 +11385,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136107,
 		},
 		["Disease Buffet"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136022,
 		},
 		["Static Conduit"] = {
@@ -11107,7 +11425,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136119,
 		},
 		["Snufflenose Command"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136168,
 		},
 		["Chaotic Focus"] = {
@@ -11118,7 +11436,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132266,
 		},
 		["Plans: Ebon Hand"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cheat Death"] = {
 			["texture"] = 136119,
@@ -11127,13 +11445,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132277,
 		},
 		["Cairne's Hoofprint"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Stance Rage Effect (+5)"] = {
 			["texture"] = 132091,
 		},
 		["Furbolg Form"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 134297,
 		},
 		["Corrupted Windfury Totem"] = {
@@ -11149,7 +11467,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135744,
 		},
 		["Formula: Enchant Weapon - Mighty Intellect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Testing Totem Dummy"] = {
 			["texture"] = 135825,
@@ -11164,23 +11482,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132336,
 		},
 		["Recipe: Transmute Water to Undeath"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Call Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sleepwalk"] = {
 			["texture"] = 136152,
 		},
 		["Frost Ward"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135850,
 		},
 		["Red Whelp Gloves"] = {
 			["castTime"] = 12500,
 		},
 		["Artisan First Aid"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 135966,
 		},
 		["Copper Chain Vest"] = {
@@ -11188,7 +11506,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Tough Scorpid Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Moist Towelette"] = {
 			["texture"] = 135920,
@@ -11207,10 +11525,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136184,
 		},
 		["Recipe: Strider Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Cindercloth Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Soul Flame"] = {
 			["texture"] = 135818,
@@ -11225,14 +11543,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135894,
 		},
 		["Pillar Delving"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Holy Ward"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136120,
 		},
 		["Encage"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136222,
 		},
 		["Graccu's Mince Meat Fruitcake"] = {
@@ -11242,24 +11560,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Master Engineer's Goggles"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Emberseer Start"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136023,
 		},
 		["Rumsey Rum Black Label"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132791,
 		},
 		["Applying the Lure"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Lesser Magic Essence"] = {
 			["texture"] = 136192,
 		},
 		["Wither"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136066,
 		},
 		["Moonflare"] = {
@@ -11297,19 +11615,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 132369,
 		},
 		["Plans: Thorium Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spellpower Goggles Xtreme"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Tainted Blood Effect"] = {
 			["texture"] = 136168,
 		},
 		["Pattern: Chimeric Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mind Rot"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136174,
 		},
 		["Hate to Zero"] = {
@@ -11365,7 +11683,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135807,
 		},
 		["Plans: Imperial Plate Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wolf Riding"] = {
 			["texture"] = 136103,
@@ -11384,11 +11702,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136145,
 		},
 		["Electrified Net"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 132149,
 		},
 		["Uldaman Sub-Boss Agro"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136023,
 		},
 		["Crumbling Stone"] = {
@@ -11402,16 +11720,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 132347,
 		},
 		["Enhance Blunt Weapon II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Green Iron Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Quest - Sergra Darkthorn Spell"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Magic Wand"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135144,
 		},
 		["Smoked Desert Dumplings"] = {
@@ -11419,11 +11737,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Schematic: Blue Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Red Firework"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Standard Alcohol"] = {
 			["texture"] = 132796,
@@ -11446,11 +11764,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Enchant 2H Weapon - Minor Impact"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Blackhand Dreadweaver"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136075,
 		},
 		["Frostsaber Cub Death"] = {
@@ -11469,7 +11787,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Healing Tongue"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135915,
 		},
 		["Heavy Mithril Breastplate"] = {
@@ -11484,7 +11802,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132253,
 		},
 		["Recipe: Transmute Arcanite"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Copper Claymore"] = {
 			["castTime"] = 8000,
@@ -11504,13 +11822,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136066,
 		},
 		["Create Zul'Gurub Talisman PRT R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Enrage"] = {
 			["texture"] = 132091,
 		},
 		["Pattern: Green Whelp Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ward of the Eye"] = {
 			["texture"] = 136232,
@@ -11523,17 +11841,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132090,
 		},
 		["Recipe: Transmute Mithril to Truesilver"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Levitate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135928,
 		},
 		["Frost Protection "] = {
 			["texture"] = 135843,
 		},
 		["Pattern: Runecloth Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spirit Decay"] = {
 			["castTime"] = 2000,
@@ -11553,7 +11871,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Quick Flame Ward"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135824,
 		},
 		["Firestaff"] = {
@@ -11570,7 +11888,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136120,
 		},
 		["Pattern: Red Linen Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Guardian Belt"] = {
 			["castTime"] = 45000,
@@ -11592,26 +11910,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Enslave Demon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136154,
 		},
 		["Savannah Cub"] = {
 			["texture"] = 132140,
 		},
 		["Deputize Agent of Nozdormu"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Mail"] = {
 			["texture"] = 132627,
 		},
 		["Plans: Masterwork Stormhammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Collect Dire Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Soothe Animal"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 132163,
 		},
 		["Hillman's Shoulders"] = {
@@ -11622,7 +11940,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132153,
 		},
 		["Cure Poison"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136067,
 		},
 		["Speed"] = {
@@ -11632,7 +11950,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Plans: Fiery Chain Girdle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Vital Wound"] = {
 			["texture"] = 132109,
@@ -11644,7 +11962,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135463,
 		},
 		["Release Winna's Kitten"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Ward of Laze Passive"] = {
@@ -11658,32 +11976,32 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Punctured Voodoo Doll WLK DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Enchant Chest - Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Kodo Hide Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Release J'eevee"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Snowball Lasting Visual"] = {
 			["texture"] = 132387,
 		},
 		["Plans: Inlaid Thorium Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Egan's Blaster"] = {
 			["texture"] = 135990,
 		},
 		["Pattern: Dreamscale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Mystic Wand"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135469,
 		},
 		["Reconstruct"] = {
@@ -11714,11 +12032,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136221,
 		},
 		["Conjure Mana Agate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134104,
 		},
 		["Schematic: Lovingly Crafted Boomstick"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mortal Shots"] = {
 			["texture"] = 132271,
@@ -11733,17 +12051,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132323,
 		},
 		["Dummy NPC Summon"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 136230,
 		},
 		["heat"] = {
 			["texture"] = 135805,
 		},
 		["Formula: Strong Anti-Venom"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Redemption"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135955,
 		},
 		["Shadow Dagger"] = {
@@ -11753,10 +12071,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132104,
 		},
 		["Collect Rookery Egg"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Schematic: Lifelike Mechanical Toad"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Winter Reveler - Undead Female"] = {
@@ -11772,7 +12090,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Healing Circle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135880,
 		},
 		["Mark of Kazzak"] = {
@@ -11795,13 +12113,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Summon Augur's Belt DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Plans: Enchanted Thorium Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enhance Blunt Weapon III"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Magic Essence"] = {
 			["texture"] = 136192,
@@ -11820,7 +12138,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Enchant Bracer - Greater Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Demon Forged Breastplate"] = {
@@ -11828,14 +12146,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Time Stop"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134156,
 		},
 		["Poison Cleansing Totem Effect"] = {
 			["texture"] = 136070,
 		},
 		["Enchant Bracer - Minor Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Fel Stomp"] = {
@@ -11848,7 +12166,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136007,
 		},
 		["Pattern: Thick Murloc Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Creature of Nightmare"] = {
 			["texture"] = 136206,
@@ -11863,7 +12181,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135934,
 		},
 		["Curse of Hakkar"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136160,
 		},
 		["Summoned Succubus"] = {
@@ -11885,7 +12203,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136203,
 		},
 		["Holy Word: Fortitude"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135954,
 		},
 		["Storm Reach"] = {
@@ -11902,13 +12220,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Brightcloth Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wrath of the Plaguebringer"] = {
 			["texture"] = 136121,
 		},
 		["Igniting Kroshius"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Major Firestone Effect"] = {
 			["texture"] = 135821,
@@ -11918,7 +12236,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: Inlaid Mithril Cylinder"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gaea's Embrace"] = {
 			["castTime"] = 60000,
@@ -11929,11 +12247,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["First Aid"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135915,
 		},
 		["Clone"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136123,
 		},
 		["Summon Gelkis Rumbler"] = {
@@ -11943,7 +12261,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 2000,
 		},
 		["Fill the Egg of Hakkar"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Murloc Scale Breastplate"] = {
 			["castTime"] = 12500,
@@ -11962,17 +12280,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Create Containment Coffer"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Pattern: Felcloth Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Soothing Kiss"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136209,
 		},
 		["Wither Touch"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136020,
 		},
 		["Fire Resistance Aura"] = {
@@ -11982,36 +12300,36 @@ NeatPlatesSpellDB = {
 			["texture"] = 134134,
 		},
 		["Attuned Dampener"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135972,
 		},
 		["Rough Copper Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Summon Drape of Vaulted Secrets DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Filling Empty Jar"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 		},
 		["Restore Life"] = {
 			["texture"] = 134335,
 		},
 		["[PH] Teleport to Undercity"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Toxic Vapors"] = {
 			["texture"] = 132099,
 		},
 		["Recipe: Seasoned Wolf Kabob"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Two-Hand Strike IV"] = {
 			["texture"] = 132316,
 		},
 		["Teleport Goldshire"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Blood Craze"] = {
 			["texture"] = 136218,
@@ -12023,20 +12341,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Atal'ai Altar Light Visual (DND)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Pilferer's Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Azure Silk Pants"] = {
 			["castTime"] = 25000,
 			["texture"] = 132149,
 		},
 		["Recipe: Succulent Pork Ribs"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Firebolt II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135810,
 		},
 		["Mol'dar's Moxie"] = {
@@ -12061,7 +12379,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132224,
 		},
 		["Teleport Treant"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summon Hyacinth Macaw"] = {
 			["castTime"] = 1000,
@@ -12071,14 +12389,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136025,
 		},
 		["Mithril Tube"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Green Iron Helm"] = {
 			["castTime"] = 25000,
 			["texture"] = 136192,
 		},
 		["Teleport: Moonglade"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135758,
 		},
 		["Summon Loggerhead Snapjaw"] = {
@@ -12095,11 +12413,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135934,
 		},
 		["Enchant Cloak - Fire Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Red Dragon Transform DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Spell Focus"] = {
 			["texture"] = 136121,
@@ -12135,14 +12453,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132278,
 		},
 		["Summon Lupine Delusions"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136222,
 		},
 		["Warsong Gulch Iron Ration"] = {
 			["texture"] = 134062,
 		},
 		["Holy Word: Shield"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135932,
 		},
 		["Tag: Purple Ball"] = {
@@ -12160,7 +12478,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132247,
 		},
 		["Pattern: Green Woolen Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["2H Axe Finesse"] = {
 			["texture"] = 132316,
@@ -12182,17 +12500,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132153,
 		},
 		["Pattern: Timbermaw Brawlers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Overpower"] = {
 			["texture"] = 135275,
 		},
 		["Frost Nova"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135848,
 		},
 		["Seal of Salvation"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sludge"] = {
 			["texture"] = 136188,
@@ -12211,7 +12529,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132199,
 		},
 		["Ashcrombe's Teleport"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Steel Breastplate"] = {
@@ -12232,14 +12550,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135932,
 		},
 		["Schematic: Major Recombobulator"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Formula: Enchant Chest - Major Health"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plant Gor'tesh Head"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Torpor"] = {
 			["texture"] = 136187,
@@ -12251,7 +12569,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136122,
 		},
 		["Enchant Weapon - Minor Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Curse of the Dreadmaul"] = {
@@ -12317,10 +12635,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 134307,
 		},
 		["Plans: Storm Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Weapon - Lesser Elemental Slayer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Argent Avenger"] = {
@@ -12330,7 +12648,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136162,
 		},
 		["Call Anathema"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Freezing Trap"] = {
 			["texture"] = 135834,
@@ -12349,7 +12667,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Death's Embrace"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Stormshroud Shoulders"] = {
 			["castTime"] = 60000,
@@ -12370,7 +12688,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135997,
 		},
 		["Shrink"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136121,
 		},
 		["Azrethoc's Flight"] = {
@@ -12394,7 +12712,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135903,
 		},
 		["Create Soulstone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Improved Fire Totems"] = {
@@ -12405,19 +12723,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Lifelike Mechanical Toad"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Mana Reduction 3%"] = {
 			["texture"] = 135860,
 		},
 		["Teach Bark of Doom"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Guardian's Favor"] = {
 			["texture"] = 135964,
 		},
 		["Gyromatic Micro-Adjustor"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Summon Tamed Boar"] = {
 			["texture"] = 135997,
@@ -12426,17 +12744,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135836,
 		},
 		["Distract (TEST)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Locust Swarm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136045,
 		},
 		["Icy Grasp"] = {
 			["texture"] = 135858,
 		},
 		["Teleport: Ironforge"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135757,
 		},
 		["Ink Spray"] = {
@@ -12444,10 +12762,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136090,
 		},
 		["Binding Volume III"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Sylvan Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Resist Fire II"] = {
 			["texture"] = 135824,
@@ -12482,14 +12800,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["Schematic: Force Reactive Disk"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Plans: Dark Iron Pulverizer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Big Bag of Enchantment"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Tamed Cat"] = {
 			["texture"] = 136095,
@@ -12532,17 +12850,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Azure Silk Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Intense Pain"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136207,
 		},
 		["Hip Shot III"] = {
 			["texture"] = 132153,
 		},
 		["Lesser Arcane Amalgamation"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Summon Purple Tallstrider"] = {
 			["texture"] = 132253,
@@ -12554,7 +12872,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132091,
 		},
 		["The Mortar: Reloaded"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Into the Rift"] = {
 			["texture"] = 132331,
@@ -12573,7 +12891,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132302,
 		},
 		["Pattern: Brightcloth Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magic Backlash"] = {
 			["texture"] = 136168,
@@ -12599,14 +12917,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134242,
 		},
 		["Plans: Edge of Winter"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Instant Poison V"] = {
 			["castTime"] = 3000,
 			["texture"] = 132273,
 		},
 		["Unstable Trigger"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Shadow and Frost Reflect"] = {
 			["texture"] = 135736,
@@ -12626,7 +12944,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135955,
 		},
 		["Herb Gathering"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136065,
 		},
 		["Linen Cloak"] = {
@@ -12653,7 +12971,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136068,
 		},
 		["Shackle Undead"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136091,
 		},
 		["Defensive State (DND)"] = {
@@ -12676,7 +12994,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132484,
 		},
 		["Fling Torch"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135815,
 		},
 		["Cooked Crab Claw"] = {
@@ -12709,7 +13027,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135920,
 		},
 		["Whirling Barrage"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135128,
 		},
 		["Green Leather Armor"] = {
@@ -12720,7 +13038,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136153,
 		},
 		["Sol L"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135859,
 		},
 		["Freezing Trap Effect"] = {
@@ -12748,7 +13066,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136018,
 		},
 		["Touch of Death"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136230,
 		},
 		["Summon Cottontail Rabbit"] = {
@@ -12756,16 +13074,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Punctured Voodoo Doll PRT DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Deviate Scale Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Darksoul Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Divine Escape"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadoweave Gloves"] = {
 			["castTime"] = 60000,
@@ -12776,21 +13094,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Resupply"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135999,
 		},
 		["Enchant Chest - Minor Absorption"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Illusionist's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Nature Affinity"] = {
 			["texture"] = 136085,
 		},
 		["Shay's Bell"] = {
-			["castTime"] = 6075,
+			["castTime"] = 4500,
 		},
 		["Dmg Shield"] = {
 			["texture"] = 136104,
@@ -12805,11 +13123,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135995,
 		},
 		["Seal of Sacrifice"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135966,
 		},
 		["Create Zul'Gurub Talisman PRT R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Enchanted Battlehammer"] = {
 			["castTime"] = 60000,
@@ -12824,16 +13142,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Manna-Enriched Horse Feed"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Holy Flurry"] = {
 			["texture"] = 132330,
 		},
 		["Zandalar Signet of Might"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Soul Consumption"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 132278,
 		},
 		["Savory Deviate Delight"] = {
@@ -12853,7 +13171,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Arcanum of Protection"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Hammer of Justice Cooldown Reduction"] = {
 			["texture"] = 135963,
@@ -12865,7 +13183,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136097,
 		},
 		["Pattern: Big Voodoo Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Staff Strike"] = {
 			["texture"] = 132325,
@@ -12874,18 +13192,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 133611,
 		},
 		["Tranquilizing Shot"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136020,
 		},
 		["Call of the Nether"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Nightsaber"] = {
 			["castTime"] = 3000,
 			["texture"] = 132225,
 		},
 		["Firebolt III"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135810,
 		},
 		["Teleport to Twin Emperors"] = {
@@ -12904,7 +13222,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Pattern: Satchel of Cenarius"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Corrupted Fear"] = {
 			["texture"] = 136183,
@@ -12916,23 +13234,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 135992,
 		},
 		["Pattern: Runed Stygian Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Empty Charm Pouch"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Wings of Despair"] = {
 			["texture"] = 136184,
 		},
 		["Renew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135953,
 		},
 		["Recipe: Elixir of Lesser Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Gloves - Fishing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Slip'kik's Savvy"] = {
 			["texture"] = 135930,
@@ -12950,7 +13268,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135933,
 		},
 		["Teleport Cemetary"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Self Visual - Sleep Until Cancelled (DND)"] = {
 			["texture"] = 136168,
@@ -12962,7 +13280,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["CHU's QUEST SPELL"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136168,
 		},
 		["Echeyakee's Grace"] = {
@@ -13014,7 +13332,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Pattern: Polar Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Earth Rumbler"] = {
 			["texture"] = 136025,
@@ -13033,11 +13351,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136061,
 		},
 		["Spell Lock"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136174,
 		},
 		["Rimblat Grows Flower DND"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Diplomacy"] = {
 			["texture"] = 134328,
@@ -13066,7 +13384,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132090,
 		},
 		["[PH] Teleport to Booty Bay"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Spidersilk Boots"] = {
 			["castTime"] = 45000,
@@ -13079,7 +13397,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132288,
 		},
 		["Formula: Enchant Bracer - Greater Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Scorch"] = {
 			["texture"] = 135827,
@@ -13106,7 +13424,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136157,
 		},
 		["Triage"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 		},
 		["dmg3"] = {
 			["texture"] = 136115,
@@ -13115,7 +13433,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136071,
 		},
 		["Feather Fall"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bronze Greatsword"] = {
 			["castTime"] = 12500,
@@ -13144,21 +13462,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136100,
 		},
 		["Pattern: Gray Woolen Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Symbol of Life"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135955,
 		},
 		["Enchant Bracer - Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Scatter Shot IV"] = {
 			["texture"] = 132153,
 		},
 		["Portal: Orgrimmar"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135744,
 		},
 		["Piercing Shot"] = {
@@ -13172,7 +13490,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132328,
 		},
 		["Ritual of Summoning"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136223,
 		},
 		["Green Kodo"] = {
@@ -13180,13 +13498,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132244,
 		},
 		["Plans: Barbaric Iron Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Test NPC Resurrection"] = {
 			["texture"] = 135955,
 		},
 		["Pattern: Dark Leather Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Viscidus Shrinks"] = {
 			["texture"] = 136006,
@@ -13205,7 +13523,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135274,
 		},
 		["Pattern: Wild Leather Helmet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magic Absorption"] = {
 			["texture"] = 136011,
@@ -13236,7 +13554,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136142,
 		},
 		["Sprinkling Purified Water"] = {
-			["castTime"] = 8100,
+			["castTime"] = 6000,
 		},
 		["Elixir of Demonslaying"] = {
 			["castTime"] = 3000,
@@ -13253,27 +13571,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132355,
 		},
 		["Enchant Cloak - Minor Protection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Hive'Ashi Rubbing DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Enchant Gloves - Greater Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Cozy Fire"] = {
 			["texture"] = 135805,
 		},
 		["Plans: Enchanted Battlehammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crazed"] = {
 			["texture"] = 136215,
 		},
 		["Reputation - Ahn'Qiraj Temple Boss"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Death Pact"] = {
 			["texture"] = 136146,
@@ -13303,7 +13621,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Grace of Air Totem"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136046,
 		},
 		["Cloak of Warding"] = {
@@ -13318,11 +13636,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Flame Lash"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135807,
 		},
 		["Plans: Barbaric Iron Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spike Volley"] = {
 			["castTime"] = 500,
@@ -13332,27 +13650,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Expert First Aid"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 135966,
 		},
 		["Green Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Pattern: Big Voodoo Mask"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Defiance"] = {
 			["texture"] = 132347,
 		},
 		["Summon Tervosh's Minion"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135864,
 		},
 		["Frost Resist"] = {
 			["texture"] = 136075,
 		},
 		["Destroy Tent"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Snap Kick"] = {
 			["texture"] = 132219,
@@ -13365,7 +13683,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Portal: Ironforge"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135743,
 		},
 		["2H Axe Specialization"] = {
@@ -13379,13 +13697,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Radiant Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fire Cannon"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Dimensional Portal"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Phantom Strike"] = {
 			["texture"] = 136033,
@@ -13401,7 +13719,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132331,
 		},
 		["Enchant Cloak - Greater Nature Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Blue Overalls"] = {
@@ -13425,11 +13743,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132199,
 		},
 		["Frost Weakness"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134398,
 		},
 		["Summon Felsteed"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136103,
 		},
 		["Aynasha's Bow"] = {
@@ -13442,7 +13760,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135996,
 		},
 		["Enchant Cloak - Superior Defense"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Mottled Red Raptor"] = {
@@ -13450,7 +13768,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132253,
 		},
 		["Summon Effect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136119,
 		},
 		["Test Enemy Crit Bonus - 10%"] = {
@@ -13485,7 +13803,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["Rocket Blast"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Divine Spirit"] = {
 			["texture"] = 135898,
@@ -13494,7 +13812,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132337,
 		},
 		["Plans: Mithril Scale Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shard of the Fallen Star"] = {
 			["texture"] = 135808,
@@ -13510,7 +13828,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132183,
 		},
 		["Plans: Ornate Mithril Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immolation Trap"] = {
 			["texture"] = 135813,
@@ -13525,10 +13843,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Plans: Deadly Bronze Poniard"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Witherbark Felhunter"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136217,
 		},
 		["Greater Mana Potion"] = {
@@ -13543,11 +13861,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Schematic: Mithril Mechanical Dragonling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Cupid's Arrow"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Level Up"] = {
 			["texture"] = 135926,
@@ -13556,25 +13874,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 133849,
 		},
 		["Sol H"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135859,
 		},
 		["Frostmane Strength"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136109,
 		},
 		["Firestone Passive"] = {
 			["texture"] = 135821,
 		},
 		["Wrath"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136006,
 		},
 		["Recipe: Major Mana Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadowblink"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136153,
 		},
 		["Test Ribbon Pole Channel Trigger"] = {
@@ -13587,7 +13905,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135835,
 		},
 		["Destroy Egg"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134295,
 		},
 		["Bestial Fury Effect"] = {
@@ -13603,14 +13921,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135736,
 		},
 		["Thousand Blades"] = {
-			["castTime"] = 338,
+			["castTime"] = 250,
 			["texture"] = 132373,
 		},
 		["Summon Shade of Taerar"] = {
 			["texture"] = 135824,
 		},
 		["Fumble II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136159,
 		},
 		["Quest - Purge Visual"] = {
@@ -13629,17 +13947,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135808,
 		},
 		["Poison Cloud"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136077,
 		},
 		["Copy of Moonfire"] = {
 			["texture"] = 136096,
 		},
 		["Recipe: Thistle Tea"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Biznicks 247x128 Accurascope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wyatt Test"] = {
 			["texture"] = 136163,
@@ -13648,14 +13966,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132997,
 		},
 		["Fumble"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136159,
 		},
 		["Tame Beast"] = {
 			["texture"] = 132164,
 		},
 		["Recipe: Hot Smoked Bass"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Undead Slayer 100"] = {
 			["texture"] = 135923,
@@ -13671,7 +13989,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136114,
 		},
 		["Manifestation Cleansing"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Lawbringer"] = {
 			["texture"] = 135906,
@@ -13680,7 +13998,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132343,
 		},
 		["Zul'Gurub Talisman PAL R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Cured Thick Hide"] = {
 			["castTime"] = 12500,
@@ -13699,7 +14017,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Fire Blast"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135807,
 		},
 		["Crystal Yield"] = {
@@ -13709,10 +14027,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132277,
 		},
 		["Alchemist's Stone"] = {
-			["castTime"] = 60000,
+			["castTime"] = 30000,
 		},
 		["Eternium Fishing Line"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bolt of Linen Cloth"] = {
 			["castTime"] = 3000,
@@ -13731,7 +14049,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Serpent Sting"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132204,
 		},
 		["Bolt of Mageweave"] = {
@@ -13745,28 +14063,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 132091,
 		},
 		["Shadow Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136121,
 		},
 		["Artisan Fishing"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 136245,
 		},
 		["Honor Points +398"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Felstrom Resurrection"] = {
 			["castTime"] = 3000,
 			["texture"] = 136232,
 		},
 		["[PH] Get Token"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Schematic: Accurate Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Boots - Minor Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ragged John's Neverending Cup"] = {
 			["texture"] = 132792,
@@ -13775,7 +14093,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136094,
 		},
 		["Schematic: EZ-Thro Dynamite"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Swift Razzashi Raptor"] = {
 			["castTime"] = 3000,
@@ -13788,7 +14106,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134085,
 		},
 		["Fumble III"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136159,
 		},
 		["Serenity"] = {
@@ -13799,7 +14117,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134899,
 		},
 		["Pattern: Boots of Darkness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stoneclaw Totem Effect"] = {
 			["texture"] = 136097,
@@ -13819,7 +14137,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Release Rageclaw"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Forsaken Skill: Axes"] = {
 			["texture"] = 132395,
@@ -13832,10 +14150,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Large Green Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Pattern: Green Silk Pack"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Skullforge Brand"] = {
 			["texture"] = 136160,
@@ -13868,10 +14186,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132278,
 		},
 		["Recipe: Tasty Lion Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Onyxia Whelp"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Crispy Lizard Tail"] = {
 			["castTime"] = 3000,
@@ -13884,7 +14202,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134334,
 		},
 		["Mage Sight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ishamuhale's Rage"] = {
 			["texture"] = 136075,
@@ -13900,10 +14218,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 12500,
 		},
 		["Recipe: Greater Holy Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Elixir of Demonslaying"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Beast Slayer"] = {
 			["texture"] = 136095,
@@ -13919,13 +14237,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Conjure Elegant Letter"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Defense"] = {
 			["texture"] = 132279,
 		},
 		["Flames of Retribution"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Intimidating Shout"] = {
 			["texture"] = 132154,
@@ -13969,7 +14287,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136220,
 		},
 		["Enchant Bracer - Lesser Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Glacial Wrists"] = {
@@ -13980,11 +14298,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Quick Frost Ward"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135824,
 		},
 		["CreatureSpecial"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Rough Bronze Bracers"] = {
 			["castTime"] = 12500,
@@ -14041,7 +14359,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Chromatic Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ice Lock"] = {
 			["texture"] = 135834,
@@ -14053,7 +14371,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135893,
 		},
 		["Recipe: Herb Baked Egg"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Speak with Animals"] = {
 			["texture"] = 132163,
@@ -14071,14 +14389,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136075,
 		},
 		["Call Scepter DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Simple Teleport"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135994,
 		},
 		["Syndicate Bomb"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136173,
 		},
 		["Holy Word: Protect"] = {
@@ -14091,7 +14409,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Extinguish"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Journeyman Miner"] = {
 			["texture"] = 136248,
@@ -14101,14 +14419,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132965,
 		},
 		["Pattern: Hands of Darkness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crimson Silk Gloves"] = {
 			["castTime"] = 60000,
 			["texture"] = 132149,
 		},
 		["Encasing Webs"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136022,
 		},
 		["Herbalist's Gloves"] = {
@@ -14121,7 +14439,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Greater Heal"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135913,
 		},
 		["Pet Resistance"] = {
@@ -14149,7 +14467,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132350,
 		},
 		["Party Fever"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136142,
 		},
 		["Crossbow Specialization"] = {
@@ -14162,20 +14480,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 134947,
 		},
 		["Plans: Enchanted Thorium Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tell Joke"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136168,
 		},
 		["Accurate Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Goggles"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Recipe: Elixir of Shadow Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stuck"] = {
 			["castTime"] = 10000,
@@ -14189,17 +14507,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135882,
 		},
 		["Conjure Lily Root"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 133938,
 		},
 		["Recipe: Greater Frost Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Zergling"] = {
 			["texture"] = 134295,
 		},
 		["Transmute: Fire to Earth"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Mithril Scale Bracers"] = {
@@ -14217,14 +14535,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136013,
 		},
 		["Pattern: Green Silk Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Might of Ragnaros"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 135826,
 		},
 		["Ritual of Doom Effect"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135741,
 		},
 		["Summon Tamed Battleboar"] = {
@@ -14238,17 +14556,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132264,
 		},
 		["Teleport Westfall"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Copy of Healing Wave"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136052,
 		},
 		["Strider Presence"] = {
 			["texture"] = 135899,
 		},
 		["Enchant Cloak - Subtlety"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Swift Dawnsaber"] = {
@@ -14259,35 +14577,35 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Water Walking"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135863,
 		},
 		["Scatter Shot III"] = {
 			["texture"] = 132153,
 		},
 		["Pattern: Volcanic Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Raptor Feather"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Fool's Curse"] = {
 			["texture"] = 136129,
 		},
 		["Discombobulator Ray"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Blessing of Salvation"] = {
 			["texture"] = 135967,
 		},
 		["Forming Lok'delar"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Invisibility Detection"] = {
 			["texture"] = 136129,
 		},
 		["Windsor Reading Tablets DND"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Toxic Bolt"] = {
 			["castTime"] = 2500,
@@ -14301,14 +14619,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Khadgar's Unlocking"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 134239,
 		},
 		["Improved Blessing of Might"] = {
 			["texture"] = 135906,
 		},
 		["Mithril Gyro-Shot"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Ice Shards"] = {
 			["texture"] = 135855,
@@ -14320,7 +14638,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Pattern: Green Holiday Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Slavedriver's Cane"] = {
 			["texture"] = 136013,
@@ -14329,7 +14647,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Formula: Enchant Bracer - Lesser Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Nature Protection "] = {
 			["texture"] = 136094,
@@ -14347,13 +14665,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Plans: Annihilator"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Venomhide Poison"] = {
 			["texture"] = 132273,
 		},
 		["Prayer of Elune"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135955,
 		},
 		["Stonescale Oil"] = {
@@ -14361,7 +14679,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Taelan Death"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Journeyman Engineer"] = {
 			["texture"] = 136243,
@@ -14370,10 +14688,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135835,
 		},
 		["Formula: Enchant Weapon - Superior Impact"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Replenish Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136057,
 		},
 		["Dagger Strike V"] = {
@@ -14384,13 +14702,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 134336,
 		},
 		["Pattern: Heavy Earthen Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Static Field"] = {
 			["texture"] = 136115,
 		},
 		["Kev"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135809,
 		},
 		["Lesser Mark of the Dawn"] = {
@@ -14403,20 +14721,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 135865,
 		},
 		["Balance of Light and Shadow"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Creeping Plague"] = {
 			["texture"] = 136012,
 		},
 		["Pattern: Wisdom of the Timbermaw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flash of Light"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135907,
 		},
 		["Curse of the Darkmaster"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136121,
 		},
 		["Improved Shadow Word: Pain"] = {
@@ -14447,7 +14765,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Small Bronze Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Anti-Holy"] = {
@@ -14458,7 +14776,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Bind Chapter 2"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Eye of the Storm"] = {
 			["texture"] = 136032,
@@ -14467,7 +14785,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132161,
 		},
 		["Conjure Scrying Scope (Alliance) DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Destructive Reach"] = {
 			["texture"] = 136133,
@@ -14479,28 +14797,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 132354,
 		},
 		["Ancestral Spirit"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136077,
 		},
 		["Pattern: Wicked Leather Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crimson Silk Shoulders"] = {
 			["castTime"] = 45000,
 			["texture"] = 132149,
 		},
 		["Formula: Enchant Gloves - Skinning"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Minor Mana Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Chest - Lesser Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Life Harvest"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136188,
 		},
 		["Artisan Blacksmith"] = {
@@ -14524,7 +14842,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Spirit Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136094,
 		},
 		["Tree Form"] = {
@@ -14537,7 +14855,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Formula: Enchant Weapon - Crusader"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cone of Cold"] = {
 			["texture"] = 135852,
@@ -14546,15 +14864,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 136190,
 		},
 		["Taunt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136080,
 		},
 		["Create Healthstone (Major)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135230,
 		},
 		["Teleport: Undercity"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135766,
 		},
 		["Phase Out Passive"] = {
@@ -14564,13 +14882,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132331,
 		},
 		["Pattern: Frostsaber Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Barbed Sting"] = {
 			["texture"] = 136067,
 		},
 		["Lightning Cloud"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136014,
 		},
 		["Full Speed"] = {
@@ -14580,11 +14898,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 134179,
 		},
 		["Sense Demons"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136172,
 		},
 		["Conjure Jeztor's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Flametongue Totem Passive"] = {
 			["texture"] = 136040,
@@ -14594,7 +14912,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Divine Shield"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135896,
 		},
 		["Heartseeker"] = {
@@ -14606,7 +14924,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Dusky Leather Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadoweave Mask"] = {
 			["castTime"] = 60000,
@@ -14616,21 +14934,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Create Hunter Epic Staff DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Sap Might"] = {
 			["texture"] = 136119,
 		},
 		["Nostalgia"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136168,
 		},
 		["Haunting Spirits"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136123,
 		},
 		["Lightning Bolt"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136048,
 		},
 		["Mark of the Chosen"] = {
@@ -14648,7 +14966,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135848,
 		},
 		["Rotate Trigger"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Ghost Saber"] = {
 			["texture"] = 136074,
@@ -14677,7 +14995,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Enchant Bracer - Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Blessing of Aman"] = {
@@ -14708,7 +15026,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Advanced Target Dummy"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 136232,
 		},
 		["Lightning Bolt Proc V"] = {
@@ -14721,7 +15039,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135806,
 		},
 		["Plans: Titanic Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Icy Scale Gauntlets"] = {
 			["castTime"] = 60000,
@@ -14731,7 +15049,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132100,
 		},
 		["Sharpen Weapon - Critical"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sunder"] = {
 			["texture"] = 132363,
@@ -14769,11 +15087,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 133890,
 		},
 		["Create PX83-Enigmatron"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 133748,
 		},
 		["Voidwalker Guardian"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136221,
 		},
 		["Summon Bombay"] = {
@@ -14792,10 +15110,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 133748,
 		},
 		["Summon Treasure Horde"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Pattern: Enchanted Runecloth Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dark Iron Dwarf Disguise"] = {
 			["castTime"] = 3000,
@@ -14805,30 +15123,30 @@ NeatPlatesSpellDB = {
 			["texture"] = 136105,
 		},
 		["Recipe: Loch Frenzy Delight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elixir of Shadow Power"] = {
 			["castTime"] = 3000,
 			["texture"] = 136021,
 		},
 		["Pattern: Azure Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Elixir of Minor Fortitude"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Word: Pain"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136207,
 		},
 		["Portable Bronze Mortar"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Pattern: Sylvan Crown"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Manifest Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136232,
 		},
 		["Summon Skeleton"] = {
@@ -14839,7 +15157,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136069,
 		},
 		["Heroic Strike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132282,
 		},
 		["Sinister Strike"] = {
@@ -14866,7 +15184,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132110,
 		},
 		["Self Detonation"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 			["texture"] = 135826,
 		},
 		["Clear Essence of the Red"] = {
@@ -14879,27 +15197,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Pattern: Felcloth Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Elixir of Giants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Special Brew"] = {
 			["texture"] = 135999,
 		},
 		["Hoodoo Hex"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Mithril Scale Gloves"] = {
 			["castTime"] = 60000,
 			["texture"] = 136192,
 		},
 		["Expert Fishing"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 136245,
 		},
 		["Create Zul'Gurub Talisman WAR R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Fine Leather Gloves"] = {
 			["castTime"] = 8000,
@@ -14911,7 +15229,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136087,
 		},
 		["Pattern: Orange Martial Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fishing Skill +25"] = {
 			["texture"] = 136245,
@@ -14945,17 +15263,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135996,
 		},
 		["Punctured Voodoo Doll SHM DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Permafrost"] = {
 			["texture"] = 135864,
 		},
 		["Crystal Gaze"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132154,
 		},
 		["Recipe: Major Troll's Blood Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lightning Hide"] = {
 			["texture"] = 136051,
@@ -14964,27 +15282,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 136102,
 		},
 		["Recipe: Shadow Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Seal of Wisdom"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135960,
 		},
 		["Plans: Iridescent Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Weapon - Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Plans: Dark Iron Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Soul Revival"] = {
 			["texture"] = 135907,
 		},
 		["UNUSED Quest - Create Empowered Mojo Bundle"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Concussive Shot"] = {
 			["texture"] = 135860,
@@ -14993,7 +15311,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132386,
 		},
 		["Pattern: Mooncloth Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rockbiter Weapon"] = {
 			["texture"] = 136086,
@@ -15010,29 +15328,29 @@ NeatPlatesSpellDB = {
 			["texture"] = 133678,
 		},
 		["Bounty of the Harvest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 133989,
 		},
 		["Gnomish Mind Control Cap"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 			["texture"] = 135995,
 		},
 		["Create Knucklebone Pouch"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Voodoo Hex"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136138,
 		},
 		["Use Bauble"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Repair the Blade of Heroes"] = {
-			["castTime"] = 15000,
+			["castTime"] = 27500,
 			["texture"] = 136192,
 		},
 		["Pattern: Black Dragonscale Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crocolisk Steak"] = {
 			["castTime"] = 3000,
@@ -15059,11 +15377,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Judgement"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135959,
 		},
 		["Purify"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135949,
 		},
 		["Heavy Woolen Cloak"] = {
@@ -15071,7 +15389,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Seduction"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136175,
 		},
 		["Wicked Leather Headband"] = {
@@ -15103,16 +15421,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Quest - Troll Hero Summon Visual"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 		},
 		["Formula: Enchant Weapon - Icy Chill"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Entangle"] = {
 			["texture"] = 136113,
 		},
 		["Create Zul'Gurub Talisman WAR R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Gore"] = {
 			["texture"] = 136231,
@@ -15121,7 +15439,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Flame Cannon"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135812,
 		},
 		["Bronze Mace"] = {
@@ -15129,7 +15447,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant 2H Weapon - Lesser Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Gift of Arthas"] = {
@@ -15154,10 +15472,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136205,
 		},
 		["Pattern: Mooncloth Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elemental Armor"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135841,
 		},
 		["Claw Cover"] = {
@@ -15192,11 +15510,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 134563,
 		},
 		["Storm Bolt"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 133038,
 		},
 		["Signing"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Salt Shaker"] = {
 			["castTime"] = 25000,
@@ -15217,7 +15535,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 133951,
 		},
 		["Proudmoore's Defense"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135880,
 		},
 		["Brood Affliction: Blue"] = {
@@ -15230,7 +15548,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136146,
 		},
 		["Plans: Dark Iron Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Deadly Toxin III"] = {
 			["texture"] = 132290,
@@ -15239,19 +15557,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 135831,
 		},
 		["Pattern: Barbaric Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Increased Spirit"] = {
 			["texture"] = 134335,
 		},
 		["Apply Salve"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 		},
 		["Summon Mad Voidwalkers"] = {
 			["texture"] = 136121,
 		},
 		["Recipe: Elixir of Fortitude"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Deviate Scale Cloak"] = {
 			["castTime"] = 12500,
@@ -15260,14 +15578,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135971,
 		},
 		["Summon Demoniac's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Incinerate"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135813,
 		},
 		["Lightning Storm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136014,
 		},
 		["Demon Tracking"] = {
@@ -15278,17 +15596,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Draw Ancient Glyphs"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Tame Ice Claw Bear"] = {
 			["texture"] = 132164,
 		},
 		["Seal of Righteousness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135932,
 		},
 		["Enchant Bracer - Superior Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Crusader's Hammer"] = {
@@ -15302,7 +15620,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132117,
 		},
 		["Eye of Sulfuras"] = {
-			["castTime"] = 15000,
+			["castTime"] = 27500,
 			["texture"] = 136192,
 		},
 		["Bolt Charge Bramble"] = {
@@ -15313,7 +15631,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant Shield - Lesser Protection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Chant of Regeneration II"] = {
@@ -15323,13 +15641,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135814,
 		},
 		["Pattern: Runic Leather Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immunity: Disease"] = {
 			["texture"] = 135871,
 		},
 		["Summon Syndicate Spectre"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136223,
 		},
 		["Eranikus the Chained Invisiibility"] = {
@@ -15342,7 +15660,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132110,
 		},
 		["Summon Minion"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["QAEnchant Bracer +4 Mana\\5"] = {
 			["texture"] = 135913,
@@ -15357,7 +15675,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134062,
 		},
 		["Spawn Challenge to Urok"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summon Moonstalker Runt"] = {
 			["texture"] = 132142,
@@ -15372,17 +15690,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136183,
 		},
 		["Schematic: World Enlarger"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Greater Beast Slayer 25"] = {
 			["texture"] = 134310,
 		},
 		["Formula: Enchant Shield - Greater Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Place Scryer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Reckless Charge"] = {
 			["texture"] = 136010,
@@ -15401,18 +15719,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135915,
 		},
 		["Flask of the Titans"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134842,
 		},
 		["Skeletal Miner Berserk"] = {
 			["texture"] = 136187,
 		},
 		["Rough Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Silver Contact"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Ravenous Claw"] = {
 			["texture"] = 132152,
@@ -15422,11 +15740,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Runed Silver Rod"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 135138,
 		},
 		["Attack"] = {
-			["castTime"] = 2970,
+			["castTime"] = 2200,
 			["texture"] = 135825,
 		},
 		["Swift Frostsaber"] = {
@@ -15447,17 +15765,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135859,
 		},
 		["Summon Demoniac's Mantle DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Schematic: Dark Iron Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Light Armor Kit"] = {
 			["castTime"] = 5125,
 		},
 		["Conjure Mana Ruby"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134128,
 		},
 		["Mace Specialization"] = {
@@ -15468,7 +15786,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Uldaman Boss Agro"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136023,
 		},
 		["Guardian"] = {
@@ -15502,7 +15820,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136142,
 		},
 		["Schematic: Green Firework"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Rune Edge"] = {
@@ -15525,10 +15843,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132395,
 		},
 		["Summon Ring of the Gathering Storm DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Enchant Weapon - Superior Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Searing Arrow"] = {
@@ -15548,7 +15866,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132091,
 		},
 		["Getting Tide Pool Sample #1"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fall down"] = {
 			["texture"] = 132219,
@@ -15566,13 +15884,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Vitreous Focuser"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Surge 2"] = {
 			["texture"] = 132337,
 		},
 		["Inlaid Mithril Cylinder Plans"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Launch"] = {
 			["texture"] = 135819,
@@ -15581,7 +15899,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132179,
 		},
 		["Pattern: Red Mageweave Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Building Fire"] = {
 			["texture"] = 135805,
@@ -15603,17 +15921,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136243,
 		},
 		["Schematic: Steam Tonk Controller"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Snowball Visual Test"] = {
 			["texture"] = 132387,
 		},
 		["Sapphiron DND"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 		},
 		["Plans: Thorium Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ground Tremor"] = {
 			["texture"] = 136025,
@@ -15625,54 +15943,54 @@ NeatPlatesSpellDB = {
 			["texture"] = 135926,
 		},
 		["Enchant Bracer - Minor Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Crafted Light Shot"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Call Ancients"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 		},
 		["Faster Regrowth Cast"] = {
 			["texture"] = 136052,
 		},
 		["Formula: Enchant Gloves - Superior Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Twisting Nether"] = {
 			["texture"] = 136080,
 		},
 		["Deep Slumber"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136135,
 		},
 		["Bind Chapter 3"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Capture Worg Pup"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Numbing Pain"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136016,
 		},
 		["Basilisk Skin"] = {
 			["texture"] = 134314,
 		},
 		["Flame Spike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Plans: Ornate Mithril Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Healing Tongue II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135915,
 		},
 		["Enchant Weapon - Demonslaying"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Elemental Precision"] = {
@@ -15682,11 +16000,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Summon Smithing Hammer"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 133061,
 		},
 		["Mark of Flames"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135807,
 		},
 		["Hail Storm"] = {
@@ -15699,7 +16017,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136184,
 		},
 		["Brilliant Wizard Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Reduce Threat"] = {
@@ -15734,10 +16052,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135125,
 		},
 		["Zandalar Signet of Serenity"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Holy Fire"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 			["texture"] = 135972,
 		},
 		["Trogg Ale"] = {
@@ -15751,11 +16069,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Enchant Chest - Greater Stats"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Enchant Gloves - Advanced Herbalism"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Hive'Zora Wasp"] = {
@@ -15765,7 +16083,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132276,
 		},
 		["Plans: Ebon Shiv"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Strong Alcohol"] = {
 			["texture"] = 132796,
@@ -15774,7 +16092,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132094,
 		},
 		["Summon Aquementas"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Tag: Purple Cloud"] = {
 			["texture"] = 135995,
@@ -15784,18 +16102,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135130,
 		},
 		["Schematic: Red Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Winter Reveler - Tauren Male"] = {
 			["texture"] = 135849,
 		},
 		["Create Cleansing Totem"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136168,
 		},
 		["Enchant Bracer - Greater Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Net-o-Matic"] = {
@@ -15808,7 +16126,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Stun Bomb Attack"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Polymorph (TEST)"] = {
@@ -15823,20 +16141,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Formula: Enchant Cloak - Stealth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fel Concentration"] = {
 			["texture"] = 136157,
 		},
 		["Winterax Wisdom"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132089,
 		},
 		["Alterac Spring Water"] = {
 			["texture"] = 135928,
 		},
 		["Recipe: Mighty Rage Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tame Strigid Screecher"] = {
 			["texture"] = 132164,
@@ -15853,25 +16171,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 136011,
 		},
 		["Strength of Arko'narin"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136010,
 		},
 		["Plans: Icebane Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blessing of Thule"] = {
 			["texture"] = 136157,
 		},
 		["Shadow Bolt Misfire"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136197,
 		},
 		["Transmute: Water to Air"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Teleport Lighthouse"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["OLDSoul Link Effect"] = {
 			["texture"] = 136160,
@@ -15887,28 +16205,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Perm. Illusion Tyrion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132288,
 		},
 		["Heart of Hakkar - Molthor chucks the heart"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Enchant Gloves - Minor Haste"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Plans: Enchanted Thorium Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magic Wings"] = {
 			["texture"] = 135992,
 		},
 		["Thunderbolt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136048,
 		},
 		["Pattern: Wicked Leather Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pick Pocket"] = {
 			["texture"] = 133644,
@@ -15925,7 +16243,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132355,
 		},
 		["Hex of Ravenclaw"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136129,
 		},
 		["Natural Weapons"] = {
@@ -15947,20 +16265,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Summon Predator's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Tailoring"] = {
 			["texture"] = 136249,
 		},
 		["Create Spellstone (Major)"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134131,
 		},
 		["Cheaper Druid Shapeshifting"] = {
 			["texture"] = 135916,
 		},
 		["Plague Mind"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136127,
 		},
 		["Injured"] = {
@@ -15970,7 +16288,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Pattern: Bright Yellow Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Restorative Totems"] = {
 			["texture"] = 136053,
@@ -16006,10 +16324,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132485,
 		},
 		["Enhance Blunt Weapon V"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Instant Toxin"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Uber Stealth"] = {
 			["texture"] = 132320,
@@ -16018,20 +16336,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136036,
 		},
 		["Smite"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135924,
 		},
 		["Heal Vylestem Vine"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["QAEnchant Gloves +7 Agility"] = {
 			["texture"] = 135913,
 		},
 		["Pattern: Cenarion Herb Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Frostweave Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Bone Mages"] = {
 			["texture"] = 136187,
@@ -16040,7 +16358,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Summon Dagger of Veiled Shadows DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Big Voodoo Cloak"] = {
 			["castTime"] = 60000,
@@ -16063,7 +16381,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135899,
 		},
 		["Summon Netherwalker"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136160,
 		},
 		["Kiss of the Spider"] = {
@@ -16073,7 +16391,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Disruption"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dark Energy"] = {
 			["texture"] = 136203,
@@ -16095,13 +16413,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136103,
 		},
 		["Incineration"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Wild Leather Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Venomous Totem"] = {
@@ -16120,7 +16438,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132142,
 		},
 		["Pattern: Black Swashbucklers Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Owl Form"] = {
 			["castTime"] = 5000,
@@ -16130,21 +16448,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Aspect of the Hawk"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136076,
 		},
 		["Plans: Golden Iron Destroyer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flame Shock"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135813,
 		},
 		["Balance of Nature"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Word of Thawing"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Drink"] = {
 			["texture"] = 132794,
@@ -16178,14 +16496,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136020,
 		},
 		["Fist of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132369,
 		},
 		["Plans: Stronghold Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Snake Burst Firework"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Kodo Stomp"] = {
@@ -16222,27 +16540,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Formula: Enchant Shield - Lesser Blocking"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mind-numbing Poison III"] = {
 			["castTime"] = 3000,
 			["texture"] = 136066,
 		},
 		["Pattern: Swift Flight Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Explosion"] = {
 			["texture"] = 136133,
 		},
 		["Revenge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132353,
 		},
 		["Summon Polly Jr."] = {
 			["texture"] = 136074,
 		},
 		["Summon Mace of Unending Life DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Blessing of the Claw"] = {
 			["texture"] = 135879,
@@ -16260,7 +16578,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135964,
 		},
 		["Unlock Maury's Foot"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Demonic Rune"] = {
 			["texture"] = 134417,
@@ -16273,10 +16591,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135906,
 		},
 		["Formula: Enchant 2H Weapon - Intellect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Implosion"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135826,
 		},
 		["Minions of Malathrom"] = {
@@ -16303,18 +16621,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Summon Felhunter"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136217,
 		},
 		["Schematic: Arcanite Dragonling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Dagger Strike IV (Disabled)"] = {
 			["texture"] = 132223,
 		},
 		["Place Ghost Magnet"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Grilled Squid"] = {
 			["castTime"] = 3000,
@@ -16361,18 +16679,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["Create Soulstone (Minor)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Schematic: Ultra-Flash Shadow Reflector"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Dagger Strike"] = {
 			["texture"] = 132223,
 		},
 		["Conjure Ryson's Beacon (Horde) DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Shadow Reach"] = {
 			["texture"] = 136130,
@@ -16381,19 +16699,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 134334,
 		},
 		["Recipe: Mighty Troll's Blood Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Warlord Deck"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Zul'Gurub Talisman PRT R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Hyena Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Top Piece of Lord Valthalak's Amulet"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Heart of the Wild Bear Effect 2"] = {
 			["texture"] = 135879,
@@ -16417,7 +16735,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136116,
 		},
 		["Plans: Dark Iron Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Portal of Immol'thar"] = {
 			["texture"] = 135743,
@@ -16426,7 +16744,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132338,
 		},
 		["Howling Rage"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 132091,
 		},
 		["Pinto Horse"] = {
@@ -16437,7 +16755,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134321,
 		},
 		["Compact Harvest Reaper Kit"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Boots of the Enchanter"] = {
 			["castTime"] = 45000,
@@ -16448,10 +16766,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Recipe: Transmute Earth to Life"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shiny Bauble"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134335,
 		},
 		["Elixir of Detect Lesser Invisibility"] = {
@@ -16464,7 +16782,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136067,
 		},
 		["Shadow Flame"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135818,
 		},
 		["Heavy Leather Ball"] = {
@@ -16475,20 +16793,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136098,
 		},
 		["Entangling Roots"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136100,
 		},
 		["Hi-Impact Mithril Slugs"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Dragonbane"] = {
 			["texture"] = 132355,
 		},
 		["Freeze Rookery Egg - Prototype"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Uldaman Key Staff"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ornate Mithril Pants"] = {
 			["castTime"] = 60000,
@@ -16499,21 +16817,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Enchanted Thorium"] = {
-			["castTime"] = 16875,
+			["castTime"] = 12500,
 			["texture"] = 133229,
 		},
 		["Enchant Cloak - Lesser Protection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Stormcloth Headband"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: White Wedding Dress"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["The Breaking Left Blade DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136164,
 		},
 		["Highlord's Justice"] = {
@@ -16523,7 +16841,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Combine Pendants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Frailty"] = {
 			["texture"] = 136119,
@@ -16547,7 +16865,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132155,
 		},
 		["Pattern: Cloak of Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Unholy Shield"] = {
 			["texture"] = 136153,
@@ -16557,29 +16875,29 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Mithril Heavy-bore Rifle"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Claw"] = {
 			["texture"] = 132140,
 		},
 		["Resilience of the Scourge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Cenarion Beacon"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Formula: Enchant Gloves - Greater Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Blackhand Veteran"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136075,
 		},
 		["Pattern: Devilsaur Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Naralex's Nightmare"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136090,
 		},
 		["Overwhelming Musk"] = {
@@ -16590,13 +16908,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Fel Curse"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Summon Rotting Worms"] = {
 			["texture"] = 136168,
 		},
 		["Venom's Bane"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
+		},
+		["Inactive"] = {
+			["texture"] = 136072,
 		},
 		["Fire Protection"] = {
 			["texture"] = 135806,
@@ -16605,14 +16926,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132298,
 		},
 		["Pattern: Guardian Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rain of Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136186,
 		},
 		["Chain Bolt"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136015,
 		},
 		["Longsight"] = {
@@ -16620,7 +16941,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132327,
 		},
 		["Explosive Sheep"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 			["texture"] = 135805,
 		},
 		["Instant Poison III"] = {
@@ -16645,7 +16966,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Reinforced Woolen Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Instant Poison IV"] = {
 			["castTime"] = 3000,
@@ -16664,10 +16985,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132324,
 		},
 		["Ornate Spyglass"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Enveloping Winds"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136018,
 		},
 		["Touch of Shadow"] = {
@@ -16689,7 +17010,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["Pattern: Wicked Leather Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thick Leather Ammo Pouch"] = {
 			["castTime"] = 25000,
@@ -16705,7 +17026,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Fiery Blaze"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Redoubt"] = {
@@ -16728,16 +17049,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Pickpocket (PT)"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Firestone Effect"] = {
 			["texture"] = 135821,
 		},
 		["Formula: Enchant Bracer - Lesser Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Vipore Cat Form DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Empathy of Stone"] = {
 			["texture"] = 136025,
@@ -16755,13 +17076,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Pattern: Tough Scorpid Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Ivory Tallstrider"] = {
 			["texture"] = 132253,
 		},
 		["Summon Gavel of Infinite Wisdom DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Cleave"] = {
 			["texture"] = 132338,
@@ -16770,7 +17091,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132319,
 		},
 		["Plans: Golden Scale Coif"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Linen Bag"] = {
 			["castTime"] = 8000,
@@ -16784,7 +17105,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Conjure Mulverick's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Artisan Herbalist"] = {
 			["texture"] = 136246,
@@ -16793,14 +17114,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Enfeeble"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136138,
 		},
 		["Copy of Cleave"] = {
 			["texture"] = 132338,
 		},
 		["Faerie Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136033,
 		},
 		["Mark of the Chosen Effect"] = {
@@ -16840,11 +17161,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136191,
 		},
 		["Soulstone Resurrection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Enchant Shield - Superior Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Valentine"] = {
@@ -16854,7 +17175,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Create Firestone (Major)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132386,
 		},
 		["Psychic Scream"] = {
@@ -16867,11 +17188,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136139,
 		},
 		["Resurrection"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135955,
 		},
 		["Unholy Curse"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136138,
 		},
 		["Nature's Focus"] = {
@@ -16891,20 +17212,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132247,
 		},
 		["Megavolt"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136015,
 		},
 		["Spirit Heal"] = {
 			["texture"] = 135955,
 		},
 		["Recipe: Greater Stoneshield Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Kris of Unspoken Names DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Schematic: Powerful Seaforium Charge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Mass Smelt Copper OLD"] = {
@@ -16914,7 +17235,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Spark"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136048,
 		},
 		["Bleakwood Hew"] = {
@@ -16922,10 +17243,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Summon Confessor's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Bending Shinbone"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Lightning Surge"] = {
 			["texture"] = 135990,
@@ -16944,11 +17265,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132275,
 		},
 		["Shoot Missile"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132385,
 		},
 		["Pattern: Stormcloth Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Glyph of Deflection"] = {
 			["texture"] = 135443,
@@ -16957,7 +17278,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136007,
 		},
 		["Recipe: Elixir of Superior Defense"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shield Slam"] = {
 			["texture"] = 132357,
@@ -16966,10 +17287,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Rookery Whelp Spawn-in Spell"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Call Benediction"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Runed Stygian Belt"] = {
 			["castTime"] = 60000,
@@ -16979,11 +17300,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136048,
 		},
 		["Water Bubble"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135864,
 		},
 		["Plans: Thorium Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immune Charm/Fear/Stun"] = {
 			["texture"] = 135894,
@@ -16992,28 +17313,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Recipe: Filet of Redgill"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Stoneshield"] = {
 			["texture"] = 134849,
 		},
 		["Recipe: Goretusk Liver Pie"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Grim Reach"] = {
 			["texture"] = 136127,
 		},
 		["Opening Bar Door"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Time Out"] = {
 			["texture"] = 136222,
 		},
 		["Recipe: Major Rejuvenation Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Boots - Minor Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Surging Mana"] = {
@@ -17052,7 +17373,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136129,
 		},
 		["Awaken Vault Warder"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136025,
 		},
 		["Ice Barrier"] = {
@@ -17062,25 +17383,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 133971,
 		},
 		["Narain!"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134164,
 		},
 		["Scatter Shot II"] = {
 			["texture"] = 132153,
 		},
 		["Flame Blast"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 			["texture"] = 135826,
 		},
 		["Abolish Disease Effect"] = {
 			["texture"] = 136066,
 		},
 		["Defibrillate"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136075,
 		},
 		["Formula: Enchant Boots - Greater Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Phoenix Gloves"] = {
 			["castTime"] = 25000,
@@ -17099,16 +17420,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 136010,
 		},
 		["Barrier of Light"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Net"] = {
 			["texture"] = 132149,
 		},
 		["Create Chapter 2 DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Charged Arcane Bolt"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 			["texture"] = 135753,
 		},
 		["Transmute: Elemental Fire"] = {
@@ -17133,26 +17454,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 136188,
 		},
 		["Draw Water Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Signet of the Unseen Path DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cursed Blade"] = {
 			["texture"] = 136020,
 		},
 		["Arcane Spirit II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135932,
 		},
 		["Counterspell - Silenced"] = {
 			["texture"] = 135856,
 		},
 		["Formula: Enchant Gloves - Mining"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magatha Incendia Powder"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 		},
 		["Quick Shot"] = {
 			["texture"] = 132204,
@@ -17164,15 +17485,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 132165,
 		},
 		["Cannon Fire"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135805,
 		},
 		["Sweet Surprise"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135459,
 		},
 		["Backstab"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132090,
 		},
 		["Shahram"] = {
@@ -17194,7 +17515,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136244,
 		},
 		["Formula: Enchant Cloak - Minor Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Herb Baked Egg"] = {
 			["castTime"] = 3000,
@@ -17222,7 +17543,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132155,
 		},
 		["Recipe: Transmute Water to Air"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mechanostrider Piloting"] = {
 			["texture"] = 136103,
@@ -17234,13 +17555,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135827,
 		},
 		["Pattern: Blue Linen Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Chapter 3 DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Swift Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sillithus Flag Drop (DND)"] = {
 			["texture"] = 132486,
@@ -17252,7 +17573,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135893,
 		},
 		["Mind Blast"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136224,
 		},
 		["Green Holiday Shirt"] = {
@@ -17264,7 +17585,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Molten Metal"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135807,
 		},
 		["Hive'Zara Catalyst"] = {
@@ -17292,7 +17613,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135935,
 		},
 		["Volatile Infection"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135914,
 		},
 		["Increased Holy Criticals"] = {
@@ -17305,27 +17626,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Recipe: Elixir of the Sages"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Cloak - Greater Fire Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Getting Tide Pool Sample #4"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Onyxia Scale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fireball"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135812,
 		},
 		["Enchant Bracer - Superior Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Green Firework"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Heavy Kodo Stew"] = {
 			["castTime"] = 3000,
@@ -17348,11 +17669,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136085,
 		},
 		["Enchant Weapon - Fiery Weapon"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Recipe: Roast Raptor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wing Clip"] = {
 			["texture"] = 132309,
@@ -17376,7 +17697,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132121,
 		},
 		["Aspect of Neptulon"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Prismatic Form: Thunder"] = {
 			["texture"] = 136160,
@@ -17411,7 +17732,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132366,
 		},
 		["Cleanse Wildmane Well"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Arcane Might"] = {
 			["texture"] = 135933,
@@ -17430,7 +17751,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132724,
 		},
 		["Ozzie Explodes"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Earthen Guards Destroyed"] = {
 			["texture"] = 136025,
@@ -17440,13 +17761,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Lavender Mageweave Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ward of Zanzil Passive"] = {
 			["texture"] = 136157,
 		},
 		["Wail of the Banshee"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136183,
 		},
 		["Summon Tree Frog"] = {
@@ -17461,43 +17782,43 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Enchant Bracer - Healing Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Spirit of Old"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136075,
 		},
 		["Gnomish Shrink Ray"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Perm. Illusion Dreaming Whelp"] = {
 			["texture"] = 132311,
 		},
 		["Enchant Bracer - Deflection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Recipe: Hot Lion Chops"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sharpen Blade III"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Icy Scale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Curse of Exhaustion"] = {
 			["texture"] = 136162,
 		},
 		["Bronze Framework"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Recipe: Fillet of Frenzy"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant 2H Weapon - Greater Impact"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Mana Shield Absorb Increase"] = {
@@ -17525,34 +17846,34 @@ NeatPlatesSpellDB = {
 			["texture"] = 136224,
 		},
 		["Prayer of Fortitude"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135941,
 		},
 		["Phase Out"] = {
 			["texture"] = 136047,
 		},
 		["Drink Minor Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135915,
 		},
 		["Schematic: Delicate Arcanite Converter"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Improved Drain Soul"] = {
 			["texture"] = 136163,
 		},
 		["Recipe: Undermine Clam Chowder"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Radiant Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Silithyst"] = {
 			["texture"] = 135867,
 		},
 		["Curse of Thule"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136203,
 		},
 		["Swift Green Mechanostrider"] = {
@@ -17560,11 +17881,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132247,
 		},
 		["Test Enchant Fire Weapon"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Wild Leather Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Charge (TEST)"] = {
 			["texture"] = 132368,
@@ -17574,20 +17895,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Rumsey Rum Dark"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132791,
 		},
 		["Amplify Curse"] = {
 			["texture"] = 136132,
 		},
 		["Recipe: Bristle Whisker Catfish"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Copy of Increase Reputation"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cookie's Cooking"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135915,
 		},
 		["Boiled Clams"] = {
@@ -17607,16 +17928,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 133003,
 		},
 		["Formula: Wizard Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mithril Casing"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Noxious Catalyst"] = {
 			["texture"] = 135914,
 		},
 		["Lightning Shield"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136051,
 		},
 		["Felcloth Gloves"] = {
@@ -17632,10 +17953,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132273,
 		},
 		["Conjure Altar of Summoning"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Formula: Enchant Bracer - Superior Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Revenge"] = {
 			["texture"] = 132353,
@@ -17644,7 +17965,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Recipe: Flask of Chromatic Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Starfall"] = {
 			["texture"] = 135753,
@@ -17662,22 +17983,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 134088,
 		},
 		["Schematic: Blue Firework"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Paranoia"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136122,
 		},
 		["Plague Mist"] = {
 			["texture"] = 136066,
 		},
 		["Call of Thund"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135864,
 		},
 		["Pattern: Dusky Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Life Tap"] = {
 			["texture"] = 136126,
@@ -17687,14 +18008,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Recipe: Elixir of Dream Vision"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Silvered Bronze Boots"] = {
 			["castTime"] = 25000,
 			["texture"] = 136192,
 		},
 		["Gnomish Net-o-Matic Projector"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Summon Turquoise Tallstrider"] = {
 			["texture"] = 132253,
@@ -17719,16 +18040,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 136243,
 		},
 		["Sharpen Blade IV"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gemology - Mithril (DND)"] = {
 			["texture"] = 134118,
 		},
 		["Fill Nagmara's Vial"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Enchant Cloak - Lesser Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Gutgore Ripper"] = {
@@ -17748,13 +18069,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Pattern: Green Woolen Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pet Stone"] = {
 			["texture"] = 135240,
 		},
 		["Formula: Enchant 2H Weapon - Major Intellect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Love is in the Air"] = {
 			["texture"] = 135453,
@@ -17766,7 +18087,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136119,
 		},
 		["Plans: Persuader"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Copy of Disease Cloud"] = {
 			["texture"] = 136006,
@@ -17779,7 +18100,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132261,
 		},
 		["Plans: Darkspear"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crimson Silk Belt"] = {
 			["castTime"] = 45000,
@@ -17794,7 +18115,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Firework Cluster Launcher"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Stance Rage Effect (+3)"] = {
 			["texture"] = 132091,
@@ -17806,16 +18127,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135827,
 		},
 		["Create Rune of the Dawn"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Frostsaber Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fear II"] = {
 			["texture"] = 136183,
 		},
 		["Formula: Enchant Shield - Superior Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blessing of the Black Book"] = {
 			["texture"] = 136224,
@@ -17839,19 +18160,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 136136,
 		},
 		["Summon Shroud of Unspoken Names DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Create Zul'Gurub Talisman PRT R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Advanced Target Dummy - Event 003"] = {
 			["texture"] = 136172,
 		},
 		["Recipe: Elixir of Frost Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Scrying Scope (Horde) DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Execute"] = {
 			["texture"] = 135358,
@@ -17860,14 +18181,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134140,
 		},
 		["Rage of Thule"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136224,
 		},
 		["Arcane Mind"] = {
 			["texture"] = 136129,
 		},
 		["Copper Modulator"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Stoned"] = {
 			["texture"] = 136018,
@@ -17876,7 +18197,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132330,
 		},
 		["Summon Living Flame"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135805,
 		},
 		["Left for Dead"] = {
@@ -17886,7 +18207,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Water Breathing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136148,
 		},
 		["Crush Armor"] = {
@@ -17902,10 +18223,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136187,
 		},
 		["Recipe: Magic Resistance Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Call Prismatic Barrier"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Fire III"] = {
 			["texture"] = 132153,
@@ -17921,7 +18242,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Combining Charms"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 		},
 		["Burning Intellect III"] = {
 			["texture"] = 135932,
@@ -17933,7 +18254,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Create Relic Bundle"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Son of Flame C"] = {
 			["texture"] = 135819,
@@ -17948,14 +18269,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136097,
 		},
 		["Full Heal"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Green Linen Bracers"] = {
 			["castTime"] = 8000,
 			["texture"] = 132149,
 		},
 		["Domination"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136206,
 		},
 		["Fine Leather Cloak"] = {
@@ -17966,10 +18287,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135924,
 		},
 		["Schematic: Lil' Smoky"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Blood Tiger Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Seal of the Crusader"] = {
 			["texture"] = 135924,
@@ -17982,7 +18303,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Drawing Kit"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 		},
 		["Summon Mana Fiends"] = {
 			["texture"] = 135757,
@@ -17995,7 +18316,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Copy of Portal: Undercity"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135751,
 		},
 		["Windsor's Frenzy"] = {
@@ -18029,22 +18350,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 136240,
 		},
 		["Schematic: Masterwork Target Dummy"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Pattern: Green Dragonscale Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Carrion Scarab"] = {
 			["castTime"] = 2000,
 			["texture"] = 136128,
 		},
 		["Superior Healing Ward"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135928,
 		},
 		["Create Zul'Gurub Talisman ROG R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Trapped Chest"] = {
 			["texture"] = 136006,
@@ -18060,7 +18381,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132794,
 		},
 		["Plans: Blood Talon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Furbolg Medicine Pouch"] = {
 			["texture"] = 133644,
@@ -18085,7 +18406,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Blink"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135736,
 		},
 		["Aura of Agony"] = {
@@ -18113,13 +18434,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Plans: Rune Edge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Drunken Pit Crew"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Plans: Solid Iron Maul"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Invulnerability"] = {
 			["texture"] = 135896,
@@ -18138,24 +18459,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 134134,
 		},
 		["Create Filled Containment Coffer"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Pattern: Spitfire Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Common Kitten"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132599,
 		},
 		["Elixir of Minor Defense"] = {
 			["castTime"] = 3000,
 		},
 		["Sol U"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135859,
 		},
 		["Pattern: Stormshroud Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Armageddon"] = {
 			["texture"] = 135826,
@@ -18167,7 +18488,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Light Winter Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rejuvenation Potion"] = {
 			["texture"] = 134827,
@@ -18192,7 +18513,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132323,
 		},
 		["Immolate"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135817,
 		},
 		["Darkspear"] = {
@@ -18203,7 +18524,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Shadow Weakness"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134399,
 		},
 		["Dagger Strike IV"] = {
@@ -18213,7 +18534,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["[PH] Teleport to Menethil Harbor"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Double Attack"] = {
 			["texture"] = 132152,
@@ -18237,17 +18558,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136104,
 		},
 		["Pattern: Big Voodoo Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Murloc Scale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Word: Fumble"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136159,
 		},
 		["Create Soulstone (Major)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Fine Leather Belt"] = {
@@ -18279,14 +18600,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132155,
 		},
 		["Scorch"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135827,
 		},
 		["Quick Sidestep"] = {
 			["texture"] = 136047,
 		},
 		["Recipe: Jungle Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Ar'lia"] = {
 			["castTime"] = 2500,
@@ -18299,7 +18620,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Recipe: Dragonbreath Chili"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pagle's Broken Reel"] = {
 			["texture"] = 135865,
@@ -18316,17 +18637,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Copper Tube"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Feed Sarilus Effect"] = {
 			["texture"] = 135864,
 		},
 		["Gnomish Battle Chicken"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 			["texture"] = 135996,
 		},
 		["Pattern: Stylish Blue Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Silk Headband"] = {
 			["castTime"] = 25000,
@@ -18342,10 +18663,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136106,
 		},
 		["Create Crest of Beckoning: Air"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Quest - Teleport Spawn-out"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Savage Strikes"] = {
 			["texture"] = 132277,
@@ -18355,7 +18676,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Nature Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136062,
 		},
 		["Plate Mail"] = {
@@ -18366,10 +18687,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Armor +40"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Goblin Rocket Fuel"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mend Dragon"] = {
 			["texture"] = 136168,
@@ -18381,10 +18702,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132212,
 		},
 		["Plans: Imperial Plate Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Runed Copper Rod"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135225,
 		},
 		["Disenchant"] = {
@@ -18406,7 +18727,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135464,
 		},
 		["Recipe: Cooked Crab Claw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Increased Lesser Healing Wave"] = {
 			["texture"] = 136052,
@@ -18416,23 +18737,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: Flask of Distilled Wisdom"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Forsaken Skill: Guns"] = {
 			["texture"] = 135610,
 		},
 		["Cultivate Packet of Seeds"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136074,
 		},
 		["Pattern: Runic Leather Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spirit Particles, super big (DND)"] = {
 			["texture"] = 135864,
 		},
 		["Recipe: TEST"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Snowball Resistant"] = {
 			["texture"] = 132387,
@@ -18441,7 +18762,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135996,
 		},
 		["Enchant Boots - Greater Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Corrupted Kitten"] = {
@@ -18455,7 +18776,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Enchant Weapon - Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Judgement of the Crusader"] = {
@@ -18486,22 +18807,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 134366,
 		},
 		["Enchant Bracer - Lesser Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Cyclone Visual Spawn (DND)"] = {
 			["texture"] = 136022,
 		},
 		["Spice Mortar"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 135808,
 		},
 		["Plague Cloud"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136127,
 		},
 		["Flame Deflector"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Seal of Fire * (NSE)"] = {
 			["texture"] = 135968,
@@ -18513,7 +18834,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135864,
 		},
 		["Ilkrud's Guardians"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136221,
 		},
 		["Deadly Swiftness"] = {
@@ -18544,7 +18865,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132294,
 		},
 		["Tranquility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136107,
 		},
 		["Focused Mind"] = {
@@ -18557,7 +18878,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136095,
 		},
 		["Fire Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135824,
 		},
 		["Biletoad Infection"] = {
@@ -18571,13 +18892,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Placing Bear Trap"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Summoned Felhunter"] = {
 			["texture"] = 136203,
 		},
 		["Opening Cage"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Summoned Voidwalker"] = {
 			["texture"] = 136203,
@@ -18589,7 +18910,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Ultra-Flash Shadow Reflector"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Green Leather Bracers"] = {
 			["castTime"] = 45000,
@@ -18608,10 +18929,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135926,
 		},
 		["Find Relic Fragment"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Plans: Silvered Bronze Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Permanent Spirit of Zanza"] = {
 			["texture"] = 134810,
@@ -18633,7 +18954,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Plans: Golden Scale Cuirass"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plague Wave"] = {
 			["texture"] = 135805,
@@ -18656,14 +18977,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132266,
 		},
 		["Fanatic Blade"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135817,
 		},
 		["Permanent Gizzard Gum"] = {
 			["texture"] = 136075,
 		},
 		["Break Tool"] = {
-			["castTime"] = 1012,
+			["castTime"] = 750,
 			["texture"] = 136168,
 		},
 		["Permanent Cerebral Cortex Compound"] = {
@@ -18673,7 +18994,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136103,
 		},
 		["Enchant Chest - Greater Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Runic Plate Boots"] = {
@@ -18681,14 +19002,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Reputation - Ratchet +500"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Hippogryph Hatchling"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Zul'Gurub Talisman PAL R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Summon White Tiger Cub"] = {
 			["castTime"] = 1000,
@@ -18702,15 +19023,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 133611,
 		},
 		["Lesser Heal"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135929,
 		},
 		["Searing Pain"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135827,
 		},
 		["Heal"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135915,
 		},
 		["Forceful Howl"] = {
@@ -18744,7 +19065,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132182,
 		},
 		["Summon Illusionist's Mantle DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Quake"] = {
 			["texture"] = 136025,
@@ -18753,38 +19074,38 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Conjure Mana Jade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134105,
 		},
 		["Self Resurrection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Mark of the Dawn"] = {
 			["texture"] = 134500,
 		},
 		["Schematic: Bloodvine Lens"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Recipe: Crystal Throat Lozenge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Brown Ram"] = {
 			["castTime"] = 3000,
 			["texture"] = 132248,
 		},
 		["Ritual of Summoning Effect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Crystal Infused Bandage"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Blue Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Copy of Fear"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136183,
 		},
 		["Decrepit Fever"] = {
@@ -18798,7 +19119,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Large Seaforium Charge"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Strider Stew"] = {
 			["castTime"] = 3000,
@@ -18824,14 +19145,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135871,
 		},
 		["Thunder Clap"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136105,
 		},
 		["Fill Amethyst Phial"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Smoked Bear Meat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Test Ribbon Pole Channel"] = {
 			["texture"] = 135270,
@@ -18855,7 +19176,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135934,
 		},
 		["Life Tap"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136126,
 		},
 		["Flaming Cannonball"] = {
@@ -18888,46 +19209,46 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Darkrune Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Chimeric Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Stormpike Rank 1 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Frost Arrow"] = {
 			["texture"] = 135934,
 		},
 		["Summon Illusionary Nightmare"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135824,
 		},
 		["Pattern: Heavy Scorpid Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Call Slavering Worg"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 			["texture"] = 136130,
 		},
 		["Might of the Scourge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Robe of Winter Night"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fortitude of the Scourge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Formula: Runed Arcanite Rod"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135913,
 		},
 		["Power of the Scourge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Enchant Weapon - Winter's Might"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Christmas Darkmaster Gandling"] = {
@@ -18938,7 +19259,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plant Seeds"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Holiday Breath of Fire, Conditional (NPC)"] = {
 			["texture"] = 135818,
@@ -18951,7 +19272,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Ball Lightning"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135990,
 		},
 		["Scourge Strike"] = {
@@ -18967,17 +19288,17 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Scorpid Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Midsummer Sausage"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134009,
 		},
 		["Shadow Wrath"] = {
 			["texture"] = 136208,
 		},
 		["Copy of Dark Desire"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135460,
 		},
 		["Conjure Staff of Command "] = {
@@ -18988,7 +19309,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Join Map Fragments"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Musty Tome Trap"] = {
 			["texture"] = 136129,
@@ -19003,42 +19324,42 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Explosive Arrow"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Summon Cinder Elemental"] = {
 			["texture"] = 132608,
 		},
 		["Feint"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132294,
 		},
 		["Scorching Totem"] = {
 			["texture"] = 135825,
 		},
 		["Bael'Gar's Fiery Essence"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Pattern: Guardian Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Limited Invulnerability Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Goblin Bomb"] = {
 			["texture"] = 133712,
 		},
 		["Mark of the Wild"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136078,
 		},
 		["Awaken the Soulflayer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Festival Flamekeeper - Dwarf Male"] = {
 			["texture"] = 135849,
 		},
 		["Formula: Enchant Cloak - Lesser Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["The Green Tower"] = {
 			["texture"] = 136104,
@@ -19065,18 +19386,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132150,
 		},
 		["Enchant Gloves - Healing Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Heavy Scorpid Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mana Burn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136170,
 		},
 		["Pattern: Robes of Arcana"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immune All"] = {
 			["texture"] = 136120,
@@ -19110,7 +19431,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136044,
 		},
 		["Minor Wizard Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Teleport to Final Chamber"] = {
@@ -19120,7 +19441,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136122,
 		},
 		["Aquadynamic Fish Lens"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134440,
 		},
 		["Shadowform"] = {
@@ -19130,7 +19451,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135791,
 		},
 		["Practice Lock"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Ribbon Pole Channel"] = {
 			["texture"] = 135270,
@@ -19140,10 +19461,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["New Magic Missile (Test)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Pattern: Tough Scorpid Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Mechanical Greench"] = {
 			["texture"] = 132189,
@@ -19158,7 +19479,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136048,
 		},
 		["Formula: Enchant Weapon - Demonslaying"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Paralyzing Poison"] = {
 			["texture"] = 132274,
@@ -19203,7 +19524,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132127,
 		},
 		["Formula: Enchant Boots - Lesser Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wizardweave Robe"] = {
 			["castTime"] = 60000,
@@ -19213,7 +19534,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Pattern: Core Felcloth Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Skeletal Steed"] = {
 			["castTime"] = 3000,
@@ -19229,10 +19550,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 133984,
 		},
 		["Summon Drape of Unyielding Strength DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Sickle of Unyielding Strength DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Gehennas' Curse"] = {
 			["texture"] = 136160,
@@ -19245,10 +19566,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Summon Cloak of the Gathering Storm DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Hammer of the Gathering Storm DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Holy Cleave"] = {
 			["texture"] = 132338,
@@ -19258,49 +19579,49 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Summon Band of Veiled Shadows DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pearl-handled Dagger"] = {
 			["castTime"] = 25000,
 			["texture"] = 136192,
 		},
 		["Summon Cloak of Veiled Shadows DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Recipe: Flask of the Titans"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Shroud of Infinite Wisdom DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Ring of Eternal Justice DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Cape of Eternal Justice DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Blade of Eternal Justice DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Band of Vaulted Secrets DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Scythe of the Unseen Path DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Enchant Bracer - Greater Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Lost Amulet"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Undermine Clam Chowder"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Summon Band of Unending Life DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Glinting Steel Dagger"] = {
 			["castTime"] = 45000,
@@ -19326,7 +19647,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Multi-Shot"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132330,
 		},
 		["Plague Slime (Black)"] = {
@@ -19336,7 +19657,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Summon Augur's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Forked Lighting"] = {
 			["texture"] = 136015,
@@ -19346,10 +19667,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Summon Demoniac's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Illusionist's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Strength"] = {
 			["texture"] = 134838,
@@ -19358,53 +19679,53 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Summon Confessor's Mantle DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Phoenix Pants"] = {
 			["castTime"] = 25000,
 			["texture"] = 132149,
 		},
 		["Summon Haruspex's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Boots of the Enchanter"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Haruspex's Belt DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Jarkal's Translation"] = {
-			["castTime"] = 6075,
+			["castTime"] = 4500,
 			["texture"] = 135954,
 		},
 		["Conjure Ryson's Beacon (Alliance) DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Haruspex's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["QAEnchant Bracer +9 Spirit"] = {
 			["texture"] = 135913,
 		},
 		["Schematic: Arcane Bomb"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["[PH] Buttress Activator"] = {
 			["castTime"] = 5000,
 		},
 		["Hellfire II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Summon Madcap's BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Guardian Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Shadoweave Mask"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Journeyman Cook"] = {
 			["texture"] = 133971,
@@ -19414,27 +19735,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Gnomish Rocket Boots"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 135805,
 		},
 		["Holy Wrath"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135902,
 		},
 		["Grounding Totem Effect"] = {
 			["texture"] = 136039,
 		},
 		["Summon Predator's Mantle DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cowardice"] = {
 			["texture"] = 132092,
 		},
 		["Binding Volume I"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Summon Freethinker's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Activate Bomb A"] = {
 			["texture"] = 135990,
@@ -19443,7 +19764,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Create Zul'Gurub Talisman WLK R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Copy of Garrote"] = {
 			["texture"] = 132297,
@@ -19452,7 +19773,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132316,
 		},
 		["Summon Freethinker's  BP DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Copy of Undead Slayer 108"] = {
 			["texture"] = 135923,
@@ -19464,7 +19785,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136130,
 		},
 		["Plans: Serenity"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Spirit of Summer"] = {
 			["texture"] = 132311,
@@ -19477,7 +19798,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Enchant 2H Weapon - Lesser Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Crippling Curse"] = {
@@ -19491,7 +19812,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136016,
 		},
 		["Enchant Shield - Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Void Zone"] = {
@@ -19507,7 +19828,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136230,
 		},
 		["Pattern: Flarecore Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Blessing of Protection"] = {
 			["texture"] = 135964,
@@ -19520,7 +19841,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136137,
 		},
 		["Fire Shield III"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135817,
 		},
 		["Mark of Korth'azz"] = {
@@ -19567,7 +19888,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136139,
 		},
 		["Breath"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135805,
 		},
 		["Shield Generator"] = {
@@ -19586,7 +19907,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135899,
 		},
 		["Pattern: Deviate Scale Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Not There"] = {
 			["texture"] = 135894,
@@ -19608,13 +19929,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Plans: Radiant Circlet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hyper-Radiant Flame Reflector"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Banshee Curse"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136020,
 		},
 		["Leap"] = {
@@ -19635,7 +19956,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Wizard Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Test Curse of Agony"] = {
@@ -19658,7 +19979,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132225,
 		},
 		["Schematic: Mechanical Dragonling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Death Coil Damage Increase"] = {
 			["texture"] = 136145,
@@ -19681,26 +20002,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Enchanted Resonite Crystal"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Bramblewood Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Ironvine Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Apprentice Fishing"] = {
 			["texture"] = 136245,
 		},
 		["Create Item Visual (DND)"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136210,
 		},
 		["Infected Spine"] = {
 			["texture"] = 136127,
 		},
 		["Formula: Enchant Shield - Frost Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stormstout"] = {
 			["texture"] = 132800,
@@ -19710,10 +20031,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Bramblewood Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Bramblewood Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bramblewood Belt"] = {
 			["castTime"] = 60000,
@@ -19735,7 +20056,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Ironvine Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ironvine Belt"] = {
 			["castTime"] = 60000,
@@ -19746,7 +20067,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant Chest - Greater Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Ironvine Breastplate"] = {
@@ -19754,13 +20075,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Rough Blasting Powder"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Plans: Radiant Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Curiously Tasty Omelet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fishliver Oil"] = {
 			["texture"] = 133892,
@@ -19809,22 +20130,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 136188,
 		},
 		["Summon Treant Allies"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136036,
 		},
 		["Heavy Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Mobility Malfunction"] = {
 			["texture"] = 132996,
 		},
 		["Princess Summons Portal"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135743,
 		},
 		["Hibernate"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136090,
 		},
 		["Chains of Kel'Thuzad"] = {
@@ -19834,27 +20155,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 136071,
 		},
 		["Reputation - Everlook +500"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Permanent Lung Juice Cocktail"] = {
 			["texture"] = 136075,
 		},
 		["Southsea Cannon Fire"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135810,
 		},
 		["Enchanted Leather"] = {
-			["castTime"] = 16875,
+			["castTime"] = 12500,
 			["texture"] = 134418,
 		},
 		["Gas"] = {
 			["texture"] = 136006,
 		},
 		["Pattern: Volcanic Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Call to Ivus"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Darkshore Frenzy"] = {
 			["texture"] = 132270,
@@ -19866,23 +20187,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 136162,
 		},
 		["Holy Light"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 135920,
 		},
 		["Exorcise Atiesh"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 		},
 		["Charismatic Aura"] = {
 			["texture"] = 135923,
 		},
 		["Recipe: Great Rage Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Poisons"] = {
 			["texture"] = 132273,
 		},
 		["Seal of Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135964,
 		},
 		["Crystal Protection"] = {
@@ -19902,13 +20223,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136039,
 		},
 		["Create Hive'Zora Rubbing DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Flameshocker - Immolate Visual"] = {
 			["texture"] = 135817,
 		},
 		["Steam Tonk Controller"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Melee Specialization"] = {
 			["texture"] = 132393,
@@ -19939,7 +20260,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Curse of Mending"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136121,
 		},
 		["Slime Bolt"] = {
@@ -19950,14 +20271,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136208,
 		},
 		["Hammer of Wrath"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132326,
 		},
 		["Improved Healthstone"] = {
 			["texture"] = 135230,
 		},
 		["Dense Blasting Powder"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Summon Flames"] = {
 			["texture"] = 135826,
@@ -19966,7 +20287,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136188,
 		},
 		["Threatening Gaze"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136129,
 		},
 		["Summon Crimson Whelpling"] = {
@@ -19980,17 +20301,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Bombard Slime"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Tree Form (Passive) 2"] = {
 			["texture"] = 136062,
 		},
 		["Polymorph: Cow"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136072,
 		},
 		["Pattern: Warbear Woolies"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Throw"] = {
 			["texture"] = 132324,
@@ -20000,13 +20321,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: DIRGE TEST LEARN"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Icebane Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Icebane Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Icebane Breastplate"] = {
 			["castTime"] = 60000,
@@ -20021,7 +20342,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136016,
 		},
 		["Death Bed"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136223,
 		},
 		["Argent Boots"] = {
@@ -20029,10 +20350,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Create Crest of Beckoning: Fire"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Pattern: Polar Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pagle's Point Cast - Create Splash and Quake"] = {
 			["texture"] = 132932,
@@ -20053,21 +20374,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 132182,
 		},
 		["Flash Heal"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135907,
 		},
 		["Pattern: Glacial Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Gaea's Embrace"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fire Shield"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135817,
 		},
 		["Plans: Thorium Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Demon Slaying 78"] = {
 			["texture"] = 136172,
@@ -20080,7 +20401,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Jagged Obsidian Shield"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enhancing Totems"] = {
 			["texture"] = 136023,
@@ -20089,7 +20410,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136182,
 		},
 		["Schematic: Craftsman's Monocle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Quest Suicide"] = {
 			["texture"] = 136168,
@@ -20099,10 +20420,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Formula: Enchant Weapon - Healing Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Black Sludge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136127,
 		},
 		["Ascendance"] = {
@@ -20115,11 +20436,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136112,
 		},
 		["Flame Buffet"] = {
-			["castTime"] = 2970,
+			["castTime"] = 2200,
 			["texture"] = 135807,
 		},
 		["Recipe: Frost Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spawn Bile Slimes"] = {
 			["texture"] = 136118,
@@ -20144,18 +20465,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 136129,
 		},
 		["Mechanical Dragonling"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 			["texture"] = 132836,
 		},
 		["Portal: Karazhan"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135751,
 		},
 		["Power of the Guardian"] = {
 			["texture"] = 136057,
 		},
 		["Curse of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135994,
 		},
 		["Brown Linen Robe"] = {
@@ -20163,7 +20484,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Black Dragonscale Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Slime Stream"] = {
 			["texture"] = 136144,
@@ -20175,14 +20496,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135900,
 		},
 		["Masterwork Target Dummy"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 136172,
 		},
 		["Curse of the Eye"] = {
 			["texture"] = 136224,
 		},
 		["Recipe: Rockscale Cod"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flash"] = {
 			["texture"] = 136049,
@@ -20202,14 +20523,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132306,
 		},
 		["Moonsight Rifle"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Void Bolt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136197,
 		},
 		["Pattern: Corehound Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tamed Pet Passive (DND)"] = {
 			["texture"] = 132184,
@@ -20221,7 +20542,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136245,
 		},
 		["Summon Madcap's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cured Medium Hide"] = {
 			["castTime"] = 8000,
@@ -20240,11 +20561,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135915,
 		},
 		["Adjust Attitude"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132995,
 		},
 		["Create Zul'Gurub Talisman HUN R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Power Stance II"] = {
 			["texture"] = 132109,
@@ -20256,7 +20577,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136104,
 		},
 		["Summon Voidwalker"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136221,
 		},
 		["Lesser Eternal Essence"] = {
@@ -20277,7 +20598,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Pattern: Runecloth Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Permanent R.O.I.D.S."] = {
 			["texture"] = 136075,
@@ -20292,18 +20613,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135976,
 		},
 		["Fire Shield IV"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135817,
 		},
 		["Nature's Blessing"] = {
 			["texture"] = 136074,
 		},
 		["Goblin Land Mine"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 136172,
 		},
 		["Plans: Hammer of the Titans"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stomp"] = {
 			["texture"] = 132368,
@@ -20315,7 +20636,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136160,
 		},
 		["The Feast of Winter Veil"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Muculent Fever"] = {
 			["texture"] = 135914,
@@ -20325,14 +20646,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["King of the Gordok"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132768,
 		},
 		["Shaman Shock Crit Bonus"] = {
 			["texture"] = 136026,
 		},
 		["Pet Bombling"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Stormpike Reputation +5"] = {
 			["texture"] = 136077,
@@ -20362,7 +20683,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136052,
 		},
 		["[PH] Cystal Bazooka"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Seal Cost Reduced"] = {
 			["texture"] = 136052,
@@ -20374,7 +20695,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Schematic: Bloodvine Goggles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Runed Copper Bracers"] = {
@@ -20407,10 +20728,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135949,
 		},
 		["Honor Points +82"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Flarecore Wraps"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rogue Armor Energize"] = {
 			["texture"] = 136039,
@@ -20434,7 +20755,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Large Green Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Kinelory's Bear Form"] = {
 			["texture"] = 132276,
@@ -20450,25 +20771,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 134797,
 		},
 		["Right Piece of Lord Valthalak's Amulet"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Schematic: Goblin Land Mine"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Windfury Totem Passive"] = {
 			["texture"] = 136114,
 		},
 		["Armor +16"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shield Specialization"] = {
 			["texture"] = 134952,
 		},
 		["Bloodvine Lens"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Pattern: Enchanted Mageweave Pouch"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Satchel of Cenarius"] = {
 			["castTime"] = 60000,
@@ -20481,11 +20802,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135836,
 		},
 		["Buttermilk Delight"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135457,
 		},
 		["Collecting Fallout"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Heroic Strength"] = {
 			["texture"] = 136101,
@@ -20501,13 +20822,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136197,
 		},
 		["Pattern: Green Leather Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Zul'Gurub Talisman ROG R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman WLK R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Gargoyle Stoneform Visual"] = {
 			["texture"] = 135727,
@@ -20517,10 +20838,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Bloodvine Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Felcloth Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mass Nullify"] = {
 			["texture"] = 135894,
@@ -20532,7 +20853,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135938,
 		},
 		["Lil' Smoky"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Elixir of Greater Defense"] = {
 			["castTime"] = 3000,
@@ -20542,11 +20863,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135968,
 		},
 		["Prayer of Shadow Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135945,
 		},
 		["Prayer of Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135946,
 		},
 		["Tornado"] = {
@@ -20562,7 +20883,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136095,
 		},
 		["Recipe: Wildvine"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Darnassus Gift of Friendship"] = {
 			["texture"] = 133203,
@@ -20577,11 +20898,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Enchant Cloak - Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Throw Cupid's Dart"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Love Fool"] = {
 			["texture"] = 136172,
@@ -20600,7 +20921,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135995,
 		},
 		["Slow Poison II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136093,
 		},
 		["Baron Rivendare's Soul Drain"] = {
@@ -20614,10 +20935,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Obsidian Mail Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Thick Obsidian Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Obsidian Mail Tunic"] = {
 			["castTime"] = 60000,
@@ -20638,10 +20959,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Cleanse Thunderhorn Well"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Bone Shards"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136191,
 		},
 		["Feed Pet Effect"] = {
@@ -20657,11 +20978,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136116,
 		},
 		["Smitten"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132382,
 		},
 		["Cascade of Roses"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 133851,
 		},
 		["Poison Bolt Volley"] = {
@@ -20674,7 +20995,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Panther Cage Key"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Defiling Aura"] = {
 			["texture"] = 136225,
@@ -20683,7 +21004,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135856,
 		},
 		["Schematic: Large Seaforium Charge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Silence Trigger"] = {
 			["texture"] = 136208,
@@ -20704,7 +21025,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134914,
 		},
 		["Disarm (TEST)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Copy of Aura of the Blue Dragon"] = {
 			["texture"] = 136208,
@@ -20720,7 +21041,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Darksoul Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arcane Bubble"] = {
 			["texture"] = 135896,
@@ -20730,7 +21051,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: Spotted Yellowtail"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dense Sharpening Stone"] = {
 			["castTime"] = 8000,
@@ -20740,7 +21061,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136224,
 		},
 		["Frightalon"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136203,
 		},
 		["Copy of Summon Party Bot"] = {
@@ -20756,7 +21077,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135953,
 		},
 		["Arcane Intellect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135932,
 		},
 		["Wound Poison II"] = {
@@ -20764,7 +21085,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134197,
 		},
 		["Instill Lord Valthalak's Spirit DND"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ahn'Qiraj Reward Buff (Trigger - 60)"] = {
 			["texture"] = 134969,
@@ -20776,7 +21097,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134139,
 		},
 		["Fire-toasted Bun"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 133964,
 		},
 		["dmg11"] = {
@@ -20792,7 +21113,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132156,
 		},
 		["Pattern: Devilsaur Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Undead Slayer 75"] = {
 			["texture"] = 136142,
@@ -20816,20 +21137,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132109,
 		},
 		["Lightning Totem"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136048,
 		},
 		["Slime"] = {
 			["texture"] = 136006,
 		},
 		["Left Piece of Lord Valthalak's Amulet"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["QAEnchant Cloak +1% Dodge"] = {
 			["texture"] = 135913,
 		},
 		["Standard Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Golden Sabercat"] = {
 			["castTime"] = 3000,
@@ -20852,7 +21173,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Formula: Enchant Bracer - Lesser Deflection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["QAEnchant Gloves +2% Threat"] = {
 			["texture"] = 135913,
@@ -20861,7 +21182,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132136,
 		},
 		["Player Lost Hinot's OilDND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Mageweave Bandage"] = {
 			["castTime"] = 3000,
@@ -20877,7 +21198,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Pattern: Truefaith Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crystal Charge"] = {
 			["texture"] = 134116,
@@ -20889,11 +21210,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Copy of Enchant Weapon - Superior Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Shredder"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134063,
 		},
 		["QAEnchant Weapon Lifestealing"] = {
@@ -20903,7 +21224,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136051,
 		},
 		["Recipe: Discolored Healing Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["QAEnchant Weapon Unholy"] = {
 			["texture"] = 135913,
@@ -20916,14 +21237,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Schematic: Flame Deflector"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Wood Frog"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Enlarge"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136101,
 		},
 		["Fervor"] = {
@@ -20941,13 +21262,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Heavy Timbermaw Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Fire Protection Potion"] = {
 			["castTime"] = 3000,
 		},
 		["Feral Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136095,
 		},
 		["Undercity Gift of Friendship"] = {
@@ -20972,10 +21293,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132355,
 		},
 		["Test Sharpen Blade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Charger"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132226,
 		},
 		["Copy of Bind"] = {
@@ -20986,7 +21307,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134197,
 		},
 		["Pattern: Spider Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Winter Reveler - Dwarf Male"] = {
 			["texture"] = 135849,
@@ -21025,7 +21346,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Freeze"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135852,
 		},
 		["Shadow Dagger II"] = {
@@ -21035,7 +21356,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136017,
 		},
 		["Very Berry Cream"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135458,
 		},
 		["Amnesia"] = {
@@ -21065,10 +21386,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136087,
 		},
 		["Nether Gem"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mana Funnel"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136230,
 		},
 		["Cursed Blood"] = {
@@ -21078,26 +21399,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 136160,
 		},
 		["Create Zul'Gurub Talisman WLK R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Dark Rune"] = {
 			["texture"] = 134417,
 		},
 		["Arcanite Dragonling"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 			["texture"] = 134153,
 		},
 		["Warbear Woolies"] = {
 			["castTime"] = 60000,
 		},
 		["Ice Guard"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Apprentice Leatherworking"] = {
 			["texture"] = 133611,
 		},
 		["Create Elune Stone"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Mace Finesse"] = {
 			["texture"] = 132325,
@@ -21112,7 +21433,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135955,
 		},
 		["Recipe: Smoked Sagefish"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Perfume"] = {
 			["texture"] = 135447,
@@ -21133,7 +21454,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 133345,
 		},
 		["Water Elemental"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Threat"] = {
 			["texture"] = 132270,
@@ -21172,7 +21493,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136064,
 		},
 		["Release the Hounds"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Tame Nightsaber Stalker"] = {
 			["texture"] = 132164,
@@ -21196,7 +21517,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134969,
 		},
 		["Opening Scarab Coffer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Head Rush"] = {
 			["texture"] = 136039,
@@ -21212,10 +21533,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136039,
 		},
 		["Pattern: Golden Mantle of the Dawn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Spell Guard"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136075,
 		},
 		["Holy Protection "] = {
@@ -21240,20 +21561,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Recipe: Scorpid Surprise"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Imp"] = {
 			["texture"] = 136172,
 		},
 		["Blood Boil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136124,
 		},
 		["Devour Magic Effect"] = {
 			["texture"] = 136075,
 		},
 		["Anti-Magic Shield"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136120,
 		},
 		["Brood Power: Bronze"] = {
@@ -21296,11 +21617,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 134062,
 		},
 		["Mechanical Squirrel"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136172,
 		},
 		["Flask of Supreme Power"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 		},
 		["Persistent Shield"] = {
 			["texture"] = 133575,
@@ -21312,7 +21633,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136245,
 		},
 		["Teleport: Darnassus"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135755,
 		},
 		["Shock Blast"] = {
@@ -21334,7 +21655,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135758,
 		},
 		["Fear"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136183,
 		},
 		["QAEnchant Bracer +9 Stamina"] = {
@@ -21344,7 +21665,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Firework Launcher"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Shatter Soul Gem"] = {
 			["texture"] = 134076,
@@ -21353,7 +21674,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132151,
 		},
 		["Schematic: Large Blue Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Barbaric Iron Helm"] = {
@@ -21361,19 +21682,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Schematic: Large Red Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Schematic: Large Green Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Enchant Gloves - Fishing"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Schematic: Large Blue Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Gemmed Copper Gauntlets"] = {
@@ -21381,14 +21702,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Schematic: Small Blue Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Large Red Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Large Blue Rocket Cluster"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Crystal Throat Lozenge"] = {
 			["castTime"] = 3000,
@@ -21398,14 +21719,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Acid Spray"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136007,
 		},
 		["Recipe: Living Action Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Festival Suit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Holiday - Lunar Teleport Cap: Darnassus"] = {
 			["texture"] = 135758,
@@ -21417,7 +21738,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Create Mage's Robe"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["BM Only OFF"] = {
 			["texture"] = 135995,
@@ -21427,7 +21748,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Enchant Gloves - Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Detect Undead"] = {
@@ -21451,13 +21772,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136086,
 		},
 		["Recipe: Blood Sausage"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Piercing Shriek"] = {
 			["texture"] = 136147,
 		},
 		["Crystalline Slumber"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136090,
 		},
 		["Gordok Ogre Suit"] = {
@@ -21474,7 +21795,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Elune's Candle"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Fatigued"] = {
 			["texture"] = 136157,
@@ -21496,13 +21817,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132147,
 		},
 		["Pattern: Crimson Silk Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["QAEnchant Gloves +20 Shadow Damage"] = {
 			["texture"] = 135913,
 		},
 		["Plans: Heavy Mithril Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Party Fever Effect"] = {
 			["texture"] = 136142,
@@ -21521,20 +21842,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Large Red Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Large Blue Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Barbaric Iron Boots"] = {
 			["castTime"] = 45000,
 			["texture"] = 136192,
 		},
 		["Summoned Urok"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Cindercloth Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Riding Kodo"] = {
 			["castTime"] = 3000,
@@ -21547,13 +21868,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Summon Thunderstrike"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Attach Shaft to Medallion"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Merging Oozes"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 134743,
 		},
 		["Soul Rend"] = {
@@ -21570,10 +21891,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Formula: Enchant Weapon - Unholy"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lesser Wizard Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Decayed Strength"] = {
@@ -21581,7 +21902,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135914,
 		},
 		["Create Firework Rocket Launcher"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 134538,
 		},
 		["Maraudon Portal"] = {
@@ -21591,7 +21912,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Plans: Dazzling Mithril Rapier"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Immunity: Shadow"] = {
 			["texture"] = 136121,
@@ -21600,14 +21921,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134153,
 		},
 		["Small Blue Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Sling Dirt"] = {
 			["castTime"] = 1000,
 			["texture"] = 136090,
 		},
 		["Pattern: Stormshroud Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Increased Pet Armor +10%"] = {
 			["texture"] = 136095,
@@ -21661,7 +21982,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Imbue Bracers - Minor Wisdom OLD"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Christmas Goraluk Anvilcrack"] = {
@@ -21680,7 +22001,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136152,
 		},
 		["Enchant Cloak - Minor Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Christmas Emperor Dagran Thaurissan"] = {
@@ -21696,7 +22017,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136206,
 		},
 		["Burrow"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132331,
 		},
 		["Mighty Troll's Blood Potion"] = {
@@ -21710,14 +22031,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 133971,
 		},
 		["Solid Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Quest - Self Healing from resurrect"] = {
 			["texture"] = 135915,
 		},
 		["Super Crystal"] = {
-			["castTime"] = 8100,
+			["castTime"] = 6000,
 		},
 		["Unholy Armor III"] = {
 			["texture"] = 136225,
@@ -21732,7 +22053,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 133571,
 		},
 		["Colossal Smash"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Dire Maul Trap - Summon"] = {
 			["texture"] = 136208,
@@ -21762,7 +22083,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132277,
 		},
 		["Eye Beam"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136014,
 		},
 		["Enigma's Solitude"] = {
@@ -21788,19 +22109,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 132485,
 		},
 		["Crest of Retribution"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134965,
 		},
 		["Summon Myzrael"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136168,
 		},
 		["Goblin Rocket Helmet"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 135805,
 		},
 		["Recipe: Crocolisk Gumbo"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Set NG-5 Charge (Red)"] = {
 			["castTime"] = 5000,
@@ -21810,7 +22131,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136130,
 		},
 		["Lost Badge Agent of Nozdormu DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Stormcaller's Wrath"] = {
 			["texture"] = 136096,
@@ -21822,17 +22143,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136053,
 		},
 		["Recipe: Elixir of Ogre's Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mana Shield"] = {
 			["texture"] = 136153,
 		},
 		["Runed Arcanite Rod"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 135471,
 		},
 		["Formula: Enchant Bracer - Greater Intellect"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchanted Mageweave Pouch"] = {
 			["castTime"] = 45000,
@@ -21849,25 +22170,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 132181,
 		},
 		["Lightwell"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135980,
 		},
 		["Enchant Shield - Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Witherbark Totem Bundle"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135990,
 		},
 		["Silver-plated Shotgun"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Barbaric Bracers"] = {
 			["castTime"] = 25000,
 		},
 		["Recipe: Purification Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Atal'ai Corpse Eat"] = {
 			["texture"] = 132122,
@@ -21879,10 +22200,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135820,
 		},
 		["Pattern: Felcloth Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Soul Pouch"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Maraudon Portal Effect"] = {
 			["texture"] = 135743,
@@ -21910,11 +22231,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Lunar Invititation"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135758,
 		},
 		["Summon Ragnaros"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135819,
 		},
 		["Summon Green Qiraji Battle Tank"] = {
@@ -21947,10 +22268,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132118,
 		},
 		["Tranquil Mechanical Yeti"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Recipe: Elixir of Tongues"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Tranquil Mechanical Yeti"] = {
 			["castTime"] = 1000,
@@ -21961,36 +22282,36 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Mistletoe"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136041,
 		},
 		["Plans: Silvered Bronze Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lean Venison"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Create Commission"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Worm Sweep"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134307,
 		},
 		["Mirkfallon Fungus"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135914,
 		},
 		["Enchant Weapon - Icy Chill"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Master Demonologist"] = {
 			["texture"] = 136203,
 		},
 		["Brood of Nozdormu Factoin +1000"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Sleepy"] = {
 			["texture"] = 136090,
@@ -22009,7 +22330,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Animist's Caress"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Self Stun (DND)"] = {
 			["texture"] = 136168,
@@ -22025,7 +22346,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136224,
 		},
 		["Voice Amplification Modulator"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Totem"] = {
 			["texture"] = 136097,
@@ -22044,7 +22365,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136066,
 		},
 		["Mind Control"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136206,
 		},
 		["Spotted Frostsaber"] = {
@@ -22055,7 +22376,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["Firebolt IV"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135810,
 		},
 		["Viscidus Teleport"] = {
@@ -22065,7 +22386,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135911,
 		},
 		["Yenniku's Release"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136168,
 		},
 		["Slumber III"] = {
@@ -22091,7 +22412,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135856,
 		},
 		["Icebolt"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135846,
 		},
 		["Summon Thundering Exile"] = {
@@ -22104,14 +22425,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Schematic: Moonsight Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Baby Shark"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Mass Healing"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135913,
 		},
 		["Summon Prismatic Exiles"] = {
@@ -22127,7 +22448,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136116,
 		},
 		["Chain Lightning"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136015,
 		},
 		["Aura of Fear"] = {
@@ -22144,14 +22465,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135917,
 		},
 		["Dispel"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135894,
 		},
 		["Soul Corruption"] = {
 			["texture"] = 136159,
 		},
 		["Summon Magic Staff"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135163,
 		},
 		["Radiant Gloves"] = {
@@ -22163,11 +22484,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Energy Siphon"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136135,
 		},
 		["Recipe: Superior Mana Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tough Shell"] = {
 			["texture"] = 132110,
@@ -22176,13 +22497,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 134969,
 		},
 		["Opening Greater Scarab Coffer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ahn'Qiraj Reward Buff (Melee - 40)"] = {
 			["texture"] = 134969,
 		},
 		["Opening Stratholme Postbox"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ahn'Qiraj Reward Buff (Melee - 20)"] = {
 			["texture"] = 134969,
@@ -22194,10 +22515,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Bind Chapter 1"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Attach Medallion to Shaft"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Curse of Shadow"] = {
 			["texture"] = 136137,
@@ -22220,7 +22541,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134072,
 		},
 		["Place Arcanite Buoy"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Greater Blessing of Might"] = {
 			["texture"] = 135908,
@@ -22232,7 +22553,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135917,
 		},
 		["Poison Stinger"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 134324,
 		},
 		["Relentless Strikes Effect"] = {
@@ -22249,32 +22570,32 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Bind Draconic For Dummies"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Word of Mass Recall (OLD)"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 		},
 		["Pacify Self"] = {
 			["texture"] = 135954,
 		},
 		["Elementals Deck"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sayge's Carnie Buff"] = {
 			["texture"] = 136232,
 		},
 		["[PH] Teleport to Grom'Gol"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Create Spellstone (Greater)"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134131,
 		},
 		["Old Enriched Manna Biscuit"] = {
 			["texture"] = 134062,
 		},
 		["Schematic: Voice Amplification Modulator"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Siren's Song"] = {
@@ -22288,20 +22609,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Collect Blessed Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Gorishi Grub"] = {
 			["texture"] = 136092,
 		},
 		["Transmute: Life to Earth"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Riverpaw Death"] = {
 			["texture"] = 132151,
 		},
 		["Recipe: Lean Venison"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Copy of Nightfin Soup"] = {
 			["castTime"] = 3000,
@@ -22322,10 +22643,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 134307,
 		},
 		["Idol of Neptulon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Seal of Fury"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135962,
 		},
 		["Thundercrash"] = {
@@ -22354,11 +22675,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Arcane Weakness"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134395,
 		},
 		["Fire Weakness"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134396,
 		},
 		["Dragon Tracking"] = {
@@ -22368,14 +22689,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136140,
 		},
 		["Pattern: Shadowskin Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Shield - Minor Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Time Stop Visual DND"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Baby Murloc (Orange)"] = {
 			["texture"] = 134300,
@@ -22384,7 +22705,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136112,
 		},
 		["Call Glyphs of Warding"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Oozeling's Disgusting Aura"] = {
 			["texture"] = 132107,
@@ -22394,42 +22715,42 @@ NeatPlatesSpellDB = {
 			["texture"] = 136187,
 		},
 		["Create Chapter 4 DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Lotwil's Summoning"] = {
 			["texture"] = 135824,
 		},
 		["Recipe: Transmute Elemental Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Merithra's Wake"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Formula: Lesser Wizard Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rough Boomstick"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Dousing"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Felcloth Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stunning Blow"] = {
 			["texture"] = 135860,
 		},
 		["Brilliant Mana Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Lesser Mana Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Minor Mana Oil"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Stronghold Gauntlets"] = {
@@ -22443,10 +22764,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136182,
 		},
 		["Blue Dragon Transform DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Green Dragon Transform DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Water Mastery"] = {
 			["texture"] = 136057,
@@ -22455,16 +22776,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 132154,
 		},
 		["Formula: Enchant Cloak - Dodge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Cloak - Greater Nature Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dagger Strike (Disabled)"] = {
 			["texture"] = 132223,
 		},
 		["Formula: Enchant Gloves - Shadow Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thick Armor Kit"] = {
 			["castTime"] = 5125,
@@ -22474,7 +22795,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136057,
 		},
 		["Enchant Cloak - Dodge"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pierce Armor"] = {
@@ -22484,7 +22805,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132253,
 		},
 		["Enchant Cloak - Stealth"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Turtle Scale Leggings"] = {
@@ -22492,42 +22813,42 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Enchant Cloak - Greater Fire Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Enchant Gloves - Fire Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Enchant Gloves - Herbalism"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Cobra Reflexes"] = {
 			["texture"] = 136040,
 		},
 		["Enchant Gloves - Frost Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Six Demon Bag"] = {
 			["texture"] = 136129,
 		},
 		["Enchant Gloves - Threat"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Tough Scorpid Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Blue Overalls"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Green Ghost Visual"] = {
 			["texture"] = 135864,
 		},
 		["Corrosive Acid Spit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136007,
 		},
 		["Summon Magmakin"] = {
@@ -22537,14 +22858,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132395,
 		},
 		["Rumsey Rum Light"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132795,
 		},
 		["Activate MG Turret"] = {
 			["texture"] = 135619,
 		},
 		["Throw Dynamite"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Hallow's End Fright"] = {
@@ -22554,7 +22875,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136217,
 		},
 		["Throw Nightmare Object"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Summon Tamed Hyena"] = {
@@ -22567,16 +22888,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Release Umi's Yeti"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Spirit Totem"] = {
 			["texture"] = 136102,
 		},
 		["Pattern: Light Winter Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Greater Dispel"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135753,
 		},
 		["Demonic Transformation"] = {
@@ -22620,45 +22941,45 @@ NeatPlatesSpellDB = {
 			["texture"] = 136094,
 		},
 		["Clean Up Stink Bomb"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Feeblemind"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136175,
 		},
 		["Gong"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Honor Points +378"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Honor Points +138"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Honor Points +50"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Spirit Burn IV"] = {
 			["texture"] = 135805,
 		},
 		["Recipe: Holy Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Rainbow Fin Albacore"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Black Whelp Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Elemental Sharpening Stone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Releasing Corrupt Ooze"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134799,
 		},
 		["Arcane Spirit IV"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135932,
 		},
 		["Black Whelp Tunic"] = {
@@ -22675,13 +22996,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Plans: Darkrune Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Journeyman Alchemist"] = {
 			["texture"] = 136240,
 		},
 		["Plans: Darkrune Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Darkrune Gauntlets"] = {
 			["castTime"] = 60000,
@@ -22691,7 +23012,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135830,
 		},
 		["Demon Portal"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 135759,
 		},
 		["Portal Effect: Thunder Bluff"] = {
@@ -22701,7 +23022,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136057,
 		},
 		["Majordomo Teleport Visual"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135736,
 		},
 		["Perm. Illusion DeathKnight"] = {
@@ -22718,7 +23039,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Pattern: Ironfeather Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lava"] = {
 			["texture"] = 135805,
@@ -22735,39 +23056,39 @@ NeatPlatesSpellDB = {
 			["texture"] = 135879,
 		},
 		["Legendary Arcane Amalgamation"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Create Scepter of Beckoning: Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Scepter of Beckoning: Earth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Scepter of Beckoning: Air"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Scepter of Beckoning: Fire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Signet of Beckoning: Water"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Polar Tunic"] = {
 			["castTime"] = 60000,
 			["texture"] = 136021,
 		},
 		["Create Signet of Beckoning: Air"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Create Crest of Beckoning: Water"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Red Woolen Boots"] = {
 			["castTime"] = 12500,
 			["texture"] = 132149,
 		},
 		["Create Crest of Beckoning: Earth"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Nagmara + Rocknot"] = {
 			["texture"] = 136090,
@@ -22776,7 +23097,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136115,
 		},
 		["Formula: Enchant Gloves - Threat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Beast Rage II"] = {
 			["texture"] = 132091,
@@ -22785,16 +23106,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135842,
 		},
 		["Create Hunter Epic Bow DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Copy of Release Rageclaw"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Pattern: Sandstalker Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Sandstalker Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Safe Fall"] = {
 			["texture"] = 132914,
@@ -22806,10 +23127,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135989,
 		},
 		["Pattern: Spitfire Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Spitfire Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sandstalker Bracers"] = {
 			["castTime"] = 60000,
@@ -22821,7 +23142,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135871,
 		},
 		["Schematic: Large Red Rocket Cluster"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Summon Deviate Shambler"] = {
@@ -22831,7 +23152,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135818,
 		},
 		["Frost Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Shadow Bolt Whirl"] = {
 			["texture"] = 136197,
@@ -22843,7 +23164,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Heal Visual (DND)"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 			["texture"] = 135915,
 		},
 		["Noxious Breath"] = {
@@ -22856,7 +23177,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Recipe: Greater Arcane Elixir"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Inner Fire"] = {
 			["texture"] = 135926,
@@ -22894,7 +23215,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Plans: Heartseeker"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ghost Costume"] = {
 			["texture"] = 136163,
@@ -22933,20 +23254,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132096,
 		},
 		["Plans: Massive Iron Axe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Transmute: Earth to Life"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Restless Strength"] = {
 			["texture"] = 132109,
 		},
 		["Formula: Enchant Chest - Lesser Mana"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Quest - Summon Treant"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136065,
 		},
 		["Summon Postmaster Malown"] = {
@@ -22990,14 +23311,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Enervate"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 132105,
 		},
 		["Refocus"] = {
 			["texture"] = 132212,
 		},
 		["Molten Rain"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Pink Mageweave Shirt"] = {
 			["castTime"] = 45000,
@@ -23048,10 +23369,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135845,
 		},
 		["Create Signet of Beckoning: Earth"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Plans: Dark Iron Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Indomitable Spirit"] = {
 			["texture"] = 135954,
@@ -23063,7 +23384,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135845,
 		},
 		["Recipe: Mightfish Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Surprise Attack"] = {
 			["texture"] = 132092,
@@ -23098,7 +23419,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Bloodvine Goggles"] = {
-			["castTime"] = 30000,
+			["castTime"] = 60000,
 		},
 		["Prayer Beads Blessing"] = {
 			["texture"] = 133298,
@@ -23117,7 +23438,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135808,
 		},
 		["Recipe: Greater Dreamless Sleep Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Embossed Leather Pants"] = {
 			["castTime"] = 12500,
@@ -23142,36 +23463,36 @@ NeatPlatesSpellDB = {
 			["texture"] = 132222,
 		},
 		["Plans: Runic Plate Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Dreadsteed"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132238,
 		},
 		["Fishing Skill +35"] = {
 			["texture"] = 136245,
 		},
 		["Punctured Voodoo Doll WAR DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Punctured Voodoo Doll PAL DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Create Soul Gem"] = {
 			["texture"] = 136168,
 		},
 		["Punctured Voodoo Doll ROG DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Bombard"] = {
 			["castTime"] = 3000,
 			["texture"] = 132153,
 		},
 		["Punctured Voodoo Doll DRU DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Flames of Chaos"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135831,
 		},
 		["Freeze III PROC"] = {
@@ -23181,7 +23502,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Pattern: Cloak of Warding"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Brain Wash"] = {
 			["texture"] = 136120,
@@ -23193,13 +23514,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Conjure Frostwolf Rank 5 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Fire Shield Effect"] = {
 			["texture"] = 135817,
 		},
 		["Binding Volume II"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Spawn - Red Lightning"] = {
 			["texture"] = 136115,
@@ -23211,7 +23532,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132212,
 		},
 		["Pattern: Chimeric Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Health Funnel"] = {
 			["texture"] = 136168,
@@ -23223,7 +23544,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136068,
 		},
 		["Rose Colored Goggles"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Seal of Shadow II"] = {
 			["texture"] = 135968,
@@ -23235,7 +23556,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136206,
 		},
 		["Enchant Cloak - Minor Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Smashing Blow V"] = {
@@ -23252,42 +23573,42 @@ NeatPlatesSpellDB = {
 			["texture"] = 135753,
 		},
 		["Enchant 2H Weapon - Major Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Seal of the Dawn"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Scry on Azrethoc"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134335,
 		},
 		["Thekal Transform"] = {
 			["texture"] = 132288,
 		},
 		["Vodouisant's Vigilant Embrace"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Enchanted Quickness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136047,
 		},
 		["Falcon's Call"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Volcanic Hammer"] = {
 			["castTime"] = 60000,
 			["texture"] = 136192,
 		},
 		["Enchant Boots - Minor Speed"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Syncretist's Sigil"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Drain Mana"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136208,
 		},
 		["Elemental Leatherworking"] = {
@@ -23298,13 +23619,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Plans: Bloodsoul Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Bloodsoul Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Bloodsoul Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Darksoul Leggings"] = {
 			["castTime"] = 60000,
@@ -23329,7 +23650,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Blood Tiger Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rooting Attack"] = {
 			["texture"] = 132152,
@@ -23345,19 +23666,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Primal Batskin Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Numbing Strike II"] = {
 			["texture"] = 132223,
 		},
 		["Pattern: Primal Batskin Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Greater Adept's Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Primal Batskin Jerkin"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blood Tiger Breastplate"] = {
 			["castTime"] = 60000,
@@ -23372,7 +23693,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Speak with Heads"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136168,
 		},
 		["Enveloping Webs"] = {
@@ -23393,14 +23714,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Stylish Green Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bloodvine Boots"] = {
 			["castTime"] = 60000,
 			["texture"] = 132149,
 		},
 		["Summon Swamp Ooze"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136123,
 		},
 		["Wisdom of the Timbermaw"] = {
@@ -23414,7 +23735,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136090,
 		},
 		["Thorium Rifle"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Mar'li Transform"] = {
 			["texture"] = 136172,
@@ -23423,34 +23744,34 @@ NeatPlatesSpellDB = {
 			["texture"] = 132161,
 		},
 		["Reconstruction"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Reduced Claw and Rake Cost"] = {
 			["texture"] = 136052,
 		},
 		["Create Zul'Gurub Talisman HUN R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Thorn Volley"] = {
 			["texture"] = 136063,
 		},
 		["Create Zul'Gurub Talisman HUN R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman ROG R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman ROG R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman SHM R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman SHM R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman DRU R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Destroy Rocket Boots"] = {
 			["texture"] = 132997,
@@ -23462,19 +23783,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Create Zul'Gurub Talisman DRU R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Summon Karang's Banner"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Sloth Effect"] = {
 			["texture"] = 136188,
 		},
 		["Create Zul'Gurub Talisman DRU R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman DRU R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Nimble Healing Touch"] = {
 			["texture"] = 136077,
@@ -23487,25 +23808,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Flying Tiger Goggles"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Spirit Burst"] = {
 			["texture"] = 136222,
 		},
 		["Shoot"] = {
-			["texture"] = 135496,
+			["texture"] = 132317,
 		},
 		["Judgement of Wisdom"] = {
 			["texture"] = 135960,
 		},
 		["Thorium Widget"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Great Rage Potion"] = {
 			["castTime"] = 3000,
 		},
 		["Presence of Might"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Test Maul"] = {
 			["texture"] = 132136,
@@ -23514,10 +23835,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136077,
 		},
 		["Create Zul'Gurub Talisman MAG R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman MAG R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Boomerang"] = {
 			["texture"] = 135646,
@@ -23531,10 +23852,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Create Zul'Gurub Talisman MAG R2 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman MAG R1 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Twin Teleport"] = {
 			["texture"] = 135736,
@@ -23548,37 +23869,37 @@ NeatPlatesSpellDB = {
 			["texture"] = 132247,
 		},
 		["Pattern: Wild Leather Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Soothing Turtle Bisque"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Runecloth Bag"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Axe Flurry"] = {
 			["texture"] = 132397,
 		},
 		["Plans: Barbaric Iron Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Core Armor Kit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Moonfire"] = {
 			["texture"] = 136096,
 		},
 		["Teleport to Darnassus - Event"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Tranquilizing Poison"] = {
 			["texture"] = 132105,
 		},
 		["Create Zul'Gurub Talisman WAR R4 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Create Zul'Gurub Talisman WAR R3 DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Readiness"] = {
 			["texture"] = 136090,
@@ -23599,14 +23920,14 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5125,
 		},
 		["Stonesplinter Disguise"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136189,
 		},
 		["Recipe: Mystery Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gyrochronatom"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Jeklik Transform"] = {
 			["texture"] = 132288,
@@ -23615,13 +23936,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132331,
 		},
 		["Torch Combine"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Bloodrager's Requiem"] = {
 			["texture"] = 135845,
 		},
 		["Pattern: Red Whelp Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Firebolt V"] = {
 			["texture"] = 135810,
@@ -23640,7 +23961,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132792,
 		},
 		["Schematic: Parachute Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Silver Tabby"] = {
 			["castTime"] = 1000,
@@ -23657,7 +23978,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136223,
 		},
 		["Healing Wave of Antu'sul"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135916,
 		},
 		["Mind Exhaustion"] = {
@@ -23667,7 +23988,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Blue Firework"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Crusader's Wrath"] = {
 			["texture"] = 136039,
@@ -23676,7 +23997,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136103,
 		},
 		["Toxic Saliva"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136016,
 		},
 		["Greater Agility"] = {
@@ -23686,10 +24007,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136152,
 		},
 		["Create Amulet of Union"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 		},
 		["Plans: Arcanite Champion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Robe of Winter Night"] = {
 			["castTime"] = 60000,
@@ -23702,7 +24023,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136147,
 		},
 		["Pattern: Red Woolen Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crowd Pummel"] = {
 			["texture"] = 132938,
@@ -23717,10 +24038,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Copy of Pattern: Stormcloth Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Mithril Heavy-bore Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Glowy (Blue)"] = {
 			["texture"] = 135741,
@@ -23758,17 +24079,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Summon Shadowcaster"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136187,
 		},
 		["Plans: Rough Bronze Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Strike of the Scorpok"] = {
 			["texture"] = 136036,
 		},
 		["Forked Lightning"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136015,
 		},
 		["Flame of Hakkar"] = {
@@ -23781,18 +24102,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132219,
 		},
 		["Daunting Growl"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132278,
 		},
 		["Improved Fire Blast"] = {
 			["texture"] = 135807,
 		},
 		["Amplify Damage"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136006,
 		},
 		["Curse of the Fallen Magram"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136224,
 		},
 		["Bloodthirst"] = {
@@ -23820,42 +24141,42 @@ NeatPlatesSpellDB = {
 			["texture"] = 134969,
 		},
 		["Plans: Hardened Iron Shortsword"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Guardian Gloves"] = {
 			["castTime"] = 25000,
 			["texture"] = 136021,
 		},
 		["Lovingly Crafted Boomstick"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Instant Poison II"] = {
 			["castTime"] = 3000,
 			["texture"] = 132273,
 		},
 		["Formula: Enchant Weapon - Mighty Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Big Voodoo Pants"] = {
 			["castTime"] = 60000,
 		},
 		["Pattern: Icy Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Bracer - Healing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Holy Shield"] = {
 			["texture"] = 135940,
 		},
 		["Formula: Enchant Bracer - Mana Regeneration"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Weapon - Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Weapon - Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Web Explosion"] = {
 			["texture"] = 132149,
@@ -23864,11 +24185,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Enchant Weapon - Mighty Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Touch of Ravenclaw"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136188,
 		},
 		["Spiritual Domination"] = {
@@ -23888,7 +24209,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Formula: Powerful Anti-Venom"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Powerful Anti-Venom"] = {
 			["castTime"] = 3000,
@@ -23904,7 +24225,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136157,
 		},
 		["Summon Thelrin DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Healer Champion"] = {
 			["texture"] = 135806,
@@ -23913,7 +24234,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134139,
 		},
 		["Teleport Barracks"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Thorium Helm"] = {
 			["castTime"] = 60000,
@@ -23929,23 +24250,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132310,
 		},
 		["Pattern: Robe of the Archmage"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Speak Draconic"] = {
 			["texture"] = 136036,
 		},
 		["Jumping Lightning"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136048,
 		},
 		["Suffering of Sanity"] = {
 			["texture"] = 136133,
 		},
 		["Pattern: Runic Leather Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Sulfuron Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sword Specialization"] = {
 			["texture"] = 132223,
@@ -23955,27 +24276,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Formula: Enchant Bracer - Minor Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Formula: Enchant Weapon - Lifestealer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spirit Steal"] = {
 			["castTime"] = 2000,
 			["texture"] = 136183,
 		},
 		["Place Unforged Seal"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Siphon Blessing"] = {
 			["texture"] = 136129,
 		},
 		["Summon Timberling"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136074,
 		},
 		["Pattern: Barbaric Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thrown Mastery"] = {
 			["texture"] = 132330,
@@ -23984,7 +24305,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136170,
 		},
 		["Major Recombobulator"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Apprentice Tailor"] = {
 			["texture"] = 136249,
@@ -24018,11 +24339,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135972,
 		},
 		["Ghost Wolf"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136095,
 		},
 		["Conjure Mana Citrine"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134116,
 		},
 		["Touch of Zanzil"] = {
@@ -24039,7 +24360,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Freeze Rookery Egg"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Veil of Shadow"] = {
 			["castTime"] = 1500,
@@ -24052,7 +24373,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135753,
 		},
 		["Enchant Gloves - Skinning"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Heavy Runecloth Bandage"] = {
@@ -24066,27 +24387,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Pattern: Molten Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Lava Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sarilus's Elementals"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136187,
 		},
 		["Greater Nether Essence"] = {
 			["texture"] = 136192,
 		},
 		["Pattern: Dawn Treaders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elixir of Waterwalking"] = {
 			["castTime"] = 3000,
 			["texture"] = 136021,
 		},
 		["Pattern: Might of the Timbermaw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Unyielding Faith"] = {
 			["texture"] = 135984,
@@ -24098,7 +24419,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Gong Zul'Farrak Gong"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Ghoul Rot"] = {
 			["texture"] = 136134,
@@ -24117,7 +24438,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136087,
 		},
 		["Awaken Kerlonian"] = {
-			["castTime"] = 6075,
+			["castTime"] = 4500,
 		},
 		["Strength of Earth"] = {
 			["texture"] = 136023,
@@ -24145,29 +24466,29 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Portals Deck"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Beasts Deck"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Minigun"] = {
-			["castTime"] = 135,
+			["castTime"] = 100,
 			["texture"] = 134538,
 		},
 		["Fel Stamina"] = {
 			["texture"] = 136121,
 		},
 		["Pattern: Flarecore Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Resist Fire"] = {
 			["texture"] = 135824,
 		},
 		["Pattern: Flarecore Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Wild Leather Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Tiger Riding"] = {
 			["texture"] = 136103,
@@ -24177,7 +24498,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Flask of Petrification"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 		},
 		["Sharp Weapon +2"] = {
 			["texture"] = 132223,
@@ -24189,20 +24510,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 135736,
 		},
 		["Pattern: Argent Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Spirit of Boar"] = {
 			["texture"] = 136075,
 		},
 		["Pattern: Mantle of the Timbermaw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Forge Verigan's Fist"] = {
-			["castTime"] = 810,
+			["castTime"] = 600,
 			["texture"] = 135959,
 		},
 		["Armor +24"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Defensive Stance Passive"] = {
 			["texture"] = 132341,
@@ -24215,13 +24536,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Polar Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Frostwolf Rank 3 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Plans: Darksoul Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gray Woolen Shirt"] = {
 			["castTime"] = 8000,
@@ -24234,14 +24555,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132343,
 		},
 		["Everlook Transporter"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135826,
 		},
 		["Barrage"] = {
 			["texture"] = 132330,
 		},
 		["Recipe: Westfall Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Replenish Mana"] = {
 			["texture"] = 134134,
@@ -24263,15 +24584,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 132155,
 		},
 		["Schematic: Spellpower Goggles Xtreme Plus"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Arcane Explosion"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136116,
 		},
 		["Plans: Dark Iron Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["TWEEP"] = {
 			["texture"] = 135826,
@@ -24287,10 +24608,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132179,
 		},
 		["Plans: Blackguard"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Goblin Jumper Cables"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Efficiency"] = {
 			["texture"] = 135865,
@@ -24302,13 +24623,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Windsor Death DND"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Dark Iron Rifle"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Plans: Blackfury"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arcane Eruption"] = {
 			["texture"] = 135743,
@@ -24324,7 +24645,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Conjure Torch of Retribution"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Burning Adrenaline"] = {
 			["texture"] = 132937,
@@ -24333,24 +24654,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 135970,
 		},
 		["Inferno Shell"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Plans: Gloves of the Dawn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Acid of Hakkar"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136007,
 		},
 		["Weapon Counterweight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Withered Touch"] = {
 			["texture"] = 136188,
 		},
 		["Schematic: Hyper-Radiant Flame Reflector"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Gloves of the Dawn"] = {
@@ -24371,11 +24692,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Self Destruct"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 			["texture"] = 135826,
 		},
 		["Recipe: Baked Salmon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Bomb"] = {
 			["castTime"] = 1000,
@@ -24385,11 +24706,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Test of Lore"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136022,
 		},
 		["Pattern: Runic Leather Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bottle of Poison"] = {
 			["texture"] = 136016,
@@ -24398,16 +24719,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 134063,
 		},
 		["String Together Heads"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Improved Power Word: Shield"] = {
 			["texture"] = 135940,
 		},
 		["Dowse Eternal Flame"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Wizardweave Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bloodfang"] = {
 			["texture"] = 136168,
@@ -24426,7 +24747,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Banish Cresting Exile"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136168,
 		},
 		["Small Leather Ammo Pouch"] = {
@@ -24440,14 +24761,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136070,
 		},
 		["Fire Ward"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135806,
 		},
 		["Curse of the Elements"] = {
 			["texture"] = 136130,
 		},
 		["Lesser Magic Wand"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135139,
 		},
 		["Truesilver Gauntlets"] = {
@@ -24461,13 +24782,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132109,
 		},
 		["Plans: Blazing Rapier"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Demon of the Orb"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Enchant Gloves - Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Spirit Burn III"] = {
@@ -24480,7 +24801,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135148,
 		},
 		["Summon Gnashjaw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Tiny Red Dragon"] = {
 			["castTime"] = 1000,
@@ -24491,7 +24812,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132281,
 		},
 		["Feeblemind III"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136175,
 		},
 		["Master of Deception"] = {
@@ -24504,18 +24825,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["Stun Bomb"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Blizzard"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135857,
 		},
 		["Self Visual - Sleep 30s (DND)"] = {
 			["texture"] = 136168,
 		},
 		["Release Imp"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Shade Visual"] = {
 			["texture"] = 136123,
@@ -24525,11 +24846,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Expert Cook"] = {
-			["castTime"] = 27000,
+			["castTime"] = 20000,
 			["texture"] = 133971,
 		},
 		["Plans: Wicked Mithril Blade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Essence of the Red"] = {
 			["texture"] = 135819,
@@ -24544,7 +24865,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136189,
 		},
 		["Formula: Enchant Bracer - Superior Stamina"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Magic Reflection"] = {
 			["texture"] = 135849,
@@ -24553,7 +24874,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134520,
 		},
 		["Snake Burst Firework"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Heal Pet"] = {
 			["texture"] = 135915,
@@ -24568,7 +24889,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136175,
 		},
 		["Ultrasafe Transporter - Gadgetzan"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Lava Spout Totem"] = {
 			["texture"] = 135826,
@@ -24577,7 +24898,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5125,
 		},
 		["Create Healthstone (Minor)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135230,
 		},
 		["Thorium Belt"] = {
@@ -24588,17 +24909,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135230,
 		},
 		["Orcish Orphan Whistle"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Hi-Explosive Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Silithid Swarm Passive"] = {
 			["texture"] = 132111,
 		},
 		["Gnomish Transporter"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Transporter Malfunction"] = {
 			["texture"] = 135899,
@@ -24613,14 +24934,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Recall"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Summon Hawksbill Snapjaw"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Shadow Portal"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136192,
 		},
 		["Summon Tamed Raptor"] = {
@@ -24633,11 +24954,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Dark Whispers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136163,
 		},
 		["Recipe: Greater Nature Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Corrupted Totems"] = {
 			["texture"] = 136129,
@@ -24656,7 +24977,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135127,
 		},
 		["Schematic: Small Red Rocket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Fire Channeling"] = {
@@ -24690,7 +25011,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135835,
 		},
 		["Imbue Chest - Minor Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Tame Snow Leopard"] = {
@@ -24707,13 +25028,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136129,
 		},
 		["Plans: Mithril Spurs"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Healing"] = {
 			["texture"] = 135916,
 		},
 		["Rift Beacon"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136006,
 		},
 		["Apprentice Blacksmith"] = {
@@ -24729,13 +25050,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136225,
 		},
 		["Pattern: Big Voodoo Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Windfury Totem Effect"] = {
 			["texture"] = 136114,
 		},
 		["Enchant Cloak - Greater Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Reflection Field"] = {
@@ -24754,7 +25075,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136246,
 		},
 		["Arcane Spirit V"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135932,
 		},
 		["Place Lion Carcass"] = {
@@ -24775,24 +25096,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 133951,
 		},
 		["Recipe: Elixir of the Mongoose"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Turtle Scale Bracers"] = {
 			["castTime"] = 60000,
 			["texture"] = 136021,
 		},
 		["Summon Shy-Rotam"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Fire Shield Effect III"] = {
 			["texture"] = 135817,
 		},
 		["Enchant Boots - Minor Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Schematic: Flash Bomb"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Alchemists Stone"] = {
 			["texture"] = 134334,
@@ -24801,7 +25122,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132162,
 		},
 		["Tainted Blood"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136168,
 		},
 		["Illusion: Black Dragonkin"] = {
@@ -24817,19 +25138,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["[PH] Teleport to Theramore"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Rend Blackhand Mounts"] = {
 			["texture"] = 135990,
 		},
 		["Pattern: Colorful Kilt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mind Soothe"] = {
 			["texture"] = 135933,
 		},
 		["Break Big Stuff"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136137,
 		},
 		["Swift Stormsaber"] = {
@@ -24843,7 +25164,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132486,
 		},
 		["Summon Illusionary Phantasm"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135824,
 		},
 		["Warsong Flag"] = {
@@ -24876,10 +25197,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Recipe: Philosophers' Stone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Schematic: Deadly Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Firestone"] = {
 			["texture"] = 132386,
@@ -24900,7 +25221,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132115,
 		},
 		["Abomination Spit"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136016,
 		},
 		["Sarilus's Elementals Passive"] = {
@@ -24926,22 +25247,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 136074,
 		},
 		["Will of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135934,
 		},
 		["Seal of Frost II"] = {
 			["texture"] = 135968,
 		},
 		["Ignite Flesh"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135805,
 		},
 		["Time Lapse"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135744,
 		},
 		["Scarshield Portal"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135759,
 		},
 		["Golden Rod"] = {
@@ -24968,14 +25289,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136221,
 		},
 		["Wild Regeneration"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136081,
 		},
 		["Immune Fear/Polymorph/Stun"] = {
 			["texture"] = 135894,
 		},
 		["Increase Reputation"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Mithril Scale Shoulders"] = {
 			["castTime"] = 60000,
@@ -25007,7 +25328,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135934,
 		},
 		["Coarse Blasting Powder"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Venom Spit"] = {
 			["castTime"] = 2500,
@@ -25041,20 +25362,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 135968,
 		},
 		["Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136047,
 		},
 		["Mordresh's Shield"] = {
 			["texture"] = 136121,
 		},
 		["Recipe: Fire Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Air Bubbles"] = {
 			["texture"] = 136148,
 		},
 		["Editor Test Spell"] = {
-			["castTime"] = 338,
+			["castTime"] = 250,
 		},
 		["Swift Timber Wolf"] = {
 			["castTime"] = 3000,
@@ -25065,7 +25386,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132224,
 		},
 		["Arclight Spanner"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Greater Nether Imp"] = {
 			["texture"] = 136172,
@@ -25074,7 +25395,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135759,
 		},
 		["Plans: Orcish War Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Aspect of the Monkey"] = {
 			["texture"] = 132159,
@@ -25097,7 +25418,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134061,
 		},
 		["Sacrifice"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135896,
 		},
 		["Spellstone"] = {
@@ -25110,10 +25431,10 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Recipe: Hot Wolf Ribs"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enhance Blunt Weapon IV"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bestial Swiftness"] = {
 			["texture"] = 132120,
@@ -25133,10 +25454,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136120,
 		},
 		["Plans: Imperial Plate Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Strength of Earth Totem"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136023,
 		},
 		["Ritual Candle Aura"] = {
@@ -25146,7 +25467,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132507,
 		},
 		["Summon Cloak of the Unseen Path DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Swift Yellow Mechanostrider"] = {
 			["castTime"] = 3000,
@@ -25160,10 +25481,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132354,
 		},
 		["Biznicks 247x128 Accurascope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Tuxedo Jacket"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dragonscale Breastplate"] = {
 			["castTime"] = 60000,
@@ -25173,14 +25494,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136095,
 		},
 		["Revive Ringo"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Kadrak's Flag"] = {
 			["castTime"] = 2000,
 			["texture"] = 132484,
 		},
 		["Pattern: Gloves of Spell Mastery"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Savage Assault V"] = {
 			["texture"] = 132316,
@@ -25193,7 +25514,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Formula: Minor Wizard Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Healing Ward IV Passive"] = {
 			["texture"] = 136222,
@@ -25211,27 +25532,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132396,
 		},
 		["Formula: Enchant Cloak - Lesser Shadow Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Forming Rhok'delar"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Enchant Boots - Lesser Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Recipe: Swiftness Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Living Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Frost Burn"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135836,
 		},
 		["Immolate Cumulative (TEST)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135817,
 		},
 		["Icy Blue Mechanostrider"] = {
@@ -25259,7 +25580,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Summon Rockwing Gargoyles"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136230,
 		},
 		["Blessing of Sanctuary"] = {
@@ -25275,7 +25596,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132175,
 		},
 		["Soul Claim"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Finkle's Skinner"] = {
 			["texture"] = 135342,
@@ -25284,18 +25605,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132218,
 		},
 		["Schematic: Alarm-O-Bot"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Enchant Shield - Lesser Block"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Stance Rage (+5 Def)"] = {
 			["texture"] = 132091,
 		},
 		["Cure Disease"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 135935,
 		},
 		["Summon Rumbling Exile"] = {
@@ -25306,28 +25627,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 132243,
 		},
 		["Searing Flames"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135817,
 		},
 		["Nature Protection Potion"] = {
 			["castTime"] = 3000,
 		},
 		["Summon Xorothian Dreadsteed"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Red Mageweave Headband"] = {
 			["castTime"] = 60000,
 			["texture"] = 132149,
 		},
 		["Schematic: Gyrofreeze Ice Reflector"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Magma Shackles"] = {
 			["texture"] = 136022,
 		},
 		["[PH] Teleport to Felwood"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Booming Voice"] = {
 			["texture"] = 136075,
@@ -25336,7 +25657,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136022,
 		},
 		["Pattern: Runic Leather Headband"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Truefaith Gloves"] = {
 			["castTime"] = 25000,
@@ -25349,7 +25670,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136126,
 		},
 		["Voodoo"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136121,
 		},
 		["Shatter"] = {
@@ -25362,14 +25683,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["J'eevee summons object"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Astral Recall"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136010,
 		},
 		["Conjure Food"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 133952,
 		},
 		["Gloves of Spell Mastery"] = {
@@ -25377,7 +25698,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Healing Touch"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136041,
 		},
 		["Imperial Plate Belt"] = {
@@ -25394,45 +25715,45 @@ NeatPlatesSpellDB = {
 			["texture"] = 136133,
 		},
 		["World Enlarger"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 			["texture"] = 136121,
 		},
 		["Curse of the Firebrand"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 132095,
 		},
 		["Pattern: Stormcloth Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchanted Thorium Helm"] = {
 			["castTime"] = 60000,
 			["texture"] = 136192,
 		},
 		["Flamespit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135812,
 		},
 		["Enchant Weapon - Lesser Striking"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Runecloth Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dummy Nuke"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Human Orphan Whistle"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Predator's Belt DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Recipe: Transmute Fire to Earth"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Warosh's Transform"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Running Speed"] = {
 			["texture"] = 132307,
@@ -25452,17 +25773,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136101,
 		},
 		["Aquadynamic Fish Attractor"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 134335,
 		},
 		["Formula: Enchant Weapon - Lesser Beastslayer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blessing of Nordrassil"] = {
 			["texture"] = 135972,
 		},
 		["Polarity Shift"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136048,
 		},
 		["Corrupted Stamina"] = {
@@ -25472,18 +25793,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Alarm-O-Bot"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Cleanse"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135953,
 		},
 		["Enchant Shield - Lesser Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Samophlange Manual"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Frostbrand Weapon"] = {
 			["texture"] = 135847,
@@ -25493,22 +25814,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Schematic: Goblin Jumper Cable XL"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Improved Succubus"] = {
 			["texture"] = 136220,
 		},
 		["Enchant Boots - Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Schematic: Truesilver Transformer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Pattern: Heavy Woolen Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Vile Poisons"] = {
 			["texture"] = 132293,
@@ -25517,11 +25838,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136101,
 		},
 		["Copy of Schematic: EZ-Thro Dynamite II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Schematic: EZ-Thro Dynamite II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Food"] = {
@@ -25531,7 +25852,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132792,
 		},
 		["Schematic: Red Firework"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Blood Frenzy"] = {
@@ -25542,34 +25863,34 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Firebolt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135810,
 		},
 		["Eye of Kilrogg"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136155,
 		},
 		["Bane"] = {
 			["texture"] = 136146,
 		},
 		["Truesilver Transformer"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["EZ-Thro Dynamite II"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Dense Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Fix Ritual Node"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Aftermath"] = {
 			["texture"] = 135805,
 		},
 		["Summon Dagun"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Red Linen Vest"] = {
 			["castTime"] = 12500,
@@ -25582,7 +25903,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132278,
 		},
 		["Massive Geyser"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135861,
 		},
 		["Oil of Immolation"] = {
@@ -25599,14 +25920,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Ritual of Doom"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136120,
 		},
 		["Summon Dalaran Serpent"] = {
 			["texture"] = 132089,
 		},
 		["Formula: Enchant 2H Weapon - Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Camouflage"] = {
 			["texture"] = 132320,
@@ -25622,14 +25943,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136184,
 		},
 		["Arcane Brilliance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135869,
 		},
 		["Arcane Channeling"] = {
 			["texture"] = 135743,
 		},
 		["Plans: Runic Plate Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sneaky"] = {
 			["texture"] = 132320,
@@ -25665,7 +25986,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Transmute: Mithril to Truesilver"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 133234,
 		},
 		["Creeping Pain"] = {
@@ -25677,7 +25998,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Goblin Radio"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Detect Elven Gems"] = {
 			["texture"] = 136057,
@@ -25686,7 +26007,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Summon Alarm-o-Bot"] = {
-			["castTime"] = 338,
+			["castTime"] = 250,
 			["texture"] = 133002,
 		},
 		["Lesser Agility"] = {
@@ -25703,10 +26024,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135915,
 		},
 		["Plans: Blue Glittering Axe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["The Breaking"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136164,
 		},
 		["Chicken Other"] = {
@@ -25725,13 +26046,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136025,
 		},
 		["Gnomish Cloaking Device"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Wide Slash"] = {
 			["texture"] = 132338,
 		},
 		["Schematic: Flawless Arcanite Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Red Mageweave Gloves"] = {
@@ -25739,7 +26060,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pattern: Warbear Harness"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Smelt Elementium"] = {
 			["castTime"] = 10000,
@@ -25781,13 +26102,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132274,
 		},
 		["Player Lost Apple DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Christmas War Master Voone"] = {
 			["texture"] = 135849,
 		},
 		["Formula: Enchant Gloves - Greater Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Mana Bursts"] = {
 			["texture"] = 135741,
@@ -25804,20 +26125,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132264,
 		},
 		["Formula: Enchant Weapon - Fiery Weapon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Hide of the Wild"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Demon Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136185,
 		},
 		["Pattern: Chromatic Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Girdle of Insight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Demon Slaying 99"] = {
 			["texture"] = 136172,
@@ -25857,19 +26178,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 132347,
 		},
 		["Formula: Enchant Weapon - Beastslayer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Mooncloth Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Body Switch"] = {
 			["texture"] = 136192,
 		},
 		["Recipe: Dig Rat Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Eye of Immol'thar"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136152,
 		},
 		["Rallying Cry of the Dragonslayer"] = {
@@ -25879,25 +26200,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 136127,
 		},
 		["Gordok Green Grog"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132790,
 		},
 		["Summon Illusory Wraith"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136222,
 		},
 		["Green Tinted Goggles"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Pattern: Turtle Scale Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shared Bonds"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136230,
 		},
 		["Enchant Chest - Superior Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Jeff Dummy 1"] = {
@@ -25908,11 +26229,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Imbue Weapon - Beastslayer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Inferno Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Humanoid Tracking"] = {
 			["texture"] = 132089,
@@ -25922,7 +26243,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Pattern: Belt of the Archmage"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fatal Bite"] = {
 			["texture"] = 132090,
@@ -25931,7 +26252,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132324,
 		},
 		["Create The Pariah's Instructions"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Chromatic Protection: Fire"] = {
 			["texture"] = 134563,
@@ -25945,7 +26266,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Earthgrab Totem"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 136064,
 		},
 		["Summon Doomguard"] = {
@@ -25955,7 +26276,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132091,
 		},
 		["Plans: Steel Weapon Chain"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cowardly Flight Potion"] = {
 			["castTime"] = 3000,
@@ -25970,20 +26291,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136147,
 		},
 		["Cantation of Manifestation"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135994,
 		},
 		["Clenched Pinchers"] = {
 			["texture"] = 132109,
 		},
 		["Recipe: Gooey Spider Cake"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bear Form (Passive)"] = {
 			["texture"] = 132276,
 		},
 		["Arcanum of Focus"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Intimidation"] = {
 			["texture"] = 136122,
@@ -25995,11 +26316,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Creeping Mold"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136134,
 		},
 		["Plans: Thorium Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Screech"] = {
 			["texture"] = 132182,
@@ -26033,11 +26354,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Strength of the Ages"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136188,
 		},
 		["Summon Atal'ai Skeleton"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136187,
 		},
 		["Summon Noxxion's Spawns"] = {
@@ -26047,7 +26368,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136246,
 		},
 		["Kreeg's Stout Beatdown"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132792,
 		},
 		["Form of the Moonstalker"] = {
@@ -26057,13 +26378,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136206,
 		},
 		["Crude Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sickly Critter Aura"] = {
 			["texture"] = 135864,
 		},
 		["Recipe: Runn Tum Tuber Surprise"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Spire Spiderling"] = {
 			["texture"] = 135849,
@@ -26072,45 +26393,45 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Devour Magic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136075,
 		},
 		["Pattern: Tough Scorpid Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Ornate Mithril Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Divine Intellect"] = {
 			["texture"] = 136090,
 		},
 		["Pattern: Dark Leather Tunic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Black Dragonscale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Image Projection"] = {
 			["texture"] = 136164,
 		},
 		["Formula: Enchant Weapon - Spell Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fevered Exhaustion"] = {
 			["texture"] = 136106,
 		},
 		["Darkmoon Faire Fortune"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Ethereal Form"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136077,
 		},
 		["Trap Mastery"] = {
 			["texture"] = 132149,
 		},
 		["Enchant  Weapon - Spell Power"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Silk Bandage"] = {
@@ -26131,13 +26452,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135917,
 		},
 		["Birth"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Anger Management"] = {
 			["texture"] = 135881,
 		},
 		["Grasping Vines"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136025,
 		},
 		["Coarse Grinding Stone"] = {
@@ -26151,13 +26472,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 25000,
 		},
 		["Pattern: Blue Dragonscale Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Defense +3"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lesser Mystic Wand"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135139,
 		},
 		["Black War Wolf"] = {
@@ -26175,16 +26496,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135836,
 		},
 		["Create Thorium Brotherhood Contract DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Taking Moon Well Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Throw Proximity Bomb"] = {
 			["texture"] = 136173,
 		},
 		["Gnome Camera Connection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Green Whelp Bracers"] = {
 			["castTime"] = 45000,
@@ -26193,7 +26514,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 45000,
 		},
 		["Schematic: Field Repair Bot 74A"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132836,
 		},
 		["Fiery Chain Shoulders"] = {
@@ -26204,14 +26525,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132150,
 		},
 		["Bronze Tube"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Ice Tomb"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135852,
 		},
 		["Evil God Counterspell"] = {
-			["castTime"] = 405000,
+			["castTime"] = 300000,
 		},
 		["Two-Hand Strike V"] = {
 			["texture"] = 132316,
@@ -26230,7 +26551,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Arcane Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Dizzy"] = {
 			["texture"] = 136222,
@@ -26254,7 +26575,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136160,
 		},
 		["Enchant Boots - Lesser Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Fine Leather Boots"] = {
@@ -26267,7 +26588,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136071,
 		},
 		["Enlightenment"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136159,
 		},
 		["Chimeric Vest"] = {
@@ -26287,14 +26608,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135741,
 		},
 		["Kodo Kombobulator"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136245,
 		},
 		["Dreamless Sleep"] = {
 			["texture"] = 136090,
 		},
 		["Enchant 2H Weapon - Lesser Impact"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Flarecore Wraps"] = {
@@ -26305,7 +26626,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132266,
 		},
 		["Big Iron Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Slam"] = {
@@ -26321,7 +26642,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Red Mageweave Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Violet Raptor"] = {
 			["castTime"] = 3000,
@@ -26331,17 +26652,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 135963,
 		},
 		["Lizard Bolt"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136048,
 		},
 		["Fire Affinity"] = {
 			["texture"] = 135817,
 		},
 		["Recipe: Tender Wolf Steak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Call Bleak Worg"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 			["texture"] = 136130,
 		},
 		["Aura of Command"] = {
@@ -26366,13 +26687,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132090,
 		},
 		["Pattern: Phoenix Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enveloping Web"] = {
 			["texture"] = 136022,
 		},
 		["Silithid Pox"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136066,
 		},
 		["Dagger Specialization"] = {
@@ -26382,14 +26703,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 135995,
 		},
 		["Pattern: Wicked Leather Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elixir of Defense"] = {
 			["castTime"] = 3000,
 			["texture"] = 136021,
 		},
 		["Charged Scale of Onyxia"] = {
-			["castTime"] = 33750,
+			["castTime"] = 25000,
 			["texture"] = 134309,
 		},
 		["Power Word: Shield"] = {
@@ -26400,14 +26721,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134459,
 		},
 		["Soul Drain"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136169,
 		},
 		["Wisp Detonate"] = {
 			["texture"] = 136116,
 		},
 		["Plans: Runed Mithril Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Carrion Surprise"] = {
 			["castTime"] = 3000,
@@ -26418,7 +26739,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132267,
 		},
 		["Gnomish Ham Radio"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Staff Strike II (Disabled)"] = {
 			["texture"] = 132325,
@@ -26433,10 +26754,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135736,
 		},
 		["Formula: Enchant Weapon - Lesser Elemental Slayer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hellfire"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Spiced Wolf Meat"] = {
@@ -26444,7 +26765,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Purple Hands"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136208,
 		},
 		["Rough Bronze Shoulders"] = {
@@ -26467,21 +26788,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136058,
 		},
 		["Recipe: Giant Clam Scorcho"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Blue Beam"] = {
 			["texture"] = 136208,
 		},
 		["Death & Decay"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136144,
 		},
 		["Portal: Stormwind"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135748,
 		},
 		["Digging for Cobalt"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Fury of Ragnaros"] = {
 			["texture"] = 135933,
@@ -26491,33 +26812,33 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Conjure Stormpike Rank 6 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Conjure Stormpike Rank 5 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Gnomish Death Ray"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 			["texture"] = 136197,
 		},
 		["Conjure Stormpike Rank 4 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Conjure Stormpike Rank 3 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Cured Light Hide"] = {
 			["castTime"] = 5125,
 			["texture"] = 136021,
 		},
 		["Conjure Stormpike Rank 2 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Conjure Frostwolf Rank 6 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Pattern: Moonglow Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Forsaken Skill: Daggers"] = {
 			["texture"] = 135429,
@@ -26529,27 +26850,27 @@ NeatPlatesSpellDB = {
 			["texture"] = 132277,
 		},
 		["Conjure Frostwolf Rank 4 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Conjure Frostwolf Rank 2 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Melee Finesse"] = {
 			["texture"] = 132109,
 		},
 		["Ashcrombe's Unlock"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 136058,
 		},
 		["Conjure Frostwolf Rank 1 Insignia DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Ishamuhale"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136168,
 		},
 		["Ice Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135835,
 		},
 		["QAEnchant Boots +5 Spirit"] = {
@@ -26581,7 +26902,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134062,
 		},
 		["Plans: Frost Tiger Blade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cloud of Disease"] = {
 			["texture"] = 136006,
@@ -26604,18 +26925,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135327,
 		},
 		["Enchant Chest - Minor Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Teleport: Thunder Bluff"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135765,
 		},
 		["Testing Totem Passive"] = {
 			["texture"] = 135825,
 		},
 		["Scraping"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Hot Lion Chops"] = {
 			["castTime"] = 3000,
@@ -26628,14 +26949,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Holy Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Curse of Tongues"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136140,
 		},
 		["Summon Illusionary Dreamwatchers"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136222,
 		},
 		["Holiday - Lunar Teleport: Ironforge"] = {
@@ -26645,11 +26966,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135995,
 		},
 		["Tune Up"] = {
-			["castTime"] = 9450,
+			["castTime"] = 7000,
 			["texture"] = 132996,
 		},
 		["Recipe: Flask of Supreme Power"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Evil Twin"] = {
 			["texture"] = 136129,
@@ -26658,7 +26979,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Detect Lesser Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136153,
 		},
 		["Imbue Bracer - Minor Wisdom"] = {
@@ -26682,7 +27003,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Mooncloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sanctuary"] = {
 			["texture"] = 135926,
@@ -26691,7 +27012,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136163,
 		},
 		["Dispel Poison"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135949,
 		},
 		["Heavy Armor Kit"] = {
@@ -26699,10 +27020,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Recipe: Barbecued Buzzard Wing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recite Words of Celebras"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Solid Iron Maul"] = {
 			["castTime"] = 45000,
@@ -26718,13 +27039,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Pattern: Murloc Scale Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Scepter of Celebras"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Fill Deino's Flask"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Hamstring Rage Reduction"] = {
 			["texture"] = 132316,
@@ -26736,13 +27057,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136019,
 		},
 		["Recipe: Nature Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Unseen"] = {
 			["texture"] = 136047,
 		},
 		["Divining Trance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Radiant Breastplate"] = {
 			["castTime"] = 60000,
@@ -26758,7 +27079,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132275,
 		},
 		["Teleport from Azshara Tower"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136022,
 		},
 		["QAEnchant Shield +9 Spirit"] = {
@@ -26772,13 +27093,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136127,
 		},
 		["[PH] Teleport to Ratchet"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Mechano-Frostwalker Revert Passive"] = {
 			["texture"] = 135846,
 		},
 		["Simple Teleport Other"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135994,
 		},
 		["Summon Lava Spawn"] = {
@@ -26788,13 +27109,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136042,
 		},
 		["Pattern: Nightscape Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Collect Orange Crystal Liquid"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 		},
 		["Recipe: Flask of Petrification"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Smoke Cloud"] = {
 			["texture"] = 136047,
@@ -26817,13 +27138,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Tammra Sapling"] = {
-			["castTime"] = 1755,
+			["castTime"] = 1300,
 		},
 		["Purification Potion"] = {
 			["castTime"] = 3000,
 		},
 		["Copy of Frostbolt"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135846,
 		},
 		["Tough Scorpid Helm"] = {
@@ -26837,7 +27158,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136246,
 		},
 		["Goblin Rocket Fuel Recipe"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Savannah Cubs"] = {
 			["texture"] = 132140,
@@ -26856,18 +27177,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["Snowman"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 132387,
 		},
 		["TEST - JESSE"] = {
-			["castTime"] = 810,
+			["castTime"] = 600,
 			["texture"] = 135805,
 		},
 		["Drink Disease Bottle"] = {
 			["texture"] = 134799,
 		},
 		["Plans: Golden Scale Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mebok Smart Drink"] = {
 			["castTime"] = 3000,
@@ -26879,7 +27200,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136107,
 		},
 		["Pattern: Fine Leather Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hate to Half"] = {
 			["texture"] = 136190,
@@ -26892,7 +27213,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135824,
 		},
 		["Recipe: Grilled Squid"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mount Speed"] = {
 			["texture"] = 134010,
@@ -26917,13 +27238,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Conjure Ichman's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Spore Tree"] = {
 			["texture"] = 136006,
 		},
 		["Bly's Band's Escape"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 134414,
 		},
 		["Dusky Boots"] = {
@@ -26944,7 +27265,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136064,
 		},
 		["Shredder Armor Melt"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135818,
 		},
 		["Leech Poison"] = {
@@ -26957,7 +27278,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Pattern: Barbaric Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Planting Ryson's Beacon"] = {
 			["castTime"] = 5000,
@@ -26967,13 +27288,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Goblin Construction Helmet"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Unkillable Off"] = {
 			["texture"] = 135896,
 		},
 		["Pattern: Heavy Scorpid Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wand Mastery"] = {
 			["texture"] = 135140,
@@ -26982,7 +27303,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Recipe: Monster Omelet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Drain Soul"] = {
 			["texture"] = 136163,
@@ -27001,7 +27322,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136047,
 		},
 		["Flame Mantle of the Dawn"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Corrosive Ooze"] = {
 			["texture"] = 136119,
@@ -27026,10 +27347,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135736,
 		},
 		["Plans: Silvered Bronze Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Shadow Word: Befuddle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135915,
 		},
 		["Magma Spit"] = {
@@ -27055,11 +27376,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Enchant Bracer - Minor Deflect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Healthstone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135230,
 		},
 		["Shadow Dagger IV"] = {
@@ -27076,7 +27397,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Flames of Shahram"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Fine Leather Tunic"] = {
@@ -27087,10 +27408,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136074,
 		},
 		["Pattern: Glacial Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Small Green Rocket"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Smite Slam"] = {
 			["texture"] = 132939,
@@ -27099,11 +27420,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Ryson's All Seeing Eye"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132089,
 		},
 		["Cleanse Winterhoof Well"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Sillithus Flag, Horde, and speed limit (DND)"] = {
 			["texture"] = 132486,
@@ -27112,7 +27433,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132110,
 		},
 		["Pattern: Wizardweave Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fear Ward"] = {
 			["texture"] = 135902,
@@ -27124,20 +27445,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Syndicate Tracker (MURP) DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135736,
 		},
 		["Planting Jeztor's Beacon"] = {
 			["castTime"] = 5000,
 		},
 		["Aqual Quintessence - Dowse Molten Core Rune"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Conjure Mana Gem"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Guse's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Planting Guse's Beacon"] = {
 			["castTime"] = 5000,
@@ -27146,7 +27467,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136243,
 		},
 		["Teleport to Azshara Tower"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136011,
 		},
 		["Burning Tar"] = {
@@ -27160,21 +27481,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 136231,
 		},
 		["Lesser Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135994,
 		},
 		["Quiet Suicide"] = {
 			["texture"] = 136168,
 		},
 		["Recipe: Elixir of Minor Agility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ironforge Chain"] = {
 			["castTime"] = 12500,
 			["texture"] = 136192,
 		},
 		["Conjure Furis Felsteed DUMMY DND"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Demonic Frenzy"] = {
 			["texture"] = 136172,
@@ -27189,7 +27510,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136069,
 		},
 		["Eye of Yesmur (PT)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Ruthlessness"] = {
 			["texture"] = 132122,
@@ -27201,28 +27522,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Gargoyle Strike"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136197,
 		},
 		["Pattern: Crimson Silk Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fire Shield II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135817,
 		},
 		["Gryphon Wing Flap"] = {
 			["texture"] = 136022,
 		},
 		["The Big One"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Rogue Passive (DND)"] = {
 			["texture"] = 132320,
 		},
 		["Plans: Fiery Plate Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hands of Darkness"] = {
 			["castTime"] = 25000,
@@ -27232,32 +27553,32 @@ NeatPlatesSpellDB = {
 			["texture"] = 132387,
 		},
 		["Plans: Mithril Scale Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fire Storm"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135826,
 		},
 		["Mortar"] = {
 			["texture"] = 134538,
 		},
 		["Pattern: Frostweave Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Opening Secure Safe"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Fire II"] = {
 			["texture"] = 132153,
 		},
 		["Sharpen Blade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Deaden Magic"] = {
 			["texture"] = 135967,
 		},
 		["Recipe: Egg Nog"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Replenish Mana I"] = {
 			["texture"] = 134134,
@@ -27273,11 +27594,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Dispel Magic"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135894,
 		},
 		["Dowsing"] = {
-			["castTime"] = 4725,
+			["castTime"] = 3500,
 		},
 		["Seething Plague"] = {
 			["texture"] = 136127,
@@ -27289,30 +27610,30 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Summon Viper"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136084,
 		},
 		["Create Greater Healthstone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Taelan's Suffering Effect"] = {
 			["texture"] = 136133,
 		},
 		["Drive Nimboya's Laden Pike"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Stoned - Channel Cast Visual"] = {
 			["castTime"] = 3000,
 			["texture"] = 136018,
 		},
 		["Pattern: Spider Silk Slippers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Kaldorei Spider Kabob"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Turn Undead"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 135983,
 		},
 		["Green Whelp Armor"] = {
@@ -27342,10 +27663,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135819,
 		},
 		["Recipe: Slitherskin Mackerel"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Manastorm"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135857,
 		},
 		["Sharpened Claws"] = {
@@ -27361,7 +27682,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132330,
 		},
 		["Formula: Enchant Chest - Greater Stats"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ranged Weapon Specialization"] = {
 			["texture"] = 135615,
@@ -27379,10 +27700,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135923,
 		},
 		["Player Lost Eau d' Mixilpixil DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Flamestrike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135826,
 		},
 		["Cheetah Sprint"] = {
@@ -27392,7 +27713,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132277,
 		},
 		["Portal: Thunder Bluff"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135750,
 		},
 		["Larva Goo"] = {
@@ -27405,7 +27726,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136147,
 		},
 		["Beast Claws II"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136078,
 		},
 		["Pagle's Point Cast - Create Mudskunk Lure"] = {
@@ -27415,7 +27736,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Perm. Illusion Bishop Tyriona"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132288,
 		},
 		["Nature's Ally"] = {
@@ -27447,13 +27768,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Plans: Fiery Chain Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Wildthorn Mail"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rumsey Rum"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132790,
 		},
 		["Scorpid Poison"] = {
@@ -27467,7 +27788,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135805,
 		},
 		["Enchant 2H Weapon - Major Intellect"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Maine Coon"] = {
@@ -27478,19 +27799,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 135934,
 		},
 		["Schematic: Gnomish Universal Remote"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Demon Slaying 30"] = {
 			["texture"] = 136172,
 		},
 		["Pattern: Black Dragonscale Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Molten Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Corrosive Poison"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136016,
 		},
 		["White Linen Robe"] = {
@@ -27504,7 +27825,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132223,
 		},
 		["Pattern: Flarecore Mantle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Trip"] = {
 			["texture"] = 132309,
@@ -27525,26 +27846,26 @@ NeatPlatesSpellDB = {
 			["texture"] = 136223,
 		},
 		["Cripple"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136135,
 		},
 		["Stromgarde Death"] = {
 			["texture"] = 132151,
 		},
 		["Recipe: Free Action Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Mallet of Zul'Farrak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure Circle of Calling"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Elixir of Resistance"] = {
 			["texture"] = 134801,
 		},
 		["Create Soulstone (Greater)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136210,
 		},
 		["Spider Poison"] = {
@@ -27561,14 +27882,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 134310,
 		},
 		["Pattern: Stormcloth Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sand Breath"] = {
 			["castTime"] = 2000,
 			["texture"] = 135831,
 		},
 		["Spellpower Goggles Xtreme Plus"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Inner Courage 20"] = {
 			["texture"] = 136121,
@@ -27595,14 +27916,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136047,
 		},
 		["Enchant Bracer - Minor Agility"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Shadowskin II"] = {
 			["texture"] = 136047,
 		},
 		["Smoking Heart of the Mountain"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 134084,
 		},
 		["Runic Leather Gauntlets"] = {
@@ -27625,28 +27946,28 @@ NeatPlatesSpellDB = {
 			["texture"] = 132309,
 		},
 		["Heightened Senses"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132089,
 		},
 		["Underwater Breathing"] = {
 			["texture"] = 136148,
 		},
 		["Julie's Blessing"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135953,
 		},
 		["Pattern: Cindercloth Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ragnaros Emerge"] = {
-			["castTime"] = 3915,
+			["castTime"] = 2900,
 			["texture"] = 135819,
 		},
 		["Flurry Axe"] = {
 			["texture"] = 132350,
 		},
 		["Dark Iron Land Mine"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136172,
 		},
 		["Wrath of Ragnaros"] = {
@@ -27660,7 +27981,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136095,
 		},
 		["Magma Blast"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135813,
 		},
 		["Beast Slaying"] = {
@@ -27689,7 +28010,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Ruul Snowhoof Shapechange (DND)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Summon Fire Elemental"] = {
 			["texture"] = 135819,
@@ -27701,7 +28022,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135994,
 		},
 		["Conjure Slidore's Beacon DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Berserker Rage"] = {
 			["texture"] = 136009,
@@ -27711,7 +28032,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Curse of Archimonde"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136137,
 		},
 		["Persuader"] = {
@@ -27731,7 +28052,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135915,
 		},
 		["Teleport Moonbrook"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Tag: Arrow"] = {
 			["texture"] = 132212,
@@ -27755,18 +28076,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Purge"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136075,
 		},
 		["Tag: Green Glow"] = {
 			["texture"] = 136006,
 		},
 		["Regrowth"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136085,
 		},
 		["Recipe: Beer Basted Boar Ribs"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Meditation"] = {
 			["texture"] = 136013,
@@ -27782,17 +28103,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Gust of Wind"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136022,
 		},
 		["Toss Fuel on Bonfire"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Arantir's Rage"] = {
 			["texture"] = 132336,
 		},
 		["Enchanted Gaea Seed"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Improved Concentration Aura"] = {
 			["texture"] = 135933,
@@ -27811,7 +28132,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135920,
 		},
 		["Iron Strut"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Keeper's Sting"] = {
 			["texture"] = 135934,
@@ -27832,11 +28153,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 12500,
 		},
 		["Enchant Boots - Greater Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Summon Cyclonian"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 136022,
 		},
 		["Spiritual Focus"] = {
@@ -27850,13 +28171,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132325,
 		},
 		["Conjure Dull Flat Elven Blade DND"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Reckoning"] = {
 			["texture"] = 135882,
 		},
 		["Pattern: Runic Leather Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fiery Aura"] = {
 			["texture"] = 136051,
@@ -27865,7 +28186,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 20000,
 		},
 		["Formula: Smoking Heart of the Mountain"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sand Storm"] = {
 			["texture"] = 136022,
@@ -27878,7 +28199,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Frost Shield"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Intimidating Growl"] = {
 			["castTime"] = 1000,
@@ -27891,23 +28212,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 135993,
 		},
 		["Recipe: Cooked Glossy Mightfish"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Judgement of Light Intermediate"] = {
 			["texture"] = 135924,
 		},
 		["Recipe: Clam Chowder"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Evasive Slash IV"] = {
 			["texture"] = 132223,
 		},
 		["Fevered Fatigue"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136066,
 		},
 		["Formula: Enchant Weapon - Superior Striking"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Cower"] = {
 			["texture"] = 132118,
@@ -27919,13 +28240,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132297,
 		},
 		["Formula: Enchant Boots - Spirit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Charge Rage Bonus Effect"] = {
 			["texture"] = 132337,
 		},
 		["Focusing"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Soul Steal"] = {
 			["texture"] = 136163,
@@ -27934,36 +28255,36 @@ NeatPlatesSpellDB = {
 			["texture"] = 132089,
 		},
 		["Summon Embers"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135805,
 		},
 		["Enchant Weapon - Crusader"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Enchant Weapon - Unholy Weapon"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Earth Elemental"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Chest - Major Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Great Heal"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135915,
 		},
 		["Demonfork"] = {
 			["texture"] = 136169,
 		},
 		["Pattern: Star Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchant Chest - Major Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Immunity: Nature"] = {
@@ -27976,7 +28297,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135915,
 		},
 		["Plans: Polished Steel Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Skinning"] = {
 			["castTime"] = 2000,
@@ -27995,7 +28316,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Enchant Gloves - Greater Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Party Time!"] = {
@@ -28005,7 +28326,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132152,
 		},
 		["Enchant Bracer - Superior Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Corrosive Acid Breath"] = {
@@ -28029,19 +28350,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 135971,
 		},
 		["Plans: Invulnerable Mail"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Absorb Blow"] = {
 			["texture"] = 136225,
 		},
 		["Pattern: Mooncloth Circlet"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Infallible Mind"] = {
 			["texture"] = 135988,
 		},
 		["Piercing Shadow"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136130,
 		},
 		["Ivory Raptor"] = {
@@ -28058,7 +28379,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135827,
 		},
 		["Plans: Moonsteel Broadsword"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elixir of Minor Agility"] = {
 			["castTime"] = 3000,
@@ -28067,20 +28388,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 132208,
 		},
 		["Pattern: Sandstalker Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bull Rush"] = {
 			["texture"] = 132368,
 		},
 		["Recipe: Spiced Chili Crab"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Feral Spirit II"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136095,
 		},
 		["Soul Breaker"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136163,
 		},
 		["Improved Healing Wave"] = {
@@ -28093,13 +28414,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Rune of Opening"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Decay"] = {
 			["texture"] = 136132,
 		},
 		["Recipe: Greater Arcane Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Starfire"] = {
 			["texture"] = 135753,
@@ -28108,7 +28429,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Stormcloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Calm Dragonkin"] = {
 			["texture"] = 136046,
@@ -28117,15 +28438,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 136103,
 		},
 		["Mind Tremor"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136025,
 		},
 		["Enchant Chest - Minor Mana"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Gyrofreeze Ice Reflector"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Track Giants"] = {
 			["texture"] = 132275,
@@ -28137,11 +28458,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136107,
 		},
 		["Schematic: Thorium Shells"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Schematic: Dark Iron Bomb"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Reinforced Linen Cape"] = {
@@ -28159,22 +28480,22 @@ NeatPlatesSpellDB = {
 			["texture"] = 136163,
 		},
 		["Small Seaforium Charge"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Schematic: Thorium Rifle"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Detect Invisibility"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136152,
 		},
 		["Schematic: Thorium Grenade"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 134153,
 		},
 		["Formula: Enchant Weapon - Winter's Might"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dusky Belt"] = {
 			["castTime"] = 45000,
@@ -28193,7 +28514,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134374,
 		},
 		["Pattern: Felcloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Two-Handed Swords"] = {
 			["texture"] = 132223,
@@ -28219,16 +28540,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Thorium Shells"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Thorium Tube"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Improved Hammer of Justice"] = {
 			["texture"] = 135963,
 		},
 		["Arugal spawn-in spell"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Ragnaros Submerge Visual"] = {
 			["texture"] = 135830,
@@ -28240,10 +28561,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132288,
 		},
 		["Formula: Enchant Gloves - Advanced Herbalism"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Rejuvenation"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136081,
 		},
 		["Admiral's Hat"] = {
@@ -28257,10 +28578,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136102,
 		},
 		["Plans: Mighty Iron Hammer"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Elemental Fire"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 135808,
 		},
 		["Shoot Crossbow"] = {
@@ -28277,10 +28598,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136172,
 		},
 		["Basilisk Sample"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thorium Grenade"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Concentration Aura"] = {
@@ -28290,7 +28611,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Blessing of Wisdom"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135970,
 		},
 		["Gnomish Engineering"] = {
@@ -28301,10 +28622,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Dark Iron Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arugal's Gift"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136130,
 		},
 		["Brown Linen Pants"] = {
@@ -28312,7 +28633,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Banish Burning Exile"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136168,
 		},
 		["Crystal Ward"] = {
@@ -28332,7 +28653,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Plans: Golden Scale Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Thrash"] = {
 			["texture"] = 132152,
@@ -28362,7 +28683,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Imbue Cloak - Minor Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Overdrive"] = {
@@ -28382,23 +28703,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 132127,
 		},
 		["Destroy Ghost Magnet"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Pattern: Argent Shoulders"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Hawk Eye"] = {
 			["texture"] = 132327,
 		},
 		["Imbue Cloak - Lesser Protection"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Strong Cleave"] = {
 			["texture"] = 132338,
 		},
 		["Summon Drakefire Amulet DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Transmute: Air to Fire"] = {
 			["castTime"] = 25000,
@@ -28431,21 +28752,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 135127,
 		},
 		["Revive Dig Rat"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135955,
 		},
 		["Lethal Shots"] = {
 			["texture"] = 132312,
 		},
 		["Healing Wave"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136052,
 		},
 		["Improved Concussive Shot"] = {
 			["texture"] = 135860,
 		},
 		["Runed Golden Rod"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 135147,
 		},
 		["Shadow Focus"] = {
@@ -28458,7 +28779,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132090,
 		},
 		["Plans: Green Iron Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Wyvern Sting"] = {
 			["texture"] = 135125,
@@ -28500,17 +28821,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 132155,
 		},
 		["Plans: Iron Counterweight"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Conjure: Lockpick"] = {
 			["texture"] = 136058,
 		},
 		["Iron Grenade"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Terror (TEST)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136122,
 		},
 		["Deterrence"] = {
@@ -28524,14 +28845,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 132309,
 		},
 		["Pattern: Wicked Leather Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Sleep"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136090,
 		},
 		["Pattern: Frostsaber Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Test Tickle"] = {
 			["texture"] = 136168,
@@ -28547,7 +28868,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132486,
 		},
 		["Arcane Bolt"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135753,
 		},
 		["Dodge Mastery"] = {
@@ -28560,19 +28881,19 @@ NeatPlatesSpellDB = {
 			["texture"] = 132337,
 		},
 		["Pattern: Blue Dragonscale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Barbaric Iron Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Frostsaber Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Intellect IX"] = {
 			["texture"] = 134721,
 		},
 		["Pattern: Heavy Scorpid Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Eye Peck"] = {
 			["texture"] = 132156,
@@ -28582,23 +28903,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Opening Secret Safe"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Ivus Teleport Visual DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Improved Judgement"] = {
 			["texture"] = 135959,
 		},
 		["Form of the Moonstalker (no invis)"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132156,
 		},
 		["Avatar"] = {
 			["texture"] = 132275,
 		},
 		["Identify Brood"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135990,
 		},
 		["MHTest02 Effect"] = {
@@ -28621,7 +28942,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 134139,
 		},
 		["Catseye Ultra Goggles"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Reckless Assault V"] = {
 			["texture"] = 132316,
@@ -28640,11 +28961,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Beast Claws"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136078,
 		},
 		["Pattern: Tough Scorpid Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Volcanic Breastplate"] = {
 			["castTime"] = 60000,
@@ -28667,7 +28988,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136197,
 		},
 		["Portal: Darnassus"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135741,
 		},
 		["Trueshot"] = {
@@ -28677,7 +28998,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135966,
 		},
 		["Formula: Enchant Bracer - Superior Strength"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Smashing Blow"] = {
 			["texture"] = 132326,
@@ -28689,13 +29010,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132091,
 		},
 		["Goblin Mining Helmet"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Burst of Energy"] = {
 			["texture"] = 135871,
 		},
 		["Toast Smorc"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 		},
 		["Mace Stun Effect"] = {
 			["texture"] = 135860,
@@ -28713,7 +29034,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136040,
 		},
 		["Summon Lunaclaw"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Head Shot"] = {
 			["texture"] = 132153,
@@ -28725,10 +29046,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132150,
 		},
 		["Opening Termite Barrel"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Plans: Black Amnesty"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bronze Axe"] = {
 			["castTime"] = 12500,
@@ -28748,32 +29069,32 @@ NeatPlatesSpellDB = {
 			["texture"] = 132179,
 		},
 		["Create Nimboya's Laden Pike"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Summon Scarlet Snake"] = {
 			["castTime"] = 1000,
 			["texture"] = 132311,
 		},
 		["Sense Undead"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135974,
 		},
 		["Create Fervor Potion (New)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136168,
 		},
 		["Plans: Gemmed Copper Gauntlets"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arlokk Transform"] = {
 			["texture"] = 136172,
 		},
 		["Backhand"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132939,
 		},
 		["Plunging Blade into Onyxia"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Improved Ghost Wolf"] = {
 			["texture"] = 136095,
@@ -28792,55 +29113,55 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Hex"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136071,
 		},
 		["Altered Cauldron Toxin"] = {
 			["texture"] = 135903,
 		},
 		["Dimensional Ripper - Everlook"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Charge Stave of Equinex"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Capture Spirit"] = {
 			["texture"] = 136163,
 		},
 		["Solid Blasting Powder"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 		},
 		["Nimble Leather Gloves"] = {
 			["castTime"] = 8000,
 			["texture"] = 136021,
 		},
 		["Recipe: Lesser Stoneshield Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["GM Only OFF"] = {
 			["texture"] = 132349,
 		},
 		["Corrupt Redpath"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Pattern: Enchanter's Cowl"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Nullify Disease"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136083,
 		},
 		["Knockback"] = {
 			["texture"] = 132219,
 		},
 		["Pattern: Truefaith Vestments"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Opening Safe"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Sweep"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136104,
 		},
 		["Immolate Visual Passive"] = {
@@ -28854,7 +29175,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135843,
 		},
 		["Summon Spawn of Bael'Gar"] = {
-			["castTime"] = 5400,
+			["castTime"] = 4000,
 			["texture"] = 135819,
 		},
 		["Disease Cleansing Totem Passive"] = {
@@ -28867,7 +29188,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135826,
 		},
 		["Pattern: Runecloth Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Wrath Phantom"] = {
 			["texture"] = 136122,
@@ -28876,14 +29197,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136066,
 		},
 		["Wing Buffet"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 134316,
 		},
 		["Pattern: Ghostweave Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Brightcloth Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Lathoric the Black"] = {
 			["texture"] = 132331,
@@ -28896,7 +29217,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Pyroblast"] = {
-			["castTime"] = 8100,
+			["castTime"] = 6000,
 			["texture"] = 135808,
 		},
 		["Turtle Scale Breastplate"] = {
@@ -28904,17 +29225,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Pattern: Ghostweave Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stormcloth Vest"] = {
 			["castTime"] = 60000,
 			["texture"] = 132149,
 		},
 		["Pattern: Frostweave Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Enchanting Lullaby"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136209,
 		},
 		["Orcish War Leggings"] = {
@@ -28948,15 +29269,15 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Soul Fire"] = {
-			["castTime"] = 8100,
+			["castTime"] = 6000,
 			["texture"] = 135808,
 		},
 		["Create Firestone (Lesser)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132386,
 		},
 		["Plans: Golden Scale Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Brightcloth Cloak"] = {
 			["castTime"] = 60000,
@@ -28970,13 +29291,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Plans: Demon Forged Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Barbaric Leggings"] = {
 			["castTime"] = 45000,
 		},
 		["Plans: Ornate Mithril Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Light of Elune"] = {
 			["texture"] = 135954,
@@ -29019,21 +29340,21 @@ NeatPlatesSpellDB = {
 			["texture"] = 135933,
 		},
 		["Enchant Gloves - Riding Skill"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Shadow Bolt"] = {
-			["castTime"] = 2295,
+			["castTime"] = 1700,
 			["texture"] = 136197,
 		},
 		["Recipe: Elixir of Poison Resistance"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Headmaster's Charge"] = {
 			["texture"] = 136232,
 		},
 		["Recipe: Lobster Stew"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Force of Will"] = {
 			["texture"] = 133276,
@@ -29042,10 +29363,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135893,
 		},
 		["Recipe: Poached Sunscale Salmon"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Path of the Berserker"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Abolish Poison"] = {
 			["texture"] = 136068,
@@ -29079,7 +29400,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Schematic: Sniper Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Chill Nova"] = {
 			["texture"] = 135848,
@@ -29088,8 +29409,11 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 			["texture"] = 132264,
 		},
+		["Idle"] = {
+			["texture"] = 132156,
+		},
 		["Plans: Runed Copper Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Stone Skin Passive"] = {
 			["texture"] = 132154,
@@ -29110,10 +29434,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Pattern: Herbalist's Gloves"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Plans: Dark Iron Plate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Bloodscalp Pet"] = {
 			["texture"] = 136095,
@@ -29122,30 +29446,30 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Call of the Grave"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136130,
 		},
 		["Plans: Iron Shield Spike"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gem of the Serpent"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Elune's Grace"] = {
 			["texture"] = 135900,
 		},
 		["Lesser Healing Wave"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136043,
 		},
 		["Flask of Distilled Wisdom"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 		},
 		["Whirring Bronze Gizmo"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Suffering"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136123,
 		},
 		["dmg5"] = {
@@ -29171,10 +29495,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Green Dragonscale Breastplate"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Presence of Death"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136195,
 		},
 		["Summon Gray Tallstrider"] = {
@@ -29191,11 +29515,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Enchant Shield - Greater Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Create Firestone (Greater)"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132386,
 		},
 		["Infected Wound"] = {
@@ -29217,7 +29541,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135865,
 		},
 		["Gnomish Harm Prevention Belt"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Light Torch"] = {
 			["castTime"] = 3000,
@@ -29249,7 +29573,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Enchant Bracer - Mana Regeneration"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Improved Drain Life"] = {
@@ -29259,7 +29583,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136133,
 		},
 		["Pattern: Brightcloth Robe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ghost"] = {
 			["texture"] = 132331,
@@ -29268,7 +29592,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Acid Spit"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136007,
 		},
 		["Green Silk Pack"] = {
@@ -29279,18 +29603,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Slave Drain"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136130,
 		},
 		["Fake Death"] = {
 			["texture"] = 136187,
 		},
 		["Linken's Boomerang"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 			["texture"] = 135646,
 		},
 		["Forgiveness"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Elixir of Lion's Strength"] = {
 			["castTime"] = 3000,
@@ -29300,18 +29624,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 133748,
 		},
 		["Curse of the Deadwood"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136160,
 		},
 		["Arcane Missiles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136096,
 		},
 		["Earthgrab"] = {
 			["texture"] = 136064,
 		},
 		["Summon Cloak of Unending Life DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Force Target - Bow"] = {
 			["texture"] = 136168,
@@ -29329,7 +29653,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136168,
 		},
 		["Recipe: Brilliant Smallfish"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Charm Beast"] = {
 			["texture"] = 136036,
@@ -29353,14 +29677,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136121,
 		},
 		["Teleport: Stormwind"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 135763,
 		},
 		["Summon Spectral Projections"] = {
 			["texture"] = 136222,
 		},
 		["Sludge Toxin"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136077,
 		},
 		["Peon Disguise"] = {
@@ -29387,10 +29711,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136145,
 		},
 		["Recipe: Shadow Oil"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Gnomish Universal Remote"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Rip"] = {
 			["texture"] = 132152,
@@ -29407,14 +29731,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Recipe: Transmute Earth to Water"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Nightscape Headband"] = {
 			["castTime"] = 60000,
 			["texture"] = 136021,
 		},
 		["Recipe: Elixir of Brute Force"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Major Mana Potion"] = {
 			["castTime"] = 3000,
@@ -29426,7 +29750,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136018,
 		},
 		["Transmute: Water to Undeath"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Major Healing Potion"] = {
@@ -29442,7 +29766,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132110,
 		},
 		["Formula: Enchant Shield - Lesser Protection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Dredge Sickness"] = {
 			["texture"] = 136066,
@@ -29455,7 +29779,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135923,
 		},
 		["Summon Screecher Spirit"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Hand of Thaurissan"] = {
 			["texture"] = 135807,
@@ -29477,7 +29801,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132247,
 		},
 		["Enchant Bracer - Minor Strength"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Rushing Charge"] = {
@@ -29490,7 +29814,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136075,
 		},
 		["Pattern: Raptor Hide Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Balnazzar Transform"] = {
 			["texture"] = 136129,
@@ -29508,7 +29832,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136122,
 		},
 		["Recipe: Greater Fire Protection Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Create Tuber"] = {
 			["texture"] = 133748,
@@ -29520,10 +29844,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135849,
 		},
 		["Teleport Anvilmar"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Create Pamela's Doll"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 		},
 		["Holy Strike"] = {
 			["texture"] = 132325,
@@ -29539,13 +29863,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135928,
 		},
 		["Plans: Heavy Mithril Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Shifting Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flame Spray"] = {
-			["castTime"] = 2295,
+			["castTime"] = 1700,
 			["texture"] = 135805,
 		},
 		["Flames"] = {
@@ -29555,7 +29879,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132939,
 		},
 		["Demon Breath"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136081,
 		},
 		["Shadow Reflector"] = {
@@ -29579,13 +29903,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135975,
 		},
 		["Minor Recombobulator"] = {
-			["castTime"] = 5000,
+			["castTime"] = 12500,
 		},
 		["Feral Instinct"] = {
 			["texture"] = 132089,
 		},
 		["Enchant Bracer - Lesser Stamina"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Thick Hide"] = {
@@ -29605,10 +29929,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 135923,
 		},
 		["Weapon Chain"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Flamecrack"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 135805,
 		},
 		["Crimson Fury"] = {
@@ -29618,7 +29942,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136006,
 		},
 		["Chain Heal"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 136042,
 		},
 		["Tiny Bronze Key"] = {
@@ -29646,7 +29970,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132343,
 		},
 		["Plans: Lionheart Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Argus Shadow Mage Transform"] = {
 			["texture"] = 136230,
@@ -29666,17 +29990,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136058,
 		},
 		["Plans: Radiant Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Talvash's Necklace Repair"] = {
-			["castTime"] = 6075,
+			["castTime"] = 4500,
 			["texture"] = 135954,
 		},
 		["Lesser Strength"] = {
 			["texture"] = 134838,
 		},
 		["Plans: Thorium Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Imperial Plate Chest"] = {
 			["castTime"] = 60000,
@@ -29690,34 +30014,34 @@ NeatPlatesSpellDB = {
 			["texture"] = 136063,
 		},
 		["Opening Benedict's Chest"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Summon Risen Lackey"] = {
 			["castTime"] = 2000,
 			["texture"] = 136187,
 		},
 		["Toasted Smorc"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135267,
 		},
 		["Formula: Enchant Bracer - Deflection"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Ironforge Breastplate"] = {
 			["castTime"] = 12500,
 			["texture"] = 136192,
 		},
 		["Pattern: Nightscape Cloak"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Weakened Soul"] = {
 			["texture"] = 135871,
 		},
 		["Empty Phial"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Imbue Chest - Absorb"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Blinding Powder"] = {
@@ -29725,13 +30049,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 133588,
 		},
 		["Gnomish Goggles"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 		},
 		["Noggenfogger Elixir"] = {
 			["texture"] = 136187,
 		},
 		["Disturb Rookery Egg"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Piercing Screech"] = {
 			["texture"] = 136230,
@@ -29753,7 +30077,7 @@ NeatPlatesSpellDB = {
 			["castTime"] = 60000,
 		},
 		["Evil Eye"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136129,
 		},
 		["Summon Explosive Sheep"] = {
@@ -29763,25 +30087,25 @@ NeatPlatesSpellDB = {
 			["texture"] = 136067,
 		},
 		["Goblin Mortar"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Crafted Solid Shot"] = {
-			["castTime"] = 3000,
+			["castTime"] = 5125,
 		},
 		["Invigorate"] = {
 			["texture"] = 135913,
 		},
 		["Mind Bomb"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136174,
 		},
 		["Crypt Scarabs"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 136128,
 		},
 		["Temperature Reading"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Sword Power"] = {
 			["texture"] = 132223,
@@ -29793,7 +30117,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136018,
 		},
 		["Leper Cure!"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135907,
 		},
 		["MACESTAFFSPECIAL (DND)"] = {
@@ -29819,10 +30143,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Far Sight (PT)"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Polymorph: Sheep"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136071,
 		},
 		["Gray Ram"] = {
@@ -29846,18 +30170,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 132311,
 		},
 		["Enchant Shield - Frost Resistance"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Freeze Solid"] = {
-			["castTime"] = 3375,
+			["castTime"] = 2500,
 			["texture"] = 135852,
 		},
 		["Demon Slaying 45"] = {
 			["texture"] = 136172,
 		},
 		["Recipe: Crispy Bat Wing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Healing Ward V Passive"] = {
 			["texture"] = 136222,
@@ -29866,13 +30190,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 136104,
 		},
 		["Recipe: Carrion Surprise"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Arantir's Anger Effect"] = {
 			["texture"] = 132369,
 		},
 		["Rebirth"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136080,
 		},
 		["Spirit Burn II"] = {
@@ -29910,10 +30234,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 136163,
 		},
 		["Activating Defenses"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Scare Beast"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 132118,
 		},
 		["Dismember"] = {
@@ -29933,10 +30257,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132149,
 		},
 		["Sacrifice Spinneret"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Prayer of Healing"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135943,
 		},
 		["Anathema"] = {
@@ -29952,7 +30276,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135879,
 		},
 		["Ryson's Eye in the Sky"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132172,
 		},
 		["Mass Dispell"] = {
@@ -29971,17 +30295,17 @@ NeatPlatesSpellDB = {
 			["castTime"] = 5000,
 		},
 		["Recipe: Major Healing Potion"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Battle Shout"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 132333,
 		},
 		["Draining Touch"] = {
 			["texture"] = 136130,
 		},
 		["Simple Teleport Group"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135994,
 		},
 		["Dark Iron Shoulders"] = {
@@ -29989,11 +30313,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Chain Burn"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136170,
 		},
 		["Create Lesser Healthstone"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Linen Belt"] = {
 			["castTime"] = 5125,
@@ -30021,16 +30345,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 135817,
 		},
 		["Throw Dark Iron Ale"] = {
-			["castTime"] = 675,
+			["castTime"] = 500,
 		},
 		["Recipe: Crispy Lizard Tail"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Holiday - Lunar Teleport Cap: Stormwind"] = {
 			["texture"] = 135758,
 		},
 		["Slow Poison"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136093,
 		},
 		["Sneak"] = {
@@ -30040,14 +30364,14 @@ NeatPlatesSpellDB = {
 			["castTime"] = 25000,
 		},
 		["Weak Frostbolt"] = {
-			["castTime"] = 2970,
+			["castTime"] = 2200,
 			["texture"] = 135846,
 		},
 		["Stoneshield"] = {
 			["texture"] = 134847,
 		},
 		["Punctured Voodoo Doll HUN DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Harvest Soul"] = {
 			["texture"] = 136137,
@@ -30059,14 +30383,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Ez-Thro Dynamite"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Echoes of Lordaeron UNUSED"] = {
 			["texture"] = 132486,
 		},
 		["Pattern: Earthen Silk Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Earthquake"] = {
 			["texture"] = 136025,
@@ -30075,14 +30399,14 @@ NeatPlatesSpellDB = {
 			["texture"] = 136123,
 		},
 		["Nullify Mana"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136141,
 		},
 		["Feast of Prey"] = {
 			["texture"] = 132278,
 		},
 		["Poisonous Spit"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136016,
 		},
 		["Place Toxic Fogger"] = {
@@ -30101,7 +30425,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136222,
 		},
 		["Nightcrawlers"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 136245,
 		},
 		["Fishing Skill +100"] = {
@@ -30117,17 +30441,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136240,
 		},
 		["Divining Scroll Spell"] = {
-			["castTime"] = 2025,
+			["castTime"] = 1500,
 			["texture"] = 134938,
 		},
 		["Pattern: Runed Stygian Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Silent Resolve"] = {
 			["texture"] = 136053,
 		},
 		["Transform Victim"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135994,
 		},
 		["Fake Shot"] = {
@@ -30164,7 +30488,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135439,
 		},
 		["Frost Armor"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135843,
 		},
 		["Dire Wolf (TEST)"] = {
@@ -30174,18 +30498,18 @@ NeatPlatesSpellDB = {
 			["texture"] = 136188,
 		},
 		["Hearthstone"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 			["texture"] = 134414,
 		},
 		["Journeyman Skinning"] = {
 			["texture"] = 134366,
 		},
 		["Enchant Bracer - Minor Health"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Big Bronze Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Cleave"] = {
@@ -30193,7 +30517,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132338,
 		},
 		["Auto Shot"] = {
-			["texture"] = 135496,
+			["texture"] = 132369,
 		},
 		["Remorseless"] = {
 			["texture"] = 132151,
@@ -30202,24 +30526,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 135913,
 		},
 		["Goblin Sapper Charge"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 			["texture"] = 135826,
 		},
 		["Rabies"] = {
 			["texture"] = 135914,
 		},
 		["Pattern: Deviate Scale Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Alchemy"] = {
 			["texture"] = 136240,
 		},
 		["Transmute: Undeath to Water"] = {
-			["castTime"] = 25000,
+			["castTime"] = 10000,
 			["texture"] = 134459,
 		},
 		["Formula: Enchant Gloves - Minor Riding"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Siphon Life"] = {
 			["texture"] = 136188,
@@ -30228,11 +30552,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 135441,
 		},
 		["Enchant Shield - Greater Spirit"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 			["texture"] = 135913,
 		},
 		["Pattern: Volcanic Leggings"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Test of Faith"] = {
 			["texture"] = 136022,
@@ -30254,7 +30578,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 132153,
 		},
 		["\"Plucky\" Resumes Chicken Form"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132276,
 		},
 		["Runed Copper Breastplate"] = {
@@ -30262,23 +30586,23 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Corruption"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136118,
 		},
 		["Evasion"] = {
 			["texture"] = 136205,
 		},
 		["Opening Dark Coffer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Pattern: Barbaric Bracers"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Opening Relic Coffer"] = {
-			["castTime"] = 6750,
+			["castTime"] = 5000,
 		},
 		["Group Astral Recall"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136011,
 		},
 		["Sweeping Slam"] = {
@@ -30307,13 +30631,13 @@ NeatPlatesSpellDB = {
 			["texture"] = 135990,
 		},
 		["Summon Augur's Bracers DND"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Spice Shockwave"] = {
 			["texture"] = 132965,
 		},
 		["Gas Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 133581,
 		},
 		["Thrown Finesse"] = {
@@ -30324,16 +30648,16 @@ NeatPlatesSpellDB = {
 			["texture"] = 132273,
 		},
 		["Goblin \"Boom\" Box"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Script Test"] = {
 			["texture"] = 136006,
 		},
 		["Pattern: Gem-studded Leather Belt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Target Dummy"] = {
-			["castTime"] = 4000,
+			["castTime"] = 8000,
 			["texture"] = 136172,
 		},
 		["Awaken Earthen Guardians"] = {
@@ -30343,24 +30667,24 @@ NeatPlatesSpellDB = {
 			["texture"] = 136241,
 		},
 		["Lift Seal"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 		},
 		["Deadly Blunderbuss"] = {
-			["castTime"] = 10000,
+			["castTime"] = 25000,
 		},
 		["Schematic: Bright-Eye Goggles"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Mithril Mechanical Dragonling"] = {
-			["castTime"] = 15000,
+			["castTime"] = 45000,
 			["texture"] = 134153,
 		},
 		["Large Copper Bomb"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 135826,
 		},
 		["Inferno"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 136219,
 		},
 		["Flametongue Attack"] = {
@@ -30370,20 +30694,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136071,
 		},
 		["Blood Pact"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136124,
 		},
 		["Insect Swarm"] = {
 			["texture"] = 136045,
 		},
 		["Sniper Scope"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Recipe: Murloc Fin Soup"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Blue Linen Vest"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pounce"] = {
 			["texture"] = 132142,
@@ -30396,7 +30720,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135865,
 		},
 		["Curse of Stalvan"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136203,
 		},
 		["Virulent Poison"] = {
@@ -30416,17 +30740,17 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Pattern: Tuxedo Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Crispy Bat Wing"] = {
 			["castTime"] = 3000,
 			["texture"] = 136192,
 		},
 		["Pattern: Ghostweave Pants"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Pattern: Red Mageweave Headband"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Expert Enchanting"] = {
 			["texture"] = 136244,
@@ -30450,13 +30774,13 @@ NeatPlatesSpellDB = {
 			["castTime"] = 3000,
 		},
 		["Plans: Shadow Crescent Axe"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Fishing Skill +5"] = {
 			["texture"] = 136245,
 		},
 		["Call of Sul'thraze"] = {
-			["castTime"] = 13500,
+			["castTime"] = 10000,
 		},
 		["Potent Alcohol"] = {
 			["texture"] = 132796,
@@ -30468,7 +30792,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136022,
 		},
 		["Serpentine Cleansing"] = {
-			["castTime"] = 40500,
+			["castTime"] = 30000,
 			["texture"] = 136168,
 		},
 		["Heavy Woolen Pants"] = {
@@ -30486,7 +30810,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136232,
 		},
 		["Throw Axe"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 132399,
 		},
 		["Disengage"] = {
@@ -30503,7 +30827,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 135850,
 		},
 		["Polymorph: Pig"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 135997,
 		},
 		["Geyser"] = {
@@ -30519,7 +30843,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136115,
 		},
 		["Tharnariun Cure 1"] = {
-			["castTime"] = 1012,
+			["castTime"] = 750,
 			["texture"] = 136083,
 		},
 		["Net Guard"] = {
@@ -30529,7 +30853,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136240,
 		},
 		["Viewing Room Student Transform - Effect"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 		},
 		["Infinite Wisdom Shadow Word: Pain Bonus"] = {
 			["texture"] = 136081,
@@ -30542,11 +30866,11 @@ NeatPlatesSpellDB = {
 			["texture"] = 136192,
 		},
 		["Beast Claws III"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136078,
 		},
 		["Pattern: Rich Purple Silk Shirt"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Summon Cornish Rex"] = {
 			["castTime"] = 1000,
@@ -30570,7 +30894,7 @@ NeatPlatesSpellDB = {
 			["texture"] = 136021,
 		},
 		["Plant Magic Beans"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 134059,
 		},
 		["Mind Rot II"] = {
@@ -30580,20 +30904,20 @@ NeatPlatesSpellDB = {
 			["texture"] = 136097,
 		},
 		["Schematic: Mechanical Squirrel"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["The Forming"] = {
-			["castTime"] = 1350,
+			["castTime"] = 1000,
 			["texture"] = 136164,
 		},
 		["Plans: Ornate Mithril Helm"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Track Humanoid"] = {
 			["texture"] = 132328,
 		},
 		["Scarlet Resurrection"] = {
-			["castTime"] = 2700,
+			["castTime"] = 2000,
 			["texture"] = 135955,
 		},
 		["Battle Stance"] = {
@@ -30606,10 +30930,10 @@ NeatPlatesSpellDB = {
 			["texture"] = 132366,
 		},
 		["Pattern: Fine Leather Boots"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 		},
 		["Drain Life"] = {
-			["castTime"] = 4050,
+			["castTime"] = 3000,
 			["texture"] = 136169,
 		},
 		["Embossed Leather Gloves"] = {
@@ -30621,18 +30945,18 @@ NeatPlatesSpellDB = {
 		},
 	},
 	["Pet"] = {
-		["Prowl"] = {
-			["7432"] = {
-			},
-		},
 		["Phase Shift"] = {
 			["416"] = {
 				["castTime"] = 7224,
 			},
 		},
+		["Prowl"] = {
+			["2850"] = {
+			},
+		},
 		["Firebolt"] = {
 			["416"] = {
-				["castTime"] = 2001,
+				["castTime"] = 2007,
 			},
 		},
 		["Blood Pact"] = {
@@ -30652,7 +30976,7 @@ NeatPlatesSpellDB = {
 		},
 		["Seduction"] = {
 			["1863"] = {
-				["castTime"] = 1433,
+				["castTime"] = 1500,
 			},
 		},
 	},

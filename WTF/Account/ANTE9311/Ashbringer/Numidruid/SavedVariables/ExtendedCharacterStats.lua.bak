@@ -1,176 +1,225 @@
 
 ExtendedCharacterStats = {
-	["Profile"] = {
-		["Ranged"] = {
-			["Hit"] = {
-				["Display"] = true,
-				["Text"] = "Hit Modifier: ",
-				["RefName"] = "RangedHit",
+	["profile"] = {
+		["ranged"] = {
+			["hit"] = {
+				["bossLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance (Lvl + 3): ",
+					["refName"] = "RangedHitBossLevel",
+				},
+				["isSubGroup"] = true,
+				["display"] = true,
+				["sameLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance: ",
+					["refName"] = "RangedHitSameLevel",
+				},
+				["text"] = "Hit",
+				["refName"] = "RangedHitHeader",
+				["bonus"] = {
+					["display"] = true,
+					["text"] = "Bonus: ",
+					["refName"] = "RangedHitBonus",
+				},
 			},
-			["Display"] = true,
-			["Text"] = "Ranged",
-			["RefName"] = "RangedHeader",
-			["Crit"] = {
-				["Display"] = true,
-				["Text"] = "Crit: ",
-				["RefName"] = "RangedCritChance",
-			},
-		},
-		["Defense"] = {
-			["Text"] = "Defense",
-			["Dodge"] = {
-				["Display"] = true,
-				["Text"] = "Dodge: ",
-				["RefName"] = "DodgeChance",
-			},
-			["Display"] = true,
-			["Block"] = {
-				["Display"] = true,
-				["Text"] = "Block: ",
-				["RefName"] = "BlockChance",
-			},
-			["RefName"] = "DefenseHeader",
-			["Parry"] = {
-				["Display"] = true,
-				["Text"] = "Parry: ",
-				["RefName"] = "ParryChance",
+			["display"] = true,
+			["text"] = "Ranged",
+			["refName"] = "RangedHeader",
+			["crit"] = {
+				["display"] = true,
+				["text"] = "Crit: ",
+				["refName"] = "RangedCritChance",
 			},
 		},
-		["Melee"] = {
-			["Hit"] = {
-				["Display"] = true,
-				["Text"] = "Hit Modifier: ",
-				["RefName"] = "MeleeHit",
+		["defense"] = {
+			["text"] = "Defense",
+			["dodge"] = {
+				["display"] = true,
+				["text"] = "Dodge: ",
+				["refName"] = "DodgeChance",
 			},
-			["Display"] = true,
-			["Text"] = "Melee",
-			["RefName"] = "MeleeHeader",
-			["Crit"] = {
-				["Display"] = true,
-				["Text"] = "Crit: ",
-				["RefName"] = "MeleeCritChance",
+			["display"] = true,
+			["block"] = {
+				["display"] = true,
+				["text"] = "Block: ",
+				["refName"] = "BlockChance",
 			},
-		},
-		["Spell"] = {
-			["Hit"] = {
-				["Display"] = true,
-				["Text"] = "Hit Modifier: ",
-				["RefName"] = "SpellHit",
-			},
-			["Display"] = false,
-			["Text"] = "Spell",
-			["RefName"] = "SpellHeader",
-			["Crit"] = {
-				["Display"] = true,
-				["Text"] = "Crit: ",
-				["RefName"] = "SpellCritChance",
+			["refName"] = "DefenseHeader",
+			["parry"] = {
+				["display"] = true,
+				["text"] = "Parry: ",
+				["refName"] = "ParryChance",
 			},
 		},
-		["SpellBonus"] = {
-			["PhysicalCrit"] = {
-				["Display"] = true,
-				["Text"] = "Physical Crit: ",
-				["RefName"] = "PhysicalCritChance",
+		["melee"] = {
+			["hit"] = {
+				["bossLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance (Lvl + 3): ",
+					["refName"] = "MeleeHitBossLevel",
+				},
+				["isSubGroup"] = true,
+				["display"] = true,
+				["sameLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance: ",
+					["refName"] = "MeleeHitSameLevel",
+				},
+				["text"] = "Hit",
+				["refName"] = "MeleeHitHeader",
+				["bonus"] = {
+					["display"] = true,
+					["text"] = "Bonus: ",
+					["refName"] = "MeleeHitBonus",
+				},
 			},
-			["ArcaneCrit"] = {
-				["Display"] = true,
-				["Text"] = "Arcane Crit: ",
-				["RefName"] = "ArcaneCritChance",
-			},
-			["NatureDmg"] = {
-				["Display"] = true,
-				["Text"] = "Nature Damage: ",
-				["RefName"] = "NatureDmg",
-			},
-			["HolyDmg"] = {
-				["Display"] = true,
-				["Text"] = "Holy Damage: ",
-				["RefName"] = "HolyDmg",
-			},
-			["FrostCrit"] = {
-				["Display"] = true,
-				["Text"] = "Frost Crit: ",
-				["RefName"] = "FrostCritChance",
-			},
-			["FireDmg"] = {
-				["Display"] = true,
-				["Text"] = "Fire Damage: ",
-				["RefName"] = "FireDmg",
-			},
-			["BonusHealing"] = {
-				["Display"] = true,
-				["Text"] = "Bonus Healing: ",
-				["RefName"] = "BonusHealing",
-			},
-			["FireCrit"] = {
-				["Display"] = true,
-				["Text"] = "Fire Crit: ",
-				["RefName"] = "FireCritChance",
-			},
-			["ShadowDmg"] = {
-				["Display"] = true,
-				["Text"] = "Shadow Damage: ",
-				["RefName"] = "ShadowDmg",
-			},
-			["FrostDmg"] = {
-				["Display"] = true,
-				["Text"] = "Frost Damage: ",
-				["RefName"] = "FrostDmg",
-			},
-			["Text"] = "Spell Bonus",
-			["HolyCrit"] = {
-				["Display"] = true,
-				["Text"] = "Holy Crit: ",
-				["RefName"] = "HolyCritChance",
-			},
-			["PhysicalDmg"] = {
-				["Display"] = true,
-				["Text"] = "Physical Damage: ",
-				["RefName"] = "PhysicalDmg",
-			},
-			["ShadowCrit"] = {
-				["Display"] = true,
-				["Text"] = "Shadow Crit: ",
-				["RefName"] = "ShadowCritChance",
-			},
-			["Display"] = false,
-			["ArcaneDmg"] = {
-				["Display"] = true,
-				["Text"] = "Arcane Damage: ",
-				["RefName"] = "ArcaneDmg",
-			},
-			["RefName"] = "SpellBonusHeader",
-			["NatureCrit"] = {
-				["Display"] = true,
-				["Text"] = "Nature Crit: ",
-				["RefName"] = "NatureCritChance",
+			["display"] = true,
+			["text"] = "Melee",
+			["refName"] = "MeleeHeader",
+			["crit"] = {
+				["display"] = true,
+				["text"] = "Crit: ",
+				["refName"] = "MeleeCritChance",
 			},
 		},
-		["Regen"] = {
-			["MP5Current"] = {
-				["Display"] = true,
-				["Text"] = "MP5: ",
-				["RefName"] = "MP5Current",
+		["spell"] = {
+			["hit"] = {
+				["bossLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance (Lvl + 3): ",
+					["refName"] = "SpellHitBossLevel",
+				},
+				["isSubGroup"] = true,
+				["display"] = true,
+				["sameLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance: ",
+					["refName"] = "SpellHitSameLevel",
+				},
+				["text"] = "Hit",
+				["refName"] = "SpellHitHeader",
+				["bonus"] = {
+					["display"] = true,
+					["text"] = "Bonus: ",
+					["refName"] = "SpellHitBonus",
+				},
 			},
-			["MP5Casting"] = {
-				["Display"] = true,
-				["Text"] = "MP5 (Casting): ",
-				["RefName"] = "MP5Casting",
+			["display"] = true,
+			["text"] = "Spell",
+			["refName"] = "SpellHeader",
+			["crit"] = {
+				["display"] = true,
+				["text"] = "Crit: ",
+				["refName"] = "SpellCritChance",
 			},
-			["Display"] = false,
-			["Text"] = "Mana",
-			["RefName"] = "ManaHeader",
-			["MP5NotCasting"] = {
-				["Display"] = true,
-				["Text"] = "MP5 (Not Casting): ",
-				["RefName"] = "MP5NotCasting",
+		},
+		["regen"] = {
+			["mp5Spirit"] = {
+				["display"] = true,
+				["text"] = "MP5 (Spirit): ",
+				["refName"] = "MP5Spirit",
+			},
+			["mp5Casting"] = {
+				["display"] = true,
+				["text"] = "MP5 (Casting): ",
+				["refName"] = "MP5Casting",
+			},
+			["display"] = true,
+			["text"] = "Mana",
+			["refName"] = "ManaHeader",
+			["mp5Items"] = {
+				["display"] = true,
+				["text"] = "MP5 (Items): ",
+				["refName"] = "MP5Items",
+			},
+		},
+		["spellBonus"] = {
+			["physicalCrit"] = {
+				["display"] = true,
+				["text"] = "Physical Crit: ",
+				["refName"] = "PhysicalCritChance",
+			},
+			["arcaneCrit"] = {
+				["display"] = true,
+				["text"] = "Arcane Crit: ",
+				["refName"] = "ArcaneCritChance",
+			},
+			["natureDmg"] = {
+				["display"] = true,
+				["text"] = "Nature Damage: ",
+				["refName"] = "NatureDmg",
+			},
+			["holyDmg"] = {
+				["display"] = true,
+				["text"] = "Holy Damage: ",
+				["refName"] = "HolyDmg",
+			},
+			["frostCrit"] = {
+				["display"] = true,
+				["text"] = "Frost Crit: ",
+				["refName"] = "FrostCritChance",
+			},
+			["fireDmg"] = {
+				["display"] = true,
+				["text"] = "Fire Damage: ",
+				["refName"] = "FireDmg",
+			},
+			["bonusHealing"] = {
+				["display"] = true,
+				["text"] = "Bonus Healing: ",
+				["refName"] = "BonusHealing",
+			},
+			["fireCrit"] = {
+				["display"] = true,
+				["text"] = "Fire Crit: ",
+				["refName"] = "FireCritChance",
+			},
+			["shadowDmg"] = {
+				["display"] = true,
+				["text"] = "Shadow Damage: ",
+				["refName"] = "ShadowDmg",
+			},
+			["frostDmg"] = {
+				["display"] = true,
+				["text"] = "Frost Damage: ",
+				["refName"] = "FrostDmg",
+			},
+			["text"] = "Spell Bonus",
+			["holyCrit"] = {
+				["display"] = true,
+				["text"] = "Holy Crit: ",
+				["refName"] = "HolyCritChance",
+			},
+			["physicalDmg"] = {
+				["display"] = true,
+				["text"] = "Physical Damage: ",
+				["refName"] = "PhysicalDmg",
+			},
+			["shadowCrit"] = {
+				["display"] = true,
+				["text"] = "Shadow Crit: ",
+				["refName"] = "ShadowCritChance",
+			},
+			["display"] = true,
+			["arcaneDmg"] = {
+				["display"] = true,
+				["text"] = "Arcane Damage: ",
+				["refName"] = "ArcaneDmg",
+			},
+			["refName"] = "SpellBonusHeader",
+			["natureCrit"] = {
+				["display"] = true,
+				["text"] = "Nature Crit: ",
+				["refName"] = "NatureCritChance",
 			},
 		},
 	},
-	["WindowSize"] = {
-		["Height"] = 425,
+	["windowSize"] = {
+		["height"] = 425,
 		["yOffset"] = 30,
 		["xOffset"] = 200,
-		["Width"] = 225,
+		["width"] = 225,
 	},
+	["v21reset"] = true,
 }

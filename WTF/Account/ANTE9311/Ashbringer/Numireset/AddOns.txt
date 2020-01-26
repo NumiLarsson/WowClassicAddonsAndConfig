@@ -3,3 +3,4 @@ CensusPlusClassic: disabled
 SpeedrunSplits: enabled
 ElvUI: disabled
 ElvUI_OptionsUI: enabled
+WeaponSwingTimer: enabled

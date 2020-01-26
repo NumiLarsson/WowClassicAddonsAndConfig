@@ -1,8 +1,13 @@
+VER 3 0000000000000008 "AVQ Target BM" "136087"
+/tar Glordrum Steelbeard
+/tar Thelman Slatefist
+/tar Brogun Stoneshield
+END
 VER 3 0000000000000006 "Curses" "INV_MISC_QUESTIONMARK"
 /rw Hexen = Shadows, High = Recklessness, Judas = Elements
 END
 VER 3 0000000000000001 "da" "INV_MISC_QUESTIONMARK"
-LFM MC 1 heals! Come Ironforge bridge and /poke Numiro for inspect! Going ASAP! Semi-guild run!
+/tar jed
 END
 VER 3 0000000000000005 "da " "INV_MISC_QUESTIONMARK"
 /rw Zirks on Boss, Quelserrar on Skull, Eyonnix on Cross, Friedman on Triangle, Robben on Diamond
@@ -19,6 +24,10 @@ VER 3 0000000000000003 "Gear" "INV_MISC_QUESTIONMARK"
 /equip Bloodforged Belt 
 /equip Lavacrest 
 END
+VER 3 0000000000000009 "geasg" "INV_MISC_QUESTIONMARK"
+/rw RUSH INSIDE GALV, IGNORE ENEMIES UNTIL INSIDE
+/rw KILL ANY HORDE, NUKE GALV @ CLEAVE/AOE LTS
+END
 VER 3 0000000000000002 "Horde NO" "INV_MISC_QUESTIONMARK"
 /rw Read raid chat for interrupts
 /raid Krösus + Prisoner on Cross
@@ -27,5 +36,8 @@ VER 3 0000000000000002 "Horde NO" "INV_MISC_QUESTIONMARK"
 /raid Noynac + Robben on Diamond
 END
 VER 3 0000000000000004 "Spirit" "INV_MISC_QUESTIONMARK"
-/Script ResetInstances()
+/script P=(math.floor(GetPVPRankProgress(target)10000))/100 W=UnitPVPRank("player") N=(W-6)5000+5000P/100 Q=(W-5)5000-N*0.8 SendChatMessage("Rank Progress: "..P.."% ".."Current RP: "..N.." RP to next rank "..Q.."","emote")
+END
+VER 3 0000000000000007 "Target BM" "132108"
+/tar Glodrum Steelbeard
 END

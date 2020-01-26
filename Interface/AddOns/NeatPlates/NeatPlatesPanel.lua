@@ -308,6 +308,27 @@ local function ApplyPanelSettings()
 	NeatPlates:ForceUpdate()
 end
 
+local function GetCVarValues(panel)
+	-- Recursive until we get the values to make sure they exist
+	local Values = {
+		NameplateTargetClamp = (function() if GetCVar("nameplateTargetRadialPosition") == "1" then return true else return false end end)(),
+		NameplateStacking = (function() if GetCVar("nameplateMotion") == "1" then return true else return false end end)(),
+		--NameplateMaxDistance = GetCVar("nameplateMaxDistance"),
+		NameplateOverlapH = GetCVar("nameplateOverlapH"),
+		NameplateOverlapV = GetCVar("nameplateOverlapV"),
+	}
+
+	local setVars = function()
+		for k,v in pairs(Values) do
+			if v and v ~= "DONE" and panel[k].SetChecked then panel[k]:SetChecked(v); Values[k] = "DONE" end
+			if v and v ~= "DONE" and panel[k].SetValue then panel[k]:SetValue(v); Values[k] = "DONE" end
+		end
+	end
+
+	setVars();
+	C_Timer.NewTicker(0.5, setVars, 10)
+end
+
 local function GetPanelValues(panel)
 	NeatPlatesOptions.ActiveTheme = panel.ActiveThemeDropdown:GetValue()
 
@@ -352,11 +373,7 @@ local function SetPanelValues(panel)
 	panel.GlobalEmphasizedAuraEditBox:SetValue(NeatPlatesSettings.GlobalEmphasizedAuraList)
 	
 	-- CVars
-	panel.NameplateTargetClamp:SetChecked((function() if GetCVar("nameplateTargetRadialPosition") == "1" then return true else return false end end)())
-	panel.NameplateStacking:SetChecked((function() if GetCVar("nameplateMotion") == "1" then return true else return false end end)())
-	--panel.NameplateMaxDistance:SetValue(string.gsub(GetCVar("nameplateMaxDistance"), "e1", "0"))
-	panel.NameplateOverlapH:SetValue(GetCVar("nameplateOverlapH"))
-	panel.NameplateOverlapV:SetValue(GetCVar("nameplateOverlapV"))
+	GetCVarValues(panel)
 end
 
 
@@ -601,7 +618,7 @@ local function BuildInterfacePanel(panel)
 	panel.AutoShowEnemyLabel:SetJustifyH("LEFT")
 	panel.AutoShowEnemyLabel:SetText(L["Enemy Nameplates"]..':')
 
-	panel.EnemyAutomation = PanelHelpers:CreateAutomationOptions("Enemy", panel.AutoShowEnemyLabel:GetStringWidth(), panel)
+	panel.EnemyAutomation = PanelHelpers:CreateMultiStateOptions("Enemy", {"Combat", "Dungeon", "Raid", "Battleground", "World"}, {["show"] = "|cFF60E025", ["hide"] = "|cFFFF1100"}, panel.AutoShowEnemyLabel:GetStringWidth(), panel)
 	panel.EnemyAutomation:SetPoint("TOPLEFT", panel.AutoShowEnemyLabel, "BOTTOMLEFT", 0, -12)
 
 
@@ -615,7 +632,7 @@ local function BuildInterfacePanel(panel)
 	panel.AutoShowFriendlyLabel:SetJustifyH("LEFT")
 	panel.AutoShowFriendlyLabel:SetText(L["Friendly Nameplates"]..':')
 
-	panel.FriendlyAutomation = PanelHelpers:CreateAutomationOptions("Friendly", panel.AutoShowFriendlyLabel:GetStringWidth(), panel)
+	panel.FriendlyAutomation = PanelHelpers:CreateMultiStateOptions("Friendly", {"Combat", "Dungeon", "Raid", "Battleground", "World"}, {["show"] = "|cFF60E025", ["hide"] = "|cFFFF1100"}, panel.AutoShowFriendlyLabel:GetStringWidth(), panel)
 	panel.FriendlyAutomation:SetPoint("TOPLEFT", panel.AutoShowFriendlyLabel, "BOTTOMLEFT", 0, -12)
 
 	panel.AutomationTip = PanelHelpers:CreateTipBox("NeatPlatesOptions_GlobalAuraTip", green..L["Show"]..white.." || "..red..L["Hide"]..white.." || "..L["No Automation"], panel, "BOTTOMLEFT", panel.FriendlyAutomation, "TOPRIGHT", 0, 0)

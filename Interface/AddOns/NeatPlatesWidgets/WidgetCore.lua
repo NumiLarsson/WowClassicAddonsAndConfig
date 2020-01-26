@@ -26,7 +26,7 @@ do
 
 	function NeatPlatesWidgets:HideIn(frame, expiration)
 		-- Register Frame
-		Framelist[ frame] = expiration
+		Framelist[frame] = expiration
 		-- Init Watchframe
 		if not WatcherframeActive then
 			Watcherframe:SetScript("OnUpdate", CheckFramelist)
@@ -41,7 +41,7 @@ end
 ----------------------
 
 do
-	local updateInterval = .5
+	local updateInterval = .1
 	local PolledHideIn
 	local Framelist = {}			-- Key = Frame, Value = Expiration Time
 	local Watcherframe = CreateFrame("Frame")
@@ -60,7 +60,7 @@ do
 			if expiration < curTime then
 				if frame.Expire then frame:Expire() end
 
-				-- frame:Hide()
+				frame:Hide()
 				Framelist[frame] = nil
 				--NeatPlates:RequestDelegateUpdate()		-- Request an Update on Delegate functions, so we can catch when auras fall off
 			-- If still active...
@@ -75,9 +75,7 @@ do
 	end
 
 	function PolledHideIn(frame, expiration, source)
-
 		if expiration == 0 then
-
 			if source ~= "UpdateIcon" then frame:Hide() end
 			Framelist[frame] = nil
 		else

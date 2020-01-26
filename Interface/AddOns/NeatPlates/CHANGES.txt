@@ -1,13 +1,12 @@
-lightweight tag 35b615bc4ee82033902e44d7f818330732628d09 1.13.2.45
+lightweight tag f0e74cc75176a9a81122dcd4b9271dad752c4791 1.13.3.9
 Author:	Luxocracy <luxor355@gmail.com>
-Date:	Sun Nov 24 12:03:03 2019 +0100
+Date:	Fri Jan 17 18:44:06 2020 +0100
 
-commit 35b615bc4ee82033902e44d7f818330732628d09
+commit f0e74cc75176a9a81122dcd4b9271dad752c4791
 Author: Luxocracy <luxor355@gmail.com>
-Date:   Sun Nov 24 12:03:03 2019 +0100
+Date:   Fri Jan 17 18:40:16 2020 +0100
 
-    Added some more options
+    Reverted previous commit
     
-    - Added a new option to hide the aura widget if the nameplate is in 'Headline/Text-Only' mode
-    - Changed how the 'primary' aura filters work. (No longer separate check boxes, instead a dropdown each for buffs/debuffs.)
+    - Reverted previous commit as it was not a thing in classic
 

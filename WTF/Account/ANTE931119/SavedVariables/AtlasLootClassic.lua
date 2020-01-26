@@ -12,7 +12,7 @@ AtlasLootClassicDB = {
 		["Numiro - Firemaw"] = "Numiro - Firemaw",
 	},
 	["global"] = {
-		["__addonrevision"] = 1030004,
+		["__addonrevision"] = 1040005,
 	},
 	["profiles"] = {
 		["Numiro - Ashbringer"] = {
@@ -21,28 +21,35 @@ AtlasLootClassicDB = {
 			},
 			["GUI"] = {
 				["point"] = {
-					"RIGHT", -- [1]
+					"TOP", -- [1]
 					nil, -- [2]
-					"RIGHT", -- [3]
-					-224, -- [4]
-					-14, -- [5]
+					"TOP", -- [3]
+					-322.999908447266, -- [4]
+					-43.0000228881836, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Blacksmithing", -- [2]
-					8, -- [3]
-					4, -- [4]
+					nil, -- [1]
+					"Onyxia", -- [2]
+					nil, -- [3]
+					3, -- [4]
 					0, -- [5]
 				},
 			},
 		},
 		["Numibank - Ashbringer"] = {
 			["GUI"] = {
+				["point"] = {
+					nil, -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
 				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"Leatherworking", -- [2]
-					6, -- [3]
-					1, -- [4]
+					nil, -- [1]
+					"TheTempleofAhnQiraj", -- [2]
+					11, -- [3]
+					3, -- [4]
 					0, -- [5]
 				},
 			},

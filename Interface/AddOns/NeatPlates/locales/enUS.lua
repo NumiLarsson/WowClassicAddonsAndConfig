@@ -156,6 +156,7 @@ L["Friendly Subtext"] = true
 L["Show Level"] = true
 L["Force Shadow on Status Text"] = true
 L["Show Different Server Indicator (*)"] = true
+L["Show Unit Title"] = true
 L["Show Subtext in Bar View"] = true
 L["Show Status Text on Target & Mouseover"] = true
 L["Show Status Text on Active/Damaged Units"] = true
@@ -180,6 +181,7 @@ L["Friendly Headline Subtext"] = true
 	L["NPC Role, Guild, or Quest"] = true
 	L["NPC Role, Guild"] = true
 	L["NPC Role"] = true
+	L["Unit Title"] = true
 	L["Quest"] = true
 	L["Everything"] = true
 
@@ -210,6 +212,7 @@ L["Space Between buffs & debuffs"] = true
 L["Aura Scale"] = true
 L["Aura Offsets"] = true
 L["Amount of Emphasized Auras"] = true
+L["Precise Aura Duration Threshold"] = true
 L["Additional Auras"] = true
 L["Emphasized Auras"] = true
 L["Emphasize Hides Normal Aura"] = true
@@ -301,6 +304,7 @@ L["Filtered Unit Scale"] = true
 
 L["Filter Neutral Units"] = true
 L["Filter Non-Elite"] = true
+L["Filter Non-Titled Friendly NPC"] = true
 L["Filter Enemy NPC"] = true
 L["Filter Friendly NPC"] = true
 L["Filter Non-Titled Friendly NPC"] = true
@@ -310,6 +314,13 @@ L["Filter Players"] = true
 L["Filter Party/Raid Members"] = true
 L["Filter Non-Party/Raid Members"] = true
 L["Filter Inactive"] = true
+
+L["Filter Friendly Players"] = true
+L["Filter Enemy Players"] = true
+L["Filter Party/Raid Members"] = true
+L["Filter Non-Party/Raid Members"] = true
+L["Filter Enemy Pets"] = true
+L["Filter Friendly Pets"] = true
 L["Filter Mini-Mobs"] = true
 
 L["Filter By Unit Name"] = true
@@ -344,7 +355,6 @@ L["CUSTOM_COLOR_CONDITION_TIP"] = [=[|cffCCCCCCColor value in Hex(#) followed by
 - Unit Name
 - Buff/Debuff Name/SpellID
 - Health Threshold
-
 (ex. #A300FF Spawn of G'huun)
 |cffff9320Prioritised top to bottom]=]
 
@@ -491,13 +501,144 @@ L["Cast Bar Width (%)"] = true
 L["Clear Cache"] = true
 L["Blizzard Nameplate Motion & Visibility..."] = true
 
+
+------------------------------
+-- Theme Customization
+------------------------------
+L["Theme Customization"] = true
+L["Offset Width"] = true
+L["Offset Height"] = true
+
+L["customtext"] = "Status Text"
+--L["targetindicator"] = "Target Indicator"
+L["eliteicon"] =  "Elite Icon/Border"
+L["castnostop"] = "Castborder (non-interruptible)"
+L["spellicon"] = "Spell Icon"
+L["extratext"] = "Extra/Bodyguard Text"
+L["extrabar"] = "Extra/Bodyguard Bar"
+--L["hitbox"] = "Hitbox(Clickable Area)"
+L["focus"] = "Focus Highlighting"
+L["target"] = "Target Highlighting"
+L["mouseover"] = "Mouseover Highlighting"
+L["level"] = "Level Indicator"
+L["name"] = "Unit Name"
+L["subtext"] = "Unit Subtext"
+L["extraborder"] = "Extra/Bodyguard Border"
+L["castbar"] = "Castbar"
+L["spelltext"] = "Castbar Spell Text"
+L["healthbar"] = "Healthbar"
+--L["targetindicator_arrowleft"] = 
+--L["targetindicator_arrowright"] = 
+L["threatborder"] = "Threat Glow"
+L["healthborder"] = "Healthbar Border"
+L["skullicon"] = "Skull Icon"
+L["durationtext"] = "Duration/Cast time Text"
+L["castborder"] = "Castbar Border"
+--L["targetindicator_arrowsides"] = 
+L["highlight"] = "Highlight"
+--L["targetindicator_arrowtop"] = 
+--L["rangeindicator"] = "Range Indicator"
+L["raidicon"] = "Raid Icon"
+L["ComboWidget"] = "Personal Resource Widget"
+L["AbsorbWidget"] = "Absorb Widget"
+L["QuestWidgetNameOnly"] = "Quest Widget(Headline View)"
+L["ThreatPercentageWidget"] = "Threat Percent Widget"
+L["DebuffWidget"] = "Aura Widget"
+--L["DebuffWidgetPlus"] = "Aura Widget(Combo Points)"
+L["ThreatLineWidget"] = "Threat Line Widget"
+L["TotemIcon"] = "Totem Icon"
+--L["ThreatWheelWidget"] = "Threat Wheel Widget"
+L["QuestWidget"] = "Quest Widget"
+L["RangeWidget"] = "Range Indicator"
+L["ClassIcon"] = "Class Icon"
+
+L["Main"] = true
+L["Widgets"] = true
+L["Configuration"] = true
+L["Import"] = true
+L["Export"] = true
+L["Reset All"] = true
+L["Reset"] = true
+
+L["Are you sure you want to reset all Theme Customizations?"] = true
+L["All Theme Customizations have been reset."] = true
+L["Imported Theme Customizations."] = true
+
+-- Tooltips
+L["customtext_tooltip"] = "The status text that usually appears on the healthbar."
+--L["targetindicator_tooltip"] = "Placeholder Tooltip"
+L["eliteicon_tooltip"] = "The icon indicating if the unit is an 'Elite'"
+L["castnostop_tooltip"] = "The castbar border texture used when a cast cannot be interrupted" -- Merge this with the normal one? / Unify all this under the 'castbar' option?
+L["spellicon_tooltip"] = "The spellicon shown on the castbars"
+L["extratext_tooltip"] = "Bar text for Nazjatar Bodyguards" -- Unify all this under the 'extrabar' option?
+L["extrabar_tooltip"] = "Bar used for Nazjatar Bodyguard XP" -- Unify all this under the 'extrabar' option?
+--L["hitbox_tooltip"] = "Placeholder Tooltip"
+L["focus_tooltip"] = "Focus highlight texture"
+L["target_tooltip"] = "Target highlight texture"
+L["level_tooltip"] = "The level of the unit"
+L["name_tooltip"] = "The units name"
+L["subtext_tooltip"] = "The units subtext"
+L["extraborder_tooltip"] = "Border for the 'extrabar', used for Nazjatar Bodyguards" -- Unify all this under the 'extrabar' option?
+L["castbar_tooltip"] = "The units castbar" -- Unify all this under the 'castbar' option?
+L["spelltext_tooltip"] = "The spellname that apepars on the castbar"
+L["healthbar_tooltip"] = "The actual bar that displays health" -- Unify all this under the 'healthbar' option?
+--L["targetindicator_arrowleft_tooltip"] = "Placeholder Tooltip"
+--L["targetindicator_arrowright_tooltip"] = "Placeholder Tooltip"
+L["threatborder_tooltip"] = "The border used with threat glow"
+L["mouseover_tooltip"] = "Mouseover highlight texture"
+L["healthborder_tooltip"] = "The border around the healthbar" -- Unify all this under the 'healthbar' option?
+L["skullicon_tooltip"] = "The icon that appears when a units level normally would appear as '??'"
+L["durationtext_tooltip"] = "The cast time text on the castbar"
+L["castborder_tooltip"] = "The standard border used for castbars" -- Unify all this under the 'castbar' option?
+--L["targetindicator_arrowsides_tooltip"] = "Placeholder Tooltip"
+L["highlight_tooltip"] = "General highlighting (Only certain themes still use this)"
+--L["targetindicator_arrowtop_tooltip"] = "Placeholder Tooltip"
+--L["rangeindicator_tooltip"] = "Placeholder Tooltip"
+L["raidicon_tooltip"] = "The raid marker icon on units"
+L["ComboWidget_tooltip"] = "Personal resource/Combo points indicator"
+L["AbsorbWidget_tooltip"] = "The absorb overlay for healthbars" -- Unify all this under the 'healthbar' option?
+L["QuestWidgetNameOnly_tooltip"] = "Quest icon for 'Headline-view'"
+L["ThreatPercentageWidget_tooltip"] = "The threat percentage text"
+L["DebuffWidget_tooltip"] = "Aura widget"
+--L["DebuffWidgetPlus_tooltip"] = "Same as 'Aura Widget', but used when combo points are enabled(Not all themes use this)"
+L["ThreatLineWidget_tooltip"] = "The 'Tug-o-Threat' widget"
+L["TotemIcon_tooltip"] = "The totem icon"
+--L["ThreatWheelWidget_tooltip"] = "Placeholder Tooltip"
+L["QuestWidget_tooltip"] = "Quest icon for normal healthbar mode"
+L["RangeWidget_tooltip"] = "The range indicator widget"
+L["ClassIcon_tooltip"] = "The class icon"
+
+L["Import_tooltip"] = "Import configuration"
+L["Export_tooltip"] = "Export configuration"
+L["ResetAll_tooltip"] = "Reset all theme customizations"
+
+-- Dropdown Labels
+L["Style Mode"] = true
+L["Frame Anchor"] = true
+L["Text Align"] = true
+L["Show Element"] = true
+
+-- Dropdown Options
+L["Default/Healthbar"] = true
+L["Headline/Text-Only"] = true
+L["CENTER"] = true
+L["TOP"] = true
+L["LEFT"] = true
+L["RIGHT"] = true
+L["BOTTOM"] = true
+L["TOPLEFT"] = true
+L["TOPRIGHT"] = true
+L["BOTTOMLEFT"] = true
+L["BOTTOMRIGHT"] = true
+
+
+
 ------------------------------
 -- Import Settings Prompt
 ------------------------------
 --L["You seem to be running both NeatPlates and TidyPlatesContinued.\nDo you wish to import your TPC settings from this character to NeatPlates?\n\n(Once Importing is done TPC will be disabled and a UI Reload will be performed.\nYou will also have to re-select which profile to use for which spec, sorry...)"] = true
 L["IMPORT_PROMPT_TEXT"] = [=[You seem to be running both NeatPlates and TidyPlatesContinued.
 Do you wish to import your TPC settings from this character to NeatPlates?
-
 (Once Importing is done TPC will be disabled and a UI Reload will be performed.
 You will also have to re-select which profile to use for which spec, sorry...)]=]
 
@@ -511,7 +652,6 @@ L["Import TPC Settings"] = true
 -- Version Warning Prompt
 ------------------------------
 L["VERSION_WARNING_PROMPT_TEXT"] = [=[You seem to be running the wrong version of this addon for your client, things will most likely not work correctly.
-
 Please ensure that you are on the correct version before continuing to use this addon.]=]
 
 
@@ -560,6 +700,7 @@ L["Requires 'All NPCs' to be unchecked"] = true
 L["Helps ensure that everything is working as intended by enforcing certain CVars"] = true
 L["Display Scale Options"] = true
 L["Hides the aura widget when in 'Headline/Text-Only' mode"] = true
+L["When aura durations should start to display tenths of a second"] = true
 
 
 

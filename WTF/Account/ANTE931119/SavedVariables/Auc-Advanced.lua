@@ -29,10 +29,10 @@ AucAdvancedConfig = {
 				},
 			},
 			["ahwindowcontrol"] = {
-				["ahframeanchors"] = "TOPLEFT:TOPLEFT:3.2:-77.9",
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:4.0:-107.0",
 			},
 		},
-		["configator.top"] = 651.666687011719,
+		["configator.top"] = 651.666625976563,
 	},
 	["version"] = 1,
 }
@@ -44,21 +44,21 @@ AucAdvancedData = {
 		["Current"] = {
 			["general.maxbuy"] = 9999999999,
 			["snatch.columnsortcurSort"] = 1,
-			["general.maxbid"] = 9999999999,
+			["vendor.timeleft"] = 1,
 			["converter.allow.bid"] = false,
 			["enchantmats.level.max"] = 275,
-			["snatch.columnsortcurDir"] = 1,
+			["general.maxbid"] = 9999999999,
 			["resale.seen.check"] = true,
 			["columnsortcurSort"] = 3,
-			["resale.seen.min"] = 15,
-			["snatch.itemsList"] = {
-			},
 			["ignoreitemprice.ignorelist"] = {
 				["3713"] = 0,
 				["3728"] = 0,
 			},
+			["resale.seen.min"] = 15,
+			["snatch.itemsList"] = {
+			},
 			["columnsortcurDir"] = -1,
-			["vendor.timeleft"] = 1,
+			["snatch.columnsortcurDir"] = 1,
 			["smelting.allow.bid"] = false,
 			["smelting.profit.min"] = 10000,
 		},
@@ -71,12 +71,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
-	["Timestamp"] = 1569684329,
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["KnownServerKeys"] = {
-		["Ashbringer"] = 1574628008,
-	},
+	["Timestamp"] = 1569684329,
 	["Version"] = 1,
+	["KnownServerKeys"] = {
+		["Ashbringer"] = 1580044769,
+	},
 }

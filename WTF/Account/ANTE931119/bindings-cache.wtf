@@ -35,7 +35,7 @@ bind F1 MULTIACTIONBAR2BUTTON9
 bind F2 MULTIACTIONBAR2BUTTON10
 bind F3 MULTIACTIONBAR2BUTTON11
 bind F4 MULTIACTIONBAR2BUTTON12
-bind F5 CLICK ItemRackNumiroAshbringerRocketPVP:LeftButton
+bind F5 CLICK ItemRackNumiroAshbringerElf:LeftButton
 bind SHIFT-F5 RAIDTARGET7
 bind G CLICK TrinketMenu_Trinket0:LeftButton
 bind F STRAFERIGHT
@@ -49,7 +49,7 @@ bind SHIFT-B NONE
 bind F8 CLICK ItemRackNumiroAshbringerHydro:LeftButton
 bind F9 CLICK ItemRackNumiroAshbringerDPS:LeftButton
 bind F10 CLICK ItemRackNumiroAshbringerPVP:LeftButton
-bind F11 CLICK ItemRackNumiroAshbringerDisarmPVP:LeftButton
+bind F11 CLICK ItemRackNumiroAshbringerRiding:LeftButton
 bind F12 CLICK ItemRackNumiroAshbringerTank:LeftButton
 bind CTRL-S NONE
 bind ALT-Z NONE
@@ -85,3 +85,5 @@ bind CTRL-+ MULTIACTIONBAR2BUTTON8
 bind ALT-ä TOGGLEUI
 bind ä TOGGLESHEATH
 bind F7 CLICK ItemRackNumiroAshbringerSatyr:LeftButton
+bind ´ NONE
+bind . INTERACTTARGET

@@ -7,7 +7,7 @@ local _
 local L = LibStub("AceLocale-3.0"):GetLocale("NeatPlates")
 
 -- Classic Threat Stuff
-local ThreatLib = LibStub:GetLibrary("ThreatClassic-1.0")
+local ThreatLib = LibStub:GetLibrary("LibThreatClassic2")
 
 NeatPlatesUtility.UnitThreatSituation = function (unit, mob)
     return ThreatLib:UnitThreatSituation (unit, mob)
@@ -710,6 +710,8 @@ local function CreateSliderFrame(self, reference, parent, label, val, minval, ma
 		if infinite then
 			NeatPlatesHubRapidPanel.SetSliderMechanics(self, value, minimum+value, maximum+value, step)
 		end
+		if parent.OnValueChanged then parent.OnValueChanged(slider) end
+		if slider.OnValueChanged then slider.OnValueChanged(slider) end
 	end
 
 	--slider.tooltipText = "Slider"
@@ -908,10 +910,10 @@ local function CreateDropdownFrame(helpertable, reference, parent, menu, default
 	------------------------------------------------
 
 	local function OnClickItem(self)
-
 		drawer:SetValue(menu[self.buttonIndex].value or self.buttonIndex)
 		--print(self.Value, menu[self.buttonIndex].value, drawer:GetValue())
 
+		if parent.OnValueChanged then parent.OnValueChanged(drawer) end
 		if drawer.OnValueChanged then drawer.OnValueChanged(drawer) end
 		PlaySound(856);
 		HideDropdownMenu()
@@ -1018,7 +1020,7 @@ local function CreateEditBox(self, name, width, height, parent, ...)
 	EditBox:SetWidth(width)
 	EditBox:SetMultiLine(true)
 
-	EditBox:SetFrameLevel(frame:GetFrameLevel()-1)
+	EditBox:SetFrameLevel(frame:GetFrameLevel()+1)
 	EditBox:SetFont(NeatPlatesLocalizedInputFont or "Fonts\\FRIZQT__.TTF", 11, "NONE")
 
 	EditBox:SetText("")
@@ -1077,16 +1079,17 @@ local function CreateTipBox(self, name, text, parent, ...)
 	return frame, frame
 end
 
-local function CreateAutomationOptions(self, reaction, width, parent, ...)
-	local frame = CreateFrame("Frame", "NeatPlatesPanelAutomation"..reaction, parent)
+local function CreateMultiStateOptions(self, name, labelArray, stateArray, width, parent, ...)
+	local frame = CreateFrame("Frame", "NeatPlatesPanelMultiState"..name, parent)
 
-	local labelArray = {"Combat", "Dungeon", "Raid", "Battleground", "World"}
+
+	frame.states = stateArray;
+	--local labelArray = {"Combat", "Dungeon", "Raid", "Battleground", "World"}
 	local lastItem
 	for i,label in pairs(labelArray) do
-		local name = "Button_"..label
-		local button = CreateFrame("Button", name, frame, "NeatPlatesTriStateButtonTemplate")
+		local button = CreateFrame("Button", "Button_"..label, frame, "NeatPlatesTriStateButtonTemplate")
 		button.tooltipText = tooltip
-		button.Label = label
+		button.Label = L[label]
 		button:SetText(L[label])
 		button:SetWidth(width)
 
@@ -1098,7 +1101,7 @@ local function CreateAutomationOptions(self, reaction, width, parent, ...)
 		end
 		lastItem = button
 
-		frame[name] = button
+		frame["Button_"..label] = button
 	end
 
 	-- Border
@@ -1149,7 +1152,7 @@ PanelHelpers.CreateEditBoxButton = CreateEditBoxButton
 PanelHelpers.CreateTipBox = CreateTipBox
 PanelHelpers.ShowDropdownMenu = ShowDropdownMenu
 PanelHelpers.HideDropdownMenu = HideDropdownMenu
-PanelHelpers.CreateAutomationOptions = CreateAutomationOptions
+PanelHelpers.CreateMultiStateOptions = CreateMultiStateOptions
 
 NeatPlatesUtility.PanelHelpers = PanelHelpers
 

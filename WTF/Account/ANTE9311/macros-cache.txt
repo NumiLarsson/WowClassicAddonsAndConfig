@@ -1,31 +1,5 @@
-VER 3 0000000000000006 "Curses" "INV_MISC_QUESTIONMARK"
-/rw Hexen = Shadows, High = Recklessness, Judas = Elements
-END
-VER 3 0000000000000001 "da" "INV_MISC_QUESTIONMARK"
-/tar jed
-END
-VER 3 0000000000000005 "da " "INV_MISC_QUESTIONMARK"
-/rw Zirks on Boss, Quelserrar on Skull, Eyonnix on Cross, Friedman on Triangle, Robben on Diamond
-END
-VER 3 0000000000000003 "Gear" "INV_MISC_QUESTIONMARK"
-/equip Diabolic Skiver
-/equip Phalanx Headguard of
-/equip Vanadium Talisman 
-/equip Scorpashi Cape
-/equip Tyrant's Che
-/equip Emberplate Armguards
-/equip Slagplate Gauntlets
-/equip Shinkicker Boots
-/equip Bloodforged Belt 
-/equip Lavacrest 
-END
-VER 3 0000000000000002 "Horde NO" "INV_MISC_QUESTIONMARK"
-/rw Read raid chat for interrupts
-/raid Krösus + Prisoner on Cross
-/raid Chuunin + Chopshop on Skull
-/raid Zwemmel + Gizeine on Triangle
-/raid Noynac + Robben on Diamond
-END
-VER 3 0000000000000004 "Spirit" "INV_MISC_QUESTIONMARK"
-/Script ResetInstances()
+VER 3 0000000000000001 "AVQ Target BM" "136087"
+/tar Glordrum Steelbeard
+/tar Thelman Slatefist
+/tar Brogun Stoneshield
 END

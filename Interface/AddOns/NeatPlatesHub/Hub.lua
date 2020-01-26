@@ -22,6 +22,7 @@ local CreateQuickDropdown = NeatPlatesHubRapidPanel.CreateQuickDropdown
 local CreateQuickHeadingLabel = NeatPlatesHubRapidPanel.CreateQuickHeadingLabel
 local CreateQuickItemLabel = NeatPlatesHubRapidPanel.CreateQuickItemLabel
 local CreateQuickScale = NeatPlatesHubRapidPanel.CreateQuickScale
+local CreateQuickCustomization = NeatPlatesHubRapidPanel.CreateQuickCustomization
 local OnMouseWheelScrollFrame = NeatPlatesHubRapidPanel.OnMouseWheelScrollFrame
 local CreateHubInterfacePanel = NeatPlatesHubRapidPanel.CreateInterfacePanel
 
@@ -31,9 +32,9 @@ local PanelHelpers = PanelHelpers
 local ThemeList = NeatPlatesHubMenus.ThemeList
 local StyleModes = NeatPlatesHubMenus.StyleModes
 local TextModes = NeatPlatesHubMenus.TextModes
-local RangeModes = NeatPlatesHubMenus.RangeModes
-local RangeStyles = NeatPlatesHubMenus.RangeStyles
-local RangeUnits = NeatPlatesHubMenus.RangeUnits
+--local RangeModes = NeatPlatesHubMenus.RangeModes
+--local RangeStyles = NeatPlatesHubMenus.RangeStyles
+--local RangeUnits = NeatPlatesHubMenus.RangeUnits
 local AuraWidgetModes = NeatPlatesHubMenus.AuraWidgetModes
 local PrimaryAuraFilters = NeatPlatesHubMenus.PrimaryAuraFilters
 local DebuffStyles = NeatPlatesHubMenus.DebuffStyles
@@ -145,6 +146,7 @@ local function BuildHubPanel(panel)
 	panel.TextShowLevel, F = CreateQuickCheckbutton(objectName.."TextShowLevel", L["Show Level"], AlignmentColumn, F, 0, 2)
 	panel.TextStatusForceShadow, F = CreateQuickCheckbutton(objectName.."TextStatusForceShadow", L["Force Shadow on Status Text"], AlignmentColumn, F, 0, 0)
 	--panel.TextShowServerIndicator, F = CreateQuickCheckbutton(objectName.."TextShowServerIndicator", L["Show Different Server Indicator (*)"], AlignmentColumn, F, 0)
+	panel.TextShowUnitTitle, F = CreateQuickCheckbutton(objectName.."TextShowUnitTitle", L["Show Unit Title"], AlignmentColumn, F, 0)
   panel.TextShowOnlyOnTargets, F = CreateQuickCheckbutton(objectName.."TextShowOnlyOnTargets", L["Show Status Text on Target & Mouseover"], AlignmentColumn, F, 0)
   panel.TextShowOnlyOnActive, F = CreateQuickCheckbutton(objectName.."TextShowOnlyOnActive", L["Show Status Text on Active/Damaged Units"], AlignmentColumn, F, 0)
 
@@ -233,8 +235,11 @@ local function BuildHubPanel(panel)
 	panel.EmphasizedSlots = CreateQuickSlider(objectName.."EmphasizedSlots", L["Amount of Emphasized Auras"]..':', "ACTUAL", 150, AlignmentColumn, panel.SpacerSlots, 16, 2)
 	panel.EmphasizedSlots.tooltipText = L["The amount of Emphasized auras that can be displayed at once"]
 
-	panel.WidgetDebuffStyle =  CreateQuickDropdown(objectName.."WidgetDebuffStyle", L["Icon Style"]..':', DebuffStyles, 1, AlignmentColumn, panel.EmphasizedSlots, 16)
-	panel.WidgetAuraSort =  CreateQuickDropdown(objectName.."WidgetAuraSort", L["Sorting Mode"]..':', AuraSortModes, 1, AlignmentColumn, panel.EmphasizedSlots, OffsetColumnB)
+	panel.PreciseAuraThreshold = CreateQuickSlider(objectName.."PreciseAuraThreshold", L["Precise Aura Duration Threshold"]..':', "ACTUAL", 150, AlignmentColumn, panel.EmphasizedSlots, 16, 2)
+	panel.PreciseAuraThreshold.tooltipText = L["When aura durations should start to display tenths of a second"]
+
+	panel.WidgetDebuffStyle =  CreateQuickDropdown(objectName.."WidgetDebuffStyle", L["Icon Style"]..':', DebuffStyles, 1, AlignmentColumn, panel.PreciseAuraThreshold, 16)
+	panel.WidgetAuraSort =  CreateQuickDropdown(objectName.."WidgetAuraSort", L["Sorting Mode"]..':', AuraSortModes, 1, AlignmentColumn, panel.PreciseAuraThreshold, OffsetColumnB)
 	panel.WidgetAuraAlignment =  CreateQuickDropdown(objectName.."WidgetAuraAlignment", L["Aura Alignment"]..':', AuraAlignmentModes, 1, AlignmentColumn, panel.WidgetDebuffStyle, 16)
 
 	panel.WidgetDebuffListLabel = CreateQuickItemLabel(nil, L["Additional Auras"]..':', AlignmentColumn, panel.WidgetAuraAlignment, 16)
@@ -360,16 +365,20 @@ local function BuildHubPanel(panel)
 
 	panel.OpacityFilterNeutralUnits, F = CreateQuickCheckbutton(objectName.."OpacityFilterNeutralUnits", L["Filter Neutral Units"], AlignmentColumn, F, 8, 4)
 	panel.OpacityFilterNonElite, F = CreateQuickCheckbutton(objectName.."OpacityFilterNonElite", L["Filter Non-Elite"], AlignmentColumn, F, 8)
+	panel.OpacityFilterUntitledFriendlyNPC, F = CreateQuickCheckbutton(objectName.."OpacityFilterUntitledFriendlyNPC", L["Filter Non-Titled Friendly NPC"], AlignmentColumn, F, 8)
 	panel.OpacityFilterEnemyNPC, F = CreateQuickCheckbutton(objectName.."OpacityFilterEnemyNPC", L["Filter Enemy NPC"], AlignmentColumn, F, 8)
 	panel.OpacityFilterFriendlyNPC, F = CreateQuickCheckbutton(objectName.."OpacityFilterFriendlyNPC", L["Filter Friendly NPC"], AlignmentColumn, F, 8)
-	panel.OpacityFilterUntitledFriendlyNPC, F = CreateQuickCheckbutton(objectName.."OpacityFilterUntitledFriendlyNPC", L["Filter Non-Titled Friendly NPC"], AlignmentColumn, F, 8)
-	panel.OpacityFilterLowLevelUnits, F = CreateQuickCheckbutton(objectName.."OpacityFilterLowLevelUnits", L["Filter Low Level Units"], AlignmentColumn, F, 8)
+	panel.OpacityFilterEnemyPet, F = CreateQuickCheckbutton(objectName.."OpacityFilterEnemyPet", L["Filter Enemy Pets"], AlignmentColumn, F, 8)
+	panel.OpacityFilterFriendlyPet, F = CreateQuickCheckbutton(objectName.."OpacityFilterFriendlyPet", L["Filter Friendly Pets"], AlignmentColumn, F, 8)
+	
 
-	panel.OpacityFilterPlayers = CreateQuickCheckbutton(objectName.."OpacityFilterPlayers", L["Filter Players"], AlignmentColumn, panel.FilterScaleLock, OffsetColumnB+24, 4)
-	panel.OpacityFilterPartyMembers = CreateQuickCheckbutton(objectName.."OpacityOpacityFilterPartyMembers", L["Filter Party/Raid Members"], AlignmentColumn, panel.OpacityFilterPlayers, OffsetColumnB+24)
+	panel.OpacityFilterFriendlyPlayers = CreateQuickCheckbutton(objectName.."OpacityFilterFriendlyPlayers", L["Filter Friendly Players"], AlignmentColumn, panel.FilterScaleLock, OffsetColumnB+24, 4)
+	panel.OpacityFilterEnemyPlayers = CreateQuickCheckbutton(objectName.."OpacityFilterEnemyPlayers", L["Filter Enemy Players"], AlignmentColumn, panel.OpacityFilterFriendlyPlayers, OffsetColumnB+24)
+	panel.OpacityFilterPartyMembers = CreateQuickCheckbutton(objectName.."OpacityFilterPartyMembers", L["Filter Party/Raid Members"], AlignmentColumn, panel.OpacityFilterEnemyPlayers, OffsetColumnB+24)
 	panel.OpacityFilterNonPartyMembers = CreateQuickCheckbutton(objectName.."OpacityFilterNonPartyMembers", L["Filter Non-Party/Raid Members"], AlignmentColumn, panel.OpacityFilterPartyMembers, OffsetColumnB+24)
-	panel.OpacityFilterInactive = CreateQuickCheckbutton(objectName.."OpacityFilterInactive", L["Filter Inactive"], AlignmentColumn, panel.OpacityFilterNonPartyMembers, OffsetColumnB+24)
-	panel.OpacityFilterMini = CreateQuickCheckbutton(objectName.."OpacityFilterMini", L["Filter Mini-Mobs"], AlignmentColumn, panel.OpacityFilterInactive, OffsetColumnB+24)
+	panel.OpacityFilterMini = CreateQuickCheckbutton(objectName.."OpacityFilterMini", L["Filter Mini-Mobs"], AlignmentColumn, panel.OpacityFilterNonPartyMembers, OffsetColumnB+24)
+	panel.OpacityFilterLowLevelUnits = CreateQuickCheckbutton(objectName.."OpacityFilterLowLevelUnits", L["Filter Low Level Units"], AlignmentColumn, panel.OpacityFilterMini, OffsetColumnB+24)
+	panel.OpacityFilterInactive = CreateQuickCheckbutton(objectName.."OpacityFilterInactive", L["Filter Inactive"], AlignmentColumn, panel.OpacityFilterLowLevelUnits, OffsetColumnB+24)
 
 	panel.OpacityCustomFilterLabel = CreateQuickItemLabel(nil, L["Filter By Unit Name"]..':', AlignmentColumn, F, 8, 4)
 	panel.OpacityFilterList, F = CreateQuickEditbox(objectName.."OpacityFilterList", nil, nil, AlignmentColumn, panel.OpacityCustomFilterLabel, 8)
@@ -520,24 +529,24 @@ local function BuildHubPanel(panel)
 	------------------------------
   -- Range Indicator
 	------------------------------
-	panel.WidgetRangeIndicatorLabel = CreateQuickHeadingLabel(nil, L["Range Indicator"], AlignmentColumn, F, 0, 5)
-	panel.WidgetRangeIndicator = CreateQuickCheckbutton(objectName.."WidgetRangeIndicator", L["Enable Range Indicator"], AlignmentColumn, panel.WidgetRangeIndicatorLabel)
-	panel.WidgetRangeScale, F = CreateQuickCheckbutton(objectName.."WidgetRangeScale", L["Scale based on distance"], AlignmentColumn, panel.WidgetRangeIndicator)
-	panel.WidgetRangeColorLabel, F = CreateQuickItemLabel(nil, L["Range Indicator Colors"]..':', AlignmentColumn, F, 0, 2)
-	panel.ColorRangeMelee, F = CreateQuickColorbox(objectName.."ColorRangeMelee", L["Melee Range"], nil, AlignmentColumn, F , 16)
-	panel.ColorRangeClose, F = CreateQuickColorbox(objectName.."ColorRangeClose", L["Close Range"], nil, AlignmentColumn, F , 16)
-	panel.ColorRangeMid, F = CreateQuickColorbox(objectName.."ColorRangeMid", L["Mid Range"], nil, AlignmentColumn, F , 16)
-	panel.ColorRangeFar, F = CreateQuickColorbox(objectName.."ColorRangeFar", L["Far Range"], nil, AlignmentColumn, F , 16)
-	panel.ColorRangeOOR, F = CreateQuickColorbox(objectName.."ColorRangeOOR", L["Out of Range"], nil, AlignmentColumn, F , 16)
+	--panel.WidgetRangeIndicatorLabel = CreateQuickHeadingLabel(nil, L["Range Indicator"], AlignmentColumn, F, 0, 5)
+	--panel.WidgetRangeIndicator = CreateQuickCheckbutton(objectName.."WidgetRangeIndicator", L["Enable Range Indicator"], AlignmentColumn, panel.WidgetRangeIndicatorLabel)
+	--panel.WidgetRangeScale, F = CreateQuickCheckbutton(objectName.."WidgetRangeScale", L["Scale based on distance"], AlignmentColumn, panel.WidgetRangeIndicator)
+	--panel.WidgetRangeColorLabel, F = CreateQuickItemLabel(nil, L["Range Indicator Colors"]..':', AlignmentColumn, F, 0, 2)
+	--panel.ColorRangeMelee, F = CreateQuickColorbox(objectName.."ColorRangeMelee", L["Melee Range"], nil, AlignmentColumn, F , 16)
+	--panel.ColorRangeClose, F = CreateQuickColorbox(objectName.."ColorRangeClose", L["Close Range"], nil, AlignmentColumn, F , 16)
+	--panel.ColorRangeMid, F = CreateQuickColorbox(objectName.."ColorRangeMid", L["Mid Range"], nil, AlignmentColumn, F , 16)
+	--panel.ColorRangeFar, F = CreateQuickColorbox(objectName.."ColorRangeFar", L["Far Range"], nil, AlignmentColumn, F , 16)
+	--panel.ColorRangeOOR, F = CreateQuickColorbox(objectName.."ColorRangeOOR", L["Out of Range"], nil, AlignmentColumn, F , 16)
 
-	panel.WidgetRangeMode = CreateQuickDropdown(objectName.."WidgetRangeMode", L["Mode"]..':', RangeModes, 1, AlignmentColumn, panel.WidgetRangeIndicatorLabel, OffsetColumnB+76)
-	panel.WidgetRangeMode.tooltipText1 = L["Only uses the 'Mid Range' & 'Out of Range' colors to indicate unit range"]
-	panel.WidgetRangeMode.tooltipText2 = L["Uses multiple colors to indicate unit range"]
-	panel.WidgetRangeStyle = CreateQuickDropdown(objectName.."WidgetRangeStyle", L["Style"]..':', RangeStyles, 1, AlignmentColumn, panel.WidgetRangeMode, OffsetColumnB+76)
-	panel.WidgetRangeUnits = CreateQuickDropdown(objectName.."WidgetRangeUnits", L["Show on"]..':', RangeUnits, 1, AlignmentColumn, panel.WidgetRangeStyle, OffsetColumnB+76)
-	panel.WidgetRangeMax = CreateQuickSlider(objectName.."WidgetRangeMax", L["Range Threshold"]..':', "ACTUAL", 150, AlignmentColumn, panel.WidgetRangeUnits, OffsetColumnB+76, 2)
-	panel.WidgetRangeMax.tooltipText = L["Your 'Out of Range' distance"]
-	panel.WidgetRangeScaleOptions = CreateQuickScale(objectName.."WidgetRangeScaleOptions", "WidgetRangeScaleOptions", L["Range Indicator"], nil, nil, AlignmentColumn, "LEFT", panel.WidgetRangeStyle, "RIGHT", 28, 2)
+	--panel.WidgetRangeMode = CreateQuickDropdown(objectName.."WidgetRangeMode", L["Mode"]..':', RangeModes, 1, AlignmentColumn, panel.WidgetRangeIndicatorLabel, OffsetColumnB+76)
+	--panel.WidgetRangeMode.tooltipText1 = L["Only uses the 'Mid Range' & 'Out of Range' colors to indicate unit range"]
+	--panel.WidgetRangeMode.tooltipText2 = L["Uses multiple colors to indicate unit range"]
+	--panel.WidgetRangeStyle = CreateQuickDropdown(objectName.."WidgetRangeStyle", L["Style"]..':', RangeStyles, 1, AlignmentColumn, panel.WidgetRangeMode, OffsetColumnB+76)
+	--panel.WidgetRangeUnits = CreateQuickDropdown(objectName.."WidgetRangeUnits", L["Show on"]..':', RangeUnits, 1, AlignmentColumn, panel.WidgetRangeStyle, OffsetColumnB+76)
+	--panel.WidgetRangeMax = CreateQuickSlider(objectName.."WidgetRangeMax", L["Range Threshold"]..':', "ACTUAL", 150, AlignmentColumn, panel.WidgetRangeUnits, OffsetColumnB+76, 2)
+	--panel.WidgetRangeMax.tooltipText = L["Your 'Out of Range' distance"]
+	--panel.WidgetRangeScaleOptions = CreateQuickScale(objectName.."WidgetRangeScaleOptions", "WidgetRangeScaleOptions", L["Range Indicator"], nil, nil, AlignmentColumn, "LEFT", panel.WidgetRangeStyle, "RIGHT", 28, 2)
 
 	--[[
 	------------------------------
@@ -616,7 +625,7 @@ local function BuildHubPanel(panel)
 	BlizzOptionsButton:SetWidth(300)
 	BlizzOptionsButton:SetText(L["Blizzard Nameplate Motion & Visibility..."])
 	BlizzOptionsButton:SetScript("OnClick", function() InterfaceOptionsFrame_OpenToCategory(_G["InterfaceOptionsNamesPanel"]) end)
-
+	local ThemeCustomization = CreateQuickCustomization(objectName.."CustomizationButton", AlignmentColumn, "TOPLEFT", BlizzOptionsButton, "BOTTOMLEFT", 0, -4)
 
 	------------------------------
 	-- Set Sizes and Mechanics
@@ -639,8 +648,9 @@ local function BuildHubPanel(panel)
 	SetSliderMechanics(panel.SpacerSlots, 0, 0, 4, 1)
 	SetSliderMechanics(panel.AuraScale, 1, .5, 2.2, .01)
 	SetSliderMechanics(panel.EmphasizedSlots, 0, 1, 3, 1)
+	SetSliderMechanics(panel.PreciseAuraThreshold, 0, 0, 60, 0.1)
 
-	SetSliderMechanics(panel.WidgetRangeMax, 0, 1, 100, 1)
+	--SetSliderMechanics(panel.WidgetRangeMax, 0, 1, 100, 1)
 
 	SetSliderMechanics(panel.FrameVerticalPosition, .5, 0, 1, .02)
 	SetSliderMechanics(panel.FrameBarWidth, 1, .3, 1.7, .02)
@@ -648,6 +658,8 @@ local function BuildHubPanel(panel)
 
 	SetSliderMechanics(panel.HighHealthThreshold, .7, .01, 1, .01)
 	SetSliderMechanics(panel.LowHealthThreshold, .3, .01, 1, .01)
+
+	-- SetSliderMechanics(slider, value, minimum, maximum, increment)
 
 	-- "RefreshSettings" is called; A) When PLAYER_ENTERING_WORLD is called, and; B) When changes are made to settings
 

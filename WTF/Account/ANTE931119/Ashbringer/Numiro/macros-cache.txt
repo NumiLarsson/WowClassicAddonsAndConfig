@@ -1,6 +1,13 @@
+VER 3 000000000100000B "Cancelaura bop" "INV_MISC_QUESTIONMARK"
+/Cancelaura Blessing of Protection
+END
 VER 3 0000000001000009 "Charge" "INV_MISC_QUESTIONMARK"
 #showtooltip [stance:3] Intercept; [stance:1] Charge
 /cast [stance:3] Intercept; [stance:1] Charge
+END
+VER 3 000000000100000D "DB DW" "INV_MISC_QUESTIONMARK"
+/equipslot 16 Deathbringer
+/equipslot 17 Mirah's Song
 END
 VER 3 0000000001000003 "DW" "INV_MISC_QUESTIONMARK"
 /equip Dal'Rend's Sacred Charge
@@ -12,8 +19,15 @@ VER 3 0000000001000008 "Interrupt" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000006 "MS" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast Bloodthirst(Rank 4)
+/cast Bloodthirst
 /startattack
+END
+VER 3 000000000100000E "MT" "132102"
+/run function r()for j=1,8 do k=0;for i=1,40 do if UnitExists("raid"..i) and GetRaidTargetIndex("raid"..i)==j then k=1;break; end end if k==0 then return j;end end return nil;end
+/tar player
+/maintank
+/run SetRaidTarget("target",r());
+/targetlasttarget
 END
 VER 3 0000000001000004 "PvpShield" "INV_MISC_QUESTIONMARK"
 /equipslot 16 Deathbringer
@@ -25,8 +39,8 @@ VER 3 0000000001000005 "Rocket Helmet" "INV_MISC_QUESTIONMARK"
 /stopattack
 END
 VER 3 0000000001000002 "Shield" "INV_MISC_QUESTIONMARK"
-/equip Barrier Shield
-/equip Dal'Rend's Sacred Charge
+/equip Drillborer Disk
+/equipslot 16 Deathbringer
 END
 VER 3 0000000001000007 "SLAM" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -41,6 +55,10 @@ END
 VER 3 0000000001000001 "Sunder" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cancelaura Blessing of Salvation
+/cancelaura Greater Blessing of Salvation
 /cast Sunder Armor
+END
+VER 3 000000000100000C "SW/Reck" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:3]Recklessness; [stance:2]Shield Wall; [stance:1] Retaliation
 END

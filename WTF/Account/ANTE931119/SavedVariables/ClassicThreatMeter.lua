@@ -14,7 +14,7 @@ CTM_Options = {
 	},
 	["general"] = {
 		["hideOOC"] = false,
-		["welcome"] = true,
+		["welcome"] = false,
 		["ignorePets"] = false,
 		["invertColors"] = false,
 		["nameplateThreat"] = false,
@@ -51,27 +51,27 @@ CTM_Options = {
 		["headerShow"] = true,
 		["scale"] = 1,
 		["width"] = 217.000045776367,
-		["height"] = 171.098861694336,
-		["locked"] = true,
-		["position"] = {
-			"RIGHT", -- [1]
-			"UIParent", -- [2]
-			"RIGHT", -- [3]
-			-338.813598632813, -- [4]
-			79.7287368774414, -- [5]
-		},
 		["test"] = false,
+		["height"] = 171.098861694336,
+		["headerColor"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.8, -- [4]
+		},
+		["locked"] = true,
 		["color"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			0.35, -- [4]
 		},
-		["headerColor"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.8, -- [4]
+		["position"] = {
+			"RIGHT", -- [1]
+			"UIParent", -- [2]
+			"RIGHT", -- [3]
+			-340.813354492188, -- [4]
+			75.7286605834961, -- [5]
 		},
 		["strata"] = "3-MEDIUM",
 	},

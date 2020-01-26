@@ -16,9 +16,9 @@ ClassicCastbarsDB = {
 			-23.1, -- [3]
 		},
 		["height"] = 11,
-		["iconSize"] = 14,
-		["autoPosition"] = true,
 		["castFontSize"] = 8,
+		["autoPosition"] = true,
+		["iconSize"] = 14,
 	},
 	["version"] = "5",
 	["target"] = {
@@ -37,9 +37,9 @@ ClassicCastbarsDB = {
 			-87, -- [3]
 		},
 		["height"] = 15,
-		["iconSize"] = 16,
-		["autoPosition"] = true,
 		["castFontSize"] = 10,
+		["autoPosition"] = true,
+		["iconSize"] = 16,
 	},
 	["locale"] = "enUS",
 	["pushbackDetect"] = false,
