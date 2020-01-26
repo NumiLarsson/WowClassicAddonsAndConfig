@@ -8,13 +8,13 @@ ExtendedCharacterStats = {
 					["text"] = "Miss-Chance (Lvl + 3): ",
 					["refName"] = "RangedHitBossLevel",
 				},
+				["isSubGroup"] = true,
 				["display"] = true,
 				["sameLevel"] = {
 					["display"] = true,
 					["text"] = "Miss-Chance: ",
 					["refName"] = "RangedHitSameLevel",
 				},
-				["isSubGroup"] = true,
 				["text"] = "Hit",
 				["refName"] = "RangedHitHeader",
 				["bonus"] = {
@@ -59,13 +59,13 @@ ExtendedCharacterStats = {
 					["text"] = "Miss-Chance (Lvl + 3): ",
 					["refName"] = "MeleeHitBossLevel",
 				},
+				["isSubGroup"] = true,
 				["display"] = true,
 				["sameLevel"] = {
 					["display"] = true,
 					["text"] = "Miss-Chance: ",
 					["refName"] = "MeleeHitSameLevel",
 				},
-				["isSubGroup"] = true,
 				["text"] = "Hit",
 				["refName"] = "MeleeHitHeader",
 				["bonus"] = {
@@ -81,26 +81,6 @@ ExtendedCharacterStats = {
 				["display"] = true,
 				["text"] = "Crit: ",
 				["refName"] = "MeleeCritChance",
-			},
-		},
-		["regen"] = {
-			["mp5Spirit"] = {
-				["display"] = true,
-				["text"] = "MP5 (Spirit): ",
-				["refName"] = "MP5Spirit",
-			},
-			["mp5Casting"] = {
-				["display"] = true,
-				["text"] = "MP5 (Casting): ",
-				["refName"] = "MP5Casting",
-			},
-			["display"] = true,
-			["text"] = "Mana",
-			["refName"] = "ManaHeader",
-			["mp5Items"] = {
-				["display"] = true,
-				["text"] = "MP5 (Items): ",
-				["refName"] = "MP5Items",
 			},
 		},
 		["spellBonus"] = {
@@ -183,6 +163,26 @@ ExtendedCharacterStats = {
 				["refName"] = "NatureCritChance",
 			},
 		},
+		["regen"] = {
+			["mp5Spirit"] = {
+				["display"] = true,
+				["text"] = "MP5 (Spirit): ",
+				["refName"] = "MP5Spirit",
+			},
+			["mp5Casting"] = {
+				["display"] = true,
+				["text"] = "MP5 (Casting): ",
+				["refName"] = "MP5Casting",
+			},
+			["display"] = true,
+			["text"] = "Mana",
+			["refName"] = "ManaHeader",
+			["mp5Items"] = {
+				["display"] = true,
+				["text"] = "MP5 (Items): ",
+				["refName"] = "MP5Items",
+			},
+		},
 		["spell"] = {
 			["hit"] = {
 				["bossLevel"] = {
@@ -190,13 +190,13 @@ ExtendedCharacterStats = {
 					["text"] = "Miss-Chance (Lvl + 3): ",
 					["refName"] = "SpellHitBossLevel",
 				},
+				["isSubGroup"] = true,
 				["display"] = true,
 				["sameLevel"] = {
 					["display"] = true,
 					["text"] = "Miss-Chance: ",
 					["refName"] = "SpellHitSameLevel",
 				},
-				["isSubGroup"] = true,
 				["text"] = "Hit",
 				["refName"] = "SpellHitHeader",
 				["bonus"] = {

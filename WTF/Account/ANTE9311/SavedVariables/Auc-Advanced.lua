@@ -45,21 +45,21 @@ AucAdvancedData = {
 		["Current"] = {
 			["general.maxbuy"] = 9999999999,
 			["smelting.profit.min"] = 10000,
-			["vendor.timeleft"] = 1,
+			["snatch.columnsortcurDir"] = 1,
 			["converter.allow.bid"] = false,
 			["enchantmats.level.max"] = 275,
-			["general.maxbid"] = 9999999999,
+			["vendor.timeleft"] = 1,
 			["resale.seen.check"] = true,
 			["columnsortcurSort"] = 3,
+			["snatch.itemsList"] = {
+			},
 			["ignoreitemprice.ignorelist"] = {
 				["3728"] = 0,
 				["3713"] = 0,
 			},
 			["resale.seen.min"] = 15,
-			["snatch.itemsList"] = {
-			},
 			["columnsortcurDir"] = -1,
-			["snatch.columnsortcurDir"] = 1,
+			["general.maxbid"] = 9999999999,
 			["smelting.allow.bid"] = false,
 			["snatch.columnsortcurSort"] = 1,
 		},
@@ -71,12 +71,12 @@ AucAdvancedData = {
 	},
 }
 AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1569684329,
 	["KnownServerKeys"] = {
-		["Ashbringer"] = 1580029269,
+		["Ashbringer"] = 1580062155,
 	},
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["Version"] = 1,
-	["Timestamp"] = 1569684329,
 }

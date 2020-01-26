@@ -909,9 +909,10 @@ BeanCounterDB = {
 						"1;783;60;38;761;100;Rhoewen;1569711717;;A", -- [7]
 					},
 				},
-				["7068"] = {
-					["item:7068::::::::100:::::::"] = {
-						"1;28028;240;1462;29250;20585;Tagitas;1571948543;;A", -- [1]
+				["18042"] = {
+					["item:18042::::::::100:::::::"] = {
+						"200;9815;1200;453;9068;8385;Spacoin;1572895932;;A", -- [1]
+						"200;9815;1200;453;9068;8385;Brbana;1572824953;;A", -- [2]
 					},
 				},
 				["12359"] = {
@@ -940,10 +941,9 @@ BeanCounterDB = {
 						"1;232448;12000;11602;232050;189150;Viriqa;1573163393;;A", -- [1]
 					},
 				},
-				["18042"] = {
-					["item:18042::::::::100:::::::"] = {
-						"200;9815;1200;453;9068;8385;Spacoin;1572895932;;A", -- [1]
-						"200;9815;1200;453;9068;8385;Brbana;1572824953;;A", -- [2]
+				["7068"] = {
+					["item:7068::::::::100:::::::"] = {
+						"1;28028;240;1462;29250;20585;Tagitas;1571948543;;A", -- [1]
 					},
 				},
 				["7070"] = {
@@ -1215,23 +1215,16 @@ BeanCounterDB = {
 			["postedBids"] = {
 			},
 			["postedAuctions"] = {
+				["12359"] = {
+					["item:12359::::::::100:::::::"] = {
+					},
+				},
 				["11733"] = {
 					["item:11733::::::::100:::::::"] = {
-						"1;1037925;1161020;1440;;1579883351;", -- [1]
 					},
 				},
 				["16203"] = {
 					["item:16203::::::::100:::::::"] = {
-						"1;40001;54600;1440;;1579949355;", -- [1]
-					},
-				},
-				["12359"] = {
-					["item:12359::::::::100:::::::"] = {
-						"20;17453;35081;1440;7200;1579949329;", -- [1]
-						"20;17453;35081;1440;7200;1579949329;", -- [2]
-						"20;17453;35081;1440;7200;1579949329;", -- [3]
-						"20;17453;35081;1440;7200;1579949328;", -- [4]
-						"20;17453;35081;1440;7200;1579949328;", -- [5]
 					},
 				},
 				["12361"] = {
@@ -1300,7 +1293,8 @@ BeanCounterDB = {
 				},
 				["11733"] = {
 					["item:11733::::::::100:::::::"] = {
-						"1;;;;1343062;1323032;;1579446135;;A", -- [1]
+						"1;;;;1161020;1037925;;1579969754;;A", -- [1]
+						"1;;;;1343062;1323032;;1579446135;;A", -- [2]
 					},
 				},
 				["18360"] = {
@@ -1541,14 +1535,14 @@ BeanCounterDB = {
 						"5;18594;72;974;19496;18525;Exäbior;1576785432;;A", -- [4]
 					},
 				},
-				["3860"] = {
-					["item:3860::::::::100:::::::"] = {
-						"20;23233;4800;970;19403;11700;Snura;1576786672;;A", -- [1]
-					},
-				},
 				["4398"] = {
 					["item:4398::::::::100:::::::"] = {
 						"1;19065;540;975;19500;19500;Pineapple;1579103925;;A", -- [1]
+					},
+				},
+				["3860"] = {
+					["item:3860::::::::100:::::::"] = {
+						"20;23233;4800;970;19403;11700;Snura;1576786672;;A", -- [1]
 					},
 				},
 				["14344"] = {
@@ -1562,17 +1556,21 @@ BeanCounterDB = {
 						"200;12130;1200;575;11505;10920;Thalee;1575725626;;A", -- [1]
 					},
 				},
-				["12359"] = {
-					["item:12359::::::::100:::::::"] = {
-						"20;53513;7200;2437;48750;46313;Refusion;1579085663;;A", -- [1]
+				["12800"] = {
+					["item:12800::::::::100:::::::"] = {
+						"1;33788;6000;1462;29250;24375;Flattershy;1578925623;;A", -- [1]
+						"1;29296;6000;1226;24522;22070;Grumfnir;1578478221;;A", -- [2]
+						"1;29296;6000;1226;24522;22070;Cledybank;1578486332;;A", -- [3]
+						"1;27583;6000;1135;22718;14625;Fellicity;1575724972;;A", -- [4]
 					},
 				},
 				["16203"] = {
 					["item:16203::::::::100:::::::"] = {
-						"1;46128;;2427;48555;40001;Nyfryser;1579035093;;A", -- [1]
-						"1;46128;;2427;48555;40001;Nyfryser;1579035091;;A", -- [2]
-						"1;44460;;2340;46800;40001;Murmir;1576937763;;A", -- [3]
-						"1;44460;;2340;46800;40001;Murmir;1576937761;;A", -- [4]
+						"1;51870;;2730;54600;40001;Zerden;1579955660;;A", -- [1]
+						"1;46128;;2427;48555;40001;Nyfryser;1579035093;;A", -- [2]
+						"1;46128;;2427;48555;40001;Nyfryser;1579035091;;A", -- [3]
+						"1;44460;;2340;46800;40001;Murmir;1576937763;;A", -- [4]
+						"1;44460;;2340;46800;40001;Murmir;1576937761;;A", -- [5]
 					},
 				},
 				["18332"] = {
@@ -1611,12 +1609,14 @@ BeanCounterDB = {
 						"10;54697;48;2876;57525;50051;Exxplosive;1579026553;;A", -- [1]
 					},
 				},
-				["12800"] = {
-					["item:12800::::::::100:::::::"] = {
-						"1;33788;6000;1462;29250;24375;Flattershy;1578925623;;A", -- [1]
-						"1;29296;6000;1226;24522;22070;Grumfnir;1578478221;;A", -- [2]
-						"1;29296;6000;1226;24522;22070;Cledybank;1578486332;;A", -- [3]
-						"1;27583;6000;1135;22718;14625;Fellicity;1575724972;;A", -- [4]
+				["12359"] = {
+					["item:12359::::::::100:::::::"] = {
+						"20;40527;7200;1754;35081;17453;Gunster;1579951156;;A", -- [1]
+						"20;40527;7200;1754;35081;17453;Gunster;1579951154;;A", -- [2]
+						"20;40527;7200;1754;35081;17453;Mayki;1579950966;;A", -- [3]
+						"20;40527;7200;1754;35081;17453;Mayki;1579950964;;A", -- [4]
+						"20;40527;7200;1754;35081;17453;Shifted;1579950033;;A", -- [5]
+						"20;53513;7200;2437;48750;46313;Refusion;1579085663;;A", -- [6]
 					},
 				},
 			},
@@ -1679,28 +1679,28 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1579926699,
 			["mailbox"] = {
 				{
-					["read"] = 1,
 					["sender"] = "Alliance Auction House",
-					["time"] = 29.9998836517334,
+					["read"] = 1,
 					["subject"] = "Auction won: Oily Blackmouth (17)",
+					["time"] = 29.9998836517334,
 				}, -- [1]
 				{
-					["read"] = 1,
 					["sender"] = "Alliance Auction House",
-					["time"] = 29.9998035430908,
+					["read"] = 1,
 					["subject"] = "Auction won: Oily Blackmouth (20)",
+					["time"] = 29.9998035430908,
 				}, -- [2]
 				{
-					["read"] = 2,
 					["sender"] = "Poxpoone",
-					["time"] = 27.4987735748291,
+					["read"] = 2,
 					["subject"] = "Arcane Crystal",
+					["time"] = 27.4987735748291,
 				}, -- [3]
 				{
-					["time"] = 29.8212509155273,
-					["sender"] = "Alliance Auction House",
 					["subject"] = "Auction successful: Dreamfoil (5)",
 					["read"] = 2,
+					["time"] = 29.8212509155273,
+					["sender"] = "Alliance Auction House",
 				}, -- [4]
 			},
 		},
@@ -1723,10 +1723,10 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1579998361,
 			["mailbox"] = {
 				{
-					["time"] = 29.9459381103516,
-					["sender"] = "Alliance Auction House",
 					["subject"] = "Auction successful: Runn Tum Tuber (20)",
 					["read"] = 2,
+					["time"] = 29.9459381103516,
+					["sender"] = "Alliance Auction House",
 				}, -- [1]
 			},
 		},
@@ -1739,118 +1739,118 @@ BeanCounterDBSettings = {
 			["tasks.prunePostedDB"] = 1579223373,
 			["mailbox"] = {
 				{
+					["subject"] = "Auction successful: Elemental Fire",
+					["read"] = 1,
 					["time"] = 17.2246875762939,
 					["sender"] = "Alliance Auction House",
-					["subject"] = "Auction successful: Elemental Fire",
-					["read"] = 1,
 				}, -- [1]
 				{
-					["time"] = 17.1861114501953,
-					["sender"] = "Alliance Auction House",
 					["subject"] = "Auction successful: Elemental Fire",
 					["read"] = 2,
+					["time"] = 17.1861114501953,
+					["sender"] = "Alliance Auction House",
 				}, -- [2]
 				{
+					["subject"] = "Auction successful: Elemental Fire",
+					["read"] = 1,
 					["time"] = 17.1861000061035,
 					["sender"] = "Alliance Auction House",
-					["subject"] = "Auction successful: Elemental Fire",
-					["read"] = 1,
 				}, -- [3]
 				{
+					["subject"] = "Auction successful: Elemental Fire",
+					["read"] = 1,
 					["time"] = 17.1860885620117,
 					["sender"] = "Alliance Auction House",
-					["subject"] = "Auction successful: Elemental Fire",
-					["read"] = 1,
 				}, -- [4]
 				{
+					["subject"] = "Auction successful: Elemental Fire",
+					["read"] = 1,
 					["time"] = 17.1860771179199,
 					["sender"] = "Alliance Auction House",
-					["subject"] = "Auction successful: Elemental Fire",
-					["read"] = 1,
 				}, -- [5]
 				{
-					["time"] = 16.5581588745117,
-					["sender"] = "Alliance Auction House",
 					["subject"] = "Auction successful: Elemental Fire",
 					["read"] = 1,
+					["time"] = 16.5581588745117,
+					["sender"] = "Alliance Auction House",
 				}, -- [6]
 				{
-					["time"] = 12.5116090774536,
-					["sender"] = "Numiro",
 					["subject"] = "Schematic: Gnomish Alarm-O-Bot",
 					["read"] = 1,
+					["time"] = 12.5116090774536,
+					["sender"] = "Numiro",
 				}, -- [7]
 				{
-					["time"] = 12.337963104248,
-					["sender"] = "Numiro",
 					["subject"] = "Rugged Leather (2)",
 					["read"] = 1,
+					["time"] = 12.337963104248,
+					["sender"] = "Numiro",
 				}, -- [8]
 				{
-					["time"] = 9.60940933227539,
-					["sender"] = "Numiro",
 					["subject"] = "Schematic: Arcane Bomb",
 					["read"] = 1,
+					["time"] = 9.60940933227539,
+					["sender"] = "Numiro",
 				}, -- [9]
 				{
+					["subject"] = "Runecloth (20)",
+					["read"] = 1,
 					["time"] = 9.60753440856934,
 					["sender"] = "Numiro",
-					["subject"] = "Runecloth (20)",
-					["read"] = 1,
 				}, -- [10]
 				{
-					["time"] = 7.41935205459595,
-					["sender"] = "Numiro",
 					["subject"] = "Dark Iron Residue (67)",
 					["read"] = 1,
+					["time"] = 7.41935205459595,
+					["sender"] = "Numiro",
 				}, -- [11]
 				{
-					["time"] = 7.25368070602417,
-					["sender"] = "Numiro",
 					["subject"] = "Black Diamond",
 					["read"] = 1,
+					["time"] = 7.25368070602417,
+					["sender"] = "Numiro",
 				}, -- [12]
 				{
-					["time"] = 6.29454851150513,
-					["sender"] = "Numiro",
 					["subject"] = "Runecloth (20)",
 					["read"] = 1,
+					["time"] = 6.29454851150513,
+					["sender"] = "Numiro",
 				}, -- [13]
 				{
-					["time"] = 5.49663209915161,
-					["sender"] = "Numiro",
 					["subject"] = "Wicked Claw",
 					["read"] = 1,
+					["time"] = 5.49663209915161,
+					["sender"] = "Numiro",
 				}, -- [14]
 				{
-					["time"] = 4.56874990463257,
-					["sender"] = "Numiro",
 					["subject"] = "Heart of Fire",
 					["read"] = 1,
+					["time"] = 4.56874990463257,
+					["sender"] = "Numiro",
 				}, -- [15]
 				{
-					["time"] = 3.37261581420898,
-					["sender"] = "Numiro",
 					["subject"] = "Snickerfang Jowl (5)",
 					["read"] = 1,
+					["time"] = 3.37261581420898,
+					["sender"] = "Numiro",
 				}, -- [16]
 				{
-					["time"] = 3.27400469779968,
-					["sender"] = "Numiro",
 					["subject"] = "Ghost Mushroom (2)",
 					["read"] = 1,
+					["time"] = 3.27400469779968,
+					["sender"] = "Numiro",
 				}, -- [17]
 				{
-					["time"] = 3.1601505279541,
-					["sender"] = "Numiro",
 					["subject"] = "Scorpok Pincer (2)",
 					["read"] = 1,
+					["time"] = 3.1601505279541,
+					["sender"] = "Numiro",
 				}, -- [18]
 				{
-					["time"] = 2.56446766853333,
-					["sender"] = "Numiro",
 					["subject"] = "Thick Leather (5)",
 					["read"] = 1,
+					["time"] = 2.56446766853333,
+					["sender"] = "Numiro",
 				}, -- [19]
 			},
 		},
@@ -1869,33 +1869,21 @@ BeanCounterDBSettings = {
 			["version"] = 3.04,
 			["faction"] = "Alliance",
 			["tasks.compactDB"] = 1578685698,
-			["wealth"] = 555420,
+			["wealth"] = 809925,
 			["tasks.prunePostedDB"] = 1580428652,
 			["mailbox"] = {
 				{
-					["sender"] = "Alliance Auction House",
+					["subject"] = "Auction expired: Libram of Constitution",
 					["read"] = 2,
-					["subject"] = "Auction won: Free Action Potion (5)",
-					["time"] = 29.9998607635498,
+					["time"] = 28.9683456420898,
+					["sender"] = "Alliance Auction House",
 				}, -- [1]
 				{
-					["sender"] = "Alliance Auction House",
-					["read"] = 2,
-					["subject"] = "Auction won: Free Action Potion (5)",
-					["time"] = 29.9998378753662,
-				}, -- [2]
-				{
-					["sender"] = "Boomblaster",
-					["read"] = 1,
-					["subject"] = "Libram of Constitution",
-					["time"] = 30.9823379516602,
-				}, -- [3]
-				{
-					["sender"] = "Alliance Auction House",
-					["read"] = 1,
 					["subject"] = "Auction expired: The Greatest Race of Hunters",
-					["time"] = 19.138334274292,
-				}, -- [4]
+					["read"] = 1,
+					["time"] = 17.8621635437012,
+					["sender"] = "Alliance Auction House",
+				}, -- [2]
 			},
 		},
 		["Numiherb"] = {
