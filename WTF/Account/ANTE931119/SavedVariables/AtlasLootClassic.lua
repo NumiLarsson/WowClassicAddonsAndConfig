@@ -1,5 +1,8 @@
 
 AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 1040005,
+	},
 	["profileKeys"] = {
 		["Numiro - Ashbringer"] = "Numiro - Ashbringer",
 		["Numibank - Ashbringer"] = "Numibank - Ashbringer",
@@ -10,9 +13,6 @@ AtlasLootClassicDB = {
 		["Numiwar - Gehennas"] = "Numiwar - Gehennas",
 		["Numiherb - Ashbringer"] = "Numiherb - Ashbringer",
 		["Numiro - Firemaw"] = "Numiro - Firemaw",
-	},
-	["global"] = {
-		["__addonrevision"] = 1040005,
 	},
 	["profiles"] = {
 		["Numiro - Ashbringer"] = {
@@ -28,10 +28,10 @@ AtlasLootClassicDB = {
 					-43.0000228881836, -- [5]
 				},
 				["selected"] = {
-					nil, -- [1]
-					"Onyxia", -- [2]
+					"AtlasLootClassic_PvP", -- [1]
+					"ClassSets", -- [2]
 					nil, -- [3]
-					3, -- [4]
+					2, -- [4]
 					0, -- [5]
 				},
 			},
@@ -59,6 +59,9 @@ AtlasLootClassicDB = {
 		["Numiduotest - Gehennas"] = {
 		},
 		["Numi - Gehennas"] = {
+			["minimap"] = {
+				["minimapPos"] = 351.195847512043,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -74,9 +77,6 @@ AtlasLootClassicDB = {
 					3, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 351.195847512043,
 			},
 		},
 		["Numimeme - Ashbringer"] = {
@@ -98,9 +98,6 @@ AtlasLootClassicDB = {
 			},
 		},
 		["Numiwar - Gehennas"] = {
-			["minimap"] = {
-				["minimapPos"] = 4.51874022813958,
-			},
 			["GUI"] = {
 				["point"] = {
 					"LEFT", -- [1]
@@ -117,10 +114,16 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 4.51874022813958,
+			},
 		},
 		["Numiherb - Ashbringer"] = {
 		},
 		["Numiro - Firemaw"] = {
+			["minimap"] = {
+				["minimapPos"] = 175.990012048964,
+			},
 			["GUI"] = {
 				["point"] = {
 					"RIGHT", -- [1]
@@ -136,9 +139,6 @@ AtlasLootClassicDB = {
 					1, -- [4]
 					0, -- [5]
 				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 175.990012048964,
 			},
 		},
 	},

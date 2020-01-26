@@ -5,149 +5,6 @@ SwatterData = {
 	["combat"] = false,
 	["errors"] = {
 		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:20:19",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [1]
-		{
-			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
-			["count"] = 236,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=74c)\n",
-			["locals"] = "self = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:385\n mylevel = 60\n Bags = <table> {\n }\n privateVars = <table> {\n }\n HandleCommandBar = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:131\n CancelTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:147\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:443\n ExitVehicleShowFrames = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:375\n HelloKittyToggle = <function> defined @Interface\\AddOns\\ElvUI\\Core\\AprilFools.lua:351\n UpdateUnitFrames = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:860\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:501\n DispelClasses = <table> {\n }\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Movers.lua:480\n ScheduleTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:94\n PriestColors = <table> {\n }\n UpdateBags = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:913\n SetupTheme = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Install.lua:161\n media = <table> {\n }\n UnlocalizedClassName = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:47\n data = <table> {\n }\n EnableBlizzardAddOns = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Commands.lua:199\n UIScale = <function> defined @Interface\\AddOns\\ElvUI\\Core\\PixelPerfect.lua:27\n db = <table> {\n }\n FramesOverlap = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:155\n SetEnabledState = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:424\n Hook = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:274\n Options = <table> {\n }\n UpdateLayout = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:878\n Layout = <table> {\n }\n PluginInstaller = <table> {\n }\n PixelBestSize = <function> defined @Interface\\AddOns\\ElvUI\\Core\\PixelPerfect.lua:68\n UnregisterEventForObject = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:1157\n Distributor = <table> {\n }\n HiddenFrame = <unnamed> {\n }\n Media = <table> {\n }\n PositionGameMenuButton = <function> defined @Interface\\AddOns\\ElvUI\\init.lua:214\n ScanTooltipTextures = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:58\n SafeGetPoint = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Toolkit.lua:21\n UIFrameFade = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Animation.lua:211\n BadDispels = <table> {\n }\n TimeIndicatorColors = <table> {\n }\n TexturePath = \"Interface\\AddOns\\ElvUI\\Media\\Textures\\\"\n StaticPopup_CreateSecureButton = <function> defined @Interface\\AddOns\\ElvUI\\Core\\StaticPopups.lua:1156\n Truncate = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:133\n UpdateBackdropColors = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:425\n TimeThreshold = 3\n ToggleMoveMode = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Config.lua:56\n RemoveTableDuplicates = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:538\n name = \"ElvUI\"\n WorldMap = <table> {\n }\n MinimapHeight = 220\n Disable = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:314\n DF = <table> {\n }\n SlideOut = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Animation.lua:146\n isMacClient = false\n Print = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:180\n Install = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Install.lua:690\n UnregisterObjectForVehicleLock = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:346\n LockedCVars = <table> {\n }\n EscapeString = <function> defined @Interface\\AddOns\\ElvUI\\init.lua:130\n TimeFormats = <table> {\n }\n ObjectEventFrame = <unnamed> {\n }\n GetNazjatarBodyguardXP = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:146\n InversePoints = <table> {\n }\n Cooldown_StopTimer = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Cooldowns.lua:123\n loadedtime = 288906.674000\n Tutorials = <function> defined @Interface\\AddOns\\ElvUI\\Core\\T",
-			["timestamp"] = "2020-01-25 01:22:13",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [2]
-		{
-			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: attempt to perform arithmetic on field 'total' (a nil value)",
-			["count"] = 1000,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=74c)\n",
-			["locals"] = "self = nil\ntoken = \"SPELL_PERIODIC_HEAL\"\ntime = 1579911757.649000\nwho_serial = \"Player-4465-0050881F\"\nwho_name = \"Xo-Golemagg\"\nwho_flags = 1300\nalvo_serial = \"Player-4465-0050881F\"\nalvo_name = \"Xo-Golemagg\"\nalvo_flags = 1300\nalvo_flags2 = 0\nspellid = \"Rejuvenation\"\nspellname = \"Rejuvenation\"\nspelltype = 8\namount = 351\noverhealing = 0\nabsorbed = 0\ncritical = false\nis_shield = nil\ncura_efetiva = 351\neste_jogador = <table> {\n flag_original = 1300\n totalabsorb = 0.002485\n last_hps = 0\n timeMachine = 1\n healing_from = <table> {\n }\n iniciar_hps = true\n targets = <table> {\n }\n heal_enemy_amt = 0\n pets = <table> {\n }\n totalover_without_pet = 0.002485\n start_time = 1579911762\n healing_taken = 0.002485\n totalover = 0.002485\n total_without_pet = 0.002485\n spec = 105\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n targets_overheal = <table> {\n }\n targets_absorbs = <table> {\n }\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n heal_enemy = <table> {\n }\n last_event = 1579911762\n custom = 0\n tipo = 2\n on_hold = false\n totaldenied = 0.002485\n delay = 0\n pvp = true\n}\nmeu_dono = nil\njogador_alvo = <table> {\n flag_original = 1300\n totalabsorb = 0.002485\n last_hps = 0\n timeMachine = 1\n healing_from = <table> {\n }\n iniciar_hps = true\n targets = <table> {\n }\n heal_enemy_amt = 0\n pets = <table> {\n }\n totalover_without_pet = 0.002485\n start_time = 1579911762\n healing_taken = 0.002485\n totalover = 0.002485\n total_without_pet = 0.002485\n spec = 105\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n targets_overheal = <table> {\n }\n targets_absorbs = <table> {\n }\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n heal_enemy = <table> {\n }\n last_event = 1579911762\n custom = 0\n tipo = 2\n on_hold = false\n totaldenied = 0.002485\n delay = 0\n pvp = true\n}\nalvo_dono = nil\n(*temporary) = nil\n(*temporary) = 351\n(*temporary) = true\n(*temporary) = <function> defined @Interface\\AddOns\\Details\\core\\timemachine.lua:122\n(*temporary) = <table> {\n flag_original = 1300\n totalabsorb = 0.002485\n last_hps = 0\n timeMachine = 1\n healing_from = <table> {\n }\n iniciar_hps = true\n targets = <table> {\n }\n heal_enemy_amt = 0\n pets = <table> {\n }\n totalover_without_pet = 0.002485\n start_time = 1579911762\n healing_taken = 0.002485\n totalover = 0.002485\n total_without_pet = 0.002485\n spec = 105\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n targets_overheal = <table> {\n }\n targets_absorbs = <table> {\n }\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n heal_enemy = <table> {\n }\n last_event = 1579911762\n custom = 0\n tipo = 2\n on_hold = false\n totaldenied = 0.002485\n delay = 0\n pvp = true\n}\n(*temporary) = <table> {\n 1 = <table> {\n }\n}\n(*temporary) = 1\n(*temporary) = <table> {\n 1 = <table> {\n }\n}\n(*temporary) = <table> {\n flag_original = 1300\n totalabsorb = 0.002485\n last_hps = 0\n timeMachine = 1\n healing_from = <table> {\n }\n iniciar_hps = true\n targets = <table> {\n }\n heal_enemy_amt = 0\n pets = <table> {\n }\n totalover_without_pet = 0.002485\n start_time = 1579911762\n healing_taken = 0.002485\n totalover = 0.002485\n total_without_pet = 0.002485\n spec = 105\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n targets_overheal = <table> {\n }\n targets_absorbs = <table> {\n }\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n heal_enemy = <table> {\n }\n last_event = 1579911762\n custom = 0\n tipo = 2\n on_hold = false\n totaldenied = 0.002485\n delay = 0\n pvp = true\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to perform arithmetic on field 'total' (a nil value)\"\n_in_combat = true\n_bit_band = <function> defined =[C]:-1\nOBJECT_TYPE_PETS = 12288\nSPELLID_SHAMAN_SLT = 98021\nparser = <table> {\n WipeSourceCache = <function> defined @Interface\\AddOns\\Details\\core\\parser.lua:3646\n swing = <function> defined @Interface\\AddOns\\Details\\core\\parser.lua:306\n buff = <function> defined @Interface\\AddOns\\Details\\core\\parser.lua:1825\n energize = <function> defined @Interface\\AddOns\\Details\\core\\parser.lua:2723\n dispell = <",
-			["timestamp"] = "2020-01-25 01:22:43",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n",
-		}, -- [3]
-		{
-			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: attempt to compare string with number",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=74c)\n",
-			["locals"] = "self = <table> {\n MontaDetalhesFriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4259\n r_onlyrefresh_shadow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5089\n Iniciar = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5020\n MontaInfo = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3645\n ColetarLixo = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5290\n ReportSingleFragsLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3234\n AtualizaBarra = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2337\n ToolTip_FriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3530\n MontaDetalhesEnemy = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4321\n ToolTip_DamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3352\n MontaInfoFriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3674\n RefreshWindow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568\n add_total = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5073\n NovaTabela = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:351\n MontaInfoDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3814\n ToolTip_DamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2870\n ToolTip_Enemies = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3247\n CreateFFTable = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:103\n MontaDetalhesDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4414\n MontaInfoDamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3975\n ReportEnemyDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3186\n ReportSingleVoidZoneLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1299\n __index = <table> {\n }\n AtualizarBySpell = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:883\n __add = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5294\n r_connect_shadow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5148\n r_last_events_table = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5081\n subtract_total = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5067\n ToolTip = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2844\n MontaDetalhes = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3656\n MontaDetalhesDamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4548\n MontaTooltipDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4876\n UpdateSelectedToKFunction = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5059\n ClearTempTables = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5036\n ContainerRefreshDps = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:399\n MontaTooltipAlvos = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4915\n AtualizarFrags = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1070\n __sub = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5389\n ReportSingleDTBSLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:867\n}\ninstancia = <table> {\n h_baixo = DetailsBottomSideBarHighlight1 {\n }\n menu_icons_size = 0.850000\n h_esquerda = DetailsLeftSideBarHighlight1 {\n }\n bg_r = 0.094118\n color_buttons = <table> {\n }\n rows_showing = 0\n micro_displays_locked = true\n LastModo = 2\n icons = <table> {\n }\n ponto3 = <table> {\n }\n ponto1 = <table> {\n }\n rolagem = false\n attribute_text = <table> {\n }\n windowBackgroundDisplay ",
-			["timestamp"] = "2020-01-25 01:23:28",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [4]
-		{
-			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: attempt to perform arithmetic on field 'total' (a string value)",
-			["count"] = 1000,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=74c)\n",
-			["locals"] = "self = nil\ntoken = \"SPELL_DAMAGE\"\ntime = 1579911901.111000\nwho_serial = \"Player-4465-0050881F\"\nwho_name = \"Xo-Golemagg\"\nwho_flags = 1300\nalvo_serial = \"Creature-0-4468-30-30306-13145-00002B89FF\"\nalvo_name = \"Lieutenant Grummus\"\nalvo_flags = 2632\nalvo_flags2 = 0\nspellid = \"Moonfire\"\nspellname = \"Moonfire\"\nspelltype = 64\namount = 15\noverkill = -1\nschool = 64\nresisted = nil\nblocked = nil\nabsorbed = nil\ncritical = false\nglacing = false\ncrushing = false\nisoffhand = nil\neste_jogador = <table> {\n flag_original = 1300\n totalabsorbed = 0.003885\n damage_from = <table> {\n }\n targets = <table> {\n }\n timeMachine = 6\n pets = <table> {\n }\n last_event = 1579911906\n friendlyfire = <table> {\n }\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.003885\n on_hold = false\n spec = 105\n dps_started = true\n total = \"DRUID\"\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 115.003885\n start_time = 1579911906\n delay = 0\n pvp = true\n}\nmeu_dono = nil\njogador_alvo = <table> {\n flag_original = 2632\n totalabsorbed = 0.007877\n damage_from = <table> {\n }\n targets = <table> {\n }\n pets = <table> {\n }\n last_event = 0\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.007877\n monster = true\n on_hold = false\n dps_started = false\n total = 0.007877\n classe = \"UNKNOW\"\n serial = \"Creature-0-4468-30-30306-13145-00002B89FF\"\n nome = \"Lieutenant Grummus\"\n spells = <table> {\n }\n friendlyfire = <table> {\n }\n displayName = \"Lieutenant Grummus\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 15.007877\n start_time = 0\n delay = 0\n pvp = true\n}\nalvo_dono = nil\nis_friendly_fire = false\n(*temporary) = \"DRUID\"\n(*temporary) = 7740\n(*temporary) = 16\n(*temporary) = 0\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n}\n(*temporary) = 6\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n}\n(*temporary) = <table> {\n flag_original = 1300\n totalabsorbed = 0.003885\n damage_from = <table> {\n }\n targets = <table> {\n }\n timeMachine = 6\n pets = <table> {\n }\n last_event = 1579911906\n friendlyfire = <table> {\n }\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.003885\n on_hold = false\n spec = 105\n dps_started = true\n total = \"DRUID\"\n classe = \"Druid\"\n serial = \"Player-4465-0050881F\"\n nome = \"Xo-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Xo\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 115.003885\n start_time = 1579911906\n delay = 0\n pvp = true\n}\n(*temporary) = 45\n(*temporary) = <table> {\n flag_original = 2632\n totalabsorbed = 0.007877\n damage_from = <table> {\n }\n targets = <table> {\n }\n pets = <table> {\n }\n last_event = 0\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.007877\n monster = true\n on_hold = false\n dps_started = false\n total = 0.007877\n classe = \"UNKNOW\"\n serial = \"Creature-0-4468-30-30306-13145-00002B89FF\"\n nome = \"Lieutenant Grummus\"\n spells = <table> {\n }\n friendlyfire = <table> {\n }\n displayName = \"Lieutenant Grummus\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 15.007877\n start_time = 0\n delay = 0\n pvp = true\n}\n(*temporary) = nil\n(*temporary) = \"Lieutenant Grummus\"\n(*temporary) = \"Creature-0-4468-30-30306-13145-00002B89FF\"\n(*temporary) = 2632\n(*temporary) = \"Lieutenant Grummus\"\n(*temporary) = \"damage\"\n(*temporary) = 13145\n(*temporary) = \"Lieutenant Grummus\"\n(*temporary) = \"attempt to perform arithmetic on field 'total' (a string value)\"\n_bit_band = <function> defined =[C]:-1\nOBJECT_TYPE_PETS = 12288\ndamage_spells_to_ignore = <table> {\n 108446 = true\n}\nis_using_spellId_override = true\noverride_spellId = <table> {\n 163558 = 5308\n 210155 = 210153\n 85288 = 96103\n 280849 = 5308\n 201363 = 218617\n 200685 = 199552\n 217956 = 5308\n 224253 = 5308\n 193315 = 197834\n 233499 = 233490\n 184709 = 218617\n 233498 = 233490\n 201364 = 218617\n 225921 = 225919\n 217957 = ",
-			["timestamp"] = "2020-01-25 01:25:06",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n",
-		}, -- [5]
-		{
-			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: attempt to perform arithmetic on field 'total' (a string value)",
-			["count"] = 71,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=74c)\n",
-			["locals"] = "self = nil\ntoken = \"SPELL_DAMAGE\"\ntime = 1579912015.104000\nwho_serial = \"Creature-0-4468-30-30306-11199-00002B8B52\"\nwho_name = \"Crimson Cannon <Varunah-Firemaw>\"\nwho_flags = 8520\nalvo_serial = \"Player-4702-00B8A910\"\nalvo_name = \"Shaonna-Gandling\"\nalvo_flags = 1300\nalvo_flags2 = 0\nspellid = \"Cannon Fire\"\nspellname = \"Cannon Fire\"\nspelltype = 4\namount = 62\noverkill = -1\nschool = 4\nresisted = nil\nblocked = nil\nabsorbed = nil\ncritical = false\nglacing = false\ncrushing = false\nisoffhand = nil\neste_jogador = <table> {\n flag_original = 8520\n totalabsorbed = 0.006003\n damage_from = <table> {\n }\n targets = <table> {\n }\n timeMachine = 45\n pets = <table> {\n }\n last_event = 1579912020\n on_hold = false\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.006003\n serial = \"Creature-0-4468-30-30306-11199-00002B8B52\"\n owner = <table> {\n }\n dps_started = true\n total = 0.006003\n classe = \"PET\"\n ownerName = \"Varunah-Firemaw\"\n nome = \"Crimson Cannon <Varunah-Firemaw>\"\n spells = <table> {\n }\n friendlyfire = <table> {\n }\n displayName = \"Crimson Cannon <Varunah>\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 0.006003\n start_time = 1579912020\n delay = 0\n pvp = true\n}\nmeu_dono = <table> {\n flag_original = 1352\n totalabsorbed = 0.008488\n damage_from = <table> {\n }\n targets = <table> {\n }\n enemy = true\n pets = <table> {\n }\n timeMachine = 10\n last_event = 1579912020\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.008488\n friendlyfire = <table> {\n }\n on_hold = true\n dps_started = true\n total = \"ROGUE\"\n classe = \"Rogue\"\n serial = \"Player-4467-00950B19\"\n nome = \"Varunah-Firemaw\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Varunah\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 5080.008488\n start_time = 1579912011\n delay = 1579912013\n pvp = true\n}\njogador_alvo = <table> {\n flag_original = 1300\n totalabsorbed = 561.002884\n damage_from = <table> {\n }\n targets = <table> {\n }\n pets = <table> {\n }\n timeMachine = 31\n last_event = 1579912016\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.002884\n friendlyfire = <table> {\n }\n on_hold = true\n dps_started = true\n total = \"HUNTER\"\n classe = \"Hunter\"\n serial = \"Player-4702-00B8A910\"\n nome = \"Shaonna-Gandling\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Shaonna\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 782.002884\n start_time = 1579912016\n delay = 1579912016\n pvp = true\n}\nalvo_dono = nil\nis_friendly_fire = false\n(*temporary) = \"ROGUE\"\n(*temporary) = 409478\n(*temporary) = 16\n(*temporary) = 0\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n 29 = <table> {\n }\n 30 = <table> {\n }\n 31 = <table> {\n }\n 32 = <table> {\n }\n 33 = <table> {\n }\n 34 = <table> {\n }\n 35 = <table> {\n }\n 36 = <table> {\n }\n 37 = <table> {\n }\n 38 = <table> {\n }\n 39 = <table> {\n }\n 40 = <table> {\n }\n 41 = <table> {\n }\n 42 = <table> {\n }\n 43 = <table> {\n }\n 44 = <table> {\n }\n 45 = <table> {\n }\n}\n(*temporary) = 45\n(*temporary) = <table> {\n 1 = <table> {\n }\n 2 = <table> {\n }\n 3 = <table> {\n }\n 4 = <table> {\n }\n 5 = <table> {\n }\n 6 = <table> {\n }\n 7 = <table> {\n }\n 8 = <table> {\n }\n 9 = <table> {\n }\n 10 = <table> {\n }\n 11 = <table> {\n }\n 12 = <table> {\n }\n 13 = <table> {\n }\n 14 = <table> {\n }\n 15 = <table> {\n }\n 16 = <table> {\n }\n 17 = <table> {\n }\n 18 = <table> {\n }\n 19 = <table> {\n }\n 20 = <table> {\n }\n 21 = <table> {\n }\n 22 = <table> {\n }\n 23 = <table> {\n }\n 24 = <table> {\n }\n 25 = <table> {\n }\n 26 = <table> {\n }\n 27 = <table> {\n }\n 28 = <table> {\n }\n 29 = <table> {\n }\n 30 = <table> {\n }\n 31 = <table> {\n }\n 32 = <table> {\n }\n 33 = <table> {\n }\n 34 ",
-			["timestamp"] = "2020-01-25 01:27:00",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n",
-		}, -- [6]
-		{
-			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
-			["count"] = 4,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
-			["locals"] = "offset = 0\n_ = nil\nname = nil\nfaction = nil\nclassToken = nil\nrealm = nil\nclassTextColor = nil\nnameText = nil\n(for index) = 1\n(for limit) = nil\n(for step) = 1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"'for' limit must be a number\"\nFauxScrollFrame_GetOffset = <function> defined @Interface\\SharedXML\\SecureUIPanelTemplates.lua:323\n_G = <table> {\n ERR_OUT_OF_CHI = \"Not enough chi\"\n DH_HAVOC_CORE_ABILITY_2 = \"Strong melee attack that consumes Fury. If it critical strikes, some Fury is refunded.\"\n GetTrainerServiceTypeFilter = <function> defined =[C]:-1\n UNIT_NAMES_COMBATLOG_TOOLTIP = \"Color unit names.\"\n SetTrainerServiceTypeFilter = <function> defined =[C]:-1\n LE_GAME_ERR_CHAT_RAID_RESTRICTED_TRIAL = 741\n SPELL_FAILED_CUSTOM_ERROR_71 = \"This partygoer wants to dance with you.\"\n LE_GAME_ERR_PET_SPELL_TARGETS_DEAD = 399\n InterfaceOptionsActionBarsPanelStackRightBarsPixelBorderTOP = InterfaceOptionsActionBarsPanelStackRightBarsPixelBorderTOP {\n }\n StaticPopup4MoneyInputFrameCopperPixelBorderLEFT = StaticPopup4MoneyInputFrameCopperPixelBorderLEFT {\n }\n CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture {\n }\n ElvUF_Player.AuraBarsStatusBar5 = ElvUF_Player.AuraBarsStatusBar5 {\n }\n CombatConfigColorsColorizeEntireLinePixelBorderCENTER = CombatConfigColorsColorizeEntireLinePixelBorderCENTER {\n }\n MultiBarLeftButton7 = MultiBarLeftButton7 {\n }\n InterfaceOptionsNamesPanelUnitNameplatesShowAll = InterfaceOptionsNamesPanelUnitNameplatesShowAll {\n }\n CompactRaidGroup1Member4OverHealAbsorbGlow = CompactRaidGroup1Member4OverHealAbsorbGlow {\n }\n LE_GAME_ERR_INVALID_FOLLOW_PVP_COMBAT = 353\n MerchantItem4AltCurrencyFrameItem1Text = MerchantItem4AltCurrencyFrameItem1Text {\n }\n BINDING_NAME_NAMEPLATES = \"Show Enemy Name Plates\"\n INSTANCE_UNAVAILABLE_OTHER_TEMPORARILY_DISABLED = \"%s cannot enter. This instance is temporarily disabled.\"\n MultiBarBottomRightButton8Shine5 = MultiBarBottomRightButton8Shine5 {\n }\n IsReferAFriendLinked = <function> defined =[C]:-1\n UnitFrameManaBar_UnregisterDefaultEvents = <function> defined @Interface\\FrameXML\\UnitFrame.lua:602\n CALENDAR_RAID_RESET_DESCRIPTION = \"%1$s resets at %2$s.\"\n BOOST2_WARRIOR_COLOSSUSSMASH = \"Use |cFFFFFFFFColossus Smash|r.\n\n|cFFFFFFFFColossus Smash|r increases your damage.\"\n HubPanelProfileDefaultWidgetEliteIndicatorText = HubPanelProfileDefaultWidgetEliteIndicatorText {\n }\n LE_GAME_ERR_RECRUIT_A_FRIEND_FAILED = 951\n ElvUI_Bar5Button12Shine7 = ElvUI_Bar5Button12Shine7 {\n }\n CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight = CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight {\n }\n LE_GAME_ERR_ONLY_ONE_QUIVER = 32\n GetMonitorAspectRatio = <function> defined =[C]:-1\n Button_WorldTogglePushedTexture = Button_WorldTogglePushedTexture {\n }\n TrinketMenu_Trinket1Shine13 = TrinketMenu_Trinket1Shine13 {\n }\n StackSplitFramePixelBorderTOP = StackSplitFramePixelBorderTOP {\n }\n LOSS_OF_CONTROL_DISPLAY_FEAR = \"Feared\"\n Graphics_QualityText = Graphics_QualityText {\n }\n HelpMicroButtonPixelBorderTOPRIGHT = HelpMicroButtonPixelBorderTOPRIGHT {\n }\n CopyChatFramePixelBorderBOTTOMLEFT = CopyChatFramePixelBorderBOTTOMLEFT {\n }\n CombatConfigColorsColorizeDamageNumberSchoolColoringPixelBorderLEFT = CombatConfigColorsColorizeDamageNumberSchoolColoringPixelBorderLEFT {\n }\n CompactUnitFrameProfilesSaveButton = CompactUnitFrameProfilesSaveButton {\n }\n QuestLogListScrollFrameScrollBarScrollDownButtonPixelBorderTOP = QuestLogListScrollFrameScrollBarScrollDownButtonPixelBorderTOP {\n }\n ElvUI_Bar6Button6 = ElvUI_Bar6Button6 {\n }\n ACTION_SPELL_MISSED_POSSESSIVE = \"1\"\n RaidUtility_CloseButton = RaidUtility_CloseButton {\n }\n Is64BitClient = <function> defined =[C]:-1\n CombatConfigColorsColorizeSpellNamesSchoolColoringPixelBorderTOPLEFT = CombatConfigColorsColorizeSpellNamesSchoolColoringPixelBorderTOPLEFT {\n }\n Ope",
-			["timestamp"] = "2020-01-25 01:47:20",
-			["context"] = "Global",
-			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [7]
-		{
-			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
-			["count"] = 10,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
-			["timestamp"] = "2020-01-25 01:47:26",
-			["context"] = "AddOn: AVQ",
-			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1815: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1812>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1883: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:109: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:106>\n",
-		}, -- [8]
-		{
-			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare string with number",
-			["count"] = 2,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
-			["locals"] = "table1 = <table> {\n flag_original = 1300\n totalabsorbed = 0.004225\n damage_from = <table> {\n }\n targets = <table> {\n }\n pets = <table> {\n }\n last_event = 0\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.004225\n friendlyfire = <table> {\n }\n on_hold = false\n dps_started = false\n total = 0.004225\n classe = \"UNGROUPPLAYER\"\n serial = \"Player-4702-00B8A910\"\n nome = \"Unknown\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Unknown\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 0.004225\n start_time = 0\n delay = 0\n pvp = true\n}\ntable2 = <table> {\n flag_original = 1352\n totalabsorbed = 339.003834\n damage_from = <table> {\n }\n targets = <table> {\n }\n enemy = true\n pets = <table> {\n }\n timeMachine = 105\n last_event = 1579913177\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 138.003834\n friendlyfire = <table> {\n }\n on_hold = true\n dps_started = true\n total = \"MAGE\"\n classe = \"Mage\"\n serial = \"Player-4453-00CEE721\"\n nome = \"Stormen-PyrewoodVillage\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Stormen\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 5389.003834\n start_time = 1579913158\n delay = 1579913177\n pvp = true\n}\n(*temporary) = 0.004225\n(*temporary) = \"MAGE\"\n(*temporary) = \"attempt to compare string with number\"\nkeyName = \"total\"\n",
-			["timestamp"] = "2020-01-25 01:47:26",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\meta.lua:991: in function <Interface\\AddOns\\Details\\core\\meta.lua:928>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\meta.lua:815: in function `IniciarColetaDeLixo'\nInterface\\AddOns\\Details\\core\\parser.lua:4714: in function <Interface\\AddOns\\Details\\core\\parser.lua:4690>\n(tail call): ?\n",
-		}, -- [9]
-		{
-			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare number with string",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
-			["locals"] = "table1 = <table> {\n flag_original = 1352\n totalabsorbed = 0.008497\n damage_from = <table> {\n }\n targets = <table> {\n }\n enemy = true\n pets = <table> {\n }\n timeMachine = 94\n last_event = 1579912633\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 231.008497\n friendlyfire = <table> {\n }\n on_hold = true\n dps_started = true\n total = \"WARRIOR\"\n classe = \"Warrior\"\n serial = \"Player-4465-00048049\"\n nome = \"Säcred-Golemagg\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Säcred\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 14285.008497\n start_time = 1579912627\n delay = 1579912633\n pvp = true\n}\ntable2 = <table> {\n flag_original = 1300\n totalabsorbed = 0.004225\n damage_from = <table> {\n }\n targets = <table> {\n }\n pets = <table> {\n }\n last_event = 0\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.004225\n friendlyfire = <table> {\n }\n on_hold = false\n dps_started = false\n total = 0.004225\n classe = \"UNGROUPPLAYER\"\n serial = \"Player-4702-00B8A910\"\n nome = \"Unknown\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Unknown\"\n last_dps = 0\n custom = 0\n tipo = 1\n damage_taken = 0.004225\n start_time = 0\n delay = 0\n pvp = true\n}\n(*temporary) = \"WARRIOR\"\n(*temporary) = 0.004225\n(*temporary) = \"attempt to compare number with string\"\nkeyName = \"total\"\n",
-			["timestamp"] = "2020-01-25 01:47:26",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [10]
-		{
-			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: attempt to perform arithmetic on field 'total' (a string value)",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.1\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
-			["locals"] = "self = <table> {\n MontaDetalhesFriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4259\n r_onlyrefresh_shadow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5089\n Iniciar = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5020\n MontaInfo = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3645\n ColetarLixo = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5290\n ReportSingleFragsLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3234\n AtualizaBarra = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2337\n ToolTip_FriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3530\n MontaDetalhesEnemy = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4321\n ToolTip_DamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3352\n MontaInfoFriendlyFire = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3674\n RefreshWindow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568\n add_total = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5073\n NovaTabela = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:351\n MontaInfoDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3814\n ToolTip_DamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2870\n ToolTip_Enemies = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3247\n CreateFFTable = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:103\n MontaDetalhesDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4414\n MontaInfoDamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3975\n ReportEnemyDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3186\n ReportSingleVoidZoneLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1299\n __index = <table> {\n }\n AtualizarBySpell = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:883\n __add = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5294\n r_connect_shadow = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5148\n r_last_events_table = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5081\n subtract_total = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5067\n ToolTip = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:2844\n MontaDetalhes = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:3656\n MontaDetalhesDamageDone = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4548\n MontaTooltipDamageTaken = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4876\n UpdateSelectedToKFunction = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5059\n ClearTempTables = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5036\n ContainerRefreshDps = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:399\n MontaTooltipAlvos = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:4915\n AtualizarFrags = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:1070\n __sub = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:5389\n ReportSingleDTBSLine = <function> defined @Interface\\AddOns\\Details\\classes\\classe_damage.lua:867\n}\nactor = <table> {\n flag_original = 1300\n totalabsorbed = 0.001531\n fight_component = true\n pvp_component = true\n damage_from = <table> {\n }\n targets = <table> {\n }\n end_time = 1579913247\n pets = <table> {\n }\n last_event = 1579913162\n friendlyfire_total = 2\n raid_targets = <table> {\n }\n total_without_pet = 0.001531\n friendlyfire = <table> {\n }\n on_hold = false\n dps_started = false\n total = \"WA",
-			["timestamp"] = "2020-01-25 01:47:27",
-			["context"] = "Global",
-			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: in function `r_connect_shadow'\nInterface\\AddOns\\Details\\classes\\classe_combate.lua:654: in function <Interface\\AddOns\\Details\\classes\\classe_combate.lua:641>\n...rface\\AddOns\\Details\\classes\\container_historico.lua:106: in function `adicionar_overall'\n...rface\\AddOns\\Details\\classes\\container_historico.lua:284: in function `adicionar'\nInterface\\AddOns\\Details\\core\\control.lua:816: in function `SairDoCombate'\nInterface\\AddOns\\Details\\core\\parser.lua:4544: in function <Interface\\AddOns\\Details\\core\\parser.lua:4519>\n(tail call): ?\n",
-		}, -- [11]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:48:36",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [12]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:48:36",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [13]
-		{
-			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:48:36",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [14]
-		{
-			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:48:36",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [15]
-		{
-			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
-			["count"] = 1,
-			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
-			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
-			["timestamp"] = "2020-01-25 01:48:36",
-			["context"] = "Global",
-			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [16]
-		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: attempt to compare string with number",
 			["count"] = 2,
 			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v26\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=3d0)\n",
@@ -155,7 +12,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 01:48:36",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:133>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2058: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\util.lua:460: in function `UpdateToKFunctions'\nInterface\\AddOns\\Details\\core\\util.lua:451: in function `SelectNumericalSystem'\nInterface\\AddOns\\Details\\functions\\profiles.lua:550: in function `ApplyProfile'\nInterface\\AddOns\\Details\\functions\\loaddata.lua:414: in function `LoadConfig'\nInterface\\AddOns\\Details\\core\\parser.lua:4823: in function <Interface\\AddOns\\Details\\core\\parser.lua:4788>\nInterface\\AddOns\\Details\\core\\parser.lua:4832: in function <Interface\\AddOns\\Details\\core\\parser.lua:4829>\n(tail call): ?\n",
-		}, -- [17]
+		}, -- [1]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 454,
@@ -164,14 +21,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 01:53:07",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function `UPDATE_BATTLEFIELD_SCORE'\n...terface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:279: in function `?'\nInterface\\AddOns\\ElvUI\\Core\\Math.lua:306: in function <Interface\\AddOns\\ElvUI\\Core\\Math.lua:298>\n",
-		}, -- [18]
+		}, -- [2]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 31,
 			["timestamp"] = "2020-01-25 02:00:31",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [19]
+		}, -- [3]
 		{
 			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
 			["count"] = 20,
@@ -179,7 +36,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 02:11:58",
 			["context"] = "AddOn: AVQ",
 			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1815: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1812>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1883: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:109: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:106>\n",
-		}, -- [20]
+		}, -- [4]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -188,7 +45,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 11:15:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [21]
+		}, -- [5]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -197,7 +54,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 11:15:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [22]
+		}, -- [6]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -206,7 +63,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 11:15:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [23]
+		}, -- [7]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -215,7 +72,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 11:15:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [24]
+		}, -- [8]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -224,7 +81,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 11:15:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [25]
+		}, -- [9]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -233,7 +90,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:48:59",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [26]
+		}, -- [10]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -242,7 +99,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:48:59",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [27]
+		}, -- [11]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -251,7 +108,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:48:59",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [28]
+		}, -- [12]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -260,7 +117,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:48:59",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [29]
+		}, -- [13]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -269,7 +126,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:48:59",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [30]
+		}, -- [14]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -278,7 +135,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:55:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [31]
+		}, -- [15]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -287,7 +144,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:55:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [32]
+		}, -- [16]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -296,7 +153,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:55:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [33]
+		}, -- [17]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -305,7 +162,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:55:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [34]
+		}, -- [18]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -314,7 +171,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:55:37",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [35]
+		}, -- [19]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 663,
@@ -323,7 +180,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:57:03",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [36]
+		}, -- [20]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: attempt to compare string with number",
 			["count"] = 1,
@@ -332,7 +189,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:57:58",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [37]
+		}, -- [21]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 1000,
@@ -341,7 +198,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:57:58",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n",
-		}, -- [38]
+		}, -- [22]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1000,
@@ -350,7 +207,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 12:59:34",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n",
-		}, -- [39]
+		}, -- [23]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 209,
@@ -359,7 +216,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 13:00:14",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [40]
+		}, -- [24]
 		{
 			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
 			["count"] = 13,
@@ -367,14 +224,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 13:02:00",
 			["context"] = "AddOn: AVQ",
 			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1815: in function `uiCallback'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:180: in function `CheckMessage'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1917: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1910>\n",
-		}, -- [41]
+		}, -- [25]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 69,
 			["timestamp"] = "2020-01-25 13:02:56",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [42]
+		}, -- [26]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare string with number",
 			["count"] = 45,
@@ -383,7 +240,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 13:03:02",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\meta.lua:991: in function <Interface\\AddOns\\Details\\core\\meta.lua:928>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\meta.lua:815: in function `IniciarColetaDeLixo'\nInterface\\AddOns\\Details\\core\\parser.lua:4714: in function <Interface\\AddOns\\Details\\core\\parser.lua:4690>\n(tail call): ?\n",
-		}, -- [43]
+		}, -- [27]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1,
@@ -392,7 +249,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 13:03:02",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: in function `r_connect_shadow'\nInterface\\AddOns\\Details\\classes\\classe_combate.lua:654: in function <Interface\\AddOns\\Details\\classes\\classe_combate.lua:641>\n...rface\\AddOns\\Details\\classes\\container_historico.lua:106: in function `adicionar_overall'\n...rface\\AddOns\\Details\\classes\\container_historico.lua:284: in function `adicionar'\nInterface\\AddOns\\Details\\core\\control.lua:816: in function `SairDoCombate'\nInterface\\AddOns\\Details\\core\\util.lua:929: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [44]
+		}, -- [28]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare number with string",
 			["count"] = 12,
@@ -401,7 +258,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 13:14:26",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\meta.lua:991: in function <Interface\\AddOns\\Details\\core\\meta.lua:928>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\meta.lua:815: in function `IniciarColetaDeLixo'\nInterface\\AddOns\\Details\\core\\parser.lua:4714: in function <Interface\\AddOns\\Details\\core\\parser.lua:4690>\n(tail call): ?\n",
-		}, -- [45]
+		}, -- [29]
 		{
 			["message"] = "Interface\\AddOns\\ItemRack\\ItemRackEquip.lua:260: script ran too long",
 			["count"] = 1,
@@ -410,7 +267,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:13:10",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ItemRack\\ItemRackEquip.lua:260: in function `MoveItem'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:200: in function `IterateSwapList'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:111: in function `EquipSet'\nInterface\\AddOns\\ItemRack\\ItemRack.lua:1894: in function `RunSetBinding'\n[string \"ItemRack.RunSetBinding(\"DPS\")\"]:1: in main chunk\n[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2033: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4666: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4327: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2754: in function <Interface\\FrameXML\\ChatFrame.lua:2747>\n[C]: in function `RunMacroText'\nInterface\\FrameXML\\SecureTemplates.lua:424: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:616: in function <Interface\\FrameXML\\SecureTemplates.lua:564>\n",
-		}, -- [46]
+		}, -- [30]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 1,
@@ -419,7 +276,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:13:29",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [47]
+		}, -- [31]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -428,7 +285,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:14",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [48]
+		}, -- [32]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -437,7 +294,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:14",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [49]
+		}, -- [33]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -446,7 +303,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:14",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [50]
+		}, -- [34]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -455,7 +312,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:14",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [51]
+		}, -- [35]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -464,7 +321,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:14",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [52]
+		}, -- [36]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: attempt to compare number with string",
 			["count"] = 2,
@@ -473,7 +330,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:39:15",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:133>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2058: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\util.lua:460: in function `UpdateToKFunctions'\nInterface\\AddOns\\Details\\core\\util.lua:451: in function `SelectNumericalSystem'\nInterface\\AddOns\\Details\\functions\\profiles.lua:550: in function `ApplyProfile'\nInterface\\AddOns\\Details\\functions\\loaddata.lua:414: in function `LoadConfig'\nInterface\\AddOns\\Details\\core\\parser.lua:4823: in function <Interface\\AddOns\\Details\\core\\parser.lua:4788>\nInterface\\AddOns\\Details\\core\\parser.lua:4832: in function <Interface\\AddOns\\Details\\core\\parser.lua:4829>\n(tail call): ?\n",
-		}, -- [53]
+		}, -- [37]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 363,
@@ -482,14 +339,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:40:49",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [54]
+		}, -- [38]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 18,
 			["timestamp"] = "2020-01-25 15:46:45",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [55]
+		}, -- [39]
 		{
 			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
 			["count"] = 8,
@@ -497,7 +354,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 15:46:50",
 			["context"] = "AddOn: AVQ",
 			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1987: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1984>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:2059: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:112: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:109>\n",
-		}, -- [56]
+		}, -- [40]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -506,7 +363,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 17:42:31",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [57]
+		}, -- [41]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -515,7 +372,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 17:42:31",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [58]
+		}, -- [42]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -524,7 +381,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 17:42:31",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [59]
+		}, -- [43]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -533,7 +390,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 17:42:31",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [60]
+		}, -- [44]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -542,7 +399,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 17:42:31",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [61]
+		}, -- [45]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -551,7 +408,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:16:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [62]
+		}, -- [46]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -560,7 +417,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:16:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [63]
+		}, -- [47]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -569,7 +426,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:16:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [64]
+		}, -- [48]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -578,7 +435,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:16:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [65]
+		}, -- [49]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -587,7 +444,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:16:07",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [66]
+		}, -- [50]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 9,
@@ -596,7 +453,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:32:19",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [67]
+		}, -- [51]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -605,7 +462,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:11",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [68]
+		}, -- [52]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -614,7 +471,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:11",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [69]
+		}, -- [53]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -623,7 +480,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:11",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [70]
+		}, -- [54]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -632,7 +489,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:11",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [71]
+		}, -- [55]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -641,7 +498,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:11",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [72]
+		}, -- [56]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: attempt to compare string with number",
 			["count"] = 2,
@@ -650,7 +507,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:12",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:133>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2058: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\util.lua:460: in function `UpdateToKFunctions'\nInterface\\AddOns\\Details\\core\\util.lua:451: in function `SelectNumericalSystem'\nInterface\\AddOns\\Details\\functions\\profiles.lua:550: in function `ApplyProfile'\nInterface\\AddOns\\Details\\functions\\loaddata.lua:414: in function `LoadConfig'\nInterface\\AddOns\\Details\\core\\parser.lua:4823: in function <Interface\\AddOns\\Details\\core\\parser.lua:4788>\nInterface\\AddOns\\Details\\core\\parser.lua:4832: in function <Interface\\AddOns\\Details\\core\\parser.lua:4829>\n(tail call): ?\n",
-		}, -- [73]
+		}, -- [57]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 236,
@@ -659,14 +516,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:33:18",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [74]
+		}, -- [58]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 18,
 			["timestamp"] = "2020-01-25 19:38:45",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [75]
+		}, -- [59]
 		{
 			["message"] = "Note: AddOn DBM-Core attempted to call a protected function (CreateFrame()) during combat lockdown.",
 			["count"] = 1,
@@ -674,7 +531,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 19:46:04",
 			["context"] = "AddOn: DBM-Core",
 			["stack"] = "[C]: in function `CreateFrame'\nInterface\\FrameXML\\SecureGroupHeaders.lua:164: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:123>\nInterface\\FrameXML\\SecureGroupHeaders.lua:488: in function `SecureGroupHeader_Update'\nInterface\\FrameXML\\SecureGroupHeaders.lua:62: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:60>\n",
-		}, -- [76]
+		}, -- [60]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -683,7 +540,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:23:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [77]
+		}, -- [61]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -692,7 +549,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:23:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [78]
+		}, -- [62]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -701,7 +558,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:23:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [79]
+		}, -- [63]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -710,7 +567,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:23:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [80]
+		}, -- [64]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -719,7 +576,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:23:19",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [81]
+		}, -- [65]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 1000,
@@ -728,7 +585,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:29:02",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function `UPDATE_BATTLEFIELD_SCORE'\n...terface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:279: in function `?'\nInterface\\AddOns\\ElvUI\\Core\\Math.lua:306: in function <Interface\\AddOns\\ElvUI\\Core\\Math.lua:298>\n",
-		}, -- [82]
+		}, -- [66]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: attempt to compare string with number",
 			["count"] = 91,
@@ -737,7 +594,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:29:42",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [83]
+		}, -- [67]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1000,
@@ -746,7 +603,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:30:56",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [84]
+		}, -- [68]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 1000,
@@ -755,7 +612,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:30:58",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [85]
+		}, -- [69]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 342,
@@ -764,14 +621,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:32:06",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [86]
+		}, -- [70]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 95,
 			["timestamp"] = "2020-01-25 20:34:36",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [87]
+		}, -- [71]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1,
@@ -780,7 +637,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:34:43",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: in function `r_connect_shadow'\nInterface\\AddOns\\Details\\classes\\classe_combate.lua:654: in function <Interface\\AddOns\\Details\\classes\\classe_combate.lua:641>\n...rface\\AddOns\\Details\\classes\\container_historico.lua:106: in function `adicionar_overall'\n...rface\\AddOns\\Details\\classes\\container_historico.lua:284: in function `adicionar'\nInterface\\AddOns\\Details\\core\\control.lua:816: in function `SairDoCombate'\nInterface\\AddOns\\Details\\core\\util.lua:929: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [88]
+		}, -- [72]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare string with number",
 			["count"] = 16,
@@ -789,7 +646,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 20:44:54",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [89]
+		}, -- [73]
 		{
 			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
 			["count"] = 20,
@@ -797,7 +654,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 22:04:41",
 			["context"] = "AddOn: AVQ",
 			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1987: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1984>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:2059: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:112: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:109>\n",
-		}, -- [90]
+		}, -- [74]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 7,
@@ -806,7 +663,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-25 23:39:16",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [91]
+		}, -- [75]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -815,7 +672,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [92]
+		}, -- [76]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -824,7 +681,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [93]
+		}, -- [77]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -833,7 +690,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [94]
+		}, -- [78]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -842,7 +699,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [95]
+		}, -- [79]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -851,7 +708,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:53",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [96]
+		}, -- [80]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: attempt to compare string with number",
 			["count"] = 2,
@@ -860,7 +717,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 09:59:56",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:133>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2058: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\util.lua:460: in function `UpdateToKFunctions'\nInterface\\AddOns\\Details\\core\\util.lua:451: in function `SelectNumericalSystem'\nInterface\\AddOns\\Details\\functions\\profiles.lua:550: in function `ApplyProfile'\nInterface\\AddOns\\Details\\functions\\loaddata.lua:414: in function `LoadConfig'\nInterface\\AddOns\\Details\\core\\parser.lua:4823: in function <Interface\\AddOns\\Details\\core\\parser.lua:4788>\nInterface\\AddOns\\Details\\core\\parser.lua:4832: in function <Interface\\AddOns\\Details\\core\\parser.lua:4829>\n(tail call): ?\n",
-		}, -- [97]
+		}, -- [81]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 729,
@@ -869,7 +726,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 10:07:36",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [98]
+		}, -- [82]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 86,
@@ -878,7 +735,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 10:09:46",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:398: in function `ToggleWorldStateScoreFrame'\n[string \"TOGGLEWORLDSTATESCORES\"]:1: in function <[string \"TOGGLEWORLDSTATESCORES\"]:1>\n",
-		}, -- [99]
+		}, -- [83]
 		{
 			["message"] = "Note: AddOn DBM-Core attempted to call a protected function (CreateFrame()) during combat lockdown.",
 			["count"] = 1,
@@ -886,7 +743,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 10:32:49",
 			["context"] = "AddOn: DBM-Core",
 			["stack"] = "[C]: in function `CreateFrame'\nInterface\\FrameXML\\SecureGroupHeaders.lua:164: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:123>\nInterface\\FrameXML\\SecureGroupHeaders.lua:488: in function `SecureGroupHeader_Update'\nInterface\\FrameXML\\SecureGroupHeaders.lua:62: in function <Interface\\FrameXML\\SecureGroupHeaders.lua:60>\n",
-		}, -- [100]
+		}, -- [84]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -895,7 +752,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:19:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
-		}, -- [101]
+		}, -- [85]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -904,7 +761,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:19:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
-		}, -- [102]
+		}, -- [86]
 		{
 			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -913,7 +770,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:19:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
-		}, -- [103]
+		}, -- [87]
 		{
 			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -922,7 +779,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:19:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
-		}, -- [104]
+		}, -- [88]
 		{
 			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
 			["count"] = 1,
@@ -931,7 +788,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:19:16",
 			["context"] = "Global",
 			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
-		}, -- [105]
+		}, -- [89]
 		{
 			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
 			["count"] = 806,
@@ -940,7 +797,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:25:45",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
-		}, -- [106]
+		}, -- [90]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: attempt to compare string with number",
 			["count"] = 15,
@@ -949,7 +806,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:27:16",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:2042: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [107]
+		}, -- [91]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1000,
@@ -958,7 +815,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:28:55",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:862: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n",
-		}, -- [108]
+		}, -- [92]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 1000,
@@ -967,7 +824,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:28:59",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1701: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n",
-		}, -- [109]
+		}, -- [93]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 526,
@@ -976,14 +833,14 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:29:43",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:843: in function <Interface\\AddOns\\Details\\core\\parser.lua:421>\n(tail call): ?\n(tail call): ?\n",
-		}, -- [110]
+		}, -- [94]
 		{
 			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
 			["count"] = 58,
 			["timestamp"] = "2020-01-26 14:32:46",
 			["context"] = "Global",
 			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
-		}, -- [111]
+		}, -- [95]
 		{
 			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
 			["count"] = 35,
@@ -991,7 +848,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:32:52",
 			["context"] = "AddOn: AVQ",
 			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1987: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1984>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:2059: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:112: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:109>\n",
-		}, -- [112]
+		}, -- [96]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: attempt to perform arithmetic on field 'total' (a string value)",
 			["count"] = 1,
@@ -1000,7 +857,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:32:53",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:5211: in function `r_connect_shadow'\nInterface\\AddOns\\Details\\classes\\classe_combate.lua:654: in function <Interface\\AddOns\\Details\\classes\\classe_combate.lua:641>\n...rface\\AddOns\\Details\\classes\\container_historico.lua:106: in function `adicionar_overall'\n...rface\\AddOns\\Details\\classes\\container_historico.lua:284: in function `adicionar'\nInterface\\AddOns\\Details\\core\\control.lua:816: in function `SairDoCombate'\nInterface\\AddOns\\Details\\core\\parser.lua:4544: in function <Interface\\AddOns\\Details\\core\\parser.lua:4519>\n(tail call): ?\n",
-		}, -- [113]
+		}, -- [97]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare string with number",
 			["count"] = 27,
@@ -1009,7 +866,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 14:35:08",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `?'\n...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:55: in function <...LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:50>\n",
-		}, -- [114]
+		}, -- [98]
 		{
 			["message"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: attempt to perform arithmetic on field 'total' (a nil value)",
 			["count"] = 1,
@@ -1018,7 +875,7 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 15:03:09",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\core\\parser.lua:1717: in function <Interface\\AddOns\\Details\\core\\parser.lua:1537>\n(tail call): ?\n",
-		}, -- [115]
+		}, -- [99]
 		{
 			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: attempt to compare number with string",
 			["count"] = 25,
@@ -1027,7 +884,114 @@ SwatterData = {
 			["timestamp"] = "2020-01-26 15:07:19",
 			["context"] = "Global",
 			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:146: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:145>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2040: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\meta.lua:991: in function <Interface\\AddOns\\Details\\core\\meta.lua:928>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\meta.lua:815: in function `IniciarColetaDeLixo'\nInterface\\AddOns\\Details\\core\\parser.lua:4714: in function <Interface\\AddOns\\Details\\core\\parser.lua:4690>\n(tail call): ?\n",
-		}, -- [116]
+		}, -- [100]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2020-01-26 17:55:52",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\enUS.lua:1: in main chunk\n",
+		}, -- [101]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2020-01-26 17:55:52",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\ruRU.lua:1: in main chunk\n",
+		}, -- [102]
+		{
+			["message"] = "...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2020-01-26 17:55:52",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...face\\AddOns\\ClassicCastbars_Options\\Locales\\koKR.lua:1: in main chunk\n",
+		}, -- [103]
+		{
+			["message"] = "...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2020-01-26 17:55:52",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...nterface\\AddOns\\ClassicCastbars_Options\\TestMode.lua:1: in main chunk\n",
+		}, -- [104]
+		{
+			["message"] = "...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: Cannot find a library instance of \"AceLocale-3.0\".",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=341)\n",
+			["locals"] = "(*temporary) = \"Cannot find a library instance of \"AceLocale-3.0\".\"\n",
+			["timestamp"] = "2020-01-26 17:55:52",
+			["context"] = "Global",
+			["stack"] = "[C]: in function `error'\nInterface\\AddOns\\!Swatter\\Support\\LibStub.lua:23: in function `LibStub'\n...\\ClassicCastbars_Options\\ClassicCastbars_Options.lua:1: in main chunk\n",
+		}, -- [105]
+		{
+			["message"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: attempt to compare string with number",
+			["count"] = 2,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMStatusBarTimers, v\n  Details, v\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=3d0)\n",
+			["locals"] = "table1 = <table> {\n flag_original = 1352\n totalabsorbed = 0.005366\n damage_from = <table> {\n }\n targets = <table> {\n }\n enemy = true\n pets = <table> {\n }\n damage_taken = 0.005366\n friendlyfire_total = 0\n raid_targets = <table> {\n }\n total_without_pet = 0.005366\n __index = <table> {\n }\n on_hold = false\n dps_started = false\n total = 0.002875\n delay = 0\n classe = \"Shaman\"\n nome = \"Curu-Dreadmist <Lindorchugle-Razorgore>\"\n spells = <table> {\n }\n grupo = true\n displayName = \"Curu\"\n tipo = 1\n last_dps = 0\n custom = 0\n last_event = 0\n friendlyfire = <table> {\n }\n start_time = 0\n serial = \"Player-4755-019E626C\"\n pvp = true\n}\ntable2 = <table> {\n flag_original = 1352\n totalabsorbed = 0.006639\n damage_from = <table> {\n }\n targets = <table> {\n }\n enemy = true\n pets = <table> {\n }\n friendlyfire_total = 0\n tipo = 1\n classe = \"Hunter\"\n raid_targets = <table> {\n }\n total_without_pet = 0.006639\n __index = <table> {\n }\n delay = 1580049189\n dps_started = true\n total = \"HUNTER\"\n on_hold = true\n damage_taken = 0.006639\n timeMachine = 259\n spells = <table> {\n }\n grupo = true\n displayName = \"Moksor\"\n nome = \"Moksor-Mograine\"\n last_dps = 0\n custom = 0\n last_event = 1580049189\n friendlyfire = <table> {\n }\n start_time = 1580049189\n serial = \"Player-4701-013F4862\"\n pvp = true\n}\n(*temporary) = 0.002875\n(*temporary) = \"HUNTER\"\n(*temporary) = \"attempt to compare string with number\"\nkeyName = \"total\"\n",
+			["timestamp"] = "2020-01-26 17:55:53",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\Details\\classes\\classe_damage.lua:135: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:133>\n[C]: ?\nInterface\\AddOns\\Details\\classes\\classe_damage.lua:2058: in function <Interface\\AddOns\\Details\\classes\\classe_damage.lua:1568>\n(tail call): ?\nInterface\\AddOns\\Details\\core\\control.lua:1946: in function `AtualizaGumpPrincipal'\nInterface\\AddOns\\Details\\core\\util.lua:460: in function `UpdateToKFunctions'\nInterface\\AddOns\\Details\\core\\util.lua:451: in function `SelectNumericalSystem'\nInterface\\AddOns\\Details\\functions\\profiles.lua:550: in function `ApplyProfile'\nInterface\\AddOns\\Details\\functions\\loaddata.lua:414: in function `LoadConfig'\nInterface\\AddOns\\Details\\core\\parser.lua:4823: in function <Interface\\AddOns\\Details\\core\\parser.lua:4788>\nInterface\\AddOns\\Details\\core\\parser.lua:4832: in function <Interface\\AddOns\\Details\\core\\parser.lua:4829>\n(tail call): ?\n",
+		}, -- [106]
+		{
+			["message"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: attempt to compare string with number",
+			["count"] = 1000,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["locals"] = "self = <table> {\n GetTimeInfo = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:385\n mylevel = 60\n Bags = <table> {\n }\n privateVars = <table> {\n }\n HandleCommandBar = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:131\n CancelTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:147\n FormatMoney = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:443\n ExitVehicleShowFrames = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:375\n HelloKittyToggle = <function> defined @Interface\\AddOns\\ElvUI\\Core\\AprilFools.lua:351\n UpdateUnitFrames = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:860\n CopyTable = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:501\n DispelClasses = <table> {\n }\n SetMoversPositions = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Movers.lua:480\n ScheduleTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:94\n PriestColors = <table> {\n }\n UpdateBags = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:913\n SetupTheme = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Install.lua:161\n media = <table> {\n }\n UnlocalizedClassName = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:47\n data = <table> {\n }\n EnableBlizzardAddOns = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Commands.lua:199\n UIScale = <function> defined @Interface\\AddOns\\ElvUI\\Core\\PixelPerfect.lua:27\n db = <table> {\n }\n FramesOverlap = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:155\n SetEnabledState = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:424\n Hook = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:274\n Options = <table> {\n }\n UpdateLayout = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:878\n Layout = <table> {\n }\n PluginInstaller = <table> {\n }\n PixelBestSize = <function> defined @Interface\\AddOns\\ElvUI\\Core\\PixelPerfect.lua:68\n UnregisterEventForObject = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:1157\n Distributor = <table> {\n }\n HiddenFrame = <unnamed> {\n }\n Media = <table> {\n }\n PositionGameMenuButton = <function> defined @Interface\\AddOns\\ElvUI\\init.lua:214\n ScanTooltipTextures = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:58\n SafeGetPoint = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Toolkit.lua:21\n UIFrameFade = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Animation.lua:211\n BadDispels = <table> {\n }\n TimeIndicatorColors = <table> {\n }\n TexturePath = \"Interface\\AddOns\\ElvUI\\Media\\Textures\\\"\n StaticPopup_CreateSecureButton = <function> defined @Interface\\AddOns\\ElvUI\\Core\\StaticPopups.lua:1156\n Truncate = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Math.lua:133\n UpdateBackdropColors = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:425\n TimeThreshold = 3\n ToggleMoveMode = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Config.lua:56\n RemoveTableDuplicates = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:538\n name = \"ElvUI\"\n WorldMap = <table> {\n }\n MinimapHeight = 220\n Disable = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:314\n DF = <table> {\n }\n SlideOut = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Animation.lua:146\n isMacClient = false\n Print = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Core.lua:180\n Install = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Install.lua:690\n UnregisterObjectForVehicleLock = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:346\n LockedCVars = <table> {\n }\n EscapeString = <function> defined @Interface\\AddOns\\ElvUI\\init.lua:130\n TimeFormats = <table> {\n }\n ObjectEventFrame = <unnamed> {\n }\n GetNazjatarBodyguardXP = <function> defined @Interface\\AddOns\\ElvUI\\Core\\API.lua:146\n InversePoints = <table> {\n }\n Cooldown_StopTimer = <function> defined @Interface\\AddOns\\ElvUI\\Core\\Cooldowns.lua:123\n loadedtime = 435045.294000\n Tutorials = <function> defined @Interface\\AddOns\\ElvUI\\Core\\T",
+			["timestamp"] = "2020-01-26 18:03:51",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ElvUI\\Core\\Math.lua:53: in function `ShortValue'\n...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:47: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39>\n",
+		}, -- [107]
+		{
+			["message"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: 'for' limit must be a number",
+			["count"] = 176,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["locals"] = "offset = 0\n_ = nil\nname = nil\nfaction = nil\nclassToken = nil\nrealm = nil\nclassTextColor = nil\nnameText = nil\n(for index) = 1\n(for limit) = nil\n(for step) = 1\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"'for' limit must be a number\"\nFauxScrollFrame_GetOffset = <function> defined @Interface\\SharedXML\\SecureUIPanelTemplates.lua:323\n_G = <table> {\n ERR_OUT_OF_CHI = \"Not enough chi\"\n DH_HAVOC_CORE_ABILITY_2 = \"Strong melee attack that consumes Fury. If it critical strikes, some Fury is refunded.\"\n GetTrainerServiceTypeFilter = <function> defined =[C]:-1\n UNIT_NAMES_COMBATLOG_TOOLTIP = \"Color unit names.\"\n SetTrainerServiceTypeFilter = <function> defined =[C]:-1\n LE_GAME_ERR_CHAT_RAID_RESTRICTED_TRIAL = 741\n SPELL_FAILED_CUSTOM_ERROR_71 = \"This partygoer wants to dance with you.\"\n LE_GAME_ERR_PET_SPELL_TARGETS_DEAD = 399\n InterfaceOptionsActionBarsPanelStackRightBarsPixelBorderTOP = InterfaceOptionsActionBarsPanelStackRightBarsPixelBorderTOP {\n }\n StaticPopup4MoneyInputFrameCopperPixelBorderLEFT = StaticPopup4MoneyInputFrameCopperPixelBorderLEFT {\n }\n CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownButtonNormalTexture {\n }\n CombatConfigColorsColorizeEntireLinePixelBorderCENTER = CombatConfigColorsColorizeEntireLinePixelBorderCENTER {\n }\n MultiBarLeftButton7 = MultiBarLeftButton7 {\n }\n InterfaceOptionsNamesPanelUnitNameplatesShowAll = InterfaceOptionsNamesPanelUnitNameplatesShowAll {\n }\n CompactRaidGroup1Member4OverHealAbsorbGlow = CompactRaidGroup1Member4OverHealAbsorbGlow {\n }\n LE_GAME_ERR_INVALID_FOLLOW_PVP_COMBAT = 353\n MerchantItem8AltCurrencyFrameItem1Text = MerchantItem8AltCurrencyFrameItem1Text {\n }\n BINDING_NAME_NAMEPLATES = \"Show Enemy Name Plates\"\n CHAT_HEADER_SUFFIX = \": \"\n MultiBarBottomRightButton8Shine5 = MultiBarBottomRightButton8Shine5 {\n }\n IsReferAFriendLinked = <function> defined =[C]:-1\n UnitFrameManaBar_UnregisterDefaultEvents = <function> defined @Interface\\FrameXML\\UnitFrame.lua:602\n CALENDAR_RAID_RESET_DESCRIPTION = \"%1$s resets at %2$s.\"\n MoneyFrame_OnEvent = <function> defined @Interface\\FrameXML\\MoneyFrame.lua:214\n HubPanelProfileDefaultWidgetEliteIndicatorText = HubPanelProfileDefaultWidgetEliteIndicatorText {\n }\n CinematicFrameRaidBossEmoteFrame = CinematicFrameRaidBossEmoteFrame {\n }\n ElvUI_Bar5Button12Shine7 = ElvUI_Bar5Button12Shine7 {\n }\n CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight = CompactRaidFrameManagerDisplayFrameHiddenModeToggleTopRight {\n }\n LE_GAME_ERR_ONLY_ONE_QUIVER = 32\n SpellButton6Cooldown = SpellButton6Cooldown {\n }\n Button_WorldTogglePushedTexture = Button_WorldTogglePushedTexture {\n }\n TrinketMenu_Trinket1Shine13 = TrinketMenu_Trinket1Shine13 {\n }\n StackSplitFramePixelBorderTOP = StackSplitFramePixelBorderTOP {\n }\n LOSS_OF_CONTROL_DISPLAY_FEAR = \"Feared\"\n Graphics_QualityText = Graphics_QualityText {\n }\n ElvUI_StanceBarButton7PixelBorderRIGHT = ElvUI_StanceBarButton7PixelBorderRIGHT {\n }\n CopyChatFramePixelBorderBOTTOMLEFT = CopyChatFramePixelBorderBOTTOMLEFT {\n }\n CombatConfigColorsColorizeDamageNumberSchoolColoringPixelBorderLEFT = CombatConfigColorsColorizeDamageNumberSchoolColoringPixelBorderLEFT {\n }\n CompactUnitFrameProfilesSaveButton = CompactUnitFrameProfilesSaveButton {\n }\n QuestLogListScrollFrameScrollBarScrollDownButtonPixelBorderTOP = QuestLogListScrollFrameScrollBarScrollDownButtonPixelBorderTOP {\n }\n ElvUI_Bar6Button6 = ElvUI_Bar6Button6 {\n }\n ACTION_SPELL_MISSED_POSSESSIVE = \"1\"\n RaidUtility_CloseButton = RaidUtility_CloseButton {\n }\n Is64BitClient = <function> defined =[C]:-1\n CombatConfigColorsColorizeSpellNamesSchoolColoringPixelBorderTOPLEFT = CombatConfigColorsColorizeSpellNamesSchoolColoringPixelBorderTOPLEFT {\n }\n OpenMailFramePixelBorderTOPRIGHT = OpenMailFramePixelBorderTOPRIGHT {\n }\n SpyStatsPlayerHistoryFrameListFrameLine13Level = SpyStatsPlayerHistoryFrameListFram",
+			["timestamp"] = "2020-01-26 18:09:52",
+			["context"] = "Global",
+			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:48: in function <...face\\AddOns\\ElvUI\\Modules\\skins\\Blizzard\\BGScore.lua:43>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:48: in function <Interface\\FrameXML\\WorldStateFrame.lua:46>\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2087: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1893: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1793: in function <Interface\\FrameXML\\UIParent.lua:1789>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2535: in function `ShowUIPanel'\nInterface\\FrameXML\\WorldStateFrame.lua:80: in function <Interface\\FrameXML\\WorldStateFrame.lua:63>\n[C]: in function `WorldStateScoreFrame_Update'\nInterface\\FrameXML\\WorldStateFrame.lua:36: in function <Interface\\FrameXML\\WorldStateFrame.lua:32>\n",
+		}, -- [108]
+		{
+			["message"] = "Note: AddOn AVQ attempted to call a protected function (AVQBattlemasterFrame:SetShown()) during combat lockdown.",
+			["count"] = 66,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["timestamp"] = "2020-01-26 18:30:30",
+			["context"] = "AddOn: AVQ",
+			["stack"] = "[C]: in function `SetShown'\nInterface\\AddOns\\AVQ\\AVQ-main.lua:1987: in function <Interface\\AddOns\\AVQ\\AVQ-main.lua:1984>\nInterface\\AddOns\\AVQ\\AVQ-main.lua:2059: in function `callback'\nInterface\\AddOns\\AVQ\\AVQ-util.lua:112: in function <Interface\\AddOns\\AVQ\\AVQ-util.lua:109>\n",
+		}, -- [109]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRackEquip.lua:270: script ran too long",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["locals"] = "(*temporary) = 3\n(*temporary) = 15\n(*temporary) = 16\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = <function> defined @Interface\\AddOns\\Enchantrix\\EnxMain.lua:267\n(*temporary) = 16\n(*temporary) = <table> {\n spellTarget = \"|cffa335ee|Hitem:17068:1900:::::::60:::::::|h[Deathbringer]|h|r\"\n targetted = 447068.390000\n}\n(*temporary) = \"script ran too long\"\n",
+			["timestamp"] = "2020-01-26 21:16:15",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ItemRack\\ItemRackEquip.lua:270: in function `MoveItem'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:192: in function `IterateSwapList'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:111: in function `EquipSet'\nInterface\\AddOns\\ItemRack\\ItemRack.lua:1894: in function `RunSetBinding'\n[string \"ItemRack.RunSetBinding(\"PVP\")\"]:1: in main chunk\n[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2033: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4666: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4327: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2754: in function <Interface\\FrameXML\\ChatFrame.lua:2747>\n[C]: in function `RunMacroText'\nInterface\\FrameXML\\SecureTemplates.lua:424: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:616: in function <Interface\\FrameXML\\SecureTemplates.lua:564>\n",
+		}, -- [110]
+		{
+			["message"] = "...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:60: attempt to call upvalue 'C_PvP_GetMatchPVPStatIDs' (a nil value)",
+			["count"] = 4,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["locals"] = "self = DataText2 {\n 0 = <userdata>\n text = <unnamed> {\n }\n name = \"ElvUI Config\"\n pointIndex = \"left\"\n}\nfirstLine = nil\nclassColor = <table> {\n colorStr = \"ffc69b6d\"\n GetRGB = <function> defined @Interface\\SharedXML\\Util.lua:627\n OnLoad = <function> defined @Interface\\SharedXML\\Util.lua:616\n b = 0.430000\n GenerateHexColorMarkup = <function> defined @Interface\\SharedXML\\Util.lua:658\n WrapTextInColorCode = <function> defined @Interface\\SharedXML\\Util.lua:662\n GenerateHexColor = <function> defined @Interface\\SharedXML\\Util.lua:654\n GetRGBA = <function> defined @Interface\\SharedXML\\Util.lua:635\n IsEqualTo = <function> defined @Interface\\SharedXML\\Util.lua:620\n g = 0.610000\n r = 0.780000\n SetRGBA = <function> defined @Interface\\SharedXML\\Util.lua:643\n GetRGBAsBytes = <function> defined @Interface\\SharedXML\\Util.lua:631\n SetRGB = <function> defined @Interface\\SharedXML\\Util.lua:650\n GetRGBAAsBytes = <function> defined @Interface\\SharedXML\\Util.lua:639\n}\n(*temporary) = nil\n(*temporary) = \"attempt to call upvalue 'C_PvP_GetMatchPVPStatIDs' (a nil value)\"\nDT = <table> {\n SetDefaultModuleLibraries = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:367\n RegisterLDB = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:110\n modules = <table> {\n }\n CancelTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:147\n IterateEmbeds = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:442\n SecureHookScript = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:410\n Data_OnLeave = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:144\n LoadDataTexts = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:246\n RawHookScript = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:395\n HideBattlegroundTexts = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:88\n tooltip = DatatextTooltip {\n }\n SetDefaultModulePrototype = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:409\n defaultModuleState = true\n IsEnabled = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:451\n UPDATE_BATTLEFIELD_SCORE = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:39\n ScheduleTimer = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceTimer-3.0\\AceTimer-3.0.lua:94\n DisableModule = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:350\n SetupTooltip = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:148\n RegisterMessage = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n UnregisterMessage = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:153\n IsHooked = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:493\n UpdateAllDimensions = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:130\n db = <table> {\n }\n SetEnabledState = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:424\n Hook = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:274\n enabledState = true\n RegisterEvent = <function> defined @Interface\\AddOns\\AtlasLootClassic\\Libs\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90\n SetupObjectLDB = <function> defined @Interface\\AddOns\\ElvUI\\Modules\\datatexts\\DataTexts.lua:54\n IterateModules = <function> defined @Interface\\AddOns\\DBM-Core\\Libs\\LibThreatClassic2\\Libs\\AceAddon-3.0\\AceAddon-3.0.lua:437\n RawHook = <function> defined @Interface\\AddOns\\ElvUI\\Libraries\\Ace3\\AceHook-3.0\\AceHook-3.0.lua:313\n RegisteredPanels = <table> {\n }\n Enable = <function> defined ",
+			["timestamp"] = "2020-01-26 22:14:52",
+			["context"] = "Global",
+			["stack"] = "...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:60: in function <...face\\AddOns\\ElvUI\\Modules\\datatexts\\Battleground.lua:55>\n",
+		}, -- [111]
+		{
+			["message"] = "Interface\\AddOns\\ItemRack\\ItemRack.lua:469: script ran too long",
+			["count"] = 1,
+			["addons"] = "  Swatter, v8.2.6377 (SwimmingSeadragon)\n  AtlasLootClassic, vv1.4.5\n  AtlasLootClassicData, vv1.4.5\n  AtlasLootClassicDungeonsAndRaids, vv1.4.5\n  AucAdvanced, v8.2.6430 (SwimmingSeadragon)\n  AucFilterBasic, v8.2.6364 (SwimmingSeadragon)\n  AucScanData, v8.2.6365 (SwimmingSeadragon)\n  AucStatHistogram, v8.2.6366 (SwimmingSeadragon)\n  AucStatiLevel, v8.2.6370 (SwimmingSeadragon)\n  AucStatPurchased, v8.2.6367 (SwimmingSeadragon)\n  AucStatSimple, v8.2.6399 (SwimmingSeadragon)\n  AucStatStdDev, v8.2.6369 (SwimmingSeadragon)\n  AucUtilFixAH, v8.2.6371 (SwimmingSeadragon)\n  AutoLoggerClassic, vv1.1-release\n  AVQ, v27\n  BeanCounter, v8.2.6434 (SwimmingSeadragon)\n  ClassicAuraDurations, v\n  ClassicCastbars, v@project-version@\n  ClassicCastbarsOptions, v\n  ClassicLootAssistant, v\n  Coordinates, v2.1.0\n  DBMCore, v1.13.30\n  DBMDefaultSkin, v\n  DBMPvP, vr81\n  DBMStatusBarTimers, v\n  Details, v\n  DetailsStreamer, v\n  DetailsTinyThreat, v\n  ElvUI, v1.18\n  Enchantrix, v8.2.6428 (SwimmingSeadragon)\n  EnchantrixBarker, v8.2.6469 (SwimmingSeadragon)\n  ExRT, v4110\n  ExtendedCharacterStats, v2.1.4\n  FarmLog, vv1.19\n  GatherMate2, v1.45.5\n  Guidelime, v1.040\n  GuidelimeSage, v1.0\n  honorspy, v1.7.2\n  HPH, v2.9\n  Informant, v8.2.6374 (SwimmingSeadragon)\n  ItemRack, v\n  LeatrixPlus, v1.13.46\n  NeatPlates, v1.13.3.9\n  NeatPlatesAlvara, v5a\n  NeatPlatesBlizzardPlates, v1.5\n  NeatPlatesClassicPlates, v\n  NeatPlatesGraphite, v\n  NeatPlatesGrey, v\n  NeatPlatesNeon, v\n  NeatPlatesQuatre, v\n  NeatPlatesRenaitre, vv7.0.3\n  NeatPlatesRoth, v\n  NeatPlatesSimple, v7.3.0\n  NeatPlatesSlimHorizontal, v2.2\n  NeatPlatesSlimVertical, v2.2\n  NeatPlatesHub, v\n  NeatPlatesWidgets, v\n  RealMobHealth, v2.18\n  SlideBar, v8.2.6375 (SwimmingSeadragon)\n  Spy, v1.0.21\n  Stubby, v8.2.6376 (SwimmingSeadragon)\n  TomCats, v0.0.2\n  TrinketMenu, v7.3.2\n  VendorPrice, v1.3.0\n  WeakAuras, v2.16.1\n  BlizRuntimeLib_enUS v1.13.3.11303 <none>\n  (ck=779)\n",
+			["locals"] = "texture = 132115\nsetname = \"DPS\"\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = true\n(*temporary) = <function> defined =[C]:-1\n(*temporary) = \"script ran too long\"\n",
+			["timestamp"] = "2020-01-26 23:07:37",
+			["context"] = "Global",
+			["stack"] = "Interface\\AddOns\\ItemRack\\ItemRack.lua:469: in function `UpdateCurrentSet'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:227: in function `EndSetSwap'\nInterface\\AddOns\\ItemRack\\ItemRackEquip.lua:113: in function `EquipSet'\nInterface\\AddOns\\ItemRack\\ItemRack.lua:1894: in function `RunSetBinding'\n[string \"ItemRack.RunSetBinding(\"DPS\")\"]:1: in main chunk\n[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2033: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4666: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4327: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2754: in function <Interface\\FrameXML\\ChatFrame.lua:2747>\n[C]: in function `RunMacroText'\nInterface\\FrameXML\\SecureTemplates.lua:424: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:616: in function <Interface\\FrameXML\\SecureTemplates.lua:564>\n",
+		}, -- [112]
 	},
 	["autoshow"] = true,
 }

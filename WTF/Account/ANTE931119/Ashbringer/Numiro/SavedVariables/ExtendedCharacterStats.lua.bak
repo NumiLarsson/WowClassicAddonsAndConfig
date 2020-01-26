@@ -8,13 +8,13 @@ ExtendedCharacterStats = {
 					["text"] = "Miss-Chance (Lvl + 3): ",
 					["refName"] = "RangedHitBossLevel",
 				},
-				["display"] = false,
 				["sameLevel"] = {
 					["display"] = false,
 					["text"] = "Miss-Chance: ",
 					["refName"] = "RangedHitSameLevel",
 				},
 				["isSubGroup"] = true,
+				["display"] = false,
 				["text"] = "Hit",
 				["refName"] = "RangedHitHeader",
 				["bonus"] = {
@@ -33,18 +33,18 @@ ExtendedCharacterStats = {
 			},
 		},
 		["defense"] = {
-			["block"] = {
-				["display"] = true,
-				["text"] = "Block: ",
-				["refName"] = "BlockChance",
-			},
+			["text"] = "Defense",
 			["dodge"] = {
 				["display"] = true,
 				["text"] = "Dodge: ",
 				["refName"] = "DodgeChance",
 			},
 			["display"] = true,
-			["text"] = "Defense",
+			["block"] = {
+				["display"] = true,
+				["text"] = "Block: ",
+				["refName"] = "BlockChance",
+			},
 			["refName"] = "DefenseHeader",
 			["parry"] = {
 				["display"] = true,
@@ -59,13 +59,13 @@ ExtendedCharacterStats = {
 					["text"] = "Miss-Chance (Lvl + 3): ",
 					["refName"] = "MeleeHitBossLevel",
 				},
-				["display"] = true,
 				["sameLevel"] = {
 					["display"] = true,
 					["text"] = "Miss-Chance: ",
 					["refName"] = "MeleeHitSameLevel",
 				},
 				["isSubGroup"] = true,
+				["display"] = true,
 				["text"] = "Hit",
 				["refName"] = "MeleeHitHeader",
 				["bonus"] = {
@@ -81,6 +81,37 @@ ExtendedCharacterStats = {
 				["display"] = true,
 				["text"] = "Crit: ",
 				["refName"] = "MeleeCritChance",
+			},
+		},
+		["spell"] = {
+			["hit"] = {
+				["bossLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance (Lvl + 3): ",
+					["refName"] = "SpellHitBossLevel",
+				},
+				["sameLevel"] = {
+					["display"] = true,
+					["text"] = "Miss-Chance: ",
+					["refName"] = "SpellHitSameLevel",
+				},
+				["isSubGroup"] = true,
+				["display"] = false,
+				["text"] = "Hit",
+				["refName"] = "SpellHitHeader",
+				["bonus"] = {
+					["display"] = true,
+					["text"] = "Bonus: ",
+					["refName"] = "SpellHitBonus",
+				},
+			},
+			["display"] = false,
+			["text"] = "Spell",
+			["refName"] = "SpellHeader",
+			["crit"] = {
+				["display"] = true,
+				["text"] = "Crit: ",
+				["refName"] = "SpellCritChance",
 			},
 		},
 		["spellBonus"] = {
@@ -181,37 +212,6 @@ ExtendedCharacterStats = {
 				["display"] = true,
 				["text"] = "MP5 (Items): ",
 				["refName"] = "MP5Items",
-			},
-		},
-		["spell"] = {
-			["hit"] = {
-				["bossLevel"] = {
-					["display"] = true,
-					["text"] = "Miss-Chance (Lvl + 3): ",
-					["refName"] = "SpellHitBossLevel",
-				},
-				["display"] = false,
-				["sameLevel"] = {
-					["display"] = true,
-					["text"] = "Miss-Chance: ",
-					["refName"] = "SpellHitSameLevel",
-				},
-				["isSubGroup"] = true,
-				["text"] = "Hit",
-				["refName"] = "SpellHitHeader",
-				["bonus"] = {
-					["display"] = true,
-					["text"] = "Bonus: ",
-					["refName"] = "SpellHitBonus",
-				},
-			},
-			["display"] = false,
-			["text"] = "Spell",
-			["refName"] = "SpellHeader",
-			["crit"] = {
-				["display"] = true,
-				["text"] = "Crit: ",
-				["refName"] = "SpellCritChance",
 			},
 		},
 	},

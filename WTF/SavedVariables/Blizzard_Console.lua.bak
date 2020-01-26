@@ -1,6 +1,7 @@
 
 Blizzard_Console_SavedVars = {
 	["version"] = 3,
+	["height"] = 300.000091552734,
 	["messageHistory"] = {
 		{
 			"DBCache::CancelCallback ignored", -- [1]
@@ -27,35 +28,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [6]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [7]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [8]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [9]
 		{
-			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [10]
 		{
-			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [11]
 		{
-			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [12]
 		{
-			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [13]
 		{
-			"Time set to 1/26/2020 (Sun) 16:13", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [14]
 		{
@@ -87,15 +88,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [21]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [22]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [23]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [24]
 		{
@@ -143,23 +144,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [35]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [36]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [37]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [38]
 		{
-			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [39]
 		{
-			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [40]
 		{
@@ -167,7 +168,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [41]
 		{
-			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [42]
 		{
@@ -199,15 +200,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [49]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [50]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [51]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [52]
 		{
@@ -235,51 +236,51 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [58]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [59]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [60]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [61]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [62]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [63]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [64]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [65]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [66]
 		{
-			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [67]
 		{
-			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [68]
 		{
-			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [69]
 		{
-			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [70]
 		{
@@ -295,15 +296,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [73]
 		{
-			"World transfer pending...", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [74]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [75]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [76]
 		{
@@ -559,659 +560,659 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [139]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [140]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [141]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [142]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [143]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [144]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [145]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [146]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [147]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [148]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [149]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [150]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [151]
 		{
-			"NetClient::HandleDisconnect()\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [152]
 		{
-			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [153]
 		{
-			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [154]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [155]
 		{
-			"Sorting particles normally.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [156]
 		{
-			"Water detail changed to 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [157]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [158]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [159]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [160]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [161]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [162]
 		{
-			"WorldPoolUsage must be stream, dynamic or static.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [163]
 		{
-			"CVar 'worldPoolUsage' failed validation for its initial value.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [164]
 		{
-			"Alpha map bit depth set to 8bit on restart.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [165]
 		{
-			"Volume fog enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [166]
 		{
-			"Projected textures enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [167]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows, 2048", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [168]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [169]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [170]
 		{
-			"SSAO mode set to 4", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [171]
 		{
-			"SSAO distance value set to 100.000000", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [172]
 		{
-			"SSAO blur set to 2", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [173]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [174]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [175]
 		{
-			"Render scale changed to 1", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [176]
 		{
-			"Resample quality changed to 2", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [177]
 		{
-			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [178]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [179]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [180]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [181]
 		{
-			"World preload object sort enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [182]
 		{
-			"World load object sort enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [183]
 		{
-			"World preload non critical enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [184]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [185]
 		{
-			"FFX: Anti Aliasing Mode set to CMAA", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [186]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [187]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [188]
 		{
-			"Error display disabled", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [189]
 		{
-			"Error display shown", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [190]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [191]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [192]
 		{
-			"Now filtering: all messages", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [193]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [194]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [195]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [196]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [197]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [198]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [199]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [200]
 		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [201]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [202]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [203]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [204]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [205]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [206]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [207]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [208]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [209]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [210]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"1\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [211]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [212]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"43-101-89\" realmAddress=\"43-4-16\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [213]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [214]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [215]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [216]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [217]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21363, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [218]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [219]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 15715, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [220]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [221]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [222]
 		{
-			"Sorting particles normally.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [223]
 		{
-			"Water detail changed to 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [224]
 		{
-			"Ripple detail changed to 2", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [225]
 		{
-			"Reflection mode changed to 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [226]
 		{
-			"Reflection downscale changed to 0", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [227]
 		{
-			"Sunshafts quality changed to 2", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [228]
 		{
-			"Enabling BSP node cache (first time - starting up)", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [229]
 		{
-			"WorldPoolUsage must be stream, dynamic or static.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [230]
 		{
-			"CVar 'worldPoolUsage' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [231]
 		{
-			"Alpha map bit depth set to 8bit on restart.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [232]
 		{
-			"Volume fog enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [233]
 		{
-			"Projected textures enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [234]
 		{
-			"Shadow mode changed to 4 - 4 band dynamic shadows, 2048", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [235]
 		{
-			"Shadow texture size changed to 2048.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [236]
 		{
-			"Soft shadows changed to 1.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [237]
 		{
-			"SSAO mode set to 4", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [238]
 		{
-			"SSAO distance value set to 100.000000", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [239]
 		{
-			"SSAO blur set to 2", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [240]
 		{
-			"SkyCloudLOD set to 0", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [241]
 		{
-			"Terrain mip level changed to 0.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [242]
 		{
-			"Render scale changed to 1", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [243]
 		{
-			"Resample quality changed to 2", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [244]
 		{
-			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [245]
 		{
-			"MSAA for alpha-test enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [246]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [247]
 		{
-			"Component texture lod changed to 0", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [248]
 		{
-			"World preload object sort enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [249]
 		{
-			"World load object sort enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [250]
 		{
-			"World preload non critical enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [251]
 		{
-			"World preload high res textures enabled.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [252]
 		{
-			"FFX: Anti Aliasing Mode set to CMAA", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [253]
 		{
-			"FFX: Color Blind Test Mode Disabled", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [254]
 		{
-			"Full memory crash dump disabled", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [255]
 		{
-			"Error display disabled", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [256]
 		{
-			"Error display shown", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [257]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [258]
 		{
-			"Displaying errors through fatal errors", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [259]
 		{
-			"Now filtering: all messages", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [260]
 		{
-			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [261]
 		{
-			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [262]
 		{
-			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [263]
 		{
-			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [264]
 		{
-			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [265]
 		{
-			"[GlueLogin] Resetting", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [266]
 		{
-			"[IBN_Login] Initializing", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [267]
 		{
-			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [268]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [269]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [270]
 		{
-			"[GlueLogin] Waiting for server response.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [271]
 		{
-			"[GlueLogin] Logon complete.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [272]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [273]
 		{
-			"[IBN_Login] Requesting realm list ticket", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [274]
 		{
-			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [275]
 		{
-			"[GlueLogin] Waiting for realm list.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [276]
 		{
-			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [277]
 		{
-			"[IBN_Login] Requesting last played charsnumSubRegions=\"1\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [278]
 		{
-			"[GlueLogin] Realm list ready.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [279]
 		{
-			"[IBN_Login] Joining realmsubRegion=\"43-101-89\" realmAddress=\"43-4-16\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [280]
 		{
-			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [281]
 		{
-			"NetClient::HandleConnect()\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [282]
 		{
-			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [283]
 		{
-			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [284]
 		{
-			"[GlueLogin] Disconnecting from authentication server.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [285]
 		{
-			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [286]
 		{
-			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [287]
 		{
-			"[GlueLogin] Disconnected from authentication server.", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [288]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [289]
 		{
-			"Got new connection 3", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [290]
 		{
-			"Proficiency in item class 2 set to 0x0000000400", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [291]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [292]
 		{
-			"Proficiency in item class 2 set to 0x0000004400", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [293]
 		{
-			"Proficiency in item class 2 set to 0x0000084400", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [294]
 		{
-			"Proficiency in item class 4 set to 0x0000000003", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [295]
 		{
-			"Proficiency in item class 2 set to 0x0000084400", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [296]
 		{
-			"Proficiency in item class 4 set to 0x0000000003", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [297]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [298]
 		{
-			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [299]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [300]
 		{
-			"Time played:", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [301]
 		{
-			"Total: 12d 6h 14m 58s", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [302]
 		{
-			"Level: 8d 17h 18m 48s", -- [1]
+			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [303]
 		{
@@ -2147,67 +2148,67 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [536]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [537]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [538]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [539]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [540]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [541]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [542]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [543]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [544]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [545]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [546]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [547]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [548]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [549]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:11", -- [1]
 			0, -- [2]
 		}, -- [550]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:12", -- [1]
 			0, -- [2]
 		}, -- [551]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:12", -- [1]
 			0, -- [2]
 		}, -- [552]
 		{
@@ -2251,23 +2252,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [562]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [563]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [564]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [565]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [566]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
 			0, -- [2]
 		}, -- [567]
 		{
@@ -2283,31 +2284,31 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [570]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [571]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [572]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:25", -- [1]
 			0, -- [2]
 		}, -- [573]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:25", -- [1]
 			0, -- [2]
 		}, -- [574]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:25", -- [1]
 			0, -- [2]
 		}, -- [575]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:25", -- [1]
 			0, -- [2]
 		}, -- [576]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:25", -- [1]
 			0, -- [2]
 		}, -- [577]
 		{
@@ -2315,7 +2316,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [578]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:26", -- [1]
 			0, -- [2]
 		}, -- [579]
 		{
@@ -2335,11 +2336,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [583]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [584]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [585]
 		{
@@ -2359,27 +2360,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [589]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [590]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [591]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [592]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:35", -- [1]
 			0, -- [2]
 		}, -- [593]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:35", -- [1]
 			0, -- [2]
 		}, -- [594]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:36", -- [1]
 			0, -- [2]
 		}, -- [595]
 		{
@@ -2415,15 +2416,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [603]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [604]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [605]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [606]
 		{
@@ -2443,35 +2444,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [610]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [611]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [612]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [613]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:44", -- [1]
 			0, -- [2]
 		}, -- [614]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:44", -- [1]
 			0, -- [2]
 		}, -- [615]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:44", -- [1]
 			0, -- [2]
 		}, -- [616]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:44", -- [1]
 			0, -- [2]
 		}, -- [617]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:44", -- [1]
 			0, -- [2]
 		}, -- [618]
 		{
@@ -2479,15 +2480,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [619]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [620]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [621]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [622]
 		{
@@ -2519,23 +2520,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [629]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [630]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [631]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [632]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:59", -- [1]
 			0, -- [2]
 		}, -- [633]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 14:59", -- [1]
 			0, -- [2]
 		}, -- [634]
 		{
@@ -2571,7 +2572,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [642]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:02", -- [1]
 			0, -- [2]
 		}, -- [643]
 		{
@@ -2583,15 +2584,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [645]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [646]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [647]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [648]
 		{
@@ -2607,79 +2608,79 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [651]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [652]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [653]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [654]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [655]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [656]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [657]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [658]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [659]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [660]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [661]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [662]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [663]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [664]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [665]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [666]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [667]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [668]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [669]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:15", -- [1]
 			0, -- [2]
 		}, -- [670]
 		{
@@ -2699,15 +2700,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [674]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [675]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [676]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [677]
 		{
@@ -2735,19 +2736,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [683]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [684]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [685]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [686]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:25", -- [1]
 			0, -- [2]
 		}, -- [687]
 		{
@@ -2755,15 +2756,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [688]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:25", -- [1]
 			0, -- [2]
 		}, -- [689]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:25", -- [1]
 			0, -- [2]
 		}, -- [690]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:25", -- [1]
 			0, -- [2]
 		}, -- [691]
 		{
@@ -2779,15 +2780,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [694]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [695]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [696]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [697]
 		{
@@ -2819,19 +2820,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [704]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [705]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [706]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [707]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:40", -- [1]
 			0, -- [2]
 		}, -- [708]
 		{
@@ -2843,15 +2844,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [710]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:40", -- [1]
 			0, -- [2]
 		}, -- [711]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:40", -- [1]
 			0, -- [2]
 		}, -- [712]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:40", -- [1]
 			0, -- [2]
 		}, -- [713]
 		{
@@ -2859,15 +2860,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [714]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [715]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [716]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [717]
 		{
@@ -2891,15 +2892,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [722]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [723]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [724]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [725]
 		{
@@ -2923,7 +2924,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [730]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:52", -- [1]
 			0, -- [2]
 		}, -- [731]
 		{
@@ -2947,15 +2948,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [736]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [737]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [738]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [739]
 		{
@@ -2963,19 +2964,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [740]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [741]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [742]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [743]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [744]
 		{
@@ -2987,11 +2988,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [746]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [747]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [748]
 		{
@@ -3019,7 +3020,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [754]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [755]
 		{
@@ -3035,7 +3036,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [758]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 15:59", -- [1]
 			0, -- [2]
 		}, -- [759]
 		{
@@ -3051,7 +3052,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [762]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:00", -- [1]
 			0, -- [2]
 		}, -- [763]
 		{
@@ -3071,11 +3072,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [767]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [768]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [769]
 		{
@@ -3143,35 +3144,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [785]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [786]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [787]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [788]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
 			0, -- [2]
 		}, -- [789]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
 			0, -- [2]
 		}, -- [790]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
 			0, -- [2]
 		}, -- [791]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:12", -- [1]
 			0, -- [2]
 		}, -- [792]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:13", -- [1]
 			0, -- [2]
 		}, -- [793]
 		{
@@ -3203,15 +3204,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [800]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [801]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [802]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [803]
 		{
@@ -3259,23 +3260,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [814]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [815]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [816]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [817]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
 			0, -- [2]
 		}, -- [818]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
 			0, -- [2]
 		}, -- [819]
 		{
@@ -3283,7 +3284,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [820]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:26", -- [1]
 			0, -- [2]
 		}, -- [821]
 		{
@@ -3315,15 +3316,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [828]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [829]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [830]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [831]
 		{
@@ -3351,51 +3352,51 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [837]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [838]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [839]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [840]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [841]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [842]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [843]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [844]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [845]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:36", -- [1]
 			0, -- [2]
 		}, -- [846]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
 			0, -- [2]
 		}, -- [847]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
 			0, -- [2]
 		}, -- [848]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 16:37", -- [1]
 			0, -- [2]
 		}, -- [849]
 		{
@@ -3411,15 +3412,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [852]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [853]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [854]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [855]
 		{
@@ -3719,287 +3720,287 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [929]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [930]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"NetClient::HandleDisconnect()\n", -- [1]
 			0, -- [2]
 		}, -- [931]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_BackInterface] Session with Battle.net destroyed.", -- [1]
 			0, -- [2]
 		}, -- [932]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Disconnected from WoWpreviouslyConnected=\"true\"", -- [1]
 			0, -- [2]
 		}, -- [933]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
 			0, -- [2]
 		}, -- [934]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Sorting particles normally.", -- [1]
 			0, -- [2]
 		}, -- [935]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Water detail changed to 3", -- [1]
 			0, -- [2]
 		}, -- [936]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Ripple detail changed to 2", -- [1]
 			0, -- [2]
 		}, -- [937]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Reflection mode changed to 3", -- [1]
 			0, -- [2]
 		}, -- [938]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Reflection downscale changed to 0", -- [1]
 			0, -- [2]
 		}, -- [939]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Sunshafts quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [940]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Enabling BSP node cache (first time - starting up)", -- [1]
 			0, -- [2]
 		}, -- [941]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"WorldPoolUsage must be stream, dynamic or static.", -- [1]
 			0, -- [2]
 		}, -- [942]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CVar 'worldPoolUsage' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [943]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Alpha map bit depth set to 8bit on restart.", -- [1]
 			0, -- [2]
 		}, -- [944]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Volume fog enabled.", -- [1]
 			0, -- [2]
 		}, -- [945]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Projected textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [946]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Shadow mode changed to 4 - 4 band dynamic shadows, 2048", -- [1]
 			0, -- [2]
 		}, -- [947]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Shadow texture size changed to 2048.", -- [1]
 			0, -- [2]
 		}, -- [948]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Soft shadows changed to 1.", -- [1]
 			0, -- [2]
 		}, -- [949]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"SSAO mode set to 4", -- [1]
 			0, -- [2]
 		}, -- [950]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"SSAO distance value set to 100.000000", -- [1]
 			0, -- [2]
 		}, -- [951]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"SSAO blur set to 2", -- [1]
 			0, -- [2]
 		}, -- [952]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"SkyCloudLOD set to 0", -- [1]
 			0, -- [2]
 		}, -- [953]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Terrain mip level changed to 0.", -- [1]
 			0, -- [2]
 		}, -- [954]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Render scale changed to 1", -- [1]
 			0, -- [2]
 		}, -- [955]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Resample quality changed to 2", -- [1]
 			0, -- [2]
 		}, -- [956]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"MSAA set to 8 color samples, 8 coverage samples", -- [1]
 			0, -- [2]
 		}, -- [957]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"MSAA for alpha-test enabled.", -- [1]
 			0, -- [2]
 		}, -- [958]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [959]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Component texture lod changed to 0", -- [1]
 			0, -- [2]
 		}, -- [960]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World preload object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [961]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World load object sort enabled.", -- [1]
 			0, -- [2]
 		}, -- [962]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World preload non critical enabled.", -- [1]
 			0, -- [2]
 		}, -- [963]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World preload high res textures enabled.", -- [1]
 			0, -- [2]
 		}, -- [964]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"FFX: Anti Aliasing Mode set to CMAA", -- [1]
 			0, -- [2]
 		}, -- [965]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"FFX: Color Blind Test Mode Disabled", -- [1]
 			0, -- [2]
 		}, -- [966]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Full memory crash dump disabled", -- [1]
 			0, -- [2]
 		}, -- [967]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Error display disabled", -- [1]
 			0, -- [2]
 		}, -- [968]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Error display shown", -- [1]
 			0, -- [2]
 		}, -- [969]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [970]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Displaying errors through fatal errors", -- [1]
 			0, -- [2]
 		}, -- [971]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Now filtering: all messages", -- [1]
 			0, -- [2]
 		}, -- [972]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CVar 'Sound_AmbienceHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [973]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CVar 'Sound_AllyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [974]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CVar 'Sound_EnemyPlayerHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [975]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CVar 'Sound_NPCHighpassDSPCutoff' failed validation for its initial value.", -- [1]
 			0, -- [2]
 		}, -- [976]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Starting loginlauncherPortal=\"eu.actual.battle.net\" loginPortal=\"eu.actual.battle.net:1119\"", -- [1]
 			0, -- [2]
 		}, -- [977]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Resetting", -- [1]
 			0, -- [2]
 		}, -- [978]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Initializing", -- [1]
 			0, -- [2]
 		}, -- [979]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Attempting logonhost=\"eu.actual.battle.net\" port=\"1119\"", -- [1]
 			0, -- [2]
 		}, -- [980]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [981]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [982]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Waiting for server response.", -- [1]
 			0, -- [2]
 		}, -- [983]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Logon complete.", -- [1]
 			0, -- [2]
 		}, -- [984]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [985]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Requesting realm list ticket", -- [1]
 			0, -- [2]
 		}, -- [986]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Received realm list ticketcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [987]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Waiting for realm list.", -- [1]
 			0, -- [2]
 		}, -- [988]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Received sub region listcode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [989]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Requesting last played charsnumSubRegions=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [990]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Realm list ready.", -- [1]
 			0, -- [2]
 		}, -- [991]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Joining realmsubRegion=\"43-101-89\" realmAddress=\"43-4-16\"", -- [1]
 			0, -- [2]
 		}, -- [992]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] OnRealmJoincode=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [993]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"NetClient::HandleConnect()\n", -- [1]
 			0, -- [2]
 		}, -- [994]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Received AuthedToWoWresult=\"ERROR_OK (0)\"", -- [1]
 			0, -- [2]
 		}, -- [995]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Front disconnectingconnectionId=\"1\"", -- [1]
 			0, -- [2]
 		}, -- [996]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[GlueLogin] Disconnecting from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [997]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_BackInterface] Session with Battle.net established.", -- [1]
 			0, -- [2]
 		}, -- [998]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"[IBN_Login] Front disconnectedconnectionId=\"1\" result=\"( code=\"ERROR_NETWORK_MODULE_SOCKET_CLOSED (1016)\" localizedMessage=\"\" debugMessage=\"\")\"", -- [1]
 			0, -- [2]
 		}, -- [999]
 		{
-			"-------------------------------------------------- Previous Session --------------------------------------------------", -- [1]
+			"[GlueLogin] Disconnected from authentication server.", -- [1]
 			0, -- [2]
 		}, -- [1000]
 		{
@@ -4007,115 +4008,115 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1001]
 		{
-			"Attempted to register existing command: ShowObjUsage\n", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1002]
 		{
-			"Attempted to register existing command: SetDifficulty\n", -- [1]
+			"Proficiency in item class 2 set to 0x0000000080", -- [1]
 			0, -- [2]
 		}, -- [1003]
 		{
-			"Failed to set SpellClutter callback on graphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 2 set to 0x0000000081", -- [1]
 			0, -- [2]
 		}, -- [1004]
 		{
-			"Failed to set SpellClutter callback on RAIDgraphicsQuality CVar - using default of 30.0", -- [1]
+			"Proficiency in item class 2 set to 0x0000000085", -- [1]
 			0, -- [2]
 		}, -- [1005]
 		{
-			"Got new connection 3", -- [1]
+			"Proficiency in item class 2 set to 0x000000008d", -- [1]
 			0, -- [2]
 		}, -- [1006]
 		{
-			"Proficiency in item class 2 set to 0x0000000400", -- [1]
+			"Proficiency in item class 2 set to 0x000000009d", -- [1]
 			0, -- [2]
 		}, -- [1007]
 		{
-			"Proficiency in item class 4 set to 0x0000000001", -- [1]
+			"Proficiency in item class 2 set to 0x000000019d", -- [1]
 			0, -- [2]
 		}, -- [1008]
 		{
-			"Proficiency in item class 2 set to 0x0000004400", -- [1]
+			"Proficiency in item class 2 set to 0x000000059d", -- [1]
 			0, -- [2]
 		}, -- [1009]
 		{
-			"Proficiency in item class 2 set to 0x0000084400", -- [1]
+			"Proficiency in item class 2 set to 0x00000005bd", -- [1]
 			0, -- [2]
 		}, -- [1010]
 		{
-			"Proficiency in item class 4 set to 0x0000000003", -- [1]
+			"Proficiency in item class 2 set to 0x00000005bf", -- [1]
 			0, -- [2]
 		}, -- [1011]
 		{
-			"Proficiency in item class 2 set to 0x0000084400", -- [1]
+			"Proficiency in item class 2 set to 0x00000085bf", -- [1]
 			0, -- [2]
 		}, -- [1012]
 		{
-			"Proficiency in item class 4 set to 0x0000000003", -- [1]
+			"Proficiency in item class 2 set to 0x00000185bf", -- [1]
 			0, -- [2]
 		}, -- [1013]
 		{
-			"Weather changed to 0, intensity 0.000000\n", -- [1]
+			"Proficiency in item class 4 set to 0x0000000001", -- [1]
 			0, -- [2]
 		}, -- [1014]
 		{
-			"Time set to 1/26/2020 (Sun) 19:09", -- [1]
+			"Proficiency in item class 2 set to 0x000001c5bf", -- [1]
 			0, -- [2]
 		}, -- [1015]
 		{
-			"Gamespeed set from 0.017 to 0.017", -- [1]
+			"Proficiency in item class 2 set to 0x000005c5bf", -- [1]
 			0, -- [2]
 		}, -- [1016]
 		{
-			"Time played:", -- [1]
+			"Proficiency in item class 2 set to 0x000005c5ff", -- [1]
 			0, -- [2]
 		}, -- [1017]
 		{
-			"Total: 12d 6h 53m 19s", -- [1]
+			"Proficiency in item class 4 set to 0x0000000011", -- [1]
 			0, -- [2]
 		}, -- [1018]
 		{
-			"Level: 8d 17h 57m 9s", -- [1]
+			"Proficiency in item class 2 set to 0x000015c5ff", -- [1]
 			0, -- [2]
 		}, -- [1019]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 4 set to 0x0000000019", -- [1]
 			0, -- [2]
 		}, -- [1020]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 4 set to 0x000000001d", -- [1]
 			0, -- [2]
 		}, -- [1021]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 4 set to 0x000000001f", -- [1]
 			0, -- [2]
 		}, -- [1022]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 4 set to 0x000000005f", -- [1]
 			0, -- [2]
 		}, -- [1023]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 2 set to 0x000015e5ff", -- [1]
 			0, -- [2]
 		}, -- [1024]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 2 set to 0x000015e5ff", -- [1]
 			0, -- [2]
 		}, -- [1025]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Proficiency in item class 4 set to 0x000000005f", -- [1]
 			0, -- [2]
 		}, -- [1026]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1027]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 17:55", -- [1]
 			0, -- [2]
 		}, -- [1028]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Gamespeed set from 0.017 to 0.017", -- [1]
 			0, -- [2]
 		}, -- [1029]
 		{
@@ -4179,31 +4180,31 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1044]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1045]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1046]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1047]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:03", -- [1]
 			0, -- [2]
 		}, -- [1048]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:03", -- [1]
 			0, -- [2]
 		}, -- [1049]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:03", -- [1]
 			0, -- [2]
 		}, -- [1050]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:03", -- [1]
 			0, -- [2]
 		}, -- [1051]
 		{
@@ -4219,11 +4220,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1054]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:03", -- [1]
 			0, -- [2]
 		}, -- [1055]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:04", -- [1]
 			0, -- [2]
 		}, -- [1056]
 		{
@@ -4235,15 +4236,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1058]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1059]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1060]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1061]
 		{
@@ -4255,11 +4256,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1063]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1064]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1065]
 		{
@@ -4267,23 +4268,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1066]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
 			0, -- [2]
 		}, -- [1067]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
 			0, -- [2]
 		}, -- [1068]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
 			0, -- [2]
 		}, -- [1069]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
 			0, -- [2]
 		}, -- [1070]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:11", -- [1]
 			0, -- [2]
 		}, -- [1071]
 		{
@@ -4299,11 +4300,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1074]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1075]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1076]
 		{
@@ -4363,27 +4364,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1090]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1091]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1092]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1093]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1094]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1095]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1096]
 		{
@@ -4395,27 +4396,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1098]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1099]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1100]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1101]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1102]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1103]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:23", -- [1]
 			0, -- [2]
 		}, -- [1104]
 		{
@@ -4471,19 +4472,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1117]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:28", -- [1]
 			0, -- [2]
 		}, -- [1118]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1119]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1120]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1121]
 		{
@@ -4579,27 +4580,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1144]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1145]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1146]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1147]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:36", -- [1]
 			0, -- [2]
 		}, -- [1148]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:36", -- [1]
 			0, -- [2]
 		}, -- [1149]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:36", -- [1]
 			0, -- [2]
 		}, -- [1150]
 		{
@@ -4619,7 +4620,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1154]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:36", -- [1]
 			0, -- [2]
 		}, -- [1155]
 		{
@@ -4627,7 +4628,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1156]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:37", -- [1]
 			0, -- [2]
 		}, -- [1157]
 		{
@@ -4643,15 +4644,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1160]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1161]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1162]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1163]
 		{
@@ -4851,43 +4852,43 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1212]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1213]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1214]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1215]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1216]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1217]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1218]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1219]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1220]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:57", -- [1]
 			0, -- [2]
 		}, -- [1221]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 18:58", -- [1]
 			0, -- [2]
 		}, -- [1222]
 		{
@@ -4915,15 +4916,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1228]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1229]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1230]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1231]
 		{
@@ -4983,19 +4984,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1245]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1246]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1247]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1248]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:09", -- [1]
 			0, -- [2]
 		}, -- [1249]
 		{
@@ -5031,15 +5032,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1257]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1258]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1259]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1260]
 		{
@@ -5099,31 +5100,31 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1274]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1275]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1276]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:18", -- [1]
 			0, -- [2]
 		}, -- [1277]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:18", -- [1]
 			0, -- [2]
 		}, -- [1278]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:18", -- [1]
 			0, -- [2]
 		}, -- [1279]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:18", -- [1]
 			0, -- [2]
 		}, -- [1280]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:18", -- [1]
 			0, -- [2]
 		}, -- [1281]
 		{
@@ -5131,11 +5132,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1282]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:19", -- [1]
 			0, -- [2]
 		}, -- [1283]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:19", -- [1]
 			0, -- [2]
 		}, -- [1284]
 		{
@@ -5191,11 +5192,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1297]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1298]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1299]
 		{
@@ -5291,23 +5292,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1322]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1323]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1324]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1325]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:31", -- [1]
 			0, -- [2]
 		}, -- [1326]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:31", -- [1]
 			0, -- [2]
 		}, -- [1327]
 		{
@@ -5323,15 +5324,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1330]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:31", -- [1]
 			0, -- [2]
 		}, -- [1331]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:31", -- [1]
 			0, -- [2]
 		}, -- [1332]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:31", -- [1]
 			0, -- [2]
 		}, -- [1333]
 		{
@@ -5367,15 +5368,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1341]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1342]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1343]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1344]
 		{
@@ -5403,47 +5404,47 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1350]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1351]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1352]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1353]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:37", -- [1]
 			0, -- [2]
 		}, -- [1354]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:37", -- [1]
 			0, -- [2]
 		}, -- [1355]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:37", -- [1]
 			0, -- [2]
 		}, -- [1356]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:37", -- [1]
 			0, -- [2]
 		}, -- [1357]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1358]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1359]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1360]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1361]
 		{
@@ -5455,11 +5456,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1363]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1364]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1365]
 		{
@@ -5483,23 +5484,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1370]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1371]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1372]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:38", -- [1]
 			0, -- [2]
 		}, -- [1373]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:39", -- [1]
 			0, -- [2]
 		}, -- [1374]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:39", -- [1]
 			0, -- [2]
 		}, -- [1375]
 		{
@@ -5539,15 +5540,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1384]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1385]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1386]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1387]
 		{
@@ -5627,67 +5628,67 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1406]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1407]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1408]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1409]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1410]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1411]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1412]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1413]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1414]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1415]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1416]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1417]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1418]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1419]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1420]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1421]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1422]
 		{
@@ -5695,11 +5696,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1423]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1424]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 19:51", -- [1]
 			0, -- [2]
 		}, -- [1425]
 		{
@@ -5751,15 +5752,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1437]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1438]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1439]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1440]
 		{
@@ -5907,59 +5908,59 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1476]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1477]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1478]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1479]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1480]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1481]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1482]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1483]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1484]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1485]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1486]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1487]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1488]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1489]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:07", -- [1]
 			0, -- [2]
 		}, -- [1490]
 		{
@@ -5991,15 +5992,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1497]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1498]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1499]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1500]
 		{
@@ -6031,23 +6032,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1507]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1508]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1509]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1510]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:18", -- [1]
 			0, -- [2]
 		}, -- [1511]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:18", -- [1]
 			0, -- [2]
 		}, -- [1512]
 		{
@@ -6063,7 +6064,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1515]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:20", -- [1]
 			0, -- [2]
 		}, -- [1516]
 		{
@@ -6099,15 +6100,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1524]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1525]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1526]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1527]
 		{
@@ -6171,15 +6172,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1542]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1543]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1544]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1545]
 		{
@@ -6191,11 +6192,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1547]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:27", -- [1]
 			0, -- [2]
 		}, -- [1548]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:28", -- [1]
 			0, -- [2]
 		}, -- [1549]
 		{
@@ -6239,15 +6240,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1559]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1560]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1561]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1562]
 		{
@@ -6347,43 +6348,43 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1586]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1587]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1588]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:40", -- [1]
 			0, -- [2]
 		}, -- [1589]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:40", -- [1]
 			0, -- [2]
 		}, -- [1590]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:40", -- [1]
 			0, -- [2]
 		}, -- [1591]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:40", -- [1]
 			0, -- [2]
 		}, -- [1592]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:41", -- [1]
 			0, -- [2]
 		}, -- [1593]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:41", -- [1]
 			0, -- [2]
 		}, -- [1594]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:41", -- [1]
 			0, -- [2]
 		}, -- [1595]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:41", -- [1]
 			0, -- [2]
 		}, -- [1596]
 		{
@@ -6419,11 +6420,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1604]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1605]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1606]
 		{
@@ -6479,51 +6480,51 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1619]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1620]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1621]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1622]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:50", -- [1]
 			0, -- [2]
 		}, -- [1623]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:50", -- [1]
 			0, -- [2]
 		}, -- [1624]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:50", -- [1]
 			0, -- [2]
 		}, -- [1625]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:50", -- [1]
 			0, -- [2]
 		}, -- [1626]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:50", -- [1]
 			0, -- [2]
 		}, -- [1627]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:51", -- [1]
 			0, -- [2]
 		}, -- [1628]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:51", -- [1]
 			0, -- [2]
 		}, -- [1629]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:51", -- [1]
 			0, -- [2]
 		}, -- [1630]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 20:51", -- [1]
 			0, -- [2]
 		}, -- [1631]
 		{
@@ -6607,15 +6608,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1651]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1652]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1653]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1654]
 		{
@@ -6787,15 +6788,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1696]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1697]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1698]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1699]
 		{
@@ -6803,15 +6804,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1700]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:03", -- [1]
 			0, -- [2]
 		}, -- [1701]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:03", -- [1]
 			0, -- [2]
 		}, -- [1702]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:03", -- [1]
 			0, -- [2]
 		}, -- [1703]
 		{
@@ -6823,7 +6824,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1705]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:03", -- [1]
 			0, -- [2]
 		}, -- [1706]
 		{
@@ -6867,15 +6868,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1716]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1717]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1718]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1719]
 		{
@@ -6911,27 +6912,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1727]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1728]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1729]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1730]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:12", -- [1]
 			0, -- [2]
 		}, -- [1731]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:12", -- [1]
 			0, -- [2]
 		}, -- [1732]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:12", -- [1]
 			0, -- [2]
 		}, -- [1733]
 		{
@@ -7003,15 +7004,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1750]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1751]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1752]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1753]
 		{
@@ -7123,15 +7124,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1780]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1781]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1782]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1783]
 		{
@@ -7147,7 +7148,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1786]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:24", -- [1]
 			0, -- [2]
 		}, -- [1787]
 		{
@@ -7195,15 +7196,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1798]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1799]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1800]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1801]
 		{
@@ -7263,31 +7264,31 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1815]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1816]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1817]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1818]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:34", -- [1]
 			0, -- [2]
 		}, -- [1819]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:34", -- [1]
 			0, -- [2]
 		}, -- [1820]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:34", -- [1]
 			0, -- [2]
 		}, -- [1821]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:34", -- [1]
 			0, -- [2]
 		}, -- [1822]
 		{
@@ -7299,11 +7300,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1824]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:35", -- [1]
 			0, -- [2]
 		}, -- [1825]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:35", -- [1]
 			0, -- [2]
 		}, -- [1826]
 		{
@@ -7315,15 +7316,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1828]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1829]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1830]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1831]
 		{
@@ -7391,7 +7392,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1847]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1848]
 		{
@@ -7403,27 +7404,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1850]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1851]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 3, intensity 0.300000\n", -- [1]
 			0, -- [2]
 		}, -- [1852]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 3, intensity 0.300000\n", -- [1]
 			0, -- [2]
 		}, -- [1853]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:46", -- [1]
 			0, -- [2]
 		}, -- [1854]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:46", -- [1]
 			0, -- [2]
 		}, -- [1855]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:46", -- [1]
 			0, -- [2]
 		}, -- [1856]
 		{
@@ -7463,15 +7464,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1865]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1866]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1867]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1868]
 		{
@@ -7487,15 +7488,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1871]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1872]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1873]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1874]
 		{
@@ -7531,7 +7532,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1882]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 21:55", -- [1]
 			0, -- [2]
 		}, -- [1883]
 		{
@@ -7603,15 +7604,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1900]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1901]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1902]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1903]
 		{
@@ -7627,15 +7628,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1906]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1907]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1908]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1909]
 		{
@@ -7659,15 +7660,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1914]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:02", -- [1]
 			0, -- [2]
 		}, -- [1915]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:02", -- [1]
 			0, -- [2]
 		}, -- [1916]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:02", -- [1]
 			0, -- [2]
 		}, -- [1917]
 		{
@@ -7711,15 +7712,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1927]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1928]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1929]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1930]
 		{
@@ -7739,23 +7740,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1934]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1935]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1936]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1937]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:13", -- [1]
 			0, -- [2]
 		}, -- [1938]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:13", -- [1]
 			0, -- [2]
 		}, -- [1939]
 		{
@@ -7771,7 +7772,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1942]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:13", -- [1]
 			0, -- [2]
 		}, -- [1943]
 		{
@@ -7787,7 +7788,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1946]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:13", -- [1]
 			0, -- [2]
 		}, -- [1947]
 		{
@@ -7815,15 +7816,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1953]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1954]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1955]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1956]
 		{
@@ -7859,27 +7860,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1964]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1965]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1966]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1967]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1968]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1969]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1970]
 		{
@@ -7895,15 +7896,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1973]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1974]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1975]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:24", -- [1]
 			0, -- [2]
 		}, -- [1976]
 		{
@@ -7943,15 +7944,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1985]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1986]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1987]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1988]
 		{
@@ -7971,43 +7972,43 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [1992]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [1993]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [1994]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [1995]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [1996]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [1997]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [1998]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [1999]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2000]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2001]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2002]
 		{
@@ -8019,23 +8020,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2004]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2005]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2006]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2007]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2008]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:32", -- [1]
 			0, -- [2]
 		}, -- [2009]
 		{
@@ -8091,15 +8092,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2022]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2023]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2024]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2025]
 		{
@@ -8163,23 +8164,23 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2040]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2041]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2042]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2043]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:43", -- [1]
 			0, -- [2]
 		}, -- [2044]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:44", -- [1]
 			0, -- [2]
 		}, -- [2045]
 		{
@@ -8215,15 +8216,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2053]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2054]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2055]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2056]
 		{
@@ -8275,27 +8276,27 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2068]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2069]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2070]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2071]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:53", -- [1]
 			0, -- [2]
 		}, -- [2072]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:53", -- [1]
 			0, -- [2]
 		}, -- [2073]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 22:53", -- [1]
 			0, -- [2]
 		}, -- [2074]
 		{
@@ -8311,15 +8312,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2077]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2078]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2079]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2080]
 		{
@@ -8375,19 +8376,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2093]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2094]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2095]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2096]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:17", -- [1]
 			0, -- [2]
 		}, -- [2097]
 		{
@@ -8403,11 +8404,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2100]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:17", -- [1]
 			0, -- [2]
 		}, -- [2101]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:17", -- [1]
 			0, -- [2]
 		}, -- [2102]
 		{
@@ -8423,15 +8424,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2105]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2106]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2107]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2108]
 		{
@@ -8495,43 +8496,43 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2123]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2124]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2125]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2126]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2127]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2128]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2129]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2130]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2131]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2132]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2133]
 		{
@@ -8543,7 +8544,7 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2135]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:29", -- [1]
 			0, -- [2]
 		}, -- [2136]
 		{
@@ -8575,15 +8576,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2143]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2144]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2145]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2146]
 		{
@@ -8607,35 +8608,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2151]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2152]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2153]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2154]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:41", -- [1]
 			0, -- [2]
 		}, -- [2155]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:41", -- [1]
 			0, -- [2]
 		}, -- [2156]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:41", -- [1]
 			0, -- [2]
 		}, -- [2157]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:42", -- [1]
 			0, -- [2]
 		}, -- [2158]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:42", -- [1]
 			0, -- [2]
 		}, -- [2159]
 		{
@@ -8679,15 +8680,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2169]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2170]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2171]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2172]
 		{
@@ -8723,35 +8724,35 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2180]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2181]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2182]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2183]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2184]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2185]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2186]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2187]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2188]
 		{
@@ -8763,15 +8764,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2190]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:51", -- [1]
 			0, -- [2]
 		}, -- [2191]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:52", -- [1]
 			0, -- [2]
 		}, -- [2192]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/26/2020 (Sun) 23:52", -- [1]
 			0, -- [2]
 		}, -- [2193]
 		{
@@ -8799,15 +8800,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2199]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2200]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2201]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2202]
 		{
@@ -8851,19 +8852,19 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2212]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2213]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2214]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2215]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/27/2020 (Mon) 0:03", -- [1]
 			0, -- [2]
 		}, -- [2216]
 		{
@@ -8871,11 +8872,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2217]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/27/2020 (Mon) 0:03", -- [1]
 			0, -- [2]
 		}, -- [2218]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/27/2020 (Mon) 0:03", -- [1]
 			0, -- [2]
 		}, -- [2219]
 		{
@@ -8903,15 +8904,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2225]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2226]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2227]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2228]
 		{
@@ -8939,15 +8940,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2234]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2235]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2236]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2237]
 		{
@@ -8959,11 +8960,11 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2239]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/27/2020 (Mon) 0:12", -- [1]
 			0, -- [2]
 		}, -- [2240]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Time set to 1/27/2020 (Mon) 0:12", -- [1]
 			0, -- [2]
 		}, -- [2241]
 		{
@@ -8983,15 +8984,15 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2245]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"World transfer pending...", -- [1]
 			0, -- [2]
 		}, -- [2246]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Got new connection 3", -- [1]
 			0, -- [2]
 		}, -- [2247]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"Weather changed to 0, intensity 0.000000\n", -- [1]
 			0, -- [2]
 		}, -- [2248]
 		{
@@ -9187,139 +9188,139 @@ Blizzard_Console_SavedVars = {
 			0, -- [2]
 		}, -- [2296]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2297]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2298]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2299]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2300]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2301]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2302]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2303]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2304]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2305]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2306]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2307]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2308]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2309]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2310]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2311]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21364, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2312]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 13, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2313]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 14054, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2314]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 29369, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2315]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21626, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2316]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 29369, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2317]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21626, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2318]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 29369, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2319]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21626, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2320]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 29369, effect aura: 135, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2321]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 21626, effect aura: 85, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2322]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2323]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2324]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2325]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2326]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2327]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2328]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 99, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2329]
 		{
-			"DBCache::CancelCallback ignored", -- [1]
+			"CGast - CGItemStatsSummary::ParseSpellRec is being called for spellID: 9335, effect aura: 124, which is wrong", -- [1]
 			0, -- [2]
 		}, -- [2330]
 		{
@@ -9494,650 +9495,9 @@ Blizzard_Console_SavedVars = {
 			"DBCache::CancelCallback ignored", -- [1]
 			0, -- [2]
 		}, -- [2373]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2374]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2375]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2376]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2377]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2378]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2379]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2380]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2381]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2382]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2383]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2384]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2385]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2386]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2387]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2388]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2389]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2390]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2391]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2392]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2393]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2394]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2395]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2396]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2397]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2398]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2399]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2400]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2401]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2402]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2403]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2404]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2405]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2406]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2407]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2408]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2409]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2410]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2411]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2412]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2413]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2414]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2415]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2416]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2417]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2418]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2419]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2420]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2421]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2422]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2423]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2424]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2425]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2426]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2427]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2428]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2429]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2430]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2431]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2432]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2433]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2434]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2435]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2436]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2437]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2438]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2439]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2440]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2441]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2442]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2443]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2444]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2445]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2446]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2447]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2448]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2449]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2450]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2451]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2452]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2453]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2454]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2455]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2456]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2457]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2458]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2459]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2460]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2461]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2462]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2463]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2464]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2465]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2466]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2467]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2468]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2469]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2470]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2471]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2472]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2473]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2474]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2475]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2476]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2477]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2478]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2479]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2480]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2481]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2482]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2483]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2484]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2485]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2486]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2487]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2488]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2489]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2490]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2491]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2492]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2493]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2494]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2495]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2496]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2497]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2498]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2499]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2500]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2501]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2502]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2503]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2504]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2505]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2506]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2507]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2508]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2509]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2510]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2511]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2512]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2513]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2514]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2515]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2516]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2517]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2518]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2519]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2520]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2521]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2522]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2523]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2524]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2525]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2526]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2527]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2528]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2529]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2530]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2531]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2532]
-		{
-			"DBCache::CancelCallback ignored", -- [1]
-			0, -- [2]
-		}, -- [2533]
 	},
-	["height"] = 300.000091552734,
-	["fontHeight"] = 14,
 	["isShown"] = false,
+	["fontHeight"] = 14,
 	["commandHistory"] = {
 	},
 }

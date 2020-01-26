@@ -10,7 +10,7 @@ VER 3 0000000000000001 "da" "INV_MISC_QUESTIONMARK"
 /tar jed
 END
 VER 3 0000000000000005 "da " "INV_MISC_QUESTIONMARK"
-/rw Zirks on Boss, Quelserrar on Skull, Eyonnix on Cross, Friedman on Triangle, Robben on Diamond
+/script P=(math.floor(GetPVPRankProgress(target)*10000))/100 W=UnitPVPRank("player") N=(W-6)*5000+5000*P/100 Q=(W-5)*5000-N*0.8 SendChatMessage("Rank Progress: "..P.."% ".."Current RP: "..N.." RP to next rank "..Q.."","emote")
 END
 VER 3 0000000000000003 "Gear" "INV_MISC_QUESTIONMARK"
 /equip Diabolic Skiver

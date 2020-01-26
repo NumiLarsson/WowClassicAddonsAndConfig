@@ -11,13 +11,6 @@ AucAdvancedConfig = {
 				},
 			},
 		},
-		["stat"] = {
-			["sales"] = {
-				["upgraded32"] = true,
-				["ignoredsigs"] = {
-				},
-			},
-		},
 		["util"] = {
 			["appraiser"] = {
 				["columnsortcurDir"] = -1,
@@ -32,51 +25,58 @@ AucAdvancedConfig = {
 				["ahframeanchors"] = "TOPLEFT:TOPLEFT:4.0:-107.0",
 			},
 		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
 		["configator.top"] = 651.666625976563,
 	},
 	["version"] = 1,
 }
 AucAdvancedData = {
-	["Stats"] = {
-	},
 	["UtilSearchUiData"] = {
-		["Version"] = 1,
-		["Current"] = {
-			["general.maxbuy"] = 9999999999,
-			["snatch.columnsortcurSort"] = 1,
-			["vendor.timeleft"] = 1,
-			["converter.allow.bid"] = false,
-			["enchantmats.level.max"] = 275,
-			["general.maxbid"] = 9999999999,
-			["resale.seen.check"] = true,
-			["columnsortcurSort"] = 3,
-			["ignoreitemprice.ignorelist"] = {
-				["3713"] = 0,
-				["3728"] = 0,
-			},
-			["resale.seen.min"] = 15,
-			["snatch.itemsList"] = {
-			},
-			["columnsortcurDir"] = -1,
-			["snatch.columnsortcurDir"] = 1,
-			["smelting.allow.bid"] = false,
-			["smelting.profit.min"] = 10000,
-		},
 		["Global"] = {
 			["configator.left"] = 561.357971191406,
 			["configator.top"] = 676.666564941406,
 		},
+		["Current"] = {
+			["general.maxbuy"] = 9999999999,
+			["smelting.profit.min"] = 10000,
+			["general.maxbid"] = 9999999999,
+			["converter.allow.bid"] = false,
+			["enchantmats.level.max"] = 275,
+			["snatch.columnsortcurDir"] = 1,
+			["resale.seen.check"] = true,
+			["columnsortcurSort"] = 3,
+			["resale.seen.min"] = 15,
+			["snatch.itemsList"] = {
+			},
+			["ignoreitemprice.ignorelist"] = {
+				["3728"] = 0,
+				["3713"] = 0,
+			},
+			["columnsortcurDir"] = -1,
+			["vendor.timeleft"] = 1,
+			["smelting.allow.bid"] = false,
+			["snatch.columnsortcurSort"] = 1,
+		},
+		["Version"] = 1,
 		["SavedSearches"] = {
 		},
 	},
+	["Stats"] = {
+	},
 }
 AucAdvancedServers = {
+	["KnownServerKeys"] = {
+		["Ashbringer"] = 1580057761,
+	},
 	["KnownRealms"] = {
 		["Ashbringer"] = "Ashbringer",
 	},
-	["Timestamp"] = 1569684329,
 	["Version"] = 1,
-	["KnownServerKeys"] = {
-		["Ashbringer"] = 1580044769,
-	},
+	["Timestamp"] = 1569684329,
 }
